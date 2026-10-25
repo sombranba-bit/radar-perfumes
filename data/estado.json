@@ -1,127 +1,127 @@
 {
- "at": "2026-10-25T23:56:42+01:00",
+ "at": "2026-10-26T00:24:38+01:00",
  "revisados": 35,
  "tiendas": {
   "avenida": {
-   "ok": 10,
+   "ok": 15,
    "bloqueada": 0,
    "sin_precio": 0,
-   "dudoso": 0,
-   "variantes": 10
-  },
-  "notino": {
-   "ok": 1,
-   "bloqueada": 25,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "jsonld": 1
-  },
-  "paco": {
-   "ok": 17,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 2,
-   "jsonld": 15,
-   "precio-100ml": 2,
+   "dudoso": 1,
+   "variantes": 15,
    "ejemplos": [
     {
-     "perfume": "lancome-la-nuit-tresor-edp-100",
-     "precio": 179.0,
-     "referencia": 83.17,
+     "perfume": "issey-miyake-l-eau-d-issey-pour-homme-edt-125",
+     "precio": 74.95,
+     "referencia": 49.8,
+     "metodo": "variantes"
+    }
+   ]
+  },
+  "laguna": {
+   "ok": 18,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 1,
+   "precio-100ml": 5,
+   "jsonld-url": 6,
+   "jsonld": 7,
+   "ejemplos": [
+    {
+     "perfume": "jean-paul-gaultier-le-male-elixir-absolu-parfum-125",
+     "precio": 163.0,
+     "referencia": 99.95,
+     "metodo": "jsonld"
+    }
+   ]
+  },
+  "lookfantastic": {
+   "ok": 0,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 15,
+   "ejemplos": [
+    {
+     "perfume": "issey-miyake-l-eau-d-issey-edt-100",
+     "precio": 3.99,
+     "referencia": 44.95,
      "metodo": "texto"
     },
     {
-     "perfume": "hermes-h24-edt-100",
-     "precio": 135.0,
-     "referencia": 84.625,
+     "perfume": "issey-miyake-l-eau-d-issey-pour-homme-edt-125",
+     "precio": 3.99,
+     "referencia": 49.8,
+     "metodo": "texto"
+    },
+    {
+     "perfume": "jean-paul-gaultier-gaultier-divine-edp-100",
+     "precio": 3.99,
+     "referencia": 94.95,
      "metodo": "texto"
     }
    ]
   },
-  "sabina": {
-   "ok": 10,
+  "notino": {
+   "ok": 4,
+   "bloqueada": 19,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "jsonld": 4
+  },
+  "paco": {
+   "ok": 18,
    "bloqueada": 0,
    "sin_precio": 0,
-   "dudoso": 3,
-   "jsonld": 9,
-   "ejemplos": [
-    {
-     "perfume": "hugo-boss-boss-orange-man-edt-100",
-     "precio": 88.27,
-     "referencia": 33.975,
-     "metodo": "texto"
-    },
-    {
-     "perfume": "hugo-boss-boss-bottled-tonic-edt-100",
-     "precio": 88.27,
-     "referencia": null,
-     "metodo": "texto"
-    },
-    {
-     "perfume": "hugo-boss-boss-the-scent-le-parfum-parfum-100",
-     "precio": 88.27,
-     "referencia": 67.45,
-     "metodo": "texto"
-    }
-   ],
-   "precio-100ml": 1
+   "dudoso": 0,
+   "jsonld": 18
   },
   "idealo": {
-   "ok": 7,
+   "ok": 9,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "jsonld-url": 5,
-   "jsonld": 2
-  },
-  "lookfantastic": {
-   "ok": 1,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 13,
-   "ejemplos": [
-    {
-     "perfume": "hugo-boss-boss-orange-man-edt-100",
-     "precio": 3.99,
-     "referencia": 38,
-     "metodo": "texto"
-    },
-    {
-     "perfume": "hugo-boss-boss-the-scent-for-her-edp-100",
-     "precio": 3.99,
-     "referencia": 65.225,
-     "metodo": "texto"
-    },
-    {
-     "perfume": "lancome-la-nuit-tresor-edp-100",
-     "precio": 3.99,
-     "referencia": 83.17,
-     "metodo": "texto"
-    }
-   ],
+   "jsonld-url": 8,
    "jsonld": 1
   },
-  "laguna": {
-   "ok": 10,
+  "beautinow": {
+   "ok": 0,
    "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "jsonld": 7,
-   "jsonld-url": 3
+   "sin_precio": 4,
+   "dudoso": 0
   },
   "parejo": {
-   "ok": 5,
+   "ok": 8,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "jsonld": 5
+   "jsonld": 8
+  },
+  "sabina": {
+   "ok": 23,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "jsonld": 21,
+   "texto": 1,
+   "precio-100ml": 1
+  },
+  "sephora": {
+   "ok": 0,
+   "bloqueada": 5,
+   "sin_precio": 0,
+   "dudoso": 0
   },
   "douglas": {
-   "ok": 1,
+   "ok": 0,
+   "bloqueada": 0,
+   "sin_precio": 1,
+   "dudoso": 0
+  },
+  "perfumesclub": {
+   "ok": 2,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "precio-100ml": 1
+   "precio-100ml": 2
   },
   "arabicparfums": {
    "ok": 3,
@@ -131,24 +131,18 @@
    "jsonld": 3
   },
   "firstinfragrance": {
-   "ok": 2,
+   "ok": 6,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "jsonld": 2
+   "jsonld": 6
   },
-  "sephora": {
-   "ok": 0,
-   "bloqueada": 1,
-   "sin_precio": 0,
-   "dudoso": 0
-  },
-  "perfumesclub": {
-   "ok": 2,
+  "brasty": {
+   "ok": 1,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "precio-100ml": 2
+   "jsonld": 1
   }
  },
  "limpiados": {},

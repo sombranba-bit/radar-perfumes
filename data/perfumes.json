@@ -8812,7 +8812,11 @@
  },
  {
   "brand": "Issey Miyake",
-  "checked": "2026-10-25T22:49:30+01:00",
+  "buscado": {
+   "douglas": "2026-10-26",
+   "idealo": "2026-10-26"
+  },
+  "checked": "2026-10-26T00:19:39+01:00",
   "conc": "EDT",
   "deals": [
    {
@@ -8858,6 +8862,26 @@
     "d": "2026-10-25",
     "p": 42.92,
     "s": "paco"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 59.95,
+    "s": "avenida"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 44.95,
+    "s": "laguna"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 42.92,
+    "s": "paco"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 41.7,
+    "s": "idealo"
    }
   ],
   "id": "issey-miyake-l-eau-d-issey-edt-100",
@@ -8866,13 +8890,20 @@
   "prices": {
    "avenida": {
     "auto": true,
-    "d": "2026-10-09",
-    "p": 59.95,
-    "stock": false
+    "d": "2026-10-26",
+    "gh": true,
+    "p": 59.95
+   },
+   "idealo": {
+    "auto": true,
+    "d": "2026-10-26",
+    "gh": true,
+    "p": 41.7
    },
    "laguna": {
     "auto": true,
-    "d": "2026-10-25",
+    "d": "2026-10-26",
+    "gh": true,
     "p": 44.95
    },
    "lookfantastic": {
@@ -8883,7 +8914,8 @@
    },
    "paco": {
     "auto": true,
-    "d": "2026-10-25",
+    "d": "2026-10-26",
+    "gh": true,
     "p": 42.92
    }
   },
@@ -8891,6 +8923,7 @@
   "tier": "Diseñador",
   "urls": {
    "avenida": "https://www.perfumeriasavenida.com/l-eau-d-issey-edt-issey-miyake",
+   "idealo": "https://www.idealo.es/precios/591413/issey-miyake-l-eau-d-issey-eau-de-toilette-100-ml.html",
    "laguna": "https://www.perfumeriaslaguna.com/issey-miyake-leau-edt-100-vaporizador",
    "lookfantastic": "https://www.lookfantastic.es/issey-miyake-l-eau-d-issey-eau-de-toilette-100ml/11079384.html",
    "notino": "https://www.notino.es/issey-miyake/leau-dissey-eau-de-toilette-para-mujer/p-60629/",
@@ -8899,7 +8932,11 @@
  },
  {
   "brand": "Issey Miyake",
-  "checked": "2026-10-25T22:49:45+01:00",
+  "buscado": {
+   "douglas": "2026-10-26",
+   "idealo": "2026-10-26"
+  },
+  "checked": "2026-10-26T00:19:58+01:00",
   "conc": "EDT",
   "deals": [
    {
@@ -8949,6 +8986,31 @@
     "d": "2026-10-25",
     "p": 49.8,
     "s": "sabina"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 44.95,
+    "s": "laguna"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 44.95,
+    "s": "paco"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 55.25,
+    "s": "parejo"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 49.8,
+    "s": "sabina"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 44.95,
+    "s": "idealo"
    }
   ],
   "id": "issey-miyake-l-eau-d-issey-pour-homme-edt-125",
@@ -8966,9 +9028,16 @@
     "p": null,
     "stock": false
    },
+   "idealo": {
+    "auto": true,
+    "d": "2026-10-26",
+    "gh": true,
+    "p": 44.95
+   },
    "laguna": {
     "auto": true,
-    "d": "2026-10-25",
+    "d": "2026-10-26",
+    "gh": true,
     "p": 44.95
    },
    "lookfantastic": {
@@ -8979,17 +9048,20 @@
    },
    "paco": {
     "auto": true,
-    "d": "2026-10-25",
+    "d": "2026-10-26",
+    "gh": true,
     "p": 44.95
    },
    "parejo": {
     "auto": true,
-    "d": "2026-10-25",
+    "d": "2026-10-26",
+    "gh": true,
     "p": 55.25
    },
    "sabina": {
     "auto": true,
-    "d": "2026-10-25",
+    "d": "2026-10-26",
+    "gh": true,
     "p": 49.8
    }
   },
@@ -8998,6 +9070,7 @@
   "urls": {
    "avenida": "https://www.perfumeriasavenida.com/l-eau-d-issey-pour-homme-edt-issey-miyake",
    "beautinow": "https://beautinow.com/products/issey-miyake-leau-dissey-pour-homme-eau-de-toilette/",
+   "idealo": "https://www.idealo.es/precios/602032/issey-miyake-l-eau-d-issey-pour-homme-eau-de-toilette-125-ml.html",
    "laguna": "https://www.perfumeriaslaguna.com/issey-miyake-homme-125-vaporizador",
    "lookfantastic": "https://www.lookfantastic.es/p/issey-miyake-l-eau-d-issey-pour-homme-eau-de-toilette-125ml/11079388/",
    "notino": "https://www.notino.es/issey-miyake/leau-dissey-pour-homme-eau-de-toilette-para-hombre/p-60627/",
@@ -9008,7 +9081,11 @@
  },
  {
   "brand": "Jean Paul Gaultier",
-  "checked": "2026-10-25T22:49:54+01:00",
+  "buscado": {
+   "douglas": "2026-10-26",
+   "idealo": "2026-10-26"
+  },
+  "checked": "2026-10-26T00:20:16+01:00",
   "conc": "EDP",
   "deals": [
    {
@@ -9053,6 +9130,31 @@
     "d": "2026-10-25",
     "p": 90.2,
     "s": "sabina"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 94.95,
+    "s": "avenida"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 94.95,
+    "s": "laguna"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 94.95,
+    "s": "paco"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 90.2,
+    "s": "sabina"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 82.61,
+    "s": "idealo"
    }
   ],
   "id": "jean-paul-gaultier-gaultier-divine-edp-100",
@@ -9061,7 +9163,20 @@
   "prices": {
    "avenida": {
     "auto": true,
-    "d": "2026-10-09",
+    "d": "2026-10-26",
+    "gh": true,
+    "p": 94.95
+   },
+   "idealo": {
+    "auto": true,
+    "d": "2026-10-26",
+    "gh": true,
+    "p": 82.61
+   },
+   "laguna": {
+    "auto": true,
+    "d": "2026-10-26",
+    "gh": true,
     "p": 94.95
    },
    "lookfantastic": {
@@ -9078,18 +9193,21 @@
    },
    "paco": {
     "auto": true,
-    "d": "2026-10-25",
+    "d": "2026-10-26",
+    "gh": true,
     "p": 94.95
    },
    "sabina": {
     "auto": true,
-    "d": "2026-10-25",
+    "d": "2026-10-26",
+    "gh": true,
     "p": 90.2
    }
   },
   "target": null,
   "urls": {
    "avenida": "https://www.perfumeriasavenida.com/gaultier-divine-edp-jean-paul-gaultier",
+   "idealo": "https://www.idealo.es/precios/203100284/jean-paul-gaultier-divine-eau-de-parfum.html",
    "laguna": "https://www.perfumeriaslaguna.com/gaultier-divine-eau-de-parfum-1",
    "lookfantastic": "https://www.lookfantastic.es/p/jean-paul-gaultier-gaultier-divine-eau-de-parfum-100ml/14887100/",
    "notino": "https://www.notino.es/jean-paul-gaultier/divine-eau-de-parfum-para-mujer/p-16192772/",
@@ -9100,7 +9218,11 @@
  },
  {
   "brand": "Jean Paul Gaultier",
-  "checked": "2026-10-25T22:50:04+01:00",
+  "buscado": {
+   "douglas": "2026-10-26",
+   "idealo": "2026-10-26"
+  },
+  "checked": "2026-10-26T00:20:34+01:00",
   "conc": "EDP",
   "history": [
    {
@@ -9117,6 +9239,21 @@
     "d": "2026-10-25",
     "p": 74.95,
     "s": "laguna"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 89.95,
+    "s": "avenida"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 74.95,
+    "s": "laguna"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 62.9,
+    "s": "idealo"
    }
   ],
   "id": "jean-paul-gaultier-la-belle-edp-100",
@@ -9125,13 +9262,20 @@
   "prices": {
    "avenida": {
     "auto": true,
-    "d": "2026-10-09",
-    "p": 89.95,
-    "stock": false
+    "d": "2026-10-26",
+    "gh": true,
+    "p": 89.95
+   },
+   "idealo": {
+    "auto": true,
+    "d": "2026-10-26",
+    "gh": true,
+    "p": 62.9
    },
    "laguna": {
     "auto": true,
-    "d": "2026-10-25",
+    "d": "2026-10-26",
+    "gh": true,
     "p": 74.95
    },
    "lookfantastic": {
@@ -9148,13 +9292,15 @@
    },
    "paco": {
     "auto": true,
-    "d": "2026-10-25",
+    "d": "2026-10-26",
+    "gh": true,
     "p": 69.95,
     "stock": false
    },
    "sabina": {
     "auto": true,
-    "d": "2026-10-25",
+    "d": "2026-10-26",
+    "gh": true,
     "p": 77.85,
     "stock": false
    }
@@ -9162,6 +9308,8 @@
   "target": null,
   "urls": {
    "avenida": "https://www.perfumeriasavenida.com/la-belle-edp-jean-paul-gaultier",
+   "douglas": "https://www.douglas.es/es/p/3000056790",
+   "idealo": "https://www.idealo.es/precios/6631936/jean-paul-gaultier-la-belle-eau-de-parfum-100ml.html",
    "laguna": "https://www.perfumeriaslaguna.com/jean-paul-gaultier-la-belle-1",
    "lookfantastic": "https://www.lookfantastic.es/p/jean-paul-gaultier-la-belle-eau-de-parfum-100ml/12182794/",
    "notino": "https://www.notino.es/jean-paul-gaultier/jean-paul-gaultier-la-belle-eau-de-parfum-para-mujer/p-15958711/",
@@ -9172,7 +9320,11 @@
  },
  {
   "brand": "Jean Paul Gaultier",
-  "checked": "2026-10-25T22:50:15+01:00",
+  "buscado": {
+   "douglas": "2026-10-26",
+   "idealo": "2026-10-26"
+  },
+  "checked": "2026-10-26T00:20:54+01:00",
   "conc": "EDT",
   "deals": [
    {
@@ -9217,6 +9369,36 @@
     "d": "2026-10-25",
     "p": 73.1,
     "s": "sabina"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 76.95,
+    "s": "avenida"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 76.95,
+    "s": "laguna"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 76.95,
+    "s": "paco"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 76.96,
+    "s": "perfumesclub"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 73.1,
+    "s": "sabina"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 65.02,
+    "s": "idealo"
    }
   ],
   "id": "jean-paul-gaultier-le-beau-edt-125",
@@ -9225,12 +9407,20 @@
   "prices": {
    "avenida": {
     "auto": true,
-    "d": "2026-10-09",
+    "d": "2026-10-26",
+    "gh": true,
     "p": 76.95
+   },
+   "idealo": {
+    "auto": true,
+    "d": "2026-10-26",
+    "gh": true,
+    "p": 65.02
    },
    "laguna": {
     "auto": true,
-    "d": "2026-10-09",
+    "d": "2026-10-26",
+    "gh": true,
     "p": 76.95
    },
    "lookfantastic": {
@@ -9247,18 +9437,27 @@
    },
    "paco": {
     "auto": true,
-    "d": "2026-10-25",
+    "d": "2026-10-26",
+    "gh": true,
     "p": 76.95
+   },
+   "perfumesclub": {
+    "auto": true,
+    "d": "2026-10-26",
+    "gh": true,
+    "p": 76.96
    },
    "sabina": {
     "auto": true,
-    "d": "2026-10-25",
+    "d": "2026-10-26",
+    "gh": true,
     "p": 73.1
    }
   },
   "target": null,
   "urls": {
    "avenida": "https://www.perfumeriasavenida.com/le-beau-edt-jean-paul-gaultier",
+   "idealo": "https://www.idealo.es/precios/6620693/jean-paul-gaultier-le-beau-eau-de-toilette-125ml.html",
    "laguna": "https://www.perfumeriaslaguna.com/jean-paul-gaultier-le-beau",
    "lookfantastic": "https://www.lookfantastic.es/p/jean-paul-gaultier-le-beau-eau-de-toilette-125ml/12182791/",
    "notino": "https://www.notino.es/jean-paul-gaultier/jean-paul-gaultier-le-beau-eau-de-toilette-para-hombre/p-15958709/",
@@ -9270,7 +9469,11 @@
  },
  {
   "brand": "Jean Paul Gaultier",
-  "checked": "2026-10-25T22:50:21+01:00",
+  "buscado": {
+   "douglas": "2026-10-26",
+   "idealo": "2026-10-26"
+  },
+  "checked": "2026-10-26T00:21:08+01:00",
   "conc": "EDP",
   "deals": [
    {
@@ -9306,15 +9509,42 @@
     "d": "2026-10-25",
     "p": 80.7,
     "s": "sabina"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 86.95,
+    "s": "laguna"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 86.95,
+    "s": "paco"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 80.7,
+    "s": "sabina"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 71.3,
+    "s": "idealo"
    }
   ],
   "id": "jean-paul-gaultier-le-beau-le-parfum-edp-125",
   "ml": 125,
   "name": "Le Beau Le Parfum",
   "prices": {
+   "idealo": {
+    "auto": true,
+    "d": "2026-10-26",
+    "gh": true,
+    "p": 71.3
+   },
    "laguna": {
     "auto": true,
-    "d": "2026-10-25",
+    "d": "2026-10-26",
+    "gh": true,
     "p": 86.95
    },
    "lookfantastic": {
@@ -9326,17 +9556,20 @@
    },
    "paco": {
     "auto": true,
-    "d": "2026-10-25",
+    "d": "2026-10-26",
+    "gh": true,
     "p": 86.95
    },
    "sabina": {
     "auto": true,
-    "d": "2026-10-25",
+    "d": "2026-10-26",
+    "gh": true,
     "p": 80.7
    }
   },
   "target": null,
   "urls": {
+   "idealo": "https://www.idealo.es/precios/201836902/jean-paul-gaultier-le-beau-eau-de-parfum-125ml.html",
    "laguna": "https://www.perfumeriaslaguna.com/jean-paul-gaultier-le-beau-le-parfum-125ml",
    "lookfantastic": "https://www.lookfantastic.es/p/jean-paul-gaultier-le-beau-le-parfum-eau-de-parfum-125ml/13656990/",
    "paco": "https://www.pacoperfumerias.com/jean-paul-gaultier-le-beau-le-parfum-24063.html",
@@ -9345,7 +9578,11 @@
  },
  {
   "brand": "Jean Paul Gaultier",
-  "checked": "2026-10-25T22:50:34+01:00",
+  "buscado": {
+   "douglas": "2026-10-26",
+   "idealo": "2026-10-26"
+  },
+  "checked": "2026-10-26T00:21:26+01:00",
   "conc": "EDT",
   "history": [
    {
@@ -9392,6 +9629,36 @@
     "d": "2026-10-25",
     "p": 72.16,
     "s": "sabina"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 75.95,
+    "s": "avenida"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 75.95,
+    "s": "laguna"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 75.95,
+    "s": "paco"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 100.3,
+    "s": "parejo"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 72.16,
+    "s": "sabina"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 58.35,
+    "s": "idealo"
    }
   ],
   "id": "jean-paul-gaultier-le-male-edt-125",
@@ -9400,8 +9667,21 @@
   "prices": {
    "avenida": {
     "auto": true,
-    "d": "2026-10-25",
-    "p": 64.95
+    "d": "2026-10-26",
+    "gh": true,
+    "p": 75.95
+   },
+   "idealo": {
+    "auto": true,
+    "d": "2026-10-26",
+    "gh": true,
+    "p": 58.35
+   },
+   "laguna": {
+    "auto": true,
+    "d": "2026-10-26",
+    "gh": true,
+    "p": 75.95
    },
    "lookfantastic": {
     "auto": true,
@@ -9416,23 +9696,27 @@
    },
    "paco": {
     "auto": true,
-    "d": "2026-10-25",
+    "d": "2026-10-26",
+    "gh": true,
     "p": 75.95
    },
    "parejo": {
     "auto": true,
-    "d": "2026-10-25",
+    "d": "2026-10-26",
+    "gh": true,
     "p": 100.3
    },
    "sabina": {
     "auto": true,
-    "d": "2026-10-25",
+    "d": "2026-10-26",
+    "gh": true,
     "p": 72.16
    }
   },
   "target": null,
   "urls": {
    "avenida": "https://www.perfumeriasavenida.com/le-male-edt-jean-paul-gaultier",
+   "idealo": "https://www.idealo.es/precios/602040/jean-paul-gaultier-le-male-eau-de-toilette-125-ml.html",
    "laguna": "https://www.perfumeriaslaguna.com/perfume-gaultier-le-male",
    "lookfantastic": "https://www.lookfantastic.es/p/jean-paul-gaultier-le-male-eau-de-toilette-125ml/10076089/",
    "notino": "https://www.notino.es/jean-p-gaultier/le-male-eau-de-toilette-para-hombre/p-60686/",
@@ -9443,7 +9727,11 @@
  },
  {
   "brand": "Jean Paul Gaultier",
-  "checked": "2026-10-25T22:50:43+01:00",
+  "buscado": {
+   "douglas": "2026-10-26",
+   "idealo": "2026-10-26"
+  },
+  "checked": "2026-10-26T00:21:38+01:00",
   "conc": "Parfum",
   "deals": [
    {
@@ -9483,6 +9771,21 @@
     "d": "2026-10-25",
     "p": 94.95,
     "s": "sabina"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 99.95,
+    "s": "avenida"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 99.95,
+    "s": "paco"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 94.95,
+    "s": "sabina"
    }
   ],
   "id": "jean-paul-gaultier-le-male-elixir-absolu-parfum-125",
@@ -9491,9 +9794,9 @@
   "prices": {
    "avenida": {
     "auto": true,
-    "d": "2026-10-09",
-    "p": 99.95,
-    "stock": false
+    "d": "2026-10-26",
+    "gh": true,
+    "p": 99.95
    },
    "lookfantastic": {
     "auto": true,
@@ -9509,12 +9812,14 @@
    },
    "paco": {
     "auto": true,
-    "d": "2026-10-25",
+    "d": "2026-10-26",
+    "gh": true,
     "p": 99.95
    },
    "sabina": {
     "auto": true,
-    "d": "2026-10-25",
+    "d": "2026-10-26",
+    "gh": true,
     "p": 94.95
    }
   },
@@ -9531,7 +9836,11 @@
  },
  {
   "brand": "Jean Paul Gaultier",
-  "checked": "2026-10-25T22:50:53+01:00",
+  "buscado": {
+   "douglas": "2026-10-26",
+   "idealo": "2026-10-26"
+  },
+  "checked": "2026-10-26T00:21:58+01:00",
   "conc": "Parfum",
   "deals": [
    {
@@ -9609,6 +9918,31 @@
     "d": "2026-10-25",
     "p": 90.2,
     "s": "sabina"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 94.95,
+    "s": "avenida"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 94.95,
+    "s": "laguna"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 94.95,
+    "s": "paco"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 90.2,
+    "s": "sabina"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 67.46,
+    "s": "idealo"
    }
   ],
   "id": "jean-paul-gaultier-le-male-elixir-parfum-125",
@@ -9617,12 +9951,20 @@
   "prices": {
    "avenida": {
     "auto": true,
-    "d": "2026-10-25",
-    "p": 64.95
+    "d": "2026-10-26",
+    "gh": true,
+    "p": 94.95
+   },
+   "idealo": {
+    "auto": true,
+    "d": "2026-10-26",
+    "gh": true,
+    "p": 67.46
    },
    "laguna": {
     "auto": true,
-    "d": "2026-10-25",
+    "d": "2026-10-26",
+    "gh": true,
     "p": 94.95
    },
    "lookfantastic": {
@@ -9638,18 +9980,21 @@
    },
    "paco": {
     "auto": true,
-    "d": "2026-10-25",
+    "d": "2026-10-26",
+    "gh": true,
     "p": 94.95
    },
    "sabina": {
     "auto": true,
-    "d": "2026-10-25",
+    "d": "2026-10-26",
+    "gh": true,
     "p": 90.2
    }
   },
   "target": null,
   "urls": {
    "avenida": "https://www.perfumeriasavenida.com/le-male-elixir-edp-jean-paul-gaultier",
+   "idealo": "https://www.idealo.es/precios/202782405/jean-paul-gaultier-le-male-elixir-eau-de-parfum-125ml.html",
    "laguna": "https://www.perfumeriaslaguna.com/le-male-elixir-125",
    "lookfantastic": "https://lookfantastic.es/jean-paul-gaultier-le-male-elixir-eau-de-parfum-125ml/14561045.html",
    "notino": "https://www.notino.es/jean-paul-gaultier/le-male-elixir-perfume-para-hombre/p-16187417/",
@@ -9807,7 +10152,11 @@
  },
  {
   "brand": "Jean Paul Gaultier",
-  "checked": "2026-10-25T22:51:01+01:00",
+  "buscado": {
+   "douglas": "2026-10-26",
+   "idealo": "2026-10-26"
+  },
+  "checked": "2026-10-26T00:22:14+01:00",
   "conc": "EDP",
   "history": [
    {
@@ -9849,6 +10198,31 @@
     "d": "2026-10-25",
     "p": 77.64,
     "s": "sabina"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 84.95,
+    "s": "avenida"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 79.95,
+    "s": "laguna"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 71.44,
+    "s": "paco"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 77.64,
+    "s": "sabina"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 71.44,
+    "s": "idealo"
    }
   ],
   "id": "jean-paul-gaultier-scandal-edp-80",
@@ -9857,12 +10231,20 @@
   "prices": {
    "avenida": {
     "auto": true,
-    "d": "2026-10-09",
+    "d": "2026-10-26",
+    "gh": true,
     "p": 84.95
+   },
+   "idealo": {
+    "auto": true,
+    "d": "2026-10-26",
+    "gh": true,
+    "p": 71.44
    },
    "laguna": {
     "auto": true,
-    "d": "2026-10-25",
+    "d": "2026-10-26",
+    "gh": true,
     "p": 79.95
    },
    "lookfantastic": {
@@ -9878,18 +10260,21 @@
    },
    "paco": {
     "auto": true,
-    "d": "2026-10-25",
+    "d": "2026-10-26",
+    "gh": true,
     "p": 71.44
    },
    "sabina": {
     "auto": true,
-    "d": "2026-10-25",
+    "d": "2026-10-26",
+    "gh": true,
     "p": 77.64
    }
   },
   "target": null,
   "urls": {
    "avenida": "https://www.perfumeriasavenida.com/scandal-perfume-edp-jean-paul-gaultier",
+   "idealo": "https://www.idealo.es/precios/5645533/jean-paul-gaultier-scandal-eau-de-parfum-80ml.html",
    "laguna": "https://www.perfumeriaslaguna.com/scandal-80",
    "lookfantastic": "https://www.lookfantastic.es/p/jean-paul-gaultier-scandal-eau-de-parfum-spray-80ml/11707264/",
    "notino": "https://www.notino.es/jean-paul-gaultier/scandal-eau-de-parfum-para-mujer/p-650679/",
@@ -9899,7 +10284,8 @@
  },
  {
   "brand": "Jean Paul Gaultier",
-  "checked": "2026-10-25T22:51:10+01:00",
+  "buscado": {},
+  "checked": "2026-10-26T00:22:24+01:00",
   "conc": "EDT",
   "history": [
    {
@@ -9936,6 +10322,26 @@
     "d": "2026-10-25",
     "p": 75.95,
     "s": "sabina"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 79.95,
+    "s": "avenida"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 79.95,
+    "s": "laguna"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 79.95,
+    "s": "paco"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 75.95,
+    "s": "sabina"
    }
   ],
   "id": "jean-paul-gaultier-scandal-pour-homme-edt-100",
@@ -9944,13 +10350,14 @@
   "prices": {
    "avenida": {
     "auto": true,
-    "d": "2026-10-09",
-    "p": 79.95,
-    "stock": false
+    "d": "2026-10-26",
+    "gh": true,
+    "p": 79.95
    },
    "laguna": {
     "auto": true,
-    "d": "2026-10-25",
+    "d": "2026-10-26",
+    "gh": true,
     "p": 79.95
    },
    "lookfantastic": {
@@ -9961,12 +10368,14 @@
    },
    "paco": {
     "auto": true,
-    "d": "2026-10-25",
+    "d": "2026-10-26",
+    "gh": true,
     "p": 79.95
    },
    "sabina": {
     "auto": true,
-    "d": "2026-10-25",
+    "d": "2026-10-26",
+    "gh": true,
     "p": 75.95
    }
   },
@@ -9981,7 +10390,8 @@
  },
  {
   "brand": "Jean Paul Gaultier",
-  "checked": "2026-10-25T22:51:12+01:00",
+  "buscado": {},
+  "checked": "2026-10-26T00:22:27+01:00",
   "conc": "EDT",
   "deals": [
    {
@@ -10007,6 +10417,11 @@
     "d": "2026-10-25",
     "p": 123.0,
     "s": "laguna"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 123.0,
+    "s": "laguna"
    }
   ],
   "id": "jean-paul-gaultier-ultra-male-edt-125",
@@ -10015,7 +10430,8 @@
   "prices": {
    "laguna": {
     "auto": true,
-    "d": "2026-10-25",
+    "d": "2026-10-26",
+    "gh": true,
     "p": 123.0
    },
    "lookfantastic": {
@@ -10173,7 +10589,8 @@
  },
  {
   "brand": "Kilian",
-  "checked": "2026-10-25T22:51:15+01:00",
+  "buscado": {},
+  "checked": "2026-10-26T00:22:29+01:00",
   "conc": "EDP",
   "history": [
    {
@@ -10185,6 +10602,11 @@
     "d": "2026-10-25",
     "p": 110.99,
     "s": "sabina"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 116.83,
+    "s": "sabina"
    }
   ],
   "id": "kilian-angels-share-edp-50",
@@ -10193,8 +10615,9 @@
   "prices": {
    "sabina": {
     "auto": true,
-    "d": "2026-10-25",
-    "p": 110.99
+    "d": "2026-10-26",
+    "gh": true,
+    "p": 116.83
    }
   },
   "target": null,
@@ -10205,7 +10628,8 @@
  },
  {
   "brand": "Kilian",
-  "checked": "2026-10-25T22:51:15+01:00",
+  "buscado": {},
+  "checked": "2026-10-26T00:22:29+01:00",
   "conc": "EDP",
   "history": [],
   "id": "kilian-love-don-t-be-shy-edp-50",
@@ -10218,7 +10642,8 @@
  },
  {
   "brand": "Lancôme",
-  "checked": "2026-10-25T22:51:22+01:00",
+  "buscado": {},
+  "checked": "2026-10-26T00:22:37+01:00",
   "conc": "EDP",
   "history": [
    {
@@ -10250,6 +10675,16 @@
     "d": "2026-10-25",
     "p": 70.84,
     "s": "sabina"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 79.95,
+    "s": "avenida"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 70.84,
+    "s": "sabina"
    }
   ],
   "id": "lancome-idole-edp-50",
@@ -10258,7 +10693,8 @@
   "prices": {
    "avenida": {
     "auto": true,
-    "d": "2026-10-11",
+    "d": "2026-10-26",
+    "gh": true,
     "p": 79.95
    },
    "lookfantastic": {
@@ -10275,13 +10711,15 @@
    },
    "paco": {
     "auto": true,
-    "d": "2026-10-25",
+    "d": "2026-10-26",
+    "gh": true,
     "p": 53.93,
     "stock": false
    },
    "sabina": {
     "auto": true,
-    "d": "2026-10-25",
+    "d": "2026-10-26",
+    "gh": true,
     "p": 70.84
    },
    "sephora": {
@@ -10482,7 +10920,8 @@
  },
  {
   "brand": "Lancôme",
-  "checked": "2026-10-25T22:51:29+01:00",
+  "buscado": {},
+  "checked": "2026-10-26T00:22:50+01:00",
   "conc": "EDP",
   "history": [
    {
@@ -10504,6 +10943,21 @@
     "d": "2026-10-25",
     "p": 85.95,
     "s": "laguna"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 119.95,
+    "s": "avenida"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 85.95,
+    "s": "laguna"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 90.96,
+    "s": "perfumesclub"
    }
   ],
   "id": "lancome-tresor-edp-100",
@@ -10512,31 +10966,35 @@
   "prices": {
    "avenida": {
     "auto": true,
-    "d": "2026-10-11",
-    "p": 119.95,
-    "stock": false
+    "d": "2026-10-26",
+    "gh": true,
+    "p": 119.95
    },
    "laguna": {
     "auto": true,
-    "d": "2026-10-25",
+    "d": "2026-10-26",
+    "gh": true,
     "p": 85.95
    },
    "notino": {
     "auto": true,
-    "d": "2026-10-25",
+    "d": "2026-10-26",
+    "gh": true,
     "p": 118.0,
     "stock": false
    },
    "paco": {
     "auto": true,
-    "d": "2026-10-25",
+    "d": "2026-10-26",
+    "gh": true,
     "p": 90.95,
     "stock": false
    },
    "perfumesclub": {
     "auto": true,
-    "d": "2026-10-11",
-    "p": 88.22
+    "d": "2026-10-26",
+    "gh": true,
+    "p": 90.96
    },
    "sephora": {
     "auto": true,
@@ -10557,7 +11015,8 @@
  },
  {
   "brand": "Lattafa",
-  "checked": "2026-10-25T22:51:41+01:00",
+  "buscado": {},
+  "checked": "2026-10-26T00:23:02+01:00",
   "conc": "EDP",
   "deals": [
    {
@@ -10624,6 +11083,31 @@
     "d": "2026-10-25",
     "p": 23.7,
     "s": "sabina"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 21.99,
+    "s": "arabicparfums"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 18.3,
+    "s": "laguna"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 24.8,
+    "s": "notino"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 24.65,
+    "s": "parejo"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 23.7,
+    "s": "sabina"
    }
   ],
   "id": "lattafa-asad-edp-100",
@@ -10632,27 +11116,32 @@
   "prices": {
    "arabicparfums": {
     "auto": true,
-    "d": "2026-10-25",
+    "d": "2026-10-26",
+    "gh": true,
     "p": 21.99
    },
    "laguna": {
     "auto": true,
-    "d": "2026-10-25",
+    "d": "2026-10-26",
+    "gh": true,
     "p": 18.3
    },
    "notino": {
     "auto": true,
-    "d": "2026-10-11",
-    "p": 18
+    "d": "2026-10-26",
+    "gh": true,
+    "p": 24.8
    },
    "parejo": {
     "auto": true,
-    "d": "2026-10-25",
+    "d": "2026-10-26",
+    "gh": true,
     "p": 24.65
    },
    "sabina": {
     "auto": true,
-    "d": "2026-10-25",
+    "d": "2026-10-26",
+    "gh": true,
     "p": 23.7
    }
   },
@@ -10806,7 +11295,8 @@
  },
  {
   "brand": "Lattafa",
-  "checked": "2026-10-25T22:51:51+01:00",
+  "buscado": {},
+  "checked": "2026-10-26T00:23:13+01:00",
   "conc": "EDP",
   "deals": [
    {
@@ -10874,6 +11364,26 @@
     "d": "2026-10-25",
     "p": 32.25,
     "s": "sabina"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 29.99,
+    "s": "arabicparfums"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 38.5,
+    "s": "notino"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 40.8,
+    "s": "parejo"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 32.25,
+    "s": "sabina"
    }
   ],
   "id": "lattafa-khamrah-edp-100",
@@ -10882,7 +11392,8 @@
   "prices": {
    "arabicparfums": {
     "auto": true,
-    "d": "2026-10-25",
+    "d": "2026-10-26",
+    "gh": true,
     "p": 29.99
    },
    "beautinow": {
@@ -10893,23 +11404,27 @@
    },
    "laguna": {
     "auto": true,
-    "d": "2026-10-25",
+    "d": "2026-10-26",
+    "gh": true,
     "p": 24.49,
     "stock": false
    },
    "notino": {
     "auto": true,
-    "d": "2026-10-11",
-    "p": 24.5
+    "d": "2026-10-26",
+    "gh": true,
+    "p": 38.5
    },
    "parejo": {
     "auto": true,
-    "d": "2026-10-25",
+    "d": "2026-10-26",
+    "gh": true,
     "p": 40.8
    },
    "sabina": {
     "auto": true,
-    "d": "2026-10-25",
+    "d": "2026-10-26",
+    "gh": true,
     "p": 32.25
    }
   },
@@ -11000,7 +11515,8 @@
  },
  {
   "brand": "Lattafa",
-  "checked": "2026-10-25T22:52:04+01:00",
+  "buscado": {},
+  "checked": "2026-10-26T00:23:24+01:00",
   "conc": "EDP",
   "deals": [
    {
@@ -11067,6 +11583,31 @@
     "d": "2026-10-25",
     "p": 23.7,
     "s": "sabina"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 22.99,
+    "s": "arabicparfums"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 17.89,
+    "s": "laguna"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 24.0,
+    "s": "notino"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 30.6,
+    "s": "parejo"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 23.7,
+    "s": "sabina"
    }
   ],
   "id": "lattafa-yara-edp-100",
@@ -11075,7 +11616,8 @@
   "prices": {
    "arabicparfums": {
     "auto": true,
-    "d": "2026-10-25",
+    "d": "2026-10-26",
+    "gh": true,
     "p": 22.99
    },
    "beautinow": {
@@ -11086,22 +11628,26 @@
    },
    "laguna": {
     "auto": true,
-    "d": "2026-10-25",
+    "d": "2026-10-26",
+    "gh": true,
     "p": 17.89
    },
    "notino": {
     "auto": true,
-    "d": "2026-10-11",
-    "p": 18.5
+    "d": "2026-10-26",
+    "gh": true,
+    "p": 24.0
    },
    "parejo": {
     "auto": true,
-    "d": "2026-10-25",
+    "d": "2026-10-26",
+    "gh": true,
     "p": 30.6
    },
    "sabina": {
     "auto": true,
-    "d": "2026-10-25",
+    "d": "2026-10-26",
+    "gh": true,
     "p": 23.7
    }
   },
@@ -11118,7 +11664,8 @@
  },
  {
   "brand": "Le Labo",
-  "checked": "2026-10-25T22:52:04+01:00",
+  "buscado": {},
+  "checked": "2026-10-26T00:23:24+01:00",
   "conc": "EDP",
   "history": [],
   "id": "le-labo-another-13-edp-100",
@@ -11131,7 +11678,8 @@
  },
  {
   "brand": "Le Labo",
-  "checked": "2026-10-25T22:52:04+01:00",
+  "buscado": {},
+  "checked": "2026-10-26T00:23:24+01:00",
   "conc": "EDP",
   "history": [],
   "id": "le-labo-santal-33-edp-100",
@@ -11144,7 +11692,8 @@
  },
  {
   "brand": "Maison Francis Kurkdjian",
-  "checked": "2026-10-25T22:52:10+01:00",
+  "buscado": {},
+  "checked": "2026-10-26T00:23:29+01:00",
   "conc": "EDT",
   "history": [
    {
@@ -11161,6 +11710,16 @@
     "d": "2026-10-25",
     "p": 175.0,
     "s": "sabina"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 195.01,
+    "s": "firstinfragrance"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 175.0,
+    "s": "sabina"
    }
   ],
   "id": "maison-francis-kurkdjian-aqua-universalis-edt-70",
@@ -11169,12 +11728,14 @@
   "prices": {
    "firstinfragrance": {
     "auto": true,
-    "d": "2026-10-25",
-    "p": 163.87
+    "d": "2026-10-26",
+    "gh": true,
+    "p": 195.01
    },
    "sabina": {
     "auto": true,
-    "d": "2026-10-25",
+    "d": "2026-10-26",
+    "gh": true,
     "p": 175.0
    }
   },
@@ -11187,12 +11748,18 @@
  },
  {
   "brand": "Maison Francis Kurkdjian",
-  "checked": "2026-10-25T22:52:12+01:00",
+  "buscado": {},
+  "checked": "2026-10-26T00:23:30+01:00",
   "conc": "EDP",
   "history": [
    {
     "d": "2026-10-25",
     "p": 222.69,
+    "s": "firstinfragrance"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 265.0,
     "s": "firstinfragrance"
    }
   ],
@@ -11208,8 +11775,9 @@
    },
    "firstinfragrance": {
     "auto": true,
-    "d": "2026-10-25",
-    "p": 222.69
+    "d": "2026-10-26",
+    "gh": true,
+    "p": 265.0
    }
   },
   "target": null,
@@ -11251,7 +11819,8 @@
  },
  {
   "brand": "Maison Francis Kurkdjian",
-  "checked": "2026-10-25T22:52:14+01:00",
+  "buscado": {},
+  "checked": "2026-10-26T00:23:33+01:00",
   "conc": "EDP",
   "deals": [
    {
@@ -11266,6 +11835,11 @@
     "d": "2026-10-25",
     "p": 172.27,
     "s": "firstinfragrance"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 205.0,
+    "s": "firstinfragrance"
    }
   ],
   "id": "maison-francis-kurkdjian-grand-soir-edp-70",
@@ -11274,8 +11848,9 @@
   "prices": {
    "firstinfragrance": {
     "auto": true,
-    "d": "2026-10-25",
-    "p": 172.27
+    "d": "2026-10-26",
+    "gh": true,
+    "p": 205.0
    }
   },
   "target": null,
@@ -11286,7 +11861,8 @@
  },
  {
   "brand": "Maison Margiela",
-  "checked": "2026-10-25T22:52:17+01:00",
+  "buscado": {},
+  "checked": "2026-10-26T00:23:37+01:00",
   "conc": "EDT",
   "deals": [],
   "history": [
@@ -11319,7 +11895,8 @@
    },
    "sabina": {
     "auto": true,
-    "d": "2026-10-25",
+    "d": "2026-10-26",
+    "gh": true,
     "p": 111.75,
     "stock": false
    }
@@ -11414,7 +11991,8 @@
  },
  {
   "brand": "Mancera",
-  "checked": "2026-10-25T22:52:26+01:00",
+  "buscado": {},
+  "checked": "2026-10-26T00:23:44+01:00",
   "conc": "EDP",
   "deals": [
    {
@@ -11444,6 +12022,21 @@
     "d": "2026-10-25",
     "p": 101.25,
     "s": "sabina"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 139.0,
+    "s": "firstinfragrance"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 99.45,
+    "s": "parejo"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 135.0,
+    "s": "sabina"
    }
   ],
   "id": "mancera-cedrat-boise-edp-120",
@@ -11452,8 +12045,9 @@
   "prices": {
    "firstinfragrance": {
     "auto": true,
-    "d": "2026-10-25",
-    "p": 116.81
+    "d": "2026-10-26",
+    "gh": true,
+    "p": 139.0
    },
    "notino": {
     "auto": true,
@@ -11463,13 +12057,15 @@
    },
    "parejo": {
     "auto": true,
-    "d": "2026-10-25",
+    "d": "2026-10-26",
+    "gh": true,
     "p": 99.45
    },
    "sabina": {
     "auto": true,
-    "d": "2026-10-25",
-    "p": 101.25
+    "d": "2026-10-26",
+    "gh": true,
+    "p": 135.0
    }
   },
   "target": null,
@@ -11483,7 +12079,8 @@
  },
  {
   "brand": "Mancera",
-  "checked": "2026-10-25T23:02:55+01:00",
+  "buscado": {},
+  "checked": "2026-10-26T00:23:48+01:00",
   "conc": "EDP",
   "deals": [],
   "history": [
@@ -11501,6 +12098,16 @@
     "d": "2026-10-25",
     "p": 116.25,
     "s": "sabina"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 159.0,
+    "s": "firstinfragrance"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 155.0,
+    "s": "sabina"
    }
   ],
   "id": "mancera-instant-crush-edp-120",
@@ -11509,7 +12116,7 @@
   "prices": {
    "firstinfragrance": {
     "auto": true,
-    "d": "2026-10-25",
+    "d": "2026-10-26",
     "gh": true,
     "p": 159.0
    },
@@ -11521,9 +12128,9 @@
    },
    "sabina": {
     "auto": true,
-    "d": "2026-10-25",
+    "d": "2026-10-26",
     "gh": true,
-    "p": 116.25
+    "p": 155.0
    }
   },
   "target": null,
@@ -11577,7 +12184,8 @@
  },
  {
   "brand": "Montblanc",
-  "checked": "2026-10-25T23:03:06+01:00",
+  "buscado": {},
+  "checked": "2026-10-26T00:23:58+01:00",
   "conc": "EDP",
   "deals": [
    {
@@ -11634,6 +12242,26 @@
     "d": "2026-10-25",
     "p": 50.3,
     "s": "sabina"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 59.95,
+    "s": "avenida"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 54.89,
+    "s": "paco"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 65.45,
+    "s": "parejo"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 50.3,
+    "s": "sabina"
    }
   ],
   "id": "montblanc-explorer-edp-100",
@@ -11642,7 +12270,8 @@
   "prices": {
    "avenida": {
     "auto": true,
-    "d": "2026-10-11",
+    "d": "2026-10-26",
+    "gh": true,
     "p": 59.95
    },
    "notino": {
@@ -11652,19 +12281,19 @@
    },
    "paco": {
     "auto": true,
-    "d": "2026-10-25",
+    "d": "2026-10-26",
     "gh": true,
     "p": 54.89
    },
    "parejo": {
     "auto": true,
-    "d": "2026-10-25",
+    "d": "2026-10-26",
     "gh": true,
     "p": 65.45
    },
    "sabina": {
     "auto": true,
-    "d": "2026-10-25",
+    "d": "2026-10-26",
     "gh": true,
     "p": 50.3
    }
@@ -11681,7 +12310,8 @@
  },
  {
   "brand": "Montblanc",
-  "checked": "2026-10-25T23:03:18+01:00",
+  "buscado": {},
+  "checked": "2026-10-26T00:24:11+01:00",
   "conc": "EDT",
   "deals": [
    {
@@ -11753,6 +12383,31 @@
     "d": "2026-10-25",
     "p": 47.45,
     "s": "sabina"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 54.95,
+    "s": "avenida"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 54.9,
+    "s": "laguna"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 54.88,
+    "s": "paco"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 46.75,
+    "s": "parejo"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 47.45,
+    "s": "sabina"
    }
   ],
   "id": "montblanc-legend-edt-100",
@@ -11761,13 +12416,13 @@
   "prices": {
    "avenida": {
     "auto": true,
-    "d": "2026-10-25",
+    "d": "2026-10-26",
     "gh": true,
-    "p": 45.95
+    "p": 54.95
    },
    "laguna": {
     "auto": true,
-    "d": "2026-10-25",
+    "d": "2026-10-26",
     "gh": true,
     "p": 54.9
    },
@@ -11778,19 +12433,19 @@
    },
    "paco": {
     "auto": true,
-    "d": "2026-10-25",
+    "d": "2026-10-26",
     "gh": true,
     "p": 54.88
    },
    "parejo": {
     "auto": true,
-    "d": "2026-10-25",
+    "d": "2026-10-26",
     "gh": true,
     "p": 46.75
    },
    "sabina": {
     "auto": true,
-    "d": "2026-10-25",
+    "d": "2026-10-26",
     "gh": true,
     "p": 47.45
    }
@@ -11897,7 +12552,8 @@
  },
  {
   "brand": "Mugler",
-  "checked": "2026-10-25T23:03:18+01:00",
+  "buscado": {},
+  "checked": "2026-10-26T00:24:11+01:00",
   "conc": "EDT",
   "deals": [
    {
@@ -11918,7 +12574,8 @@
  },
  {
   "brand": "Mugler",
-  "checked": "2026-10-25T23:03:19+01:00",
+  "buscado": {},
+  "checked": "2026-10-26T00:24:13+01:00",
   "conc": "EDP",
   "deals": [
    {
@@ -11941,7 +12598,7 @@
   "prices": {
    "paco": {
     "auto": true,
-    "d": "2026-10-25",
+    "d": "2026-10-26",
     "gh": true,
     "p": 73.95,
     "stock": false
@@ -11989,7 +12646,8 @@
  },
  {
   "brand": "Narciso Rodriguez",
-  "checked": "2026-10-25T23:03:28+01:00",
+  "buscado": {},
+  "checked": "2026-10-26T00:24:26+01:00",
   "conc": "EDP",
   "history": [
    {
@@ -12011,6 +12669,16 @@
     "d": "2026-10-25",
     "p": 59.95,
     "s": "laguna"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 79.95,
+    "s": "avenida"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 59.95,
+    "s": "laguna"
    }
   ],
   "id": "narciso-rodriguez-bleu-noir-edp-100",
@@ -12019,20 +12687,20 @@
   "prices": {
    "avenida": {
     "auto": true,
-    "d": "2026-10-11",
-    "p": 79.95,
-    "stock": false
+    "d": "2026-10-26",
+    "gh": true,
+    "p": 79.95
    },
    "brasty": {
     "auto": true,
-    "d": "2026-10-25",
+    "d": "2026-10-26",
     "gh": true,
     "p": 55.34,
     "stock": false
    },
    "laguna": {
     "auto": true,
-    "d": "2026-10-25",
+    "d": "2026-10-26",
     "gh": true,
     "p": 59.95
    },
@@ -12051,7 +12719,7 @@
    },
    "paco": {
     "auto": true,
-    "d": "2026-10-25",
+    "d": "2026-10-26",
     "gh": true,
     "p": 59.94,
     "stock": false
@@ -12070,7 +12738,8 @@
  },
  {
   "brand": "Narciso Rodriguez",
-  "checked": "2026-10-25T23:03:36+01:00",
+  "buscado": {},
+  "checked": "2026-10-26T00:24:34+01:00",
   "conc": "EDP",
   "deals": [
    {
@@ -12126,6 +12795,26 @@
     "d": "2026-10-25",
     "p": 78.31,
     "s": "sabina"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 85.95,
+    "s": "avenida"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 79.95,
+    "s": "laguna"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 88.28,
+    "s": "paco"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 78.31,
+    "s": "sabina"
    }
   ],
   "id": "narciso-rodriguez-for-her-edp-100",
@@ -12134,12 +12823,13 @@
   "prices": {
    "avenida": {
     "auto": true,
-    "d": "2026-10-11",
-    "p": 94.95
+    "d": "2026-10-26",
+    "gh": true,
+    "p": 85.95
    },
    "laguna": {
     "auto": true,
-    "d": "2026-10-25",
+    "d": "2026-10-26",
     "gh": true,
     "p": 79.95
    },
@@ -12151,13 +12841,13 @@
    },
    "paco": {
     "auto": true,
-    "d": "2026-10-25",
+    "d": "2026-10-26",
     "gh": true,
     "p": 88.28
    },
    "sabina": {
     "auto": true,
-    "d": "2026-10-25",
+    "d": "2026-10-26",
     "gh": true,
     "p": 78.31
    }
@@ -12262,7 +12952,8 @@
  },
  {
   "brand": "Parfums de Marly",
-  "checked": "2026-10-25T23:03:36+01:00",
+  "buscado": {},
+  "checked": "2026-10-26T00:24:34+01:00",
   "conc": "EDP",
   "history": [
    {
@@ -12319,7 +13010,8 @@
  },
  {
   "brand": "Parfums de Marly",
-  "checked": "2026-10-25T23:03:41+01:00",
+  "buscado": {},
+  "checked": "2026-10-26T00:24:38+01:00",
   "conc": "EDP",
   "history": [
    {
@@ -12341,6 +13033,16 @@
     "d": "2026-10-25",
     "p": 290.0,
     "s": "sabina"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 290.0,
+    "s": "firstinfragrance"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 290.0,
+    "s": "sabina"
    }
   ],
   "id": "parfums-de-marly-layton-edp-125",
@@ -12349,7 +13051,7 @@
   "prices": {
    "firstinfragrance": {
     "auto": true,
-    "d": "2026-10-25",
+    "d": "2026-10-26",
     "gh": true,
     "p": 290.0
    },
@@ -12360,7 +13062,7 @@
    },
    "sabina": {
     "auto": true,
-    "d": "2026-10-25",
+    "d": "2026-10-26",
     "gh": true,
     "p": 290.0
    }
