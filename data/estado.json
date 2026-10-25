@@ -1,5 +1,78 @@
 {
- "at": null,
- "nota": "Aún no ha corrido ninguna pasada en GitHub",
- "tiendas": {}
+ "at": "2026-10-25T22:52:26+01:00",
+ "revisados": 35,
+ "tiendas": {
+  "laguna": {
+   "ok": 17,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 1
+  },
+  "notino": {
+   "ok": 3,
+   "bloqueada": 20,
+   "sin_precio": 0,
+   "dudoso": 0
+  },
+  "paco": {
+   "ok": 15,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 2
+  },
+  "sabina": {
+   "ok": 24,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 1
+  },
+  "perfumesclub": {
+   "ok": 2,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 2
+  },
+  "avenida": {
+   "ok": 2,
+   "bloqueada": 0,
+   "sin_precio": 13,
+   "dudoso": 0
+  },
+  "lookfantastic": {
+   "ok": 0,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 18
+  },
+  "firstinfragrance": {
+   "ok": 5,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0
+  },
+  "beautinow": {
+   "ok": 0,
+   "bloqueada": 0,
+   "sin_precio": 4,
+   "dudoso": 0
+  },
+  "parejo": {
+   "ok": 6,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0
+  },
+  "sephora": {
+   "ok": 0,
+   "bloqueada": 5,
+   "sin_precio": 0,
+   "dudoso": 0
+  },
+  "arabicparfums": {
+   "ok": 3,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0
+  }
+ }
 }
