@@ -85,7 +85,7 @@ lf = ld({"@type": "ProductGroup", "hasVariant": [{"@type": "Product", "name": "B
 assert extract(lf + "<span>Coste de entrega: 3,99€</span>", 100, "https://www.lookfantastic.es/x/12127921.html")[0] == 66.9
 mag = ('<script>{"attributes":{"93":{"options":[{"id":"1","label":"50 ml","products":["126295"]},{"id":"2","label":"100 ml","products":["126294"]}]}},'
        '"optionPrices":{"126295":{"finalPrice":{"amount":47.95}},"126294":{"finalPrice":{"amount":59.95}}}}</script>')
-assert extract(ld({"@type": "Product", "name": "Explorer EDP", "offers": [{"price": 47.95, "priceCurrency": "EUR"}]}) + mag, 100, "https://www.perfumeriasavenida.com/explorer-edp-mont-blanc") == (59.95, None, "magento")
+assert extract(ld({"@type": "Product", "name": "Explorer EDP", "offers": [{"price": 47.95, "priceCurrency": "EUR"}]}) + mag, 100, "https://www.perfumeriasavenida.com/explorer-edp-mont-blanc") == (59.95, None, "variantes")
 th1 = '<div data-vue3=\'%s\'></div>' % json.dumps({"props": {"thread": {"threadId": "77", "title": "Hugo Man EDT 125 ml", "price": 29.9, "isExpired": True}}})
 assert parse_chollos(th1)[0]["expired"] is True and parse_chollos(th1)[0]["id"] == 77
 assert parse_chollos('<a href="https://www.chollometro.com/ofertas/hugo-man-edt-125ml-2042605" data-t=\'threadLink\'>')[0]["t"] == "Hugo man edt 125ml"
@@ -117,3 +117,13 @@ assert extract(ld({"@type": "Product", "name": "BOSS BOTTLED", "offers": [{"pric
 assert extract(pc, 30, "https://x")[0] == 37.81 and extract(pc, 200, "https://x")[0] == 74.81
 assert extract('<b>100 ml / 126,03 €</b>', 100, "https://x")[0] is None
 print("OK: precio por 100 ml")
+
+# 14. Douglas: el precio por 100 ml aparece dos veces y no debe pasar por precio de frasco
+dg = ('<span aria-label="Actualmente 51,29 €">51,29 €</span><span aria-label="Precio 341,93 € por 100 mililitro">341,93 €<!-- --> / <!-- -->100<!-- --> <!-- -->ml</span>'
+      '<span aria-label="Actualmente 77,00 €">77,00 €</span><span aria-label="Precio 102,67 € por 100 mililitro">102,67 €<!-- --> / <!-- -->100<!-- --> <!-- -->ml</span>')
+assert extract(dg, 100, "https://www.douglas.es/es/p/1")[0] is None and extract(dg, 75, "https://www.douglas.es/es/p/1")[0] == 77.0 and extract(dg, 15, "https://x")[0] == 51.29
+# 15. Avenida: bloques por tamaño
+av = ''.join('<div class="g" data-child-id="%s" style="display: none;"><div class="main-image"><img src="x.jpg" alt="Terre D&#039;Hermès EDT | %s ml"></div></div>' % (c, m) for c, m in (("126350", 50), ("126349", 100)))
+av += ''.join('<div class="prices" data-child-id="%s" style="display: none;"><span class="original-price">%s€</span><span class="current-price">%s€</span></div>' % x for x in (("126350", "79,00", "61,95"), ("126349", "112,00", "87,95")))
+assert extract(av, 100, "https://www.perfumeriasavenida.com/terre-d-hermes-edt-hermes")[:1] == (87.95,) and extract(av, 50, "https://x")[0] == 61.95
+print("OK: Douglas y Avenida")

@@ -124,16 +124,29 @@ def unit_price(page, ml):
     """Fichas con varios tamaños que muestran precio y precio por 100 ml (Douglas, Perfume's Club, Laguna):
     el tamaño sale de dividir uno entre otro."""
     hits = []
-    for u in UNIT_RE.finditer(page):
+    units = list(UNIT_RE.finditer(page))
+    starts = {u.start() for u in units} | {u.start(2) for u in units if u.group(2)}
+    for u in units:
         unit = to_float(u.group(1) or u.group(2))
-        before = page[max(0, u.start() - 600): u.start()]
-        prices = [to_float(m.group(1)) for m in PRICE_RE.finditer(before)]
+        lo = max(0, u.start() - 600)
+        # los precios por 100 ml no cuentan como precio del frasco
+        prices = [to_float(m.group(1)) for m in PRICE_RE.finditer(page, lo, u.start()) if m.start() not in starts]
         if not unit or not prices or not prices[-1]:
             continue
         p = prices[-1]
         if abs(p / unit * 100 - ml) <= 0.04 * ml:
             hits.append(p)
     return hits[0] if hits else None   # la primera es la del producto; las siguientes pueden ser relacionados
+
+
+def child_price(page, ml):
+    """Avenida: cada tamaño es un bloque data-child-id; la foto dice '| 100 ml' y otro bloque su precio."""
+    for cid in dict.fromkeys(re.findall(r'data-child-id="(\d+)"', page)):
+        alt = re.search(rf'data-child-id="{cid}".{{0,400}}?alt="[^"]*?(\d{{2,3}})\s?ml"', page, re.S)
+        cur = re.search(rf'data-child-id="{cid}"[^>]*>(?:(?!data-child-id).){{0,600}}?current-price[^>]*>\s*([\d.,]+)\s*€', page, re.S)
+        if alt and cur and int(alt.group(1)) == ml:
+            return to_float(cur.group(1))
+    return None
 
 
 def text_window_price(page, ml):
@@ -169,9 +182,9 @@ def extract(page, ml, url):
     if url_ml and len(single) == 1:
         o = next(o for o in offers if not _mls(o[1]))
         return o[0], o[3], "jsonld-url"
-    p = magento_price(page, ml)
+    p = magento_price(page, ml) or child_price(page, ml)
     if p:
-        return p, None, "magento"
+        return p, None, "variantes"
     p = unit_price(page, ml)
     if p:
         return p, None, "precio-100ml"
@@ -351,6 +364,9 @@ def update_perfume(it, get, stats, today):
             continue
         if not ok:
             st["dudoso"] += 1
+            ej = st.setdefault("ejemplos", [])
+            if len(ej) < 3:
+                ej.append({"perfume": it.get("id"), "precio": round(p, 2), "referencia": ref, "metodo": how})
             continue
         st["ok"] += 1
         st[how] = st.get(how, 0) + 1
