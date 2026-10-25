@@ -1,108 +1,140 @@
 {
- "at": "2026-10-25T23:29:40+01:00",
+ "at": "2026-10-25T23:38:07+01:00",
  "revisados": 35,
  "tiendas": {
-  "avenida": {
-   "ok": 3,
+  "idealo": {
+   "ok": 6,
    "bloqueada": 0,
-   "sin_precio": 10,
+   "sin_precio": 0,
    "dudoso": 1,
-   "texto": 3
+   "jsonld-url": 5,
+   "ejemplos": [
+    {
+     "perfume": "creed-silver-mountain-water-edp-100",
+     "precio": 29.9,
+     "referencia": 320.0,
+     "metodo": "texto"
+    }
+   ],
+   "jsonld": 1
   },
-  "laguna": {
-   "ok": 14,
+  "firstinfragrance": {
+   "ok": 6,
    "bloqueada": 0,
-   "sin_precio": 1,
-   "dudoso": 0,
-   "precio-100ml": 3,
-   "jsonld": 5,
-   "jsonld-url": 6
-  },
-  "notino": {
-   "ok": 7,
-   "bloqueada": 23,
    "sin_precio": 0,
    "dudoso": 0,
-   "jsonld": 7
+   "jsonld": 6
+  },
+  "notino": {
+   "ok": 1,
+   "bloqueada": 22,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "jsonld": 1
+  },
+  "sabina": {
+   "ok": 20,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 1,
+   "jsonld": 18,
+   "texto": 1,
+   "ejemplos": [
+    {
+     "perfume": "diptyque-tam-dao-edt-100",
+     "precio": 224.0,
+     "referencia": 146.35,
+     "metodo": "texto"
+    }
+   ],
+   "precio-100ml": 1
   },
   "paco": {
    "ok": 20,
    "bloqueada": 0,
    "sin_precio": 0,
-   "dudoso": 1,
+   "dudoso": 0,
    "jsonld": 20
   },
-  "sabina": {
-   "ok": 24,
-   "bloqueada": 0,
-   "sin_precio": 1,
-   "dudoso": 2,
-   "jsonld": 21,
-   "texto": 1,
-   "precio-100ml": 2
-  },
-  "idealo": {
+  "parejo": {
    "ok": 7,
    "bloqueada": 0,
    "sin_precio": 0,
-   "dudoso": 1,
-   "jsonld-url": 7
+   "dudoso": 0,
+   "jsonld": 7
+  },
+  "laguna": {
+   "ok": 10,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "precio-100ml": 4,
+   "jsonld": 4,
+   "jsonld-url": 2
+  },
+  "avenida": {
+   "ok": 5,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "variantes": 5
   },
   "lookfantastic": {
    "ok": 2,
    "bloqueada": 0,
    "sin_precio": 0,
-   "dudoso": 19,
+   "dudoso": 2,
+   "ejemplos": [
+    {
+     "perfume": "davidoff-cool-water-edt-125",
+     "precio": 3.99,
+     "referencia": 28.45,
+     "metodo": "texto"
+    },
+    {
+     "perfume": "burberry-goddess-edp-100",
+     "precio": 3.99,
+     "referencia": 110.97999999999999,
+     "metodo": "texto"
+    }
+   ],
    "jsonld": 2
   },
-  "douglas": {
-   "ok": 0,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 1
-  },
-  "sephora": {
-   "ok": 0,
-   "bloqueada": 12,
-   "sin_precio": 0,
-   "dudoso": 0
-  },
-  "parejo": {
-   "ok": 9,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 1,
-   "jsonld": 9
-  },
   "perfumesclub": {
-   "ok": 1,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "precio-100ml": 1
-  },
-  "beautinow": {
-   "ok": 0,
-   "bloqueada": 0,
-   "sin_precio": 4,
-   "dudoso": 0
-  },
-  "firstinfragrance": {
    "ok": 4,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "jsonld": 4
+   "precio-100ml": 3,
+   "jsonld": 1
+  },
+  "beautinow": {
+   "ok": 0,
+   "bloqueada": 0,
+   "sin_precio": 2,
+   "dudoso": 0
   },
   "arabicparfums": {
    "ok": 2,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "jsonld": 1,
-   "jsonld-url": 1
+   "jsonld": 2
+  },
+  "sephora": {
+   "ok": 0,
+   "bloqueada": 2,
+   "sin_precio": 0,
+   "dudoso": 0
   }
  },
- "limpiados": {},
+ "limpiados": {
+  "burberry-hero-edt-100": [
+   "lookfantastic"
+  ],
+  "carolina-herrera-very-good-girl-edp-80": [
+   "notino"
+  ]
+ },
  "chollometro": "ok 86"
 }
