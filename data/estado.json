@@ -1,59 +1,90 @@
 {
- "at": "2026-10-25T23:06:59+01:00",
+ "at": "2026-10-25T23:18:57+01:00",
  "revisados": 35,
  "tiendas": {
-  "firstinfragrance": {
+  "avenida": {
+   "ok": 2,
+   "bloqueada": 0,
+   "sin_precio": 15,
+   "dudoso": 1,
+   "texto": 2
+  },
+  "laguna": {
+   "ok": 16,
+   "bloqueada": 0,
+   "sin_precio": 1,
+   "dudoso": 3,
+   "texto": 3,
+   "jsonld": 4,
+   "jsonld-url": 9
+  },
+  "lookfantastic": {
+   "ok": 3,
+   "bloqueada": 0,
+   "sin_precio": 1,
+   "dudoso": 11,
+   "jsonld": 3
+  },
+  "notino": {
+   "ok": 1,
+   "bloqueada": 22,
+   "sin_precio": 0,
+   "dudoso": 1,
+   "jsonld": 1
+  },
+  "paco": {
+   "ok": 27,
+   "bloqueada": 0,
+   "sin_precio": 2,
+   "dudoso": 1,
+   "jsonld": 27
+  },
+  "perfumesclub": {
+   "ok": 0,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 4
+  },
+  "sabina": {
+   "ok": 27,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 3,
+   "jsonld": 23,
+   "texto": 4
+  },
+  "sephora": {
+   "ok": 0,
+   "bloqueada": 9,
+   "sin_precio": 0,
+   "dudoso": 0
+  },
+  "makeup": {
+   "ok": 0,
+   "bloqueada": 0,
+   "sin_precio": 3,
+   "dudoso": 0
+  },
+  "idealo": {
    "ok": 3,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "jsonld": 3
+   "jsonld-url": 2,
+   "jsonld": 1
   },
-  "notino": {
-   "ok": 4,
-   "bloqueada": 27,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "jsonld": 4
-  },
-  "sabina": {
-   "ok": 21,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "jsonld": 19,
-   "texto": 2
-  },
-  "avenida": {
-   "ok": 4,
-   "bloqueada": 0,
-   "sin_precio": 14,
-   "dudoso": 0,
-   "texto": 2,
-   "jsonld": 2
-  },
-  "paco": {
-   "ok": 23,
+  "douglas": {
+   "ok": 0,
    "bloqueada": 0,
    "sin_precio": 1,
-   "dudoso": 0,
-   "jsonld": 23
+   "dudoso": 0
   },
   "parejo": {
-   "ok": 11,
+   "ok": 7,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 1,
-   "jsonld": 11
-  },
-  "laguna": {
-   "ok": 15,
-   "bloqueada": 0,
-   "sin_precio": 1,
-   "dudoso": 4,
-   "jsonld-url": 7,
-   "jsonld": 6,
-   "texto": 2
+   "jsonld": 7
   },
   "brasty": {
    "ok": 2,
@@ -62,33 +93,7 @@
    "dudoso": 0,
    "jsonld": 2
   },
-  "lookfantastic": {
-   "ok": 2,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 20,
-   "jsonld": 2
-  },
-  "sephora": {
-   "ok": 0,
-   "bloqueada": 8,
-   "sin_precio": 0,
-   "dudoso": 0
-  },
-  "beautinow": {
-   "ok": 0,
-   "bloqueada": 0,
-   "sin_precio": 3,
-   "dudoso": 0
-  },
-  "perfumesclub": {
-   "ok": 2,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "texto": 2
-  },
-  "arabicparfums": {
+  "firstinfragrance": {
    "ok": 1,
    "bloqueada": 0,
    "sin_precio": 0,
@@ -96,28 +101,6 @@
    "jsonld": 1
   }
  },
- "limpiados": {
-  "guerlain-shalimar-edp-90": [
-   "perfumesclub"
-  ],
-  "issey-miyake-l-eau-d-issey-edt-100": [
-   "notino"
-  ],
-  "issey-miyake-l-eau-d-issey-pour-homme-edt-125": [
-   "notino"
-  ],
-  "jean-paul-gaultier-gaultier-divine-edp-100": [
-   "laguna"
-  ],
-  "jean-paul-gaultier-le-beau-edt-125": [
-   "perfumesclub"
-  ],
-  "jean-paul-gaultier-le-male-edt-125": [
-   "laguna"
-  ],
-  "jean-paul-gaultier-le-male-elixir-absolu-parfum-125": [
-   "laguna"
-  ]
- },
- "chollometro": "0 encontrados"
+ "limpiados": {},
+ "chollometro": "ok 86"
 }
