@@ -59,8 +59,22 @@ it = {"brand": "Hugo Boss", "name": "Boss Bottled", "ml": 100, "urls": {"notino"
       "prices": {"laguna": {"p": 45.0, "d": "2026-10-01"}}, "history": []}
 stats = {}
 radar.update_perfume(it, lambda u: pages[u], stats, "2026-10-25")
-assert it["prices"]["notino"] == {"p": 52.5, "d": "2026-10-25", "auto": True, "stock": False}
+assert it["prices"]["notino"] == {"p": 52.5, "d": "2026-10-25", "auto": True, "gh": True, "stock": False}
 assert it["prices"]["laguna"]["p"] == 45.0          # 9,99 € descartado por absurdo
 assert stats["sephora"]["bloqueada"] == 1 and stats["laguna"]["dudoso"] == 1 and "primor" not in stats
 assert it["history"] == [] and it["checked"]        # agotado no entra en el histórico
 print("OK: pasada simulada")
+
+# 9. Limpieza de precios disparatados y bandas por método
+it = {"prices": {"a": {"p": 75.95, "auto": True}, "b": {"p": 74.0, "auto": True}, "c": {"p": 132.1, "auto": True, "gh": True}, "n": {"p": 130, "auto": True, "d": "2026-10-12"}, "m": {"p": 76, "auto": False}},
+      "history": [{"d": "x", "s": "c", "p": 132.1}, {"d": "x", "s": "a", "p": 75.95}]}
+assert radar.clean_outliers(it, "x") == ["c"] and "c" not in it["prices"] and "m" in it["prices"] and "n" in it["prices"] and len(it["history"]) == 1
+assert not plausible(64.95, 94.95, "texto") and plausible(64.95, 94.95, "jsonld") and not plausible(30, None, "texto")
+print("OK: limpieza")
+
+# 10. Prueba de tiendas
+ok = radar.probe_page(lambda u: R(200, "<title>Boss</title>" + "Boss Bottled 49,95 € " * 4), "https://t.es")
+bl = radar.probe_page(lambda u: R(403, "Access denied"), "https://t.es")
+cap = radar.probe_page(lambda u: R(200, "<div class=g-recaptcha>captcha</div>"), "https://t.es")
+assert ok["estado"] == "con precios" and bl["estado"] == "bloqueada" and cap["estado"] == "bloqueada"
+print("OK: prueba de tiendas")
