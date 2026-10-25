@@ -1,0 +1,679 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Radar de Perfumes</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,500;6..96,700&family=Manrope:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: masthead + key figures, filter rail, then a grid of perfume cards (illustration, profile, price, history); shop ledger folds out per card. */
+:root{
+  --bg:#f4f2ee; --surface:#fdfcfa; --sunk:#efebe4; --line:#ddd7cc; --fg:#211e1a; --muted:#6d675d;
+  --accent:#9c5a17; --accent-soft:#f3e4cf; --good:#2c7a4c; --good-soft:#dcefe2; --warn:#a6461f;
+  --hot:#e8590c; --hot-in:#ffc078; --hot-soft:#fff1e6; --spring:#5f8f3e; --summer:#c58a12; --autumn:#b0532a; --winter:#3f6f9c;
+  --display:"Bodoni Moda",Georgia,"Times New Roman",serif;
+  --body:"Manrope",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --mono:"IBM Plex Mono",ui-monospace,Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#151412; --surface:#1e1c19; --sunk:#26231f; --line:#37332d; --fg:#ece7df; --muted:#a49d91;
+  --accent:#e2a65e; --accent-soft:#3a2b19; --good:#6fc694; --good-soft:#1c3226; --warn:#e88a62;
+  --spring:#94c46f; --summer:#e8b84a; --autumn:#e08a5e; --winter:#7fb0e0; --hot:#ff8a3d; --hot-in:#ffd8a8; --hot-soft:#3a2416; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#151412; --surface:#1e1c19; --sunk:#26231f; --line:#37332d; --fg:#ece7df; --muted:#a49d91;
+  --accent:#e2a65e; --accent-soft:#3a2b19; --good:#6fc694; --good-soft:#1c3226; --warn:#e88a62;
+  --spring:#94c46f; --summer:#e8b84a; --autumn:#e08a5e; --winter:#7fb0e0; --hot:#ff8a3d; --hot-in:#ffd8a8; --hot-soft:#3a2416; color-scheme:dark}
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+body{background:var(--bg);color:var(--fg);font:15px/1.5 var(--body);padding-inline:16px;padding-block:28px 56px}
+.wrap{max-width:1200px;margin:0 auto;display:grid;gap:22px}
+header{display:grid;gap:6px}
+.eyebrow{font-size:11px;text-transform:uppercase;letter-spacing:.14em;color:var(--accent);font-weight:700}
+h1{font:700 clamp(34px,6vw,54px)/1 var(--display);margin:0;letter-spacing:-.015em;text-wrap:balance}
+.sub{color:var(--muted);margin:4px 0 0;max-width:64ch}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px}
+.stat{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:12px 14px;min-width:0}
+.stat b{display:block;font:500 24px var(--mono);font-variant-numeric:tabular-nums}
+.stat span{font-size:11px;text-transform:uppercase;letter-spacing:.08em;color:var(--muted);font-weight:600}
+.stat small{display:block;color:var(--muted);font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.filters{display:grid;gap:10px}
+.bar{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.chip{border:1px solid var(--line);background:var(--surface);color:var(--fg);border-radius:999px;padding:6px 14px;font:600 13px var(--body);cursor:pointer}
+.chip[aria-pressed="true"]{background:var(--fg);color:var(--bg);border-color:var(--fg)}
+input,select,button{font:inherit;color:inherit}
+input,select{background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:7px 10px;min-width:0}
+input:focus-visible,select:focus-visible,button:focus-visible,a:focus-visible,summary:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+#q{flex:1 1 200px}
+.btn{border:1px solid var(--accent);background:var(--accent);color:var(--bg);border-radius:8px;padding:7px 14px;font-weight:600;cursor:pointer}
+.btn.ghost{background:transparent;color:var(--accent)}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(330px,1fr));gap:16px;align-items:start}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:14px;overflow:hidden;display:grid;min-width:0}
+.card.hit{border-color:var(--good);box-shadow:0 0 0 1px var(--good)}
+.sizes{display:flex;flex-wrap:wrap;gap:6px;margin:8px 0 4px}
+.sz{border:1px solid var(--line);background:transparent;color:var(--muted);border-radius:999px;padding:4px 11px;font:500 12px var(--mono);cursor:pointer;line-height:1.2}
+.sz:hover{border-color:var(--accent);color:var(--fg)}
+.sz.on{background:var(--accent);border-color:var(--accent);color:var(--bg)}
+.sz.new{border-style:dashed;opacity:.65}
+.top{display:grid;grid-template-columns:96px 1fr;gap:14px;padding:16px 16px 12px}
+.art{border-radius:10px;display:grid;place-items:center;aspect-ratio:3/4;max-width:100%}
+.art svg{width:74%;height:auto}
+.id{min-width:0;display:grid;gap:4px;align-content:start}
+.brand{font-size:10.5px;text-transform:uppercase;letter-spacing:.1em;color:var(--muted);font-weight:700}
+.name{font:600 21px/1.12 var(--display);margin:0;text-wrap:balance}
+.fmt{font:12px var(--mono);color:var(--muted)}
+.family{font-size:13px;color:var(--fg)}
+.notes{font-size:12.5px;color:var(--muted)}
+.body{padding:0 16px 16px;display:grid;gap:12px}
+.seasons{display:flex;gap:6px;flex-wrap:wrap}
+.ss{font:600 11.5px var(--body);padding:3px 9px;border-radius:999px;border:1px solid var(--line);color:var(--muted)}
+.ss.on{color:var(--surface);border-color:transparent}
+.ss.on.Primavera{background:var(--spring)} .ss.on.Verano{background:var(--summer)} .ss.on.Otoño{background:var(--autumn)} .ss.on.Invierno{background:var(--winter)}
+.ss.use{border-style:dashed}
+.meters{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
+.meter{min-width:0}
+.meter span{display:block;font-size:10.5px;text-transform:uppercase;letter-spacing:.07em;color:var(--muted);font-weight:600;margin-bottom:4px}
+.dots{display:flex;gap:3px}
+.dots i{height:6px;flex:1;border-radius:3px;background:var(--sunk)}
+.dots i.f{background:var(--fg)}
+.meter.value .dots i.f{background:var(--good)}
+.meter b{font:500 12px var(--mono);color:var(--muted)}
+.price{display:flex;align-items:baseline;justify-content:space-between;gap:10px;flex-wrap:wrap;border-top:1px solid var(--line);padding-top:12px}
+.price .big{font:500 30px/1 var(--mono);font-variant-numeric:tabular-nums}
+.price .where{font-size:13px;color:var(--muted);text-align:right}
+.pills{display:flex;gap:6px;flex-wrap:wrap}
+.pill{display:inline-block;font:600 11px var(--body);letter-spacing:.03em;padding:3px 9px;border-radius:999px;background:var(--accent-soft);color:var(--accent)}
+.pill.good{background:var(--good-soft);color:var(--good)}
+.row{display:flex;gap:10px;align-items:center;flex-wrap:wrap;font-size:13px;color:var(--muted)}
+.row input{width:90px}
+svg.spark{width:100%;height:42px;display:block}
+details summary{cursor:pointer;font-size:13px;font-weight:600;color:var(--accent)}
+.tbl{overflow-x:auto;margin-top:8px}
+table{width:100%;border-collapse:collapse;font-size:13px;font-variant-numeric:tabular-nums}
+td,th{padding:6px 4px;border-bottom:1px solid var(--line);text-align:left;white-space:nowrap}
+th{font-size:10.5px;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);font-weight:600}
+tr.best td{background:var(--good-soft)}
+td.p{font-family:var(--mono)}
+td input{width:76px;padding:4px 6px}
+td button{border:1px solid var(--line);background:transparent;border-radius:6px;padding:3px 8px;cursor:pointer;font-size:12px}
+a{color:var(--accent)}
+.tag{font-size:10px;text-transform:uppercase;letter-spacing:.06em;color:var(--muted)}
+.empty{padding:28px;border:1px dashed var(--line);border-radius:12px;color:var(--muted)}
+form.add{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:8px;background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:14px}
+.foot{font-size:12px;color:var(--muted);max-width:90ch}
+.del{background:none;border:none;color:var(--warn);cursor:pointer;font-size:12px;padding:0}
+.web{background:var(--surface);border:1px solid var(--accent);border-radius:12px;padding:14px 16px;display:grid;gap:10px}
+.web h2{font:600 18px var(--display);margin:0}
+.links{display:flex;flex-wrap:wrap;gap:8px}
+.links a{border:1px solid var(--line);border-radius:999px;padding:6px 12px;font-weight:600;font-size:13px;text-decoration:none;background:var(--bg)}
+.chollos{display:grid;gap:10px;min-width:0}
+.chhead{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap}
+.chhead h2{font:600 20px var(--display);margin:0;display:flex;align-items:center;gap:8px}
+.chsrc{font:500 13px var(--body);color:var(--muted)}
+.flame{width:18px;height:18px;flex:none;align-self:center}
+.chhead .tag{margin-left:auto}
+.chtoggle{border:none;background:none;color:var(--accent);font:600 13px var(--body);cursor:pointer;padding:0}
+.chlist{display:flex;gap:10px;overflow-x:auto;scroll-snap-type:x mandatory;padding-bottom:6px;min-width:0}
+.chlist{scrollbar-width:thin;scrollbar-color:var(--line) transparent}
+.chlist:hover{scrollbar-color:var(--accent) transparent}
+.chlist::-webkit-scrollbar{height:6px}
+.chlist::-webkit-scrollbar-track{background:transparent}
+.chlist::-webkit-scrollbar-thumb{background:var(--line);border-radius:999px}
+.chlist:hover::-webkit-scrollbar-thumb{background:var(--accent)}
+.chlist.all{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));overflow:visible}
+.ch{flex:0 0 200px;scroll-snap-align:start;background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:10px 12px;display:grid;gap:6px;text-decoration:none;color:var(--fg);min-width:0}
+.ch:hover{border-color:var(--accent)}
+.ch.mine{border-color:var(--good);box-shadow:0 0 0 1px var(--good)}
+.ch .t{font-size:13px;font-weight:600;line-height:1.3;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.ch .m{display:flex;align-items:baseline;justify-content:space-between;gap:6px;font-size:12px;color:var(--muted);min-width:0}
+.ch .m b{font:500 16px var(--mono);color:var(--fg);font-variant-numeric:tabular-nums}
+.ch.mine .m span{color:var(--good);font-weight:600}
+.ch .m span{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.frow{display:grid;grid-template-columns:84px 1fr;gap:8px;align-items:center}
+.flabel{font-size:10.5px;text-transform:uppercase;letter-spacing:.09em;color:var(--muted);font-weight:700}
+.chip.season{--c:var(--muted);border-color:var(--c);color:var(--c);background:transparent}
+.chip.season.Primavera{--c:var(--spring)} .chip.season.Verano{--c:var(--summer)} .chip.season.Otoño{--c:var(--autumn)} .chip.season.Invierno{--c:var(--winter)}
+.chip.season[aria-pressed="true"]{background:var(--c);color:var(--surface);border-color:var(--c)}
+.chip.season.Todas[aria-pressed="true"]{background:var(--fg);color:var(--bg);border-color:var(--fg)}
+.chip.season span{pointer-events:none}
+@media (max-width:520px){.frow{grid-template-columns:1fr;gap:4px}}
+.filters{display:grid;gap:10px;background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:12px}
+.filters #q{width:100%}
+.tools{display:flex;flex-wrap:wrap;gap:10px 14px;align-items:center}
+.tools.sub2{border-top:1px solid var(--line);padding-top:10px}
+.seg{display:inline-flex;flex-wrap:wrap;gap:4px;background:var(--bg);border:1px solid var(--line);border-radius:999px;padding:3px}
+.seg .chip{border:none;background:transparent;padding:5px 12px}
+.seg .chip[aria-pressed="true"]{background:var(--fg);color:var(--bg)}
+.seg .chip.season[aria-pressed="false"]{background:transparent}
+.bgroups{display:grid;gap:8px;border-top:1px solid var(--line);padding-top:10px}
+.bg{display:grid;grid-template-columns:84px 1fr;gap:8px;align-items:start}
+.bg .flabel{padding-top:8px}
+.bg .bar{gap:6px}
+.bchip{padding:4px 11px;font-size:12.5px}
+.bchip small{color:var(--muted);font:500 11px var(--mono);margin-left:2px}
+.bchip[aria-pressed="true"] small{color:inherit;opacity:.7}
+@media (max-width:520px){.bg{grid-template-columns:1fr;gap:4px}.bg .flabel{padding-top:0}}
+.fsel{display:inline-flex;align-items:center;gap:8px}
+.fsel select{min-width:190px}
+.count{font-size:13px;color:var(--muted);margin-right:auto}
+#sort{margin-left:auto}
+.ok{color:var(--good);font-weight:600}
+@media (max-width:640px){.list .hide-s{display:none}.fsel select{min-width:0;max-width:60vw}}
+ul.deals{margin:4px 0 0;padding-left:18px;font-size:13px}
+#toast{position:fixed;left:50%;transform:translateX(-50%);bottom:calc(16px + env(safe-area-inset-bottom,0px));background:var(--fg);color:var(--bg);padding:8px 14px;border-radius:8px;font-size:13px}
+@media (max-width:420px){.top{grid-template-columns:76px 1fr}.meters{gap:8px}}
+@media (prefers-reduced-motion:no-preference){.card{transition:border-color .2s,transform .2s}.card:hover{transform:translateY(-2px)}}
+</style>
+</head>
+<body>
+
+
+<div class="wrap">
+  <header>
+    <span class="eyebrow">Comparador y rastreador</span>
+    <h1>Radar de Perfumes</h1>
+    <p class="sub">Precios de 200 perfumes de diseñador, nicho y árabes, y de los que añadas, revisados cada media hora en trece perfumerías online de España y Europa y en Chollometro. Cada ficha te dice para qué temporada va, cuánto dura y si su precio compensa.</p>
+  </header>
+  <div class="stats" id="stats"></div>
+  <section class="chollos" id="chollos" aria-labelledby="chTitle">
+    <div class="chhead"><h2 id="chTitle"><svg class="flame" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2c1 3.5 5 5.6 5 10.6A5 5 0 0 1 12 18a5 5 0 0 1-5-5.4c0-2.3 1.2-3.8 2.4-5 .2 1.7.9 2.8 2 3.4C11 8.6 11.2 5 12 2z" fill="var(--accent)"/><path d="M12 11c.8 1.6 2.6 2.4 2.6 4.4a2.6 2.6 0 0 1-5.2 0c0-1.2.7-2 1.4-2.6.1.7.5 1.1 1 1.3-.2-1.1 0-2.2.2-3.1z" fill="var(--accent-soft)"/></svg>Chollos de perfumes <span class="chsrc">vía Chollometro</span></h2><span class="tag" id="chUpd"></span><button class="chtoggle" type="button" id="chMore" hidden>Ver todos</button></div>
+    <div class="chlist" id="chlist"></div>
+  </section>
+  <div class="filters">
+    <input id="q" type="search" placeholder="Busca cualquier perfume, nota o familia, en tu lista o en internet…" aria-label="Buscar perfume">
+    <div class="tools">
+      <div class="seg" id="tiers" role="group" aria-label="Tipo"></div>
+      <div class="seg" id="genders" role="group" aria-label="Para quién"></div>
+      <div class="seg" id="seasons" role="group" aria-label="Temporada"></div>
+    </div>
+    <div class="bgroups" id="brands"></div>
+    <div class="tools sub2">
+      <span class="count" id="count"></span>
+      <select id="sort" aria-label="Ordenar">
+        <option value="value">Mejor calidad/precio</option>
+        <option value="target">Más cerca de mi objetivo</option>
+        <option value="price">Precio más bajo</option>
+        <option value="ml">Precio por 100 ml</option>
+        <option value="name">Nombre</option>
+      </select>
+      <button class="btn ghost" id="toggleAdd" type="button">Añadir perfume</button>
+    </div>
+  </div>
+  <form class="add" id="addForm" hidden>
+    <input id="fBrand" list="brandList" placeholder="Marca" required>
+    <datalist id="brandList"></datalist>
+    <input id="fName" placeholder="Nombre (p. ej. Boss Bottled)" required>
+    <select id="fConc"><option>EDT</option><option>EDP</option><option>Parfum</option><option>Elixir</option><option>Colonia</option></select>
+    <input id="fMl" type="number" min="5" step="1" placeholder="ml" required>
+    <input id="fTarget" type="number" min="0" step="0.01" placeholder="Objetivo €">
+    <button class="btn" type="submit">Guardar</button>
+  </form>
+  <div class="web" id="web" hidden></div>
+  <div class="grid" id="grid"><div class="empty">Cargando la lista de perfumes…</div></div>
+  <p class="foot">Precio de tienda sin envío. En Notino puede incluir un código de descuento general, indicado en la nota. Las ilustraciones son orientativas, no fotos del frasco real; la foto está en la ficha de cada tienda. Duración y estela son valoraciones generales de cada perfume (1 a 5). La nota de calidad/precio compara duración y estela con el mejor precio por 100 ml, entre los perfumes de esta lista.</p>
+</div>
+<div id="toast" hidden></div>
+
+<script>
+const SHOPS=[
+  {id:'notino',n:'Notino',auto:true,s:q=>'https://www.notino.es/search.asp?exps='+q},
+  {id:'perfumesclub',n:"Perfume's Club",auto:true,s:q=>'https://www.google.com/search?q=site%3Aperfumesclub.com+'+q},
+  {id:'sephora',n:'Sephora',auto:true,s:q=>'https://www.google.com/search?q=site%3Asephora.es+'+q},
+  {id:'lookfantastic',n:'Lookfantastic',auto:true,s:q=>'https://www.google.com/search?q=site%3Alookfantastic.es+'+q},
+  {id:'laguna',n:'Perfumerías Laguna',auto:true,s:q=>'https://www.google.com/search?q=site%3Aperfumeriaslaguna.com+'+q},
+  {id:'paco',n:'Paco Perfumerías',auto:true,s:q=>'https://www.google.com/search?q=site%3Apacoperfumerias.com+'+q},
+  {id:'sabina',n:'Sabina',auto:true,s:q=>'https://www.google.com/search?q=site%3Asabina.com+'+q},
+  {id:'parejo',n:'Joyería Parejo',auto:true,s:q=>'https://www.google.com/search?q=site%3Ajoyeriaparejo.com+'+q},
+  {id:'avenida',n:'Perfumerías Avenida',auto:true,s:q=>'https://www.google.com/search?q=site%3Aperfumeriasavenida.com+'+q},
+  {id:'brasty',n:'Brasty',auto:true,s:q=>'https://www.google.com/search?q=site%3Abrasty.es+'+q},
+  {id:'beautinow',n:'Beautinow',auto:true,eu:'Países Bajos',s:q=>'https://www.google.com/search?q=site%3Abeautinow.com+'+q},
+  {id:'arabicparfums',n:'Arabic Parfums',auto:true,s:q=>'https://arabicparfums.com/search?q='+q},
+  {id:'firstinfragrance',n:'First in Fragrance',auto:true,eu:'Alemania',s:q=>'https://www.google.com/search?q=site%3Aausliebezumduft.de+'+q},
+  {id:'coqueteo',n:'Perfumerías Coqueteo',s:q=>'https://www.google.com/search?q=site%3Aperfumeriascoqueteo.com+'+q},
+  {id:'marvimundo',n:'Marvimundo',s:q=>'https://www.google.com/search?q=site%3Amarvimundo.com+'+q},
+  {id:'arenal',n:'Arenal',s:q=>'https://www.google.com/search?q=site%3Aarenal.com+'+q},
+  {id:'primor',n:'Primor',s:q=>'https://www.google.com/search?q=site%3Aprimor.eu+'+q},
+  {id:'druni',n:'Druni',s:q=>'https://www.google.com/search?q=site%3Adruni.es+'+q},
+  {id:'julia',n:'Perfumes Julia',s:q=>'https://www.google.com/search?q=site%3Aperfumesjulia.com+'+q},
+  {id:'eci',n:'El Corte Inglés',s:q=>'https://www.google.com/search?q=site%3Aelcorteingles.es+'+q},
+  {id:'amazon',n:'Amazon',s:q=>'https://www.amazon.es/s?k='+q},
+];
+// Datos incluidos en el propio archivo (instantánea). Se usan cuando la página no está abierta en Claude.
+let SNAPSHOT_DATE=null,ESTADO=null;
+let SNAPSHOT=[];  // se carga de data/perfumes.json
+let SNAPSHOT_CHOLLOS={items:[]};
+const SHOP=Object.fromEntries(SHOPS.map(s=>[s.id,s]));
+const SEASONS=['Primavera','Verano','Otoño','Invierno'];
+// Reference profiles: family, key notes, seasons, use, duration and sillage (1-5), illustration shape and colors.
+const P=(g,fam,notes,se,use,dur,sil,shape,liq,cap)=>({g,fam,notes,se,use,dur,sil,shape,liq,cap});
+const PROFILES={
+ 'burberry-goddess-edp-100':P("Mujer","Gourmand aromática","Lavanda, vainilla, cacao",["Otoño", "Invierno"],"Diario y noche",4,4,'tall','#d8b98a','#c9a24e'),
+ 'carolina-herrera-la-bomba-edp-80':P("Mujer","Floral","Pitahaya, peonía, vainilla",["Primavera", "Otoño"],"Noche",4,3,'bust','#c8344a','#c9a24e'),
+ 'rabanne-olympea-edp-80':P("Mujer","Oriental salada","Mandarina verde, vainilla salada, jazmín",["Otoño", "Invierno"],"Noche",4,4,'bust','#e9e2d6','#c9a24e'),
+ 'rabanne-invictus-victory-elixir-parfum-100':P("Hombre","Ámbar especiada","Cardamomo, incienso, vainilla",["Invierno"],"Noche y frío",5,5,'flask','#2a2a2e','#c9a24e'),
+ 'prada-luna-rossa-ocean-edt-100':P("Hombre","Aromática","Bergamota, iris, ante",["Primavera", "Verano"],"Diario",3,3,'flask','#2f4f7a','#c0c4c8'),
+ 'prada-candy-edp-80':P("Mujer","Gourmand","Caramelo, almizcle, benjuí",["Otoño", "Invierno"],"Noche",4,4,'block','#d98a9a','#c9a24e'),
+ 'gucci-bloom-edp-100':P("Mujer","Floral","Nardo, jazmín, madreselva",["Primavera", "Verano"],"Diario",4,3,'block','#efc6cf','#d9d9d9'),
+ 'gucci-guilty-pour-homme-edt-90':P("Hombre","Aromática","Lavanda, limón, cedro",["Primavera", "Verano"],"Diario",3,3,'block','#3a3c44','#c0c4c8'),
+ 'gucci-flora-gorgeous-gardenia-edp-100':P("Mujer","Floral frutal","Pera, gardenia, azúcar moreno",["Primavera", "Verano"],"Diario",4,3,'bust','#f2d6dc','#c9a24e'),
+ 'dolce-gabbana-devotion-edp-100':P("Mujer","Gourmand floral","Azahar, limón confitado, vainilla",["Otoño", "Invierno"],"Noche",4,3,'bust','#e6d2b0','#c9a24e'),
+ 'dolce-gabbana-the-one-edp-75':P("Mujer","Floral oriental","Melocotón, lirio, vainilla",["Otoño", "Invierno"],"Noche",4,3,'block','#e2c26a','#c9a24e'),
+ 'armani-acqua-di-gio-parfum-parfum-125':P("Hombre","Aromática acuática","Notas marinas, salvia, incienso",["Primavera", "Verano", "Otoño"],"Diario",4,4,'flask','#1f2f4a','#c0c4c8'),
+ 'armani-stronger-with-you-absolutely-parfum-100':P("Hombre","Ámbar gourmand","Ron, castaña, vainilla",["Invierno"],"Noche y frío",5,4,'block','#5a2a20','#7a7c82'),
+ 'hugo-boss-boss-the-scent-for-her-edp-100':P("Mujer","Floral frutal","Melocotón, osmanthus, cacao",["Otoño", "Invierno"],"Noche",4,3,'bust','#e9c2a8','#c9a24e'),
+ 'hugo-boss-boss-orange-man-edt-100':P("Hombre","Amaderada especiada","Manzana, vainilla, incienso",["Primavera", "Otoño"],"Diario",3,3,'block','#d9732a','#3a3c44'),
+ 'dior-sauvage-parfum-parfum-100':P("Hombre","Amaderada ámbar","Mandarina, sándalo, haba tonka",["Otoño", "Invierno"],"Noche",5,4,'block','#1d2a44','#3a3c44'),
+ 'dior-dior-homme-edt-100':P("Hombre","Amaderada","Iris, vetiver, cuero",["Primavera", "Otoño"],"Oficina",4,3,'block','#2b2b30','#c0c4c8'),
+ 'dior-hypnotic-poison-edt-100':P("Mujer","Oriental gourmand","Almendra, jazmín, vainilla",["Otoño", "Invierno"],"Noche",5,4,'bust','#8a1f2a','#c0c4c8'),
+ 'yves-saint-laurent-mon-paris-edp-90':P("Mujer","Chipre frutal","Fresa, peonía, pachulí",["Primavera", "Otoño"],"Noche",4,4,'bust','#efc6cf','#2b2a2a'),
+ 'yves-saint-laurent-l-homme-edt-100':P("Hombre","Amaderada especiada","Jengibre, bergamota, cedro",["Primavera", "Otoño"],"Oficina",3,3,'block','#3a3c44','#c0c4c8'),
+ 'yves-saint-laurent-libre-intense-edp-90':P("Mujer","Floral oriental","Lavanda, orquídea, vainilla",["Otoño", "Invierno"],"Noche",5,4,'tall','#d9a640','#2b2a2a'),
+ 'chanel-bleu-de-chanel-parfum-parfum-100':P("Hombre","Amaderada aromática","Limón, sándalo, cedro",["Primavera", "Verano", "Otoño", "Invierno"],"Diario y noche",5,4,'block','#1f2a44','#1d1d1f'),
+ 'chanel-gabrielle-edp-100':P("Mujer","Floral","Tuberosa, jazmín, ylang-ylang",["Primavera", "Verano"],"Diario",4,3,'block','#efe6d6','#c9a24e'),
+ 'chanel-chance-edt-100':P("Mujer","Chipre floral","Pimienta rosa, jazmín, pachulí",["Primavera", "Verano", "Otoño"],"Diario",4,3,'flask','#efc6cf','#d9d9d9'),
+ 'lancome-la-nuit-tresor-edp-100':P("Mujer","Gourmand oriental","Frambuesa, rosa, vainilla",["Otoño", "Invierno"],"Noche",5,4,'bust','#2a1a2a','#c9a24e'),
+ 'givenchy-irresistible-edp-80':P("Mujer","Floral frutal","Pera, rosa, almizcle",["Primavera", "Verano"],"Diario",3,3,'bust','#f2c6cf','#c0c4c8'),
+ 'givenchy-pi-edt-100':P("Hombre","Oriental amaderada","Mandarina, almendra, vainilla",["Otoño", "Invierno"],"Noche",4,3,'flask','#2a3f6a','#c0c4c8'),
+ 'marc-jacobs-daisy-edt-100':P("Mujer","Floral frutal","Fresa, violeta, almizcle",["Primavera", "Verano"],"Día",3,2,'bust','#f2e9e0','#d9d9d9'),
+ 'nina-ricci-nina-edt-80':P("Mujer","Floral frutal","Manzana, praliné, almizcle",["Primavera", "Verano"],"Diario",3,3,'bust','#c8202c','#c0c4c8'),
+ 'calvin-klein-euphoria-edp-100':P("Mujer","Oriental floral","Granada, orquídea, ámbar",["Otoño", "Invierno"],"Noche",4,3,'flask','#6a2a5a','#c0c4c8'),
+ 'versace-eros-pour-femme-edp-100':P("Mujer","Floral amaderada","Limón, jazmín, sándalo",["Primavera", "Otoño"],"Noche",4,3,'tall','#e9e2d6','#c9a24e'),
+ 'versace-crystal-noir-edt-90':P("Mujer","Oriental floral","Gardenia, coco, ámbar",["Otoño", "Invierno"],"Noche",4,3,'bust','#1d1d1f','#c9a24e'),
+ 'kenzo-flower-by-kenzo-edp-100':P("Mujer","Floral atalcada","Amapola, violeta, vainilla",["Primavera", "Otoño"],"Diario",4,3,'tall','#e9c2cf','#d9d9d9'),
+ 'hermes-twilly-d-hermes-edp-85':P("Mujer","Floral especiada","Jengibre, tuberosa, sándalo",["Primavera", "Otoño"],"Diario",4,3,'bust','#e9a24e','#d9d9d9'),
+ 'tom-ford-black-orchid-edp-100':P("Unisex","Oriental floral","Trufa, orquídea negra, pachulí",["Otoño", "Invierno"],"Noche",5,4,'block','#1d1d1f','#c9a24e'),
+ 'tom-ford-lost-cherry-edp-50':P("Unisex","Gourmand frutal","Cereza, almendra, haba tonka",["Otoño", "Invierno"],"Noche",4,4,'block','#7a1020','#1d1d1f'),
+ 'creed-viking-edp-100':P("Hombre","Aromática especiada","Pimienta rosa, menta, sándalo",["Primavera", "Otoño"],"Diario",4,3,'tall','#3a3f44','#c0c4c8'),
+ 'parfums-de-marly-herod-edp-125':P("Hombre","Oriental especiada","Tabaco, canela, vainilla",["Invierno"],"Noche y frío",5,4,'tall','#7a4a24','#c9a24e'),
+ 'maison-francis-kurkdjian-baccarat-rouge-540-extrait-parfum-70':P("Unisex","Ámbar floral","Almendra amarga, azafrán, ámbar",["Primavera", "Verano", "Otoño", "Invierno"],"Noche",5,5,'block','#b0202c','#c9a24e'),
+ 'nishane-hacivat-parfum-50':P("Unisex","Chipre frutal","Piña, pomelo, musgo de roble",["Primavera", "Verano"],"Diario",5,4,'block','#2b2b30','#c9a24e'),
+ 'amouage-guidance-edp-100':P("Unisex","Floral ámbar","Pera, avellana, incienso",["Otoño", "Invierno"],"Noche",5,5,'flask','#d9c9a8','#c9a24e'),
+ 'jo-malone-wood-sage-sea-salt-edc-100':P("Unisex","Amaderada marina","Salvia, sal marina, ambrette",["Primavera", "Verano"],"Día",2,2,'block','#efeae2','#1d1d1f'),
+ 'ariana-grande-cloud-edp-100':P("Mujer","Gourmand","Lavanda, coco, praliné",["Primavera", "Verano", "Otoño", "Invierno"],"Diario",4,3,'bust','#cfe0f0','#d9d9d9'),
+ 'lattafa-khamrah-qahwa-edp-100':P("Unisex","Gourmand especiada","Café, canela, praliné",["Otoño", "Invierno"],"Noche y frío",4,4,'bust','#4a2a1a','#c9a24e'),
+ 'lattafa-fakhar-black-edp-100':P("Hombre","Aromática","Manzana, lavanda, haba tonka",["Primavera", "Otoño"],"Diario",3,3,'block','#1d1d1f','#c0c4c8'),
+ 'afnan-9-pm-edp-100':P("Hombre","Ámbar gourmand","Manzana, canela, vainilla",["Otoño", "Invierno"],"Noche",4,4,'block','#2a2a2e','#c9a24e'),
+ 'rasasi-hawas-for-him-edp-100':P("Hombre","Aromática acuática","Manzana, ciruela, ámbar gris",["Primavera", "Verano"],"Verano",4,4,'flask','#2f6f8f','#c0c4c8'),
+ 'al-haramain-amber-oud-gold-edition-edp-120':P("Unisex","Ámbar dulce","Bergamota, melón, ámbar",["Primavera", "Verano", "Otoño", "Invierno"],"Diario",5,5,'block','#d9a640','#c9a24e'),
+ 'armani-acqua-di-gio-profondo-edp-75':P("Hombre","Aromática acuática","Notas marinas, bergamota, romero",["Primavera", "Verano"],"Día y verano",4,3,'flask','#1f4f7a','#c0c4c8'),
+ 'armani-my-way-edp-90':P("Mujer","Floral","Bergamota, tuberosa, vainilla",["Primavera", "Otoño"],"Diario",4,3,'tall','#e9c9b9','#2b2a2a'),
+ 'azzaro-wanted-by-night-edp-100':P("Hombre","Oriental especiada","Canela, tabaco, cedro rojo",["Otoño", "Invierno"],"Noche",4,4,'flask','#7a1f1f','#2b2a2a'),
+ 'burberry-london-for-men-edt-100':P("Hombre","Oriental especiada","Canela, cuero, tabaco",["Otoño", "Invierno"],"Diario y oficina",3,3,'block','#6a4a2e','#3a3c44'),
+ 'bvlgari-aqva-pour-homme-edt-100':P("Hombre","Acuática","Mandarina, algas, cedro",["Primavera", "Verano"],"Verano",3,3,'flask','#2f6f8f','#c0c4c8'),
+ 'bvlgari-omnia-crystalline-edt-65':P("Mujer","Floral acuática","Bambú, loto, té",["Primavera", "Verano"],"Día",2,2,'flask','#dfe9ec','#c0c4c8'),
+ 'calvin-klein-obsession-for-men-edt-125':P("Hombre","Oriental especiada","Mandarina, lavanda, ámbar",["Otoño", "Invierno"],"Noche",4,4,'block','#7a4a24','#2b2a2a'),
+ 'carolina-herrera-212-men-edt-100':P("Hombre","Amaderada aromática","Jengibre, pimienta, almizcle",["Primavera", "Verano"],"Diario",3,3,'flask','#c6ccd2','#3a3c44'),
+ 'carolina-herrera-very-good-girl-edp-80':P("Mujer","Floral frutal","Grosella roja, rosa, vainilla",["Otoño", "Invierno"],"Noche",4,4,'tall','#b0202c','#c9a24e'),
+ 'chanel-egoiste-platinum-edt-100':P("Hombre","Aromática fougère","Lavanda, romero, vetiver",["Primavera", "Otoño"],"Oficina",3,3,'block','#cfd3d6','#3a3c44'),
+ 'chanel-chance-eau-tendre-edt-100':P("Mujer","Floral frutal","Membrillo, jazmín, almizcle",["Primavera", "Verano"],"Diario",3,3,'flask','#efc6cf','#d9d9d9'),
+ 'creed-green-irish-tweed-edp-100':P("Hombre","Aromática verde","Verbena, iris, sándalo",["Primavera", "Verano"],"Diario",4,3,'tall','#3f6b3a','#c0c4c8'),
+ 'creed-silver-mountain-water-edp-100':P("Unisex","Cítrica aromática","Bergamota, té verde, casis",["Primavera", "Verano"],"Día",3,3,'tall','#c8d4dc','#c0c4c8'),
+ 'davidoff-the-game-edt-100':P("Hombre","Amaderada aromática","Enebro, lirio, madera",["Primavera", "Otoño"],"Diario",3,3,'block','#3a3c44','#c0c4c8'),
+ 'dior-fahrenheit-edt-100':P("Hombre","Amaderada aromática","Violeta, cuero, nuez moscada",["Otoño", "Invierno"],"Diario y noche",4,4,'block','#b0502a','#1d1d1f'),
+ 'dior-miss-dior-edp-100':P("Mujer","Floral","Rosa, iris, almizcle",["Primavera", "Verano"],"Diario",4,3,'bust','#efb6c3','#d9d9d9'),
+ 'diptyque-philosykos-edt-100':P("Unisex","Amaderada verde","Higuera, coco, cedro",["Primavera", "Verano"],"Día",3,2,'tall','#dfe6cf','#1d1d1f'),
+ 'dolce-gabbana-k-by-dolce-gabbana-edt-100':P("Hombre","Aromática","Naranja sanguina, enebro, vetiver",["Primavera", "Verano"],"Diario",3,3,'block','#2b2b30','#c9a24e'),
+ 'givenchy-gentleman-reserve-privee-edp-100':P("Hombre","Amaderada","Whisky, iris, ámbar",["Otoño", "Invierno"],"Noche",4,3,'block','#6a4428','#1d1d1f'),
+ 'guerlain-shalimar-edp-90':P("Mujer","Oriental","Bergamota, iris, vainilla",["Otoño", "Invierno"],"Noche",5,4,'bust','#2f5a9a','#c9a24e'),
+ 'hermes-h24-edt-100':P("Hombre","Aromática","Salvia, narciso, palo de rosa",["Primavera", "Verano"],"Diario",3,2,'block','#bfc7cc','#3a3c44'),
+ 'hugo-boss-boss-bottled-tonic-edt-100':P("Hombre","Cítrica amaderada","Pomelo, jengibre, vetiver",["Primavera", "Verano"],"Día",3,3,'block','#e3c86a','#b9bcc0'),
+ 'hugo-boss-boss-bottled-beyond-edp-100':P("Hombre","Amaderada especiada","Jengibre, cuero, cedro",["Otoño", "Invierno"],"Noche",4,4,'block','#2a2a2e','#c9a24e'),
+ 'hugo-boss-boss-alive-edp-80':P("Mujer","Frutal amaderada","Ciruela, canela, vainilla",["Otoño", "Invierno"],"Diario y noche",4,3,'bust','#e9c9c0','#c9a24e'),
+ 'initio-side-effect-edp-90':P("Unisex","Ámbar especiada","Ron, tabaco, vainilla",["Invierno"],"Noche y frío",5,4,'block','#5a1f2a','#c9a24e'),
+ 'issey-miyake-l-eau-d-issey-edt-100':P("Mujer","Floral acuática","Loto, melón, almizcle",["Primavera", "Verano"],"Día",3,2,'tall','#e5e9ee','#c0c4c8'),
+ 'jean-paul-gaultier-le-male-elixir-absolu-parfum-125':P("Hombre","Ámbar","Lavanda, haba tonka, ámbar",["Invierno"],"Noche y frío",5,5,'bust','#8a4a1a','#c9a24e'),
+ 'kilian-love-don-t-be-shy-edp-50':P("Unisex","Gourmand floral","Azahar, malvavisco, vainilla",["Otoño", "Invierno"],"Noche",4,4,'flask','#f0d2c4','#c9a24e'),
+ 'lancome-tresor-edp-100':P("Mujer","Floral oriental","Rosa, melocotón, vainilla",["Otoño", "Invierno"],"Noche",4,4,'bust','#e9b6a8','#c9a24e'),
+ 'lattafa-asad-edp-100':P("Hombre","Ámbar especiada","Pimienta negra, piña, vainilla",["Otoño", "Invierno"],"Noche",4,4,'block','#2a2a2e','#c9a24e'),
+ 'lattafa-yara-edp-100':P("Mujer","Gourmand floral","Orquídea, tropical, vainilla",["Primavera", "Verano"],"Diario",4,3,'bust','#efb6c8','#c9a24e'),
+ 'le-labo-another-13-edp-100':P("Unisex","Almizclada","Ambroxan, almizcle, musgo",["Primavera", "Verano", "Otoño", "Invierno"],"Diario",4,2,'tall','#efeae2','#1d1d1f'),
+ 'maison-francis-kurkdjian-aqua-universalis-edt-70':P("Unisex","Cítrica floral","Bergamota, lirio del valle, almizcle",["Primavera", "Verano"],"Día",3,2,'block','#eef2f4','#c0c4c8'),
+ 'maison-margiela-replica-by-the-fireplace-edt-100':P("Unisex","Amaderada ahumada","Castaña, clavo, vainilla",["Invierno"],"Frío",3,3,'tall','#8a5a3a','#e4ddd2'),
+ 'mancera-instant-crush-edp-120':P("Unisex","Ámbar","Azafrán, ámbar, rosa",["Otoño", "Invierno"],"Noche",5,5,'tall','#8a2a3a','#c9a24e'),
+ 'montblanc-legend-spirit-edt-100':P("Hombre","Aromática acuática","Pomelo, lavanda, almizcle",["Primavera", "Verano"],"Diario",3,3,'block','#e3e6ea','#3a3c44'),
+ 'mugler-a-men-edt-100':P("Hombre","Gourmand oriental","Café, pachulí, alquitrán",["Otoño", "Invierno"],"Noche",5,5,'flask','#2a2f5a','#3a3c44'),
+ 'mugler-angel-edp-100':P("Mujer","Gourmand","Pachulí, caramelo, vainilla",["Otoño", "Invierno"],"Noche",5,5,'bust','#3a4f9a','#c9a24e'),
+ 'narciso-rodriguez-bleu-noir-edp-100':P("Hombre","Amaderada almizclada","Nuez moscada, almizcle, ébano",["Otoño", "Invierno"],"Noche",4,3,'block','#1f2a44','#1d1d1f'),
+ 'parfums-de-marly-pegasus-edp-125':P("Hombre","Ámbar","Almendra, vainilla, sándalo",["Otoño", "Invierno"],"Noche",5,4,'tall','#2f3f6a','#c9a24e'),
+ 'prada-l-homme-edt-100':P("Hombre","Floral amaderada","Iris, neroli, ámbar",["Primavera", "Verano", "Otoño"],"Oficina",4,3,'tall','#e2dfda','#1d1d1f'),
+ 'rabanne-1-million-elixir-parfum-100':P("Hombre","Ámbar","Manzana, rosa, haba tonka",["Invierno"],"Noche",5,5,'block','#7a1f1f','#c9a24e'),
+ 'rabanne-fame-edp-80':P("Mujer","Floral","Mango, jazmín, incienso",["Otoño", "Invierno"],"Noche",4,4,'bust','#e2c26a','#c9a24e'),
+ 'ralph-lauren-polo-red-edt-125':P("Hombre","Amaderada especiada","Pomelo, azafrán, café",["Otoño", "Invierno"],"Noche",3,3,'flask','#b0202c','#3a3c44'),
+ 'tom-ford-tobacco-vanille-edp-50':P("Unisex","Oriental especiada","Tabaco, vainilla, cacao",["Invierno"],"Noche y frío",5,4,'block','#7a4a24','#1d1d1f'),
+ 'tom-ford-noir-extreme-edp-100':P("Hombre","Oriental amaderada","Cardamomo, kulfi, sándalo",["Otoño", "Invierno"],"Noche",4,4,'block','#2a2420','#c9a24e'),
+ 'valentino-uomo-born-in-roma-intense-edp-100':P("Hombre","Amaderada","Vainilla, lavanda, vetiver",["Otoño", "Invierno"],"Noche",4,4,'block','#1f2a44','#7a7c82'),
+ 'versace-pour-homme-edt-100':P("Hombre","Aromática acuática","Neroli, cedro, almizcle",["Primavera", "Verano"],"Diario",3,2,'tall','#3f6fb0','#c9a24e'),
+ 'versace-eros-flame-edp-100':P("Hombre","Amaderada especiada","Naranja sanguina, pimienta, vainilla",["Otoño", "Invierno"],"Noche",4,4,'tall','#b03a1f','#c9a24e'),
+ 'viktor-rolf-flowerbomb-edp-100':P("Mujer","Floral oriental","Té, rosa, pachulí",["Otoño", "Invierno"],"Noche",4,4,'bust','#efb6c8','#d9d9d9'),
+ 'xerjoff-erba-pura-edp-100':P("Unisex","Frutal ámbar","Frutas, almizcle, vainilla",["Primavera", "Verano", "Otoño", "Invierno"],"Diario",5,5,'block','#d9a640','#c9a24e'),
+ 'yves-saint-laurent-y-edt-100':P("Hombre","Aromática fougère","Jengibre, salvia, cedro",["Primavera", "Verano"],"Diario",3,3,'tall','#3a5f9a','#c0c4c8'),
+ 'yves-saint-laurent-myslf-edp-100':P("Hombre","Amaderada floral","Bergamota, azahar, pachulí",["Primavera", "Otoño"],"Diario",4,3,'tall','#2b2b30','#c0c4c8'),
+ 'amouage-reflection-man-edp-100':P("Hombre","Floral amaderada","Neroli, jazmín, sándalo",["Primavera", "Verano"],"Diario",4,3,'flask','#e7e2d6','#c9a24e'),
+ 'byredo-bal-d-afrique-edp-100':P("Unisex","Amaderada floral","Neroli, violeta, vetiver",["Primavera", "Verano"],"Día",3,2,'tall','#efe6d6','#1d1d1f'),
+ 'armaf-club-de-nuit-milestone-edp-105':P("Unisex","Acuática","Notas marinas, violeta, sándalo",["Primavera", "Verano"],"Día",4,4,'tall','#cfd9df','#c0c4c8'),
+ 'hugo-boss-boss-bottled-edt-100':P('Hombre','Amaderada especiada','Manzana, canela, sándalo',['Primavera','Otoño','Invierno'],'Diario y oficina',3,3,'block','#d8c3a0','#b9bcc0'),
+ 'hugo-boss-boss-bottled-edp-100':P('Hombre','Amaderada especiada','Manzana, canela, vetiver',['Otoño','Invierno'],'Diario y tarde',4,3,'block','#c79b5b','#4b4b4d'),
+ 'hugo-boss-boss-bottled-parfum-parfum-100':P('Hombre','Amaderada aromática','Mandarina, salvia, cuero',['Otoño','Invierno'],'Tarde y noche',4,3,'block','#9d7a4e','#2f2f31'),
+ 'hugo-boss-boss-bottled-elixir-elixir-100':P('Hombre','Ámbar amaderada','Incienso, cardamomo, pachulí',['Otoño','Invierno'],'Noche y eventos',5,4,'block','#5b3b25','#1d1d1f'),
+ 'hugo-boss-boss-bottled-infinite-edp-100':P('Hombre','Aromática fougère','Mandarina, lavanda, sándalo',['Primavera','Otoño'],'Diario y oficina',3,3,'block','#3e5f86','#b9bcc0'),
+ 'hugo-boss-boss-bottled-absolu-parfum-100':P('Hombre','Amaderada intensa','Cuero, incienso, pachulí',['Invierno'],'Noche',4,4,'block','#3a2c26','#1d1d1f'),
+ 'hugo-boss-boss-bottled-night-edt-100':P('Hombre','Amaderada aromática','Abedul, lavanda, cardamomo',['Otoño','Invierno'],'Noche',3,2,'block','#2c2a33','#6a6c72'),
+ 'hugo-boss-boss-the-scent-edt-100':P('Hombre','Oriental especiada','Jengibre, maninka, cuero',['Otoño','Invierno'],'Citas y noche',3,3,'tall','#a8642a','#2b2a2a'),
+ 'hugo-boss-boss-the-scent-le-parfum-parfum-100':P('Hombre','Oriental especiada','Jengibre, lavanda, cuero',['Otoño','Invierno'],'Noche',4,3,'tall','#6d3c1e','#1d1d1f'),
+ 'hugo-boss-hugo-man-edt-125':P('Hombre','Aromática verde','Manzana verde, menta, abeto',['Primavera','Verano'],'Diario e informal',2,3,'flask','#6f9b4f','#9fa3a8'),
+ 'jean-paul-gaultier-le-male-edt-125':P('Hombre','Oriental fougère','Lavanda, menta, vainilla',['Primavera','Otoño','Invierno'],'Diario y noche',4,4,'bust','#7fa8c9','#c0c4c8'),
+ 'jean-paul-gaultier-le-male-elixir-parfum-125':P('Hombre','Ámbar fougère','Lavanda, miel, haba tonka',['Otoño','Invierno'],'Noche y frío',5,5,'bust','#c9922f','#c9a24e'),
+ 'jean-paul-gaultier-le-male-le-parfum-edp-125':P('Hombre','Oriental amaderada','Cardamomo, lavanda, vainilla',['Otoño','Invierno'],'Tarde y noche',4,4,'bust','#3b4a6b','#c9a24e'),
+ 'jean-paul-gaultier-le-beau-edt-125':P('Hombre','Amaderada aromática','Coco, bergamota, haba tonka',['Primavera','Verano'],'Día y vacaciones',3,3,'bust','#86b98a','#9d7f53'),
+ 'jean-paul-gaultier-le-beau-le-parfum-edp-125':P('Hombre','Amaderada aromática','Piña, iris, coco',['Primavera','Verano'],'Día y noches de verano',4,4,'bust','#4f7f5a','#9d7f53'),
+ 'jean-paul-gaultier-scandal-pour-homme-edt-100':P('Hombre','Ámbar fougère','Caramelo, salvia, haba tonka',['Otoño','Invierno'],'Noche',4,4,'flask','#a3622f','#b8a06a'),
+ 'jean-paul-gaultier-ultra-male-edt-125':P('Hombre','Oriental fougère','Pera, lavanda, vainilla negra',['Otoño','Invierno'],'Noche y fiesta',4,5,'bust','#2d2f38','#3a3c44'),
+ 'jean-paul-gaultier-la-belle-edp-100':P('Mujer','Oriental vainilla','Pera, bergamota, vainilla',['Otoño','Invierno'],'Diario y noche',4,4,'bust','#7fb26a','#c9a24e'),
+ 'jean-paul-gaultier-scandal-edp-80':P('Mujer','Chipre floral','Miel, gardenia, pachulí',['Otoño','Invierno'],'Noche',4,4,'flask','#d39a3a','#c8a7b7'),
+ 'jean-paul-gaultier-gaultier-divine-edp-100':P('Mujer','Floral salina','Lirio, notas marinas, merengue',['Primavera','Verano','Otoño'],'Diario',4,3,'bust','#e7d8c4','#c9a24e'),
+ 'dior-sauvage-edt-100':P("Hombre","Aromática fougère","Bergamota, pimienta, ambroxan",["Primavera", "Verano", "Otoño"],"Diario",4,4,'flask','#3b5a8a','#1d1d1f'),
+ 'dior-sauvage-edp-100':P("Hombre","Ámbar fougère","Bergamota, nuez moscada, vainilla",["Otoño", "Invierno"],"Diario y noche",4,4,'flask','#26385e','#1d1d1f'),
+ 'dior-sauvage-elixir-elixir-60':P("Hombre","Ámbar especiada","Canela, lavanda, regaliz",["Invierno"],"Noche y frío",5,5,'flask','#5a2e1e','#1d1d1f'),
+ 'dior-dior-homme-intense-edp-100':P("Hombre","Amaderada floral","Iris, ámbar, vetiver",["Otoño", "Invierno"],"Tarde y noche",4,3,'tall','#6b5a62','#2b2a2a'),
+ 'dior-j-adore-edp-100':P("Mujer","Floral","Ylang-ylang, rosa, jazmín",["Primavera", "Verano"],"Diario y eventos",4,3,'bust','#e6c46a','#c9a24e'),
+ 'chanel-bleu-de-chanel-edp-100':P("Hombre","Amaderada aromática","Pomelo, incienso, sándalo",["Primavera", "Verano", "Otoño", "Invierno"],"Diario y oficina",4,3,'block','#1f2f4f','#1d1d1f'),
+ 'chanel-allure-homme-sport-edt-100':P("Hombre","Amaderada cítrica","Naranja, notas marinas, haba tonka",["Primavera", "Verano"],"Día y deporte",3,3,'tall','#c7cbd1','#3a3c44'),
+ 'chanel-coco-mademoiselle-edp-100':P("Mujer","Chipre floral","Naranja, rosa, pachulí",["Primavera", "Otoño"],"Diario y noche",4,4,'block','#e7a99a','#c9a24e'),
+ 'chanel-chanel-n-5-edp-100':P("Mujer","Floral aldehídica","Aldehídos, ylang-ylang, sándalo",["Otoño", "Invierno"],"Eventos",4,3,'block','#e9d6a6','#d9d9d9'),
+ 'yves-saint-laurent-y-edp-100':P("Hombre","Aromática fougère","Manzana, salvia, haba tonka",["Primavera", "Otoño"],"Diario y noche",4,4,'tall','#2b3e66','#c0c4c8'),
+ 'yves-saint-laurent-la-nuit-de-l-homme-edt-100':P("Hombre","Oriental especiada","Cardamomo, lavanda, cedro",["Otoño", "Invierno"],"Citas y noche",2,2,'tall','#2a2a2e','#3a3c44'),
+ 'yves-saint-laurent-libre-edp-90':P("Mujer","Floral lavanda","Lavanda, azahar, vainilla",["Otoño", "Invierno"],"Diario y noche",4,4,'block','#d8b46a','#1d1d1f'),
+ 'yves-saint-laurent-black-opium-edp-90':P("Mujer","Oriental vainilla","Café, vainilla, flor de azahar",["Otoño", "Invierno"],"Noche",4,4,'tall','#2a1f2e','#c9a24e'),
+ 'rabanne-1-million-edt-100':P("Hombre","Ámbar especiada","Mandarina sanguina, canela, cuero",["Otoño", "Invierno"],"Noche y fiesta",4,4,'block','#d9a640','#c9a24e'),
+ 'rabanne-invictus-edt-100':P("Hombre","Aromática acuática","Pomelo, notas marinas, laurel",["Primavera", "Verano"],"Día y deporte",3,4,'flask','#a9c3d9','#c0c4c8'),
+ 'rabanne-phantom-edt-100':P("Hombre","Aromática","Lavanda, limón, vainilla",["Primavera", "Otoño"],"Diario",3,3,'flask','#b9bec6','#3a3c44'),
+ 'rabanne-lady-million-edp-80':P("Mujer","Floral amaderada","Miel, jazmín, pachulí",["Otoño", "Invierno"],"Noche",4,4,'block','#e2b348','#c9a24e'),
+ 'carolina-herrera-bad-boy-edt-100':P("Hombre","Oriental especiada","Pimienta, cacao, haba tonka",["Otoño", "Invierno"],"Noche",4,4,'tall','#2c2c34','#b1832f'),
+ 'carolina-herrera-212-vip-men-edt-100':P("Hombre","Oriental especiada","Menta, jengibre, ámbar",["Otoño", "Invierno"],"Fiesta",3,4,'flask','#3a3a40','#c0c4c8'),
+ 'carolina-herrera-ch-men-edt-100':P("Hombre","Amaderada especiada","Pomelo, ante, ámbar",["Otoño", "Invierno"],"Diario y oficina",4,3,'block','#8a5a35','#3a3c44'),
+ 'carolina-herrera-good-girl-edp-80':P("Mujer","Oriental floral","Tuberosa, cacao, haba tonka",["Otoño", "Invierno"],"Noche",4,4,'tall','#2b2f5e','#c9a24e'),
+ 'armani-acqua-di-gio-edt-100':P("Hombre","Acuática","Notas marinas, bergamota, romero",["Primavera", "Verano"],"Día y verano",3,3,'flask','#cfd9df','#d9d9d9'),
+ 'armani-stronger-with-you-intensely-edp-100':P("Hombre","Ámbar fougère","Castaña, vainilla, canela",["Otoño", "Invierno"],"Noche y frío",5,4,'flask','#6a3a2a','#2b2a2a'),
+ 'armani-code-edt-75':P("Hombre","Oriental","Bergamota, anís estrellado, haba tonka",["Otoño", "Invierno"],"Citas",3,3,'flask','#262628','#3a3c44'),
+ 'armani-si-edp-100':P("Mujer","Chipre","Casis, rosa, vainilla",["Otoño", "Invierno"],"Diario y noche",4,4,'block','#e3b9a7','#2b2a2a'),
+ 'versace-eros-edt-100':P("Hombre","Aromática fougère","Menta, manzana verde, vainilla",["Otoño", "Invierno"],"Noche y fiesta",4,5,'tall','#4aa3a0','#c9a24e'),
+ 'versace-dylan-blue-edt-100':P("Hombre","Aromática acuática","Bergamota, pimienta, incienso",["Primavera", "Verano", "Otoño"],"Diario",3,3,'tall','#1f3f7a','#1d1d1f'),
+ 'versace-bright-crystal-edt-90':P("Mujer","Floral frutal","Granada, peonía, loto",["Primavera", "Verano"],"Diario",3,3,'flask','#efb9c4','#d9d9d9'),
+ 'dolce-gabbana-light-blue-pour-homme-edt-125':P("Hombre","Cítrica aromática","Pomelo, enebro, romero",["Verano"],"Verano",3,3,'tall','#8fb8d9','#1f2f4f'),
+ 'dolce-gabbana-the-one-for-men-edp-100':P("Hombre","Oriental especiada","Pomelo, tabaco, ámbar",["Otoño", "Invierno"],"Tarde y noche",4,3,'block','#9a6a3a','#b1832f'),
+ 'dolce-gabbana-light-blue-edt-100':P("Mujer","Floral frutal","Limón, manzana, cedro",["Primavera", "Verano"],"Día y verano",3,3,'block','#b9d6ee','#1f2f4f'),
+ 'azzaro-the-most-wanted-edp-100':P("Hombre","Ámbar fougère","Toffee, cardamomo, ámbar",["Otoño", "Invierno"],"Noche",4,5,'flask','#8c1f22','#2b2a2a'),
+ 'azzaro-chrome-edt-100':P("Hombre","Aromática acuática","Limón, notas marinas, almizcle",["Primavera", "Verano"],"Día",3,2,'flask','#c4ccd3','#c0c4c8'),
+ 'azzaro-wanted-edt-100':P("Hombre","Amaderada especiada","Jengibre, limón, cardamomo",["Primavera", "Otoño"],"Diario",3,3,'flask','#7a4a26','#c0c4c8'),
+ 'valentino-born-in-roma-uomo-edt-100':P("Hombre","Amaderada aromática","Violeta, salvia, vetiver",["Otoño", "Invierno"],"Noche",4,4,'block','#2d2d33','#7a7c82'),
+ 'valentino-born-in-roma-donna-edp-100':P("Mujer","Floral amaderada","Jazmín, vainilla, notas amaderadas",["Otoño", "Invierno"],"Noche",4,4,'block','#e8b7c0','#c9a24e'),
+ 'prada-luna-rossa-carbon-edt-100':P("Hombre","Aromática fougère","Lavanda, bergamota, ambroxan",["Primavera", "Otoño"],"Diario",3,3,'tall','#3a3d44','#c41e2a'),
+ 'prada-paradoxe-edp-90':P("Mujer","Ámbar floral","Neroli, ámbar, almizcle",["Primavera", "Otoño"],"Diario",4,3,'bust','#e5c9a8','#c9a24e'),
+ 'givenchy-gentleman-edp-100':P("Hombre","Amaderada floral","Iris, lavanda, pachulí",["Otoño", "Invierno"],"Tarde y noche",4,3,'block','#5a4636','#1d1d1f'),
+ 'givenchy-l-interdit-edp-80':P("Mujer","Floral","Tuberosa, azahar, pachulí",["Otoño", "Invierno"],"Noche",4,3,'block','#2b2b30','#1d1d1f'),
+ 'lancome-la-vie-est-belle-edp-100':P("Mujer","Gourmand","Iris, praliné, vainilla",["Otoño", "Invierno"],"Diario y noche",5,4,'bust','#e8b9c6','#d9d9d9'),
+ 'lancome-idole-edp-50':P("Mujer","Chipre floral","Rosa, jazmín, almizcle",["Primavera", "Verano"],"Diario",3,3,'tall','#efd4cf','#d9d9d9'),
+ 'calvin-klein-ck-one-edt-200':P("Unisex","Cítrica aromática","Bergamota, té verde, almizcle",["Primavera", "Verano"],"Día",2,2,'flask','#dfe6e3','#9fa3a8'),
+ 'calvin-klein-eternity-for-men-edt-100':P("Hombre","Aromática fougère","Lavanda, mandarina, sándalo",["Primavera", "Otoño"],"Diario",3,3,'block','#c9cdd2','#5a5c62'),
+ 'tom-ford-ombre-leather-edp-100':P("Unisex","Cuero","Cardamomo, cuero, jazmín",["Otoño", "Invierno"],"Noche",5,4,'block','#3a2a22','#1d1d1f'),
+ 'tom-ford-oud-wood-edp-50':P("Unisex","Amaderada oriental","Oud, palo de rosa, cardamomo",["Otoño", "Invierno"],"Noche y eventos",4,3,'block','#4a3426','#1d1d1f'),
+ 'creed-aventus-edp-100':P("Hombre","Chipre frutal","Piña, abedul, almizcle",["Primavera", "Verano", "Otoño"],"Diario y eventos",4,4,'tall','#2e2e33','#c0c4c8'),
+ 'montblanc-explorer-edp-100':P("Hombre","Amaderada aromática","Bergamota, vetiver, pachulí",["Primavera", "Otoño"],"Diario",4,3,'flask','#7a5a3c','#3a3c44'),
+ 'montblanc-legend-edt-100':P("Hombre","Aromática fougère","Lavanda, piña, haba tonka",["Primavera", "Verano"],"Diario y oficina",3,3,'block','#2b2b30','#c0c4c8'),
+ 'issey-miyake-l-eau-d-issey-pour-homme-edt-125':P("Hombre","Amaderada acuática","Yuzu, nuez moscada, sándalo",["Primavera", "Verano"],"Día y verano",3,3,'tall','#b9c4cc','#c0c4c8'),
+ 'hermes-terre-d-hermes-edt-100':P("Hombre","Amaderada cítrica","Naranja, pimienta, vetiver",["Primavera", "Verano", "Otoño"],"Diario y oficina",4,3,'block','#c47a3a','#7a5a3c'),
+ 'burberry-hero-edt-100':P("Hombre","Amaderada","Bergamota, enebro, cedro",["Primavera", "Otoño"],"Diario",3,3,'block','#4a4d55','#9fa3a8'),
+ 'burberry-her-edp-100':P("Mujer","Frutal gourmand","Fresa, frambuesa, almizcle",["Primavera", "Verano"],"Diario",4,3,'block','#e9b6c3','#c9a24e'),
+ 'narciso-rodriguez-for-her-edp-100':P("Mujer","Floral almizclada","Rosa, melocotón, almizcle",["Primavera", "Otoño"],"Diario y noche",4,3,'block','#e6b8b0','#c9a24e'),
+ 'guerlain-l-homme-ideal-edp-100':P("Hombre","Ámbar amaderada","Almendra, cuero, haba tonka",["Otoño", "Invierno"],"Tarde y noche",4,3,'block','#7a4a2a','#2b2a2a'),
+ 'mugler-alien-edp-60':P("Mujer","Amaderada floral","Jazmín, cachemira, ámbar",["Otoño", "Invierno"],"Noche",5,5,'bust','#5b3f8a','#c9a24e'),
+ 'viktor-rolf-spicebomb-extreme-edp-90':P("Hombre","Oriental especiada","Tabaco, vainilla, pimienta",["Invierno"],"Noche y frío",5,4,'block','#3a1f1f','#1d1d1f'),
+ 'bvlgari-man-in-black-edp-100':P("Hombre","Oriental especiada","Ron, cuero, haba tonka",["Otoño", "Invierno"],"Noche",4,4,'flask','#2a2626','#3a3c44'),
+ 'davidoff-cool-water-edt-125':P("Hombre","Aromática acuática","Menta, lavanda, notas marinas",["Primavera", "Verano"],"Día y verano",3,3,'tall','#3c86c4','#3a3c44'),
+ 'ralph-lauren-polo-blue-edp-125':P("Hombre","Aromática acuática","Melón, salvia, ante",["Primavera", "Verano"],"Diario",3,3,'flask','#2c4f8a','#c0c4c8'),
+ 'maison-francis-kurkdjian-baccarat-rouge-540-edp-70':P("Unisex","Ámbar floral","Azafrán, jazmín, ambergris",["Otoño", "Invierno"],"Eventos",5,5,'block','#c43a3a','#c9a24e'),
+ 'maison-francis-kurkdjian-grand-soir-edp-70':P("Unisex","Ámbar","Ámbar, benjuí, vainilla",["Otoño", "Invierno"],"Noche y frío",5,4,'block','#9a5a2a','#c9a24e'),
+ 'parfums-de-marly-layton-edp-125':P("Hombre","Ámbar floral","Manzana, lavanda, vainilla",["Otoño", "Invierno"],"Noche",5,4,'tall','#2b2b30','#c9a24e'),
+ 'parfums-de-marly-delina-edp-75':P("Mujer","Floral","Rosa turca, lichi, ruibarbo",["Primavera", "Otoño"],"Diario y eventos",4,4,'bust','#efb6c8','#c9a24e'),
+ 'xerjoff-naxos-edp-100':P("Unisex","Ámbar aromática","Miel, tabaco, lavanda",["Otoño", "Invierno"],"Noche",5,4,'block','#b07a2a','#c9a24e'),
+ 'initio-oud-for-greatness-edp-90':P("Unisex","Amaderada oud","Oud, azafrán, nuez moscada",["Otoño", "Invierno"],"Noche",5,5,'block','#3a2a3a','#c9a24e'),
+ 'amouage-interlude-man-edp-100':P("Hombre","Ámbar especiada","Incienso, oud, orégano",["Invierno"],"Noche y frío",5,5,'flask','#1f3f6a','#c9a24e'),
+ 'byredo-gypsy-water-edp-100':P("Unisex","Amaderada aromática","Bergamota, pino, vainilla",["Primavera", "Verano", "Otoño"],"Diario",3,2,'tall','#e4ddd2','#1d1d1f'),
+ 'le-labo-santal-33-edp-100':P("Unisex","Amaderada","Sándalo, cardamomo, cuero",["Primavera", "Otoño"],"Diario",4,3,'tall','#d9cbb4','#1d1d1f'),
+ 'kilian-angels-share-edp-50':P("Unisex","Gourmand","Coñac, canela, haba tonka",["Otoño", "Invierno"],"Noche",4,4,'flask','#8a4a1f','#c9a24e'),
+ 'diptyque-tam-dao-edt-100':P("Unisex","Amaderada","Sándalo, ciprés, cedro",["Primavera", "Otoño"],"Diario",3,2,'tall','#e7dccb','#1d1d1f'),
+ 'acqua-di-parma-colonia-edc-100':P("Unisex","Cítrica aromática","Bergamota, lavanda, rosa",["Primavera", "Verano"],"Día y verano",2,2,'block','#e9c46a','#1d1d1f'),
+ 'maison-margiela-replica-jazz-club-edt-100':P("Hombre","Amaderada especiada","Ron, tabaco, vainilla",["Otoño", "Invierno"],"Noche",3,3,'tall','#c08a4a','#e4ddd2'),
+ 'mancera-cedrat-boise-edp-120':P("Unisex","Cítrica amaderada","Limón, casis, cuero",["Primavera", "Verano", "Otoño"],"Diario",4,4,'tall','#2f6b3a','#c9a24e'),
+ 'lattafa-khamrah-edp-100':P("Unisex","Gourmand especiada","Canela, dátil, praliné",["Otoño", "Invierno"],"Noche y frío",4,4,'bust','#8a3a1f','#c9a24e'),
+ 'armaf-club-de-nuit-intense-man-edt-105':P("Hombre","Chipre frutal","Piña, abedul, almizcle",["Primavera", "Verano", "Otoño"],"Diario",4,4,'tall','#1d1d1f','#c0c4c8'),
+};
+const $=id=>document.getElementById(id);
+const eur=n=>n==null?'—':n.toLocaleString('es-ES',{minimumFractionDigits:2,maximumFractionDigits:2})+' €';
+const today=()=>new Date().toISOString().slice(0,10);
+const fdate=d=>d?new Date(d+'T12:00').toLocaleDateString('es-ES',{day:'numeric',month:'short'}):'';
+let gender='Todos',tier='Todos',chollos=SNAPSHOT_CHOLLOS,chAll=false,items=[],brand='Todas',season='Todas',db=null,open=new Set();
+try{brand=localStorage.getItem('rp-brand')||'Todas';season=localStorage.getItem('rp-season')||'Todas'}catch(e){}
+
+function toast(t){const el=$('toast');el.textContent=t;el.hidden=false;clearTimeout(toast.t);toast.t=setTimeout(()=>el.hidden=true,2600)}
+const norm=s=>String(s||'').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'');
+function esc(s){return String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]))}
+const base=id=>id.replace(/-\d+$/,'');
+const PROF_BASE=Object.fromEntries(Object.entries(PROFILES).map(([k,v])=>[base(k),v]));
+const prof=it=>PROFILES[it.id]||PROF_BASE[base(it.id)];
+const gkey=it=>base(it.id);
+const SIZES=[30,50,100,200];
+let sel={};try{sel=JSON.parse(localStorage.getItem('rp-sizes')||'{}')}catch(e){}
+const slugId=(b,n,c,ml)=>(b+'-'+n+'-'+c+'-'+ml).toLowerCase().normalize('NFD').replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');
+function best(it){let b=null;for(const [s,v] of Object.entries(it.prices||{}))if(v&&v.p!=null&&v.stock!==false&&(!b||v.p<b.p))b={...v,s};return b}
+const per100=it=>{const b=best(it);return b?b.p/it.ml*100:null};
+function series(it){const m={};for(const h of it.history||[])if(m[h.d]==null||h.p<m[h.d])m[h.d]=h.p;return Object.entries(m).sort().map(([d,p])=>({d,p}))}
+
+// Value score 1-5: (duration + sillage) per € of 100 ml, ranked against the other priced perfumes.
+function valueScores(){
+  const r=items.map(it=>{const p=prof(it),c=per100(it);return p&&c?{id:it.id,v:(p.dur+p.sil)/c}:null}).filter(Boolean).sort((a,b)=>a.v-b.v);
+  const out={};r.forEach((x,i)=>out[x.id]=r.length===1?3:1+Math.round(i/(r.length-1)*4));return out;
+}
+
+function bottle(p){
+  const L=p?.liq||'#cbbfae',C=p?.cap||'#8c8c8c',sh=p?.shape||'block';
+  const glass='fill-opacity=".9"';
+  const body={
+    block:`<rect x="18" y="38" width="64" height="74" rx="6" fill="${L}" ${glass}/><rect x="24" y="44" width="10" height="60" rx="4" fill="#fff" fill-opacity=".28"/><rect x="38" y="16" width="24" height="24" rx="3" fill="${C}"/>`,
+    tall:`<rect x="27" y="30" width="46" height="84" rx="4" fill="${L}" ${glass}/><rect x="32" y="36" width="7" height="72" rx="3" fill="#fff" fill-opacity=".25"/><rect x="34" y="10" width="32" height="22" rx="2" fill="${C}"/>`,
+    flask:`<path d="M30 40 h40 q10 0 10 12 v50 q0 12 -12 12 h-36 q-12 0 -12 -12 v-50 q0 -12 10 -12z" fill="${L}" ${glass}/><rect x="27" y="48" width="8" height="54" rx="4" fill="#fff" fill-opacity=".26"/><rect x="40" y="18" width="20" height="24" rx="10" fill="${C}"/>`,
+    bust:`<path d="M50 34 c18 0 26 10 26 26 c0 16 -8 22 -8 34 c0 10 6 16 6 20 h-48 c0 -4 6 -10 6 -20 c0 -12 -8 -18 -8 -34 c0 -16 8 -26 26 -26z" fill="${L}" ${glass}/><path d="M34 52 c-2 14 4 24 2 40" stroke="#fff" stroke-opacity=".3" stroke-width="6" fill="none" stroke-linecap="round"/><rect x="42" y="12" width="16" height="24" rx="3" fill="${C}"/>`
+  }[sh];
+  return `<svg viewBox="0 0 100 124" role="img" aria-label="Ilustración del frasco">${body}</svg>`;
+}
+function dots(n){return `<div class="dots">${[1,2,3,4,5].map(i=>`<i class="${i<=n?'f':''}"></i>`).join('')}</div>`}
+function spark(pts){
+  if(pts.length<2)return '<p class="fmt">La gráfica del mejor precio aparece tras la segunda lectura.</p>';
+  const W=300,H=42,ps=pts.map(x=>x.p),lo=Math.min(...ps),hi=Math.max(...ps),r=hi-lo||1;
+  const xy=pts.map((x,i)=>[i*(W-8)/(pts.length-1)+4,H-6-(x.p-lo)/r*(H-14)]);
+  const line=xy.map(p=>p.map(v=>v.toFixed(1)).join(',')).join(' '),last=xy[xy.length-1];
+  return `<svg class="spark" viewBox="0 0 ${W} ${H}" preserveAspectRatio="none" role="img" aria-label="Evolución del mejor precio"><polygon points="4,${H} ${line} ${last[0]},${H}" fill="var(--accent-soft)"/><polyline points="${line}" fill="none" stroke="var(--accent)" stroke-width="1.6" vector-effect="non-scaling-stroke"/><circle cx="${last[0]}" cy="${last[1]}" r="3" fill="var(--accent)"/></svg>`;
+}
+
+function renderChollos(){
+  const list=(chollos.items||[]).filter(x=>!x.expired).slice().sort((a,b)=>b.id-a.id);
+  const mine=x=>items.some(i=>norm(x.t).includes(norm(i.name))&&norm(x.t).includes(norm(i.brand).split(' ')[0]));
+  const shown=chAll?list:list.slice(0,12);$('chlist').classList.toggle('all',chAll);
+  $('chUpd').textContent=list.length?list.length+' activos'+(chollos.updated?' · '+new Date(chollos.updated).toLocaleString('es-ES',{day:'numeric',month:'short',hour:'2-digit',minute:'2-digit'}):''):'';
+  $('chlist').innerHTML=shown.length?shown.map(x=>`<a class="ch${mine(x)?' mine':''}" href="${esc(x.url)}" target="_blank" rel="noopener"><span class="t">${esc(x.t)}</span><span class="m">${x.p!=null?'<b>'+eur(x.p)+'</b>':'<span>Ver precio</span>'}<span>${mine(x)?'✓ en tu lista':esc(x.shop||'')}</span></span></a>`).join(''):'<div class="empty">Aún no hay chollos guardados. Se revisan cada dos horas.</div>';
+  $('chMore').hidden=list.length<=3;$('chMore').textContent=chAll?'Ver menos':'Ver todos';
+}
+function render(){
+  renderChollos();
+  const tierOf=i=>i.tier||'Diseñador';
+  $('genders').innerHTML=['Todos','Hombre','Mujer','Unisex'].map(g=>`<button class="chip" type="button" aria-pressed="${g===gender}" data-g="${g}">${g==='Todos'?'Cualquiera':g}</button>`).join('');
+  $('tiers').innerHTML=['Todos','Diseñador','Nicho','Árabe'].map(t=>`<button class="chip" type="button" aria-pressed="${t===tier}" data-tier="${t}">${t}</button>`).join('');
+  const brands=['Todas',...new Set(items.filter(i=>tier==='Todos'||tierOf(i)===tier).map(i=>i.brand).sort())];
+  if(!brands.includes(brand))brand='Todas';
+  const byTier={};for(const i of items){if(tier!=='Todos'&&tierOf(i)!==tier)continue;(byTier[tierOf(i)]=byTier[tierOf(i)]||{})[i.brand]=(byTier[tierOf(i)][i.brand]||0)+1}
+  const chip=(b,n)=>`<button class="chip bchip" type="button" aria-pressed="${b===brand}" data-b="${esc(b)}">${esc(b)}${n?` <small>${n}</small>`:''}</button>`;
+  $('brands').innerHTML=`<div class="bg"><span class="flabel">Marca</span><div class="bar">${chip('Todas')}</div></div>`+
+    ['Diseñador','Nicho','Árabe'].filter(t=>byTier[t]).map(t=>`<div class="bg"><span class="flabel">${t}</span><div class="bar">${Object.keys(byTier[t]).sort().map(b=>chip(b)).join('')}</div></div>`).join('');
+  const ICON={Primavera:'🌸',Verano:'☀️',Otoño:'🍂',Invierno:'❄️'};
+  $('seasons').innerHTML=['Todas',...SEASONS].map(s=>`<button class="chip season ${s}" type="button" aria-pressed="${s===season}" data-s="${s}" title="${s==='Todas'?'Cualquier temporada':s}">${s==='Todas'?'Todo el año':`<span aria-hidden="true">${ICON[s]}</span> ${s}`}</button>`).join('');
+  $('brandList').innerHTML=brands.slice(1).map(b=>`<option value="${esc(b)}">`).join('');
+  const vs=valueScores(),words=norm($('q').value).split(/\s+/).filter(Boolean);
+  // Each typed word must appear somewhere (any order, accents ignored).
+  let list=items.filter(i=>{const p=prof(i),hay=norm(`${i.brand} ${i.name} ${i.conc} ${i.ml}ml ${p?.g||''} ${p?.fam||''} ${p?.notes||''} ${(p?.se||[]).join(' ')}`);
+    return (tier==='Todos'||tierOf(i)===tier)&&(gender==='Todos'||p?.g===gender)&&(brand==='Todas'||i.brand===brand)&&(season==='Todas'||p?.se.includes(season))&&words.every(w=>hay.includes(w))});
+  const key={value:i=>-(vs[i.id]||0)*1e4+(per100(i)??9e3),target:i=>{const b=best(i);return b&&i.target?b.p/i.target:9e9},price:i=>best(i)?.p??9e9,ml:i=>per100(i)??9e9,name:i=>i.brand+i.name};
+  const k=key[$('sort').value];list.sort((a,b)=>{const x=k(a),y=k(b);return x<y?-1:x>y?1:0});
+  const hits=items.filter(i=>{const b=best(i);return b&&i.target&&b.p<=i.target});
+  const priced=items.filter(i=>best(i));
+  const cheap=priced.slice().sort((a,b)=>per100(a)-per100(b))[0];
+  const checked=items.map(i=>i.checked).filter(Boolean).sort().pop();
+  $('stats').innerHTML=`<div class="stat"><span>Perfumes</span><b>${items.length}</b><small>${priced.length} con precio</small></div>
+    <div class="stat"><span>En tu objetivo</span><b>${hits.length}</b><small>${hits.length?esc(hits.map(h=>h.name).join(', ')):'Pon un objetivo en cada ficha'}</small></div>
+    <div class="stat"><span>Más barato por 100 ml</span><b>${cheap?eur(per100(cheap)):'—'}</b><small>${cheap?esc(cheap.name+' '+cheap.conc):'Sin precios aún'}</small></div>
+    <div class="stat"><span>Última revisión</span><b>${checked?fdate(checked.slice(0,10)):'—'}</b><small>${ESTADO?.at?'Pasada automática: '+new Date(ESTADO.at).toLocaleString('es-ES',{day:'numeric',month:'short',hour:'2-digit',minute:'2-digit'}):'Esperando la primera pasada'}</small></div>`;
+  const qtxt=$('q').value.trim(),web=$('web');web.hidden=!qtxt;
+  if(qtxt){const e=encodeURIComponent(qtxt);
+    const L=[['Google Shopping','https://www.google.com/search?tbm=shop&q='+e],['Notino','https://www.notino.es/search.asp?exps='+e],['Primor','https://www.primor.eu/es_es/catalogsearch/result/?q='+e],['Druni','https://www.druni.es/catalogsearch/result/?q='+e],["Perfume's Club",'https://www.google.com/search?q=site%3Aperfumesclub.com+'+e],['Amazon','https://www.amazon.es/s?k='+e],['El Corte Inglés','https://www.elcorteingles.es/search-nwx/1/?s='+e],['Paco Perfumerías','https://www.google.com/search?q=site%3Apacoperfumerias.com+'+e],['Laguna','https://www.google.com/search?q=site%3Aperfumeriaslaguna.com+'+e],['Idealo','https://www.idealo.es/resultados.html?q='+e],['Chollometro','https://www.chollometro.com/search?q='+e]];
+    web.innerHTML=`<h2>Buscar «${esc(qtxt)}» en internet</h2><div class="links">${L.map(([n,u])=>`<a href="${u}" target="_blank" rel="noopener">${n} ↗</a>`).join('')}</div>
+      <div class="row">Cada enlace abre los resultados de esa tienda en una pestaña nueva. <button class="btn ghost" type="button" id="addFromSearch">Añadir «${esc(qtxt)}» a mi lista</button></div>`}
+  if(!items.length){$('grid').innerHTML='<div class="empty">Aún no hay perfumes. Pulsa «Añadir perfume» para crear el primero.</div>';return}
+  if(!list.length){const act=[brand!=='Todas'&&'marca «'+brand+'»',season!=='Todas'&&'temporada «'+season+'»',words.length&&'búsqueda «'+$('q').value.trim()+'»'].filter(Boolean);
+    $('grid').innerHTML=`<div class="empty">Ningún perfume coincide con ${esc(act.join(', '))}. <button class="btn ghost" type="button" id="reset">Quitar filtros</button></div>`;return}
+  const seen=new Set(),rows=[];
+  for(const it of list){const g=gkey(it);if(seen.has(g))continue;seen.add(g);
+    const vars=items.filter(i=>gkey(i)===g).sort((a,b)=>a.ml-b.ml);
+    rows.push({g,vars,cur:vars.find(v=>v.ml===sel[g])||it})}
+  $('count').textContent=rows.length+' perfumes';
+  $('grid').className='grid';$('grid').innerHTML=rows.map(r=>card(r.cur,vs[r.cur.id],r.vars)).join('');
+}
+
+function val(n){return n?'<span title="'+n+' de 5"><span style="color:var(--good)">'+'●'.repeat(n)+'</span><span style="opacity:.25">'+'●'.repeat(5-n)+'</span></span>':'<span class="tg">—</span>'}
+function card(it,val,vars=[it]){
+  const p=prof(it),b=best(it),pts=series(it),min=pts.length?Math.min(...pts.map(x=>x.p)):null;
+  const hit=b&&it.target&&b.p<=it.target,c=per100(it);
+  const q=encodeURIComponent(`${it.brand} ${it.name} ${it.conc} ${it.ml} ml`);
+  const rows=SHOPS.map(s=>{const v=(it.prices||{})[s.id];const url=(it.urls||{})[s.id]||s.s(q);
+    return `<tr class="${b&&b.s===s.id?'best':''}"><td><a href="${esc(url)}" target="_blank" rel="noopener">${s.n}</a>${s.eu?' <span class="tag" title="Envía desde '+s.eu+'">UE · '+s.eu+'</span>':''}${s.auto?'':' <span class="tag">manual</span>'}</td>
+      <td class="p">${v&&v.stock===false?'Agotado':eur(v?.p)}${v?.note?`<br><span class="tag">${esc(v.note)}</span>`:''}</td>
+      <td>${v?fdate(v.d):''}</td>
+      <td><input type="number" step="0.01" min="0" id="m-${it.id}-${s.id}" aria-label="Precio en ${s.n}" placeholder="€"> <button type="button" data-save="${it.id}|${s.id}">Apuntar</button></td></tr>`}).join('');
+  const deals=(it.deals||[]);
+  return `<article class="card${hit?' hit':''}">
+    <div class="top">
+      <div class="art" style="background:color-mix(in srgb, ${p?.liq||'#cbbfae'} 22%, var(--sunk))">${bottle(p)}</div>
+      <div class="id">
+        <div class="brand">${esc(it.brand)}${p?' · '+p.g:''}</div>
+        <h2 class="name">${esc(it.name)}</h2>
+        <div class="fmt">${esc(it.conc)}</div>
+        <div class="sizes" role="group" aria-label="Tamaño">${[...new Set(SIZES.concat(vars.map(v=>v.ml)))].sort((a,b)=>a-b).map(ml=>{const v=vars.find(x=>x.ml===ml),b=v&&best(v);
+          return `<button type="button" class="sz${ml===it.ml?' on':''}${v?'':' new'}" aria-pressed="${ml===it.ml}" data-size="${gkey(it)}|${ml}" title="${v?(b?eur(b.p):'Sin precio aún'):'Añadir y rastrear este tamaño'}">${ml} ml</button>`}).join('')}</div>
+        ${p?`<div class="family">${p.fam}</div><div class="notes">${p.notes}</div>`:'<div class="notes">Sin ficha olfativa todavía.</div>'}
+      </div>
+    </div>
+    <div class="body">
+      ${p?`<div class="seasons">${SEASONS.map(s=>`<span class="ss ${p.se.includes(s)?'on '+s:''}">${({Primavera:'🌸',Verano:'☀️',Otoño:'🍂',Invierno:'❄️'})[s]} ${s}</span>`).join('')}<span class="ss use">${p.use}</span></div>
+      <div class="meters">
+        <div class="meter"><span>Duración</span>${dots(p.dur)}</div>
+        <div class="meter"><span>Estela</span>${dots(p.sil)}</div>
+        <div class="meter value"><span>Calidad/precio</span>${val?dots(val):'<b>Sin precio</b>'}</div>
+      </div>`:''}
+      <div class="price">
+        <span class="big">${eur(b?.p)}</span>
+        <span class="where">${b?'en '+SHOP[b.s].n+'<br>'+eur(c)+' / 100 ml':'Sin precio todavía'}</span>
+      </div>
+      <div class="pills">${hit?'<span class="pill good">Por debajo de tu objetivo</span>':''}${min!=null&&b&&b.p<=min&&pts.length>1?'<span class="pill">Mínimo histórico</span>':''}${deals.some(d=>!d.expired)?'<span class="pill">Chollo publicado</span>':''}</div>
+      <div class="row"><label>Mi objetivo <input type="number" step="0.01" min="0" id="t-${it.id}" value="${it.target??''}" data-target="${it.id}" placeholder="€"></label>${min!=null?`<span>Mínimo visto ${eur(min)}</span>`:''}</div>
+      ${spark(pts)}
+      <details ${open.has(it.id)?'open':''} data-open="${it.id}"><summary>Precios por tienda y fotos</summary>
+        <div class="tbl"><table><thead><tr><th>Tienda</th><th>Precio</th><th>Fecha</th><th>Apuntar a mano</th></tr></thead><tbody>${rows}</tbody></table></div>
+        ${deals.length?`<p class="tag" style="margin:12px 0 0">Chollos publicados en Chollometro</p><ul class="deals">${deals.map(x=>`<li><a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.t)}</a> · ${eur(x.p)}${x.shop?' en '+esc(x.shop):''}${x.d?' · '+esc(x.d):''}${x.expired?' <span class="tag">expirado</span>':''}</li>`).join('')}</ul>`:''}
+        <p class="row" style="margin-top:10px"><button class="del" type="button" data-del="${it.id}">Quitar este perfume</button></p>
+      </details>
+    </div></article>`;
+}
+
+// Modo archivo: tus objetivos, precios apuntados, altas y bajas se guardan en este navegador.
+let local=null;
+function loadLocal(){
+  let st={};try{st=JSON.parse(localStorage.getItem('rp-local')||'{}')}catch(e){}
+  st.targets=st.targets||{};st.manual=st.manual||{};st.added=st.added||[];st.deleted=st.deleted||[];local=st;
+  const all=SNAPSHOT.concat(st.added.filter(a=>!SNAPSHOT.some(x=>x.id===a.id)));
+  items=all.filter(i=>!st.deleted.includes(i.id)).map(i=>{
+    const it=JSON.parse(JSON.stringify(i));
+    if(i.id in st.targets)it.target=st.targets[i.id];
+    for(const [sh,v] of Object.entries(st.manual[i.id]||{})){it.prices=it.prices||{};it.prices[sh]={p:v.p,d:v.d,auto:false};it.history=(it.history||[]).filter(h=>!(h.d===v.d&&h.s===sh)).concat({d:v.d,s:sh,p:v.p})}
+    return it});
+}
+function saveLocal(){try{localStorage.setItem('rp-local',JSON.stringify(local))}catch(e){toast('Este navegador no permite guardar cambios.')}loadLocal();render()}
+async function write(id,data){
+  if(!db){
+    if('target' in data)local.targets[id]=data.target;
+    if(data.prices)for(const [sh,v] of Object.entries(data.prices)){(local.manual[id]=local.manual[id]||{})[sh]={p:v.p,d:v.d}}
+    saveLocal();return true}
+  try{await db.doc('perfumes/'+id).update(data);return true}catch(e){toast('No se ha guardado: '+(e.code||'error'));return false}
+}
+document.addEventListener('click',async e=>{
+  const t=e.target;
+  if(t.dataset.g){gender=t.dataset.g;render();return}
+  if(t.dataset.tier){tier=t.dataset.tier;brand='Todas';render();return}
+  if(t.dataset.size){
+    const [g,mlS]=t.dataset.size.split('|'),ml=+mlS;sel[g]=ml;try{localStorage.setItem('rp-sizes',JSON.stringify(sel))}catch(_){}
+    if(!items.some(i=>gkey(i)===g&&i.ml===ml)){
+      const ref=items.find(i=>gkey(i)===g);
+      const doc={brand:ref.brand,name:ref.name,conc:ref.conc,ml,target:null,urls:{},prices:{},history:[],checked:null};
+      if(await addPerfume(slugId(ref.brand,ref.name,ref.conc,ml),doc))toast(ref.name+' '+ml+' ml añadido. '+'Guardado en este navegador.');
+    }
+    render();return}
+  if(t.id==='chMore'){chAll=!chAll;renderChollos();return}
+  if(t.id==='addFromSearch'){const v=$('q').value.trim(),m=v.match(/(\d{2,3})\s*ml/i),c=v.match(/\b(edt|edp|parfum|elixir)\b/i);
+    $('addForm').hidden=false;$('fName').value=v.replace(/(\d{2,3})\s*ml/i,'').replace(/\b(edt|edp|parfum|elixir)\b/i,'').trim();if(m)$('fMl').value=m[1];if(c)$('fConc').value=c[1].length>4?c[1][0].toUpperCase()+c[1].slice(1).toLowerCase():c[1].toUpperCase();$('fBrand').focus();return}
+  if(t.id==='reset'){brand='Todas';season='Todas';tier='Todos';gender='Todos';$('q').value='';try{localStorage.removeItem('rp-brand');localStorage.removeItem('rp-season')}catch(_){}render()}
+  if(t.dataset.b){brand=t.dataset.b;try{localStorage.setItem('rp-brand',brand)}catch(_){}render()}
+  if(t.dataset.s){season=t.dataset.s;try{localStorage.setItem('rp-season',season)}catch(_){}render()}
+  if(t.dataset.save){
+    const [id,s]=t.dataset.save.split('|'),inp=$(`m-${id}-${s}`),p=parseFloat(inp.value.replace(',','.'));
+    if(!(p>0)){toast('Escribe un precio válido.');return}
+    const it=items.find(i=>i.id===id),d=today();
+    const hist=(it.history||[]).filter(h=>!(h.d===d&&h.s===s)).concat({d,s,p});
+    if(await write(id,{prices:{[s]:{p,d,auto:false}},history:hist}))toast('Precio de '+SHOP[s].n+' apuntado.');
+  }
+  if(t.dataset.del){
+    if(t.dataset.confirm!=='1'){t.dataset.confirm='1';t.textContent='Pulsa otra vez para quitarlo';return}
+    if(!db){local.deleted.push(t.dataset.del);saveLocal();toast('Perfume quitado.');return}
+    try{await db.doc('perfumes/'+t.dataset.del).delete();toast('Perfume quitado.')}catch(e){toast('No se ha podido quitar.')}
+  }
+});
+document.addEventListener('toggle',e=>{const id=e.target.dataset?.open;if(id)e.target.open?open.add(id):open.delete(id)},true);
+document.addEventListener('change',async e=>{
+  const id=e.target.dataset.target;if(!id)return;
+  const v=e.target.value===''?null:parseFloat(e.target.value);
+  if(await write(id,{target:v}))toast(v?'Objetivo guardado: '+eur(v):'Objetivo quitado.');
+});
+$('q').addEventListener('input',render);
+$('sort').addEventListener('change',render);
+$('toggleAdd').addEventListener('click',()=>{$('addForm').hidden=!$('addForm').hidden});
+async function addPerfume(id,doc){
+  if(!db){local.added.push({id,...doc});local.deleted=local.deleted.filter(x=>x!==id);saveLocal();return true}
+  try{await db.doc('perfumes/'+id).set(doc);return true}catch(err){toast('No se ha guardado: '+(err.code||'error'));return false}
+}
+$('addForm').addEventListener('submit',async e=>{
+  e.preventDefault();
+  const brandV=$('fBrand').value.trim(),name=$('fName').value.trim(),conc=$('fConc').value,ml=parseInt($('fMl').value,10),target=parseFloat($('fTarget').value)||null;
+  const id=(brandV+'-'+name+'-'+conc+'-'+ml).toLowerCase().normalize('NFD').replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');
+  const doc={brand:brandV,name,conc,ml,target,urls:{},prices:{},history:[],checked:null};
+  if(!db){local.added.push({id,...doc});local.deleted=local.deleted.filter(x=>x!==id);saveLocal();e.target.reset();e.target.hidden=true;toast(name+' añadido.');return}
+  try{await db.doc('perfumes/'+id).set(doc);
+    e.target.reset();e.target.hidden=true;toast(name+' añadido. Lo revisaré en la próxima pasada.')}catch(err){toast('No se ha guardado: '+(err.code||'error'))}
+});
+(async()=>{
+  // Datos que deja la pasada automática de GitHub (data/*.json, junto a esta página).
+  const get=f=>fetch('data/'+f+'?t='+Date.now(),{cache:'no-store'}).then(r=>r.ok?r.json():null).catch(()=>null);
+  const [p,c,e]=await Promise.all([get('perfumes.json'),get('chollos.json'),get('estado.json')]);
+  if(!p){$('grid').innerHTML='<div class="empty">No se han podido cargar los datos. Recarga la página.</div>';return}
+  SNAPSHOT=p;if(c)chollos=c;ESTADO=e;
+  loadLocal();render();
+})();
+</script>
+
+</body>
+</html>
