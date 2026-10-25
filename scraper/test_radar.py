@@ -104,3 +104,16 @@ n = radar.discover(it2, lambda u: (seen.append(u), R(200, res))[1], "2026-10-25"
 assert n == 2 and it2["urls"]["douglas"].endswith("3001055018") and "lookfantastic" not in seen[0] and len(seen) == 2
 assert radar.discover(it2, lambda u: R(200, res), "2026-10-26", 5) == 0 or it2["buscado"]
 print("OK: buscar fichas")
+
+# 13. Precio + precio por 100 ml (tamaño deducido)
+douglas = ('<span aria-label="precio de venta recomendado 78,99 €">78,99 €</span><span aria-label="Actualmente 45,99 €">45,99 €</span>'
+           '<span aria-label="Precio 153,30 € por 100 mililitro">153,30 €<!-- --> / <!-- -->100<!-- --> <!-- -->ml</span>'
+           '<span>97,00 €</span><span aria-label="Actualmente 55,99 €">55,99 €</span><span>111,98 € / 100 ml</span>')
+assert extract(douglas, 30, "https://www.douglas.es/es/p/1")[:1] == (45.99,) and extract(douglas, 50, "https://www.douglas.es/es/p/1")[0] == 55.99
+pc = ('<div class="contPrecioNuevo"> 74,81 € </div><div class="pricePer100">100 ml / 37,40 €</div>'
+      '<div class="contPrecioNuevo"> 50,55 € </div><div class="pricePer100">100 ml / 50,55 €</div>'
+      '<div class="contPrecioNuevo"> 37,81 € </div><div class="pricePer100">100 ml / 126,03 €</div>')
+assert extract(ld({"@type": "Product", "name": "BOSS BOTTLED", "offers": [{"price": "74.81", "priceCurrency": "EUR"}]}) + pc, 100, "https://www.perfumesclub.com/es/x/p_23010/")[0] == 50.55
+assert extract(pc, 30, "https://x")[0] == 37.81 and extract(pc, 200, "https://x")[0] == 74.81
+assert extract('<b>100 ml / 126,03 €</b>', 100, "https://x")[0] is None
+print("OK: precio por 100 ml")

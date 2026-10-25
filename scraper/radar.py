@@ -71,7 +71,7 @@ def jsonld_offers(page):
     out = []
     for raw in re.findall(r'<script[^>]+application/ld\+json[^>]*>(.*?)</script>', page, re.S | re.I):
         try:
-            data = json.loads(htmllib.unescape(raw.strip()))
+            data = json.loads(htmllib.unescape(raw.strip()), strict=False)
         except Exception:
             continue
         for o in _walk(data):
@@ -116,6 +116,26 @@ def magento_price(page, ml):
     return None
 
 
+UNIT_RE = re.compile(r"(\d{1,4}[.,]\d{2})\s*(?:€|&euro;)\s*(?:<!--.*?-->|\s)*(?:/|por)\s*(?:<!--.*?-->|\s)*100\s*(?:<!--.*?-->|\s)*(?:ml|mililitro)"
+                     r"|100\s*ml\s*(?:/|a)\s*(\d{1,4}[.,]\d{1,2})\s*(?:€|&euro;)", re.I)
+
+
+def unit_price(page, ml):
+    """Fichas con varios tamaños que muestran precio y precio por 100 ml (Douglas, Perfume's Club, Laguna):
+    el tamaño sale de dividir uno entre otro."""
+    hits = []
+    for u in UNIT_RE.finditer(page):
+        unit = to_float(u.group(1) or u.group(2))
+        before = page[max(0, u.start() - 600): u.start()]
+        prices = [to_float(m.group(1)) for m in PRICE_RE.finditer(before)]
+        if not unit or not prices or not prices[-1]:
+            continue
+        p = prices[-1]
+        if abs(p / unit * 100 - ml) <= 0.04 * ml:
+            hits.append(p)
+    return hits[0] if hits else None   # la primera es la del producto; las siguientes pueden ser relacionados
+
+
 def text_window_price(page, ml):
     """Respaldo: busca '<ml> ml' en el texto y el primer precio en € justo detrás."""
     txt = re.sub(r"<script.*?</script>|<style.*?</style>", " ", page, flags=re.S | re.I)
@@ -123,8 +143,8 @@ def text_window_price(page, ml):
     txt = re.sub(r"\s+", " ", txt)
     for m in re.finditer(rf"\b{ml}\s?ml\b", txt, re.I):
         win = txt[m.end(): m.end() + 140]
-        if ML_RE.search(win[:60]):          # otro tamaño pegado: no es este
-            continue
+        if ML_RE.search(win[:60]) or re.match(r"\s*(?:/|a\s)", win) or re.search(r"(?:los|por|/)\s*$", txt[max(0, m.start() - 12): m.start()]):
+            continue                         # otro tamaño pegado, o es el precio por 100 ml
         pm = PRICE_RE.search(win)
         if pm:
             p = to_float(pm.group(1))
@@ -152,6 +172,9 @@ def extract(page, ml, url):
     p = magento_price(page, ml)
     if p:
         return p, None, "magento"
+    p = unit_price(page, ml)
+    if p:
+        return p, None, "precio-100ml"
     p = text_window_price(page, ml)
     if p:
         return p, None, "texto"   # shortcut: sin stock fiable en texto libre; se asume disponible
@@ -196,7 +219,8 @@ def debug_sample(shop, url, page, ml, result):
         return
     blocks = re.findall(r'<script[^>]+application/ld\+json[^>]*>(.*?)</script>', page, re.S | re.I)
     ctx = [page[max(0, m.start() - 120): m.end() + 60].replace("\n", " ") for m in PRICE_RE.finditer(page)][:25]
-    DEBUG[shop] = {"url": url, "ml": ml, "resultado": result, "jsonld": [b.strip()[:3000] for b in blocks[:4]], "precios_en_html": ctx}
+    DEBUG[shop] = {"url": url, "ml": ml, "resultado": result, "jsonld": [b.strip()[:3000] for b in blocks[:4]], "precios_en_html": ctx,
+                   "variantes": [page[m.start(): m.start() + 700] for m in re.finditer(r"data-child-id|swatch-option|\"optionPrices\"|\"jsonConfig\"", page)][:4]}
 
 
 # shortcut: First in Fragrance publica en su JSON-LD el precio sin IVA alemán; si cambia, quitar esto.
@@ -223,7 +247,6 @@ def make_session():
 # Tiendas que dejan buscar desde GitHub: si a un perfume le falta su ficha, se busca y se guarda.
 SEARCH = {
     "douglas": "https://www.douglas.es/es/search?q={q}",
-    "makeup": "https://makeup.es/search/?q={q}",
     "idealo": "https://www.idealo.es/resultados.html?q={q}",
     "lookfantastic": "https://www.lookfantastic.es/search?q={q}",
 }
