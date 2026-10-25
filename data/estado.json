@@ -1,141 +1,144 @@
 {
- "at": "2026-10-26T00:24:38+01:00",
+ "at": "2026-10-26T00:57:08+01:00",
  "revisados": 35,
  "tiendas": {
-  "avenida": {
-   "ok": 15,
+  "firstinfragrance": {
+   "ok": 1,
    "bloqueada": 0,
    "sin_precio": 0,
-   "dudoso": 1,
-   "variantes": 15,
-   "ejemplos": [
-    {
-     "perfume": "issey-miyake-l-eau-d-issey-pour-homme-edt-125",
-     "precio": 74.95,
-     "referencia": 49.8,
-     "metodo": "variantes"
-    }
-   ]
+   "dudoso": 0,
+   "jsonld": 1
   },
-  "laguna": {
-   "ok": 18,
+  "sabina": {
+   "ok": 25,
    "bloqueada": 0,
    "sin_precio": 0,
-   "dudoso": 1,
-   "precio-100ml": 5,
-   "jsonld-url": 6,
-   "jsonld": 7,
-   "ejemplos": [
-    {
-     "perfume": "jean-paul-gaultier-le-male-elixir-absolu-parfum-125",
-     "precio": 163.0,
-     "referencia": 99.95,
-     "metodo": "jsonld"
-    }
-   ]
+   "dudoso": 0,
+   "jsonld": 21,
+   "precio-100ml": 1,
+   "texto": 3
   },
-  "lookfantastic": {
-   "ok": 0,
+  "idealo": {
+   "ok": 12,
    "bloqueada": 0,
    "sin_precio": 0,
-   "dudoso": 15,
-   "ejemplos": [
-    {
-     "perfume": "issey-miyake-l-eau-d-issey-edt-100",
-     "precio": 3.99,
-     "referencia": 44.95,
-     "metodo": "texto"
-    },
-    {
-     "perfume": "issey-miyake-l-eau-d-issey-pour-homme-edt-125",
-     "precio": 3.99,
-     "referencia": 49.8,
-     "metodo": "texto"
-    },
-    {
-     "perfume": "jean-paul-gaultier-gaultier-divine-edp-100",
-     "precio": 3.99,
-     "referencia": 94.95,
-     "metodo": "texto"
-    }
-   ]
+   "dudoso": 0,
+   "jsonld-url": 10,
+   "jsonld": 2
   },
   "notino": {
    "ok": 4,
-   "bloqueada": 19,
+   "bloqueada": 29,
    "sin_precio": 0,
    "dudoso": 0,
    "jsonld": 4
   },
   "paco": {
-   "ok": 18,
+   "ok": 24,
    "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "jsonld": 18
+   "sin_precio": 3,
+   "dudoso": 1,
+   "jsonld": 24,
+   "ejemplos": [
+    {
+     "perfume": "azzaro-chrome-edt-100",
+     "precio": 116.0,
+     "referencia": 49.95,
+     "metodo": "texto"
+    }
+   ]
   },
-  "idealo": {
-   "ok": 9,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "jsonld-url": 8,
-   "jsonld": 1
-  },
-  "beautinow": {
-   "ok": 0,
-   "bloqueada": 0,
-   "sin_precio": 4,
-   "dudoso": 0
-  },
-  "parejo": {
-   "ok": 8,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "jsonld": 8
-  },
-  "sabina": {
-   "ok": 23,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "jsonld": 21,
-   "texto": 1,
-   "precio-100ml": 1
-  },
-  "sephora": {
-   "ok": 0,
-   "bloqueada": 5,
-   "sin_precio": 0,
-   "dudoso": 0
-  },
-  "douglas": {
-   "ok": 0,
-   "bloqueada": 0,
-   "sin_precio": 1,
-   "dudoso": 0
-  },
-  "perfumesclub": {
+  "lookfantastic": {
    "ok": 2,
    "bloqueada": 0,
+   "sin_precio": 1,
+   "dudoso": 24,
+   "ejemplos": [
+    {
+     "perfume": "prada-l-homme-edt-100",
+     "precio": 3.99,
+     "referencia": 86.5,
+     "metodo": "texto"
+    },
+    {
+     "perfume": "prada-paradoxe-edp-90",
+     "precio": 3.99,
+     "referencia": 99.95,
+     "metodo": "texto"
+    },
+    {
+     "perfume": "rabanne-1-million-edt-100",
+     "precio": 3.99,
+     "referencia": 72.95,
+     "metodo": "texto"
+    }
+   ],
+   "jsonld": 2
+  },
+  "avenida": {
+   "ok": 20,
+   "bloqueada": 0,
+   "sin_precio": 2,
+   "dudoso": 0,
+   "variantes": 18,
+   "jsonld": 2
+  },
+  "laguna": {
+   "ok": 25,
+   "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "precio-100ml": 2
+   "jsonld": 9,
+   "jsonld-url": 8,
+   "precio-100ml": 8
   },
-  "arabicparfums": {
+  "douglas": {
    "ok": 3,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "jsonld": 3
+   "precio-100ml": 3
   },
-  "firstinfragrance": {
-   "ok": 6,
+  "parejo": {
+   "ok": 10,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 1,
+   "jsonld": 10,
+   "ejemplos": [
+    {
+     "perfume": "yves-saint-laurent-black-opium-edp-90",
+     "precio": 153.0,
+     "referencia": 99.51,
+     "metodo": "jsonld"
+    }
+   ]
+  },
+  "sephora": {
+   "ok": 0,
+   "bloqueada": 11,
+   "sin_precio": 1,
+   "dudoso": 0
+  },
+  "beautinow": {
+   "ok": 0,
+   "bloqueada": 0,
+   "sin_precio": 3,
+   "dudoso": 0
+  },
+  "perfumesclub": {
+   "ok": 4,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "jsonld": 6
+   "precio-100ml": 4
+  },
+  "arabicparfums": {
+   "ok": 1,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "jsonld": 1
   },
   "brasty": {
    "ok": 1,
@@ -143,6 +146,12 @@
    "sin_precio": 0,
    "dudoso": 0,
    "jsonld": 1
+  },
+  "makeup": {
+   "ok": 0,
+   "bloqueada": 0,
+   "sin_precio": 3,
+   "dudoso": 0
   }
  },
  "limpiados": {},
