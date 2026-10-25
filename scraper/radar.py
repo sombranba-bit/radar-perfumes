@@ -13,6 +13,7 @@ import re
 import statistics
 import sys
 import time
+import unicodedata
 from datetime import datetime
 from pathlib import Path
 from zoneinfo import ZoneInfo
@@ -76,7 +77,7 @@ def jsonld_offers(page):
         for o in _walk(data):
             if not (_types(o) & {"Product", "ProductGroup"}):
                 continue
-            pname = " ".join(str(o.get(k, "")) for k in ("name", "sku", "size", "description"))[:400]
+            pname = " ".join(str(o.get(k, "")) for k in ("name", "sku", "size"))[:300]
             offers = o.get("offers")
             if isinstance(offers, dict) and "offers" in offers:
                 offers = offers["offers"]
@@ -91,10 +92,28 @@ def jsonld_offers(page):
                 cur = of.get("priceCurrency", "EUR")
                 if cur and cur.upper() != "EUR":
                     continue
-                desc = " ".join(str(of.get(k, "")) for k in ("name", "sku", "description", "size"))
+                desc = " ".join(str(of.get(k, "")) for k in ("name", "sku", "size"))
                 av = str(of.get("availability", ""))
                 out.append((p, desc, pname, "OutOfStock" not in av and "SoldOut" not in av))
     return out
+
+
+def magento_price(page, ml):
+    """Tiendas Magento con tallas (p. ej. Avenida): etiqueta '100 ml' -> id de producto -> precio final."""
+    m = re.search(r'"optionPrices"\s*:\s*', page)
+    if not m:
+        return None
+    try:
+        prices, _ = json.JSONDecoder().raw_decode(page[m.end():])
+    except Exception:
+        return None
+    for label, prods in re.findall(r'"label"\s*:\s*"([^"]*)"\s*,\s*"products"\s*:\s*\[([^\]]*)\]', page):
+        if ml in _mls(label):
+            for pid in re.findall(r'"?(\d+)"?', prods):
+                amt = ((prices.get(pid) or {}).get("finalPrice") or {}).get("amount")
+                if amt:
+                    return float(amt)
+    return None
 
 
 def text_window_price(page, ml):
@@ -130,6 +149,9 @@ def extract(page, ml, url):
     if url_ml and len(single) == 1:
         o = next(o for o in offers if not _mls(o[1]))
         return o[0], o[3], "jsonld-url"
+    p = magento_price(page, ml)
+    if p:
+        return p, None, "magento"
     p = text_window_price(page, ml)
     if p:
         return p, None, "texto"   # shortcut: sin stock fiable en texto libre; se asume disponible
@@ -197,6 +219,83 @@ def make_session():
         return get
 
 
+# ---------------------------------------------------------------- buscar fichas nuevas
+# Tiendas que dejan buscar desde GitHub: si a un perfume le falta su ficha, se busca y se guarda.
+SEARCH = {
+    "douglas": "https://www.douglas.es/es/search?q={q}",
+    "makeup": "https://makeup.es/search/?q={q}",
+    "idealo": "https://www.idealo.es/resultados.html?q={q}",
+    "lookfantastic": "https://www.lookfantastic.es/search?q={q}",
+}
+DISCOVER_PER_RUN = int(os.environ.get("RADAR_DISCOVER", "20"))
+CONC_WORDS = {"EDT": "eau de toilette", "EDP": "eau de parfum", "EDC": "eau de cologne", "Parfum": "parfum", "Elixir": "elixir"}
+SKIP_PATH = re.compile(r"/search|/buscar|resultados|/c/|/brands?/|/marcas?/|/categor|login|cart|wishlist|\.(?:css|js|png|jpg|svg|webp)", re.I)
+
+
+def words(t):
+    t = "".join(c for c in unicodedata.normalize("NFD", t.lower()) if unicodedata.category(c) != "Mn")
+    t = re.sub(r"[^a-z0-9]+", " ", t)
+    return [w for w in t.split() if len(w) >= 3 and w not in {"eau", "the", "for", "pour", "men", "man", "edt", "edp", "parfum", "toilette"}]
+
+
+# Versiones del mismo perfume que no hay que confundir (Bottled vs Bottled Night)
+FLANKERS = {"night", "intense", "intenso", "elixir", "absolu", "absolute", "extreme", "infinite", "tonic", "beyond", "sport",
+            "privee", "noir", "black", "gold", "platinum", "oud", "cologne", "fraiche", "aqua", "blue", "red", "flame", "royal",
+            "set", "estuche", "lote", "pack", "tester", "recarga", "refill", "mini", "body", "deodorant", "desodorante", "gel"}
+
+
+def best_link(page, base, it):
+    """La ficha de la página de resultados que mejor encaja con el perfume (o None)."""
+    host = re.match(r"https?://[^/]+", base).group(0)
+    need = words(it["name"])
+    brand = (words(it["brand"]) or [""])[0]
+    conc = CONC_WORDS.get(it.get("conc"), "").replace(" ", "-")
+    best, score = None, 0
+    for m in re.finditer(r'href="([^"#]+)"', page):
+        href = htmllib.unescape(m.group(1))
+        ctx = page[m.end(): m.end() + 300].split("href=")[0]   # el texto de este enlace, sin pisar el siguiente
+        if href.startswith("/"):
+            href = host + href
+        if not href.startswith(host) or SKIP_PATH.search(href[len(host):]) or len(href) - len(host) < 12:
+            continue
+        hay = (href + " " + re.sub(r"<[^>]+>", " ", ctx)).lower()
+        hay_w = set(words(hay))
+        if not need or not all(w in hay_w for w in need) or (FLANKERS & hay_w) - set(words(it["name"] + " " + it.get("conc", ""))):
+            continue
+        sc = 2 + (brand in hay_w) + (bool(conc) and conc in hay.replace(" ", "-")) + (str(it["ml"]) in hay)
+        if sc > score:
+            best, score = href, sc
+    return best
+
+
+def discover(it, get, today, budget):
+    """Busca la ficha en las tiendas de SEARCH que aún no tiene. Devuelve cuántas búsquedas gastó."""
+    urls = it.setdefault("urls", {})
+    tried = it.setdefault("buscado", {})
+    spent = 0
+    for shop, tpl in SEARCH.items():
+        if spent >= budget or urls.get(shop):
+            continue
+        if tried.get(shop) and (datetime.fromisoformat(today) - datetime.fromisoformat(tried[shop])).days < 7:
+            continue
+        q = "+".join(re.sub(r"[^\w]+", " ", f"{it['brand']} {it['name']} {CONC_WORDS.get(it.get('conc'), '')}").split())
+        spent += 1
+        tried[shop] = today
+        try:
+            r = get(tpl.format(q=q))
+            if getattr(r, "status_code", 0) != 200:
+                continue
+            link = best_link(r.text, tpl, it)
+            DEBUG.setdefault("busqueda_" + shop, {"perfume": it["id"], "encontrada": link,
+                             "enlaces": re.findall(r'href="([^"#]{12,160})"', r.text)[200:240]})
+            if link:
+                urls[shop] = link
+        except Exception:
+            pass
+        time.sleep(1.2)
+    return spent
+
+
 # ---------------------------------------------------------------- pasada
 def update_perfume(it, get, stats, today):
     ml = it["ml"]
@@ -254,7 +353,7 @@ CH_PAGES = ["https://www.chollometro.com/categorias/perfumes",
 def parse_chollos(page):
     """Hilos de una página de categoría de Chollometro: [{id,t,p,shop,url,expired}]."""
     found = {}
-    for raw in re.findall(r'data-vue3="([^"]+)"', page):
+    for _, raw in re.findall(r'data-vue3=(["\'])(.*?)\1', page, re.S):
         try:
             data = json.loads(htmllib.unescape(raw))
         except Exception:
@@ -270,13 +369,17 @@ def parse_chollos(page):
                               "shop": merchant.get("merchantName") if isinstance(merchant, dict) else None,
                               "url": link, "expired": bool(o.get("isExpired"))}
     if not found:   # respaldo: enlaces /ofertas/<slug>-<id>
-        for m in re.finditer(r'href="(https://www\.chollometro\.com/ofertas/[^"#?]+-(\d+))"[^>]*title="([^"]+)"', page):
-            tid = int(m.group(2))
-            found.setdefault(tid, {"id": tid, "t": htmllib.unescape(m.group(3))[:120], "p": None, "shop": None, "url": m.group(1), "expired": False})
+        for m in re.finditer(r'href="(https://www\.chollometro\.com/ofertas/([^"#?]+)-(\d+))"', page):
+            tid = int(m.group(3))
+            title = m.group(2).replace("-", " ").capitalize()
+            found.setdefault(tid, {"id": tid, "t": title[:120], "p": None, "shop": None, "url": m.group(1), "expired": False})
     return list(found.values())
 
 
-def pass_chollos(get, estado):
+PERFUME_WORDS = re.compile(r"perfum|eau de|\bedt\b|\bedp\b|parfum|colonia|fragancia|\d{2,3}\s?ml", re.I)
+
+
+def pass_chollos(get, estado, brands=()):
     path = DATA / "chollos.json"
     feed = json.loads(path.read_text()) if path.exists() else {"items": []}
     old = {x["id"]: x for x in feed.get("items", [])}
@@ -293,6 +396,7 @@ def pass_chollos(get, estado):
                 DEBUG["chollometro"] = {"url": u, "vue3": len(re.findall(r"data-vue3=", r.text)), "ofertas": re.findall(r'.{0,150}/ofertas/.{0,150}', r.text)[:15], "inicio": r.text[:3000]}
             if not found:
                 estado["chollometro"] = "0 encontrados"
+            found = [x for x in found if PERFUME_WORDS.search(x["t"]) or any(b.lower() in x["t"].lower() for b in brands)]
             for x in found:
                 x["seen"] = today
                 old[x["id"]] = {**old.get(x["id"], {}), **{k: v for k, v in x.items() if v is not None}}
@@ -374,13 +478,15 @@ def main():
     limpiados = {i["id"]: g for i in perfumes if (g := clean_outliers(i, today))}
     order = sorted(perfumes, key=lambda i: i.get("checked") or "")
     stats = {}
+    budget = DISCOVER_PER_RUN
     for it in order[:BATCH]:
+        budget -= discover(it, get, today, budget)
         update_perfume(it, get, stats, today)
         got = ", ".join("%s:%s" % (k, v["p"]) for k, v in (it.get("prices") or {}).items() if v and v.get("d") == today)
         print("%s %s %s ml -> %s" % (it["brand"], it["name"], it["ml"], got or "-"), flush=True)
     (DATA / "perfumes.json").write_text(json.dumps(perfumes, ensure_ascii=False, indent=1, sort_keys=True))
     estado = {"at": now_iso(), "revisados": min(BATCH, len(perfumes)), "tiendas": stats, "limpiados": limpiados}
-    pass_chollos(get, estado)
+    pass_chollos(get, estado, {i["brand"] for i in perfumes})
     (DATA / "debug.json").write_text(json.dumps(DEBUG, ensure_ascii=False, indent=1))
     run_probe(get)
     (DATA / "estado.json").write_text(json.dumps(estado, ensure_ascii=False, indent=1))

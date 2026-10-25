@@ -78,3 +78,29 @@ bl = radar.probe_page(lambda u: R(403, "Access denied"), "https://t.es")
 cap = radar.probe_page(lambda u: R(200, "<div class=g-recaptcha>captcha</div>"), "https://t.es")
 assert ok["estado"] == "con precios" and bl["estado"] == "bloqueada" and cap["estado"] == "bloqueada"
 print("OK: prueba de tiendas")
+
+# 11. Casos reales vistos en GitHub
+lf = ld({"@type": "ProductGroup", "hasVariant": [{"@type": "Product", "name": "Bleu Noir Eau de Parfum - 100ml",
+      "description": "Disponible también en 50 ml", "offers": {"@type": "Offer", "price": "66.90", "priceCurrency": "EUR"}}]})
+assert extract(lf + "<span>Coste de entrega: 3,99€</span>", 100, "https://www.lookfantastic.es/x/12127921.html")[0] == 66.9
+mag = ('<script>{"attributes":{"93":{"options":[{"id":"1","label":"50 ml","products":["126295"]},{"id":"2","label":"100 ml","products":["126294"]}]}},'
+       '"optionPrices":{"126295":{"finalPrice":{"amount":47.95}},"126294":{"finalPrice":{"amount":59.95}}}}</script>')
+assert extract(ld({"@type": "Product", "name": "Explorer EDP", "offers": [{"price": 47.95, "priceCurrency": "EUR"}]}) + mag, 100, "https://www.perfumeriasavenida.com/explorer-edp-mont-blanc") == (59.95, None, "magento")
+th1 = '<div data-vue3=\'%s\'></div>' % json.dumps({"props": {"thread": {"threadId": "77", "title": "Hugo Man EDT 125 ml", "price": 29.9, "isExpired": True}}})
+assert parse_chollos(th1)[0]["expired"] is True and parse_chollos(th1)[0]["id"] == 77
+assert parse_chollos('<a href="https://www.chollometro.com/ofertas/hugo-man-edt-125ml-2042605" data-t=\'threadLink\'>')[0]["t"] == "Hugo man edt 125ml"
+print("OK: casos reales")
+
+# 12. Buscar la ficha en una página de resultados
+res = ('<a href="/es/c/perfumes/01">Perfumes</a><a href="/es/p/5010218001">BOSS Bottled Night Eau de Toilette</a>'
+       '<a href="/es/p/3001055018">HUGO BOSS Boss Bottled Eau de Toilette 100 ml</a><a href="https://otra.com/p/boss-bottled">x</a>')
+it = {"id": "hb", "brand": "Hugo Boss", "name": "Boss Bottled", "conc": "EDT", "ml": 100}
+assert radar.best_link(res, "https://www.douglas.es/es/search?q={q}", it) == "https://www.douglas.es/es/p/3001055018"
+assert radar.best_link('<a href="/es/p/1">Boss Bottled Night 100 ml</a>', "https://www.douglas.es/es/search?q={q}", it) is None
+assert radar.best_link("<a href='/x'>nada</a>", "https://www.douglas.es/es/search?q={q}", it) is None
+seen = []
+it2 = dict(it, urls={"lookfantastic": "https://ya.es/x"})
+n = radar.discover(it2, lambda u: (seen.append(u), R(200, res))[1], "2026-10-25", 2)
+assert n == 2 and it2["urls"]["douglas"].endswith("3001055018") and "lookfantastic" not in seen[0] and len(seen) == 2
+assert radar.discover(it2, lambda u: R(200, res), "2026-10-26", 5) == 0 or it2["buscado"]
+print("OK: buscar fichas")
