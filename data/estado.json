@@ -1,147 +1,8 @@
 {
- "at": "2026-10-26T10:21:15+01:00",
+ "at": "2026-10-26T11:22:08+01:00",
  "revisados": 35,
  "tiendas": {
   "arabicparfums": {
-   "ok": 3,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "jsonld": 3
-  },
-  "notino": {
-   "ok": 6,
-   "bloqueada": 20,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "jsonld": 6
-  },
-  "idealo": {
-   "ok": 23,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 1,
-   "jsonld": 3,
-   "jsonld-url": 20,
-   "ejemplos": [
-    {
-     "perfume": "jean-paul-gaultier-ultra-male-edt-125",
-     "precio": 59.71,
-     "referencia": 123.0,
-     "metodo": "texto"
-    }
-   ]
-  },
-  "paco": {
-   "ok": 21,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 1,
-   "jsonld": 20,
-   "precio-100ml": 1,
-   "ejemplos": [
-    {
-     "perfume": "hermes-h24-edt-100",
-     "precio": 135.0,
-     "referencia": 82.285,
-     "metodo": "texto"
-    }
-   ]
-  },
-  "lookfantastic": {
-   "ok": 0,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 20,
-   "ejemplos": [
-    {
-     "perfume": "tom-ford-black-orchid-edp-100",
-     "precio": 3.99,
-     "referencia": 132.92,
-     "metodo": "texto"
-    },
-    {
-     "perfume": "tom-ford-lost-cherry-edp-50",
-     "precio": 3.99,
-     "referencia": 290.605,
-     "metodo": "texto"
-    },
-    {
-     "perfume": "yves-saint-laurent-l-homme-edt-100",
-     "precio": 138.0,
-     "referencia": 68.49,
-     "metodo": "texto"
-    }
-   ]
-  },
-  "laguna": {
-   "ok": 17,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 1,
-   "jsonld-url": 4,
-   "jsonld": 8,
-   "precio-100ml": 5,
-   "ejemplos": [
-    {
-     "perfume": "jean-paul-gaultier-le-male-elixir-absolu-parfum-125",
-     "precio": 163.0,
-     "referencia": 99.95,
-     "metodo": "jsonld"
-    }
-   ]
-  },
-  "sabina": {
-   "ok": 18,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 3,
-   "jsonld": 17,
-   "ejemplos": [
-    {
-     "perfume": "hugo-boss-boss-bottled-tonic-edt-100",
-     "precio": 88.27,
-     "referencia": null,
-     "metodo": "texto"
-    },
-    {
-     "perfume": "hugo-boss-boss-the-scent-le-parfum-parfum-100",
-     "precio": 88.27,
-     "referencia": 67.45,
-     "metodo": "texto"
-    },
-    {
-     "perfume": "kilian-angels-share-edp-50",
-     "precio": 116.83,
-     "referencia": 167.81,
-     "metodo": "texto"
-    }
-   ],
-   "precio-100ml": 1
-  },
-  "perfumesclub": {
-   "ok": 4,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "precio-100ml": 4
-  },
-  "avenida": {
-   "ok": 14,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 1,
-   "variantes": 14,
-   "ejemplos": [
-    {
-     "perfume": "issey-miyake-l-eau-d-issey-pour-homme-edt-125",
-     "precio": 74.95,
-     "referencia": 47.375,
-     "metodo": "variantes"
-    }
-   ]
-  },
-  "firstinfragrance": {
    "ok": 1,
    "bloqueada": 0,
    "sin_precio": 0,
@@ -151,15 +12,117 @@
   "beautinow": {
    "ok": 0,
    "bloqueada": 0,
-   "sin_precio": 2,
+   "sin_precio": 3,
+   "dudoso": 0
+  },
+  "laguna": {
+   "ok": 15,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 1,
+   "jsonld": 6,
+   "jsonld-url": 5,
+   "precio-100ml": 4,
+   "ejemplos": [
+    {
+     "perfume": "tom-ford-noir-extreme-edp-100",
+     "precio": 208.0,
+     "referencia": 134.825,
+     "metodo": "jsonld"
+    }
+   ]
+  },
+  "notino": {
+   "ok": 0,
+   "bloqueada": 26,
+   "sin_precio": 0,
    "dudoso": 0
   },
   "parejo": {
-   "ok": 4,
+   "ok": 10,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "jsonld": 4
+   "jsonld": 10
+  },
+  "sabina": {
+   "ok": 20,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "jsonld": 19,
+   "precio-100ml": 1
+  },
+  "idealo": {
+   "ok": 24,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "jsonld": 5,
+   "jsonld-url": 19
+  },
+  "firstinfragrance": {
+   "ok": 7,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "jsonld": 7
+  },
+  "lookfantastic": {
+   "ok": 2,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 17,
+   "ejemplos": [
+    {
+     "perfume": "maison-margiela-replica-by-the-fireplace-edt-100",
+     "precio": 3.99,
+     "referencia": 130.05,
+     "metodo": "texto"
+    },
+    {
+     "perfume": "narciso-rodriguez-bleu-noir-edp-100",
+     "precio": 3.99,
+     "referencia": 79.95,
+     "metodo": "texto"
+    },
+    {
+     "perfume": "prada-l-homme-edt-100",
+     "precio": 3.99,
+     "referencia": 86.5,
+     "metodo": "texto"
+    }
+   ],
+   "jsonld": 2
+  },
+  "avenida": {
+   "ok": 13,
+   "bloqueada": 0,
+   "sin_precio": 2,
+   "dudoso": 0,
+   "variantes": 12,
+   "jsonld": 1
+  },
+  "paco": {
+   "ok": 18,
+   "bloqueada": 0,
+   "sin_precio": 1,
+   "dudoso": 0,
+   "jsonld": 18
+  },
+  "brasty": {
+   "ok": 1,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "jsonld": 1
+  },
+  "douglas": {
+   "ok": 2,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "precio-100ml": 2
   },
   "sephora": {
    "ok": 0,
@@ -167,16 +130,17 @@
    "sin_precio": 0,
    "dudoso": 0
   },
-  "douglas": {
-   "ok": 0,
+  "perfumesclub": {
+   "ok": 2,
    "bloqueada": 0,
-   "sin_precio": 1,
-   "dudoso": 0
+   "sin_precio": 0,
+   "dudoso": 0,
+   "precio-100ml": 2
   }
  },
  "limpiados": {
-  "hugo-boss-boss-bottled-edt-200": [
-   "parejo"
+  "yves-saint-laurent-l-homme-edt-100": [
+   "notino"
   ]
  },
  "chollometro": "ok 86"
