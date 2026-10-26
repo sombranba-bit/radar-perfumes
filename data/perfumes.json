@@ -791,7 +791,7 @@
    "idealo": "2026-10-26",
    "lookfantastic": "2026-10-26"
   },
-  "checked": "2026-10-26T12:12:33+01:00",
+  "checked": "2026-10-26T19:45:52+01:00",
   "conc": "EDT",
   "deals": [
    {
@@ -886,18 +886,23 @@
    },
    {
     "d": "2026-10-26",
+    "p": 85.0,
+    "s": "notino"
+   },
+   {
+    "d": "2026-10-26",
     "p": 89.95,
     "s": "avenida"
    },
    {
     "d": "2026-10-26",
-    "p": 79.95,
-    "s": "laguna"
+    "p": 63.65,
+    "s": "idealo"
    },
    {
     "d": "2026-10-26",
-    "p": 85.0,
-    "s": "notino"
+    "p": 79.95,
+    "s": "laguna"
    },
    {
     "d": "2026-10-26",
@@ -913,11 +918,6 @@
     "d": "2026-10-26",
     "p": 88.27,
     "s": "sabina"
-   },
-   {
-    "d": "2026-10-26",
-    "p": 63.65,
-    "s": "idealo"
    }
   ],
   "id": "armani-acqua-di-gio-edt-100",
@@ -1059,7 +1059,7 @@
    "douglas": "2026-10-26",
    "idealo": "2026-10-26"
   },
-  "checked": "2026-10-26T12:12:47+01:00",
+  "checked": "2026-10-26T19:46:00+01:00",
   "conc": "EDT",
   "deals": [
    {
@@ -1119,6 +1119,11 @@
    },
    {
     "d": "2026-10-26",
+    "p": 60.46,
+    "s": "idealo"
+   },
+   {
+    "d": "2026-10-26",
     "p": 69.5,
     "s": "laguna"
    },
@@ -1126,11 +1131,6 @@
     "d": "2026-10-26",
     "p": 69.5,
     "s": "paco"
-   },
-   {
-    "d": "2026-10-26",
-    "p": 60.46,
-    "s": "idealo"
    }
   ],
   "id": "armani-code-edt-75",
@@ -9564,7 +9564,7 @@
    "idealo": "2026-10-25",
    "makeup": "2026-10-25"
   },
-  "checked": "2026-10-26T12:13:05+01:00",
+  "checked": "2026-10-26T19:46:16+01:00",
   "conc": "EDT",
   "deals": [
    {
@@ -9669,7 +9669,7 @@
    },
    {
     "d": "2026-10-26",
-    "p": 42.66,
+    "p": 42.0,
     "s": "idealo"
    },
    {
@@ -9702,7 +9702,7 @@
     "auto": true,
     "d": "2026-10-26",
     "gh": true,
-    "p": 42.66
+    "p": 42.0
    },
    "laguna": {
     "auto": true,
@@ -14996,8 +14996,12 @@
  },
  {
   "brand": "Montblanc",
-  "buscado": {},
-  "checked": "2026-10-26T11:17:32+01:00",
+  "buscado": {
+   "douglas": "2026-10-26",
+   "idealo": "2026-10-26",
+   "lookfantastic": "2026-10-26"
+  },
+  "checked": "2026-10-26T19:39:29+01:00",
   "conc": "EDP",
   "deals": [
    {
@@ -15074,6 +15078,11 @@
     "d": "2026-10-26",
     "p": 50.3,
     "s": "sabina"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 49.95,
+    "s": "idealo"
    }
   ],
   "id": "montblanc-explorer-edp-100",
@@ -15085,6 +15094,12 @@
     "d": "2026-10-26",
     "gh": true,
     "p": 59.95
+   },
+   "idealo": {
+    "auto": true,
+    "d": "2026-10-26",
+    "gh": true,
+    "p": 49.95
    },
    "notino": {
     "auto": true,
@@ -15114,6 +15129,7 @@
   "tier": "Diseñador",
   "urls": {
    "avenida": "https://www.perfumeriasavenida.com/explorer-edp-mont-blanc",
+   "idealo": "https://www.idealo.es/precios/6455759/montblanc-explorer-eau-de-parfum-100ml.html",
    "notino": "https://www.notino.es/montblanc/explorer-eau-de-parfum-para-hombre/p-15950050/",
    "paco": "https://www.pacoperfumerias.com/montblanc-explorer-17288.html",
    "parejo": "https://www.joyeriaparejo.com/perfumes/montblanc-explorer-eau-de-parfum-100-ml-hombre",
@@ -15122,8 +15138,12 @@
  },
  {
   "brand": "Montblanc",
-  "buscado": {},
-  "checked": "2026-10-26T11:17:46+01:00",
+  "buscado": {
+   "douglas": "2026-10-26",
+   "idealo": "2026-10-26",
+   "lookfantastic": "2026-10-26"
+  },
+  "checked": "2026-10-26T19:39:54+01:00",
   "conc": "EDT",
   "deals": [
    {
@@ -15220,6 +15240,11 @@
     "d": "2026-10-26",
     "p": 47.45,
     "s": "sabina"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 37.05,
+    "s": "idealo"
    }
   ],
   "id": "montblanc-legend-edt-100",
@@ -15231,6 +15256,12 @@
     "d": "2026-10-26",
     "gh": true,
     "p": 54.95
+   },
+   "idealo": {
+    "auto": true,
+    "d": "2026-10-26",
+    "gh": true,
+    "p": 37.05
    },
    "laguna": {
     "auto": true,
@@ -15266,6 +15297,7 @@
   "tier": "Diseñador",
   "urls": {
    "avenida": "https://www.perfumeriasavenida.com/legend-edt-mont-blanc",
+   "idealo": "https://www.idealo.es/precios/2708796/montblanc-legend-eau-de-toilette-100-ml.html",
    "laguna": "https://www.perfumeriaslaguna.com/montblanc-legend-edt-100",
    "notino": "https://www.notino.es/mont-blanc/legend-eau-de-toilette-para-hombre/p-72236/",
    "paco": "https://www.pacoperfumerias.com/mont-blanc-legend-188650.html",
@@ -15379,8 +15411,12 @@
  },
  {
   "brand": "Mugler",
-  "buscado": {},
-  "checked": "2026-10-26T11:17:46+01:00",
+  "buscado": {
+   "douglas": "2026-10-26",
+   "idealo": "2026-10-26",
+   "lookfantastic": "2026-10-26"
+  },
+  "checked": "2026-10-26T19:40:01+01:00",
   "conc": "EDT",
   "deals": [
    {
@@ -15401,8 +15437,12 @@
  },
  {
   "brand": "Mugler",
-  "buscado": {},
-  "checked": "2026-10-26T11:17:48+01:00",
+  "buscado": {
+   "douglas": "2026-10-26",
+   "idealo": "2026-10-26",
+   "lookfantastic": "2026-10-26"
+  },
+  "checked": "2026-10-26T19:40:14+01:00",
   "conc": "EDP",
   "deals": [
    {
@@ -15417,12 +15457,23 @@
     "d": "2026-10-11",
     "p": 73.95,
     "s": "paco"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 63.65,
+    "s": "idealo"
    }
   ],
   "id": "mugler-alien-edp-60",
   "ml": 60,
   "name": "Alien",
   "prices": {
+   "idealo": {
+    "auto": true,
+    "d": "2026-10-26",
+    "gh": true,
+    "p": 63.65
+   },
    "paco": {
     "auto": true,
     "d": "2026-10-26",
@@ -15434,6 +15485,8 @@
   "target": null,
   "tier": "Diseñador",
   "urls": {
+   "idealo": "https://www.idealo.es/precios/201076443/thierry-mugler-alien-eau-de-parfum-recargable-60-ml.html",
+   "lookfantastic": "https://www.lookfantastic.es/p/mugler-alien-eau-de-parfum-natural-spray-refillable-90ml/10947978/?variation=10947978",
    "paco": "https://www.pacoperfumerias.com/alien-thierry-mugler-217.html"
   }
  },
@@ -15504,8 +15557,11 @@
  },
  {
   "brand": "Narciso Rodriguez",
-  "buscado": {},
-  "checked": "2026-10-26T11:17:57+01:00",
+  "buscado": {
+   "douglas": "2026-10-26",
+   "idealo": "2026-10-26"
+  },
+  "checked": "2026-10-26T19:40:30+01:00",
   "conc": "EDP",
   "history": [
    {
@@ -15542,6 +15598,11 @@
     "d": "2026-10-26",
     "p": 59.95,
     "s": "laguna"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 56.99,
+    "s": "idealo"
    }
   ],
   "id": "narciso-rodriguez-bleu-noir-edp-100",
@@ -15560,6 +15621,12 @@
     "gh": true,
     "p": 55.34,
     "stock": false
+   },
+   "idealo": {
+    "auto": true,
+    "d": "2026-10-26",
+    "gh": true,
+    "p": 56.99
    },
    "laguna": {
     "auto": true,
@@ -15584,7 +15651,7 @@
     "auto": true,
     "d": "2026-10-26",
     "gh": true,
-    "p": 59.94,
+    "p": 59.93,
     "stock": false
    }
   },
@@ -15593,6 +15660,7 @@
   "urls": {
    "avenida": "https://www.perfumeriasavenida.com/eau-de-parfum-for-him-bleu-noir-edp-narciso-rodriguez",
    "brasty": "https://www.brasty.es/narciso-rodriguez-for-him-bleu-noir-eau-de-parfum-para-hombre-100-ml",
+   "idealo": "https://www.idealo.es/precios/5981472/narciso-rodriguez-for-him-bleu-noir-eau-de-parfum-100ml.html",
    "laguna": "https://www.perfumeriaslaguna.com/narciso-rodriguez-for-him-bleu-noir-eau-de-parfum-100",
    "lookfantastic": "https://www.lookfantastic.es/narciso-rodriguez-for-him-bleu-noir-eau-de-parfum-100ml/12127921.html",
    "notino": "https://www.notino.es/narciso-rodriguez/for-him-bleu-noir-eau-de-parfum-para-hombre/p-15719416/",
@@ -15601,8 +15669,12 @@
  },
  {
   "brand": "Narciso Rodriguez",
-  "buscado": {},
-  "checked": "2026-10-26T11:18:14+01:00",
+  "buscado": {
+   "douglas": "2026-10-26",
+   "idealo": "2026-10-26",
+   "lookfantastic": "2026-10-26"
+  },
+  "checked": "2026-10-26T19:40:50+01:00",
   "conc": "EDP",
   "deals": [
    {
@@ -15676,13 +15748,18 @@
    },
    {
     "d": "2026-10-26",
-    "p": 88.28,
+    "p": 87.52,
     "s": "paco"
    },
    {
     "d": "2026-10-26",
     "p": 78.31,
     "s": "sabina"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 64.83,
+    "s": "idealo"
    }
   ],
   "id": "narciso-rodriguez-for-her-edp-100",
@@ -15694,6 +15771,12 @@
     "d": "2026-10-26",
     "gh": true,
     "p": 85.95
+   },
+   "idealo": {
+    "auto": true,
+    "d": "2026-10-26",
+    "gh": true,
+    "p": 64.83
    },
    "laguna": {
     "auto": true,
@@ -15711,7 +15794,7 @@
     "auto": true,
     "d": "2026-10-26",
     "gh": true,
-    "p": 88.28
+    "p": 87.52
    },
    "sabina": {
     "auto": true,
@@ -15724,7 +15807,9 @@
   "tier": "Diseñador",
   "urls": {
    "avenida": "https://www.perfumeriasavenida.com/narciso-rodriguez-for-her-perfume-edp-narciso-rodriguez",
+   "idealo": "https://www.idealo.es/precios/972147/narciso-rodriguez-for-her-eau-de-parfum-100-ml.html",
    "laguna": "https://www.perfumeriaslaguna.com/narciso-rodriguez-edp-100-vaporizador",
+   "lookfantastic": "https://www.lookfantastic.es/p/narciso-rodriguez-pure-musc-for-her-eau-de-parfum-100ml/12127907/",
    "notino": "https://www.notino.es/narciso-rodriguez/for-her-eau-de-parfum-para-mujer/p-69508/",
    "paco": "https://www.pacoperfumerias.com/narciso-rodriguez-for-her-1411.html",
    "sabina": "https://www.sabina.com/es/perfumes-mujer/527-for-her-eau-de-parfum-narciso-rodriguez.html"
@@ -15862,8 +15947,12 @@
  },
  {
   "brand": "Parfums de Marly",
-  "buscado": {},
-  "checked": "2026-10-26T11:18:14+01:00",
+  "buscado": {
+   "douglas": "2026-10-26",
+   "idealo": "2026-10-26",
+   "lookfantastic": "2026-10-26"
+  },
+  "checked": "2026-10-26T19:40:59+01:00",
   "conc": "EDP",
   "history": [
    {
@@ -15875,12 +15964,23 @@
     "d": "2026-10-26",
     "p": 285.0,
     "s": "notino"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 265.99,
+    "s": "idealo"
    }
   ],
   "id": "parfums-de-marly-delina-edp-75",
   "ml": 75,
   "name": "Delina",
   "prices": {
+   "idealo": {
+    "auto": true,
+    "d": "2026-10-26",
+    "gh": true,
+    "p": 265.99
+   },
    "notino": {
     "auto": true,
     "d": "2026-10-26",
@@ -15891,6 +15991,7 @@
   "target": null,
   "tier": "Nicho",
   "urls": {
+   "idealo": "https://www.idealo.es/precios/5719653/parfums-de-marly-delina-eau-de-parfum-75ml.html",
    "notino": "https://www.notino.es/parfums-de-marly/darley-royal-essence-delina-eau-de-parfum-para-mujer/p-11598204/"
   }
  },
@@ -15948,7 +16049,7 @@
  {
   "brand": "Parfums de Marly",
   "buscado": {},
-  "checked": "2026-10-26T11:18:18+01:00",
+  "checked": "2026-10-26T19:41:05+01:00",
   "conc": "EDP",
   "history": [
    {
@@ -16025,7 +16126,7 @@
    "idealo": "2026-10-26",
    "lookfantastic": "2026-10-26"
   },
-  "checked": "2026-10-26T11:18:25+01:00",
+  "checked": "2026-10-26T19:41:11+01:00",
   "conc": "EDP",
   "history": [
    {
@@ -16140,7 +16241,7 @@
    "idealo": "2026-10-26",
    "lookfantastic": "2026-10-26"
   },
-  "checked": "2026-10-26T11:18:33+01:00",
+  "checked": "2026-10-26T19:41:19+01:00",
   "conc": "EDT",
   "deals": [
    {
@@ -16178,6 +16279,11 @@
    },
    {
     "d": "2026-10-26",
+    "p": 80.89,
+    "s": "paco"
+   },
+   {
+    "d": "2026-10-26",
     "p": 86.5,
     "s": "sabina"
    }
@@ -16202,8 +16308,7 @@
     "auto": true,
     "d": "2026-10-26",
     "gh": true,
-    "p": 79.81,
-    "stock": false
+    "p": 80.89
    },
    "sabina": {
     "auto": true,
@@ -16540,7 +16645,7 @@
    "douglas": "2026-10-26",
    "idealo": "2026-10-26"
   },
-  "checked": "2026-10-26T11:19:05+01:00",
+  "checked": "2026-10-26T19:41:35+01:00",
   "conc": "EDP",
   "deals": [
    {
@@ -16697,7 +16802,7 @@
    "douglas": "2026-10-26",
    "idealo": "2026-10-26"
   },
-  "checked": "2026-10-26T11:19:17+01:00",
+  "checked": "2026-10-26T19:41:47+01:00",
   "conc": "EDT",
   "deals": [
    {
@@ -16827,7 +16932,7 @@
    "douglas": "2026-10-26",
    "idealo": "2026-10-26"
   },
-  "checked": "2026-10-26T11:19:34+01:00",
+  "checked": "2026-10-26T19:41:59+01:00",
   "conc": "Parfum",
   "deals": [
    {
@@ -16890,7 +16995,7 @@
    },
    {
     "d": "2026-10-26",
-    "p": 64.31,
+    "p": 64.3,
     "s": "idealo"
    },
    {
@@ -16923,7 +17028,7 @@
     "auto": true,
     "d": "2026-10-26",
     "gh": true,
-    "p": 64.31
+    "p": 64.3
    },
    "laguna": {
     "auto": true,
@@ -16974,7 +17079,7 @@
    "douglas": "2026-10-26",
    "idealo": "2026-10-26"
   },
-  "checked": "2026-10-26T11:19:47+01:00",
+  "checked": "2026-10-26T19:42:12+01:00",
   "conc": "EDP",
   "deals": [
    {
@@ -17121,7 +17226,7 @@
    "douglas": "2026-10-26",
    "idealo": "2026-10-26"
   },
-  "checked": "2026-10-26T11:20:07+01:00",
+  "checked": "2026-10-26T19:42:39+01:00",
   "conc": "EDT",
   "deals": [
    {
@@ -17745,7 +17850,7 @@
    "douglas": "2026-10-26",
    "idealo": "2026-10-26"
   },
-  "checked": "2026-10-26T11:20:24+01:00",
+  "checked": "2026-10-26T19:42:56+01:00",
   "conc": "EDT",
   "deals": [
    {
@@ -17923,7 +18028,7 @@
    "douglas": "2026-10-26",
    "idealo": "2026-10-26"
   },
-  "checked": "2026-10-26T11:20:40+01:00",
+  "checked": "2026-10-26T19:43:12+01:00",
   "conc": "EDP",
   "deals": [
    {
@@ -18063,7 +18168,7 @@
    "douglas": "2026-10-26",
    "idealo": "2026-10-26"
   },
-  "checked": "2026-10-26T11:20:50+01:00",
+  "checked": "2026-10-26T19:43:22+01:00",
   "conc": "EDT",
   "history": [
    {
@@ -18308,7 +18413,7 @@
    "douglas": "2026-10-26",
    "idealo": "2026-10-26"
   },
-  "checked": "2026-10-26T11:21:03+01:00",
+  "checked": "2026-10-26T19:43:35+01:00",
   "conc": "EDP",
   "history": [
    {
@@ -18363,6 +18468,11 @@
    },
    {
     "d": "2026-10-26",
+    "p": 151.95,
+    "s": "laguna"
+   },
+   {
+    "d": "2026-10-26",
     "p": 131.94,
     "s": "paco"
    },
@@ -18392,6 +18502,12 @@
     "d": "2026-10-26",
     "gh": true,
     "p": 115.38
+   },
+   "laguna": {
+    "auto": true,
+    "d": "2026-10-26",
+    "gh": true,
+    "p": 151.95
    },
    "lookfantastic": {
     "auto": true,
@@ -18443,7 +18559,7 @@
    "douglas": "2026-10-26",
    "idealo": "2026-10-26"
   },
-  "checked": "2026-10-26T11:21:15+01:00",
+  "checked": "2026-10-26T19:43:46+01:00",
   "conc": "EDP",
   "deals": [
    {
@@ -18530,7 +18646,7 @@
     "auto": true,
     "d": "2026-10-26",
     "gh": true,
-    "p": 132.89,
+    "p": 132.9,
     "stock": false
    },
    "perfumesclub": {
@@ -18564,7 +18680,7 @@
    "douglas": "2026-10-26",
    "idealo": "2026-10-26"
   },
-  "checked": "2026-10-26T11:21:18+01:00",
+  "checked": "2026-10-26T19:43:49+01:00",
   "conc": "EDP",
   "history": [
    {
@@ -18702,7 +18818,7 @@
    "douglas": "2026-10-26",
    "idealo": "2026-10-26"
   },
-  "checked": "2026-10-26T11:21:27+01:00",
+  "checked": "2026-10-26T19:43:56+01:00",
   "conc": "EDP",
   "history": [
    {
@@ -18795,7 +18911,7 @@
    "douglas": "2026-10-26",
    "idealo": "2026-10-26"
   },
-  "checked": "2026-10-26T11:21:39+01:00",
+  "checked": "2026-10-26T19:44:07+01:00",
   "conc": "EDT",
   "history": [
    {
@@ -18897,7 +19013,7 @@
    "douglas": "2026-10-26",
    "idealo": "2026-10-26"
   },
-  "checked": "2026-10-26T11:21:44+01:00",
+  "checked": "2026-10-26T19:44:12+01:00",
   "conc": "EDP",
   "history": [
    {
@@ -18993,7 +19109,7 @@
    "douglas": "2026-10-26",
    "idealo": "2026-10-26"
   },
-  "checked": "2026-10-26T11:22:00+01:00",
+  "checked": "2026-10-26T19:44:28+01:00",
   "conc": "EDT",
   "history": [
    {
@@ -19496,7 +19612,7 @@
    "douglas": "2026-10-26",
    "idealo": "2026-10-26"
   },
-  "checked": "2026-10-26T11:22:08+01:00",
+  "checked": "2026-10-26T19:44:33+01:00",
   "conc": "EDP",
   "deals": [
    {
@@ -19657,7 +19773,7 @@
    "douglas": "2026-10-26",
    "idealo": "2026-10-26"
   },
-  "checked": "2026-10-26T12:10:48+01:00",
+  "checked": "2026-10-26T19:44:40+01:00",
   "conc": "EDT",
   "history": [
    {
@@ -19774,7 +19890,7 @@
    "douglas": "2026-10-26",
    "idealo": "2026-10-26"
   },
-  "checked": "2026-10-26T12:11:11+01:00",
+  "checked": "2026-10-26T19:44:59+01:00",
   "conc": "EDP",
   "history": [
    {
@@ -19839,6 +19955,11 @@
    },
    {
     "d": "2026-10-26",
+    "p": 67.65,
+    "s": "idealo"
+   },
+   {
+    "d": "2026-10-26",
     "p": 74.95,
     "s": "laguna"
    },
@@ -19856,11 +19977,6 @@
     "d": "2026-10-26",
     "p": 95.68,
     "s": "sabina"
-   },
-   {
-    "d": "2026-10-26",
-    "p": 67.65,
-    "s": "idealo"
    }
   ],
   "id": "viktor-rolf-flowerbomb-edp-100",
@@ -19942,7 +20058,7 @@
    "douglas": "2026-10-26",
    "idealo": "2026-10-26"
   },
-  "checked": "2026-10-26T12:11:22+01:00",
+  "checked": "2026-10-26T19:45:08+01:00",
   "conc": "EDP",
   "deals": [
    {
@@ -19987,13 +20103,13 @@
    },
    {
     "d": "2026-10-26",
-    "p": 116.45,
-    "s": "parejo"
+    "p": 62.19,
+    "s": "idealo"
    },
    {
     "d": "2026-10-26",
-    "p": 61.76,
-    "s": "idealo"
+    "p": 116.45,
+    "s": "parejo"
    }
   ],
   "id": "viktor-rolf-spicebomb-extreme-edp-90",
@@ -20010,7 +20126,7 @@
     "auto": true,
     "d": "2026-10-26",
     "gh": true,
-    "p": 61.76
+    "p": 62.19
    },
    "lookfantastic": {
     "auto": true,
@@ -20140,7 +20256,7 @@
    "idealo": "2026-10-26",
    "lookfantastic": "2026-10-26"
   },
-  "checked": "2026-10-26T12:11:36+01:00",
+  "checked": "2026-10-26T19:45:15+01:00",
   "conc": "EDP",
   "deals": [
    {
@@ -20178,13 +20294,13 @@
    },
    {
     "d": "2026-10-26",
-    "p": 208.05,
-    "s": "sabina"
+    "p": 163.76,
+    "s": "idealo"
    },
    {
     "d": "2026-10-26",
-    "p": 163.76,
-    "s": "idealo"
+    "p": 208.05,
+    "s": "sabina"
    }
   ],
   "id": "xerjoff-naxos-edp-100",
@@ -20231,7 +20347,7 @@
    "douglas": "2026-10-26",
    "idealo": "2026-10-26"
   },
-  "checked": "2026-10-26T12:11:57+01:00",
+  "checked": "2026-10-26T19:45:33+01:00",
   "conc": "EDP",
   "deals": [
    {
@@ -20309,6 +20425,11 @@
    },
    {
     "d": "2026-10-26",
+    "p": 75.4,
+    "s": "idealo"
+   },
+   {
+    "d": "2026-10-26",
     "p": 80.95,
     "s": "laguna"
    },
@@ -20321,11 +20442,6 @@
     "d": "2026-10-26",
     "p": 84.43,
     "s": "sabina"
-   },
-   {
-    "d": "2026-10-26",
-    "p": 75.4,
-    "s": "idealo"
    }
   ],
   "id": "yves-saint-laurent-black-opium-edp-90",
@@ -20458,7 +20574,7 @@
    "idealo": "2026-10-26",
    "lookfantastic": "2026-10-26"
   },
-  "checked": "2026-10-26T12:12:09+01:00",
+  "checked": "2026-10-26T19:45:38+01:00",
   "conc": "EDT",
   "deals": [
    {
@@ -20495,6 +20611,11 @@
     "d": "2026-10-26",
     "p": 60.84,
     "s": "idealo"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 69.92,
+    "s": "paco"
    }
   ],
   "id": "yves-saint-laurent-la-nuit-de-l-homme-edt-100",
@@ -20516,8 +20637,7 @@
     "auto": true,
     "d": "2026-10-26",
     "gh": true,
-    "p": 69.92,
-    "stock": false
+    "p": 69.92
    }
   },
   "target": null,
