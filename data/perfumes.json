@@ -6,7 +6,7 @@
    "idealo": "2026-10-25",
    "lookfantastic": "2026-10-25"
   },
-  "checked": "2026-10-25T23:26:00+01:00",
+  "checked": "2026-10-26T01:44:14+01:00",
   "conc": "EDC",
   "deals": [],
   "history": [
@@ -24,6 +24,11 @@
     "d": "2026-10-25",
     "p": 96.71,
     "s": "sabina"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 96.71,
+    "s": "sabina"
    }
   ],
   "id": "acqua-di-parma-colonia-edc-100",
@@ -39,7 +44,7 @@
    },
    "sabina": {
     "auto": true,
-    "d": "2026-10-25",
+    "d": "2026-10-26",
     "gh": true,
     "p": 96.71
    }
@@ -258,12 +263,17 @@
  {
   "brand": "Amouage",
   "buscado": {},
-  "checked": "2026-10-25T23:18:57+01:00",
+  "checked": "2026-10-26T01:43:22+01:00",
   "conc": "EDP",
   "deals": [],
   "history": [
    {
     "d": "2026-10-25",
+    "p": 365.0,
+    "s": "firstinfragrance"
+   },
+   {
+    "d": "2026-10-26",
     "p": 365.0,
     "s": "firstinfragrance"
    }
@@ -274,13 +284,13 @@
   "prices": {
    "firstinfragrance": {
     "auto": true,
-    "d": "2026-10-25",
+    "d": "2026-10-26",
     "gh": true,
     "p": 365.0
    },
    "lookfantastic": {
     "auto": true,
-    "d": "2026-10-25",
+    "d": "2026-10-26",
     "gh": true,
     "p": 299.0,
     "stock": false
@@ -2424,8 +2434,12 @@
  },
  {
   "brand": "Calvin Klein",
-  "buscado": {},
-  "checked": "2026-10-25T23:16:28+01:00",
+  "buscado": {
+   "douglas": "2026-10-26",
+   "idealo": "2026-10-26",
+   "lookfantastic": "2026-10-26"
+  },
+  "checked": "2026-10-26T01:39:35+01:00",
   "conc": "EDT",
   "deals": [
    {
@@ -2517,6 +2531,36 @@
     "d": "2026-10-25",
     "p": 35.1,
     "s": "sabina"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 39.95,
+    "s": "avenida"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 29.95,
+    "s": "laguna"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 43.35,
+    "s": "parejo"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 33.83,
+    "s": "perfumesclub"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 35.1,
+    "s": "sabina"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 27.94,
+    "s": "idealo"
    }
   ],
   "id": "calvin-klein-ck-one-edt-200",
@@ -2525,12 +2569,19 @@
   "prices": {
    "avenida": {
     "auto": true,
-    "d": "2026-10-12",
+    "d": "2026-10-26",
+    "gh": true,
     "p": 39.95
+   },
+   "idealo": {
+    "auto": true,
+    "d": "2026-10-26",
+    "gh": true,
+    "p": 27.94
    },
    "laguna": {
     "auto": true,
-    "d": "2026-10-25",
+    "d": "2026-10-26",
     "gh": true,
     "p": 29.95
    },
@@ -2541,25 +2592,26 @@
    },
    "paco": {
     "auto": true,
-    "d": "2026-10-25",
+    "d": "2026-10-26",
     "gh": true,
     "p": 27.94,
     "stock": false
    },
    "parejo": {
     "auto": true,
-    "d": "2026-10-25",
+    "d": "2026-10-26",
     "gh": true,
     "p": 43.35
    },
    "perfumesclub": {
     "auto": true,
-    "d": "2026-10-12",
-    "p": 33.59
+    "d": "2026-10-26",
+    "gh": true,
+    "p": 33.83
    },
    "sabina": {
     "auto": true,
-    "d": "2026-10-25",
+    "d": "2026-10-26",
     "gh": true,
     "p": 35.1
    }
@@ -2567,6 +2619,7 @@
   "target": null,
   "urls": {
    "avenida": "https://www.perfumeriasavenida.com/ck-one-edt-calvin-klein",
+   "idealo": "https://www.idealo.es/precios/609170/calvin-klein-ck-one-eau-de-toilette-200-ml.html",
    "laguna": "https://www.perfumeriaslaguna.com/calvin-klein-ck-one-200",
    "notino": "https://www.notino.es/calvin-klein/ck-one-eau-de-toilette-unisex/p-60115/",
    "paco": "https://www.pacoperfumerias.com/calvin-klein-ck-one-124502.html",
@@ -2578,8 +2631,12 @@
  },
  {
   "brand": "Calvin Klein",
-  "buscado": {},
-  "checked": "2026-10-25T23:16:36+01:00",
+  "buscado": {
+   "douglas": "2026-10-26",
+   "idealo": "2026-10-26",
+   "lookfantastic": "2026-10-26"
+  },
+  "checked": "2026-10-26T01:39:56+01:00",
   "conc": "EDT",
   "deals": [
    {
@@ -2671,6 +2728,36 @@
     "d": "2026-10-25",
     "p": 35.1,
     "s": "sabina"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 39.95,
+    "s": "avenida"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 37.95,
+    "s": "laguna"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 35.99,
+    "s": "paco"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 35.99,
+    "s": "perfumesclub"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 35.1,
+    "s": "sabina"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 32.2,
+    "s": "idealo"
    }
   ],
   "id": "calvin-klein-eternity-for-men-edt-100",
@@ -2679,13 +2766,19 @@
   "prices": {
    "avenida": {
     "auto": true,
-    "d": "2026-10-12",
-    "note": "antes 107,00 €",
+    "d": "2026-10-26",
+    "gh": true,
     "p": 39.95
+   },
+   "idealo": {
+    "auto": true,
+    "d": "2026-10-26",
+    "gh": true,
+    "p": 32.2
    },
    "laguna": {
     "auto": true,
-    "d": "2026-10-25",
+    "d": "2026-10-26",
     "gh": true,
     "p": 37.95
    },
@@ -2697,18 +2790,19 @@
    },
    "paco": {
     "auto": true,
-    "d": "2026-10-25",
+    "d": "2026-10-26",
     "gh": true,
     "p": 35.99
    },
    "perfumesclub": {
     "auto": true,
-    "d": "2026-10-12",
-    "p": 32.5
+    "d": "2026-10-26",
+    "gh": true,
+    "p": 35.99
    },
    "sabina": {
     "auto": true,
-    "d": "2026-10-25",
+    "d": "2026-10-26",
     "gh": true,
     "p": 35.1
    }
@@ -2716,7 +2810,9 @@
   "target": null,
   "urls": {
    "avenida": "https://www.perfumeriasavenida.com/eternity-for-men-edt-calvin-klein",
+   "idealo": "https://www.idealo.es/precios/599818/calvin-klein-eternity-for-men-eau-de-toilette-100-ml.html",
    "laguna": "https://www.perfumeriaslaguna.com/calvin-klein-eternity-men-100-vaporizador",
+   "lookfantastic": "https://www.lookfantastic.es/p/calvin-klein-eternity-aromatic-essence-for-men-100ml/15208592/",
    "notino": "https://www.notino.es/calvin-klein/eternity-for-men-eau-de-toilette-para-hombre/p-60101/",
    "paco": "https://www.pacoperfumerias.com/calvin-klein-eternity-for-men-1210.html",
    "perfumesclub": "https://www.perfumesclub.com/es/calvin-klein/eternity-men-eau-de-toilette-vaporizador/p_4060/",
@@ -3063,8 +3159,11 @@
  },
  {
   "brand": "Carolina Herrera",
-  "buscado": {},
-  "checked": "2026-10-25T23:16:42+01:00",
+  "buscado": {
+   "douglas": "2026-10-26",
+   "idealo": "2026-10-26"
+  },
+  "checked": "2026-10-26T01:40:11+01:00",
   "conc": "EDT",
   "deals": [
    {
@@ -3129,21 +3228,42 @@
     "d": "2026-10-25",
     "p": 55.93,
     "s": "paco"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 54.95,
+    "s": "laguna"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 55.93,
+    "s": "paco"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 55.93,
+    "s": "idealo"
    }
   ],
   "id": "carolina-herrera-212-vip-men-edt-100",
   "ml": 100,
   "name": "212 VIP Men",
   "prices": {
+   "idealo": {
+    "auto": true,
+    "d": "2026-10-26",
+    "gh": true,
+    "p": 55.93
+   },
    "laguna": {
     "auto": true,
-    "d": "2026-10-25",
+    "d": "2026-10-26",
     "gh": true,
     "p": 54.95
    },
    "lookfantastic": {
     "auto": true,
-    "d": "2026-10-25",
+    "d": "2026-10-26",
     "gh": true,
     "p": 103.5,
     "stock": false
@@ -3155,7 +3275,7 @@
    },
    "paco": {
     "auto": true,
-    "d": "2026-10-25",
+    "d": "2026-10-26",
     "gh": true,
     "p": 55.93
    },
@@ -3168,6 +3288,7 @@
   },
   "target": null,
   "urls": {
+   "idealo": "https://www.idealo.es/precios/2846879/carolina-herrera-212-vip-for-men-eau-de-toilette-100-ml.html",
    "laguna": "https://www.perfumeriaslaguna.com/c-herrera-212-vip-men-100-vaporizador",
    "lookfantastic": "https://www.lookfantastic.es/p/carolina-herrera-212-vip-men-eau-de-toilette-100ml/10952611/",
    "notino": "https://www.notino.es/carolina-herrera/212-vip-men-eau-de-toilette-para-hombre/p-75296/",
@@ -3177,8 +3298,12 @@
  },
  {
   "brand": "Carolina Herrera",
-  "buscado": {},
-  "checked": "2026-10-25T23:16:48+01:00",
+  "buscado": {
+   "douglas": "2026-10-26",
+   "idealo": "2026-10-26",
+   "lookfantastic": "2026-10-26"
+  },
+  "checked": "2026-10-26T01:40:30+01:00",
   "conc": "EDT",
   "deals": [
    {
@@ -3239,6 +3364,31 @@
     "d": "2026-10-25",
     "p": 74.91,
     "s": "sabina"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 74.95,
+    "s": "avenida"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 49.95,
+    "s": "laguna"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 74.95,
+    "s": "paco"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 74.91,
+    "s": "sabina"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 59.9,
+    "s": "idealo"
    }
   ],
   "id": "carolina-herrera-bad-boy-edt-100",
@@ -3247,16 +3397,21 @@
   "prices": {
    "avenida": {
     "auto": true,
-    "d": "2026-10-12",
-    "note": "antes 124,00 €",
+    "d": "2026-10-26",
+    "gh": true,
     "p": 74.95
+   },
+   "idealo": {
+    "auto": true,
+    "d": "2026-10-26",
+    "gh": true,
+    "p": 59.9
    },
    "laguna": {
     "auto": true,
-    "d": "2026-10-12",
-    "note": "antes 118,00 €",
-    "p": 49.95,
-    "stock": false
+    "d": "2026-10-26",
+    "gh": true,
+    "p": 49.95
    },
    "notino": {
     "auto": true,
@@ -3265,13 +3420,13 @@
    },
    "paco": {
     "auto": true,
-    "d": "2026-10-25",
+    "d": "2026-10-26",
     "gh": true,
     "p": 74.95
    },
    "sabina": {
     "auto": true,
-    "d": "2026-10-25",
+    "d": "2026-10-26",
     "gh": true,
     "p": 74.91
    }
@@ -3279,7 +3434,9 @@
   "target": null,
   "urls": {
    "avenida": "https://www.perfumeriasavenida.com/ch-bad-boy-edt-carolina-herrera",
+   "idealo": "https://www.idealo.es/precios/6784544/carolina-herrera-bad-boy-eau-de-toilette-100-ml.html",
    "laguna": "https://www.perfumeriaslaguna.com/bad-boy-1",
+   "lookfantastic": "https://www.lookfantastic.es/p/carolina-herrera-bad-boy-eau-de-toilette-100ml/12449369/",
    "notino": "https://www.notino.es/carolina-herrera/bad-boy-eau-de-toilette-para-hombre/p-16019087/",
    "paco": "https://www.pacoperfumerias.com/carolina-herrera-bad-boy-17982.html",
    "sabina": "https://www.sabina.com/es/perfumes-hombre/8407-carolina-herrera-bad-boy-eau-de-toilette.html"
@@ -3287,8 +3444,12 @@
  },
  {
   "brand": "Carolina Herrera",
-  "buscado": {},
-  "checked": "2026-10-25T23:16:55+01:00",
+  "buscado": {
+   "douglas": "2026-10-26",
+   "idealo": "2026-10-26",
+   "lookfantastic": "2026-10-26"
+  },
+  "checked": "2026-10-26T01:40:49+01:00",
   "conc": "EDT",
   "deals": [],
   "history": [
@@ -3341,6 +3502,21 @@
     "d": "2026-10-25",
     "p": 92.65,
     "s": "parejo"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 79.95,
+    "s": "avenida"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 58.95,
+    "s": "laguna"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 92.65,
+    "s": "parejo"
    }
   ],
   "id": "carolina-herrera-ch-men-edt-100",
@@ -3349,13 +3525,13 @@
   "prices": {
    "avenida": {
     "auto": true,
-    "d": "2026-10-12",
-    "note": "antes 119,00 €",
+    "d": "2026-10-26",
+    "gh": true,
     "p": 79.95
    },
    "laguna": {
     "auto": true,
-    "d": "2026-10-25",
+    "d": "2026-10-26",
     "gh": true,
     "p": 58.95
    },
@@ -3368,14 +3544,14 @@
    },
    "paco": {
     "auto": true,
-    "d": "2026-10-25",
+    "d": "2026-10-26",
     "gh": true,
     "p": 54.94,
     "stock": false
    },
    "parejo": {
     "auto": true,
-    "d": "2026-10-25",
+    "d": "2026-10-26",
     "gh": true,
     "p": 92.65
    },
@@ -3398,8 +3574,11 @@
  },
  {
   "brand": "Carolina Herrera",
-  "buscado": {},
-  "checked": "2026-10-25T23:17:02+01:00",
+  "buscado": {
+   "douglas": "2026-10-26",
+   "idealo": "2026-10-26"
+  },
+  "checked": "2026-10-26T01:41:07+01:00",
   "conc": "EDP",
   "deals": [],
   "history": [
@@ -3462,6 +3641,36 @@
     "d": "2026-10-25",
     "p": 119.85,
     "s": "parejo"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 94.95,
+    "s": "avenida"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 94.95,
+    "s": "laguna"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 94.95,
+    "s": "paco"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 119.85,
+    "s": "parejo"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 94.95,
+    "s": "douglas"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 81.11,
+    "s": "idealo"
    }
   ],
   "id": "carolina-herrera-good-girl-edp-80",
@@ -3470,14 +3679,26 @@
   "prices": {
    "avenida": {
     "auto": true,
-    "d": "2026-10-12",
-    "note": "antes 148,00 €",
+    "d": "2026-10-26",
+    "gh": true,
     "p": 94.95
+   },
+   "douglas": {
+    "auto": true,
+    "d": "2026-10-26",
+    "gh": true,
+    "p": 94.95
+   },
+   "idealo": {
+    "auto": true,
+    "d": "2026-10-26",
+    "gh": true,
+    "p": 81.11
    },
    "laguna": {
     "auto": true,
-    "d": "2026-10-12",
-    "note": "antes 148,00 €",
+    "d": "2026-10-26",
+    "gh": true,
     "p": 94.95
    },
    "lookfantastic": {
@@ -3493,13 +3714,13 @@
    },
    "paco": {
     "auto": true,
-    "d": "2026-10-25",
+    "d": "2026-10-26",
     "gh": true,
     "p": 94.95
    },
    "parejo": {
     "auto": true,
-    "d": "2026-10-25",
+    "d": "2026-10-26",
     "gh": true,
     "p": 119.85
    }
@@ -3507,6 +3728,8 @@
   "target": null,
   "urls": {
    "avenida": "https://www.perfumeriasavenida.com/good-girl-edp-carolina-herrera",
+   "douglas": "https://www.douglas.es/es/p/3001044085",
+   "idealo": "https://www.idealo.es/precios/5119274/carolina-herrera-good-girl-eau-de-parfum-80-ml.html",
    "laguna": "https://www.perfumeriaslaguna.com/good-girl-80",
    "lookfantastic": "https://lookfantastic.es/carolina-herrera-good-girl-eau-de-parfum-80ml/11833694.html",
    "notino": "https://www.notino.es/carolina-herrera/good-girl-eau-de-parfum-para-mujer/p-573843/",
@@ -3752,8 +3975,10 @@
  },
  {
   "brand": "Chanel",
-  "buscado": {},
-  "checked": "2026-10-25T23:17:12+01:00",
+  "buscado": {
+   "douglas": "2026-10-26"
+  },
+  "checked": "2026-10-26T01:41:30+01:00",
   "conc": "EDT",
   "history": [
    {
@@ -3780,6 +4005,16 @@
     "d": "2026-10-25",
     "p": 102.35,
     "s": "sabina"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 102.4,
+    "s": "paco"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 102.35,
+    "s": "sabina"
    }
   ],
   "id": "chanel-allure-homme-sport-edt-100",
@@ -3788,13 +4023,13 @@
   "prices": {
    "paco": {
     "auto": true,
-    "d": "2026-10-25",
+    "d": "2026-10-26",
     "gh": true,
     "p": 102.4
    },
    "sabina": {
     "auto": true,
-    "d": "2026-10-25",
+    "d": "2026-10-26",
     "gh": true,
     "p": 102.35
    }
@@ -3808,7 +4043,7 @@
  {
   "brand": "Chanel",
   "buscado": {},
-  "checked": "2026-10-25T23:17:16+01:00",
+  "checked": "2026-10-26T01:41:33+01:00",
   "conc": "EDP",
   "history": [
    {
@@ -3825,6 +4060,11 @@
     "d": "2026-10-25",
     "p": 118.95,
     "s": "sabina"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 118.95,
+    "s": "sabina"
    }
   ],
   "id": "chanel-bleu-de-chanel-edp-100",
@@ -3833,14 +4073,14 @@
   "prices": {
    "paco": {
     "auto": true,
-    "d": "2026-10-25",
+    "d": "2026-10-26",
     "gh": true,
     "p": 118.4,
     "stock": false
    },
    "sabina": {
     "auto": true,
-    "d": "2026-10-25",
+    "d": "2026-10-26",
     "gh": true,
     "p": 118.95
    }
@@ -4002,8 +4242,12 @@
  },
  {
   "brand": "Chanel",
-  "buscado": {},
-  "checked": "2026-10-25T23:17:07+01:00",
+  "buscado": {
+   "douglas": "2026-10-26",
+   "idealo": "2026-10-26",
+   "lookfantastic": "2026-10-26"
+  },
+  "checked": "2026-10-26T01:41:23+01:00",
   "conc": "EDP",
   "deals": [
    {
@@ -4043,27 +4287,50 @@
     "d": "2026-10-25",
     "p": 143.47,
     "s": "sabina"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 140.8,
+    "s": "paco"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 143.47,
+    "s": "sabina"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 138.94,
+    "s": "idealo"
    }
   ],
   "id": "chanel-chanel-n-5-edp-100",
   "ml": 100,
   "name": "Chanel Nº5",
   "prices": {
+   "idealo": {
+    "auto": true,
+    "d": "2026-10-26",
+    "gh": true,
+    "p": 138.94
+   },
    "paco": {
     "auto": true,
-    "d": "2026-10-25",
+    "d": "2026-10-26",
     "gh": true,
     "p": 140.8
    },
    "sabina": {
     "auto": true,
-    "d": "2026-10-25",
+    "d": "2026-10-26",
     "gh": true,
     "p": 143.47
    }
   },
   "target": null,
   "urls": {
+   "douglas": "https://www.douglas.es/es/b/chanel/b0007",
+   "idealo": "https://www.idealo.es/precios/589046/chanel-n-5-eau-de-parfum-100-ml.html",
    "paco": "https://www.pacoperfumerias.com/chanel-n5-eau-de-parfum-57782.html",
    "sabina": "https://www.sabina.com/es/n-5/21668-n5-eau-de-parfum-spray.html"
   }
@@ -4071,7 +4338,7 @@
  {
   "brand": "Chanel",
   "buscado": {},
-  "checked": "2026-10-25T23:17:20+01:00",
+  "checked": "2026-10-26T01:41:38+01:00",
   "conc": "EDP",
   "history": [
    {
@@ -4113,6 +4380,16 @@
     "d": "2026-10-25",
     "p": 139.95,
     "s": "sabina"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 137.6,
+    "s": "paco"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 139.95,
+    "s": "sabina"
    }
   ],
   "id": "chanel-coco-mademoiselle-edp-100",
@@ -4121,13 +4398,13 @@
   "prices": {
    "paco": {
     "auto": true,
-    "d": "2026-10-25",
+    "d": "2026-10-26",
     "gh": true,
     "p": 137.6
    },
    "sabina": {
     "auto": true,
-    "d": "2026-10-25",
+    "d": "2026-10-26",
     "gh": true,
     "p": 139.95
    },
@@ -4754,7 +5031,7 @@
  {
   "brand": "Dior",
   "buscado": {},
-  "checked": "2026-10-25T23:17:25+01:00",
+  "checked": "2026-10-26T01:41:42+01:00",
   "conc": "EDP",
   "deals": [
    {
@@ -4789,6 +5066,16 @@
     "d": "2026-10-25",
     "p": 110.52,
     "s": "sabina"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 115.95,
+    "s": "paco"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 116.34,
+    "s": "sabina"
    }
   ],
   "id": "dior-dior-homme-intense-edp-100",
@@ -4797,15 +5084,15 @@
   "prices": {
    "paco": {
     "auto": true,
-    "d": "2026-10-25",
+    "d": "2026-10-26",
     "gh": true,
     "p": 115.95
    },
    "sabina": {
     "auto": true,
-    "d": "2026-10-25",
+    "d": "2026-10-26",
     "gh": true,
-    "p": 110.52
+    "p": 116.34
    }
   },
   "target": null,
@@ -4942,7 +5229,7 @@
  {
   "brand": "Dior",
   "buscado": {},
-  "checked": "2026-10-25T23:17:27+01:00",
+  "checked": "2026-10-26T01:41:45+01:00",
   "conc": "EDP",
   "history": [
    {
@@ -4959,6 +5246,11 @@
     "d": "2026-10-25",
     "p": 133.95,
     "s": "paco"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 133.95,
+    "s": "paco"
    }
   ],
   "id": "dior-j-adore-edp-100",
@@ -4967,7 +5259,7 @@
   "prices": {
    "paco": {
     "auto": true,
-    "d": "2026-10-25",
+    "d": "2026-10-26",
     "gh": true,
     "p": 133.95
    },
@@ -5049,7 +5341,7 @@
  {
   "brand": "Dior",
   "buscado": {},
-  "checked": "2026-10-25T23:17:32+01:00",
+  "checked": "2026-10-26T01:41:50+01:00",
   "conc": "EDP",
   "deals": [
    {
@@ -5091,6 +5383,11 @@
     "d": "2026-10-25",
     "p": 110.27,
     "s": "sabina"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 116.08,
+    "s": "sabina"
    }
   ],
   "id": "dior-sauvage-edp-100",
@@ -5099,16 +5396,16 @@
   "prices": {
    "paco": {
     "auto": true,
-    "d": "2026-10-25",
+    "d": "2026-10-26",
     "gh": true,
     "p": 115.95,
     "stock": false
    },
    "sabina": {
     "auto": true,
-    "d": "2026-10-25",
+    "d": "2026-10-26",
     "gh": true,
-    "p": 110.27
+    "p": 116.08
    }
   },
   "target": null,
@@ -5120,7 +5417,7 @@
  {
   "brand": "Dior",
   "buscado": {},
-  "checked": "2026-10-25T23:17:36+01:00",
+  "checked": "2026-10-26T01:41:54+01:00",
   "conc": "EDT",
   "deals": [
    {
@@ -5172,6 +5469,16 @@
     "d": "2026-10-25",
     "p": 95.18,
     "s": "sabina"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 99.95,
+    "s": "paco"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 100.19,
+    "s": "sabina"
    }
   ],
   "id": "dior-sauvage-edt-100",
@@ -5180,15 +5487,15 @@
   "prices": {
    "paco": {
     "auto": true,
-    "d": "2026-10-25",
+    "d": "2026-10-26",
     "gh": true,
     "p": 99.95
    },
    "sabina": {
     "auto": true,
-    "d": "2026-10-25",
+    "d": "2026-10-26",
     "gh": true,
-    "p": 95.18
+    "p": 100.19
    }
   },
   "target": null,
@@ -5200,7 +5507,7 @@
  {
   "brand": "Dior",
   "buscado": {},
-  "checked": "2026-10-25T23:17:40+01:00",
+  "checked": "2026-10-26T01:41:58+01:00",
   "conc": "Elixir",
   "deals": [
    {
@@ -5244,16 +5551,16 @@
   "prices": {
    "paco": {
     "auto": true,
-    "d": "2026-10-25",
+    "d": "2026-10-26",
     "gh": true,
     "p": 137.95,
     "stock": false
    },
    "sabina": {
     "auto": true,
-    "d": "2026-10-25",
+    "d": "2026-10-26",
     "gh": true,
-    "p": 131.47,
+    "p": 138.39,
     "stock": false
    }
   },
@@ -5645,7 +5952,7 @@
  {
   "brand": "Dolce & Gabbana",
   "buscado": {},
-  "checked": "2026-10-25T23:17:51+01:00",
+  "checked": "2026-10-26T01:42:09+01:00",
   "conc": "EDT",
   "deals": [
    {
@@ -5732,6 +6039,26 @@
     "d": "2026-10-25",
     "p": 74.05,
     "s": "sabina"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 69.95,
+    "s": "avenida"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 69.95,
+    "s": "laguna"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 80.75,
+    "s": "parejo"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 74.05,
+    "s": "sabina"
    }
   ],
   "id": "dolce-gabbana-light-blue-edt-100",
@@ -5740,13 +6067,13 @@
   "prices": {
    "avenida": {
     "auto": true,
-    "d": "2026-10-25",
+    "d": "2026-10-26",
     "gh": true,
-    "p": 79.95
+    "p": 69.95
    },
    "laguna": {
     "auto": true,
-    "d": "2026-10-25",
+    "d": "2026-10-26",
     "gh": true,
     "p": 69.95
    },
@@ -5765,13 +6092,13 @@
    },
    "parejo": {
     "auto": true,
-    "d": "2026-10-25",
+    "d": "2026-10-26",
     "gh": true,
     "p": 80.75
    },
    "sabina": {
     "auto": true,
-    "d": "2026-10-25",
+    "d": "2026-10-26",
     "gh": true,
     "p": 74.05
    }
@@ -5789,7 +6116,7 @@
  {
   "brand": "Dolce & Gabbana",
   "buscado": {},
-  "checked": "2026-10-25T23:17:54+01:00",
+  "checked": "2026-10-26T01:42:13+01:00",
   "conc": "EDT",
   "deals": [
    {
@@ -5815,6 +6142,11 @@
     "d": "2026-10-25",
     "p": 78.2,
     "s": "parejo"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 78.2,
+    "s": "parejo"
    }
   ],
   "id": "dolce-gabbana-light-blue-pour-homme-edt-125",
@@ -5823,14 +6155,14 @@
   "prices": {
    "paco": {
     "auto": true,
-    "d": "2026-10-25",
+    "d": "2026-10-26",
     "gh": true,
     "p": 50.4,
     "stock": false
    },
    "parejo": {
     "auto": true,
-    "d": "2026-10-25",
+    "d": "2026-10-26",
     "gh": true,
     "p": 78.2
    }
@@ -5943,7 +6275,7 @@
  {
   "brand": "Dolce & Gabbana",
   "buscado": {},
-  "checked": "2026-10-25T23:18:02+01:00",
+  "checked": "2026-10-26T01:42:21+01:00",
   "conc": "EDP",
   "deals": [
    {
@@ -5991,6 +6323,16 @@
     "d": "2026-10-25",
     "p": 66.94,
     "s": "paco"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 54.98,
+    "s": "brasty"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 66.94,
+    "s": "paco"
    }
   ],
   "id": "dolce-gabbana-the-one-for-men-edp-100",
@@ -5999,7 +6341,7 @@
   "prices": {
    "brasty": {
     "auto": true,
-    "d": "2026-10-25",
+    "d": "2026-10-26",
     "gh": true,
     "p": 54.98
    },
@@ -6017,7 +6359,7 @@
    },
    "paco": {
     "auto": true,
-    "d": "2026-10-25",
+    "d": "2026-10-26",
     "gh": true,
     "p": 66.94
    },
@@ -6041,7 +6383,7 @@
  {
   "brand": "Givenchy",
   "buscado": {},
-  "checked": "2026-10-25T23:18:14+01:00",
+  "checked": "2026-10-26T01:42:33+01:00",
   "conc": "EDP",
   "history": [
    {
@@ -6103,6 +6445,21 @@
     "d": "2026-10-25",
     "p": 71.2,
     "s": "sabina"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 59.91,
+    "s": "brasty"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 69.95,
+    "s": "laguna"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 71.2,
+    "s": "sabina"
    }
   ],
   "id": "givenchy-gentleman-edp-100",
@@ -6111,13 +6468,13 @@
   "prices": {
    "brasty": {
     "auto": true,
-    "d": "2026-10-25",
+    "d": "2026-10-26",
     "gh": true,
     "p": 59.91
    },
    "laguna": {
     "auto": true,
-    "d": "2026-10-25",
+    "d": "2026-10-26",
     "gh": true,
     "p": 69.95
    },
@@ -6129,14 +6486,14 @@
    },
    "paco": {
     "auto": true,
-    "d": "2026-10-25",
+    "d": "2026-10-26",
     "gh": true,
     "p": 59.92,
     "stock": false
    },
    "sabina": {
     "auto": true,
-    "d": "2026-10-25",
+    "d": "2026-10-26",
     "gh": true,
     "p": 71.2
    },
@@ -6335,7 +6692,7 @@
  {
   "brand": "Givenchy",
   "buscado": {},
-  "checked": "2026-10-25T23:18:22+01:00",
+  "checked": "2026-10-26T01:42:43+01:00",
   "conc": "EDP",
   "deals": [],
   "history": [
@@ -6398,6 +6755,21 @@
     "d": "2026-10-25",
     "p": 75.66,
     "s": "sabina"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 67.95,
+    "s": "laguna"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 113.05,
+    "s": "parejo"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 75.66,
+    "s": "sabina"
    }
   ],
   "id": "givenchy-l-interdit-edp-80",
@@ -6406,7 +6778,8 @@
   "prices": {
    "laguna": {
     "auto": true,
-    "d": "2026-10-12",
+    "d": "2026-10-26",
+    "gh": true,
     "p": 67.95
    },
    "notino": {
@@ -6417,20 +6790,20 @@
    },
    "paco": {
     "auto": true,
-    "d": "2026-10-25",
+    "d": "2026-10-26",
     "gh": true,
     "p": 66.59,
     "stock": false
    },
    "parejo": {
     "auto": true,
-    "d": "2026-10-25",
+    "d": "2026-10-26",
     "gh": true,
     "p": 113.05
    },
    "sabina": {
     "auto": true,
-    "d": "2026-10-25",
+    "d": "2026-10-26",
     "gh": true,
     "p": 75.66
    }
@@ -6898,7 +7271,7 @@
    "idealo": "2026-10-25",
    "lookfantastic": "2026-10-25"
   },
-  "checked": "2026-10-25T23:24:52+01:00",
+  "checked": "2026-10-26T01:43:33+01:00",
   "conc": "EDT",
   "deals": [],
   "history": [
@@ -6961,6 +7334,31 @@
     "d": "2026-10-25",
     "p": 65.52,
     "s": "idealo"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 89.95,
+    "s": "avenida"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 65.52,
+    "s": "idealo"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 89.95,
+    "s": "laguna"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 89.95,
+    "s": "paco"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 84.55,
+    "s": "sabina"
    }
   ],
   "id": "hermes-terre-d-hermes-edt-100",
@@ -6969,19 +7367,19 @@
   "prices": {
    "avenida": {
     "auto": true,
-    "d": "2026-10-25",
+    "d": "2026-10-26",
     "gh": true,
-    "p": 110.95
+    "p": 89.95
    },
    "idealo": {
     "auto": true,
-    "d": "2026-10-25",
+    "d": "2026-10-26",
     "gh": true,
     "p": 65.52
    },
    "laguna": {
     "auto": true,
-    "d": "2026-10-25",
+    "d": "2026-10-26",
     "gh": true,
     "p": 89.95
    },
@@ -6993,13 +7391,13 @@
    },
    "paco": {
     "auto": true,
-    "d": "2026-10-25",
+    "d": "2026-10-26",
     "gh": true,
     "p": 89.95
    },
    "sabina": {
     "auto": true,
-    "d": "2026-10-25",
+    "d": "2026-10-26",
     "gh": true,
     "p": 84.55
    }
@@ -7160,7 +7558,7 @@
  {
   "brand": "Hugo Boss",
   "buscado": {},
-  "checked": "2026-10-25T23:18:30+01:00",
+  "checked": "2026-10-26T01:42:53+01:00",
   "conc": "Parfum",
   "deals": [
    {
@@ -7243,6 +7641,21 @@
     "d": "2026-10-25",
     "p": 88.27,
     "s": "sabina"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 75.95,
+    "s": "avenida"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 100.05,
+    "s": "lookfantastic"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 88.27,
+    "s": "sabina"
    }
   ],
   "id": "hugo-boss-boss-bottled-absolu-parfum-100",
@@ -7251,7 +7664,8 @@
   "prices": {
    "avenida": {
     "auto": true,
-    "d": "2026-10-12",
+    "d": "2026-10-26",
+    "gh": true,
     "p": 75.95
    },
    "laguna": {
@@ -7261,7 +7675,7 @@
    },
    "lookfantastic": {
     "auto": true,
-    "d": "2026-10-25",
+    "d": "2026-10-26",
     "gh": true,
     "p": 100.05
    },
@@ -7273,14 +7687,14 @@
    },
    "paco": {
     "auto": true,
-    "d": "2026-10-25",
+    "d": "2026-10-26",
     "gh": true,
     "p": 65.89,
     "stock": false
    },
    "sabina": {
     "auto": true,
-    "d": "2026-10-25",
+    "d": "2026-10-26",
     "gh": true,
     "p": 88.27
    }
@@ -7397,7 +7811,7 @@
  {
   "brand": "Hugo Boss",
   "buscado": {},
-  "checked": "2026-10-25T23:18:39+01:00",
+  "checked": "2026-10-26T01:43:03+01:00",
   "conc": "EDP",
   "deals": [
    {
@@ -7473,6 +7887,21 @@
     "d": "2026-10-25",
     "p": 61.7,
     "s": "sabina"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 59.95,
+    "s": "avenida"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 54.95,
+    "s": "laguna"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 61.7,
+    "s": "sabina"
    }
   ],
   "id": "hugo-boss-boss-bottled-edp-100",
@@ -7481,12 +7910,13 @@
   "prices": {
    "avenida": {
     "auto": true,
-    "d": "2026-10-12",
+    "d": "2026-10-26",
+    "gh": true,
     "p": 59.95
    },
    "laguna": {
     "auto": true,
-    "d": "2026-10-25",
+    "d": "2026-10-26",
     "gh": true,
     "p": 54.95
    },
@@ -7504,14 +7934,14 @@
    },
    "paco": {
     "auto": true,
-    "d": "2026-10-25",
+    "d": "2026-10-26",
     "gh": true,
     "p": 53.74,
     "stock": false
    },
    "sabina": {
     "auto": true,
-    "d": "2026-10-25",
+    "d": "2026-10-26",
     "gh": true,
     "p": 61.7
    }
@@ -7842,7 +8272,7 @@
  {
   "brand": "Hugo Boss",
   "buscado": {},
-  "checked": "2026-10-25T23:18:46+01:00",
+  "checked": "2026-10-26T01:43:12+01:00",
   "conc": "Elixir",
   "deals": [
    {
@@ -7924,6 +8354,21 @@
     "d": "2026-10-25",
     "p": 88.27,
     "s": "sabina"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 79.95,
+    "s": "avenida"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 64.95,
+    "s": "laguna"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 88.27,
+    "s": "sabina"
    }
   ],
   "id": "hugo-boss-boss-bottled-elixir-elixir-100",
@@ -7932,13 +8377,13 @@
   "prices": {
    "avenida": {
     "auto": true,
-    "d": "2026-10-12",
-    "note": "listado como Eau de Parfum (Bottled Elixir)",
+    "d": "2026-10-26",
+    "gh": true,
     "p": 79.95
    },
    "laguna": {
     "auto": true,
-    "d": "2026-10-25",
+    "d": "2026-10-26",
     "gh": true,
     "p": 64.95
    },
@@ -7956,7 +8401,7 @@
    },
    "sabina": {
     "auto": true,
-    "d": "2026-10-25",
+    "d": "2026-10-26",
     "gh": true,
     "p": 88.27
    },
@@ -7979,7 +8424,7 @@
  {
   "brand": "Hugo Boss",
   "buscado": {},
-  "checked": "2026-10-25T23:18:49+01:00",
+  "checked": "2026-10-26T01:43:15+01:00",
   "conc": "EDP",
   "deals": [
    {
@@ -8055,7 +8500,7 @@
  {
   "brand": "Hugo Boss",
   "buscado": {},
-  "checked": "2026-10-25T23:18:52+01:00",
+  "checked": "2026-10-26T01:43:17+01:00",
   "conc": "EDT",
   "deals": [
    {
@@ -8120,7 +8565,7 @@
    },
    "sabina": {
     "auto": true,
-    "d": "2026-10-25",
+    "d": "2026-10-26",
     "gh": true,
     "p": 42.7,
     "stock": false
@@ -8140,7 +8585,7 @@
    "idealo": "2026-10-25",
    "lookfantastic": "2026-10-25"
   },
-  "checked": "2026-10-25T23:25:11+01:00",
+  "checked": "2026-10-26T01:43:44+01:00",
   "conc": "Parfum",
   "deals": [
    {
@@ -8232,6 +8677,31 @@
     "d": "2026-10-25",
     "p": 51.77,
     "s": "idealo"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 76.95,
+    "s": "avenida"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 51.77,
+    "s": "idealo"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 59.95,
+    "s": "laguna"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 59.74,
+    "s": "paco"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 71.2,
+    "s": "sabina"
    }
   ],
   "id": "hugo-boss-boss-bottled-parfum-parfum-100",
@@ -8240,18 +8710,19 @@
   "prices": {
    "avenida": {
     "auto": true,
-    "d": "2026-10-12",
+    "d": "2026-10-26",
+    "gh": true,
     "p": 76.95
    },
    "idealo": {
     "auto": true,
-    "d": "2026-10-25",
+    "d": "2026-10-26",
     "gh": true,
     "p": 51.77
    },
    "laguna": {
     "auto": true,
-    "d": "2026-10-25",
+    "d": "2026-10-26",
     "gh": true,
     "p": 59.95
    },
@@ -8263,13 +8734,13 @@
    },
    "paco": {
     "auto": true,
-    "d": "2026-10-25",
+    "d": "2026-10-26",
     "gh": true,
     "p": 59.74
    },
    "sabina": {
     "auto": true,
-    "d": "2026-10-25",
+    "d": "2026-10-26",
     "gh": true,
     "p": 71.2
    }
@@ -8400,7 +8871,7 @@
    "douglas": "2026-10-25",
    "idealo": "2026-10-25"
   },
-  "checked": "2026-10-25T23:25:24+01:00",
+  "checked": "2026-10-26T01:43:51+01:00",
   "conc": "EDT",
   "deals": [
    {
@@ -8457,6 +8928,16 @@
     "d": "2026-10-25",
     "p": 51.97,
     "s": "idealo"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 64.95,
+    "s": "avenida"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 51.97,
+    "s": "idealo"
    }
   ],
   "id": "hugo-boss-boss-the-scent-edt-100",
@@ -8465,12 +8946,13 @@
   "prices": {
    "avenida": {
     "auto": true,
-    "d": "2026-10-12",
+    "d": "2026-10-26",
+    "gh": true,
     "p": 64.95
    },
    "idealo": {
     "auto": true,
-    "d": "2026-10-25",
+    "d": "2026-10-26",
     "gh": true,
     "p": 51.97
    },
@@ -8487,7 +8969,7 @@
    },
    "paco": {
     "auto": true,
-    "d": "2026-10-25",
+    "d": "2026-10-26",
     "gh": true,
     "p": 53.44,
     "stock": false
@@ -8690,7 +9172,7 @@
    "douglas": "2026-10-25",
    "idealo": "2026-10-25"
   },
-  "checked": "2026-10-25T23:26:22+01:00",
+  "checked": "2026-10-26T01:44:32+01:00",
   "conc": "EDT",
   "deals": [
    {
@@ -8807,6 +9289,41 @@
     "d": "2026-10-25",
     "p": 33.3,
     "s": "idealo"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 49.95,
+    "s": "avenida"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 33.3,
+    "s": "idealo"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 34.95,
+    "s": "laguna"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 34.91,
+    "s": "paco"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 51.43,
+    "s": "parejo"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 34.92,
+    "s": "perfumesclub"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 42.7,
+    "s": "sabina"
    }
   ],
   "id": "hugo-boss-hugo-man-edt-125",
@@ -8815,18 +9332,19 @@
   "prices": {
    "avenida": {
     "auto": true,
-    "d": "2026-10-12",
+    "d": "2026-10-26",
+    "gh": true,
     "p": 49.95
    },
    "idealo": {
     "auto": true,
-    "d": "2026-10-25",
+    "d": "2026-10-26",
     "gh": true,
     "p": 33.3
    },
    "laguna": {
     "auto": true,
-    "d": "2026-10-25",
+    "d": "2026-10-26",
     "gh": true,
     "p": 34.95
    },
@@ -8845,25 +9363,25 @@
    },
    "paco": {
     "auto": true,
-    "d": "2026-10-25",
+    "d": "2026-10-26",
     "gh": true,
     "p": 34.91
    },
    "parejo": {
     "auto": true,
-    "d": "2026-10-25",
+    "d": "2026-10-26",
     "gh": true,
     "p": 51.43
    },
    "perfumesclub": {
     "auto": true,
-    "d": "2026-10-25",
+    "d": "2026-10-26",
     "gh": true,
     "p": 34.92
    },
    "sabina": {
     "auto": true,
-    "d": "2026-10-25",
+    "d": "2026-10-26",
     "gh": true,
     "p": 42.7
    }
@@ -10171,7 +10689,7 @@
    "idealo": "2026-10-25",
    "lookfantastic": "2026-10-25"
   },
-  "checked": "2026-10-25T23:26:40+01:00",
+  "checked": "2026-10-26T01:44:43+01:00",
   "conc": "EDP",
   "deals": [
    {
@@ -10259,6 +10777,31 @@
     "d": "2026-10-25",
     "p": 58.35,
     "s": "idealo"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 86.95,
+    "s": "avenida"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 58.35,
+    "s": "idealo"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 86.95,
+    "s": "laguna"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 86.95,
+    "s": "paco"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 86.95,
+    "s": "sabina"
    }
   ],
   "id": "jean-paul-gaultier-le-male-le-parfum-edp-125",
@@ -10267,18 +10810,19 @@
   "prices": {
    "avenida": {
     "auto": true,
-    "d": "2026-10-12",
+    "d": "2026-10-26",
+    "gh": true,
     "p": 86.95
    },
    "idealo": {
     "auto": true,
-    "d": "2026-10-25",
+    "d": "2026-10-26",
     "gh": true,
     "p": 58.35
    },
    "laguna": {
     "auto": true,
-    "d": "2026-10-25",
+    "d": "2026-10-26",
     "gh": true,
     "p": 86.95
    },
@@ -10289,15 +10833,15 @@
    },
    "paco": {
     "auto": true,
-    "d": "2026-10-25",
+    "d": "2026-10-26",
     "gh": true,
     "p": 86.95
    },
    "sabina": {
     "auto": true,
-    "d": "2026-10-25",
+    "d": "2026-10-26",
     "gh": true,
-    "p": 82.61
+    "p": 86.95
    }
   },
   "target": null,
@@ -10957,7 +11501,7 @@
    "douglas": "2026-10-25",
    "idealo": "2026-10-25"
   },
-  "checked": "2026-10-25T23:25:39+01:00",
+  "checked": "2026-10-26T01:44:04+01:00",
   "conc": "EDP",
   "deals": [
    {
@@ -11027,6 +11571,26 @@
     "d": "2026-10-25",
     "p": 68.09,
     "s": "idealo"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 109.95,
+    "s": "avenida"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 68.09,
+    "s": "idealo"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 84.95,
+    "s": "laguna"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 75.79,
+    "s": "sabina"
    }
   ],
   "id": "lancome-la-vie-est-belle-edp-100",
@@ -11035,18 +11599,19 @@
   "prices": {
    "avenida": {
     "auto": true,
-    "d": "2026-10-12",
+    "d": "2026-10-26",
+    "gh": true,
     "p": 109.95
    },
    "idealo": {
     "auto": true,
-    "d": "2026-10-25",
+    "d": "2026-10-26",
     "gh": true,
     "p": 68.09
    },
    "laguna": {
     "auto": true,
-    "d": "2026-10-25",
+    "d": "2026-10-26",
     "gh": true,
     "p": 84.95
    },
@@ -11064,7 +11629,7 @@
    },
    "sabina": {
     "auto": true,
-    "d": "2026-10-25",
+    "d": "2026-10-26",
     "gh": true,
     "p": 75.79
    }
@@ -12077,7 +12642,7 @@
    "douglas": "2026-10-25",
    "idealo": "2026-10-25"
   },
-  "checked": "2026-10-25T23:25:50+01:00",
+  "checked": "2026-10-26T01:44:10+01:00",
   "conc": "EDT",
   "deals": [],
   "history": [
@@ -12110,6 +12675,16 @@
     "d": "2026-10-25",
     "p": 85.54,
     "s": "idealo"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 85.69,
+    "s": "idealo"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 110.2,
+    "s": "sabina"
    }
   ],
   "id": "maison-margiela-replica-jazz-club-edt-100",
@@ -12118,9 +12693,9 @@
   "prices": {
    "idealo": {
     "auto": true,
-    "d": "2026-10-25",
+    "d": "2026-10-26",
     "gh": true,
-    "p": 85.54
+    "p": 85.69
    },
    "lookfantastic": {
     "auto": true,
@@ -12137,7 +12712,7 @@
    },
    "sabina": {
     "auto": true,
-    "d": "2026-10-25",
+    "d": "2026-10-26",
     "gh": true,
     "p": 110.2
    }
@@ -13423,7 +13998,7 @@
  {
   "brand": "Prada",
   "buscado": {},
-  "checked": "2026-10-25T23:26:50+01:00",
+  "checked": "2026-10-26T01:44:54+01:00",
   "conc": "EDT",
   "deals": [],
   "history": [
@@ -13496,6 +14071,26 @@
     "d": "2026-10-25",
     "p": 74.9,
     "s": "sabina"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 86.95,
+    "s": "avenida"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 69.95,
+    "s": "laguna"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 70.92,
+    "s": "paco"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 74.9,
+    "s": "sabina"
    }
   ],
   "id": "prada-luna-rossa-carbon-edt-100",
@@ -13504,12 +14099,13 @@
   "prices": {
    "avenida": {
     "auto": true,
-    "d": "2026-10-12",
+    "d": "2026-10-26",
+    "gh": true,
     "p": 86.95
    },
    "laguna": {
     "auto": true,
-    "d": "2026-10-25",
+    "d": "2026-10-26",
     "gh": true,
     "p": 69.95
    },
@@ -13527,13 +14123,13 @@
    },
    "paco": {
     "auto": true,
-    "d": "2026-10-25",
+    "d": "2026-10-26",
     "gh": true,
     "p": 70.92
    },
    "sabina": {
     "auto": true,
-    "d": "2026-10-25",
+    "d": "2026-10-26",
     "gh": true,
     "p": 74.9
    }
@@ -15318,11 +15914,6 @@
    },
    {
     "d": "2026-10-26",
-    "p": 208.0,
-    "s": "laguna"
-   },
-   {
-    "d": "2026-10-26",
     "p": 131.94,
     "s": "paco"
    },
@@ -15346,12 +15937,6 @@
     "d": "2026-10-12",
     "p": null,
     "stock": false
-   },
-   "laguna": {
-    "auto": true,
-    "d": "2026-10-26",
-    "gh": true,
-    "p": 208.0
    },
    "lookfantastic": {
     "auto": true,
