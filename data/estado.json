@@ -1,145 +1,127 @@
 {
- "at": "2026-10-26T23:06:48+01:00",
+ "at": "2026-10-27T00:08:37+01:00",
  "revisados": 35,
  "tiendas": {
+  "avenida": {
+   "ok": 14,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 1,
+   "ejemplos": [
+    {
+     "perfume": "issey-miyake-l-eau-d-issey-pour-homme-edt-125",
+     "precio": 74.95,
+     "referencia": 47.375,
+     "metodo": "variantes"
+    }
+   ],
+   "variantes": 14
+  },
+  "beautinow": {
+   "ok": 0,
+   "bloqueada": 0,
+   "sin_precio": 4,
+   "dudoso": 0
+  },
   "idealo": {
-   "ok": 33,
+   "ok": 32,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "jsonld": 6,
-   "jsonld-url": 27
+   "jsonld-url": 26,
+   "jsonld": 5,
+   "texto": 1
   },
-  "lookfantastic": {
-   "ok": 1,
+  "laguna": {
+   "ok": 18,
    "bloqueada": 0,
    "sin_precio": 0,
-   "dudoso": 18,
-   "ejemplos": [
-    {
-     "perfume": "hugo-boss-boss-orange-man-edt-100",
-     "precio": 3.99,
-     "referencia": 29.95,
-     "metodo": "texto"
-    },
-    {
-     "perfume": "hugo-boss-boss-the-scent-for-her-edp-100",
-     "precio": 3.99,
-     "referencia": 64.5,
-     "metodo": "texto"
-    },
-    {
-     "perfume": "lancome-la-nuit-tresor-edp-100",
-     "precio": 3.99,
-     "referencia": 84.06,
-     "metodo": "texto"
-    }
-   ],
-   "jsonld": 1
+   "dudoso": 0,
+   "jsonld-url": 6,
+   "precio-100ml": 4,
+   "jsonld": 8
   },
-  "notino": {
-   "ok": 10,
-   "bloqueada": 15,
+  "lookfantastic": {
+   "ok": 0,
+   "bloqueada": 0,
    "sin_precio": 0,
-   "dudoso": 1,
-   "jsonld": 10,
+   "dudoso": 16,
    "ejemplos": [
     {
-     "perfume": "parfums-de-marly-herod-edp-125",
-     "precio": 290.0,
-     "referencia": 192.99,
-     "metodo": "jsonld"
+     "perfume": "issey-miyake-l-eau-d-issey-pour-homme-edt-125",
+     "precio": 3.99,
+     "referencia": 47.375,
+     "metodo": "texto"
+    },
+    {
+     "perfume": "jean-paul-gaultier-gaultier-divine-edp-100",
+     "precio": 3.99,
+     "referencia": 94.95,
+     "metodo": "texto"
+    },
+    {
+     "perfume": "jean-paul-gaultier-la-belle-edp-100",
+     "precio": 3.99,
+     "referencia": 82.45,
+     "metodo": "texto"
     }
    ]
+  },
+  "notino": {
+   "ok": 2,
+   "bloqueada": 20,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "jsonld": 2
   },
   "paco": {
    "ok": 17,
    "bloqueada": 0,
    "sin_precio": 0,
-   "dudoso": 2,
-   "precio-100ml": 2,
-   "jsonld": 15,
-   "ejemplos": [
-    {
-     "perfume": "lancome-la-nuit-tresor-edp-100",
-     "precio": 179.0,
-     "referencia": 84.95,
-     "metodo": "texto"
-    },
-    {
-     "perfume": "hermes-h24-edt-100",
-     "precio": 135.0,
-     "referencia": 78.62,
-     "metodo": "texto"
-    }
-   ]
-  },
-  "sabina": {
-   "ok": 9,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 3,
-   "ejemplos": [
-    {
-     "perfume": "hugo-boss-boss-orange-man-edt-100",
-     "precio": 88.27,
-     "referencia": 29.95,
-     "metodo": "texto"
-    },
-    {
-     "perfume": "nishane-hacivat-parfum-50",
-     "precio": 162.92,
-     "referencia": 102.99,
-     "metodo": "jsonld"
-    },
-    {
-     "perfume": "hugo-boss-boss-bottled-tonic-edt-100",
-     "precio": 88.27,
-     "referencia": 40.25,
-     "metodo": "texto"
-    }
-   ],
-   "jsonld": 7,
-   "texto": 1,
-   "precio-100ml": 1
-  },
-  "avenida": {
-   "ok": 10,
-   "bloqueada": 0,
-   "sin_precio": 0,
    "dudoso": 0,
-   "variantes": 10
-  },
-  "douglas": {
-   "ok": 1,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "precio-100ml": 1
-  },
-  "laguna": {
-   "ok": 11,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "jsonld": 7,
-   "jsonld-url": 3,
-   "precio-100ml": 1
+   "jsonld": 17
   },
   "parejo": {
-   "ok": 4,
+   "ok": 8,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "jsonld": 8
+  },
+  "sabina": {
+   "ok": 23,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 1,
-   "jsonld": 4,
+   "jsonld": 22,
    "ejemplos": [
     {
-     "perfume": "hugo-boss-boss-bottled-edt-200",
-     "precio": 101.15,
-     "referencia": 62.5,
-     "metodo": "jsonld"
+     "perfume": "kilian-angels-share-edp-50",
+     "precio": 116.83,
+     "referencia": 167.81,
+     "metodo": "texto"
     }
-   ]
+   ],
+   "precio-100ml": 1
+  },
+  "sephora": {
+   "ok": 0,
+   "bloqueada": 5,
+   "sin_precio": 0,
+   "dudoso": 0
+  },
+  "douglas": {
+   "ok": 0,
+   "bloqueada": 0,
+   "sin_precio": 1,
+   "dudoso": 0
+  },
+  "perfumesclub": {
+   "ok": 2,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "precio-100ml": 2
   },
   "arabicparfums": {
    "ok": 3,
@@ -149,24 +131,18 @@
    "jsonld": 3
   },
   "firstinfragrance": {
-   "ok": 2,
+   "ok": 7,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "jsonld": 2
+   "jsonld": 7
   },
-  "sephora": {
-   "ok": 0,
-   "bloqueada": 1,
-   "sin_precio": 0,
-   "dudoso": 0
-  },
-  "perfumesclub": {
-   "ok": 2,
+  "brasty": {
+   "ok": 1,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "precio-100ml": 2
+   "jsonld": 1
   }
  },
  "limpiados": {},
