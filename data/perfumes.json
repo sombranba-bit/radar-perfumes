@@ -65,7 +65,7 @@
    "idealo": "2026-10-26",
    "lookfantastic": "2026-10-26"
   },
-  "checked": "2026-10-26T16:36:51+01:00",
+  "checked": "2026-10-26T22:07:28+01:00",
   "conc": "EDP",
   "deals": [
    {
@@ -161,7 +161,7 @@
    "idealo": "2026-10-26",
    "lookfantastic": "2026-10-26"
   },
-  "checked": "2026-10-26T16:37:02+01:00",
+  "checked": "2026-10-26T22:07:45+01:00",
   "conc": "EDP",
   "deals": [
    {
@@ -280,7 +280,7 @@
    "idealo": "2026-10-26",
    "lookfantastic": "2026-10-26"
   },
-  "checked": "2026-10-26T16:37:05+01:00",
+  "checked": "2026-10-26T22:07:48+01:00",
   "conc": "EDP",
   "deals": [],
   "history": [
@@ -473,9 +473,10 @@
   "brand": "Ariana Grande",
   "buscado": {
    "douglas": "2026-10-26",
-   "idealo": "2026-10-26"
+   "idealo": "2026-10-26",
+   "lookfantastic": "2026-10-26"
   },
-  "checked": "2026-10-26T16:37:08+01:00",
+  "checked": "2026-10-26T22:07:54+01:00",
   "conc": "EDP",
   "deals": [],
   "history": [
@@ -1000,8 +1001,12 @@
  },
  {
   "brand": "Armani",
-  "buscado": {},
-  "checked": "2026-10-26T16:37:08+01:00",
+  "buscado": {
+   "douglas": "2026-10-26",
+   "idealo": "2026-10-26",
+   "lookfantastic": "2026-10-26"
+  },
+  "checked": "2026-10-26T22:08:03+01:00",
   "conc": "Parfum",
   "deals": [
    {
@@ -1017,14 +1022,30 @@
     "url": "https://www.chollometro.com/ofertas/aqua-di-gio-parfum-100ml-1729508"
    }
   ],
-  "history": [],
+  "history": [
+   {
+    "d": "2026-10-26",
+    "p": 88.06,
+    "s": "idealo"
+   }
+  ],
   "id": "armani-acqua-di-gio-parfum-parfum-125",
   "ml": 125,
   "name": "Acqua di Giò Parfum",
-  "prices": {},
+  "prices": {
+   "idealo": {
+    "auto": true,
+    "d": "2026-10-26",
+    "gh": true,
+    "p": 88.06
+   }
+  },
   "target": null,
   "tier": "Diseñador",
-  "urls": {}
+  "urls": {
+   "idealo": "https://www.idealo.es/precios/200020717/giorgio-armani-acqua-di-gio-profondo-eau-de-parfum-125ml.html",
+   "lookfantastic": "https://www.lookfantastic.es/p/armani-acqua-di-gio-homme-profondo-eau-de-parfum-100ml/15383806/"
+  }
  },
  {
   "brand": "Armani",
@@ -1465,8 +1486,11 @@
  },
  {
   "brand": "Armani",
-  "buscado": {},
-  "checked": "2026-10-26T16:37:23+01:00",
+  "buscado": {
+   "douglas": "2026-10-26",
+   "idealo": "2026-10-26"
+  },
+  "checked": "2026-10-26T22:08:25+01:00",
   "conc": "Parfum",
   "deals": [
    {
@@ -1531,12 +1555,23 @@
     "d": "2026-10-26",
     "p": 76.77,
     "s": "sabina"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 66.92,
+    "s": "idealo"
    }
   ],
   "id": "armani-stronger-with-you-absolutely-parfum-100",
   "ml": 100,
   "name": "Stronger With You Absolutely",
   "prices": {
+   "idealo": {
+    "auto": true,
+    "d": "2026-10-26",
+    "gh": true,
+    "p": 66.92
+   },
    "laguna": {
     "auto": true,
     "d": "2026-10-26",
@@ -1572,6 +1607,7 @@
   "target": null,
   "tier": "Diseñador",
   "urls": {
+   "idealo": "https://www.idealo.es/precios/201022668/giorgio-armani-stronger-with-you-absolutely-parfum-100ml.html",
    "laguna": "https://www.perfumeriaslaguna.com/emporio-armani-stronger-with-you-absolutely-1",
    "lookfantastic": "https://www.lookfantastic.es/p/armani-stronger-with-you-absolutely-eau-de-parfum-spray-100ml/14604982/",
    "notino": "https://www.notino.es/armani/emporio-stronger-with-you-absolutely-perfume-para-hombre/p-16067709/",
@@ -2290,7 +2326,7 @@
    "douglas": "2026-10-26",
    "idealo": "2026-10-26"
   },
-  "checked": "2026-10-26T16:37:37+01:00",
+  "checked": "2026-10-26T22:08:32+01:00",
   "conc": "EDP",
   "deals": [
    {
@@ -2825,7 +2861,7 @@
    "idealo": "2026-10-25",
    "lookfantastic": "2026-10-25"
   },
-  "checked": "2026-10-26T16:35:19+01:00",
+  "checked": "2026-10-26T22:05:46+01:00",
   "conc": "EDP",
   "history": [
    {
@@ -3350,7 +3386,7 @@
    "douglas": "2026-10-26",
    "idealo": "2026-10-26"
   },
-  "checked": "2026-10-26T16:37:52+01:00",
+  "checked": "2026-10-26T22:08:56+01:00",
   "conc": "EDP",
   "deals": [
    {
@@ -4363,7 +4399,7 @@
    "idealo": "2026-10-26",
    "lookfantastic": "2026-10-26"
   },
-  "checked": "2026-10-26T16:38:18+01:00",
+  "checked": "2026-10-26T22:09:16+01:00",
   "conc": "EDP",
   "deals": [],
   "history": [
@@ -4429,7 +4465,7 @@
    },
    {
     "d": "2026-10-26",
-    "p": 94.95,
+    "p": 89.95,
     "s": "douglas"
    },
    {
@@ -4472,7 +4508,7 @@
     "auto": true,
     "d": "2026-10-26",
     "gh": true,
-    "p": 94.95
+    "p": 89.95
    },
    "idealo": {
     "auto": true,
@@ -4836,7 +4872,7 @@
    "idealo": "2026-10-26",
    "lookfantastic": "2026-10-26"
   },
-  "checked": "2026-10-26T16:38:35+01:00",
+  "checked": "2026-10-26T22:09:22+01:00",
   "conc": "Parfum",
   "deals": [],
   "history": [
@@ -5002,7 +5038,7 @@
    "idealo": "2026-10-26",
    "lookfantastic": "2026-10-26"
   },
-  "checked": "2026-10-26T16:38:39+01:00",
+  "checked": "2026-10-26T22:09:27+01:00",
   "conc": "EDT",
   "deals": [],
   "history": [
@@ -5342,7 +5378,7 @@
    "idealo": "2026-10-26",
    "lookfantastic": "2026-10-26"
   },
-  "checked": "2026-10-26T16:38:43+01:00",
+  "checked": "2026-10-26T22:09:31+01:00",
   "conc": "EDP",
   "deals": [],
   "history": [
@@ -5580,7 +5616,7 @@
    "idealo": "2026-10-25",
    "lookfantastic": "2026-10-25"
   },
-  "checked": "2026-10-26T16:35:27+01:00",
+  "checked": "2026-10-26T22:05:51+01:00",
   "conc": "EDP",
   "history": [
    {
@@ -5662,7 +5698,7 @@
    "idealo": "2026-10-26",
    "lookfantastic": "2026-10-26"
   },
-  "checked": "2026-10-26T16:38:54+01:00",
+  "checked": "2026-10-26T22:09:39+01:00",
   "conc": "EDP",
   "history": [
    {
@@ -5740,7 +5776,7 @@
    "douglas": "2026-10-25",
    "idealo": "2026-10-25"
   },
-  "checked": "2026-10-26T16:36:04+01:00",
+  "checked": "2026-10-26T22:06:25+01:00",
   "conc": "EDT",
   "deals": [
    {
@@ -5979,9 +6015,11 @@
  {
   "brand": "Dior",
   "buscado": {
-   "douglas": "2026-10-26"
+   "douglas": "2026-10-26",
+   "idealo": "2026-10-26",
+   "lookfantastic": "2026-10-26"
   },
-  "checked": "2026-10-26T16:38:59+01:00",
+  "checked": "2026-10-26T22:09:50+01:00",
   "conc": "EDT",
   "deals": [
    {
@@ -6011,12 +6049,23 @@
     "d": "2026-10-26",
     "p": 100.19,
     "s": "sabina"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 99.75,
+    "s": "idealo"
    }
   ],
   "id": "dior-dior-homme-edt-100",
   "ml": 100,
   "name": "Dior Homme",
   "prices": {
+   "idealo": {
+    "auto": true,
+    "d": "2026-10-26",
+    "gh": true,
+    "p": 99.75
+   },
    "paco": {
     "auto": true,
     "d": "2026-10-26",
@@ -6034,6 +6083,7 @@
   "target": null,
   "tier": "Diseñador",
   "urls": {
+   "idealo": "https://www.idealo.es/precios/7016619/dior-homme-2020-eau-de-toilette-100ml.html",
    "paco": "https://www.pacoperfumerias.com/dior-homme-eau-de-toilette-189711.html",
    "sabina": "https://www.sabina.com/es/mens-perfumes/98-dior-homme-eau-de-toilette.html"
   }
@@ -6134,7 +6184,7 @@
    "idealo": "2026-10-25",
    "lookfantastic": "2026-10-25"
   },
-  "checked": "2026-10-26T16:35:33+01:00",
+  "checked": "2026-10-26T22:05:59+01:00",
   "conc": "EDT",
   "history": [
    {
@@ -6164,7 +6214,7 @@
    },
    {
     "d": "2026-10-26",
-    "p": 95.54,
+    "p": 98.44,
     "s": "idealo"
    },
    {
@@ -6186,7 +6236,7 @@
     "auto": true,
     "d": "2026-10-26",
     "gh": true,
-    "p": 95.54
+    "p": 98.44
    },
    "paco": {
     "auto": true,
@@ -6211,8 +6261,12 @@
  },
  {
   "brand": "Dior",
-  "buscado": {},
-  "checked": "2026-10-26T16:39:10+01:00",
+  "buscado": {
+   "douglas": "2026-10-26",
+   "idealo": "2026-10-26",
+   "lookfantastic": "2026-10-26"
+  },
+  "checked": "2026-10-26T22:10:08+01:00",
   "conc": "EDT",
   "history": [
    {
@@ -6249,12 +6303,23 @@
     "d": "2026-10-26",
     "p": 116.32,
     "s": "sabina"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 111.88,
+    "s": "idealo"
    }
   ],
   "id": "dior-hypnotic-poison-edt-100",
   "ml": 100,
   "name": "Hypnotic Poison",
   "prices": {
+   "idealo": {
+    "auto": true,
+    "d": "2026-10-26",
+    "gh": true,
+    "p": 111.88
+   },
    "paco": {
     "auto": true,
     "d": "2026-10-26",
@@ -6277,6 +6342,7 @@
   "target": null,
   "tier": "Diseñador",
   "urls": {
+   "idealo": "https://www.idealo.es/precios/606955/dior-hypnotic-poison-eau-de-toilette-100-ml.html",
    "paco": "https://www.pacoperfumerias.com/dior-hypnotic-poison-eau-de-toilette-61084.html",
    "parejo": "https://www.joyeriaparejo.com/perfumes/hypnotic-poison-dior-eau-de-toilette-100-ml",
    "sabina": "https://www.sabina.com/es/women-s-perfumes/143-hypnotic-poison-dior-eau-de-toilette.html"
@@ -6751,7 +6817,7 @@
    "idealo": "2026-10-26",
    "lookfantastic": "2026-10-26"
   },
-  "checked": "2026-10-26T17:42:36+01:00",
+  "checked": "2026-10-26T22:10:14+01:00",
   "conc": "Parfum",
   "deals": [
    {
@@ -6800,8 +6866,12 @@
  },
  {
   "brand": "Diptyque",
-  "buscado": {},
-  "checked": "2026-10-26T16:36:09+01:00",
+  "buscado": {
+   "douglas": "2026-10-26",
+   "idealo": "2026-10-26",
+   "lookfantastic": "2026-10-26"
+  },
+  "checked": "2026-10-26T22:06:40+01:00",
   "conc": "EDT",
   "history": [
    {
@@ -6833,6 +6903,11 @@
     "d": "2026-10-26",
     "p": 142.5,
     "s": "sabina"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 153.0,
+    "s": "idealo"
    }
   ],
   "id": "diptyque-philosykos-edt-100",
@@ -6844,6 +6919,12 @@
     "d": "2026-10-26",
     "gh": true,
     "p": 155.0
+   },
+   "idealo": {
+    "auto": true,
+    "d": "2026-10-26",
+    "gh": true,
+    "p": 153.0
    },
    "notino": {
     "auto": true,
@@ -6862,14 +6943,19 @@
   "tier": "Nicho",
   "urls": {
    "firstinfragrance": "https://www.ausliebezumduft.de/products/diptyque-philosykos",
+   "idealo": "https://www.idealo.es/precios/1884817/diptyque-philosykos-eau-de-toilette-100-ml.html",
    "notino": "https://www.notino.es/diptyque/philosykos-eau-de-toilette-unisex/p-492071/",
    "sabina": "https://www.sabina.com/es/womens-niche-perfumes/22072-philosykos-edt-spray-100ml.html"
   }
  },
  {
   "brand": "Diptyque",
-  "buscado": {},
-  "checked": "2026-10-26T16:36:17+01:00",
+  "buscado": {
+   "douglas": "2026-10-26",
+   "idealo": "2026-10-26",
+   "lookfantastic": "2026-10-26"
+  },
+  "checked": "2026-10-26T22:06:56+01:00",
   "conc": "EDT",
   "history": [
    {
@@ -6891,6 +6977,16 @@
     "d": "2026-10-26",
     "p": 155.0,
     "s": "firstinfragrance"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 162.0,
+    "s": "notino"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 141.99,
+    "s": "idealo"
    }
   ],
   "id": "diptyque-tam-dao-edt-100",
@@ -6909,11 +7005,17 @@
     "gh": true,
     "p": 155.0
    },
+   "idealo": {
+    "auto": true,
+    "d": "2026-10-26",
+    "gh": true,
+    "p": 141.99
+   },
    "notino": {
     "auto": true,
-    "d": "2026-10-12",
-    "note": "con código ALL",
-    "p": 137.7
+    "d": "2026-10-26",
+    "gh": true,
+    "p": 162.0
    },
    "sabina": {
     "auto": true,
@@ -6927,6 +7029,7 @@
   "urls": {
    "beautinow": "https://beautinow.com/products/diptyque-tam-dao-eau-de-toilette/",
    "firstinfragrance": "https://www.ausliebezumduft.de/products/diptyque-tam-dao",
+   "idealo": "https://www.idealo.es/precios/1873714/diptyque-tam-dao-eau-de-toilette-100-ml.html",
    "notino": "https://www.notino.es/diptyque/tam-dao-eau-de-toilette-unisex/p-492359/",
    "sabina": "https://www.sabina.com/es/perfumes-nicho-unisex/22085-tam-dao-edt-spray-100ml-3700431425935.html"
   }
@@ -6938,7 +7041,7 @@
    "idealo": "2026-10-26",
    "lookfantastic": "2026-10-26"
   },
-  "checked": "2026-10-26T17:43:04+01:00",
+  "checked": "2026-10-26T22:10:35+01:00",
   "conc": "EDP",
   "deals": [
    {
@@ -7026,6 +7129,11 @@
    },
    {
     "d": "2026-10-26",
+    "p": 56.53,
+    "s": "idealo"
+   },
+   {
+    "d": "2026-10-26",
     "p": 79.95,
     "s": "laguna"
    },
@@ -7048,11 +7156,6 @@
     "d": "2026-10-26",
     "p": 80.7,
     "s": "sabina"
-   },
-   {
-    "d": "2026-10-26",
-    "p": 56.53,
-    "s": "idealo"
    }
   ],
   "id": "dolce-gabbana-devotion-edp-100",
@@ -7129,7 +7232,7 @@
    "idealo": "2026-10-26",
    "lookfantastic": "2026-10-26"
   },
-  "checked": "2026-10-26T16:36:32+01:00",
+  "checked": "2026-10-26T22:07:14+01:00",
   "conc": "EDT",
   "history": [
    {
@@ -7184,6 +7287,11 @@
    },
    {
     "d": "2026-10-26",
+    "p": 78.9,
+    "s": "notino"
+   },
+   {
+    "d": "2026-10-26",
     "p": 59.94,
     "s": "paco"
    },
@@ -7211,8 +7319,9 @@
    },
    "notino": {
     "auto": true,
-    "d": "2026-10-12",
-    "p": 91.5
+    "d": "2026-10-26",
+    "gh": true,
+    "p": 78.9
    },
    "paco": {
     "auto": true,
@@ -7501,7 +7610,7 @@
    "idealo": "2026-10-26",
    "lookfantastic": "2026-10-26"
   },
-  "checked": "2026-10-26T17:43:28+01:00",
+  "checked": "2026-10-26T22:11:07+01:00",
   "conc": "EDP",
   "history": [
    {
@@ -7551,6 +7660,11 @@
    },
    {
     "d": "2026-10-26",
+    "p": 58.45,
+    "s": "idealo"
+   },
+   {
+    "d": "2026-10-26",
     "p": 69.95,
     "s": "laguna"
    },
@@ -7563,11 +7677,6 @@
     "d": "2026-10-26",
     "p": 75.95,
     "s": "sabina"
-   },
-   {
-    "d": "2026-10-26",
-    "p": 58.45,
-    "s": "idealo"
    }
   ],
   "id": "dolce-gabbana-the-one-edp-75",
@@ -8021,7 +8130,7 @@
    "idealo": "2026-10-26",
    "lookfantastic": "2026-10-26"
   },
-  "checked": "2026-10-26T17:43:48+01:00",
+  "checked": "2026-10-26T22:11:16+01:00",
   "conc": "EDP",
   "history": [
    {
@@ -8061,6 +8170,11 @@
    },
    {
     "d": "2026-10-26",
+    "p": 74.14,
+    "s": "idealo"
+   },
+   {
+    "d": "2026-10-26",
     "p": 85.95,
     "s": "laguna"
    },
@@ -8073,11 +8187,6 @@
     "d": "2026-10-26",
     "p": 78.8,
     "s": "sabina"
-   },
-   {
-    "d": "2026-10-26",
-    "p": 74.14,
-    "s": "idealo"
    }
   ],
   "id": "givenchy-irresistible-edp-80",
@@ -8261,7 +8370,7 @@
    "idealo": "2026-10-26",
    "lookfantastic": "2026-10-26"
   },
-  "checked": "2026-10-26T17:44:01+01:00",
+  "checked": "2026-10-26T22:11:20+01:00",
   "conc": "EDT",
   "deals": [
    {
@@ -8340,7 +8449,7 @@
    "idealo": "2026-10-26",
    "lookfantastic": "2026-10-26"
   },
-  "checked": "2026-10-26T17:44:16+01:00",
+  "checked": "2026-10-26T22:11:28+01:00",
   "conc": "EDP",
   "history": [
    {
@@ -8360,13 +8469,13 @@
    },
    {
     "d": "2026-10-26",
-    "p": 73.1,
-    "s": "sabina"
+    "p": 67.0,
+    "s": "idealo"
    },
    {
     "d": "2026-10-26",
-    "p": 67.0,
-    "s": "idealo"
+    "p": 73.1,
+    "s": "sabina"
    }
   ],
   "id": "gucci-bloom-edp-100",
@@ -8412,9 +8521,10 @@
   "brand": "Gucci",
   "buscado": {
    "douglas": "2026-10-26",
-   "idealo": "2026-10-26"
+   "idealo": "2026-10-26",
+   "lookfantastic": "2026-10-26"
   },
-  "checked": "2026-10-26T17:44:36+01:00",
+  "checked": "2026-10-26T22:11:44+01:00",
   "conc": "EDP",
   "deals": [
    {
@@ -8463,6 +8573,16 @@
    {
     "d": "2026-10-26",
     "p": 82.4,
+    "s": "douglas"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 71.69,
+    "s": "idealo"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 82.4,
     "s": "paco"
    },
    {
@@ -8474,16 +8594,6 @@
     "d": "2026-10-26",
     "p": 77.85,
     "s": "sabina"
-   },
-   {
-    "d": "2026-10-26",
-    "p": 84.94,
-    "s": "douglas"
-   },
-   {
-    "d": "2026-10-26",
-    "p": 71.69,
-    "s": "idealo"
    }
   ],
   "id": "gucci-flora-gorgeous-gardenia-edp-100",
@@ -8494,7 +8604,7 @@
     "auto": true,
     "d": "2026-10-26",
     "gh": true,
-    "p": 84.94
+    "p": 82.4
    },
    "idealo": {
     "auto": true,
@@ -8541,8 +8651,11 @@
  },
  {
   "brand": "Gucci",
-  "buscado": {},
-  "checked": "2026-10-26T17:44:38+01:00",
+  "buscado": {
+   "douglas": "2026-10-26",
+   "idealo": "2026-10-26"
+  },
+  "checked": "2026-10-26T22:11:53+01:00",
   "conc": "EDT",
   "deals": [
    {
@@ -8572,12 +8685,23 @@
     "d": "2026-10-26",
     "p": 64.95,
     "s": "paco"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 49.66,
+    "s": "idealo"
    }
   ],
   "id": "gucci-guilty-pour-homme-edt-90",
   "ml": 90,
   "name": "Guilty pour Homme",
   "prices": {
+   "idealo": {
+    "auto": true,
+    "d": "2026-10-26",
+    "gh": true,
+    "p": 49.66
+   },
    "notino": {
     "auto": true,
     "d": "2026-10-12",
@@ -8593,6 +8717,7 @@
   "target": null,
   "tier": "Diseñador",
   "urls": {
+   "idealo": "https://www.idealo.es/precios/2554422/gucci-guilty-pour-homme-eau-de-toilette-90-ml.html",
    "notino": "https://www.notino.es/gucci/guilty-pour-homme-eau-de-toilette-para-hombre/p-71833/",
    "paco": "https://www.pacoperfumerias.com/gucci-guilty-pour-homme-156045.html"
   }
@@ -9040,7 +9165,7 @@
    "idealo": "2026-10-25",
    "lookfantastic": "2026-10-25"
   },
-  "checked": "2026-10-26T17:44:49+01:00",
+  "checked": "2026-10-26T22:12:05+01:00",
   "conc": "EDP",
   "history": [
    {
@@ -11301,7 +11426,7 @@
    "idealo": "2026-10-25",
    "lookfantastic": "2026-10-25"
   },
-  "checked": "2026-10-26T16:35:36+01:00",
+  "checked": "2026-10-26T22:06:01+01:00",
   "conc": "EDP",
   "history": [
    {
@@ -15426,7 +15551,7 @@
    "idealo": "2026-10-25",
    "lookfantastic": "2026-10-25"
   },
-  "checked": "2026-10-26T16:35:42+01:00",
+  "checked": "2026-10-26T22:06:07+01:00",
   "conc": "EDT",
   "history": [
    {
@@ -15611,7 +15736,7 @@
    "idealo": "2026-10-26",
    "lookfantastic": "2026-10-26"
   },
-  "checked": "2026-10-26T16:36:35+01:00",
+  "checked": "2026-10-26T22:07:19+01:00",
   "conc": "EDP",
   "deals": [
    {
@@ -15636,7 +15761,7 @@
   "history": [
    {
     "d": "2026-10-26",
-    "p": 79.99,
+    "p": 87.52,
     "s": "idealo"
    },
    {
@@ -15653,7 +15778,7 @@
     "auto": true,
     "d": "2026-10-26",
     "gh": true,
-    "p": 79.99
+    "p": 87.52
    },
    "lookfantastic": {
     "auto": true,
@@ -20277,7 +20402,7 @@
    "idealo": "2026-10-26",
    "lookfantastic": "2026-10-26"
   },
-  "checked": "2026-10-26T16:36:46+01:00",
+  "checked": "2026-10-26T22:07:24+01:00",
   "conc": "EDP",
   "deals": [
    {
@@ -20316,7 +20441,7 @@
    },
    {
     "d": "2026-10-26",
-    "p": 138.18,
+    "p": 138.37,
     "s": "idealo"
    },
    {
@@ -20339,7 +20464,7 @@
     "auto": true,
     "d": "2026-10-26",
     "gh": true,
-    "p": 138.18
+    "p": 138.37
    },
    "notino": {
     "auto": true,
