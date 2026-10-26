@@ -65,7 +65,7 @@
    "idealo": "2026-10-26",
    "lookfantastic": "2026-10-26"
   },
-  "checked": "2026-10-26T03:30:40+01:00",
+  "checked": "2026-10-26T08:30:29+01:00",
   "conc": "EDP",
   "deals": [
    {
@@ -109,13 +109,13 @@
    },
    {
     "d": "2026-10-26",
-    "p": 29.99,
-    "s": "arabicparfums"
+    "p": 36.0,
+    "s": "notino"
    },
    {
     "d": "2026-10-26",
-    "p": 36.0,
-    "s": "notino"
+    "p": 29.99,
+    "s": "arabicparfums"
    },
    {
     "d": "2026-10-26",
@@ -161,7 +161,7 @@
    "idealo": "2026-10-26",
    "lookfantastic": "2026-10-26"
   },
-  "checked": "2026-10-26T03:30:56+01:00",
+  "checked": "2026-10-26T08:30:38+01:00",
   "conc": "EDP",
   "deals": [
    {
@@ -221,6 +221,11 @@
    },
    {
     "d": "2026-10-26",
+    "p": 46.73,
+    "s": "idealo"
+   },
+   {
+    "d": "2026-10-26",
     "p": 54.95,
     "s": "laguna"
    },
@@ -228,11 +233,6 @@
     "d": "2026-10-26",
     "p": 63.6,
     "s": "sabina"
-   },
-   {
-    "d": "2026-10-26",
-    "p": 46.73,
-    "s": "idealo"
    }
   ],
   "id": "al-haramain-amber-oud-gold-edition-edp-120",
@@ -280,7 +280,7 @@
    "idealo": "2026-10-26",
    "lookfantastic": "2026-10-26"
   },
-  "checked": "2026-10-26T03:31:07+01:00",
+  "checked": "2026-10-26T08:30:42+01:00",
   "conc": "EDP",
   "deals": [],
   "history": [
@@ -318,9 +318,9 @@
    },
    "notino": {
     "auto": true,
-    "d": "2026-10-12",
-    "note": "100 ml fuera de stock, sin precio",
-    "p": null,
+    "d": "2026-10-26",
+    "gh": true,
+    "p": 365.0,
     "stock": false
    }
   },
@@ -447,7 +447,7 @@
    "douglas": "2026-10-26",
    "idealo": "2026-10-26"
   },
-  "checked": "2026-10-26T03:31:18+01:00",
+  "checked": "2026-10-26T08:30:49+01:00",
   "conc": "EDP",
   "deals": [],
   "history": [
@@ -465,6 +465,11 @@
     "d": "2026-10-26",
     "p": 43.92,
     "s": "idealo"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 68.5,
+    "s": "notino"
    }
   ],
   "id": "ariana-grande-cloud-edp-100",
@@ -485,8 +490,9 @@
    },
    "notino": {
     "auto": true,
-    "d": "2026-10-12",
-    "p": 72
+    "d": "2026-10-26",
+    "gh": true,
+    "p": 68.5
    }
   },
   "target": null,
@@ -499,8 +505,12 @@
  },
  {
   "brand": "Armaf",
-  "buscado": {},
-  "checked": "2026-10-26T02:43:10+01:00",
+  "buscado": {
+   "douglas": "2026-10-26",
+   "idealo": "2026-10-26",
+   "lookfantastic": "2026-10-26"
+  },
+  "checked": "2026-10-26T08:27:09+01:00",
   "conc": "EDT",
   "deals": [
    {
@@ -588,6 +598,11 @@
     "d": "2026-10-26",
     "p": 38.25,
     "s": "parejo"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 25.49,
+    "s": "idealo"
    }
   ],
   "id": "armaf-club-de-nuit-intense-man-edt-105",
@@ -599,6 +614,12 @@
     "d": "2026-10-26",
     "gh": true,
     "p": 33.99
+   },
+   "idealo": {
+    "auto": true,
+    "d": "2026-10-26",
+    "gh": true,
+    "p": 25.49
    },
    "laguna": {
     "auto": true,
@@ -622,6 +643,7 @@
   "tier": "Árabe",
   "urls": {
    "arabicparfums": "https://arabicparfums.com/en/products/club-de-nuit-intense-men-armaf-105ml",
+   "idealo": "https://www.idealo.es/precios/5474476/armaf-club-de-nuit-intense-man-eau-de-toilette-105-ml.html",
    "laguna": "https://www.perfumeriaslaguna.com/armaf-club-de-nuit-intense-105ml",
    "notino": "https://www.notino.es/armaf/club-de-nuit-men-intense-eau-de-toilette-para-hombre/p-654777/",
    "parejo": "https://www.joyeriaparejo.com/perfumes/armaf-club-de-nuit-intense-eau-de-toilette-105ml-hombre"
@@ -629,8 +651,12 @@
  },
  {
   "brand": "Armaf",
-  "buscado": {},
-  "checked": "2026-10-26T02:43:15+01:00",
+  "buscado": {
+   "douglas": "2026-10-26",
+   "idealo": "2026-10-26",
+   "lookfantastic": "2026-10-26"
+  },
+  "checked": "2026-10-26T08:27:25+01:00",
   "conc": "EDP",
   "history": [
    {
@@ -692,6 +718,11 @@
     "d": "2026-10-26",
     "p": 37.95,
     "s": "sabina"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 32.36,
+    "s": "idealo"
    }
   ],
   "id": "armaf-club-de-nuit-milestone-edp-105",
@@ -703,6 +734,12 @@
     "d": "2026-10-26",
     "gh": true,
     "p": 36.99
+   },
+   "idealo": {
+    "auto": true,
+    "d": "2026-10-26",
+    "gh": true,
+    "p": 32.36
    },
    "notino": {
     "auto": true,
@@ -726,6 +763,7 @@
   "tier": "Árabe",
   "urls": {
    "arabicparfums": "https://arabicparfums.com/en/products/club-de-nuit-milestone-armaf-105ml",
+   "idealo": "https://www.idealo.es/precios/200434788/armaf-club-de-nuit-milestone-eau-de-parfum.html",
    "notino": "https://www.notino.es/armaf/club-de-nuit-milestone-eau-de-parfum-unisex/p-16007538/",
    "parejo": "https://www.joyeriaparejo.com/perfumes/armaf-club-de-nuit-milestone-eau-de-parfum-105-ml-unisex",
    "sabina": "https://www.sabina.com/es/perfumes-mujer/33009-club-de-nuit-milestone-eau-de-parfum-armaf.html"
@@ -912,7 +950,7 @@
  {
   "brand": "Armani",
   "buscado": {},
-  "checked": "2026-10-26T03:31:18+01:00",
+  "checked": "2026-10-26T08:30:49+01:00",
   "conc": "Parfum",
   "deals": [
    {
@@ -939,8 +977,11 @@
  },
  {
   "brand": "Armani",
-  "buscado": {},
-  "checked": "2026-10-26T02:43:19+01:00",
+  "buscado": {
+   "douglas": "2026-10-26",
+   "idealo": "2026-10-26"
+  },
+  "checked": "2026-10-26T08:27:34+01:00",
   "conc": "EDP",
   "deals": [
    {
@@ -967,6 +1008,7 @@
   "tier": "Diseñador",
   "urls": {
    "avenida": "https://www.perfumeriasavenida.com/acqua-di-gio-profondo-edp-armani",
+   "idealo": "https://www.idealo.es/precios/203975653/giorgio-armani-acqua-di-gio-profondo-eau-de-parfum-50ml.html",
    "lookfantastic": "https://lookfantastic.es/armani-acqua-di-gio-profondo-eau-de-parfum-75ml/12491955.html",
    "paco": "https://www.pacoperfumerias.com/armani-acqua-di-gio-profondo-18988.html",
    "sabina": "https://www.sabina.com/es/armani/22229-armani-acqua-di-gio-profondo-eau-de-parfum.html",
@@ -1086,8 +1128,11 @@
  },
  {
   "brand": "Armani",
-  "buscado": {},
-  "checked": "2026-10-26T02:43:35+01:00",
+  "buscado": {
+   "douglas": "2026-10-26",
+   "idealo": "2026-10-26"
+  },
+  "checked": "2026-10-26T08:28:10+01:00",
   "conc": "EDP",
   "deals": [
    {
@@ -1171,6 +1216,11 @@
     "d": "2026-10-26",
     "p": 83.92,
     "s": "paco"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 101.95,
+    "s": "idealo"
    }
   ],
   "id": "armani-my-way-edp-90",
@@ -1182,6 +1232,12 @@
     "d": "2026-10-26",
     "gh": true,
     "p": 89.95
+   },
+   "idealo": {
+    "auto": true,
+    "d": "2026-10-26",
+    "gh": true,
+    "p": 101.95
    },
    "laguna": {
     "auto": true,
@@ -1212,6 +1268,7 @@
   "tier": "Diseñador",
   "urls": {
    "avenida": "https://www.perfumeriasavenida.com/giorgio-armani-my-way-edp-armani",
+   "idealo": "https://www.idealo.es/precios/204369056/giorgio-armani-my-way-eau-de-parfum-refillable-30ml.html",
    "laguna": "https://www.perfumeriaslaguna.com/giorgio-armani-my-way-eau-de-parfum-90",
    "lookfantastic": "https://www.lookfantastic.es/p/armani-my-way-eau-de-parfum-90ml/12652182/",
    "notino": "https://www.notino.es/armani/my-way-eau-de-parfum-recargable-para-mujer/p-16043999/",
@@ -1343,7 +1400,7 @@
  {
   "brand": "Armani",
   "buscado": {},
-  "checked": "2026-10-26T03:31:28+01:00",
+  "checked": "2026-10-26T08:31:01+01:00",
   "conc": "Parfum",
   "deals": [
    {
@@ -1401,6 +1458,11 @@
    },
    {
     "d": "2026-10-26",
+    "p": 91.5,
+    "s": "notino"
+   },
+   {
+    "d": "2026-10-26",
     "p": 76.77,
     "s": "sabina"
    }
@@ -1423,8 +1485,9 @@
    },
    "notino": {
     "auto": true,
-    "d": "2026-10-12",
-    "p": 94.5
+    "d": "2026-10-26",
+    "gh": true,
+    "p": 91.5
    },
    "paco": {
     "auto": true,
@@ -1836,8 +1899,11 @@
  },
  {
   "brand": "Azzaro",
-  "buscado": {},
-  "checked": "2026-10-26T02:43:40+01:00",
+  "buscado": {
+   "douglas": "2026-10-26",
+   "idealo": "2026-10-26"
+  },
+  "checked": "2026-10-26T08:28:22+01:00",
   "conc": "EDP",
   "history": [
    {
@@ -1894,12 +1960,23 @@
     "d": "2026-10-26",
     "p": 59.8,
     "s": "sabina"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 46.3,
+    "s": "idealo"
    }
   ],
   "id": "azzaro-wanted-by-night-edp-100",
   "ml": 100,
   "name": "Wanted by Night",
   "prices": {
+   "idealo": {
+    "auto": true,
+    "d": "2026-10-26",
+    "gh": true,
+    "p": 46.3
+   },
    "laguna": {
     "auto": true,
     "d": "2026-10-26",
@@ -1929,6 +2006,7 @@
   "target": null,
   "tier": "Diseñador",
   "urls": {
+   "idealo": "https://www.idealo.es/precios/6221167/azzaro-wanted-by-night-eau-de-parfum-100ml.html",
    "laguna": "https://www.perfumeriaslaguna.com/azzaro-wanted-night-parfum-vaporizador-p-23500.html",
    "lookfantastic": "https://lookfantastic.es/azzaro-wanted-by-night-eau-de-parfum-100ml/12737265.html",
    "notino": "https://www.notino.es/azzaro/wanted-by-night-eau-de-parfum-para-hombre/p-15896396/",
@@ -2171,7 +2249,7 @@
  {
   "brand": "Burberry",
   "buscado": {},
-  "checked": "2026-10-26T02:44:07+01:00",
+  "checked": "2026-10-26T08:28:57+01:00",
   "conc": "EDP",
   "history": [
    {
@@ -2239,7 +2317,7 @@
  {
   "brand": "Burberry",
   "buscado": {},
-  "checked": "2026-10-26T02:44:10+01:00",
+  "checked": "2026-10-26T08:29:00+01:00",
   "conc": "EDT",
   "history": [
    {
@@ -2391,7 +2469,7 @@
  {
   "brand": "Bvlgari",
   "buscado": {},
-  "checked": "2026-10-26T02:44:16+01:00",
+  "checked": "2026-10-26T08:29:06+01:00",
   "conc": "EDT",
   "history": [
    {
@@ -2469,7 +2547,7 @@
  {
   "brand": "Bvlgari",
   "buscado": {},
-  "checked": "2026-10-26T02:44:20+01:00",
+  "checked": "2026-10-26T08:29:09+01:00",
   "conc": "EDP",
   "history": [
    {
@@ -2525,7 +2603,7 @@
    "idealo": "2026-10-25",
    "lookfantastic": "2026-10-25"
   },
-  "checked": "2026-10-26T02:44:30+01:00",
+  "checked": "2026-10-26T08:29:20+01:00",
   "conc": "EDT",
   "history": [
    {
@@ -2563,7 +2641,7 @@
    "idealo": "2026-10-25",
    "lookfantastic": "2026-10-25"
   },
-  "checked": "2026-10-26T02:44:33+01:00",
+  "checked": "2026-10-26T08:29:24+01:00",
   "conc": "EDP",
   "history": [
    {
@@ -2613,8 +2691,12 @@
  },
  {
   "brand": "Byredo",
-  "buscado": {},
-  "checked": "2026-10-26T02:43:45+01:00",
+  "buscado": {
+   "douglas": "2026-10-26",
+   "idealo": "2026-10-26",
+   "lookfantastic": "2026-10-26"
+  },
+  "checked": "2026-10-26T08:28:35+01:00",
   "conc": "EDP",
   "history": [
    {
@@ -2646,6 +2728,11 @@
     "d": "2026-10-26",
     "p": 216.6,
     "s": "sabina"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 220.35,
+    "s": "idealo"
    }
   ],
   "id": "byredo-gypsy-water-edp-100",
@@ -2664,6 +2751,12 @@
     "gh": true,
     "p": 245.0
    },
+   "idealo": {
+    "auto": true,
+    "d": "2026-10-26",
+    "gh": true,
+    "p": 220.35
+   },
    "sabina": {
     "auto": true,
     "d": "2026-10-26",
@@ -2676,6 +2769,7 @@
   "urls": {
    "beautinow": "https://beautinow.com/products/byredo-gypsy-water-eau-de-parfum/",
    "firstinfragrance": "https://www.ausliebezumduft.de/products/byredo-gypsy-water",
+   "idealo": "https://www.idealo.es/precios/3331377/byredo-gypsy-water-eau-de-parfum-100-ml.html",
    "sabina": "https://www.sabina.com/es/niche-perfumes-for-women/23051-gypsy-water.html"
   }
  },
@@ -3231,7 +3325,7 @@
  {
   "brand": "Calvin Klein",
   "buscado": {},
-  "checked": "2026-10-26T02:43:49+01:00",
+  "checked": "2026-10-26T08:28:40+01:00",
   "conc": "EDT",
   "deals": [
    {
@@ -4191,7 +4285,7 @@
  {
   "brand": "Carolina Herrera",
   "buscado": {},
-  "checked": "2026-10-26T02:44:00+01:00",
+  "checked": "2026-10-26T08:28:49+01:00",
   "conc": "EDP",
   "deals": [
    {
@@ -4518,7 +4612,7 @@
  {
   "brand": "Chanel",
   "buscado": {},
-  "checked": "2026-10-26T02:44:05+01:00",
+  "checked": "2026-10-26T08:28:55+01:00",
   "conc": "EDT",
   "history": [
    {
@@ -4821,7 +4915,7 @@
  {
   "brand": "Chanel",
   "buscado": {},
-  "checked": "2026-10-26T02:44:23+01:00",
+  "checked": "2026-10-26T08:29:13+01:00",
   "conc": "EDT",
   "history": [
    {
@@ -4932,7 +5026,7 @@
  {
   "brand": "Creed",
   "buscado": {},
-  "checked": "2026-10-26T02:44:27+01:00",
+  "checked": "2026-10-26T08:29:18+01:00",
   "conc": "EDP",
   "history": [
    {
@@ -5102,7 +5196,7 @@
    "idealo": "2026-10-25",
    "lookfantastic": "2026-10-25"
   },
-  "checked": "2026-10-26T02:44:38+01:00",
+  "checked": "2026-10-26T08:29:30+01:00",
   "conc": "EDP",
   "history": [
    {
@@ -5246,7 +5340,7 @@
    "douglas": "2026-10-25",
    "idealo": "2026-10-25"
   },
-  "checked": "2026-10-26T02:45:10+01:00",
+  "checked": "2026-10-26T08:29:59+01:00",
   "conc": "EDT",
   "deals": [
    {
@@ -5355,7 +5449,7 @@
    },
    {
     "d": "2026-10-26",
-    "p": 20.09,
+    "p": 20.15,
     "s": "perfumesclub"
    },
    {
@@ -5409,7 +5503,7 @@
     "auto": true,
     "d": "2026-10-26",
     "gh": true,
-    "p": 20.09
+    "p": 20.15
    },
    "sabina": {
     "auto": true,
@@ -5638,7 +5732,7 @@
    "idealo": "2026-10-25",
    "lookfantastic": "2026-10-25"
   },
-  "checked": "2026-10-26T02:44:44+01:00",
+  "checked": "2026-10-26T08:29:36+01:00",
   "conc": "EDT",
   "history": [
    {
@@ -5849,8 +5943,12 @@
  },
  {
   "brand": "Dior",
-  "buscado": {},
-  "checked": "2026-10-26T02:43:25+01:00",
+  "buscado": {
+   "douglas": "2026-10-26",
+   "idealo": "2026-10-26",
+   "lookfantastic": "2026-10-26"
+  },
+  "checked": "2026-10-26T08:27:47+01:00",
   "conc": "EDP",
   "history": [
    {
@@ -5892,12 +5990,23 @@
     "d": "2026-10-26",
     "p": 134.76,
     "s": "sabina"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 134.76,
+    "s": "idealo"
    }
   ],
   "id": "dior-miss-dior-edp-100",
   "ml": 100,
   "name": "Miss Dior",
   "prices": {
+   "idealo": {
+    "auto": true,
+    "d": "2026-10-26",
+    "gh": true,
+    "p": 134.76
+   },
    "paco": {
     "auto": true,
     "d": "2026-10-26",
@@ -5914,6 +6023,7 @@
   "target": null,
   "tier": "Diseñador",
   "urls": {
+   "idealo": "https://www.idealo.es/precios/213842066/dior-miss-dior-2026-eau-de-parfum-100ml.html",
    "notino": "https://www.notino.es/dior/miss-dior-eau-de-parfum-para-mujer/",
    "paco": "https://pacoperfumerias.com/dior-miss-dior-eau-de-parfum-lazo-couture",
    "sabina": "https://www.sabina.com/es/perfumes-mujer/60565-miss-dior-eau-de-parfum-dior.html"
@@ -6268,7 +6378,7 @@
  {
   "brand": "Diptyque",
   "buscado": {},
-  "checked": "2026-10-26T02:45:14+01:00",
+  "checked": "2026-10-26T08:30:03+01:00",
   "conc": "EDT",
   "history": [
    {
@@ -6336,7 +6446,7 @@
  {
   "brand": "Diptyque",
   "buscado": {},
-  "checked": "2026-10-26T02:45:17+01:00",
+  "checked": "2026-10-26T08:30:06+01:00",
   "conc": "EDT",
   "history": [
    {
@@ -6579,7 +6689,7 @@
    "idealo": "2026-10-26",
    "lookfantastic": "2026-10-26"
   },
-  "checked": "2026-10-26T03:30:06+01:00",
+  "checked": "2026-10-26T08:30:16+01:00",
   "conc": "EDT",
   "history": [
    {
@@ -6624,6 +6734,11 @@
    },
    {
     "d": "2026-10-26",
+    "p": 51.86,
+    "s": "idealo"
+   },
+   {
+    "d": "2026-10-26",
     "p": 59.95,
     "s": "laguna"
    },
@@ -6631,11 +6746,6 @@
     "d": "2026-10-26",
     "p": 66.45,
     "s": "sabina"
-   },
-   {
-    "d": "2026-10-26",
-    "p": 52.16,
-    "s": "idealo"
    }
   ],
   "id": "dolce-gabbana-k-by-dolce-gabbana-edt-100",
@@ -6646,7 +6756,7 @@
     "auto": true,
     "d": "2026-10-26",
     "gh": true,
-    "p": 52.16
+    "p": 51.86
    },
    "laguna": {
     "auto": true,
@@ -10403,7 +10513,7 @@
    "idealo": "2026-10-25",
    "lookfantastic": "2026-10-25"
   },
-  "checked": "2026-10-26T02:44:47+01:00",
+  "checked": "2026-10-26T08:29:38+01:00",
   "conc": "EDP",
   "history": [
    {
@@ -10423,7 +10533,7 @@
    },
    {
     "d": "2026-10-26",
-    "p": 247.29,
+    "p": 228.54,
     "s": "idealo"
    }
   ],
@@ -10435,7 +10545,7 @@
     "auto": true,
     "d": "2026-10-26",
     "gh": true,
-    "p": 247.29
+    "p": 228.54
    },
    "notino": {
     "auto": true,
@@ -14375,7 +14485,7 @@
    "idealo": "2026-10-25",
    "lookfantastic": "2026-10-25"
   },
-  "checked": "2026-10-26T02:44:54+01:00",
+  "checked": "2026-10-26T08:29:45+01:00",
   "conc": "EDT",
   "history": [
    {
@@ -14539,7 +14649,7 @@
    "idealo": "2026-10-26",
    "lookfantastic": "2026-10-26"
   },
-  "checked": "2026-10-26T03:30:15+01:00",
+  "checked": "2026-10-26T08:30:20+01:00",
   "conc": "EDP",
   "deals": [
    {
@@ -17630,8 +17740,11 @@
  },
  {
   "brand": "Tom Ford",
-  "buscado": {},
-  "checked": "2026-10-26T02:43:27+01:00",
+  "buscado": {
+   "douglas": "2026-10-26",
+   "idealo": "2026-10-26"
+  },
+  "checked": "2026-10-26T08:27:56+01:00",
   "conc": "EDP",
   "history": [
    {
@@ -17663,12 +17776,23 @@
     "d": "2026-10-26",
     "p": 170.95,
     "s": "sabina"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 162.02,
+    "s": "idealo"
    }
   ],
   "id": "tom-ford-tobacco-vanille-edp-50",
   "ml": 50,
   "name": "Tobacco Vanille",
   "prices": {
+   "idealo": {
+    "auto": true,
+    "d": "2026-10-26",
+    "gh": true,
+    "p": 162.02
+   },
    "lookfantastic": {
     "auto": true,
     "d": "2026-10-12",
@@ -17690,6 +17814,7 @@
   "target": null,
   "tier": "Diseñador",
   "urls": {
+   "idealo": "https://www.idealo.es/precios/4387503/tom-ford-tobacco-vanille-eau-de-parfum-50-ml.html",
    "lookfantastic": "https://www.lookfantastic.es/p/tom-ford-tobacco-vanille-eau-de-parfum-spray-50ml/12709323/",
    "notino": "https://www.notino.es/tom-ford/tobacco-vanille-eau-de-parfum-unisex/p-448953/",
    "sabina": "https://www.sabina.com/es/perfumes-nicho-mujer/12253-tobacco-vanille-eau-de-parfum-tom-ford.html",
@@ -18973,7 +19098,7 @@
    "idealo": "2026-10-26",
    "lookfantastic": "2026-10-26"
   },
-  "checked": "2026-10-26T03:30:27+01:00",
+  "checked": "2026-10-26T08:30:25+01:00",
   "conc": "EDP",
   "deals": [
    {
@@ -19012,13 +19137,13 @@
    },
    {
     "d": "2026-10-26",
-    "p": 218.45,
-    "s": "sabina"
+    "p": 138.18,
+    "s": "idealo"
    },
    {
     "d": "2026-10-26",
-    "p": 138.18,
-    "s": "idealo"
+    "p": 218.45,
+    "s": "sabina"
    }
   ],
   "id": "xerjoff-erba-pura-edp-100",

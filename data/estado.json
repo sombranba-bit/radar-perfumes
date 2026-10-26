@@ -1,146 +1,147 @@
 {
- "at": "2026-10-26T07:16:49+01:00",
+ "at": "2026-10-26T08:31:01+01:00",
  "revisados": 35,
  "tiendas": {
-  "paco": {
-   "ok": 23,
+  "arabicparfums": {
+   "ok": 4,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "jsonld": 23
-  },
-  "sabina": {
-   "ok": 26,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 5,
-   "jsonld": 23,
-   "ejemplos": [
-    {
-     "perfume": "dior-j-adore-edp-100",
-     "precio": 67.62,
-     "referencia": 133.95,
-     "metodo": "texto"
-    },
-    {
-     "perfume": "dolce-gabbana-the-one-for-men-edp-100",
-     "precio": 88.27,
-     "referencia": 66.94,
-     "metodo": "texto"
-    },
-    {
-     "perfume": "hugo-boss-boss-bottled-infinite-edp-100",
-     "precio": 88.27,
-     "referencia": 56.01,
-     "metodo": "texto"
-    }
-   ],
-   "texto": 3
-  },
-  "sephora": {
-   "ok": 0,
-   "bloqueada": 12,
-   "sin_precio": 0,
-   "dudoso": 0
-  },
-  "idealo": {
-   "ok": 20,
-   "bloqueada": 0,
-   "sin_precio": 2,
-   "dudoso": 1,
-   "jsonld-url": 19,
-   "ejemplos": [
-    {
-     "perfume": "acqua-di-parma-colonia-edc-100",
-     "precio": 174.99,
-     "referencia": 96.71,
-     "metodo": "jsonld"
-    }
-   ],
-   "jsonld": 1
-  },
-  "douglas": {
-   "ok": 3,
-   "bloqueada": 0,
-   "sin_precio": 1,
-   "dudoso": 0,
-   "precio-100ml": 3
-  },
-  "avenida": {
-   "ok": 16,
-   "bloqueada": 0,
-   "sin_precio": 1,
-   "dudoso": 0,
-   "variantes": 16
+   "jsonld": 3,
+   "jsonld-url": 1
   },
   "laguna": {
-   "ok": 0,
-   "bloqueada": 17,
-   "sin_precio": 0,
-   "dudoso": 0
-  },
-  "lookfantastic": {
-   "ok": 3,
+   "ok": 9,
    "bloqueada": 0,
    "sin_precio": 0,
-   "dudoso": 18,
-   "ejemplos": [
-    {
-     "perfume": "dolce-gabbana-light-blue-edt-100",
-     "precio": 3.99,
-     "referencia": 74.05,
-     "metodo": "texto"
-    },
-    {
-     "perfume": "dolce-gabbana-the-one-for-men-edp-100",
-     "precio": 3.99,
-     "referencia": 66.94,
-     "metodo": "texto"
-    },
-    {
-     "perfume": "hugo-boss-boss-bottled-edp-100",
-     "precio": 3.99,
-     "referencia": 60.225,
-     "metodo": "texto"
-    }
-   ],
-   "jsonld": 3
+   "dudoso": 0,
+   "jsonld": 4,
+   "jsonld-url": 1,
+   "precio-100ml": 4
   },
   "notino": {
-   "ok": 4,
-   "bloqueada": 22,
+   "ok": 3,
+   "bloqueada": 21,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "jsonld": 3
+  },
+  "parejo": {
+   "ok": 6,
+   "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 1,
-   "jsonld": 4,
+   "jsonld": 6,
    "ejemplos": [
     {
-     "perfume": "maison-margiela-replica-jazz-club-edt-100",
-     "precio": 153.0,
-     "referencia": 97.87,
+     "perfume": "bvlgari-man-in-black-edp-100",
+     "precio": 126.65,
+     "referencia": 76.465,
      "metodo": "jsonld"
     }
    ]
   },
-  "parejo": {
+  "idealo": {
+   "ok": 19,
+   "bloqueada": 0,
+   "sin_precio": 1,
+   "dudoso": 1,
+   "jsonld-url": 15,
+   "jsonld": 3,
+   "texto": 1,
+   "ejemplos": [
+    {
+     "perfume": "creed-silver-mountain-water-edp-100",
+     "precio": 29.9,
+     "referencia": 320.0,
+     "metodo": "texto"
+    }
+   ]
+  },
+  "sabina": {
+   "ok": 18,
+   "bloqueada": 0,
+   "sin_precio": 1,
+   "dudoso": 1,
+   "precio-100ml": 2,
+   "jsonld": 15,
+   "texto": 1,
+   "ejemplos": [
+    {
+     "perfume": "diptyque-tam-dao-edt-100",
+     "precio": 224.0,
+     "referencia": 146.35,
+     "metodo": "texto"
+    }
+   ]
+  },
+  "avenida": {
+   "ok": 2,
+   "bloqueada": 0,
+   "sin_precio": 1,
+   "dudoso": 0,
+   "variantes": 2
+  },
+  "lookfantastic": {
+   "ok": 2,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 10,
+   "ejemplos": [
+    {
+     "perfume": "armani-acqua-di-gio-profondo-edp-75",
+     "precio": 3.99,
+     "referencia": 77.63,
+     "metodo": "texto"
+    },
+    {
+     "perfume": "tom-ford-tobacco-vanille-edp-50",
+     "precio": 3.99,
+     "referencia": 218.475,
+     "metodo": "texto"
+    },
+    {
+     "perfume": "armani-my-way-edp-90",
+     "precio": 3.99,
+     "referencia": 87.95,
+     "metodo": "texto"
+    }
+   ],
+   "jsonld": 2
+  },
+  "paco": {
+   "ok": 14,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 1,
+   "ejemplos": [
+    {
+     "perfume": "armani-acqua-di-gio-profondo-edp-75",
+     "precio": 50.0,
+     "referencia": null,
+     "metodo": "texto"
+    }
+   ],
+   "jsonld": 14
+  },
+  "sephora": {
+   "ok": 0,
+   "bloqueada": 3,
+   "sin_precio": 0,
+   "dudoso": 0
+  },
+  "beautinow": {
+   "ok": 0,
+   "bloqueada": 0,
+   "sin_precio": 3,
+   "dudoso": 0
+  },
+  "firstinfragrance": {
    "ok": 7,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
    "jsonld": 7
-  },
-  "brasty": {
-   "ok": 2,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "jsonld": 2
-  },
-  "firstinfragrance": {
-   "ok": 3,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "jsonld": 3
   },
   "perfumesclub": {
    "ok": 1,
@@ -149,11 +150,12 @@
    "dudoso": 0,
    "precio-100ml": 1
   },
-  "beautinow": {
-   "ok": 0,
+  "douglas": {
+   "ok": 1,
    "bloqueada": 0,
-   "sin_precio": 3,
-   "dudoso": 0
+   "sin_precio": 0,
+   "dudoso": 0,
+   "precio-100ml": 1
   }
  },
  "limpiados": {},
