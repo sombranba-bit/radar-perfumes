@@ -1,113 +1,79 @@
 {
- "at": "2026-10-26T05:20:28+01:00",
+ "at": "2026-10-26T06:24:06+01:00",
  "revisados": 35,
  "tiendas": {
   "avenida": {
-   "ok": 14,
+   "ok": 19,
    "bloqueada": 0,
    "sin_precio": 1,
    "dudoso": 0,
-   "variantes": 13,
+   "variantes": 18,
    "jsonld": 1
   },
-  "idealo": {
-   "ok": 17,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 1,
-   "jsonld-url": 15,
-   "ejemplos": [
-    {
-     "perfume": "jean-paul-gaultier-ultra-male-edt-125",
-     "precio": 59.71,
-     "referencia": 123.0,
-     "metodo": "texto"
-    }
-   ],
-   "jsonld": 2
-  },
-  "laguna": {
-   "ok": 0,
-   "bloqueada": 17,
-   "sin_precio": 0,
-   "dudoso": 0
-  },
   "lookfantastic": {
-   "ok": 2,
+   "ok": 0,
    "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 12,
+   "sin_precio": 1,
+   "dudoso": 22,
    "ejemplos": [
     {
-     "perfume": "jean-paul-gaultier-scandal-edp-80",
+     "perfume": "ralph-lauren-polo-red-edt-125",
      "precio": 3.99,
-     "referencia": 78.795,
+     "referencia": 60.75,
      "metodo": "texto"
     },
     {
-     "perfume": "jean-paul-gaultier-scandal-pour-homme-edt-100",
+     "perfume": "tom-ford-noir-extreme-edp-100",
      "precio": 3.99,
-     "referencia": 79.95,
+     "referencia": 134.825,
      "metodo": "texto"
     },
     {
-     "perfume": "jean-paul-gaultier-ultra-male-edt-125",
+     "perfume": "tom-ford-ombre-leather-edp-100",
      "precio": 3.99,
-     "referencia": 123.0,
+     "referencia": 132.89,
      "metodo": "texto"
     }
-   ],
-   "jsonld": 2
+   ]
   },
   "notino": {
-   "ok": 7,
-   "bloqueada": 16,
+   "ok": 2,
+   "bloqueada": 29,
    "sin_precio": 0,
    "dudoso": 0,
-   "jsonld": 7
+   "jsonld": 2
   },
   "paco": {
-   "ok": 17,
+   "ok": 25,
    "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "jsonld": 17
+   "sin_precio": 3,
+   "dudoso": 1,
+   "jsonld": 25,
+   "ejemplos": [
+    {
+     "perfume": "azzaro-chrome-edt-100",
+     "precio": 116.0,
+     "referencia": 49.95,
+     "metodo": "texto"
+    }
+   ]
   },
   "sabina": {
-   "ok": 22,
+   "ok": 24,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
    "jsonld": 20,
-   "texto": 1,
-   "precio-100ml": 1
+   "precio-100ml": 1,
+   "texto": 3
   },
-  "sephora": {
-   "ok": 0,
-   "bloqueada": 4,
-   "sin_precio": 0,
-   "dudoso": 0
-  },
-  "perfumesclub": {
-   "ok": 1,
+  "idealo": {
+   "ok": 19,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "precio-100ml": 1
-  },
-  "arabicparfums": {
-   "ok": 3,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "jsonld": 3
-  },
-  "parejo": {
-   "ok": 10,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "jsonld": 10
+   "jsonld-url": 17,
+   "jsonld": 2
   },
   "beautinow": {
    "ok": 0,
@@ -115,12 +81,52 @@
    "sin_precio": 3,
    "dudoso": 0
   },
-  "firstinfragrance": {
-   "ok": 7,
+  "laguna": {
+   "ok": 0,
+   "bloqueada": 24,
+   "sin_precio": 0,
+   "dudoso": 0
+  },
+  "perfumesclub": {
+   "ok": 6,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "jsonld": 7
+   "precio-100ml": 6
+  },
+  "sephora": {
+   "ok": 0,
+   "bloqueada": 12,
+   "sin_precio": 0,
+   "dudoso": 0
+  },
+  "parejo": {
+   "ok": 9,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 2,
+   "jsonld": 9,
+   "ejemplos": [
+    {
+     "perfume": "yves-saint-laurent-black-opium-edp-90",
+     "precio": 153.0,
+     "referencia": 99.51,
+     "metodo": "jsonld"
+    },
+    {
+     "perfume": "carolina-herrera-212-vip-men-edt-100",
+     "precio": 84.15,
+     "referencia": 55.93,
+     "metodo": "jsonld"
+    }
+   ]
+  },
+  "arabicparfums": {
+   "ok": 1,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "jsonld": 1
   },
   "brasty": {
    "ok": 1,
@@ -129,12 +135,26 @@
    "dudoso": 0,
    "jsonld": 1
   },
+  "makeup": {
+   "ok": 0,
+   "bloqueada": 0,
+   "sin_precio": 3,
+   "dudoso": 0
+  },
   "douglas": {
    "ok": 2,
    "bloqueada": 0,
    "sin_precio": 0,
-   "dudoso": 0,
-   "precio-100ml": 2
+   "dudoso": 1,
+   "precio-100ml": 2,
+   "ejemplos": [
+    {
+     "perfume": "chanel-chanel-n-5-edp-100",
+     "precio": 727.09,
+     "referencia": 140.8,
+     "metodo": "precio-100ml"
+    }
+   ]
   }
  },
  "limpiados": {},
