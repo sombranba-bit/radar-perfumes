@@ -11677,7 +11677,7 @@
    "douglas": "2026-10-26",
    "idealo": "2026-10-26"
   },
-  "checked": "2026-10-26T00:22:14+01:00",
+  "checked": "2026-10-26T05:08:52+01:00",
   "conc": "EDP",
   "history": [
    {
@@ -11722,13 +11722,18 @@
    },
    {
     "d": "2026-10-26",
+    "p": 79.95,
+    "s": "laguna"
+   },
+   {
+    "d": "2026-10-26",
     "p": 84.95,
     "s": "avenida"
    },
    {
     "d": "2026-10-26",
-    "p": 79.95,
-    "s": "laguna"
+    "p": 71.44,
+    "s": "idealo"
    },
    {
     "d": "2026-10-26",
@@ -11739,11 +11744,6 @@
     "d": "2026-10-26",
     "p": 77.64,
     "s": "sabina"
-   },
-   {
-    "d": "2026-10-26",
-    "p": 71.44,
-    "s": "idealo"
    }
   ],
   "id": "jean-paul-gaultier-scandal-edp-80",
@@ -11805,8 +11805,11 @@
  },
  {
   "brand": "Jean Paul Gaultier",
-  "buscado": {},
-  "checked": "2026-10-26T00:22:24+01:00",
+  "buscado": {
+   "douglas": "2026-10-26",
+   "idealo": "2026-10-26"
+  },
+  "checked": "2026-10-26T05:09:33+01:00",
   "conc": "EDT",
   "history": [
    {
@@ -11847,12 +11850,12 @@
    {
     "d": "2026-10-26",
     "p": 79.95,
-    "s": "avenida"
+    "s": "laguna"
    },
    {
     "d": "2026-10-26",
     "p": 79.95,
-    "s": "laguna"
+    "s": "avenida"
    },
    {
     "d": "2026-10-26",
@@ -11861,8 +11864,13 @@
    },
    {
     "d": "2026-10-26",
-    "p": 75.95,
+    "p": 79.95,
     "s": "sabina"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 57.64,
+    "s": "idealo"
    }
   ],
   "id": "jean-paul-gaultier-scandal-pour-homme-edt-100",
@@ -11874,6 +11882,12 @@
     "d": "2026-10-26",
     "gh": true,
     "p": 79.95
+   },
+   "idealo": {
+    "auto": true,
+    "d": "2026-10-26",
+    "gh": true,
+    "p": 57.64
    },
    "laguna": {
     "auto": true,
@@ -11897,12 +11911,13 @@
     "auto": true,
     "d": "2026-10-26",
     "gh": true,
-    "p": 75.95
+    "p": 79.95
    }
   },
   "target": null,
   "urls": {
    "avenida": "https://www.perfumeriasavenida.com/scandal-pour-homme-edt-jean-paul-gaultier",
+   "idealo": "https://www.idealo.es/precios/201448611/jean-paul-gaultier-scandal-pour-homme-eau-de-toilette-100ml.html",
    "laguna": "https://www.perfumeriaslaguna.com/scandal-pour-homme-100",
    "lookfantastic": "https://www.lookfantastic.es/p/jean-paul-gaultier-scandal-pour-homme-eau-de-toilette-100ml/13175217/",
    "paco": "https://www.pacoperfumerias.com/jean-paul-gaultier-scandal-pour-homme-22720.html",
@@ -11911,8 +11926,11 @@
  },
  {
   "brand": "Jean Paul Gaultier",
-  "buscado": {},
-  "checked": "2026-10-26T00:22:27+01:00",
+  "buscado": {
+   "douglas": "2026-10-26",
+   "idealo": "2026-10-26"
+  },
+  "checked": "2026-10-26T05:10:05+01:00",
   "conc": "EDT",
   "deals": [
    {
@@ -11964,6 +11982,7 @@
   },
   "target": null,
   "urls": {
+   "idealo": "https://www.idealo.es/precios/4811095/jean-paul-gaultier-ultra-male-eau-de-toilette.html",
    "laguna": "https://www.perfumeriaslaguna.com/le-male-ultra-male",
    "lookfantastic": "https://www.lookfantastic.es/p/jean-paul-gaultier-le-male-ultra-eau-de-toilette-125ml/11817753/"
   }
@@ -12135,8 +12154,12 @@
  },
  {
   "brand": "Kilian",
-  "buscado": {},
-  "checked": "2026-10-26T00:22:29+01:00",
+  "buscado": {
+   "douglas": "2026-10-26",
+   "idealo": "2026-10-26",
+   "lookfantastic": "2026-10-26"
+  },
+  "checked": "2026-10-26T05:10:18+01:00",
   "conc": "EDP",
   "history": [
    {
@@ -12153,12 +12176,23 @@
     "d": "2026-10-26",
     "p": 116.83,
     "s": "sabina"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 167.81,
+    "s": "idealo"
    }
   ],
   "id": "kilian-angels-share-edp-50",
   "ml": 50,
   "name": "Angels' Share",
   "prices": {
+   "idealo": {
+    "auto": true,
+    "d": "2026-10-26",
+    "gh": true,
+    "p": 167.81
+   },
    "sabina": {
     "auto": true,
     "d": "2026-10-26",
@@ -12169,27 +12203,50 @@
   "target": null,
   "tier": "Nicho",
   "urls": {
+   "idealo": "https://www.idealo.es/precios/200802774/kilian-angels-share-eau-de-parfum-50ml.html",
    "sabina": "https://www.sabina.com/es/perfumes-nicho-unisex/24974-kilian-paris-angels-share-eau-de-parfum.html"
   }
  },
  {
   "brand": "Kilian",
-  "buscado": {},
-  "checked": "2026-10-26T00:22:29+01:00",
+  "buscado": {
+   "douglas": "2026-10-26",
+   "idealo": "2026-10-26",
+   "lookfantastic": "2026-10-26"
+  },
+  "checked": "2026-10-26T05:10:30+01:00",
   "conc": "EDP",
-  "history": [],
+  "history": [
+   {
+    "d": "2026-10-26",
+    "p": 177.79,
+    "s": "idealo"
+   }
+  ],
   "id": "kilian-love-don-t-be-shy-edp-50",
   "ml": 50,
   "name": "Love, Don't Be Shy",
-  "prices": {},
+  "prices": {
+   "idealo": {
+    "auto": true,
+    "d": "2026-10-26",
+    "gh": true,
+    "p": 177.79
+   }
+  },
   "target": null,
   "tier": "Nicho",
-  "urls": {}
+  "urls": {
+   "idealo": "https://www.idealo.es/precios/200267693/kilian-love-don-t-be-shy-eau-de-parfum-50ml.html"
+  }
  },
  {
   "brand": "Lancôme",
-  "buscado": {},
-  "checked": "2026-10-26T00:22:37+01:00",
+  "buscado": {
+   "douglas": "2026-10-26",
+   "idealo": "2026-10-26"
+  },
+  "checked": "2026-10-26T05:10:45+01:00",
   "conc": "EDP",
   "history": [
    {
@@ -12231,6 +12288,11 @@
     "d": "2026-10-26",
     "p": 70.84,
     "s": "sabina"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 47.94,
+    "s": "idealo"
    }
   ],
   "id": "lancome-idole-edp-50",
@@ -12242,6 +12304,12 @@
     "d": "2026-10-26",
     "gh": true,
     "p": 79.95
+   },
+   "idealo": {
+    "auto": true,
+    "d": "2026-10-26",
+    "gh": true,
+    "p": 47.94
    },
    "lookfantastic": {
     "auto": true,
@@ -12277,6 +12345,7 @@
   "target": null,
   "urls": {
    "avenida": "https://www.perfumeriasavenida.com/idole-edp-lancome",
+   "idealo": "https://www.idealo.es/precios/6715552/lancome-idole-eau-de-parfum-50ml.html",
    "lookfantastic": "https://www.lookfantastic.es/lancome-idole-eau-de-parfum-50ml/12218754.html",
    "notino": "https://www.notino.es/lancome/idole-eau-de-parfum-para-mujer/p-15966663/",
    "paco": "https://www.pacoperfumerias.com/idole-perfume-lancome",
@@ -12492,8 +12561,12 @@
  },
  {
   "brand": "Lancôme",
-  "buscado": {},
-  "checked": "2026-10-26T00:22:50+01:00",
+  "buscado": {
+   "douglas": "2026-10-26",
+   "idealo": "2026-10-26",
+   "lookfantastic": "2026-10-26"
+  },
+  "checked": "2026-10-26T05:11:27+01:00",
   "conc": "EDP",
   "history": [
    {
@@ -12518,18 +12591,23 @@
    },
    {
     "d": "2026-10-26",
-    "p": 119.95,
-    "s": "avenida"
-   },
-   {
-    "d": "2026-10-26",
     "p": 85.95,
     "s": "laguna"
    },
    {
     "d": "2026-10-26",
+    "p": 119.95,
+    "s": "avenida"
+   },
+   {
+    "d": "2026-10-26",
     "p": 90.96,
     "s": "perfumesclub"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 70.89,
+    "s": "idealo"
    }
   ],
   "id": "lancome-tresor-edp-100",
@@ -12541,6 +12619,12 @@
     "d": "2026-10-26",
     "gh": true,
     "p": 119.95
+   },
+   "idealo": {
+    "auto": true,
+    "d": "2026-10-26",
+    "gh": true,
+    "p": 70.89
    },
    "laguna": {
     "auto": true,
@@ -12578,6 +12662,7 @@
   "tier": "Diseñador",
   "urls": {
    "avenida": "https://www.perfumeriasavenida.com/tresor-edp-lancome",
+   "idealo": "https://www.idealo.es/precios/865530/lancome-tresor-eau-de-parfum-100-ml.html",
    "laguna": "https://www.perfumeriaslaguna.com/lancome-tresor-edp-100-vaporizador",
    "notino": "https://www.notino.es/lancome/tresor-eau-de-parfum-para-mujer/p-60805/",
    "paco": "https://www.pacoperfumerias.com/tresor-de-lancome-59054.html",
@@ -12587,8 +12672,12 @@
  },
  {
   "brand": "Lattafa",
-  "buscado": {},
-  "checked": "2026-10-26T00:23:02+01:00",
+  "buscado": {
+   "douglas": "2026-10-26",
+   "idealo": "2026-10-26",
+   "lookfantastic": "2026-10-26"
+  },
+  "checked": "2026-10-26T05:12:09+01:00",
   "conc": "EDP",
   "deals": [
    {
@@ -12658,11 +12747,6 @@
    },
    {
     "d": "2026-10-26",
-    "p": 21.99,
-    "s": "arabicparfums"
-   },
-   {
-    "d": "2026-10-26",
     "p": 18.3,
     "s": "laguna"
    },
@@ -12673,6 +12757,11 @@
    },
    {
     "d": "2026-10-26",
+    "p": 21.99,
+    "s": "arabicparfums"
+   },
+   {
+    "d": "2026-10-26",
     "p": 24.65,
     "s": "parejo"
    },
@@ -12680,6 +12769,11 @@
     "d": "2026-10-26",
     "p": 23.7,
     "s": "sabina"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 18.39,
+    "s": "idealo"
    }
   ],
   "id": "lattafa-asad-edp-100",
@@ -12691,6 +12785,12 @@
     "d": "2026-10-26",
     "gh": true,
     "p": 21.99
+   },
+   "idealo": {
+    "auto": true,
+    "d": "2026-10-26",
+    "gh": true,
+    "p": 18.39
    },
    "laguna": {
     "auto": true,
@@ -12721,6 +12821,7 @@
   "tier": "Árabe",
   "urls": {
    "arabicparfums": "https://arabicparfums.com/products/asad-lattafa-100ml",
+   "idealo": "https://www.idealo.es/precios/202184099/lattafa-asad-eau-de-parfum-100ml.html",
    "laguna": "https://www.perfumeriaslaguna.com/lattafa-asad-100ml",
    "notino": "https://www.notino.es/lattafa/asad-eau-de-parfum-para-hombre/p-16145677/",
    "parejo": "https://www.joyeriaparejo.com/perfumes/perfumes-arabes/perfumes-arabes-hombre/lattafa-asad-eau-de-parfum-100ml-oriental",
@@ -12892,8 +12993,11 @@
  },
  {
   "brand": "Lattafa",
-  "buscado": {},
-  "checked": "2026-10-26T00:23:13+01:00",
+  "buscado": {
+   "douglas": "2026-10-26",
+   "idealo": "2026-10-26"
+  },
+  "checked": "2026-10-26T05:12:53+01:00",
   "conc": "EDP",
   "deals": [
    {
@@ -12981,6 +13085,11 @@
     "d": "2026-10-26",
     "p": 32.25,
     "s": "sabina"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 24.94,
+    "s": "idealo"
    }
   ],
   "id": "lattafa-khamrah-edp-100",
@@ -12998,6 +13107,12 @@
     "d": "2026-10-11",
     "p": null,
     "stock": false
+   },
+   "idealo": {
+    "auto": true,
+    "d": "2026-10-26",
+    "gh": true,
+    "p": 24.94
    },
    "laguna": {
     "auto": true,
@@ -13030,6 +13145,7 @@
   "urls": {
    "arabicparfums": "https://arabicparfums.com/products/khamrah-lattafa-100ml",
    "beautinow": "https://beautinow.com/products/lattafa-khamrah-eau-de-parfum/",
+   "idealo": "https://www.idealo.es/precios/202071642/lattafa-khamrah-eau-de-parfum-100-ml.html",
    "laguna": "https://www.perfumeriaslaguna.com/lattafa-khamrah-100ml",
    "notino": "https://www.notino.es/lattafa/khamrah-eau-de-parfum-unisex/p-16146533/",
    "parejo": "https://www.joyeriaparejo.com/perfumes/perfumes-arabes/perfumes-arabes-unisex/perfume-lattafa-khamrah-100-ml-unisex",
@@ -13127,7 +13243,7 @@
  {
   "brand": "Lattafa",
   "buscado": {},
-  "checked": "2026-10-26T00:23:24+01:00",
+  "checked": "2026-10-26T05:13:28+01:00",
   "conc": "EDP",
   "deals": [
    {
@@ -13197,13 +13313,13 @@
    },
    {
     "d": "2026-10-26",
-    "p": 22.99,
-    "s": "arabicparfums"
+    "p": 17.89,
+    "s": "laguna"
    },
    {
     "d": "2026-10-26",
-    "p": 17.89,
-    "s": "laguna"
+    "p": 22.99,
+    "s": "arabicparfums"
    },
    {
     "d": "2026-10-26",
@@ -13276,7 +13392,7 @@
  {
   "brand": "Le Labo",
   "buscado": {},
-  "checked": "2026-10-26T00:23:24+01:00",
+  "checked": "2026-10-26T05:13:28+01:00",
   "conc": "EDP",
   "history": [],
   "id": "le-labo-another-13-edp-100",
@@ -13290,7 +13406,7 @@
  {
   "brand": "Le Labo",
   "buscado": {},
-  "checked": "2026-10-26T00:23:24+01:00",
+  "checked": "2026-10-26T05:13:28+01:00",
   "conc": "EDP",
   "history": [],
   "id": "le-labo-santal-33-edp-100",
@@ -13304,7 +13420,7 @@
  {
   "brand": "Maison Francis Kurkdjian",
   "buscado": {},
-  "checked": "2026-10-26T00:23:29+01:00",
+  "checked": "2026-10-26T05:13:32+01:00",
   "conc": "EDT",
   "history": [
    {
@@ -13360,7 +13476,7 @@
  {
   "brand": "Maison Francis Kurkdjian",
   "buscado": {},
-  "checked": "2026-10-26T00:23:30+01:00",
+  "checked": "2026-10-26T05:13:33+01:00",
   "conc": "EDP",
   "history": [
    {
@@ -13436,7 +13552,7 @@
  {
   "brand": "Maison Francis Kurkdjian",
   "buscado": {},
-  "checked": "2026-10-26T00:23:33+01:00",
+  "checked": "2026-10-26T05:13:35+01:00",
   "conc": "EDP",
   "deals": [
    {
@@ -13478,7 +13594,7 @@
  {
   "brand": "Maison Margiela",
   "buscado": {},
-  "checked": "2026-10-26T00:23:37+01:00",
+  "checked": "2026-10-26T05:13:39+01:00",
   "conc": "EDT",
   "deals": [],
   "history": [
@@ -13513,7 +13629,7 @@
     "auto": true,
     "d": "2026-10-26",
     "gh": true,
-    "p": 111.75,
+    "p": 127.39,
     "stock": false
    }
   },
@@ -13618,7 +13734,7 @@
  {
   "brand": "Mancera",
   "buscado": {},
-  "checked": "2026-10-26T00:23:44+01:00",
+  "checked": "2026-10-26T05:13:46+01:00",
   "conc": "EDP",
   "deals": [
    {
@@ -13706,7 +13822,7 @@
  {
   "brand": "Mancera",
   "buscado": {},
-  "checked": "2026-10-26T00:23:48+01:00",
+  "checked": "2026-10-26T05:13:49+01:00",
   "conc": "EDP",
   "deals": [],
   "history": [
@@ -13826,7 +13942,7 @@
  {
   "brand": "Montblanc",
   "buscado": {},
-  "checked": "2026-10-26T00:23:58+01:00",
+  "checked": "2026-10-26T05:13:59+01:00",
   "conc": "EDP",
   "deals": [
    {
@@ -13952,7 +14068,7 @@
  {
   "brand": "Montblanc",
   "buscado": {},
-  "checked": "2026-10-26T00:24:11+01:00",
+  "checked": "2026-10-26T05:14:34+01:00",
   "conc": "EDT",
   "deals": [
    {
@@ -14027,13 +14143,13 @@
    },
    {
     "d": "2026-10-26",
-    "p": 54.95,
-    "s": "avenida"
+    "p": 54.9,
+    "s": "laguna"
    },
    {
     "d": "2026-10-26",
-    "p": 54.9,
-    "s": "laguna"
+    "p": 54.95,
+    "s": "avenida"
    },
    {
     "d": "2026-10-26",
@@ -14209,7 +14325,7 @@
  {
   "brand": "Mugler",
   "buscado": {},
-  "checked": "2026-10-26T00:24:11+01:00",
+  "checked": "2026-10-26T05:14:34+01:00",
   "conc": "EDT",
   "deals": [
    {
@@ -14231,7 +14347,7 @@
  {
   "brand": "Mugler",
   "buscado": {},
-  "checked": "2026-10-26T00:24:13+01:00",
+  "checked": "2026-10-26T05:14:36+01:00",
   "conc": "EDP",
   "deals": [
    {
@@ -14334,7 +14450,7 @@
  {
   "brand": "Narciso Rodriguez",
   "buscado": {},
-  "checked": "2026-10-26T00:24:26+01:00",
+  "checked": "2026-10-26T05:15:10+01:00",
   "conc": "EDP",
   "history": [
    {
@@ -14359,13 +14475,18 @@
    },
    {
     "d": "2026-10-26",
+    "p": 59.95,
+    "s": "laguna"
+   },
+   {
+    "d": "2026-10-26",
     "p": 79.95,
     "s": "avenida"
    },
    {
     "d": "2026-10-26",
-    "p": 59.95,
-    "s": "laguna"
+    "p": 80.5,
+    "s": "notino"
    }
   ],
   "id": "narciso-rodriguez-bleu-noir-edp-100",
@@ -14400,9 +14521,9 @@
    },
    "notino": {
     "auto": true,
-    "d": "2026-10-11",
-    "note": "con código ALL",
-    "p": 73.86
+    "d": "2026-10-26",
+    "gh": true,
+    "p": 80.5
    },
    "paco": {
     "auto": true,
@@ -14426,7 +14547,7 @@
  {
   "brand": "Narciso Rodriguez",
   "buscado": {},
-  "checked": "2026-10-26T00:24:34+01:00",
+  "checked": "2026-10-26T05:15:45+01:00",
   "conc": "EDP",
   "deals": [
    {
@@ -14485,13 +14606,18 @@
    },
    {
     "d": "2026-10-26",
+    "p": 79.95,
+    "s": "laguna"
+   },
+   {
+    "d": "2026-10-26",
     "p": 85.95,
     "s": "avenida"
    },
    {
     "d": "2026-10-26",
-    "p": 79.95,
-    "s": "laguna"
+    "p": 105.0,
+    "s": "notino"
    },
    {
     "d": "2026-10-26",
@@ -14522,9 +14648,9 @@
    },
    "notino": {
     "auto": true,
-    "d": "2026-10-11",
-    "note": "con código ALL",
-    "p": 91.8
+    "d": "2026-10-26",
+    "gh": true,
+    "p": 105.0
    },
    "paco": {
     "auto": true,
@@ -14682,12 +14808,17 @@
  {
   "brand": "Parfums de Marly",
   "buscado": {},
-  "checked": "2026-10-26T00:24:34+01:00",
+  "checked": "2026-10-26T05:15:47+01:00",
   "conc": "EDP",
   "history": [
    {
     "d": "2026-10-11",
     "p": 285,
+    "s": "notino"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 285.0,
     "s": "notino"
    }
   ],
@@ -14697,8 +14828,9 @@
   "prices": {
    "notino": {
     "auto": true,
-    "d": "2026-10-11",
-    "p": 285
+    "d": "2026-10-26",
+    "gh": true,
+    "p": 285.0
    }
   },
   "target": null,
@@ -14761,7 +14893,7 @@
  {
   "brand": "Parfums de Marly",
   "buscado": {},
-  "checked": "2026-10-26T00:24:38+01:00",
+  "checked": "2026-10-26T05:15:52+01:00",
   "conc": "EDP",
   "history": [
    {
@@ -14792,6 +14924,11 @@
    {
     "d": "2026-10-26",
     "p": 290.0,
+    "s": "notino"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 290.0,
     "s": "sabina"
    }
   ],
@@ -14807,8 +14944,9 @@
    },
    "notino": {
     "auto": true,
-    "d": "2026-10-11",
-    "p": 290
+    "d": "2026-10-26",
+    "gh": true,
+    "p": 290.0
    },
    "sabina": {
     "auto": true,
@@ -14832,7 +14970,7 @@
    "idealo": "2026-10-26",
    "lookfantastic": "2026-10-26"
   },
-  "checked": "2026-10-26T00:51:38+01:00",
+  "checked": "2026-10-26T05:15:59+01:00",
   "conc": "EDP",
   "history": [
    {
@@ -14947,7 +15085,7 @@
    "idealo": "2026-10-26",
    "lookfantastic": "2026-10-26"
   },
-  "checked": "2026-10-26T00:51:52+01:00",
+  "checked": "2026-10-26T05:16:07+01:00",
   "conc": "EDT",
   "deals": [
    {
@@ -14975,13 +15113,18 @@
    },
    {
     "d": "2026-10-26",
-    "p": 86.5,
-    "s": "sabina"
+    "p": 71.09,
+    "s": "idealo"
    },
    {
     "d": "2026-10-26",
-    "p": 71.09,
-    "s": "idealo"
+    "p": 102.0,
+    "s": "notino"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 86.5,
+    "s": "sabina"
    }
   ],
   "id": "prada-l-homme-edt-100",
@@ -14996,8 +15139,9 @@
    },
    "notino": {
     "auto": true,
-    "d": "2026-10-12",
-    "p": 101.1
+    "d": "2026-10-26",
+    "gh": true,
+    "p": 102.0
    },
    "paco": {
     "auto": true,
@@ -15321,7 +15465,7 @@
    "douglas": "2026-10-26",
    "idealo": "2026-10-26"
   },
-  "checked": "2026-10-26T00:52:09+01:00",
+  "checked": "2026-10-26T05:16:46+01:00",
   "conc": "EDP",
   "deals": [
    {
@@ -15379,23 +15523,13 @@
    },
    {
     "d": "2026-10-26",
-    "p": 119.95,
-    "s": "avenida"
-   },
-   {
-    "d": "2026-10-26",
     "p": 99.95,
     "s": "laguna"
    },
    {
     "d": "2026-10-26",
-    "p": 98.93,
-    "s": "paco"
-   },
-   {
-    "d": "2026-10-26",
-    "p": 97.8,
-    "s": "sabina"
+    "p": 119.95,
+    "s": "avenida"
    },
    {
     "d": "2026-10-26",
@@ -15406,6 +15540,16 @@
     "d": "2026-10-26",
     "p": 86.8,
     "s": "idealo"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 98.93,
+    "s": "paco"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 97.8,
+    "s": "sabina"
    }
   ],
   "id": "prada-paradoxe-edp-90",
@@ -15478,7 +15622,7 @@
    "douglas": "2026-10-26",
    "idealo": "2026-10-26"
   },
-  "checked": "2026-10-26T00:52:24+01:00",
+  "checked": "2026-10-26T05:17:21+01:00",
   "conc": "EDT",
   "deals": [
    {
@@ -15522,12 +15666,17 @@
    {
     "d": "2026-10-26",
     "p": 72.95,
-    "s": "avenida"
+    "s": "laguna"
    },
    {
     "d": "2026-10-26",
     "p": 72.95,
-    "s": "laguna"
+    "s": "avenida"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 65.56,
+    "s": "idealo"
    },
    {
     "d": "2026-10-26",
@@ -15538,11 +15687,6 @@
     "d": "2026-10-26",
     "p": 89.25,
     "s": "parejo"
-   },
-   {
-    "d": "2026-10-26",
-    "p": 65.56,
-    "s": "idealo"
    }
   ],
   "id": "rabanne-1-million-edt-100",
@@ -15608,7 +15752,7 @@
    "douglas": "2026-10-26",
    "idealo": "2026-10-26"
   },
-  "checked": "2026-10-26T00:52:39+01:00",
+  "checked": "2026-10-26T05:17:55+01:00",
   "conc": "Parfum",
   "deals": [
    {
@@ -15667,12 +15811,17 @@
    {
     "d": "2026-10-26",
     "p": 87.95,
-    "s": "avenida"
+    "s": "laguna"
    },
    {
     "d": "2026-10-26",
     "p": 87.95,
-    "s": "laguna"
+    "s": "avenida"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 64.31,
+    "s": "idealo"
    },
    {
     "d": "2026-10-26",
@@ -15681,13 +15830,8 @@
    },
    {
     "d": "2026-10-26",
-    "p": 83.55,
+    "p": 87.95,
     "s": "sabina"
-   },
-   {
-    "d": "2026-10-26",
-    "p": 64.31,
-    "s": "idealo"
    }
   ],
   "id": "rabanne-1-million-elixir-parfum-100",
@@ -15734,7 +15878,7 @@
     "auto": true,
     "d": "2026-10-26",
     "gh": true,
-    "p": 83.55
+    "p": 87.95
    }
   },
   "target": null,
@@ -15755,7 +15899,7 @@
    "douglas": "2026-10-26",
    "idealo": "2026-10-26"
   },
-  "checked": "2026-10-26T00:52:55+01:00",
+  "checked": "2026-10-26T05:18:32+01:00",
   "conc": "EDP",
   "deals": [
    {
@@ -15814,13 +15958,18 @@
    },
    {
     "d": "2026-10-26",
+    "p": 79.95,
+    "s": "laguna"
+   },
+   {
+    "d": "2026-10-26",
     "p": 88.95,
     "s": "avenida"
    },
    {
     "d": "2026-10-26",
-    "p": 79.95,
-    "s": "laguna"
+    "p": 69.94,
+    "s": "idealo"
    },
    {
     "d": "2026-10-26",
@@ -15831,11 +15980,6 @@
     "d": "2026-10-26",
     "p": 113.9,
     "s": "parejo"
-   },
-   {
-    "d": "2026-10-26",
-    "p": 69.94,
-    "s": "idealo"
    }
   ],
   "id": "rabanne-fame-edp-80",
@@ -15902,7 +16046,7 @@
    "douglas": "2026-10-26",
    "idealo": "2026-10-26"
   },
-  "checked": "2026-10-26T00:53:14+01:00",
+  "checked": "2026-10-26T05:19:11+01:00",
   "conc": "EDT",
   "deals": [
    {
@@ -15972,12 +16116,22 @@
    {
     "d": "2026-10-26",
     "p": 72.95,
+    "s": "laguna"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 72.95,
     "s": "avenida"
    },
    {
     "d": "2026-10-26",
     "p": 72.95,
-    "s": "laguna"
+    "s": "douglas"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 65.2,
+    "s": "idealo"
    },
    {
     "d": "2026-10-26",
@@ -15991,18 +16145,8 @@
    },
    {
     "d": "2026-10-26",
-    "p": 65.5,
+    "p": 68.95,
     "s": "sabina"
-   },
-   {
-    "d": "2026-10-26",
-    "p": 72.95,
-    "s": "douglas"
-   },
-   {
-    "d": "2026-10-26",
-    "p": 65.5,
-    "s": "idealo"
    }
   ],
   "id": "rabanne-invictus-edt-100",
@@ -16025,7 +16169,7 @@
     "auto": true,
     "d": "2026-10-26",
     "gh": true,
-    "p": 65.5
+    "p": 65.2
    },
    "laguna": {
     "auto": true,
@@ -16054,7 +16198,7 @@
     "auto": true,
     "d": "2026-10-26",
     "gh": true,
-    "p": 65.5
+    "p": 68.95
    }
   },
   "target": null,
@@ -16516,7 +16660,7 @@
    "douglas": "2026-10-26",
    "idealo": "2026-10-26"
   },
-  "checked": "2026-10-26T00:53:31+01:00",
+  "checked": "2026-10-26T05:19:50+01:00",
   "conc": "EDT",
   "deals": [
    {
@@ -16595,13 +16739,18 @@
    },
    {
     "d": "2026-10-26",
+    "p": 74.95,
+    "s": "laguna"
+   },
+   {
+    "d": "2026-10-26",
     "p": 64.95,
     "s": "avenida"
    },
    {
     "d": "2026-10-26",
-    "p": 74.95,
-    "s": "laguna"
+    "p": 55.31,
+    "s": "idealo"
    },
    {
     "d": "2026-10-26",
@@ -16617,11 +16766,6 @@
     "d": "2026-10-26",
     "p": 66.45,
     "s": "sabina"
-   },
-   {
-    "d": "2026-10-26",
-    "p": 55.31,
-    "s": "idealo"
    }
   ],
   "id": "rabanne-phantom-edt-100",
@@ -16694,7 +16838,7 @@
    "douglas": "2026-10-26",
    "idealo": "2026-10-26"
   },
-  "checked": "2026-10-26T00:53:49+01:00",
+  "checked": "2026-10-26T05:20:28+01:00",
   "conc": "EDP",
   "deals": [
    {
@@ -16753,6 +16897,11 @@
    },
    {
     "d": "2026-10-26",
+    "p": 51.3,
+    "s": "idealo"
+   },
+   {
+    "d": "2026-10-26",
     "p": 73.95,
     "s": "parejo"
    },
@@ -16760,11 +16909,6 @@
     "d": "2026-10-26",
     "p": 75.95,
     "s": "sabina"
-   },
-   {
-    "d": "2026-10-26",
-    "p": 51.3,
-    "s": "idealo"
    }
   ],
   "id": "ralph-lauren-polo-blue-edp-125",
