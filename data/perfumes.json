@@ -338,7 +338,7 @@
    "douglas": "2026-10-26",
    "idealo": "2026-10-26"
   },
-  "checked": "2026-10-26T14:56:09+01:00",
+  "checked": "2026-10-26T20:44:08+01:00",
   "conc": "EDP",
   "deals": [],
   "history": [
@@ -1335,7 +1335,7 @@
    "idealo": "2026-10-25",
    "makeup": "2026-10-25"
   },
-  "checked": "2026-10-26T12:13:46+01:00",
+  "checked": "2026-10-26T20:38:29+01:00",
   "conc": "EDP",
   "history": [
    {
@@ -1390,7 +1390,7 @@
    },
    {
     "d": "2026-10-26",
-    "p": 90.95,
+    "p": 79.95,
     "s": "paco"
    },
    {
@@ -1431,7 +1431,7 @@
     "auto": true,
     "d": "2026-10-26",
     "gh": true,
-    "p": 90.95
+    "p": 79.95
    },
    "sabina": {
     "auto": true,
@@ -1573,7 +1573,7 @@
    "idealo": "2026-10-25",
    "makeup": "2026-10-25"
   },
-  "checked": "2026-10-26T12:14:01+01:00",
+  "checked": "2026-10-26T20:38:45+01:00",
   "conc": "EDP",
   "deals": [
    {
@@ -1763,7 +1763,7 @@
    "idealo": "2026-10-26",
    "lookfantastic": "2026-10-26"
   },
-  "checked": "2026-10-26T12:14:15+01:00",
+  "checked": "2026-10-26T20:38:52+01:00",
   "conc": "EDT",
   "deals": [
    {
@@ -1806,6 +1806,11 @@
    },
    {
     "d": "2026-10-26",
+    "p": 39.3,
+    "s": "idealo"
+   },
+   {
+    "d": "2026-10-26",
     "p": 49.95,
     "s": "laguna"
    },
@@ -1813,11 +1818,6 @@
     "d": "2026-10-26",
     "p": 47.45,
     "s": "sabina"
-   },
-   {
-    "d": "2026-10-26",
-    "p": 39.3,
-    "s": "idealo"
    }
   ],
   "id": "azzaro-chrome-edt-100",
@@ -1868,9 +1868,11 @@
  {
   "brand": "Azzaro",
   "buscado": {
-   "douglas": "2026-10-26"
+   "douglas": "2026-10-26",
+   "idealo": "2026-10-26",
+   "lookfantastic": "2026-10-26"
   },
-  "checked": "2026-10-26T12:14:24+01:00",
+  "checked": "2026-10-26T20:39:04+01:00",
   "conc": "EDP",
   "deals": [
    {
@@ -1933,6 +1935,11 @@
     "d": "2026-10-26",
     "p": 69.89,
     "s": "sabina"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 60.22,
+    "s": "idealo"
    }
   ],
   "id": "azzaro-the-most-wanted-edp-100",
@@ -1944,6 +1951,12 @@
     "d": "2026-10-26",
     "gh": true,
     "p": 84.95
+   },
+   "idealo": {
+    "auto": true,
+    "d": "2026-10-26",
+    "gh": true,
+    "p": 60.22
    },
    "notino": {
     "auto": true,
@@ -1961,6 +1974,7 @@
   "target": null,
   "urls": {
    "avenida": "https://www.perfumeriasavenida.com/the-most-wanted-edp-azzaro",
+   "idealo": "https://www.idealo.es/precios/201876646/azzaro-the-most-wanted-le-parfum-100ml.html",
    "notino": "https://www.notino.es/azzaro/the-most-wanted-eau-de-parfum-para-hombre/p-16073737/",
    "paco": "https://www.pacoperfumerias.com/azzaro-the-most-wanted-intense-197613.html",
    "sabina": "https://www.sabina.com/es/mens-perfumes/11526-azzaro-the-most-wanted-intense-eau-de-parfum.html"
@@ -2089,8 +2103,12 @@
  },
  {
   "brand": "Azzaro",
-  "buscado": {},
-  "checked": "2026-10-26T12:14:37+01:00",
+  "buscado": {
+   "douglas": "2026-10-26",
+   "idealo": "2026-10-26",
+   "lookfantastic": "2026-10-26"
+  },
+  "checked": "2026-10-26T20:39:28+01:00",
   "conc": "EDT",
   "deals": [
    {
@@ -2180,6 +2198,11 @@
     "d": "2026-10-26",
     "p": 56.95,
     "s": "sabina"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 40.6,
+    "s": "idealo"
    }
   ],
   "id": "azzaro-wanted-edt-100",
@@ -2191,6 +2214,12 @@
     "d": "2026-10-26",
     "gh": true,
     "p": 62.95
+   },
+   "idealo": {
+    "auto": true,
+    "d": "2026-10-26",
+    "gh": true,
+    "p": 40.6
    },
    "laguna": {
     "auto": true,
@@ -2233,6 +2262,7 @@
   "target": null,
   "urls": {
    "avenida": "https://www.perfumeriasavenida.com/wanted-edt-azzaro",
+   "idealo": "https://www.idealo.es/precios/5077019/azzaro-wanted-eau-de-toilette-100-ml.html",
    "laguna": "https://www.perfumeriaslaguna.com/azzaro-wanted-100",
    "notino": "https://www.notino.es/azzaro/wanted-eau-de-toilette-para-hombre/p-599564/",
    "paco": "https://www.pacoperfumerias.com/azzaro-wanted-13052.html",
@@ -2921,7 +2951,7 @@
    "idealo": "2026-10-26",
    "lookfantastic": "2026-10-26"
   },
-  "checked": "2026-10-26T12:14:53+01:00",
+  "checked": "2026-10-26T20:39:44+01:00",
   "conc": "EDT",
   "deals": [
    {
@@ -3118,7 +3148,7 @@
    "idealo": "2026-10-26",
    "lookfantastic": "2026-10-26"
   },
-  "checked": "2026-10-26T12:15:08+01:00",
+  "checked": "2026-10-26T20:39:59+01:00",
   "conc": "EDT",
   "deals": [
    {
@@ -3731,7 +3761,7 @@
    "douglas": "2026-10-26",
    "idealo": "2026-10-26"
   },
-  "checked": "2026-10-26T12:15:17+01:00",
+  "checked": "2026-10-26T20:40:08+01:00",
   "conc": "EDT",
   "deals": [
    {
@@ -3864,7 +3894,7 @@
    "idealo": "2026-10-26",
    "lookfantastic": "2026-10-26"
   },
-  "checked": "2026-10-26T12:15:29+01:00",
+  "checked": "2026-10-26T20:40:21+01:00",
   "conc": "EDT",
   "deals": [
    {
@@ -4010,7 +4040,7 @@
    "idealo": "2026-10-26",
    "lookfantastic": "2026-10-26"
   },
-  "checked": "2026-10-26T12:15:39+01:00",
+  "checked": "2026-10-26T20:40:31+01:00",
   "conc": "EDT",
   "deals": [],
   "history": [
@@ -4139,7 +4169,7 @@
    "douglas": "2026-10-26",
    "idealo": "2026-10-26"
   },
-  "checked": "2026-10-26T12:15:53+01:00",
+  "checked": "2026-10-26T20:40:47+01:00",
   "conc": "EDP",
   "deals": [],
   "history": [
@@ -4626,9 +4656,11 @@
  {
   "brand": "Chanel",
   "buscado": {
-   "douglas": "2026-10-26"
+   "douglas": "2026-10-26",
+   "idealo": "2026-10-26",
+   "lookfantastic": "2026-10-26"
   },
-  "checked": "2026-10-26T12:16:06+01:00",
+  "checked": "2026-10-26T20:41:07+01:00",
   "conc": "EDT",
   "history": [
    {
@@ -4665,12 +4697,23 @@
     "d": "2026-10-26",
     "p": 102.35,
     "s": "sabina"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 99.94,
+    "s": "idealo"
    }
   ],
   "id": "chanel-allure-homme-sport-edt-100",
   "ml": 100,
   "name": "Allure Homme Sport",
   "prices": {
+   "idealo": {
+    "auto": true,
+    "d": "2026-10-26",
+    "gh": true,
+    "p": 99.94
+   },
    "paco": {
     "auto": true,
     "d": "2026-10-26",
@@ -4686,14 +4729,19 @@
   },
   "target": null,
   "urls": {
+   "idealo": "https://www.idealo.es/precios/604874/chanel-allure-homme-sport-eau-de-toilette-100-ml.html",
    "paco": "https://www.pacoperfumerias.com/chanel-allure-homme-sport-2-57763.html",
    "sabina": "https://www.sabina.com/es/allure-homme-sport/21814-allure-homme-sport-eau-de-toilette-spray.html"
   }
  },
  {
   "brand": "Chanel",
-  "buscado": {},
-  "checked": "2026-10-26T12:16:10+01:00",
+  "buscado": {
+   "douglas": "2026-10-26",
+   "idealo": "2026-10-26",
+   "lookfantastic": "2026-10-26"
+  },
+  "checked": "2026-10-26T20:41:22+01:00",
   "conc": "EDP",
   "history": [
    {
@@ -4715,12 +4763,23 @@
     "d": "2026-10-26",
     "p": 118.95,
     "s": "sabina"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 116.94,
+    "s": "idealo"
    }
   ],
   "id": "chanel-bleu-de-chanel-edp-100",
   "ml": 100,
   "name": "Bleu de Chanel",
   "prices": {
+   "idealo": {
+    "auto": true,
+    "d": "2026-10-26",
+    "gh": true,
+    "p": 116.94
+   },
    "paco": {
     "auto": true,
     "d": "2026-10-26",
@@ -4737,6 +4796,7 @@
   },
   "target": null,
   "urls": {
+   "idealo": "https://www.idealo.es/precios/4449618/chanel-bleu-de-chanel-eau-de-parfum-100-ml.html",
    "paco": "https://www.pacoperfumerias.com/chanel-bleu-de-chanel-eau-de-parfum-22091.html",
    "sabina": "https://www.sabina.com/es/bleu-de-chanel/21827-bleu-de-chanel-eau-de-parfum-spray.html"
   }
@@ -4970,7 +5030,7 @@
    "idealo": "2026-10-26",
    "lookfantastic": "2026-10-26"
   },
-  "checked": "2026-10-26T12:16:01+01:00",
+  "checked": "2026-10-26T20:40:56+01:00",
   "conc": "EDP",
   "deals": [
    {
@@ -5065,7 +5125,7 @@
    "idealo": "2026-10-26",
    "lookfantastic": "2026-10-26"
   },
-  "checked": "2026-10-26T12:16:17+01:00",
+  "checked": "2026-10-26T20:41:29+01:00",
   "conc": "EDP",
   "history": [
    {
@@ -5956,7 +6016,7 @@
    "idealo": "2026-10-26",
    "lookfantastic": "2026-10-26"
   },
-  "checked": "2026-10-26T12:16:24+01:00",
+  "checked": "2026-10-26T20:41:36+01:00",
   "conc": "EDP",
   "deals": [
    {
@@ -6200,7 +6260,7 @@
    "idealo": "2026-10-26",
    "lookfantastic": "2026-10-26"
   },
-  "checked": "2026-10-26T12:16:29+01:00",
+  "checked": "2026-10-26T20:41:40+01:00",
   "conc": "EDP",
   "history": [
    {
@@ -6354,7 +6414,7 @@
    "idealo": "2026-10-26",
    "lookfantastic": "2026-10-26"
   },
-  "checked": "2026-10-26T12:16:37+01:00",
+  "checked": "2026-10-26T20:41:51+01:00",
   "conc": "EDP",
   "deals": [
    {
@@ -6458,7 +6518,7 @@
    "idealo": "2026-10-26",
    "lookfantastic": "2026-10-26"
   },
-  "checked": "2026-10-26T12:16:45+01:00",
+  "checked": "2026-10-26T20:42:00+01:00",
   "conc": "EDT",
   "deals": [
    {
@@ -6576,7 +6636,7 @@
    "idealo": "2026-10-26",
    "lookfantastic": "2026-10-26"
   },
-  "checked": "2026-10-26T12:16:52+01:00",
+  "checked": "2026-10-26T20:42:06+01:00",
   "conc": "Elixir",
   "deals": [
    {
@@ -6617,6 +6677,11 @@
     "d": "2026-10-26",
     "p": 137.95,
     "s": "idealo"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 137.95,
+    "s": "paco"
    }
   ],
   "id": "dior-sauvage-elixir-elixir-60",
@@ -6633,8 +6698,7 @@
     "auto": true,
     "d": "2026-10-26",
     "gh": true,
-    "p": 137.95,
-    "stock": false
+    "p": 137.95
    },
    "sabina": {
     "auto": true,
@@ -7151,7 +7215,7 @@
    "douglas": "2026-10-26",
    "idealo": "2026-10-26"
   },
-  "checked": "2026-10-26T12:17:09+01:00",
+  "checked": "2026-10-26T20:42:20+01:00",
   "conc": "EDT",
   "deals": [
    {
@@ -7326,8 +7390,12 @@
  },
  {
   "brand": "Dolce & Gabbana",
-  "buscado": {},
-  "checked": "2026-10-26T12:17:14+01:00",
+  "buscado": {
+   "douglas": "2026-10-26",
+   "idealo": "2026-10-26",
+   "lookfantastic": "2026-10-26"
+  },
+  "checked": "2026-10-26T20:42:34+01:00",
   "conc": "EDT",
   "deals": [
    {
@@ -7358,12 +7426,23 @@
     "d": "2026-10-26",
     "p": 78.2,
     "s": "parejo"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 45.53,
+    "s": "idealo"
    }
   ],
   "id": "dolce-gabbana-light-blue-pour-homme-edt-125",
   "ml": 125,
   "name": "Light Blue pour Homme",
   "prices": {
+   "idealo": {
+    "auto": true,
+    "d": "2026-10-26",
+    "gh": true,
+    "p": 45.53
+   },
    "paco": {
     "auto": true,
     "d": "2026-10-26",
@@ -7380,6 +7459,8 @@
   },
   "target": null,
   "urls": {
+   "idealo": "https://www.idealo.es/precios/770193/dolce-gabbana-light-blue-pour-homme-eau-de-toilette-125-ml.html",
+   "lookfantastic": "https://www.lookfantastic.es/p/dolce-gabbana-light-blue-pour-homme-eau-de-toilette-200ml/16507666/",
    "paco": "https://www.pacoperfumerias.com/dolce-gabbana-light-blue-hombre-edt-209920.html",
    "parejo": "https://www.joyeriaparejo.com/perfumes/light-blue-pour-homme-125-ml-eau-de-toilette-dolce-y-gabbana"
   }
@@ -7522,8 +7603,11 @@
  },
  {
   "brand": "Dolce & Gabbana",
-  "buscado": {},
-  "checked": "2026-10-26T12:17:23+01:00",
+  "buscado": {
+   "douglas": "2026-10-26",
+   "idealo": "2026-10-26"
+  },
+  "checked": "2026-10-26T20:42:49+01:00",
   "conc": "EDP",
   "deals": [
    {
@@ -7574,18 +7658,23 @@
    },
    {
     "d": "2026-10-26",
-    "p": 54.98,
-    "s": "brasty"
-   },
-   {
-    "d": "2026-10-26",
     "p": 87.9,
     "s": "notino"
    },
    {
     "d": "2026-10-26",
+    "p": 54.98,
+    "s": "brasty"
+   },
+   {
+    "d": "2026-10-26",
     "p": 66.94,
     "s": "paco"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 54.98,
+    "s": "idealo"
    }
   ],
   "id": "dolce-gabbana-the-one-for-men-edp-100",
@@ -7593,6 +7682,12 @@
   "name": "The One for Men",
   "prices": {
    "brasty": {
+    "auto": true,
+    "d": "2026-10-26",
+    "gh": true,
+    "p": 54.98
+   },
+   "idealo": {
     "auto": true,
     "d": "2026-10-26",
     "gh": true,
@@ -7628,6 +7723,7 @@
   "target": null,
   "urls": {
    "brasty": "https://www.brasty.es/dolce-gabbana-the-one-for-men-eau-de-parfum-para-hombre-100-ml",
+   "idealo": "https://www.idealo.es/precios/4856957/dolce-gabbana-the-one-for-men-eau-de-parfum-100-ml.html",
    "lookfantastic": "https://www.lookfantastic.es/p/dolce-gabbana-the-one-men-eau-de-parfum-100ml/11883190/",
    "notino": "https://www.notino.es/dolce-gabbana/the-one-for-men-eau-de-parfum-eau-de-parfum-para-hombre/p-16346528/",
    "paco": "https://pacoperfumerias.com/dolce-gabbana-the-one-for-men-eau-de-parfum",
@@ -7641,7 +7737,7 @@
    "idealo": "2026-10-26",
    "lookfantastic": "2026-10-26"
   },
-  "checked": "2026-10-26T14:54:21+01:00",
+  "checked": "2026-10-26T20:43:02+01:00",
   "conc": "EDP",
   "history": [
    {
@@ -7711,6 +7807,11 @@
    },
    {
     "d": "2026-10-26",
+    "p": 59.92,
+    "s": "idealo"
+   },
+   {
+    "d": "2026-10-26",
     "p": 69.95,
     "s": "laguna"
    },
@@ -7718,11 +7819,6 @@
     "d": "2026-10-26",
     "p": 71.2,
     "s": "sabina"
-   },
-   {
-    "d": "2026-10-26",
-    "p": 59.92,
-    "s": "idealo"
    }
   ],
   "id": "givenchy-gentleman-edp-100",
@@ -8017,7 +8113,7 @@
    "idealo": "2026-10-26",
    "lookfantastic": "2026-10-26"
   },
-  "checked": "2026-10-26T14:54:41+01:00",
+  "checked": "2026-10-26T20:43:17+01:00",
   "conc": "EDP",
   "deals": [],
   "history": [
@@ -8068,16 +8164,6 @@
    },
    {
     "d": "2026-10-26",
-    "p": 67.95,
-    "s": "laguna"
-   },
-   {
-    "d": "2026-10-26",
-    "p": 75.66,
-    "s": "sabina"
-   },
-   {
-    "d": "2026-10-26",
     "p": 66.6,
     "s": "douglas"
    },
@@ -8085,6 +8171,16 @@
     "d": "2026-10-26",
     "p": 58.88,
     "s": "idealo"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 67.95,
+    "s": "laguna"
+   },
+   {
+    "d": "2026-10-26",
+    "p": 75.66,
+    "s": "sabina"
    }
   ],
   "id": "givenchy-l-interdit-edp-80",
@@ -8777,7 +8873,7 @@
    "idealo": "2026-10-25",
    "lookfantastic": "2026-10-25"
   },
-  "checked": "2026-10-26T14:56:38+01:00",
+  "checked": "2026-10-26T20:44:19+01:00",
   "conc": "EDT",
   "deals": [],
   "history": [
@@ -9107,7 +9203,7 @@
    "douglas": "2026-10-26",
    "idealo": "2026-10-26"
   },
-  "checked": "2026-10-26T14:54:56+01:00",
+  "checked": "2026-10-26T20:43:28+01:00",
   "conc": "Parfum",
   "deals": [
    {
@@ -9400,7 +9496,7 @@
    "douglas": "2026-10-26",
    "idealo": "2026-10-26"
   },
-  "checked": "2026-10-26T14:55:13+01:00",
+  "checked": "2026-10-26T20:43:42+01:00",
   "conc": "EDP",
   "deals": [
    {
@@ -9484,6 +9580,11 @@
    },
    {
     "d": "2026-10-26",
+    "p": 51.75,
+    "s": "idealo"
+   },
+   {
+    "d": "2026-10-26",
     "p": 54.95,
     "s": "laguna"
    },
@@ -9491,11 +9592,6 @@
     "d": "2026-10-26",
     "p": 61.7,
     "s": "sabina"
-   },
-   {
-    "d": "2026-10-26",
-    "p": 51.77,
-    "s": "idealo"
    }
   ],
   "id": "hugo-boss-boss-bottled-edp-100",
@@ -9512,7 +9608,7 @@
     "auto": true,
     "d": "2026-10-26",
     "gh": true,
-    "p": 51.77
+    "p": 51.75
    },
    "laguna": {
     "auto": true,
@@ -9884,7 +9980,7 @@
    "douglas": "2026-10-26",
    "idealo": "2026-10-26"
   },
-  "checked": "2026-10-26T14:55:27+01:00",
+  "checked": "2026-10-26T20:43:51+01:00",
   "conc": "Elixir",
   "deals": [
    {
@@ -10039,7 +10135,7 @@
    "douglas": "2026-10-26",
    "idealo": "2026-10-26"
   },
-  "checked": "2026-10-26T14:55:37+01:00",
+  "checked": "2026-10-26T20:43:56+01:00",
   "conc": "EDP",
   "deals": [
    {
@@ -10130,7 +10226,7 @@
    "douglas": "2026-10-26",
    "idealo": "2026-10-26"
   },
-  "checked": "2026-10-26T14:55:59+01:00",
+  "checked": "2026-10-26T20:44:00+01:00",
   "conc": "EDT",
   "deals": [
    {
@@ -20945,7 +21041,7 @@
    "idealo": "2026-10-25",
    "makeup": "2026-10-25"
   },
-  "checked": "2026-10-26T12:13:16+01:00",
+  "checked": "2026-10-26T20:37:57+01:00",
   "conc": "EDP",
   "deals": [
    {
@@ -21079,7 +21175,7 @@
    "lookfantastic": "2026-10-25",
    "makeup": "2026-10-25"
   },
-  "checked": "2026-10-26T12:13:25+01:00",
+  "checked": "2026-10-26T20:38:08+01:00",
   "conc": "EDP",
   "deals": [
    {
@@ -21178,7 +21274,7 @@
    "idealo": "2026-10-25",
    "makeup": "2026-10-25"
   },
-  "checked": "2026-10-26T12:13:35+01:00",
+  "checked": "2026-10-26T20:38:19+01:00",
   "conc": "EDT",
   "history": [
    {
