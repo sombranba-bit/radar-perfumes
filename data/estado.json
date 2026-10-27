@@ -1,101 +1,130 @@
 {
- "at": "2026-10-27T14:28:22+01:00",
+ "at": "2026-10-27T15:23:06+01:00",
  "revisados": 35,
  "tiendas": {
-  "idealo": {
-   "ok": 33,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 1,
-   "jsonld-url": 30,
-   "ejemplos": [
-    {
-     "perfume": "creed-silver-mountain-water-edp-100",
-     "precio": 29.9,
-     "referencia": 320.0,
-     "metodo": "texto"
-    }
-   ],
-   "jsonld": 3
-  },
-  "paco": {
-   "ok": 18,
+  "avenida": {
+   "ok": 9,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "jsonld": 18
+   "variantes": 9
   },
-  "sabina": {
-   "ok": 18,
+  "idealo": {
+   "ok": 32,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "jsonld-url": 28,
+   "jsonld": 4
+  },
+  "laguna": {
+   "ok": 12,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "jsonld": 7,
+   "jsonld-url": 5
+  },
+  "lookfantastic": {
+   "ok": 1,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 16,
+   "ejemplos": [
+    {
+     "perfume": "dolce-gabbana-devotion-edp-100",
+     "precio": 3.99,
+     "referencia": 83.935,
+     "metodo": "texto"
+    },
+    {
+     "perfume": "dolce-gabbana-the-one-edp-75",
+     "precio": 45.43,
+     "referencia": 82.98,
+     "metodo": "texto"
+    },
+    {
+     "perfume": "gucci-bloom-edp-100",
+     "precio": 3.99,
+     "referencia": 74.45,
+     "metodo": "texto"
+    }
+   ],
+   "jsonld": 1
+  },
+  "notino": {
+   "ok": 0,
+   "bloqueada": 28,
+   "sin_precio": 0,
+   "dudoso": 0
+  },
+  "paco": {
+   "ok": 23,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 1,
-   "jsonld": 16,
-   "precio-100ml": 1,
-   "texto": 1,
+   "jsonld": 21,
+   "precio-100ml": 2,
    "ejemplos": [
     {
-     "perfume": "diptyque-tam-dao-edt-100",
-     "precio": 224.0,
-     "referencia": 155.0,
+     "perfume": "lancome-la-nuit-tresor-edp-100",
+     "precio": 179.0,
+     "referencia": 84.95,
      "metodo": "texto"
     }
    ]
   },
-  "lookfantastic": {
-   "ok": 2,
+  "parejo": {
+   "ok": 7,
    "bloqueada": 0,
-   "sin_precio": 2,
-   "dudoso": 7,
+   "sin_precio": 0,
+   "dudoso": 1,
+   "jsonld": 7,
    "ejemplos": [
     {
-     "perfume": "burberry-her-edp-100",
-     "precio": 3.99,
-     "referencia": 74.795,
-     "metodo": "texto"
-    },
-    {
-     "perfume": "burberry-hero-edt-100",
-     "precio": 94.01,
-     "referencia": 57.67,
+     "perfume": "hugo-boss-boss-bottled-edt-200",
+     "precio": 101.15,
+     "referencia": 62.5,
      "metodo": "jsonld"
-    },
-    {
-     "perfume": "davidoff-cool-water-edt-125",
-     "precio": 3.99,
-     "referencia": 25.2,
-     "metodo": "texto"
     }
-   ],
-   "jsonld": 2
+   ]
   },
-  "notino": {
-   "ok": 4,
-   "bloqueada": 16,
+  "perfumesclub": {
+   "ok": 2,
+   "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "jsonld": 4
+   "jsonld": 1,
+   "precio-100ml": 1
   },
-  "parejo": {
-   "ok": 4,
+  "sabina": {
+   "ok": 12,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 2,
-   "jsonld": 4,
+   "jsonld": 11,
+   "precio-100ml": 1,
    "ejemplos": [
     {
-     "perfume": "bvlgari-man-in-black-edp-100",
-     "precio": 126.65,
-     "referencia": 77.25,
-     "metodo": "jsonld"
+     "perfume": "hugo-boss-boss-orange-man-edt-100",
+     "precio": 88.27,
+     "referencia": 29.95,
+     "metodo": "texto"
     },
     {
-     "perfume": "dior-sauvage-parfum-parfum-100",
-     "precio": 176.8,
-     "referencia": 103.72,
+     "perfume": "nishane-hacivat-parfum-50",
+     "precio": 162.92,
+     "referencia": 102.99,
      "metodo": "jsonld"
     }
    ]
+  },
+  "douglas": {
+   "ok": 2,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "precio-100ml": 2
   },
   "sephora": {
    "ok": 0,
@@ -103,56 +132,25 @@
    "sin_precio": 0,
    "dudoso": 0
   },
-  "firstinfragrance": {
-   "ok": 7,
+  "arabicparfums": {
+   "ok": 3,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "jsonld": 7
-  },
-  "laguna": {
-   "ok": 7,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "precio-100ml": 4,
    "jsonld": 3
   },
-  "avenida": {
-   "ok": 3,
+  "firstinfragrance": {
+   "ok": 1,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "variantes": 3
-  },
-  "perfumesclub": {
-   "ok": 3,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "precio-100ml": 3
-  },
-  "beautinow": {
-   "ok": 0,
-   "bloqueada": 0,
-   "sin_precio": 2,
-   "dudoso": 0
-  },
-  "arabicparfums": {
-   "ok": 2,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "jsonld": 2
-  },
-  "douglas": {
-   "ok": 3,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "precio-100ml": 3
+   "jsonld": 1
   }
  },
- "limpiados": {},
+ "limpiados": {
+  "armani-stronger-with-you-absolutely-parfum-100": [
+   "lookfantastic"
+  ]
+ },
  "chollometro": "ok 86"
 }
