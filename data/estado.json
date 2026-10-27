@@ -1,119 +1,137 @@
 {
- "at": "2026-10-27T08:26:21+01:00",
+ "at": "2026-10-27T09:18:14+01:00",
  "revisados": 35,
  "tiendas": {
-  "arabicparfums": {
-   "ok": 3,
+  "avenida": {
+   "ok": 11,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "jsonld-url": 1,
-   "jsonld": 2
+   "variantes": 11
   },
   "idealo": {
    "ok": 32,
    "bloqueada": 0,
-   "sin_precio": 1,
-   "dudoso": 1,
-   "jsonld": 3,
-   "jsonld-url": 28,
-   "texto": 1,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "jsonld-url": 27,
+   "jsonld": 5
+  },
+  "laguna": {
+   "ok": 12,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "precio-100ml": 1,
+   "jsonld": 7,
+   "jsonld-url": 4
+  },
+  "lookfantastic": {
+   "ok": 2,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 13,
+   "jsonld": 2,
    "ejemplos": [
     {
-     "perfume": "creed-silver-mountain-water-edp-100",
-     "precio": 29.9,
-     "referencia": 320.0,
+     "perfume": "carolina-herrera-la-bomba-edp-80",
+     "precio": 3.99,
+     "referencia": 94.95,
+     "metodo": "texto"
+    },
+    {
+     "perfume": "dolce-gabbana-devotion-edp-100",
+     "precio": 3.99,
+     "referencia": 83.935,
+     "metodo": "texto"
+    },
+    {
+     "perfume": "dolce-gabbana-the-one-edp-75",
+     "precio": 45.43,
+     "referencia": 82.98,
      "metodo": "texto"
     }
    ]
   },
   "notino": {
-   "ok": 5,
-   "bloqueada": 19,
+   "ok": 0,
+   "bloqueada": 24,
    "sin_precio": 0,
-   "dudoso": 0,
-   "jsonld": 5
+   "dudoso": 0
   },
-  "parejo": {
-   "ok": 5,
+  "paco": {
+   "ok": 23,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 1,
-   "jsonld": 5,
+   "jsonld": 22,
+   "precio-100ml": 1,
    "ejemplos": [
     {
-     "perfume": "bvlgari-man-in-black-edp-100",
-     "precio": 126.65,
-     "referencia": 77.25,
+     "perfume": "lancome-la-nuit-tresor-edp-100",
+     "precio": 179.0,
+     "referencia": 84.95,
+     "metodo": "texto"
+    }
+   ]
+  },
+  "parejo": {
+   "ok": 9,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 2,
+   "jsonld": 9,
+   "ejemplos": [
+    {
+     "perfume": "dior-sauvage-parfum-parfum-100",
+     "precio": 176.8,
+     "referencia": 103.72,
+     "metodo": "jsonld"
+    },
+    {
+     "perfume": "hugo-boss-boss-bottled-edt-200",
+     "precio": 101.15,
+     "referencia": 62.5,
      "metodo": "jsonld"
     }
    ]
   },
-  "sabina": {
-   "ok": 19,
+  "perfumesclub": {
+   "ok": 3,
    "bloqueada": 0,
-   "sin_precio": 1,
-   "dudoso": 1,
-   "precio-100ml": 2,
-   "jsonld": 16,
-   "texto": 1,
-   "ejemplos": [
-    {
-     "perfume": "diptyque-tam-dao-edt-100",
-     "precio": 224.0,
-     "referencia": 155.0,
-     "metodo": "texto"
-    }
-   ]
-  },
-  "avenida": {
-   "ok": 2,
-   "bloqueada": 0,
-   "sin_precio": 1,
+   "sin_precio": 0,
    "dudoso": 0,
-   "variantes": 2
+   "precio-100ml": 2,
+   "jsonld": 1
   },
-  "lookfantastic": {
-   "ok": 2,
+  "douglas": {
+   "ok": 4,
    "bloqueada": 0,
-   "sin_precio": 2,
-   "dudoso": 11,
-   "ejemplos": [
-    {
-     "perfume": "armani-acqua-di-gio-profondo-edp-75",
-     "precio": 3.99,
-     "referencia": 77.63,
-     "metodo": "texto"
-    },
-    {
-     "perfume": "tom-ford-tobacco-vanille-edp-50",
-     "precio": 3.99,
-     "referencia": 170.95,
-     "metodo": "texto"
-    },
-    {
-     "perfume": "armani-my-way-edp-90",
-     "precio": 3.99,
-     "referencia": 89.95,
-     "metodo": "texto"
-    }
-   ],
-   "jsonld": 2
+   "sin_precio": 0,
+   "dudoso": 0,
+   "precio-100ml": 4
   },
-  "paco": {
+  "sabina": {
    "ok": 15,
    "bloqueada": 0,
    "sin_precio": 0,
-   "dudoso": 1,
+   "dudoso": 2,
+   "jsonld": 14,
+   "precio-100ml": 1,
    "ejemplos": [
     {
-     "perfume": "armani-acqua-di-gio-profondo-edp-75",
-     "precio": 50.0,
-     "referencia": null,
+     "perfume": "hugo-boss-boss-orange-man-edt-100",
+     "precio": 88.27,
+     "referencia": 29.95,
      "metodo": "texto"
+    },
+    {
+     "perfume": "nishane-hacivat-parfum-50",
+     "precio": 162.92,
+     "referencia": 102.99,
+     "metodo": "jsonld"
     }
-   ],
-   "jsonld": 15
+   ]
   },
   "sephora": {
    "ok": 0,
@@ -121,41 +139,19 @@
    "sin_precio": 0,
    "dudoso": 0
   },
-  "laguna": {
-   "ok": 8,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "jsonld-url": 1,
-   "precio-100ml": 4,
-   "jsonld": 3
-  },
-  "beautinow": {
-   "ok": 0,
-   "bloqueada": 0,
-   "sin_precio": 3,
-   "dudoso": 0
-  },
   "firstinfragrance": {
-   "ok": 7,
+   "ok": 2,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "jsonld": 7
+   "jsonld": 2
   },
-  "perfumesclub": {
-   "ok": 1,
+  "arabicparfums": {
+   "ok": 3,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "precio-100ml": 1
-  },
-  "douglas": {
-   "ok": 1,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "precio-100ml": 1
+   "jsonld": 3
   }
  },
  "limpiados": {},
