@@ -183,8 +183,8 @@ ul.deals{margin:4px 0 0;padding-left:18px;font-size:13px}
   <div class="filters">
     <input id="q" type="search" placeholder="Busca cualquier perfume, nota o familia, en tu lista o en internet…" aria-label="Buscar perfume">
     <div class="tools">
-      <div class="seg" id="tiers" role="group" aria-label="Tipo"></div>
       <div class="seg" id="genders" role="group" aria-label="Para quién"></div>
+      <div class="seg" id="tiers" role="group" aria-label="Tipo"></div>
       <div class="seg" id="seasons" role="group" aria-label="Temporada"></div>
     </div>
     <div class="bgroups" id="brands"></div>
@@ -456,7 +456,7 @@ const eur=n=>n==null?'—':n.toLocaleString('es-ES',{minimumFractionDigits:2,max
 const today=()=>new Date().toISOString().slice(0,10);
 const fdate=d=>d?new Date(d+'T12:00').toLocaleDateString('es-ES',{day:'numeric',month:'short'}):'';
 let gender='Todos',tier='Todos',chollos=SNAPSHOT_CHOLLOS,chAll=false,items=[],brand='Todas',season='Todas',db=null,open=new Set();
-try{brand=localStorage.getItem('rp-brand')||'Todas';season=localStorage.getItem('rp-season')||'Todas'}catch(e){}
+try{gender=localStorage.getItem('rp-gender')||'Todos';brand=localStorage.getItem('rp-brand')||'Todas';season=localStorage.getItem('rp-season')||'Todas'}catch(e){}
 
 function toast(t){const el=$('toast');el.textContent=t;el.hidden=false;clearTimeout(toast.t);toast.t=setTimeout(()=>el.hidden=true,2600)}
 const norm=s=>String(s||'').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'');
@@ -509,7 +509,7 @@ function renderChollos(){
 function render(){
   renderChollos();
   const tierOf=i=>i.tier||'Diseñador';
-  $('genders').innerHTML=['Todos','Hombre','Mujer','Unisex'].map(g=>`<button class="chip" type="button" aria-pressed="${g===gender}" data-g="${g}">${g==='Todos'?'Cualquiera':g}</button>`).join('');
+  $('genders').innerHTML=['Todos','Hombre','Mujer','Unisex'].map(g=>`<button class="chip" type="button" aria-pressed="${g===gender}" data-g="${g}">${{Todos:'Todos',Hombre:'♂ Hombre',Mujer:'♀ Mujer',Unisex:'⚥ Unisex'}[g]}</button>`).join('');
   $('tiers').innerHTML=['Todos','Diseñador','Nicho','Árabe'].map(t=>`<button class="chip" type="button" aria-pressed="${t===tier}" data-tier="${t}">${t}</button>`).join('');
   const brands=['Todas',...new Set(items.filter(i=>tier==='Todos'||tierOf(i)===tier).map(i=>i.brand).sort())];
   if(!brands.includes(brand))brand='Todas';
@@ -617,7 +617,7 @@ async function write(id,data){
 }
 document.addEventListener('click',async e=>{
   const t=e.target;
-  if(t.dataset.g){gender=t.dataset.g;render();return}
+  if(t.dataset.g){gender=t.dataset.g;try{localStorage.setItem('rp-gender',gender)}catch(_){}render();return}
   if(t.dataset.tier){tier=t.dataset.tier;brand='Todas';render();return}
   if(t.dataset.size){
     const [g,mlS]=t.dataset.size.split('|'),ml=+mlS;sel[g]=ml;try{localStorage.setItem('rp-sizes',JSON.stringify(sel))}catch(_){}
@@ -630,7 +630,7 @@ document.addEventListener('click',async e=>{
   if(t.id==='chMore'){chAll=!chAll;renderChollos();return}
   if(t.id==='addFromSearch'){const v=$('q').value.trim(),m=v.match(/(\d{2,3})\s*ml/i),c=v.match(/\b(edt|edp|parfum|elixir)\b/i);
     $('addForm').hidden=false;$('fName').value=v.replace(/(\d{2,3})\s*ml/i,'').replace(/\b(edt|edp|parfum|elixir)\b/i,'').trim();if(m)$('fMl').value=m[1];if(c)$('fConc').value=c[1].length>4?c[1][0].toUpperCase()+c[1].slice(1).toLowerCase():c[1].toUpperCase();$('fBrand').focus();return}
-  if(t.id==='reset'){brand='Todas';season='Todas';tier='Todos';gender='Todos';$('q').value='';try{localStorage.removeItem('rp-brand');localStorage.removeItem('rp-season')}catch(_){}render()}
+  if(t.id==='reset'){brand='Todas';season='Todas';tier='Todos';gender='Todos';$('q').value='';try{localStorage.removeItem('rp-brand');localStorage.removeItem('rp-season');localStorage.removeItem('rp-gender')}catch(_){}render()}
   if(t.dataset.b){brand=t.dataset.b;try{localStorage.setItem('rp-brand',brand)}catch(_){}render()}
   if(t.dataset.s){season=t.dataset.s;try{localStorage.setItem('rp-season',season)}catch(_){}render()}
   if(t.dataset.save){
