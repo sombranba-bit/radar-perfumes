@@ -1,120 +1,117 @@
 {
- "at": "2026-10-27T22:11:19+01:00",
+ "at": "2026-10-27T23:11:42+01:00",
  "revisados": 35,
  "tiendas": {
   "avenida": {
-   "ok": 13,
+   "ok": 22,
    "bloqueada": 0,
-   "sin_precio": 1,
+   "sin_precio": 2,
    "dudoso": 0,
-   "variantes": 13
+   "variantes": 20,
+   "jsonld": 2
+  },
+  "douglas": {
+   "ok": 3,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "precio-100ml": 3
   },
   "idealo": {
    "ok": 32,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "jsonld": 5,
-   "jsonld-url": 26,
-   "texto": 1
+   "jsonld-url": 29,
+   "jsonld": 3
   },
   "laguna": {
-   "ok": 17,
+   "ok": 27,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "precio-100ml": 4,
-   "jsonld": 8,
-   "jsonld-url": 5
+   "jsonld": 9,
+   "jsonld-url": 10,
+   "precio-100ml": 8
   },
   "lookfantastic": {
-   "ok": 0,
+   "ok": 2,
    "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 16,
+   "sin_precio": 1,
+   "dudoso": 26,
    "ejemplos": [
     {
-     "perfume": "jean-paul-gaultier-gaultier-divine-edp-100",
+     "perfume": "prada-paradoxe-edp-90",
      "precio": 3.99,
-     "referencia": 94.95,
+     "referencia": 99.0,
      "metodo": "texto"
     },
     {
-     "perfume": "jean-paul-gaultier-la-belle-edp-100",
+     "perfume": "rabanne-1-million-edt-100",
      "precio": 3.99,
-     "referencia": 82.45,
+     "referencia": 72.95,
      "metodo": "texto"
     },
     {
-     "perfume": "jean-paul-gaultier-le-beau-edt-125",
+     "perfume": "rabanne-1-million-elixir-parfum-100",
      "precio": 3.99,
-     "referencia": 76.95,
+     "referencia": 87.95,
+     "metodo": "texto"
+    }
+   ],
+   "jsonld": 2
+  },
+  "notino": {
+   "ok": 3,
+   "bloqueada": 31,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "jsonld": 3
+  },
+  "paco": {
+   "ok": 25,
+   "bloqueada": 0,
+   "sin_precio": 3,
+   "dudoso": 1,
+   "jsonld": 25,
+   "ejemplos": [
+    {
+     "perfume": "azzaro-chrome-edt-100",
+     "precio": 116.0,
+     "referencia": 48.7,
      "metodo": "texto"
     }
    ]
   },
-  "notino": {
-   "ok": 1,
-   "bloqueada": 21,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "jsonld": 1
-  },
-  "paco": {
-   "ok": 17,
+  "sabina": {
+   "ok": 25,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "jsonld": 17
+   "jsonld": 21,
+   "precio-100ml": 1,
+   "texto": 3
   },
-  "sabina": {
-   "ok": 23,
+  "parejo": {
+   "ok": 11,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 1,
-   "jsonld": 22,
+   "jsonld": 11,
    "ejemplos": [
     {
-     "perfume": "kilian-angels-share-edp-50",
-     "precio": 116.83,
-     "referencia": 167.81,
-     "metodo": "texto"
+     "perfume": "yves-saint-laurent-black-opium-edp-90",
+     "precio": 153.0,
+     "referencia": 91.97,
+     "metodo": "jsonld"
     }
-   ],
-   "precio-100ml": 1
+   ]
   },
   "sephora": {
    "ok": 0,
-   "bloqueada": 5,
+   "bloqueada": 13,
    "sin_precio": 0,
    "dudoso": 0
-  },
-  "douglas": {
-   "ok": 0,
-   "bloqueada": 0,
-   "sin_precio": 1,
-   "dudoso": 0
-  },
-  "perfumesclub": {
-   "ok": 2,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "precio-100ml": 2
-  },
-  "parejo": {
-   "ok": 7,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "jsonld": 7
-  },
-  "arabicparfums": {
-   "ok": 3,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "jsonld": 3
   },
   "beautinow": {
    "ok": 0,
@@ -122,12 +119,19 @@
    "sin_precio": 3,
    "dudoso": 0
   },
-  "firstinfragrance": {
-   "ok": 7,
+  "perfumesclub": {
+   "ok": 6,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "jsonld": 7
+   "precio-100ml": 6
+  },
+  "arabicparfums": {
+   "ok": 1,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "jsonld": 1
   },
   "brasty": {
    "ok": 1,
@@ -135,6 +139,12 @@
    "sin_precio": 0,
    "dudoso": 0,
    "jsonld": 1
+  },
+  "makeup": {
+   "ok": 0,
+   "bloqueada": 0,
+   "sin_precio": 3,
+   "dudoso": 0
   }
  },
  "limpiados": {},
