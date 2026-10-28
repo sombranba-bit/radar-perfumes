@@ -1,121 +1,123 @@
 {
- "at": "2026-10-28T20:48:12+01:00",
+ "at": "2026-10-28T21:42:03+01:00",
  "revisados": 35,
  "tiendas": {
   "avenida": {
-   "ok": 13,
+   "ok": 21,
    "bloqueada": 0,
-   "sin_precio": 1,
+   "sin_precio": 2,
    "dudoso": 0,
-   "variantes": 13
-  },
-  "douglas": {
-   "ok": 1,
-   "bloqueada": 0,
-   "sin_precio": 1,
-   "dudoso": 0,
-   "precio-100ml": 1
+   "variantes": 19,
+   "jsonld": 2
   },
   "idealo": {
    "ok": 32,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "jsonld-url": 27,
-   "texto": 1,
-   "jsonld": 4
+   "jsonld-url": 29,
+   "jsonld": 3
   },
   "laguna": {
-   "ok": 17,
-   "bloqueada": 0,
+   "ok": 26,
+   "bloqueada": 1,
    "sin_precio": 0,
    "dudoso": 0,
-   "precio-100ml": 3,
-   "jsonld": 9,
-   "jsonld-url": 5
+   "jsonld-url": 10,
+   "jsonld": 8,
+   "precio-100ml": 8
   },
   "lookfantastic": {
-   "ok": 0,
+   "ok": 2,
    "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 16,
+   "sin_precio": 1,
+   "dudoso": 26,
    "ejemplos": [
     {
-     "perfume": "jean-paul-gaultier-la-belle-edp-100",
+     "perfume": "rabanne-1-million-edt-100",
      "precio": 3.99,
-     "referencia": 82.45,
+     "referencia": 72.95,
      "metodo": "texto"
     },
     {
-     "perfume": "jean-paul-gaultier-le-beau-edt-125",
+     "perfume": "rabanne-1-million-elixir-parfum-100",
      "precio": 3.99,
-     "referencia": 76.95,
+     "referencia": 87.95,
      "metodo": "texto"
     },
     {
-     "perfume": "jean-paul-gaultier-le-beau-le-parfum-edp-125",
+     "perfume": "rabanne-fame-edp-80",
      "precio": 3.99,
-     "referencia": 85.95,
+     "referencia": 84.45,
+     "metodo": "texto"
+    }
+   ],
+   "jsonld": 2
+  },
+  "notino": {
+   "ok": 2,
+   "bloqueada": 32,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "jsonld": 2
+  },
+  "paco": {
+   "ok": 25,
+   "bloqueada": 0,
+   "sin_precio": 3,
+   "dudoso": 1,
+   "jsonld": 25,
+   "ejemplos": [
+    {
+     "perfume": "azzaro-chrome-edt-100",
+     "precio": 116.0,
+     "referencia": 48.7,
      "metodo": "texto"
     }
    ]
   },
-  "notino": {
-   "ok": 1,
-   "bloqueada": 21,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "jsonld": 1
-  },
-  "paco": {
-   "ok": 17,
+  "parejo": {
+   "ok": 11,
    "bloqueada": 0,
    "sin_precio": 0,
-   "dudoso": 0,
-   "jsonld": 17
-  },
-  "sabina": {
-   "ok": 23,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 1,
-   "jsonld": 22,
+   "dudoso": 2,
+   "jsonld": 11,
    "ejemplos": [
     {
-     "perfume": "kilian-angels-share-edp-50",
-     "precio": 116.83,
-     "referencia": 167.81,
-     "metodo": "texto"
+     "perfume": "yves-saint-laurent-black-opium-edp-90",
+     "precio": 153.0,
+     "referencia": 91.97,
+     "metodo": "jsonld"
+    },
+    {
+     "perfume": "carolina-herrera-212-vip-men-edt-100",
+     "precio": 84.15,
+     "referencia": 55.93,
+     "metodo": "jsonld"
     }
-   ],
-   "precio-100ml": 1
+   ]
   },
-  "sephora": {
-   "ok": 0,
-   "bloqueada": 4,
+  "sabina": {
+   "ok": 24,
+   "bloqueada": 0,
    "sin_precio": 0,
-   "dudoso": 0
+   "dudoso": 0,
+   "jsonld": 20,
+   "precio-100ml": 1,
+   "texto": 3
   },
-  "perfumesclub": {
+  "douglas": {
    "ok": 2,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
    "precio-100ml": 2
   },
-  "parejo": {
-   "ok": 7,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "jsonld": 7
-  },
-  "arabicparfums": {
-   "ok": 3,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "jsonld": 3
+  "sephora": {
+   "ok": 0,
+   "bloqueada": 12,
+   "sin_precio": 1,
+   "dudoso": 0
   },
   "beautinow": {
    "ok": 0,
@@ -123,19 +125,31 @@
    "sin_precio": 3,
    "dudoso": 0
   },
-  "firstinfragrance": {
-   "ok": 7,
+  "perfumesclub": {
+   "ok": 6,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "jsonld": 7
+   "precio-100ml": 6
   },
-  "brasty": {
+  "arabicparfums": {
    "ok": 1,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
    "jsonld": 1
+  },
+  "brasty": {
+   "ok": 0,
+   "bloqueada": 1,
+   "sin_precio": 0,
+   "dudoso": 0
+  },
+  "makeup": {
+   "ok": 0,
+   "bloqueada": 0,
+   "sin_precio": 3,
+   "dudoso": 0
   }
  },
  "limpiados": {},
