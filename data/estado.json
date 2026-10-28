@@ -1,125 +1,29 @@
 {
- "at": "2026-10-28T08:57:21+01:00",
+ "at": "2026-10-28T09:50:17+01:00",
  "revisados": 35,
  "tiendas": {
+  "firstinfragrance": {
+   "ok": 7,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "jsonld": 7
+  },
   "idealo": {
-   "ok": 34,
+   "ok": 33,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "jsonld-url": 27,
-   "jsonld": 6,
-   "texto": 1
-  },
-  "lookfantastic": {
-   "ok": 0,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 20,
-   "ejemplos": [
-    {
-     "perfume": "tom-ford-lost-cherry-edp-50",
-     "precio": 3.99,
-     "referencia": 293.515,
-     "metodo": "texto"
-    },
-    {
-     "perfume": "yves-saint-laurent-l-homme-edt-100",
-     "precio": 138.0,
-     "referencia": 64.03999999999999,
-     "metodo": "texto"
-    },
-    {
-     "perfume": "yves-saint-laurent-libre-intense-edp-90",
-     "precio": 3.99,
-     "referencia": 88.69,
-     "metodo": "texto"
-    }
-   ]
-  },
-  "notino": {
-   "ok": 1,
-   "bloqueada": 24,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "jsonld": 1
-  },
-  "paco": {
-   "ok": 20,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 1,
-   "jsonld": 19,
-   "precio-100ml": 1,
-   "ejemplos": [
-    {
-     "perfume": "hermes-h24-edt-100",
-     "precio": 135.0,
-     "referencia": 78.62,
-     "metodo": "texto"
-    }
-   ]
-  },
-  "laguna": {
-   "ok": 19,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "jsonld-url": 4,
-   "jsonld": 10,
-   "precio-100ml": 5
+   "jsonld-url": 30,
+   "jsonld": 3
   },
   "sabina": {
-   "ok": 20,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 2,
-   "jsonld": 18,
-   "ejemplos": [
-    {
-     "perfume": "hugo-boss-boss-bottled-tonic-edt-100",
-     "precio": 88.27,
-     "referencia": 40.25,
-     "metodo": "texto"
-    },
-    {
-     "perfume": "kilian-angels-share-edp-50",
-     "precio": 116.83,
-     "referencia": 167.81,
-     "metodo": "texto"
-    }
-   ],
-   "texto": 1,
-   "precio-100ml": 1
-  },
-  "perfumesclub": {
-   "ok": 4,
+   "ok": 21,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "precio-100ml": 4
-  },
-  "avenida": {
-   "ok": 13,
-   "bloqueada": 0,
-   "sin_precio": 1,
-   "dudoso": 1,
-   "variantes": 13,
-   "ejemplos": [
-    {
-     "perfume": "issey-miyake-l-eau-d-issey-pour-homme-edt-125",
-     "precio": 74.95,
-     "referencia": 47.375,
-     "metodo": "variantes"
-    }
-   ]
-  },
-  "firstinfragrance": {
-   "ok": 1,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "jsonld": 1
+   "precio-100ml": 1,
+   "jsonld": 20
   },
   "beautinow": {
    "ok": 0,
@@ -127,31 +31,96 @@
    "sin_precio": 3,
    "dudoso": 0
   },
+  "lookfantastic": {
+   "ok": 2,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 21,
+   "ejemplos": [
+    {
+     "perfume": "maison-margiela-replica-by-the-fireplace-edt-100",
+     "precio": 3.99,
+     "referencia": 108.32000000000001,
+     "metodo": "texto"
+    },
+    {
+     "perfume": "mugler-alien-edp-60",
+     "precio": 113.85,
+     "referencia": 63.65,
+     "metodo": "texto"
+    },
+    {
+     "perfume": "narciso-rodriguez-bleu-noir-edp-100",
+     "precio": 3.99,
+     "referencia": 69.95,
+     "metodo": "texto"
+    }
+   ],
+   "jsonld": 2
+  },
+  "notino": {
+   "ok": 0,
+   "bloqueada": 27,
+   "sin_precio": 0,
+   "dudoso": 0
+  },
   "parejo": {
-   "ok": 5,
+   "ok": 10,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "jsonld": 5
+   "jsonld": 10
+  },
+  "avenida": {
+   "ok": 14,
+   "bloqueada": 0,
+   "sin_precio": 2,
+   "dudoso": 0,
+   "variantes": 13,
+   "jsonld": 1
+  },
+  "paco": {
+   "ok": 19,
+   "bloqueada": 0,
+   "sin_precio": 1,
+   "dudoso": 0,
+   "jsonld": 19
+  },
+  "laguna": {
+   "ok": 17,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "jsonld-url": 6,
+   "jsonld": 6,
+   "precio-100ml": 5
+  },
+  "brasty": {
+   "ok": 1,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "jsonld": 1
+  },
+  "douglas": {
+   "ok": 2,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "precio-100ml": 2
   },
   "sephora": {
    "ok": 0,
-   "bloqueada": 5,
+   "bloqueada": 6,
    "sin_precio": 0,
    "dudoso": 0
   },
-  "douglas": {
-   "ok": 0,
-   "bloqueada": 0,
-   "sin_precio": 1,
-   "dudoso": 0
-  },
-  "arabicparfums": {
-   "ok": 3,
+  "perfumesclub": {
+   "ok": 2,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "jsonld": 3
+   "precio-100ml": 2
   }
  },
  "limpiados": {},
