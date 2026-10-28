@@ -1,5 +1,5 @@
 {
- "at": "2026-10-27T00:09:44+01:00",
+ "at": "2026-10-28T01:04:43+01:00",
  "tiendas": {
   "primor": {
    "url": "https://www.primor.eu/es_es/catalogsearch/result/?q=boss+bottled",
@@ -13,13 +13,13 @@
   },
   "druni": {
    "url": "https://www.druni.es/catalogsearch/result/?q=boss+bottled",
-   "codigo": 503,
+   "codigo": 406,
    "kb": 0,
-   "titulo": "Mantenimiento",
+   "titulo": null,
    "precios_eur": 0,
    "jsonld": 0,
    "menciona_boss": 0,
-   "estado": "bloqueada"
+   "estado": "entra, sin precios"
   },
   "julia": {
    "url": "https://www.perfumesjulia.com/es/buscar?q=boss+bottled",
@@ -29,19 +29,19 @@
   "douglas": {
    "url": "https://www.douglas.es/es/search?q=boss%20bottled",
    "codigo": 200,
-   "kb": 1633,
+   "kb": 1643,
    "titulo": "Resultados para \"boss bottled\"",
-   "precios_eur": 418,
+   "precios_eur": 426,
    "jsonld": 1,
-   "menciona_boss": 934,
+   "menciona_boss": 940,
    "estado": "con precios"
   },
   "eci": {
    "url": "https://www.elcorteingles.es/buscar/?s=boss+bottled",
    "codigo": 404,
-   "kb": 317,
+   "kb": 316,
    "titulo": "El Corte Inglés",
-   "precios_eur": 13,
+   "precios_eur": 11,
    "jsonld": 0,
    "menciona_boss": 23,
    "estado": "con precios"
@@ -59,11 +59,11 @@
   "idealo": {
    "url": "https://www.idealo.es/resultados.html?q=boss+bottled",
    "codigo": 200,
-   "kb": 967,
+   "kb": 965,
    "titulo": "boss bottled en idealo.es",
    "precios_eur": 122,
    "jsonld": 0,
-   "menciona_boss": 570,
+   "menciona_boss": 571,
    "estado": "con precios"
   },
   "bodybell": {
@@ -124,11 +124,11 @@
   "makeup": {
    "url": "https://makeup.es/search/?q=boss+bottled",
    "codigo": 200,
-   "kb": 979,
+   "kb": 976,
    "titulo": "Resultados de la búsqueda | Makeup.es",
-   "precios_eur": 63,
+   "precios_eur": 68,
    "jsonld": 3,
-   "menciona_boss": 289,
+   "menciona_boss": 288,
    "estado": "con precios"
   },
   "gotta": {
@@ -168,7 +168,7 @@
    "titulo": "Resultado encontrado para \"boss bottled\"",
    "precios_eur": 91,
    "jsonld": 1,
-   "menciona_boss": 264,
+   "menciona_boss": 251,
    "estado": "con precios"
   },
   "perfumesclub": {
