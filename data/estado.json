@@ -1,156 +1,181 @@
 {
- "at": "2026-10-29T20:50:08+01:00",
+ "at": "2026-10-29T21:43:31+01:00",
  "revisados": 35,
  "tiendas": {
   "avenida": {
-   "ok": 21,
+   "ok": 16,
    "bloqueada": 0,
-   "sin_precio": 2,
+   "sin_precio": 1,
    "dudoso": 0,
-   "jsonld": 2,
-   "variantes": 19
-  },
-  "idealo": {
-   "ok": 32,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "jsonld": 2,
-   "jsonld-url": 29,
-   "texto": 1
+   "variantes": 16
   },
   "laguna": {
-   "ok": 27,
+   "ok": 17,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "jsonld": 8,
-   "jsonld-url": 10,
-   "precio-100ml": 9
+   "jsonld-url": 6,
+   "precio-100ml": 5,
+   "jsonld": 6
+  },
+  "notino": {
+   "ok": 0,
+   "bloqueada": 23,
+   "sin_precio": 0,
+   "dudoso": 1,
+   "ejemplos": [
+    {
+     "perfume": "dolce-gabbana-the-one-for-men-edp-100",
+     "precio": 89.0,
+     "referencia": 54.98,
+     "metodo": "jsonld"
+    }
+   ]
+  },
+  "paco": {
+   "ok": 26,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "jsonld": 26
+  },
+  "parejo": {
+   "ok": 5,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 2,
+   "jsonld": 5,
+   "ejemplos": [
+    {
+     "perfume": "dolce-gabbana-light-blue-pour-homme-edt-125",
+     "precio": 78.2,
+     "referencia": 45.53,
+     "metodo": "jsonld"
+    },
+    {
+     "perfume": "givenchy-l-interdit-edp-80",
+     "precio": 113.05,
+     "referencia": 67.95,
+     "metodo": "jsonld"
+    }
+   ]
+  },
+  "sephora": {
+   "ok": 0,
+   "bloqueada": 11,
+   "sin_precio": 0,
+   "dudoso": 0
+  },
+  "douglas": {
+   "ok": 4,
+   "bloqueada": 0,
+   "sin_precio": 1,
+   "dudoso": 1,
+   "precio-100ml": 4,
+   "ejemplos": [
+    {
+     "perfume": "chanel-chanel-n-5-edp-100",
+     "precio": 727.09,
+     "referencia": 140.8,
+     "metodo": "precio-100ml"
+    }
+   ]
+  },
+  "idealo": {
+   "ok": 31,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 1,
+   "jsonld-url": 31,
+   "ejemplos": [
+    {
+     "perfume": "acqua-di-parma-colonia-edc-100",
+     "precio": 172.49,
+     "referencia": 96.71,
+     "metodo": "jsonld"
+    }
+   ]
   },
   "lookfantastic": {
    "ok": 2,
    "bloqueada": 0,
    "sin_precio": 1,
-   "dudoso": 26,
+   "dudoso": 18,
    "ejemplos": [
     {
-     "perfume": "rabanne-1-million-elixir-parfum-100",
+     "perfume": "carolina-herrera-good-girl-edp-80",
      "precio": 3.99,
-     "referencia": 87.95,
+     "referencia": 94.95,
      "metodo": "texto"
     },
     {
-     "perfume": "rabanne-fame-edp-80",
+     "perfume": "dolce-gabbana-light-blue-edt-100",
      "precio": 3.99,
-     "referencia": 84.45,
+     "referencia": 72.0,
      "metodo": "texto"
     },
     {
-     "perfume": "rabanne-phantom-edt-100",
+     "perfume": "dolce-gabbana-the-one-for-men-edp-100",
      "precio": 3.99,
-     "referencia": 66.45,
+     "referencia": 54.98,
      "metodo": "texto"
     }
    ],
    "jsonld": 2
   },
-  "notino": {
-   "ok": 1,
-   "bloqueada": 33,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "jsonld": 1
-  },
-  "paco": {
-   "ok": 25,
-   "bloqueada": 0,
-   "sin_precio": 3,
-   "dudoso": 1,
-   "jsonld": 25,
-   "ejemplos": [
-    {
-     "perfume": "azzaro-chrome-edt-100",
-     "precio": 116.0,
-     "referencia": 48.7,
-     "metodo": "texto"
-    }
-   ]
-  },
   "sabina": {
-   "ok": 25,
+   "ok": 26,
    "bloqueada": 0,
    "sin_precio": 0,
-   "dudoso": 0,
-   "jsonld": 21,
-   "precio-100ml": 1,
-   "texto": 3
-  },
-  "parejo": {
-   "ok": 10,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 2,
-   "jsonld": 10,
+   "dudoso": 3,
+   "jsonld": 23,
    "ejemplos": [
     {
-     "perfume": "yves-saint-laurent-black-opium-edp-90",
-     "precio": 153.0,
-     "referencia": 88.54,
-     "metodo": "jsonld"
+     "perfume": "dior-j-adore-edp-100",
+     "precio": 67.62,
+     "referencia": 130.95,
+     "metodo": "texto"
     },
     {
-     "perfume": "carolina-herrera-212-vip-men-edt-100",
-     "precio": 84.15,
-     "referencia": 55.93,
-     "metodo": "jsonld"
+     "perfume": "dolce-gabbana-the-one-for-men-edp-100",
+     "precio": 88.27,
+     "referencia": 54.98,
+     "metodo": "texto"
+    },
+    {
+     "perfume": "hugo-boss-boss-bottled-infinite-edp-100",
+     "precio": 88.27,
+     "referencia": 49.62,
+     "metodo": "texto"
     }
-   ]
+   ],
+   "texto": 3
   },
-  "douglas": {
+  "brasty": {
    "ok": 2,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "precio-100ml": 2
+   "jsonld": 2
   },
-  "sephora": {
-   "ok": 0,
-   "bloqueada": 13,
+  "firstinfragrance": {
+   "ok": 1,
+   "bloqueada": 0,
    "sin_precio": 0,
-   "dudoso": 0
+   "dudoso": 0,
+   "jsonld": 1
+  },
+  "perfumesclub": {
+   "ok": 1,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "precio-100ml": 1
   },
   "beautinow": {
    "ok": 0,
    "bloqueada": 0,
-   "sin_precio": 3,
-   "dudoso": 0
-  },
-  "perfumesclub": {
-   "ok": 6,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "precio-100ml": 6
-  },
-  "arabicparfums": {
-   "ok": 1,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "jsonld": 1
-  },
-  "brasty": {
-   "ok": 1,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "jsonld": 1
-  },
-  "makeup": {
-   "ok": 0,
-   "bloqueada": 0,
-   "sin_precio": 3,
+   "sin_precio": 1,
    "dudoso": 0
   }
  },
