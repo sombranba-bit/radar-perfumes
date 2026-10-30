@@ -1,133 +1,147 @@
 {
- "at": "2026-10-30T12:42:45+01:00",
+ "at": "2026-10-30T13:56:56+01:00",
  "revisados": 35,
  "tiendas": {
+  "avenida": {
+   "ok": 19,
+   "bloqueada": 0,
+   "sin_precio": 2,
+   "dudoso": 0,
+   "variantes": 17,
+   "jsonld": 2
+  },
+  "brasty": {
+   "ok": 2,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "jsonld": 2
+  },
   "idealo": {
    "ok": 32,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "jsonld-url": 24,
-   "jsonld": 6,
-   "texto": 2
+   "jsonld-url": 30,
+   "jsonld": 2
+  },
+  "laguna": {
+   "ok": 24,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "jsonld-url": 8,
+   "jsonld": 9,
+   "precio-100ml": 7
   },
   "lookfantastic": {
-   "ok": 0,
+   "ok": 2,
    "bloqueada": 0,
    "sin_precio": 1,
-   "dudoso": 17,
+   "dudoso": 27,
    "ejemplos": [
     {
-     "perfume": "hugo-boss-boss-bottled-beyond-edp-100",
-     "precio": 3.99,
-     "referencia": 73.945,
-     "metodo": "texto"
-    },
-    {
-     "perfume": "hugo-boss-boss-bottled-tonic-edt-100",
-     "precio": 3.99,
-     "referencia": 40.25,
-     "metodo": "texto"
-    },
-    {
-     "perfume": "hugo-boss-boss-the-scent-le-parfum-parfum-100",
+     "perfume": "narciso-rodriguez-bleu-noir-edp-100",
      "precio": 3.99,
      "referencia": 69.95,
      "metodo": "texto"
+    },
+    {
+     "perfume": "narciso-rodriguez-for-her-edp-100",
+     "precio": 3.99,
+     "referencia": 82.95,
+     "metodo": "texto"
+    },
+    {
+     "perfume": "prada-l-homme-edt-100",
+     "precio": 3.99,
+     "referencia": 83.695,
+     "metodo": "texto"
     }
-   ]
+   ],
+   "jsonld": 2
   },
   "notino": {
-   "ok": 1,
-   "bloqueada": 20,
+   "ok": 0,
+   "bloqueada": 33,
    "sin_precio": 0,
-   "dudoso": 0,
-   "jsonld": 1
+   "dudoso": 0
   },
   "paco": {
-   "ok": 17,
+   "ok": 24,
    "bloqueada": 0,
-   "sin_precio": 0,
+   "sin_precio": 2,
    "dudoso": 0,
-   "jsonld": 17
+   "jsonld": 24
   },
   "sabina": {
-   "ok": 15,
-   "bloqueada": 9,
-   "sin_precio": 1,
-   "dudoso": 0,
-   "jsonld": 14,
-   "texto": 1
-  },
-  "avenida": {
-   "ok": 13,
-   "bloqueada": 0,
-   "sin_precio": 1,
-   "dudoso": 1,
-   "variantes": 13,
-   "ejemplos": [
-    {
-     "perfume": "issey-miyake-l-eau-d-issey-pour-homme-edt-125",
-     "precio": 74.95,
-     "referencia": 47.375,
-     "metodo": "variantes"
-    }
-   ]
-  },
-  "laguna": {
-   "ok": 18,
-   "bloqueada": 0,
+   "ok": 8,
+   "bloqueada": 15,
    "sin_precio": 0,
    "dudoso": 0,
-   "jsonld": 9,
-   "precio-100ml": 5,
-   "jsonld-url": 4
+   "jsonld": 7,
+   "precio-100ml": 1
   },
   "firstinfragrance": {
-   "ok": 6,
+   "ok": 2,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "jsonld": 6
-  },
-  "beautinow": {
-   "ok": 0,
-   "bloqueada": 0,
-   "sin_precio": 4,
-   "dudoso": 0
-  },
-  "parejo": {
-   "ok": 8,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "jsonld": 8
-  },
-  "sephora": {
-   "ok": 0,
-   "bloqueada": 5,
-   "sin_precio": 0,
-   "dudoso": 0
+   "jsonld": 2
   },
   "douglas": {
-   "ok": 0,
-   "bloqueada": 0,
-   "sin_precio": 1,
-   "dudoso": 0
-  },
-  "perfumesclub": {
    "ok": 2,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
    "precio-100ml": 2
   },
-  "arabicparfums": {
+  "parejo": {
+   "ok": 9,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 1,
+   "jsonld": 9,
+   "ejemplos": [
+    {
+     "perfume": "yves-saint-laurent-black-opium-edp-90",
+     "precio": 153.0,
+     "referencia": 88.54,
+     "metodo": "jsonld"
+    }
+   ]
+  },
+  "sephora": {
+   "ok": 0,
+   "bloqueada": 11,
+   "sin_precio": 0,
+   "dudoso": 0
+  },
+  "beautinow": {
+   "ok": 0,
+   "bloqueada": 0,
+   "sin_precio": 3,
+   "dudoso": 0
+  },
+  "perfumesclub": {
    "ok": 3,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "jsonld": 3
+   "precio-100ml": 3
+  },
+  "arabicparfums": {
+   "ok": 1,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "jsonld": 1
+  },
+  "makeup": {
+   "ok": 0,
+   "bloqueada": 0,
+   "sin_precio": 2,
+   "dudoso": 0
   }
  },
  "limpiados": {},
