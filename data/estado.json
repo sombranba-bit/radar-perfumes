@@ -1,131 +1,86 @@
 {
- "at": "2026-10-30T00:35:33+01:00",
+ "at": "2026-10-30T01:47:52+01:00",
  "revisados": 35,
  "tiendas": {
-  "avenida": {
-   "ok": 15,
-   "bloqueada": 0,
-   "sin_precio": 1,
-   "dudoso": 1,
-   "variantes": 15,
-   "ejemplos": [
-    {
-     "perfume": "issey-miyake-l-eau-d-issey-pour-homme-edt-125",
-     "precio": 74.95,
-     "referencia": 47.375,
-     "metodo": "variantes"
-    }
-   ]
-  },
   "idealo": {
    "ok": 33,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
    "jsonld-url": 28,
-   "jsonld": 3,
-   "texto": 2
-  },
-  "laguna": {
-   "ok": 19,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "jsonld-url": 5,
-   "jsonld": 9,
-   "precio-100ml": 5
-  },
-  "lookfantastic": {
-   "ok": 1,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 24,
-   "ejemplos": [
-    {
-     "perfume": "hugo-boss-boss-bottled-edt-200",
-     "precio": 3.99,
-     "referencia": 67.535,
-     "metodo": "texto"
-    },
-    {
-     "perfume": "prada-candy-edp-80",
-     "precio": 3.99,
-     "referencia": 82.57,
-     "metodo": "texto"
-    },
-    {
-     "perfume": "prada-luna-rossa-ocean-edt-100",
-     "precio": 3.99,
-     "referencia": 78.935,
-     "metodo": "texto"
-    }
-   ],
-   "jsonld": 1
-  },
-  "notino": {
-   "ok": 0,
-   "bloqueada": 26,
-   "sin_precio": 0,
-   "dudoso": 0
-  },
-  "paco": {
-   "ok": 24,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 1,
-   "jsonld": 23,
-   "precio-100ml": 1,
-   "ejemplos": [
-    {
-     "perfume": "hermes-h24-edt-100",
-     "precio": 135.0,
-     "referencia": 78.62,
-     "metodo": "texto"
-    }
-   ]
-  },
-  "parejo": {
-   "ok": 5,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
    "jsonld": 5
   },
-  "sabina": {
-   "ok": 17,
+  "avenida": {
+   "ok": 12,
    "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 2,
-   "jsonld": 15,
+   "sin_precio": 2,
+   "dudoso": 0,
+   "variantes": 11,
+   "jsonld": 1
+  },
+  "lookfantastic": {
+   "ok": 2,
+   "bloqueada": 0,
+   "sin_precio": 1,
+   "dudoso": 14,
    "ejemplos": [
     {
-     "perfume": "hugo-boss-boss-bottled-tonic-edt-100",
-     "precio": 88.27,
-     "referencia": 40.25,
+     "perfume": "lancome-idole-edp-50",
+     "precio": 3.99,
+     "referencia": 69.92,
      "metodo": "texto"
     },
     {
-     "perfume": "kilian-angels-share-edp-50",
-     "precio": 116.83,
-     "referencia": 167.81,
+     "perfume": "maison-margiela-replica-by-the-fireplace-edt-100",
+     "precio": 3.99,
+     "referencia": 108.32000000000001,
+     "metodo": "texto"
+    },
+    {
+     "perfume": "narciso-rodriguez-bleu-noir-edp-100",
+     "precio": 3.99,
+     "referencia": 69.95,
      "metodo": "texto"
     }
    ],
-   "texto": 1,
+   "jsonld": 2
+  },
+  "notino": {
+   "ok": 2,
+   "bloqueada": 24,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "jsonld": 2
+  },
+  "paco": {
+   "ok": 18,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "jsonld": 18
+  },
+  "sabina": {
+   "ok": 22,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "jsonld": 21,
    "precio-100ml": 1
   },
   "sephora": {
    "ok": 0,
-   "bloqueada": 4,
+   "bloqueada": 6,
    "sin_precio": 0,
    "dudoso": 0
   },
-  "arabicparfums": {
-   "ok": 1,
+  "laguna": {
+   "ok": 15,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "jsonld": 1
+   "jsonld-url": 6,
+   "jsonld": 8,
+   "precio-100ml": 1
   },
   "perfumesclub": {
    "ok": 3,
@@ -134,24 +89,46 @@
    "dudoso": 0,
    "precio-100ml": 3
   },
+  "arabicparfums": {
+   "ok": 3,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "jsonld": 3
+  },
+  "parejo": {
+   "ok": 10,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "jsonld": 10
+  },
+  "beautinow": {
+   "ok": 0,
+   "bloqueada": 0,
+   "sin_precio": 4,
+   "dudoso": 0
+  },
   "firstinfragrance": {
+   "ok": 7,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "jsonld": 7
+  },
+  "brasty": {
    "ok": 1,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
    "jsonld": 1
   },
-  "beautinow": {
-   "ok": 0,
-   "bloqueada": 0,
-   "sin_precio": 1,
-   "dudoso": 0
-  },
   "douglas": {
-   "ok": 0,
+   "ok": 2,
    "bloqueada": 0,
-   "sin_precio": 1,
-   "dudoso": 0
+   "sin_precio": 0,
+   "dudoso": 0,
+   "precio-100ml": 2
   }
  },
  "limpiados": {},
