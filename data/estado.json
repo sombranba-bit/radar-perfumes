@@ -1,172 +1,199 @@
 {
- "at": "2026-10-30T02:57:54+01:00",
+ "at": "2026-10-30T03:49:22+01:00",
  "revisados": 35,
  "tiendas": {
+  "douglas": {
+   "ok": 3,
+   "bloqueada": 0,
+   "sin_precio": 1,
+   "dudoso": 0,
+   "precio-100ml": 3
+  },
   "idealo": {
    "ok": 31,
    "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "jsonld-url": 29,
-   "jsonld": 1,
-   "texto": 1
-  },
-  "laguna": {
-   "ok": 23,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "precio-100ml": 9,
-   "jsonld": 4,
-   "jsonld-url": 10
-  },
-  "lookfantastic": {
-   "ok": 0,
-   "bloqueada": 0,
    "sin_precio": 1,
-   "dudoso": 20,
+   "dudoso": 1,
+   "jsonld-url": 29,
    "ejemplos": [
     {
-     "perfume": "valentino-born-in-roma-donna-edp-100",
-     "precio": 3.99,
-     "referencia": 93.435,
-     "metodo": "texto"
-    },
-    {
-     "perfume": "valentino-born-in-roma-uomo-edt-100",
-     "precio": 3.99,
-     "referencia": 98.05000000000001,
-     "metodo": "texto"
-    },
-    {
-     "perfume": "valentino-uomo-born-in-roma-intense-edp-100",
-     "precio": 3.99,
-     "referencia": 87.92,
-     "metodo": "texto"
+     "perfume": "acqua-di-parma-colonia-edc-100",
+     "precio": 172.49,
+     "referencia": 96.71,
+     "metodo": "jsonld"
     }
-   ]
-  },
-  "notino": {
-   "ok": 1,
-   "bloqueada": 26,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "jsonld": 1
+   ],
+   "jsonld": 2
   },
   "paco": {
-   "ok": 26,
-   "bloqueada": 0,
-   "sin_precio": 3,
-   "dudoso": 1,
-   "jsonld": 26,
-   "ejemplos": [
-    {
-     "perfume": "azzaro-chrome-edt-100",
-     "precio": 116.0,
-     "referencia": 48.7,
-     "metodo": "texto"
-    }
-   ]
-  },
-  "avenida": {
-   "ok": 19,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "variantes": 18,
-   "jsonld": 1
-  },
-  "parejo": {
-   "ok": 9,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 2,
-   "jsonld": 9,
-   "ejemplos": [
-    {
-     "perfume": "yves-saint-laurent-black-opium-edp-90",
-     "precio": 153.0,
-     "referencia": 88.54,
-     "metodo": "jsonld"
-    },
-    {
-     "perfume": "carolina-herrera-212-vip-men-edt-100",
-     "precio": 84.15,
-     "referencia": 55.93,
-     "metodo": "jsonld"
-    }
-   ]
-  },
-  "sephora": {
-   "ok": 0,
-   "bloqueada": 11,
-   "sin_precio": 0,
-   "dudoso": 0
-  },
-  "sabina": {
-   "ok": 24,
+   "ok": 20,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 1,
    "jsonld": 20,
-   "precio-100ml": 1,
-   "texto": 3,
    "ejemplos": [
     {
-     "perfume": "dior-j-adore-edp-100",
-     "precio": 67.62,
-     "referencia": 130.95,
+     "perfume": "armani-acqua-di-gio-profondo-edp-75",
+     "precio": 50.0,
+     "referencia": null,
      "metodo": "texto"
     }
    ]
   },
-  "beautinow": {
-   "ok": 0,
+  "sabina": {
+   "ok": 25,
+   "bloqueada": 0,
+   "sin_precio": 1,
+   "dudoso": 4,
+   "jsonld": 21,
+   "ejemplos": [
+    {
+     "perfume": "dolce-gabbana-the-one-for-men-edp-100",
+     "precio": 88.27,
+     "referencia": 54.98,
+     "metodo": "texto"
+    },
+    {
+     "perfume": "hugo-boss-boss-bottled-infinite-edp-100",
+     "precio": 88.27,
+     "referencia": 49.62,
+     "metodo": "texto"
+    },
+    {
+     "perfume": "davidoff-the-game-edt-100",
+     "precio": 88.27,
+     "referencia": 21.955,
+     "metodo": "texto"
+    }
+   ],
+   "texto": 3,
+   "precio-100ml": 1
+  },
+  "avenida": {
+   "ok": 16,
    "bloqueada": 0,
    "sin_precio": 2,
-   "dudoso": 0
+   "dudoso": 0,
+   "variantes": 16
   },
-  "arabicparfums": {
-   "ok": 1,
+  "laguna": {
+   "ok": 18,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "jsonld": 1
+   "jsonld": 7,
+   "jsonld-url": 7,
+   "precio-100ml": 4
+  },
+  "lookfantastic": {
+   "ok": 3,
+   "bloqueada": 1,
+   "sin_precio": 1,
+   "dudoso": 19,
+   "ejemplos": [
+    {
+     "perfume": "dolce-gabbana-light-blue-edt-100",
+     "precio": 3.99,
+     "referencia": 72.0,
+     "metodo": "texto"
+    },
+    {
+     "perfume": "dolce-gabbana-the-one-for-men-edp-100",
+     "precio": 3.99,
+     "referencia": 54.98,
+     "metodo": "texto"
+    },
+    {
+     "perfume": "givenchy-gentleman-edp-100",
+     "precio": 141.45,
+     "referencia": 70.575,
+     "metodo": "texto"
+    }
+   ],
+   "jsonld": 3
+  },
+  "notino": {
+   "ok": 3,
+   "bloqueada": 25,
+   "sin_precio": 0,
+   "dudoso": 2,
+   "ejemplos": [
+    {
+     "perfume": "dolce-gabbana-the-one-for-men-edp-100",
+     "precio": 89.0,
+     "referencia": 54.98,
+     "metodo": "jsonld"
+    },
+    {
+     "perfume": "maison-margiela-replica-jazz-club-edt-100",
+     "precio": 153.0,
+     "referencia": 99.595,
+     "metodo": "jsonld"
+    }
+   ],
+   "jsonld": 3
+  },
+  "parejo": {
+   "ok": 7,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 2,
+   "jsonld": 7,
+   "ejemplos": [
+    {
+     "perfume": "dolce-gabbana-light-blue-pour-homme-edt-125",
+     "precio": 78.2,
+     "referencia": 45.53,
+     "metodo": "jsonld"
+    },
+    {
+     "perfume": "givenchy-l-interdit-edp-80",
+     "precio": 113.05,
+     "referencia": 67.95,
+     "metodo": "jsonld"
+    }
+   ]
   },
   "brasty": {
+   "ok": 2,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "jsonld": 2
+  },
+  "sephora": {
+   "ok": 0,
+   "bloqueada": 12,
+   "sin_precio": 0,
+   "dudoso": 0
+  },
+  "firstinfragrance": {
+   "ok": 3,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "jsonld": 3
+  },
+  "perfumesclub": {
    "ok": 1,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "jsonld": 1
+   "precio-100ml": 1
   },
-  "makeup": {
+  "beautinow": {
    "ok": 0,
    "bloqueada": 0,
    "sin_precio": 3,
    "dudoso": 0
   },
-  "perfumesclub": {
-   "ok": 4,
+  "arabicparfums": {
+   "ok": 2,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "precio-100ml": 4
-  },
-  "douglas": {
-   "ok": 3,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 1,
-   "precio-100ml": 3,
-   "ejemplos": [
-    {
-     "perfume": "chanel-chanel-n-5-edp-100",
-     "precio": 727.09,
-     "referencia": 140.8,
-     "metodo": "precio-100ml"
-    }
-   ]
+   "jsonld": 1,
+   "jsonld-url": 1
   }
  },
  "limpiados": {},
