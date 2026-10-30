@@ -1,133 +1,178 @@
 {
- "at": "2026-10-30T07:50:26+01:00",
+ "at": "2026-10-30T09:01:44+01:00",
  "revisados": 35,
  "tiendas": {
-  "beautinow": {
-   "ok": 0,
-   "bloqueada": 0,
-   "sin_precio": 4,
-   "dudoso": 0
-  },
-  "firstinfragrance": {
-   "ok": 6,
+  "avenida": {
+   "ok": 18,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "jsonld": 6
+   "variantes": 17,
+   "jsonld": 1
   },
-  "idealo": {
-   "ok": 34,
+  "brasty": {
+   "ok": 3,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "jsonld-url": 31,
    "jsonld": 3
   },
-  "lookfantastic": {
-   "ok": 2,
+  "idealo": {
+   "ok": 30,
    "bloqueada": 0,
-   "sin_precio": 1,
-   "dudoso": 21,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "jsonld-url": 29,
+   "texto": 1
+  },
+  "laguna": {
+   "ok": 22,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "precio-100ml": 7,
+   "jsonld-url": 10,
+   "jsonld": 5
+  },
+  "lookfantastic": {
+   "ok": 1,
+   "bloqueada": 0,
+   "sin_precio": 2,
+   "dudoso": 16,
    "ejemplos": [
     {
-     "perfume": "maison-margiela-replica-by-the-fireplace-edt-100",
+     "perfume": "yves-saint-laurent-black-opium-edp-90",
      "precio": 3.99,
-     "referencia": 108.32000000000001,
+     "referencia": 88.54,
      "metodo": "texto"
     },
     {
-     "perfume": "narciso-rodriguez-bleu-noir-edp-100",
-     "precio": 3.99,
-     "referencia": 69.95,
+     "perfume": "yves-saint-laurent-la-nuit-de-l-homme-edt-100",
+     "precio": 138.0,
+     "referencia": 69.93,
      "metodo": "texto"
     },
     {
-     "perfume": "narciso-rodriguez-for-her-edp-100",
+     "perfume": "armani-acqua-di-gio-edt-100",
      "precio": 3.99,
-     "referencia": 82.95,
+     "referencia": 81.475,
      "metodo": "texto"
     }
    ],
-   "jsonld": 2
+   "jsonld": 1
   },
   "notino": {
-   "ok": 0,
-   "bloqueada": 29,
+   "ok": 1,
+   "bloqueada": 23,
    "sin_precio": 0,
-   "dudoso": 0
-  },
-  "sabina": {
-   "ok": 21,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "jsonld": 20,
-   "precio-100ml": 1
-  },
-  "parejo": {
-   "ok": 11,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "jsonld": 11
-  },
-  "avenida": {
-   "ok": 14,
-   "bloqueada": 0,
-   "sin_precio": 2,
-   "dudoso": 0,
-   "variantes": 13,
-   "jsonld": 1
+   "dudoso": 1,
+   "jsonld": 1,
+   "ejemplos": [
+    {
+     "perfume": "dolce-gabbana-the-one-for-men-edp-100",
+     "precio": 89.0,
+     "referencia": 57.15,
+     "metodo": "jsonld"
+    }
+   ]
   },
   "paco": {
-   "ok": 19,
+   "ok": 31,
    "bloqueada": 0,
-   "sin_precio": 1,
-   "dudoso": 0,
-   "jsonld": 19
+   "sin_precio": 2,
+   "dudoso": 1,
+   "jsonld": 31,
+   "ejemplos": [
+    {
+     "perfume": "azzaro-chrome-edt-100",
+     "precio": 116.0,
+     "referencia": 48.7,
+     "metodo": "texto"
+    }
+   ]
   },
-  "laguna": {
-   "ok": 17,
+  "parejo": {
+   "ok": 6,
    "bloqueada": 0,
    "sin_precio": 0,
-   "dudoso": 0,
-   "jsonld-url": 6,
-   "jsonld": 6,
-   "precio-100ml": 5
+   "dudoso": 4,
+   "ejemplos": [
+    {
+     "perfume": "yves-saint-laurent-black-opium-edp-90",
+     "precio": 153.0,
+     "referencia": 88.54,
+     "metodo": "jsonld"
+    },
+    {
+     "perfume": "carolina-herrera-212-vip-men-edt-100",
+     "precio": 84.15,
+     "referencia": 55.93,
+     "metodo": "jsonld"
+    },
+    {
+     "perfume": "dolce-gabbana-light-blue-pour-homme-edt-125",
+     "precio": 78.2,
+     "referencia": 45.53,
+     "metodo": "jsonld"
+    }
+   ],
+   "jsonld": 6
   },
-  "brasty": {
-   "ok": 1,
+  "sabina": {
+   "ok": 27,
    "bloqueada": 0,
    "sin_precio": 0,
-   "dudoso": 0,
-   "jsonld": 1
-  },
-  "douglas": {
-   "ok": 2,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "precio-100ml": 2
+   "dudoso": 2,
+   "jsonld": 23,
+   "texto": 4,
+   "ejemplos": [
+    {
+     "perfume": "dior-j-adore-edp-100",
+     "precio": 67.62,
+     "referencia": 130.95,
+     "metodo": "texto"
+    },
+    {
+     "perfume": "dolce-gabbana-the-one-for-men-edp-100",
+     "precio": 88.27,
+     "referencia": 57.15,
+     "metodo": "texto"
+    }
+   ]
   },
   "sephora": {
    "ok": 0,
-   "bloqueada": 6,
+   "bloqueada": 10,
    "sin_precio": 0,
    "dudoso": 0
   },
-  "perfumesclub": {
-   "ok": 2,
+  "makeup": {
+   "ok": 0,
    "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "precio-100ml": 2
+   "sin_precio": 3,
+   "dudoso": 0
   },
-  "arabicparfums": {
-   "ok": 1,
+  "perfumesclub": {
+   "ok": 4,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "jsonld": 1
+   "precio-100ml": 4
+  },
+  "douglas": {
+   "ok": 5,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 1,
+   "precio-100ml": 5,
+   "ejemplos": [
+    {
+     "perfume": "chanel-chanel-n-5-edp-100",
+     "precio": 727.09,
+     "referencia": 140.8,
+     "metodo": "precio-100ml"
+    }
+   ]
   }
  },
  "limpiados": {},
