@@ -1,172 +1,154 @@
 {
- "at": "2026-10-31T19:04:57+01:00",
+ "at": "2026-10-31T19:46:25+01:00",
  "revisados": 35,
  "tiendas": {
-  "douglas": {
-   "ok": 3,
+  "avenida": {
+   "ok": 4,
    "bloqueada": 0,
    "sin_precio": 1,
-   "dudoso": 1,
-   "ejemplos": [
-    {
-     "perfume": "chanel-chanel-n-5-edp-100",
-     "precio": 727.09,
-     "referencia": 140.8,
-     "metodo": "precio-100ml"
-    }
-   ],
-   "precio-100ml": 3
+   "dudoso": 0,
+   "variantes": 4
   },
   "idealo": {
-   "ok": 32,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 1,
-   "jsonld-url": 31,
-   "ejemplos": [
-    {
-     "perfume": "acqua-di-parma-colonia-edc-100",
-     "precio": 172.49,
-     "referencia": 96.71,
-     "metodo": "jsonld"
-    }
-   ],
-   "jsonld": 1
-  },
-  "paco": {
-   "ok": 23,
+   "ok": 31,
    "bloqueada": 0,
    "sin_precio": 1,
-   "dudoso": 0,
-   "jsonld": 23
-  },
-  "sabina": {
-   "ok": 27,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 4,
-   "jsonld": 24,
+   "dudoso": 2,
+   "jsonld-url": 27,
+   "jsonld": 3,
+   "texto": 1,
    "ejemplos": [
     {
-     "perfume": "dior-j-adore-edp-100",
-     "precio": 64.24,
-     "referencia": 130.95,
-     "metodo": "texto"
+     "perfume": "burberry-her-edp-100",
+     "precio": 67.28,
+     "referencia": 123.325,
+     "metodo": "jsonld-url"
     },
     {
-     "perfume": "dolce-gabbana-the-one-for-men-edp-100",
-     "precio": 88.27,
-     "referencia": 57.15,
-     "metodo": "texto"
-    },
-    {
-     "perfume": "hugo-boss-boss-bottled-infinite-edp-100",
-     "precio": 88.27,
-     "referencia": 49.62,
+     "perfume": "creed-silver-mountain-water-edp-100",
+     "precio": 24.98,
+     "referencia": 320.0,
      "metodo": "texto"
     }
-   ],
-   "texto": 3
-  },
-  "sephora": {
-   "ok": 0,
-   "bloqueada": 10,
-   "sin_precio": 0,
-   "dudoso": 0
-  },
-  "avenida": {
-   "ok": 14,
-   "bloqueada": 0,
-   "sin_precio": 1,
-   "dudoso": 0,
-   "variantes": 14
+   ]
   },
   "laguna": {
-   "ok": 15,
+   "ok": 10,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "jsonld": 6,
-   "jsonld-url": 5,
-   "precio-100ml": 4
+   "jsonld-url": 3,
+   "jsonld": 4,
+   "precio-100ml": 3
   },
   "lookfantastic": {
    "ok": 2,
    "bloqueada": 0,
    "sin_precio": 1,
-   "dudoso": 17,
+   "dudoso": 12,
    "ejemplos": [
     {
-     "perfume": "dolce-gabbana-light-blue-edt-100",
+     "perfume": "versace-dylan-blue-edt-100",
      "precio": 3.99,
-     "referencia": 72.0,
+     "referencia": 64.475,
      "metodo": "texto"
     },
     {
-     "perfume": "dolce-gabbana-the-one-for-men-edp-100",
+     "perfume": "yves-saint-laurent-libre-edp-90",
      "precio": 3.99,
-     "referencia": 57.15,
+     "referencia": 90.44,
      "metodo": "texto"
     },
     {
-     "perfume": "givenchy-gentleman-edp-100",
-     "precio": 141.45,
-     "referencia": 70.575,
+     "perfume": "armani-acqua-di-gio-profondo-edp-75",
+     "precio": 3.99,
+     "referencia": 77.63,
      "metodo": "texto"
     }
    ],
    "jsonld": 2
   },
   "notino": {
-   "ok": 0,
-   "bloqueada": 23,
+   "ok": 5,
+   "bloqueada": 18,
    "sin_precio": 0,
-   "dudoso": 1,
+   "dudoso": 2,
+   "jsonld": 5,
    "ejemplos": [
     {
-     "perfume": "dolce-gabbana-the-one-for-men-edp-100",
-     "precio": 89.0,
-     "referencia": 57.15,
+     "perfume": "carolina-herrera-very-good-girl-edp-80",
+     "precio": 162.0,
+     "referencia": 99.95,
      "metodo": "jsonld"
+    },
+    {
+     "perfume": "burberry-her-edp-100",
+     "precio": 63.92,
+     "referencia": 118.35,
+     "metodo": "jsonld"
+    }
+   ]
+  },
+  "paco": {
+   "ok": 15,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 1,
+   "jsonld": 15,
+   "ejemplos": [
+    {
+     "perfume": "armani-acqua-di-gio-profondo-edp-75",
+     "precio": 50.0,
+     "referencia": null,
+     "metodo": "texto"
     }
    ]
   },
   "parejo": {
-   "ok": 3,
+   "ok": 8,
    "bloqueada": 0,
    "sin_precio": 0,
-   "dudoso": 2,
-   "jsonld": 3,
+   "dudoso": 1,
+   "jsonld": 8,
    "ejemplos": [
     {
-     "perfume": "dolce-gabbana-light-blue-pour-homme-edt-125",
-     "precio": 78.2,
-     "referencia": 45.53,
-     "metodo": "jsonld"
-    },
-    {
-     "perfume": "givenchy-l-interdit-edp-80",
-     "precio": 113.05,
-     "referencia": 67.95,
+     "perfume": "bvlgari-man-in-black-edp-100",
+     "precio": 126.65,
+     "referencia": 72.98,
      "metodo": "jsonld"
     }
    ]
   },
-  "brasty": {
-   "ok": 2,
+  "sabina": {
+   "ok": 19,
    "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "jsonld": 2
+   "sin_precio": 1,
+   "dudoso": 2,
+   "jsonld": 16,
+   "ejemplos": [
+    {
+     "perfume": "amouage-reflection-man-edp-100",
+     "precio": 88.27,
+     "referencia": 365.0,
+     "metodo": "texto"
+    },
+    {
+     "perfume": "diptyque-tam-dao-edt-100",
+     "precio": 228.57,
+     "referencia": 155.0,
+     "metodo": "texto"
+    }
+   ],
+   "precio-100ml": 2,
+   "texto": 1
   },
-  "firstinfragrance": {
-   "ok": 2,
-   "bloqueada": 0,
+  "sephora": {
+   "ok": 0,
+   "bloqueada": 5,
    "sin_precio": 0,
-   "dudoso": 0,
-   "jsonld": 2
+   "dudoso": 0
   },
-  "perfumesclub": {
+  "douglas": {
    "ok": 1,
    "bloqueada": 0,
    "sin_precio": 0,
@@ -176,8 +158,30 @@
   "beautinow": {
    "ok": 0,
    "bloqueada": 0,
-   "sin_precio": 2,
+   "sin_precio": 4,
    "dudoso": 0
+  },
+  "firstinfragrance": {
+   "ok": 8,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "jsonld": 8
+  },
+  "arabicparfums": {
+   "ok": 4,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "jsonld": 3,
+   "jsonld-url": 1
+  },
+  "perfumesclub": {
+   "ok": 1,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "precio-100ml": 1
   }
  },
  "limpiados": {},
