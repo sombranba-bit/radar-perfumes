@@ -1,131 +1,45 @@
 {
- "at": "2026-10-31T21:33:31+01:00",
+ "at": "2026-10-31T22:12:23+01:00",
  "revisados": 35,
  "tiendas": {
   "avenida": {
-   "ok": 15,
+   "ok": 12,
    "bloqueada": 0,
-   "sin_precio": 1,
-   "dudoso": 1,
-   "variantes": 15,
-   "ejemplos": [
-    {
-     "perfume": "issey-miyake-l-eau-d-issey-pour-homme-edt-125",
-     "precio": 74.95,
-     "referencia": 47.375,
-     "metodo": "variantes"
-    }
-   ]
+   "sin_precio": 2,
+   "dudoso": 0,
+   "variantes": 11,
+   "jsonld": 1
   },
   "idealo": {
    "ok": 33,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "jsonld-url": 28,
-   "jsonld": 3,
-   "texto": 2
+   "jsonld-url": 27,
+   "jsonld": 6
   },
   "laguna": {
-   "ok": 18,
+   "ok": 17,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "jsonld": 9,
-   "jsonld-url": 4,
-   "precio-100ml": 5
-  },
-  "lookfantastic": {
-   "ok": 1,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 23,
-   "ejemplos": [
-    {
-     "perfume": "prada-luna-rossa-ocean-edt-100",
-     "precio": 3.99,
-     "referencia": 78.945,
-     "metodo": "texto"
-    },
-    {
-     "perfume": "rabanne-invictus-victory-elixir-parfum-100",
-     "precio": 3.99,
-     "referencia": 88.95,
-     "metodo": "texto"
-    },
-    {
-     "perfume": "tom-ford-black-orchid-edp-100",
-     "precio": 3.99,
-     "referencia": 132.92,
-     "metodo": "texto"
-    }
-   ],
-   "jsonld": 1
+   "jsonld-url": 6,
+   "jsonld": 8,
+   "precio-100ml": 3
   },
   "notino": {
-   "ok": 0,
-   "bloqueada": 26,
-   "sin_precio": 0,
-   "dudoso": 0
-  },
-  "paco": {
-   "ok": 23,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 1,
-   "jsonld": 22,
-   "precio-100ml": 1,
-   "ejemplos": [
-    {
-     "perfume": "hermes-h24-edt-100",
-     "precio": 135.0,
-     "referencia": 78.62,
-     "metodo": "texto"
-    }
-   ]
-  },
-  "parejo": {
-   "ok": 4,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "jsonld": 4
-  },
-  "sabina": {
-   "ok": 18,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 2,
-   "jsonld": 16,
-   "ejemplos": [
-    {
-     "perfume": "hugo-boss-boss-bottled-tonic-edt-100",
-     "precio": 88.27,
-     "referencia": 40.25,
-     "metodo": "texto"
-    },
-    {
-     "perfume": "kilian-angels-share-edp-50",
-     "precio": 110.99,
-     "referencia": 167.81,
-     "metodo": "texto"
-    }
-   ],
-   "texto": 1,
-   "precio-100ml": 1
-  },
-  "sephora": {
-   "ok": 0,
-   "bloqueada": 5,
-   "sin_precio": 0,
-   "dudoso": 0
-  },
-  "arabicparfums": {
    "ok": 1,
-   "bloqueada": 0,
+   "bloqueada": 25,
    "sin_precio": 0,
    "dudoso": 0,
    "jsonld": 1
+  },
+  "paco": {
+   "ok": 19,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "jsonld": 19
   },
   "perfumesclub": {
    "ok": 3,
@@ -134,24 +48,95 @@
    "dudoso": 0,
    "precio-100ml": 3
   },
+  "sephora": {
+   "ok": 0,
+   "bloqueada": 5,
+   "sin_precio": 0,
+   "dudoso": 0
+  },
+  "arabicparfums": {
+   "ok": 3,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "jsonld": 3
+  },
+  "parejo": {
+   "ok": 11,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "jsonld": 11
+  },
+  "sabina": {
+   "ok": 21,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "jsonld": 20,
+   "precio-100ml": 1
+  },
+  "beautinow": {
+   "ok": 0,
+   "bloqueada": 0,
+   "sin_precio": 4,
+   "dudoso": 0
+  },
   "firstinfragrance": {
+   "ok": 6,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 1,
+   "jsonld": 6,
+   "ejemplos": [
+    {
+     "perfume": "mancera-instant-crush-edp-120",
+     "precio": 159.0,
+     "referencia": 101.53999999999999,
+     "metodo": "jsonld"
+    }
+   ]
+  },
+  "lookfantastic": {
+   "ok": 2,
+   "bloqueada": 0,
+   "sin_precio": 1,
+   "dudoso": 15,
+   "ejemplos": [
+    {
+     "perfume": "maison-margiela-replica-by-the-fireplace-edt-100",
+     "precio": 3.99,
+     "referencia": 114.75,
+     "metodo": "texto"
+    },
+    {
+     "perfume": "narciso-rodriguez-bleu-noir-edp-100",
+     "precio": 3.99,
+     "referencia": 69.95,
+     "metodo": "texto"
+    },
+    {
+     "perfume": "narciso-rodriguez-for-her-edp-100",
+     "precio": 3.99,
+     "referencia": 82.95,
+     "metodo": "texto"
+    }
+   ],
+   "jsonld": 2
+  },
+  "brasty": {
    "ok": 1,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
    "jsonld": 1
   },
-  "beautinow": {
-   "ok": 0,
-   "bloqueada": 0,
-   "sin_precio": 1,
-   "dudoso": 0
-  },
   "douglas": {
-   "ok": 0,
+   "ok": 2,
    "bloqueada": 0,
-   "sin_precio": 1,
-   "dudoso": 0
+   "sin_precio": 0,
+   "dudoso": 0,
+   "precio-100ml": 2
   }
  },
  "limpiados": {},
