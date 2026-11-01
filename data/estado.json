@@ -1,123 +1,137 @@
 {
- "at": "2026-11-01T20:39:53+01:00",
+ "at": "2026-11-01T21:36:19+01:00",
  "revisados": 35,
  "tiendas": {
-  "arabicparfums": {
-   "ok": 3,
+  "avenida": {
+   "ok": 19,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "jsonld": 3
+   "variantes": 18,
+   "jsonld": 1
   },
   "idealo": {
-   "ok": 33,
+   "ok": 31,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "jsonld-url": 27,
-   "jsonld": 6
+   "jsonld-url": 30,
+   "texto": 1
   },
   "laguna": {
-   "ok": 17,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "jsonld": 9,
-   "jsonld-url": 5,
-   "precio-100ml": 3
-  },
-  "notino": {
-   "ok": 3,
-   "bloqueada": 22,
-   "sin_precio": 0,
-   "dudoso": 1,
-   "jsonld": 3,
-   "ejemplos": [
-    {
-     "perfume": "maison-margiela-replica-by-the-fireplace-edt-100",
-     "precio": 153.0,
-     "referencia": 101.21000000000001,
-     "metodo": "jsonld"
-    }
-   ]
-  },
-  "parejo": {
-   "ok": 11,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "jsonld": 11
-  },
-  "sabina": {
    "ok": 21,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "jsonld": 20,
-   "precio-100ml": 1
+   "precio-100ml": 7,
+   "jsonld-url": 10,
+   "jsonld": 4
   },
-  "beautinow": {
-   "ok": 0,
+  "lookfantastic": {
+   "ok": 1,
    "bloqueada": 0,
-   "sin_precio": 4,
-   "dudoso": 0
-  },
-  "firstinfragrance": {
-   "ok": 6,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 1,
-   "jsonld": 6,
+   "sin_precio": 1,
+   "dudoso": 17,
    "ejemplos": [
     {
-     "perfume": "mancera-instant-crush-edp-120",
-     "precio": 159.0,
-     "referencia": 100.285,
+     "perfume": "versace-bright-crystal-edt-90",
+     "precio": 3.99,
+     "referencia": 67.77,
+     "metodo": "texto"
+    },
+    {
+     "perfume": "versace-eros-flame-edp-100",
+     "precio": 3.99,
+     "referencia": 72.0,
+     "metodo": "texto"
+    },
+    {
+     "perfume": "viktor-rolf-flowerbomb-edp-100",
+     "precio": 3.99,
+     "referencia": 95.68,
+     "metodo": "texto"
+    }
+   ],
+   "jsonld": 1
+  },
+  "notino": {
+   "ok": 1,
+   "bloqueada": 25,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "jsonld": 1
+  },
+  "parejo": {
+   "ok": 9,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 2,
+   "jsonld": 9,
+   "ejemplos": [
+    {
+     "perfume": "yves-saint-laurent-black-opium-edp-90",
+     "precio": 153.0,
+     "referencia": 88.54,
+     "metodo": "jsonld"
+    },
+    {
+     "perfume": "carolina-herrera-212-vip-men-edt-100",
+     "precio": 84.15,
+     "referencia": 55.93,
      "metodo": "jsonld"
     }
    ]
   },
-  "lookfantastic": {
-   "ok": 2,
+  "sabina": {
+   "ok": 27,
    "bloqueada": 0,
-   "sin_precio": 1,
-   "dudoso": 16,
+   "sin_precio": 0,
+   "dudoso": 1,
+   "jsonld": 23,
+   "precio-100ml": 1,
+   "texto": 3,
    "ejemplos": [
     {
-     "perfume": "maison-margiela-replica-by-the-fireplace-edt-100",
-     "precio": 3.99,
-     "referencia": 114.75,
-     "metodo": "texto"
-    },
-    {
-     "perfume": "narciso-rodriguez-bleu-noir-edp-100",
-     "precio": 3.99,
-     "referencia": 69.95,
-     "metodo": "texto"
-    },
-    {
-     "perfume": "narciso-rodriguez-for-her-edp-100",
-     "precio": 3.99,
-     "referencia": 82.95,
+     "perfume": "dior-j-adore-edp-100",
+     "precio": 64.24,
+     "referencia": 123.77,
      "metodo": "texto"
     }
-   ],
-   "jsonld": 2
+   ]
   },
-  "avenida": {
-   "ok": 11,
+  "sephora": {
+   "ok": 0,
+   "bloqueada": 10,
+   "sin_precio": 0,
+   "dudoso": 0
+  },
+  "beautinow": {
+   "ok": 0,
    "bloqueada": 0,
    "sin_precio": 2,
-   "dudoso": 0,
-   "variantes": 10,
-   "jsonld": 1
+   "dudoso": 0
   },
   "paco": {
-   "ok": 18,
+   "ok": 26,
    "bloqueada": 0,
-   "sin_precio": 1,
+   "sin_precio": 2,
+   "dudoso": 1,
+   "jsonld": 26,
+   "ejemplos": [
+    {
+     "perfume": "azzaro-chrome-edt-100",
+     "precio": 116.0,
+     "referencia": 48.7,
+     "metodo": "texto"
+    }
+   ]
+  },
+  "arabicparfums": {
+   "ok": 1,
+   "bloqueada": 0,
+   "sin_precio": 0,
    "dudoso": 0,
-   "jsonld": 18
+   "jsonld": 1
   },
   "brasty": {
    "ok": 1,
@@ -126,25 +140,33 @@
    "dudoso": 0,
    "jsonld": 1
   },
-  "douglas": {
-   "ok": 2,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "precio-100ml": 2
-  },
-  "sephora": {
+  "makeup": {
    "ok": 0,
-   "bloqueada": 5,
-   "sin_precio": 0,
+   "bloqueada": 0,
+   "sin_precio": 3,
    "dudoso": 0
   },
   "perfumesclub": {
-   "ok": 2,
+   "ok": 4,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "precio-100ml": 2
+   "precio-100ml": 4
+  },
+  "douglas": {
+   "ok": 4,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 1,
+   "precio-100ml": 4,
+   "ejemplos": [
+    {
+     "perfume": "chanel-chanel-n-5-edp-100",
+     "precio": 727.09,
+     "referencia": 140.8,
+     "metodo": "precio-100ml"
+    }
+   ]
   }
  },
  "limpiados": {},
