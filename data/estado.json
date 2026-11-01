@@ -1,109 +1,177 @@
 {
- "at": "2026-11-01T04:23:40+01:00",
+ "at": "2026-11-01T05:28:03+01:00",
  "revisados": 35,
  "tiendas": {
+  "avenida": {
+   "ok": 18,
+   "bloqueada": 0,
+   "sin_precio": 1,
+   "dudoso": 0,
+   "jsonld": 1,
+   "variantes": 17
+  },
   "idealo": {
-   "ok": 34,
+   "ok": 29,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "jsonld-url": 32,
-   "jsonld": 2
+   "jsonld-url": 28,
+   "texto": 1
   },
-  "lookfantastic": {
-   "ok": 2,
-   "bloqueada": 0,
-   "sin_precio": 1,
-   "dudoso": 23,
-   "ejemplos": [
-    {
-     "perfume": "maison-margiela-replica-by-the-fireplace-edt-100",
-     "precio": 3.99,
-     "referencia": 114.75,
-     "metodo": "texto"
-    },
-    {
-     "perfume": "narciso-rodriguez-bleu-noir-edp-100",
-     "precio": 3.99,
-     "referencia": 69.95,
-     "metodo": "texto"
-    },
-    {
-     "perfume": "narciso-rodriguez-for-her-edp-100",
-     "precio": 3.99,
-     "referencia": 82.95,
-     "metodo": "texto"
-    }
-   ],
-   "jsonld": 2
-  },
-  "notino": {
-   "ok": 0,
-   "bloqueada": 31,
-   "sin_precio": 0,
-   "dudoso": 0
-  },
-  "sabina": {
+  "laguna": {
    "ok": 22,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "jsonld": 21,
-   "precio-100ml": 1
+   "jsonld-url": 10,
+   "jsonld": 6,
+   "precio-100ml": 6
   },
-  "firstinfragrance": {
-   "ok": 3,
+  "lookfantastic": {
+   "ok": 1,
    "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 1,
-   "jsonld": 3,
+   "sin_precio": 2,
+   "dudoso": 16,
    "ejemplos": [
     {
-     "perfume": "mancera-instant-crush-edp-120",
-     "precio": 159.0,
-     "referencia": 100.285,
+     "perfume": "armani-acqua-di-gio-edt-100",
+     "precio": 3.99,
+     "referencia": 81.475,
+     "metodo": "texto"
+    },
+    {
+     "perfume": "armani-code-edt-75",
+     "precio": 3.99,
+     "referencia": 69.13,
+     "metodo": "texto"
+    },
+    {
+     "perfume": "hugo-boss-boss-bottled-edt-100",
+     "precio": 3.99,
+     "referencia": 45.695,
+     "metodo": "texto"
+    }
+   ],
+   "jsonld": 1
+  },
+  "notino": {
+   "ok": 1,
+   "bloqueada": 23,
+   "sin_precio": 0,
+   "dudoso": 1,
+   "jsonld": 1,
+   "ejemplos": [
+    {
+     "perfume": "dolce-gabbana-the-one-for-men-edp-100",
+     "precio": 89.0,
+     "referencia": 57.15,
      "metodo": "jsonld"
+    }
+   ]
+  },
+  "paco": {
+   "ok": 29,
+   "bloqueada": 0,
+   "sin_precio": 2,
+   "dudoso": 1,
+   "jsonld": 29,
+   "ejemplos": [
+    {
+     "perfume": "azzaro-chrome-edt-100",
+     "precio": 116.0,
+     "referencia": 48.7,
+     "metodo": "texto"
     }
    ]
   },
   "parejo": {
-   "ok": 11,
+   "ok": 6,
    "bloqueada": 0,
    "sin_precio": 0,
-   "dudoso": 1,
-   "jsonld": 11,
+   "dudoso": 3,
+   "jsonld": 6,
    "ejemplos": [
     {
-     "perfume": "yves-saint-laurent-black-opium-edp-90",
-     "precio": 153.0,
-     "referencia": 88.54,
+     "perfume": "carolina-herrera-212-vip-men-edt-100",
+     "precio": 84.15,
+     "referencia": 55.93,
+     "metodo": "jsonld"
+    },
+    {
+     "perfume": "dolce-gabbana-light-blue-pour-homme-edt-125",
+     "precio": 78.2,
+     "referencia": 45.53,
+     "metodo": "jsonld"
+    },
+    {
+     "perfume": "givenchy-l-interdit-edp-80",
+     "precio": 113.05,
+     "referencia": 67.95,
      "metodo": "jsonld"
     }
    ]
   },
-  "avenida": {
-   "ok": 15,
+  "sabina": {
+   "ok": 27,
    "bloqueada": 0,
-   "sin_precio": 2,
-   "dudoso": 0,
-   "variantes": 14,
-   "jsonld": 1
+   "sin_precio": 0,
+   "dudoso": 3,
+   "texto": 5,
+   "jsonld": 22,
+   "ejemplos": [
+    {
+     "perfume": "dior-j-adore-edp-100",
+     "precio": 64.24,
+     "referencia": 126.97,
+     "metodo": "texto"
+    },
+    {
+     "perfume": "dolce-gabbana-the-one-for-men-edp-100",
+     "precio": 88.27,
+     "referencia": 57.15,
+     "metodo": "texto"
+    },
+    {
+     "perfume": "hugo-boss-boss-bottled-infinite-edp-100",
+     "precio": 88.27,
+     "referencia": 49.62,
+     "metodo": "texto"
+    }
+   ]
   },
-  "paco": {
-   "ok": 21,
+  "sephora": {
+   "ok": 0,
+   "bloqueada": 11,
+   "sin_precio": 0,
+   "dudoso": 0
+  },
+  "makeup": {
+   "ok": 0,
    "bloqueada": 0,
-   "sin_precio": 1,
-   "dudoso": 0,
-   "jsonld": 21
+   "sin_precio": 3,
+   "dudoso": 0
   },
-  "laguna": {
-   "ok": 13,
-   "bloqueada": 4,
-   "sin_precio": 1,
+  "perfumesclub": {
+   "ok": 4,
+   "bloqueada": 0,
+   "sin_precio": 0,
    "dudoso": 0,
-   "jsonld": 5,
-   "jsonld-url": 2,
-   "precio-100ml": 6
+   "precio-100ml": 4
+  },
+  "douglas": {
+   "ok": 5,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 1,
+   "precio-100ml": 5,
+   "ejemplos": [
+    {
+     "perfume": "chanel-chanel-n-5-edp-100",
+     "precio": 727.09,
+     "referencia": 140.8,
+     "metodo": "precio-100ml"
+    }
+   ]
   },
   "brasty": {
    "ok": 2,
@@ -111,39 +179,6 @@
    "sin_precio": 0,
    "dudoso": 0,
    "jsonld": 2
-  },
-  "douglas": {
-   "ok": 2,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "precio-100ml": 2
-  },
-  "sephora": {
-   "ok": 0,
-   "bloqueada": 6,
-   "sin_precio": 0,
-   "dudoso": 0
-  },
-  "beautinow": {
-   "ok": 0,
-   "bloqueada": 0,
-   "sin_precio": 3,
-   "dudoso": 0
-  },
-  "perfumesclub": {
-   "ok": 2,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "precio-100ml": 2
-  },
-  "arabicparfums": {
-   "ok": 1,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "jsonld": 1
   }
  },
  "limpiados": {},
