@@ -1,178 +1,131 @@
 {
- "at": "2026-11-01T06:22:23+01:00",
+ "at": "2026-11-01T07:17:17+01:00",
  "revisados": 35,
  "tiendas": {
   "idealo": {
    "ok": 32,
    "bloqueada": 0,
-   "sin_precio": 1,
-   "dudoso": 2,
+   "sin_precio": 0,
+   "dudoso": 1,
    "jsonld-url": 29,
    "ejemplos": [
     {
-     "perfume": "acqua-di-parma-colonia-edc-100",
-     "precio": 172.49,
-     "referencia": 96.71,
-     "metodo": "jsonld"
-    },
-    {
-     "perfume": "burberry-her-edp-100",
-     "precio": 65.8,
-     "referencia": 123.325,
-     "metodo": "jsonld-url"
+     "perfume": "creed-silver-mountain-water-edp-100",
+     "precio": 24.98,
+     "referencia": 320.0,
+     "metodo": "texto"
     }
    ],
-   "jsonld": 2,
-   "texto": 1
+   "jsonld": 3
   },
-  "lookfantastic": {
-   "ok": 2,
+  "paco": {
+   "ok": 19,
    "bloqueada": 0,
-   "sin_precio": 1,
-   "dudoso": 21,
-   "ejemplos": [
-    {
-     "perfume": "hugo-boss-boss-bottled-night-edt-100",
-     "precio": 3.99,
-     "referencia": 46.32,
-     "metodo": "texto"
-    },
-    {
-     "perfume": "hugo-boss-boss-bottled-parfum-parfum-100",
-     "precio": 11.49,
-     "referencia": 65.575,
-     "metodo": "texto"
-    },
-    {
-     "perfume": "hugo-boss-boss-the-scent-edt-100",
-     "precio": 3.99,
-     "referencia": 59.52,
-     "metodo": "texto"
-    }
-   ],
-   "jsonld": 2
-  },
-  "notino": {
-   "ok": 4,
-   "bloqueada": 24,
    "sin_precio": 0,
-   "dudoso": 2,
-   "jsonld": 4,
-   "ejemplos": [
-    {
-     "perfume": "carolina-herrera-very-good-girl-edp-80",
-     "precio": 162.0,
-     "referencia": 99.95,
-     "metodo": "jsonld"
-    },
-    {
-     "perfume": "burberry-her-edp-100",
-     "precio": 63.92,
-     "referencia": 118.35,
-     "metodo": "jsonld"
-    }
-   ]
+   "dudoso": 0,
+   "jsonld": 19
   },
   "sabina": {
-   "ok": 23,
+   "ok": 21,
    "bloqueada": 0,
-   "sin_precio": 1,
-   "dudoso": 2,
-   "jsonld": 20,
+   "sin_precio": 0,
+   "dudoso": 1,
+   "jsonld": 19,
    "texto": 1,
    "ejemplos": [
     {
-     "perfume": "davidoff-the-game-edt-100",
-     "precio": 88.27,
-     "referencia": 21.955,
-     "metodo": "texto"
-    },
-    {
-     "perfume": "amouage-reflection-man-edp-100",
-     "precio": 88.27,
-     "referencia": 365.0,
+     "perfume": "diptyque-tam-dao-edt-100",
+     "precio": 228.57,
+     "referencia": 155.0,
      "metodo": "texto"
     }
    ],
-   "precio-100ml": 2
+   "precio-100ml": 1
   },
   "firstinfragrance": {
-   "ok": 4,
+   "ok": 7,
    "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "jsonld": 7
+  },
+  "notino": {
+   "ok": 4,
+   "bloqueada": 18,
    "sin_precio": 0,
    "dudoso": 0,
    "jsonld": 4
   },
-  "avenida": {
-   "ok": 13,
-   "bloqueada": 0,
-   "sin_precio": 1,
-   "dudoso": 0,
-   "variantes": 13
-  },
-  "laguna": {
-   "ok": 15,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "precio-100ml": 3,
-   "jsonld": 5,
-   "jsonld-url": 7
-  },
-  "paco": {
-   "ok": 18,
-   "bloqueada": 0,
-   "sin_precio": 1,
-   "dudoso": 1,
-   "jsonld": 18,
-   "ejemplos": [
-    {
-     "perfume": "armani-acqua-di-gio-profondo-edp-75",
-     "precio": 50.0,
-     "referencia": null,
-     "metodo": "texto"
-    }
-   ]
-  },
-  "douglas": {
-   "ok": 1,
-   "bloqueada": 0,
-   "sin_precio": 1,
-   "dudoso": 0,
-   "precio-100ml": 1
-  },
-  "sephora": {
-   "ok": 0,
-   "bloqueada": 12,
-   "sin_precio": 0,
-   "dudoso": 0
-  },
   "parejo": {
-   "ok": 9,
+   "ok": 5,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 1,
-   "jsonld": 9,
+   "jsonld": 5,
    "ejemplos": [
     {
-     "perfume": "bvlgari-man-in-black-edp-100",
-     "precio": 126.65,
-     "referencia": 71.38,
+     "perfume": "dior-sauvage-parfum-parfum-100",
+     "precio": 176.8,
+     "referencia": 103.72,
      "metodo": "jsonld"
     }
    ]
   },
-  "perfumesclub": {
-   "ok": 1,
+  "laguna": {
+   "ok": 10,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "precio-100ml": 1
+   "precio-100ml": 4,
+   "jsonld": 4,
+   "jsonld-url": 2
+  },
+  "avenida": {
+   "ok": 5,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "variantes": 5
+  },
+  "lookfantastic": {
+   "ok": 3,
+   "bloqueada": 0,
+   "sin_precio": 1,
+   "dudoso": 7,
+   "ejemplos": [
+    {
+     "perfume": "davidoff-cool-water-edt-125",
+     "precio": 3.99,
+     "referencia": 25.2,
+     "metodo": "texto"
+    },
+    {
+     "perfume": "dolce-gabbana-k-by-dolce-gabbana-edt-100",
+     "precio": 3.99,
+     "referencia": 59.95,
+     "metodo": "texto"
+    },
+    {
+     "perfume": "burberry-goddess-edp-100",
+     "precio": 3.99,
+     "referencia": 82.0,
+     "metodo": "texto"
+    }
+   ],
+   "jsonld": 3
+  },
+  "perfumesclub": {
+   "ok": 4,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "precio-100ml": 3,
+   "jsonld": 1
   },
   "beautinow": {
    "ok": 0,
    "bloqueada": 0,
-   "sin_precio": 4,
+   "sin_precio": 2,
    "dudoso": 0
   },
   "arabicparfums": {
@@ -180,8 +133,20 @@
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "jsonld": 1,
-   "jsonld-url": 1
+   "jsonld": 2
+  },
+  "douglas": {
+   "ok": 3,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "precio-100ml": 3
+  },
+  "sephora": {
+   "ok": 0,
+   "bloqueada": 1,
+   "sin_precio": 0,
+   "dudoso": 0
   }
  },
  "limpiados": {},
