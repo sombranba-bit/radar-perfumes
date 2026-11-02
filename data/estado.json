@@ -1,119 +1,94 @@
 {
- "at": "2026-11-02T13:59:14+01:00",
+ "at": "2026-11-02T15:13:49+01:00",
  "revisados": 35,
  "tiendas": {
-  "firstinfragrance": {
-   "ok": 2,
+  "avenida": {
+   "ok": 15,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "jsonld": 2
+   "variantes": 14,
+   "jsonld": 1
   },
   "idealo": {
    "ok": 33,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "jsonld": 4,
-   "jsonld-url": 28,
-   "texto": 1
+   "jsonld-url": 27,
+   "texto": 1,
+   "jsonld": 5
+  },
+  "laguna": {
+   "ok": 17,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "jsonld": 10,
+   "jsonld-url": 7
   },
   "lookfantastic": {
    "ok": 1,
    "bloqueada": 0,
    "sin_precio": 0,
-   "dudoso": 22,
+   "dudoso": 15,
    "ejemplos": [
     {
-     "perfume": "marc-jacobs-daisy-edt-100",
+     "perfume": "jean-paul-gaultier-le-male-elixir-parfum-125",
      "precio": 3.99,
-     "referencia": 47.765,
+     "referencia": 94.95,
      "metodo": "texto"
     },
     {
-     "perfume": "nina-ricci-nina-edt-80",
+     "perfume": "jean-paul-gaultier-scandal-edp-80",
      "precio": 3.99,
-     "referencia": 59.8,
+     "referencia": 78.795,
      "metodo": "texto"
     },
     {
-     "perfume": "hugo-boss-boss-bottled-edt-200",
+     "perfume": "jean-paul-gaultier-scandal-pour-homme-edt-100",
      "precio": 3.99,
-     "referencia": 67.535,
+     "referencia": 79.95,
      "metodo": "texto"
     }
    ],
    "jsonld": 1
   },
   "notino": {
-   "ok": 0,
-   "bloqueada": 27,
+   "ok": 1,
+   "bloqueada": 22,
    "sin_precio": 0,
-   "dudoso": 0
-  },
-  "avenida": {
-   "ok": 13,
-   "bloqueada": 0,
-   "sin_precio": 1,
-   "dudoso": 1,
-   "variantes": 13,
-   "ejemplos": [
-    {
-     "perfume": "issey-miyake-l-eau-d-issey-pour-homme-edt-125",
-     "precio": 74.95,
-     "referencia": 47.375,
-     "metodo": "variantes"
-    }
-   ]
+   "dudoso": 0,
+   "jsonld": 1
   },
   "paco": {
-   "ok": 22,
+   "ok": 17,
    "bloqueada": 0,
    "sin_precio": 0,
-   "dudoso": 1,
-   "jsonld": 21,
-   "precio-100ml": 1,
-   "ejemplos": [
-    {
-     "perfume": "hermes-h24-edt-100",
-     "precio": 135.0,
-     "referencia": 78.62,
-     "metodo": "texto"
-    }
-   ]
+   "dudoso": 0,
+   "jsonld": 17
   },
   "sabina": {
-   "ok": 15,
+   "ok": 20,
    "bloqueada": 0,
    "sin_precio": 0,
-   "dudoso": 1,
-   "jsonld": 13,
+   "dudoso": 2,
+   "jsonld": 19,
    "ejemplos": [
     {
-     "perfume": "hugo-boss-boss-bottled-tonic-edt-100",
-     "precio": 89.19,
-     "referencia": 40.24,
+     "perfume": "kilian-angels-share-edp-50",
+     "precio": 116.83,
+     "referencia": 161.99,
      "metodo": "texto"
+    },
+    {
+     "perfume": "mancera-instant-crush-edp-120",
+     "precio": 155.0,
+     "referencia": 81.71,
+     "metodo": "jsonld"
     }
    ],
-   "texto": 1,
    "precio-100ml": 1
-  },
-  "laguna": {
-   "ok": 15,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "jsonld-url": 4,
-   "jsonld": 6,
-   "precio-100ml": 5
-  },
-  "parejo": {
-   "ok": 5,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "jsonld": 5
   },
   "sephora": {
    "ok": 0,
@@ -121,31 +96,61 @@
    "sin_precio": 0,
    "dudoso": 0
   },
-  "arabicparfums": {
+  "perfumesclub": {
    "ok": 1,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
    "jsonld": 1
   },
-  "perfumesclub": {
+  "arabicparfums": {
    "ok": 3,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
    "jsonld": 3
   },
+  "parejo": {
+   "ok": 9,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "jsonld": 9
+  },
   "beautinow": {
    "ok": 0,
    "bloqueada": 0,
-   "sin_precio": 1,
+   "sin_precio": 3,
    "dudoso": 0
   },
-  "douglas": {
-   "ok": 0,
+  "firstinfragrance": {
+   "ok": 6,
    "bloqueada": 0,
-   "sin_precio": 1,
-   "dudoso": 0
+   "sin_precio": 0,
+   "dudoso": 1,
+   "jsonld": 6,
+   "ejemplos": [
+    {
+     "perfume": "mancera-instant-crush-edp-120",
+     "precio": 159.0,
+     "referencia": 98.97999999999999,
+     "metodo": "jsonld"
+    }
+   ]
+  },
+  "brasty": {
+   "ok": 1,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "jsonld": 1
+  },
+  "douglas": {
+   "ok": 2,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "precio-100ml": 2
   }
  },
  "limpiados": {},
