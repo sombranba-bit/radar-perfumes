@@ -1,102 +1,7 @@
 {
- "at": "2026-11-02T20:30:53+01:00",
+ "at": "2026-11-02T21:21:24+01:00",
  "revisados": 35,
  "tiendas": {
-  "avenida": {
-   "ok": 14,
-   "bloqueada": 0,
-   "sin_precio": 1,
-   "dudoso": 1,
-   "variantes": 14,
-   "ejemplos": [
-    {
-     "perfume": "issey-miyake-l-eau-d-issey-pour-homme-edt-125",
-     "precio": 74.95,
-     "referencia": 47.375,
-     "metodo": "variantes"
-    }
-   ]
-  },
-  "idealo": {
-   "ok": 34,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "jsonld-url": 29,
-   "jsonld": 3,
-   "texto": 2
-  },
-  "laguna": {
-   "ok": 18,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "jsonld-url": 5,
-   "jsonld": 8,
-   "precio-100ml": 5
-  },
-  "lookfantastic": {
-   "ok": 1,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 21,
-   "jsonld": 1,
-   "ejemplos": [
-    {
-     "perfume": "tom-ford-black-orchid-edp-100",
-     "precio": 3.99,
-     "referencia": 132.92,
-     "metodo": "texto"
-    },
-    {
-     "perfume": "tom-ford-lost-cherry-edp-50",
-     "precio": 3.99,
-     "referencia": 294.57,
-     "metodo": "texto"
-    },
-    {
-     "perfume": "yves-saint-laurent-l-homme-edt-100",
-     "precio": 102.35,
-     "referencia": 64.37,
-     "metodo": "texto"
-    }
-   ]
-  },
-  "notino": {
-   "ok": 0,
-   "bloqueada": 26,
-   "sin_precio": 0,
-   "dudoso": 0
-  },
-  "paco": {
-   "ok": 22,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 1,
-   "jsonld": 21,
-   "precio-100ml": 1,
-   "ejemplos": [
-    {
-     "perfume": "hermes-h24-edt-100",
-     "precio": 135.0,
-     "referencia": 78.62,
-     "metodo": "texto"
-    }
-   ]
-  },
-  "parejo": {
-   "ok": 4,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "jsonld": 4
-  },
-  "sephora": {
-   "ok": 0,
-   "bloqueada": 6,
-   "sin_precio": 0,
-   "dudoso": 0
-  },
   "arabicparfums": {
    "ok": 2,
    "bloqueada": 0,
@@ -104,54 +9,141 @@
    "dudoso": 0,
    "jsonld": 2
   },
-  "sabina": {
-   "ok": 18,
+  "beautinow": {
+   "ok": 0,
    "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 2,
-   "jsonld": 16,
-   "ejemplos": [
-    {
-     "perfume": "hugo-boss-boss-bottled-tonic-edt-100",
-     "precio": 89.19,
-     "referencia": 40.24,
-     "metodo": "texto"
-    },
-    {
-     "perfume": "kilian-angels-share-edp-50",
-     "precio": 116.83,
-     "referencia": 161.99,
-     "metodo": "texto"
-    }
-   ],
-   "texto": 1,
-   "precio-100ml": 1
+   "sin_precio": 4,
+   "dudoso": 0
   },
-  "perfumesclub": {
-   "ok": 4,
+  "idealo": {
+   "ok": 33,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "jsonld": 4
+   "jsonld": 6,
+   "jsonld-url": 27
+  },
+  "laguna": {
+   "ok": 17,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "jsonld": 8,
+   "jsonld-url": 5,
+   "precio-100ml": 4
+  },
+  "notino": {
+   "ok": 0,
+   "bloqueada": 26,
+   "sin_precio": 0,
+   "dudoso": 0
+  },
+  "parejo": {
+   "ok": 11,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "jsonld": 11
+  },
+  "sabina": {
+   "ok": 20,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 1,
+   "jsonld": 19,
+   "precio-100ml": 1,
+   "ejemplos": [
+    {
+     "perfume": "mancera-instant-crush-edp-120",
+     "precio": 155.0,
+     "referencia": 81.71,
+     "metodo": "jsonld"
+    }
+   ]
   },
   "firstinfragrance": {
+   "ok": 6,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 1,
+   "jsonld": 6,
+   "ejemplos": [
+    {
+     "perfume": "mancera-instant-crush-edp-120",
+     "precio": 159.0,
+     "referencia": 98.97999999999999,
+     "metodo": "jsonld"
+    }
+   ]
+  },
+  "lookfantastic": {
+   "ok": 2,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 18,
+   "ejemplos": [
+    {
+     "perfume": "maison-margiela-replica-by-the-fireplace-edt-100",
+     "precio": 3.99,
+     "referencia": 130.81,
+     "metodo": "texto"
+    },
+    {
+     "perfume": "mugler-alien-edp-60",
+     "precio": 118.45,
+     "referencia": 68.8,
+     "metodo": "texto"
+    },
+    {
+     "perfume": "narciso-rodriguez-bleu-noir-edp-100",
+     "precio": 3.99,
+     "referencia": 69.95,
+     "metodo": "texto"
+    }
+   ],
+   "jsonld": 2
+  },
+  "avenida": {
+   "ok": 12,
+   "bloqueada": 0,
+   "sin_precio": 2,
+   "dudoso": 0,
+   "variantes": 11,
+   "jsonld": 1
+  },
+  "paco": {
+   "ok": 18,
+   "bloqueada": 0,
+   "sin_precio": 1,
+   "dudoso": 0,
+   "jsonld": 18
+  },
+  "brasty": {
    "ok": 1,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
    "jsonld": 1
   },
-  "beautinow": {
-   "ok": 0,
+  "douglas": {
+   "ok": 2,
    "bloqueada": 0,
-   "sin_precio": 1,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "precio-100ml": 2
+  },
+  "sephora": {
+   "ok": 0,
+   "bloqueada": 5,
+   "sin_precio": 0,
    "dudoso": 0
   },
-  "douglas": {
-   "ok": 0,
+  "perfumesclub": {
+   "ok": 2,
    "bloqueada": 0,
-   "sin_precio": 1,
-   "dudoso": 0
+   "sin_precio": 0,
+   "dudoso": 0,
+   "jsonld": 2
   }
  },
  "limpiados": {},
