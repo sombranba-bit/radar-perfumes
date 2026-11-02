@@ -1,5 +1,5 @@
 {
- "at": "2026-11-01T03:26:23+01:00",
+ "at": "2026-11-02T04:33:50+01:00",
  "tiendas": {
   "primor": {
    "url": "https://www.primor.eu/es_es/catalogsearch/result/?q=boss+bottled",
@@ -29,41 +29,41 @@
   "douglas": {
    "url": "https://www.douglas.es/es/search?q=boss%20bottled",
    "codigo": 200,
-   "kb": 1649,
+   "kb": 1648,
    "titulo": "Resultados para \"boss bottled\"",
    "precios_eur": 416,
    "jsonld": 1,
-   "menciona_boss": 926,
+   "menciona_boss": 922,
    "estado": "con precios"
   },
   "eci": {
    "url": "https://www.elcorteingles.es/buscar/?s=boss+bottled",
    "codigo": 404,
-   "kb": 327,
+   "kb": 299,
    "titulo": "El Corte Inglés",
-   "precios_eur": 15,
+   "precios_eur": 2,
    "jsonld": 0,
    "menciona_boss": 23,
-   "estado": "con precios"
+   "estado": "entra, sin precios"
   },
   "amazon": {
    "url": "https://www.amazon.es/s?k=boss+bottled+edt+100+ml",
-   "codigo": 503,
-   "kb": 1,
-   "titulo": "Lo sentimos.",
+   "codigo": 200,
+   "kb": 749,
+   "titulo": "Amazon.es : boss bottled edt 100 ml",
    "precios_eur": 0,
    "jsonld": 0,
-   "menciona_boss": 0,
-   "estado": "bloqueada"
+   "menciona_boss": 87,
+   "estado": "entra, sin precios"
   },
   "idealo": {
    "url": "https://www.idealo.es/resultados.html?q=boss+bottled",
    "codigo": 200,
-   "kb": 958,
+   "kb": 953,
    "titulo": "boss bottled en idealo.es",
    "precios_eur": 123,
    "jsonld": 0,
-   "menciona_boss": 569,
+   "menciona_boss": 572,
    "estado": "con precios"
   },
   "bodybell": {
@@ -124,11 +124,11 @@
   "makeup": {
    "url": "https://makeup.es/search/?q=boss+bottled",
    "codigo": 200,
-   "kb": 982,
+   "kb": 978,
    "titulo": "Resultados de la búsqueda | Makeup.es",
    "precios_eur": 66,
    "jsonld": 3,
-   "menciona_boss": 289,
+   "menciona_boss": 283,
    "estado": "con precios"
   },
   "gotta": {
@@ -174,7 +174,7 @@
   "perfumesclub": {
    "url": "https://www.perfumesclub.com/es/buscar/?q=boss+bottled",
    "codigo": 404,
-   "kb": 285,
+   "kb": 284,
    "titulo": "Página no encontrada - Error 404",
    "precios_eur": 5,
    "jsonld": 0,
