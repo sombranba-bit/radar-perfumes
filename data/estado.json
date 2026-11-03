@@ -1,95 +1,123 @@
 {
- "at": "2026-11-03T00:15:29+01:00",
+ "at": "2026-11-03T01:07:01+01:00",
  "revisados": 35,
  "tiendas": {
   "idealo": {
-   "ok": 33,
+   "ok": 32,
    "bloqueada": 0,
-   "sin_precio": 1,
-   "dudoso": 0,
-   "jsonld-url": 30,
-   "jsonld": 3
-  },
-  "lookfantastic": {
-   "ok": 2,
-   "bloqueada": 0,
-   "sin_precio": 2,
-   "dudoso": 9,
-   "ejemplos": [
-    {
-     "perfume": "calvin-klein-obsession-for-men-edt-125",
-     "precio": 51.75,
-     "referencia": 20.9,
-     "metodo": "jsonld"
-    },
-    {
-     "perfume": "carolina-herrera-very-good-girl-edp-80",
-     "precio": 3.99,
-     "referencia": 99.95,
-     "metodo": "texto"
-    },
-    {
-     "perfume": "burberry-her-edp-100",
-     "precio": 3.99,
-     "referencia": 74.795,
-     "metodo": "texto"
-    }
-   ],
-   "jsonld": 2
-  },
-  "notino": {
-   "ok": 4,
-   "bloqueada": 18,
    "sin_precio": 0,
    "dudoso": 0,
+   "jsonld-url": 28,
    "jsonld": 4
   },
   "paco": {
-   "ok": 19,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "jsonld": 19
-  },
-  "parejo": {
-   "ok": 5,
+   "ok": 22,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 1,
-   "jsonld": 5,
+   "jsonld": 21,
+   "precio-100ml": 1,
    "ejemplos": [
     {
-     "perfume": "bvlgari-man-in-black-edp-100",
-     "precio": 126.65,
-     "referencia": 76.16,
+     "perfume": "lancome-la-nuit-tresor-edp-100",
+     "precio": 179.0,
+     "referencia": 84.95,
+     "metodo": "texto"
+    }
+   ]
+  },
+  "parejo": {
+   "ok": 9,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 1,
+   "jsonld": 9,
+   "ejemplos": [
+    {
+     "perfume": "dior-sauvage-parfum-parfum-100",
+     "precio": 176.8,
+     "referencia": 102.495,
      "metodo": "jsonld"
     }
    ]
   },
-  "laguna": {
-   "ok": 8,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "jsonld": 4,
-   "precio-100ml": 4
-  },
   "sabina": {
-   "ok": 18,
+   "ok": 12,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 1,
-   "jsonld": 16,
+   "jsonld": 11,
    "precio-100ml": 1,
-   "texto": 1,
    "ejemplos": [
     {
-     "perfume": "diptyque-tam-dao-edt-100",
-     "precio": 228.57,
-     "referencia": 155.0,
+     "perfume": "hugo-boss-boss-orange-man-edt-100",
+     "precio": 89.19,
+     "referencia": 29.95,
      "metodo": "texto"
     }
    ]
+  },
+  "douglas": {
+   "ok": 3,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "precio-100ml": 3
+  },
+  "avenida": {
+   "ok": 9,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "variantes": 9
+  },
+  "laguna": {
+   "ok": 11,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "jsonld": 6,
+   "jsonld-url": 5
+  },
+  "lookfantastic": {
+   "ok": 1,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 16,
+   "ejemplos": [
+    {
+     "perfume": "dolce-gabbana-devotion-edp-100",
+     "precio": 3.99,
+     "referencia": 83.935,
+     "metodo": "texto"
+    },
+    {
+     "perfume": "dolce-gabbana-the-one-edp-75",
+     "precio": 45.43,
+     "referencia": 82.98,
+     "metodo": "texto"
+    },
+    {
+     "perfume": "gucci-bloom-edp-100",
+     "precio": 3.99,
+     "referencia": 73.1,
+     "metodo": "texto"
+    }
+   ],
+   "jsonld": 1
+  },
+  "notino": {
+   "ok": 0,
+   "bloqueada": 26,
+   "sin_precio": 0,
+   "dudoso": 0
+  },
+  "perfumesclub": {
+   "ok": 1,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "jsonld": 1
   },
   "sephora": {
    "ok": 0,
@@ -97,46 +125,19 @@
    "sin_precio": 0,
    "dudoso": 0
   },
-  "firstinfragrance": {
-   "ok": 7,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "jsonld": 7
-  },
-  "avenida": {
-   "ok": 3,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "variantes": 3
-  },
-  "perfumesclub": {
+  "arabicparfums": {
    "ok": 3,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
    "jsonld": 3
   },
-  "beautinow": {
-   "ok": 0,
-   "bloqueada": 0,
-   "sin_precio": 2,
-   "dudoso": 0
-  },
-  "arabicparfums": {
-   "ok": 2,
+  "firstinfragrance": {
+   "ok": 1,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "jsonld": 2
-  },
-  "douglas": {
-   "ok": 2,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "precio-100ml": 2
+   "jsonld": 1
   }
  },
  "limpiados": {},
