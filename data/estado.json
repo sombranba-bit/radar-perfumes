@@ -1,128 +1,157 @@
 {
- "at": "2026-11-03T01:07:01+01:00",
+ "at": "2026-11-03T02:43:50+01:00",
  "revisados": 35,
  "tiendas": {
   "idealo": {
    "ok": 32,
    "bloqueada": 0,
    "sin_precio": 0,
-   "dudoso": 0,
-   "jsonld-url": 28,
-   "jsonld": 4
-  },
-  "paco": {
-   "ok": 22,
-   "bloqueada": 0,
-   "sin_precio": 0,
    "dudoso": 1,
-   "jsonld": 21,
-   "precio-100ml": 1,
+   "jsonld-url": 24,
+   "jsonld": 6,
+   "texto": 2,
    "ejemplos": [
     {
-     "perfume": "lancome-la-nuit-tresor-edp-100",
-     "precio": 179.0,
-     "referencia": 84.95,
-     "metodo": "texto"
+     "perfume": "kilian-angels-share-edp-50",
+     "precio": 182.01,
+     "referencia": 116.83,
+     "metodo": "jsonld-url"
     }
    ]
   },
-  "parejo": {
-   "ok": 9,
+  "laguna": {
+   "ok": 18,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "jsonld": 10,
+   "precio-100ml": 5,
+   "jsonld-url": 3
+  },
+  "notino": {
+   "ok": 2,
+   "bloqueada": 21,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "jsonld": 2
+  },
+  "paco": {
+   "ok": 16,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 1,
-   "jsonld": 9,
+   "jsonld": 15,
+   "precio-100ml": 1,
    "ejemplos": [
     {
-     "perfume": "dior-sauvage-parfum-parfum-100",
-     "precio": 176.8,
-     "referencia": 102.495,
-     "metodo": "jsonld"
+     "perfume": "hermes-h24-edt-100",
+     "precio": 135.0,
+     "referencia": 78.62,
+     "metodo": "texto"
     }
    ]
   },
   "sabina": {
-   "ok": 12,
+   "ok": 23,
    "bloqueada": 0,
    "sin_precio": 0,
-   "dudoso": 1,
-   "jsonld": 11,
-   "precio-100ml": 1,
+   "dudoso": 2,
+   "jsonld": 20,
    "ejemplos": [
     {
-     "perfume": "hugo-boss-boss-orange-man-edt-100",
+     "perfume": "hugo-boss-boss-bottled-tonic-edt-100",
      "precio": 89.19,
-     "referencia": 29.95,
+     "referencia": 40.24,
+     "metodo": "texto"
+    },
+    {
+     "perfume": "kilian-angels-share-edp-50",
+     "precio": 116.83,
+     "referencia": 161.99,
+     "metodo": "texto"
+    }
+   ],
+   "texto": 1,
+   "precio-100ml": 2
+  },
+  "perfumesclub": {
+   "ok": 4,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "jsonld": 4
+  },
+  "avenida": {
+   "ok": 13,
+   "bloqueada": 0,
+   "sin_precio": 1,
+   "dudoso": 1,
+   "variantes": 13,
+   "ejemplos": [
+    {
+     "perfume": "issey-miyake-l-eau-d-issey-pour-homme-edt-125",
+     "precio": 74.95,
+     "referencia": 47.375,
+     "metodo": "variantes"
+    }
+   ]
+  },
+  "lookfantastic": {
+   "ok": 0,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 18,
+   "ejemplos": [
+    {
+     "perfume": "hugo-boss-boss-alive-edp-80",
+     "precio": 3.99,
+     "referencia": 55.12,
+     "metodo": "texto"
+    },
+    {
+     "perfume": "hugo-boss-boss-bottled-beyond-edp-100",
+     "precio": 3.99,
+     "referencia": 73.945,
+     "metodo": "texto"
+    },
+    {
+     "perfume": "hugo-boss-boss-bottled-tonic-edt-100",
+     "precio": 3.99,
+     "referencia": 40.24,
      "metodo": "texto"
     }
    ]
   },
-  "douglas": {
-   "ok": 3,
+  "firstinfragrance": {
+   "ok": 5,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "precio-100ml": 3
+   "jsonld": 5
   },
-  "avenida": {
-   "ok": 9,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "variantes": 9
-  },
-  "laguna": {
-   "ok": 11,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "jsonld": 6,
-   "jsonld-url": 5
-  },
-  "lookfantastic": {
-   "ok": 1,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 16,
-   "ejemplos": [
-    {
-     "perfume": "dolce-gabbana-devotion-edp-100",
-     "precio": 3.99,
-     "referencia": 83.935,
-     "metodo": "texto"
-    },
-    {
-     "perfume": "dolce-gabbana-the-one-edp-75",
-     "precio": 45.43,
-     "referencia": 82.98,
-     "metodo": "texto"
-    },
-    {
-     "perfume": "gucci-bloom-edp-100",
-     "precio": 3.99,
-     "referencia": 73.1,
-     "metodo": "texto"
-    }
-   ],
-   "jsonld": 1
-  },
-  "notino": {
+  "beautinow": {
    "ok": 0,
-   "bloqueada": 26,
-   "sin_precio": 0,
+   "bloqueada": 0,
+   "sin_precio": 4,
    "dudoso": 0
   },
-  "perfumesclub": {
-   "ok": 1,
+  "parejo": {
+   "ok": 6,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "jsonld": 1
+   "jsonld": 6
   },
   "sephora": {
    "ok": 0,
-   "bloqueada": 2,
-   "sin_precio": 0,
+   "bloqueada": 4,
+   "sin_precio": 1,
+   "dudoso": 0
+  },
+  "douglas": {
+   "ok": 0,
+   "bloqueada": 0,
+   "sin_precio": 1,
    "dudoso": 0
   },
   "arabicparfums": {
@@ -131,13 +160,6 @@
    "sin_precio": 0,
    "dudoso": 0,
    "jsonld": 3
-  },
-  "firstinfragrance": {
-   "ok": 1,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "jsonld": 1
   }
  },
  "limpiados": {},
