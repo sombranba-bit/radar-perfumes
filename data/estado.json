@@ -1,165 +1,159 @@
 {
- "at": "2026-11-03T02:43:50+01:00",
+ "at": "2026-11-03T03:50:42+01:00",
  "revisados": 35,
  "tiendas": {
-  "idealo": {
-   "ok": 32,
+  "firstinfragrance": {
+   "ok": 2,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 1,
-   "jsonld-url": 24,
-   "jsonld": 6,
-   "texto": 2,
    "ejemplos": [
     {
-     "perfume": "kilian-angels-share-edp-50",
-     "precio": 182.01,
-     "referencia": 116.83,
-     "metodo": "jsonld-url"
+     "perfume": "mancera-instant-crush-edp-120",
+     "precio": 159.0,
+     "referencia": 98.97999999999999,
+     "metodo": "jsonld"
+    }
+   ],
+   "jsonld": 2
+  },
+  "idealo": {
+   "ok": 34,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "jsonld-url": 32,
+   "jsonld": 2
+  },
+  "notino": {
+   "ok": 1,
+   "bloqueada": 30,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "jsonld": 1
+  },
+  "sabina": {
+   "ok": 20,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 1,
+   "ejemplos": [
+    {
+     "perfume": "mancera-instant-crush-edp-120",
+     "precio": 155.0,
+     "referencia": 81.71,
+     "metodo": "jsonld"
+    }
+   ],
+   "jsonld": 18,
+   "precio-100ml": 1,
+   "texto": 1
+  },
+  "avenida": {
+   "ok": 16,
+   "bloqueada": 0,
+   "sin_precio": 2,
+   "dudoso": 0,
+   "variantes": 14,
+   "jsonld": 2
+  },
+  "paco": {
+   "ok": 23,
+   "bloqueada": 0,
+   "sin_precio": 1,
+   "dudoso": 0,
+   "jsonld": 23
+  },
+  "parejo": {
+   "ok": 11,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 1,
+   "jsonld": 11,
+   "ejemplos": [
+    {
+     "perfume": "yves-saint-laurent-black-opium-edp-90",
+     "precio": 153.0,
+     "referencia": 88.54,
+     "metodo": "jsonld"
     }
    ]
   },
   "laguna": {
-   "ok": 18,
+   "ok": 20,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "jsonld": 10,
-   "precio-100ml": 5,
-   "jsonld-url": 3
+   "jsonld-url": 7,
+   "jsonld": 7,
+   "precio-100ml": 6
   },
-  "notino": {
+  "lookfantastic": {
+   "ok": 3,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 24,
+   "ejemplos": [
+    {
+     "perfume": "mugler-alien-edp-60",
+     "precio": 118.45,
+     "referencia": 69.515,
+     "metodo": "texto"
+    },
+    {
+     "perfume": "narciso-rodriguez-bleu-noir-edp-100",
+     "precio": 3.99,
+     "referencia": 69.95,
+     "metodo": "texto"
+    },
+    {
+     "perfume": "narciso-rodriguez-for-her-edp-100",
+     "precio": 3.99,
+     "referencia": 82.95,
+     "metodo": "texto"
+    }
+   ],
+   "jsonld": 3
+  },
+  "brasty": {
    "ok": 2,
-   "bloqueada": 21,
+   "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
    "jsonld": 2
   },
-  "paco": {
-   "ok": 16,
+  "douglas": {
+   "ok": 2,
    "bloqueada": 0,
    "sin_precio": 0,
-   "dudoso": 1,
-   "jsonld": 15,
-   "precio-100ml": 1,
-   "ejemplos": [
-    {
-     "perfume": "hermes-h24-edt-100",
-     "precio": 135.0,
-     "referencia": 78.62,
-     "metodo": "texto"
-    }
-   ]
-  },
-  "sabina": {
-   "ok": 23,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 2,
-   "jsonld": 20,
-   "ejemplos": [
-    {
-     "perfume": "hugo-boss-boss-bottled-tonic-edt-100",
-     "precio": 89.19,
-     "referencia": 40.24,
-     "metodo": "texto"
-    },
-    {
-     "perfume": "kilian-angels-share-edp-50",
-     "precio": 116.83,
-     "referencia": 161.99,
-     "metodo": "texto"
-    }
-   ],
-   "texto": 1,
+   "dudoso": 0,
    "precio-100ml": 2
   },
-  "perfumesclub": {
-   "ok": 4,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "jsonld": 4
-  },
-  "avenida": {
-   "ok": 13,
-   "bloqueada": 0,
-   "sin_precio": 1,
-   "dudoso": 1,
-   "variantes": 13,
-   "ejemplos": [
-    {
-     "perfume": "issey-miyake-l-eau-d-issey-pour-homme-edt-125",
-     "precio": 74.95,
-     "referencia": 47.375,
-     "metodo": "variantes"
-    }
-   ]
-  },
-  "lookfantastic": {
+  "sephora": {
    "ok": 0,
-   "bloqueada": 0,
+   "bloqueada": 8,
    "sin_precio": 0,
-   "dudoso": 18,
-   "ejemplos": [
-    {
-     "perfume": "hugo-boss-boss-alive-edp-80",
-     "precio": 3.99,
-     "referencia": 55.12,
-     "metodo": "texto"
-    },
-    {
-     "perfume": "hugo-boss-boss-bottled-beyond-edp-100",
-     "precio": 3.99,
-     "referencia": 73.945,
-     "metodo": "texto"
-    },
-    {
-     "perfume": "hugo-boss-boss-bottled-tonic-edt-100",
-     "precio": 3.99,
-     "referencia": 40.24,
-     "metodo": "texto"
-    }
-   ]
-  },
-  "firstinfragrance": {
-   "ok": 5,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "jsonld": 5
+   "dudoso": 0
   },
   "beautinow": {
    "ok": 0,
    "bloqueada": 0,
-   "sin_precio": 4,
+   "sin_precio": 3,
    "dudoso": 0
   },
-  "parejo": {
-   "ok": 6,
+  "perfumesclub": {
+   "ok": 2,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "jsonld": 6
-  },
-  "sephora": {
-   "ok": 0,
-   "bloqueada": 4,
-   "sin_precio": 1,
-   "dudoso": 0
-  },
-  "douglas": {
-   "ok": 0,
-   "bloqueada": 0,
-   "sin_precio": 1,
-   "dudoso": 0
+   "jsonld": 2
   },
   "arabicparfums": {
-   "ok": 3,
+   "ok": 1,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "jsonld": 3
+   "jsonld": 1
   }
  },
  "limpiados": {},
