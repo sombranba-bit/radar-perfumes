@@ -1,150 +1,167 @@
 {
- "at": "2026-11-04T11:44:00+01:00",
+ "at": "2026-11-04T12:59:13+01:00",
  "revisados": 35,
  "tiendas": {
   "avenida": {
-   "ok": 16,
+   "ok": 6,
    "bloqueada": 0,
    "sin_precio": 1,
    "dudoso": 0,
-   "variantes": 16
+   "variantes": 6
+  },
+  "beautinow": {
+   "ok": 0,
+   "bloqueada": 0,
+   "sin_precio": 5,
+   "dudoso": 0
   },
   "idealo": {
-   "ok": 31,
+   "ok": 33,
    "bloqueada": 0,
-   "sin_precio": 0,
+   "sin_precio": 1,
    "dudoso": 1,
-   "jsonld-url": 31,
+   "jsonld-url": 29,
+   "jsonld": 3,
+   "texto": 1,
    "ejemplos": [
     {
-     "perfume": "acqua-di-parma-colonia-edc-100",
-     "precio": 172.49,
-     "referencia": 96.71,
-     "metodo": "jsonld"
+     "perfume": "creed-silver-mountain-water-edp-100",
+     "precio": 25.75,
+     "referencia": 320.0,
+     "metodo": "texto"
     }
    ]
   },
   "laguna": {
-   "ok": 18,
+   "ok": 11,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "jsonld-url": 7,
-   "precio-100ml": 5,
-   "jsonld": 6
+   "jsonld-url": 4,
+   "precio-100ml": 4,
+   "jsonld": 3
   },
   "lookfantastic": {
-   "ok": 3,
+   "ok": 2,
    "bloqueada": 0,
    "sin_precio": 1,
-   "dudoso": 18,
+   "dudoso": 13,
    "ejemplos": [
     {
-     "perfume": "calvin-klein-eternity-for-men-edt-100",
+     "perfume": "versace-eros-edt-100",
      "precio": 3.99,
-     "referencia": 36.525000000000006,
+     "referencia": 67.4,
      "metodo": "texto"
     },
     {
-     "perfume": "carolina-herrera-bad-boy-edt-100",
+     "perfume": "carolina-herrera-212-men-edt-100",
      "precio": 3.99,
-     "referencia": 74.93,
+     "referencia": 53.040000000000006,
      "metodo": "texto"
     },
     {
-     "perfume": "carolina-herrera-good-girl-edp-80",
+     "perfume": "versace-dylan-blue-edt-100",
      "precio": 3.99,
-     "referencia": 94.95,
+     "referencia": 64.475,
      "metodo": "texto"
     }
    ],
-   "jsonld": 3
+   "jsonld": 2
   },
   "notino": {
+   "ok": 2,
+   "bloqueada": 25,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "jsonld": 2
+  },
+  "parejo": {
+   "ok": 9,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 1,
+   "jsonld": 9,
+   "ejemplos": [
+    {
+     "perfume": "bvlgari-man-in-black-edp-100",
+     "precio": 126.65,
+     "referencia": 68.0,
+     "metodo": "jsonld"
+    }
+   ]
+  },
+  "sabina": {
+   "ok": 19,
+   "bloqueada": 1,
+   "sin_precio": 0,
+   "dudoso": 3,
+   "jsonld": 16,
+   "ejemplos": [
+    {
+     "perfume": "davidoff-the-game-edt-100",
+     "precio": 89.19,
+     "referencia": 22.630000000000003,
+     "metodo": "texto"
+    },
+    {
+     "perfume": "amouage-reflection-man-edp-100",
+     "precio": 89.19,
+     "referencia": 342.5,
+     "metodo": "texto"
+    },
+    {
+     "perfume": "diptyque-tam-dao-edt-100",
+     "precio": 228.57,
+     "referencia": 155.0,
+     "metodo": "texto"
+    }
+   ],
+   "precio-100ml": 2,
+   "texto": 1
+  },
+  "sephora": {
    "ok": 0,
-   "bloqueada": 24,
+   "bloqueada": 7,
    "sin_precio": 0,
    "dudoso": 0
   },
   "paco": {
-   "ok": 26,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 1,
-   "jsonld": 26,
-   "ejemplos": [
-    {
-     "perfume": "hugo-boss-boss-bottled-absolu-parfum-100",
-     "precio": 140.0,
-     "referencia": 85.85,
-     "metodo": "texto"
-    }
-   ]
-  },
-  "perfumesclub": {
-   "ok": 2,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "jsonld": 2
-  },
-  "sabina": {
-   "ok": 27,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 2,
-   "jsonld": 24,
-   "ejemplos": [
-    {
-     "perfume": "dior-j-adore-edp-100",
-     "precio": 67.62,
-     "referencia": 130.95,
-     "metodo": "texto"
-    },
-    {
-     "perfume": "hugo-boss-boss-bottled-infinite-edp-100",
-     "precio": 89.19,
-     "referencia": 49.62,
-     "metodo": "texto"
-    }
-   ],
-   "texto": 3
-  },
-  "parejo": {
-   "ok": 0,
-   "bloqueada": 0,
-   "sin_precio": 7,
-   "dudoso": 0
-  },
-  "sephora": {
-   "ok": 0,
-   "bloqueada": 9,
-   "sin_precio": 0,
-   "dudoso": 0
-  },
-  "douglas": {
-   "ok": 4,
+   "ok": 16,
    "bloqueada": 0,
    "sin_precio": 1,
    "dudoso": 1,
-   "precio-100ml": 4,
+   "jsonld": 16,
    "ejemplos": [
     {
-     "perfume": "chanel-chanel-n-5-edp-100",
-     "precio": 727.09,
-     "referencia": 140.8,
-     "metodo": "precio-100ml"
+     "perfume": "armani-acqua-di-gio-profondo-edp-75",
+     "precio": 50.0,
+     "referencia": null,
+     "metodo": "texto"
     }
    ]
   },
-  "brasty": {
-   "ok": 2,
+  "firstinfragrance": {
+   "ok": 4,
+   "bloqueada": 4,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "jsonld": 4
+  },
+  "douglas": {
+   "ok": 1,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "jsonld": 2
+   "precio-100ml": 1
   },
-  "firstinfragrance": {
+  "arabicparfums": {
+   "ok": 1,
+   "bloqueada": 1,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "jsonld-url": 1
+  },
+  "perfumesclub": {
    "ok": 1,
    "bloqueada": 0,
    "sin_precio": 0,
