@@ -1,142 +1,179 @@
 {
- "at": "2026-11-04T01:54:55+01:00",
+ "at": "2026-11-04T02:59:07+01:00",
  "revisados": 35,
  "tiendas": {
-  "douglas": {
-   "ok": 3,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "precio-100ml": 3
-  },
   "idealo": {
-   "ok": 32,
+   "ok": 31,
    "bloqueada": 0,
    "sin_precio": 0,
+   "dudoso": 2,
+   "jsonld-url": 24,
+   "jsonld": 5,
+   "texto": 2,
+   "ejemplos": [
+    {
+     "perfume": "kilian-angels-share-edp-50",
+     "precio": 182.01,
+     "referencia": 116.83,
+     "metodo": "jsonld-url"
+    },
+    {
+     "perfume": "le-labo-another-13-edp-100",
+     "precio": 57.91,
+     "referencia": 399.0,
+     "metodo": "texto"
+    }
+   ]
+  },
+  "notino": {
+   "ok": 4,
+   "bloqueada": 19,
+   "sin_precio": 0,
    "dudoso": 0,
-   "jsonld-url": 28,
    "jsonld": 4
   },
-  "parejo": {
-   "ok": 8,
+  "paco": {
+   "ok": 15,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 1,
+   "precio-100ml": 1,
    "ejemplos": [
     {
-     "perfume": "dior-sauvage-parfum-parfum-100",
-     "precio": 176.8,
-     "referencia": 102.495,
+     "perfume": "hermes-h24-edt-100",
+     "precio": 135.0,
+     "referencia": 78.62,
+     "metodo": "texto"
+    }
+   ],
+   "jsonld": 14
+  },
+  "perfumesclub": {
+   "ok": 4,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "jsonld": 4
+  },
+  "sabina": {
+   "ok": 23,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 2,
+   "jsonld": 19,
+   "ejemplos": [
+    {
+     "perfume": "hugo-boss-boss-bottled-tonic-edt-100",
+     "precio": 89.19,
+     "referencia": 40.24,
+     "metodo": "texto"
+    },
+    {
+     "perfume": "mancera-instant-crush-edp-120",
+     "precio": 155.0,
+     "referencia": 81.71,
      "metodo": "jsonld"
     }
    ],
-   "jsonld": 8
+   "texto": 2,
+   "precio-100ml": 2
   },
   "avenida": {
-   "ok": 9,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "variantes": 9
-  },
-  "laguna": {
-   "ok": 12,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "jsonld": 7,
-   "jsonld-url": 5
-  },
-  "lookfantastic": {
-   "ok": 1,
+   "ok": 13,
    "bloqueada": 0,
    "sin_precio": 1,
-   "dudoso": 15,
+   "dudoso": 1,
+   "variantes": 13,
    "ejemplos": [
     {
-     "perfume": "dolce-gabbana-devotion-edp-100",
-     "precio": 3.99,
-     "referencia": 83.935,
-     "metodo": "texto"
-    },
-    {
-     "perfume": "dolce-gabbana-the-one-edp-75",
-     "precio": 45.43,
-     "referencia": 82.98,
-     "metodo": "texto"
-    },
-    {
-     "perfume": "gucci-bloom-edp-100",
-     "precio": 3.99,
-     "referencia": 73.1,
-     "metodo": "texto"
+     "perfume": "issey-miyake-l-eau-d-issey-pour-homme-edt-125",
+     "precio": 74.95,
+     "referencia": 47.375,
+     "metodo": "variantes"
     }
-   ],
-   "jsonld": 1
+   ]
   },
-  "notino": {
+  "lookfantastic": {
    "ok": 0,
-   "bloqueada": 27,
-   "sin_precio": 0,
-   "dudoso": 0
-  },
-  "paco": {
-   "ok": 22,
    "bloqueada": 0,
    "sin_precio": 0,
-   "dudoso": 1,
-   "jsonld": 21,
-   "precio-100ml": 1,
+   "dudoso": 18,
    "ejemplos": [
     {
-     "perfume": "lancome-la-nuit-tresor-edp-100",
-     "precio": 179.0,
-     "referencia": 84.95,
+     "perfume": "hugo-boss-boss-alive-edp-80",
+     "precio": 3.99,
+     "referencia": 55.12,
+     "metodo": "texto"
+    },
+    {
+     "perfume": "hugo-boss-boss-bottled-beyond-edp-100",
+     "precio": 3.99,
+     "referencia": 73.945,
+     "metodo": "texto"
+    },
+    {
+     "perfume": "hugo-boss-boss-bottled-tonic-edt-100",
+     "precio": 3.99,
+     "referencia": 40.24,
      "metodo": "texto"
     }
    ]
   },
-  "perfumesclub": {
-   "ok": 1,
+  "laguna": {
+   "ok": 17,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "jsonld": 1
+   "jsonld": 9,
+   "precio-100ml": 5,
+   "jsonld-url": 3
   },
-  "sabina": {
-   "ok": 12,
-   "bloqueada": 0,
+  "firstinfragrance": {
+   "ok": 3,
+   "bloqueada": 2,
    "sin_precio": 0,
    "dudoso": 1,
-   "jsonld": 11,
-   "precio-100ml": 1,
+   "jsonld": 3,
    "ejemplos": [
     {
-     "perfume": "hugo-boss-boss-orange-man-edt-100",
-     "precio": 89.19,
-     "referencia": 29.95,
-     "metodo": "texto"
+     "perfume": "mancera-instant-crush-edp-120",
+     "precio": 159.0,
+     "referencia": 98.97999999999999,
+     "metodo": "jsonld"
     }
    ]
+  },
+  "beautinow": {
+   "ok": 0,
+   "bloqueada": 0,
+   "sin_precio": 4,
+   "dudoso": 0
+  },
+  "parejo": {
+   "ok": 6,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "jsonld": 6
   },
   "sephora": {
    "ok": 0,
-   "bloqueada": 2,
+   "bloqueada": 5,
    "sin_precio": 0,
+   "dudoso": 0
+  },
+  "douglas": {
+   "ok": 0,
+   "bloqueada": 0,
+   "sin_precio": 1,
    "dudoso": 0
   },
   "arabicparfums": {
-   "ok": 2,
-   "bloqueada": 1,
+   "ok": 1,
+   "bloqueada": 2,
    "sin_precio": 0,
    "dudoso": 0,
-   "jsonld": 2
-  },
-  "firstinfragrance": {
-   "ok": 0,
-   "bloqueada": 1,
-   "sin_precio": 0,
-   "dudoso": 0
+   "jsonld": 1
   }
  },
  "limpiados": {},
