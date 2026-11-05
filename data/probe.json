@@ -1,5 +1,5 @@
 {
- "at": "2026-11-04T05:56:44+01:00",
+ "at": "2026-11-05T05:59:37+01:00",
  "tiendas": {
   "primor": {
    "url": "https://www.primor.eu/es_es/catalogsearch/result/?q=boss+bottled",
@@ -29,7 +29,7 @@
   "douglas": {
    "url": "https://www.douglas.es/es/search?q=boss%20bottled",
    "codigo": 200,
-   "kb": 1634,
+   "kb": 1635,
    "titulo": "Resultados para \"boss bottled\"",
    "precios_eur": 420,
    "jsonld": 1,
@@ -39,7 +39,7 @@
   "eci": {
    "url": "https://www.elcorteingles.es/buscar/?s=boss+bottled",
    "codigo": 404,
-   "kb": 320,
+   "kb": 328,
    "titulo": "El Corte Inglés",
    "precios_eur": 2,
    "jsonld": 0,
@@ -59,9 +59,9 @@
   "idealo": {
    "url": "https://www.idealo.es/resultados.html?q=boss+bottled",
    "codigo": 200,
-   "kb": 948,
+   "kb": 949,
    "titulo": "boss bottled en idealo.es",
-   "precios_eur": 125,
+   "precios_eur": 123,
    "jsonld": 0,
    "menciona_boss": 572,
    "estado": "con precios"
@@ -126,9 +126,9 @@
    "codigo": 200,
    "kb": 992,
    "titulo": "Resultados de la búsqueda | Makeup.es",
-   "precios_eur": 68,
+   "precios_eur": 65,
    "jsonld": 3,
-   "menciona_boss": 289,
+   "menciona_boss": 288,
    "estado": "con precios"
   },
   "gotta": {
