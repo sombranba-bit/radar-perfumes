@@ -1,178 +1,141 @@
 {
- "at": "2026-11-05T00:20:10+01:00",
+ "at": "2026-11-05T01:13:27+01:00",
  "revisados": 35,
  "tiendas": {
-  "douglas": {
-   "ok": 2,
-   "bloqueada": 0,
-   "sin_precio": 1,
-   "dudoso": 0,
-   "precio-100ml": 2
-  },
   "idealo": {
-   "ok": 31,
+   "ok": 33,
    "bloqueada": 0,
-   "sin_precio": 1,
+   "sin_precio": 0,
    "dudoso": 1,
-   "jsonld-url": 28,
+   "jsonld-url": 30,
    "ejemplos": [
     {
-     "perfume": "acqua-di-parma-colonia-edc-100",
-     "precio": 172.49,
-     "referencia": 96.71,
-     "metodo": "jsonld"
+     "perfume": "creed-silver-mountain-water-edp-100",
+     "precio": 25.75,
+     "referencia": 320.0,
+     "metodo": "texto"
     }
    ],
-   "jsonld": 2,
-   "texto": 1
-  },
-  "laguna": {
-   "ok": 19,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "precio-100ml": 5,
-   "jsonld": 7,
-   "jsonld-url": 7
-  },
-  "notino": {
-   "ok": 2,
-   "bloqueada": 30,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "jsonld": 2
+   "jsonld": 3
   },
   "paco": {
-   "ok": 16,
+   "ok": 18,
    "bloqueada": 0,
-   "sin_precio": 1,
-   "dudoso": 2,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "jsonld": 18
+  },
+  "sabina": {
+   "ok": 18,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 1,
    "jsonld": 16,
+   "precio-100ml": 1,
+   "texto": 1,
    "ejemplos": [
     {
-     "perfume": "hugo-boss-boss-bottled-absolu-parfum-100",
-     "precio": 140.0,
-     "referencia": 85.85,
-     "metodo": "texto"
-    },
-    {
-     "perfume": "armani-acqua-di-gio-profondo-edp-75",
-     "precio": 50.0,
-     "referencia": null,
+     "perfume": "diptyque-tam-dao-edt-100",
+     "precio": 228.57,
+     "referencia": 155.0,
      "metodo": "texto"
     }
    ]
   },
-  "parejo": {
-   "ok": 8,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 1,
-   "ejemplos": [
-    {
-     "perfume": "givenchy-l-interdit-edp-80",
-     "precio": 113.05,
-     "referencia": 74.0,
-     "metodo": "jsonld"
-    }
-   ],
-   "jsonld": 8
-  },
-  "sabina": {
-   "ok": 25,
-   "bloqueada": 0,
-   "sin_precio": 1,
-   "dudoso": 3,
-   "jsonld": 21,
-   "texto": 3,
-   "ejemplos": [
-    {
-     "perfume": "hugo-boss-boss-bottled-infinite-edp-100",
-     "precio": 89.19,
-     "referencia": 49.62,
-     "metodo": "texto"
-    },
-    {
-     "perfume": "davidoff-the-game-edt-100",
-     "precio": 89.19,
-     "referencia": 22.630000000000003,
-     "metodo": "texto"
-    },
-    {
-     "perfume": "amouage-reflection-man-edp-100",
-     "precio": 89.19,
-     "referencia": 342.5,
-     "metodo": "texto"
-    }
-   ],
-   "precio-100ml": 1
-  },
-  "avenida": {
-   "ok": 16,
+  "lookfantastic": {
+   "ok": 3,
    "bloqueada": 0,
    "sin_precio": 2,
-   "dudoso": 0,
-   "variantes": 16
+   "dudoso": 6,
+   "ejemplos": [
+    {
+     "perfume": "burberry-her-edp-100",
+     "precio": 3.99,
+     "referencia": 72.55,
+     "metodo": "texto"
+    },
+    {
+     "perfume": "burberry-hero-edt-100",
+     "precio": 94.01,
+     "referencia": 54.32,
+     "metodo": "jsonld"
+    },
+    {
+     "perfume": "davidoff-cool-water-edt-125",
+     "precio": 3.99,
+     "referencia": 25.2,
+     "metodo": "texto"
+    }
+   ],
+   "jsonld": 3
   },
-  "lookfantastic": {
+  "notino": {
+   "ok": 4,
+   "bloqueada": 16,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "jsonld": 4
+  },
+  "parejo": {
    "ok": 4,
    "bloqueada": 0,
    "sin_precio": 0,
-   "dudoso": 21,
+   "dudoso": 2,
    "jsonld": 4,
    "ejemplos": [
     {
-     "perfume": "hugo-boss-boss-bottled-edp-100",
-     "precio": 3.99,
-     "referencia": 59.95,
-     "metodo": "texto"
+     "perfume": "bvlgari-man-in-black-edp-100",
+     "precio": 126.65,
+     "referencia": 68.0,
+     "metodo": "jsonld"
     },
     {
-     "perfume": "hugo-boss-boss-bottled-elixir-elixir-100",
-     "precio": 3.99,
-     "referencia": 79.95,
-     "metodo": "texto"
-    },
-    {
-     "perfume": "hugo-boss-boss-bottled-infinite-edp-100",
-     "precio": 3.99,
-     "referencia": 49.62,
-     "metodo": "texto"
+     "perfume": "dior-sauvage-parfum-parfum-100",
+     "precio": 176.8,
+     "referencia": 102.495,
+     "metodo": "jsonld"
     }
    ]
   },
   "sephora": {
    "ok": 0,
-   "bloqueada": 12,
+   "bloqueada": 2,
    "sin_precio": 0,
    "dudoso": 0
   },
   "firstinfragrance": {
-   "ok": 3,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 1,
-   "ejemplos": [
-    {
-     "perfume": "amouage-interlude-man-edp-100",
-     "precio": 365.0,
-     "referencia": 233.99,
-     "metodo": "jsonld"
-    }
-   ],
-   "jsonld": 3
-  },
-  "perfumesclub": {
-   "ok": 1,
+   "ok": 7,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "jsonld": 1
+   "jsonld": 7
+  },
+  "laguna": {
+   "ok": 7,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "precio-100ml": 4,
+   "jsonld": 3
+  },
+  "avenida": {
+   "ok": 3,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "variantes": 3
+  },
+  "perfumesclub": {
+   "ok": 3,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "jsonld": 3
   },
   "beautinow": {
    "ok": 0,
    "bloqueada": 0,
-   "sin_precio": 4,
+   "sin_precio": 2,
    "dudoso": 0
   },
   "arabicparfums": {
@@ -180,8 +143,14 @@
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "jsonld": 1,
-   "jsonld-url": 1
+   "jsonld": 2
+  },
+  "douglas": {
+   "ok": 3,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "precio-100ml": 3
   }
  },
  "limpiados": {},
