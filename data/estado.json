@@ -1,63 +1,61 @@
 {
- "at": "2026-11-06T14:00:47+01:00",
+ "at": "2026-11-06T15:12:19+01:00",
  "revisados": 35,
  "tiendas": {
   "avenida": {
-   "ok": 21,
+   "ok": 16,
    "bloqueada": 0,
-   "sin_precio": 2,
+   "sin_precio": 1,
    "dudoso": 0,
-   "variantes": 19,
-   "jsonld": 2
+   "variantes": 16
   },
   "idealo": {
    "ok": 32,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "jsonld-url": 29,
-   "jsonld": 2,
-   "texto": 1
+   "jsonld-url": 31,
+   "jsonld": 1
   },
   "laguna": {
-   "ok": 27,
+   "ok": 17,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "jsonld-url": 11,
-   "jsonld": 8,
-   "precio-100ml": 8
+   "precio-100ml": 5,
+   "jsonld-url": 6,
+   "jsonld": 6
   },
   "lookfantastic": {
-   "ok": 3,
+   "ok": 2,
    "bloqueada": 0,
    "sin_precio": 1,
-   "dudoso": 25,
+   "dudoso": 18,
    "ejemplos": [
     {
-     "perfume": "rabanne-1-million-edt-100",
+     "perfume": "carolina-herrera-bad-boy-edt-100",
      "precio": 3.99,
-     "referencia": 72.95,
+     "referencia": 74.93,
      "metodo": "texto"
     },
     {
-     "perfume": "rabanne-1-million-elixir-parfum-100",
+     "perfume": "carolina-herrera-good-girl-edp-80",
      "precio": 3.99,
-     "referencia": 87.95,
+     "referencia": 94.95,
      "metodo": "texto"
     },
     {
-     "perfume": "rabanne-fame-edp-80",
+     "perfume": "dolce-gabbana-light-blue-edt-100",
      "precio": 3.99,
-     "referencia": 84.45,
+     "referencia": 72.0,
      "metodo": "texto"
     }
    ],
-   "jsonld": 3
+   "jsonld": 2
   },
   "notino": {
    "ok": 1,
-   "bloqueada": 33,
+   "bloqueada": 23,
    "sin_precio": 0,
    "dudoso": 0,
    "jsonld": 1
@@ -65,92 +63,93 @@
   "paco": {
    "ok": 25,
    "bloqueada": 0,
-   "sin_precio": 3,
+   "sin_precio": 0,
    "dudoso": 1,
    "jsonld": 25,
    "ejemplos": [
     {
-     "perfume": "azzaro-chrome-edt-100",
-     "precio": 116.0,
-     "referencia": 47.31,
+     "perfume": "hugo-boss-boss-bottled-absolu-parfum-100",
+     "precio": 140.0,
+     "referencia": 85.85,
      "metodo": "texto"
     }
    ]
   },
+  "sabina": {
+   "ok": 25,
+   "bloqueada": 0,
+   "sin_precio": 4,
+   "dudoso": 0,
+   "jsonld": 24,
+   "texto": 1
+  },
   "parejo": {
-   "ok": 11,
+   "ok": 5,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 2,
-   "jsonld": 11,
+   "jsonld": 5,
    "ejemplos": [
     {
-     "perfume": "yves-saint-laurent-black-opium-edp-90",
-     "precio": 153.0,
-     "referencia": 88.54,
+     "perfume": "dolce-gabbana-light-blue-pour-homme-edt-125",
+     "precio": 78.2,
+     "referencia": 45.53,
      "metodo": "jsonld"
     },
     {
-     "perfume": "carolina-herrera-212-vip-men-edt-100",
-     "precio": 84.15,
-     "referencia": 55.95,
+     "perfume": "givenchy-l-interdit-edp-80",
+     "precio": 113.05,
+     "referencia": 74.0,
      "metodo": "jsonld"
     }
    ]
   },
-  "sabina": {
-   "ok": 22,
-   "bloqueada": 0,
-   "sin_precio": 2,
-   "dudoso": 0,
-   "jsonld": 20,
-   "precio-100ml": 1,
-   "texto": 1
+  "sephora": {
+   "ok": 0,
+   "bloqueada": 10,
+   "sin_precio": 0,
+   "dudoso": 0
   },
   "douglas": {
+   "ok": 4,
+   "bloqueada": 0,
+   "sin_precio": 1,
+   "dudoso": 1,
+   "precio-100ml": 4,
+   "ejemplos": [
+    {
+     "perfume": "chanel-chanel-n-5-edp-100",
+     "precio": 727.09,
+     "referencia": 140.8,
+     "metodo": "precio-100ml"
+    }
+   ]
+  },
+  "brasty": {
    "ok": 2,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "precio-100ml": 2
+   "jsonld": 2
   },
-  "sephora": {
-   "ok": 0,
-   "bloqueada": 13,
+  "firstinfragrance": {
+   "ok": 1,
+   "bloqueada": 0,
    "sin_precio": 0,
-   "dudoso": 0
+   "dudoso": 0,
+   "jsonld": 1
+  },
+  "perfumesclub": {
+   "ok": 1,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "jsonld": 1
   },
   "beautinow": {
    "ok": 0,
    "bloqueada": 0,
-   "sin_precio": 3,
-   "dudoso": 0
-  },
-  "perfumesclub": {
-   "ok": 6,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "jsonld": 6
-  },
-  "arabicparfums": {
-   "ok": 1,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "jsonld": 1
-  },
-  "brasty": {
-   "ok": 1,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "jsonld": 1
-  },
-  "makeup": {
-   "ok": 0,
-   "bloqueada": 0,
-   "sin_precio": 3,
+   "sin_precio": 1,
    "dudoso": 0
   }
  },
