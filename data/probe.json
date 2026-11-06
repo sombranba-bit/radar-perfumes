@@ -1,5 +1,5 @@
 {
- "at": "2026-11-05T05:59:37+01:00",
+ "at": "2026-11-06T06:36:53+01:00",
  "tiendas": {
   "primor": {
    "url": "https://www.primor.eu/es_es/catalogsearch/result/?q=boss+bottled",
@@ -29,11 +29,11 @@
   "douglas": {
    "url": "https://www.douglas.es/es/search?q=boss%20bottled",
    "codigo": 200,
-   "kb": 1635,
-   "titulo": "Resultados para \"boss bottled\"",
-   "precios_eur": 420,
-   "jsonld": 1,
-   "menciona_boss": 910,
+   "kb": 954,
+   "titulo": null,
+   "precios_eur": 194,
+   "jsonld": 0,
+   "menciona_boss": 424,
    "estado": "con precios"
   },
   "eci": {
@@ -59,9 +59,9 @@
   "idealo": {
    "url": "https://www.idealo.es/resultados.html?q=boss+bottled",
    "codigo": 200,
-   "kb": 949,
+   "kb": 936,
    "titulo": "boss bottled en idealo.es",
-   "precios_eur": 123,
+   "precios_eur": 122,
    "jsonld": 0,
    "menciona_boss": 572,
    "estado": "con precios"
@@ -74,7 +74,7 @@
   "perfumes24h": {
    "url": "https://www.perfumes24h.com/es/buscar?q=boss+bottled",
    "codigo": 404,
-   "kb": 189,
+   "kb": 190,
    "titulo": "Perfumes 24H",
    "precios_eur": 0,
    "jsonld": 0,
@@ -124,11 +124,11 @@
   "makeup": {
    "url": "https://makeup.es/search/?q=boss+bottled",
    "codigo": 200,
-   "kb": 992,
+   "kb": 990,
    "titulo": "Resultados de la búsqueda | Makeup.es",
-   "precios_eur": 65,
+   "precios_eur": 67,
    "jsonld": 3,
-   "menciona_boss": 288,
+   "menciona_boss": 287,
    "estado": "con precios"
   },
   "gotta": {
@@ -168,13 +168,13 @@
    "titulo": "Resultado encontrado para \"boss bottled\"",
    "precios_eur": 92,
    "jsonld": 1,
-   "menciona_boss": 266,
+   "menciona_boss": 255,
    "estado": "con precios"
   },
   "perfumesclub": {
    "url": "https://www.perfumesclub.com/es/buscar/?q=boss+bottled",
    "codigo": 404,
-   "kb": 284,
+   "kb": 287,
    "titulo": "Página no encontrada - Error 404",
    "precios_eur": 5,
    "jsonld": 0,
