@@ -1,128 +1,124 @@
 {
- "at": "2026-11-07T12:35:08+01:00",
+ "at": "2026-11-07T13:47:30+01:00",
  "revisados": 35,
  "tiendas": {
   "avenida": {
-   "ok": 14,
+   "ok": 21,
+   "bloqueada": 0,
+   "sin_precio": 2,
+   "dudoso": 0,
+   "jsonld": 2,
+   "variantes": 19
+  },
+  "idealo": {
+   "ok": 32,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "variantes": 14
+   "jsonld": 2,
+   "jsonld-url": 29,
+   "texto": 1
   },
-  "idealo": {
-   "ok": 30,
+  "laguna": {
+   "ok": 27,
    "bloqueada": 0,
    "sin_precio": 0,
-   "dudoso": 2,
-   "jsonld-url": 26,
-   "texto": 1,
+   "dudoso": 0,
+   "jsonld": 8,
+   "jsonld-url": 10,
+   "precio-100ml": 9
+  },
+  "lookfantastic": {
+   "ok": 4,
+   "bloqueada": 0,
+   "sin_precio": 1,
+   "dudoso": 24,
    "ejemplos": [
     {
-     "perfume": "kilian-angels-share-edp-50",
-     "precio": 184.9,
-     "referencia": 116.83,
-     "metodo": "jsonld-url"
+     "perfume": "rabanne-1-million-elixir-parfum-100",
+     "precio": 3.99,
+     "referencia": 87.95,
+     "metodo": "texto"
     },
     {
-     "perfume": "le-labo-another-13-edp-100",
-     "precio": 20.75,
-     "referencia": 399.0,
+     "perfume": "rabanne-fame-edp-80",
+     "precio": 3.99,
+     "referencia": 84.45,
+     "metodo": "texto"
+    },
+    {
+     "perfume": "rabanne-phantom-edt-100",
+     "precio": 3.99,
+     "referencia": 66.45,
      "metodo": "texto"
     }
    ],
-   "jsonld": 3
+   "jsonld": 4
   },
-  "laguna": {
-   "ok": 17,
-   "bloqueada": 0,
+  "notino": {
+   "ok": 1,
+   "bloqueada": 33,
    "sin_precio": 0,
    "dudoso": 0,
-   "precio-100ml": 2,
-   "jsonld": 9,
-   "jsonld-url": 6
+   "jsonld": 1
   },
-  "lookfantastic": {
-   "ok": 0,
+  "paco": {
+   "ok": 25,
    "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 16,
+   "sin_precio": 3,
+   "dudoso": 1,
+   "jsonld": 25,
    "ejemplos": [
     {
-     "perfume": "jean-paul-gaultier-le-beau-edt-125",
-     "precio": 3.99,
-     "referencia": 76.95,
-     "metodo": "texto"
-    },
-    {
-     "perfume": "jean-paul-gaultier-le-beau-le-parfum-edp-125",
-     "precio": 3.99,
-     "referencia": 83.825,
-     "metodo": "texto"
-    },
-    {
-     "perfume": "jean-paul-gaultier-le-male-edt-125",
-     "precio": 3.99,
-     "referencia": 75.95,
+     "perfume": "azzaro-chrome-edt-100",
+     "precio": 116.0,
+     "referencia": 47.31,
      "metodo": "texto"
     }
    ]
   },
-  "notino": {
-   "ok": 2,
-   "bloqueada": 20,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "jsonld": 2
-  },
-  "paco": {
-   "ok": 16,
-   "bloqueada": 0,
-   "sin_precio": 1,
-   "dudoso": 0,
-   "jsonld": 16
-  },
-  "perfumesclub": {
-   "ok": 2,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "jsonld": 2
-  },
   "sabina": {
-   "ok": 22,
+   "ok": 23,
+   "bloqueada": 0,
+   "sin_precio": 2,
+   "dudoso": 0,
+   "jsonld": 21,
+   "precio-100ml": 1,
+   "texto": 1
+  },
+  "parejo": {
+   "ok": 10,
    "bloqueada": 0,
    "sin_precio": 0,
-   "dudoso": 1,
-   "jsonld": 18,
+   "dudoso": 2,
+   "jsonld": 10,
    "ejemplos": [
     {
-     "perfume": "kilian-angels-share-edp-50",
-     "precio": 110.99,
-     "referencia": 154.71,
-     "metodo": "texto"
+     "perfume": "yves-saint-laurent-black-opium-edp-90",
+     "precio": 153.0,
+     "referencia": 88.54,
+     "metodo": "jsonld"
+    },
+    {
+     "perfume": "carolina-herrera-212-vip-men-edt-100",
+     "precio": 84.15,
+     "referencia": 55.95,
+     "metodo": "jsonld"
     }
-   ],
-   "precio-100ml": 4
+   ]
+  },
+  "douglas": {
+   "ok": 2,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "precio-100ml": 2
   },
   "sephora": {
    "ok": 0,
-   "bloqueada": 3,
+   "bloqueada": 13,
    "sin_precio": 0,
    "dudoso": 0
-  },
-  "parejo": {
-   "ok": 8,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "jsonld": 8
-  },
-  "arabicparfums": {
-   "ok": 3,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "jsonld": 3
   },
   "beautinow": {
    "ok": 0,
@@ -130,20 +126,19 @@
    "sin_precio": 3,
    "dudoso": 0
   },
-  "firstinfragrance": {
+  "perfumesclub": {
    "ok": 6,
    "bloqueada": 0,
    "sin_precio": 0,
-   "dudoso": 1,
-   "jsonld": 6,
-   "ejemplos": [
-    {
-     "perfume": "mancera-instant-crush-edp-120",
-     "precio": 159.0,
-     "referencia": 101.545,
-     "metodo": "jsonld"
-    }
-   ]
+   "dudoso": 0,
+   "jsonld": 6
+  },
+  "arabicparfums": {
+   "ok": 1,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "jsonld": 1
   },
   "brasty": {
    "ok": 1,
@@ -152,12 +147,11 @@
    "dudoso": 0,
    "jsonld": 1
   },
-  "douglas": {
-   "ok": 1,
+  "makeup": {
+   "ok": 0,
    "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "precio-100ml": 1
+   "sin_precio": 3,
+   "dudoso": 0
   }
  },
  "limpiados": {},
