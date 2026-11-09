@@ -1,118 +1,125 @@
 {
- "at": "2026-11-09T17:00:58+01:00",
+ "at": "2026-11-09T18:04:31+01:00",
  "revisados": 35,
  "tiendas": {
-  "douglas": {
-   "ok": 5,
+  "avenida": {
+   "ok": 15,
    "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "precio-100ml": 5
+   "sin_precio": 1,
+   "dudoso": 1,
+   "variantes": 15,
+   "ejemplos": [
+    {
+     "perfume": "issey-miyake-l-eau-d-issey-pour-homme-edt-125",
+     "precio": 74.95,
+     "referencia": 49.8,
+     "metodo": "variantes"
+    }
+   ]
   },
   "idealo": {
    "ok": 32,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 1,
-   "jsonld-url": 28,
-   "jsonld": 4,
+   "jsonld-url": 27,
+   "jsonld": 3,
+   "texto": 2,
    "ejemplos": [
     {
-     "perfume": "dolce-gabbana-the-one-edp-75",
-     "precio": 49.14,
-     "referencia": 90.01,
+     "perfume": "kilian-angels-share-edp-50",
+     "precio": 184.9,
+     "referencia": 116.83,
      "metodo": "jsonld-url"
     }
    ]
   },
-  "notino": {
-   "ok": 6,
-   "bloqueada": 17,
+  "laguna": {
+   "ok": 18,
+   "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "jsonld": 6
+   "jsonld": 9,
+   "jsonld-url": 4,
+   "precio-100ml": 5
   },
   "lookfantastic": {
-   "ok": 2,
-   "bloqueada": 0,
-   "sin_precio": 1,
-   "dudoso": 12,
-   "jsonld": 2,
-   "ejemplos": [
-    {
-     "perfume": "burberry-goddess-edp-100",
-     "precio": 3.99,
-     "referencia": 82.4,
-     "metodo": "texto"
-    },
-    {
-     "perfume": "carolina-herrera-la-bomba-edp-80",
-     "precio": 3.99,
-     "referencia": 94.95,
-     "metodo": "texto"
-    },
-    {
-     "perfume": "dolce-gabbana-devotion-edp-100",
-     "precio": 3.99,
-     "referencia": 83.935,
-     "metodo": "texto"
-    }
-   ]
-  },
-  "laguna": {
-   "ok": 10,
+   "ok": 1,
    "bloqueada": 0,
    "sin_precio": 0,
-   "dudoso": 0,
-   "precio-100ml": 2,
-   "jsonld": 5,
-   "jsonld-url": 3
+   "dudoso": 23,
+   "ejemplos": [
+    {
+     "perfume": "prada-luna-rossa-ocean-edt-100",
+     "precio": 3.99,
+     "referencia": 78.945,
+     "metodo": "texto"
+    },
+    {
+     "perfume": "rabanne-invictus-victory-elixir-parfum-100",
+     "precio": 3.99,
+     "referencia": 88.95,
+     "metodo": "texto"
+    },
+    {
+     "perfume": "tom-ford-black-orchid-edp-100",
+     "precio": 3.99,
+     "referencia": 132.95,
+     "metodo": "texto"
+    }
+   ],
+   "jsonld": 1
+  },
+  "notino": {
+   "ok": 0,
+   "bloqueada": 26,
+   "sin_precio": 0,
+   "dudoso": 0
   },
   "paco": {
-   "ok": 22,
+   "ok": 23,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 1,
-   "jsonld": 21,
+   "jsonld": 22,
    "precio-100ml": 1,
    "ejemplos": [
     {
-     "perfume": "lancome-la-nuit-tresor-edp-100",
-     "precio": 179.0,
-     "referencia": 84.95,
+     "perfume": "hermes-h24-edt-100",
+     "precio": 135.0,
+     "referencia": 78.62,
      "metodo": "texto"
     }
    ]
   },
-  "sabina": {
-   "ok": 17,
-   "bloqueada": 0,
-   "sin_precio": 1,
-   "dudoso": 0,
-   "jsonld": 15,
-   "precio-100ml": 2
-  },
-  "avenida": {
-   "ok": 8,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "variantes": 8
-  },
   "parejo": {
-   "ok": 8,
+   "ok": 4,
    "bloqueada": 0,
    "sin_precio": 0,
-   "dudoso": 1,
-   "jsonld": 8,
-   "ejemplos": [
-    {
-     "perfume": "dior-sauvage-parfum-parfum-100",
-     "precio": 176.8,
-     "referencia": 106.475,
-     "metodo": "jsonld"
-    }
-   ]
+   "dudoso": 0,
+   "jsonld": 4
+  },
+  "sabina": {
+   "ok": 18,
+   "bloqueada": 0,
+   "sin_precio": 2,
+   "dudoso": 0,
+   "jsonld": 16,
+   "precio-100ml": 1,
+   "texto": 1
+  },
+  "sephora": {
+   "ok": 0,
+   "bloqueada": 5,
+   "sin_precio": 0,
+   "dudoso": 0
+  },
+  "arabicparfums": {
+   "ok": 1,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "jsonld": 1
   },
   "perfumesclub": {
    "ok": 3,
@@ -121,25 +128,24 @@
    "dudoso": 0,
    "jsonld": 3
   },
-  "sephora": {
-   "ok": 0,
-   "bloqueada": 2,
+  "firstinfragrance": {
+   "ok": 1,
+   "bloqueada": 0,
    "sin_precio": 0,
+   "dudoso": 0,
+   "jsonld": 1
+  },
+  "beautinow": {
+   "ok": 0,
+   "bloqueada": 0,
+   "sin_precio": 1,
    "dudoso": 0
   },
-  "firstinfragrance": {
-   "ok": 2,
+  "douglas": {
+   "ok": 0,
    "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "jsonld": 2
-  },
-  "arabicparfums": {
-   "ok": 2,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "jsonld": 2
+   "sin_precio": 1,
+   "dudoso": 0
   }
  },
  "limpiados": {},
