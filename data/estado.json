@@ -1,144 +1,139 @@
 {
- "at": "2026-11-09T01:10:17+01:00",
+ "at": "2026-11-09T02:51:11+01:00",
  "revisados": 35,
  "tiendas": {
-  "avenida": {
-   "ok": 13,
-   "bloqueada": 0,
-   "sin_precio": 2,
-   "dudoso": 0,
-   "variantes": 13
-  },
   "idealo": {
-   "ok": 33,
+   "ok": 31,
    "bloqueada": 0,
-   "sin_precio": 1,
-   "dudoso": 1,
-   "jsonld-url": 29,
-   "jsonld": 3,
-   "texto": 1,
+   "sin_precio": 0,
+   "dudoso": 2,
+   "jsonld-url": 28,
    "ejemplos": [
     {
-     "perfume": "burberry-her-edp-100",
-     "precio": 66.22,
-     "referencia": 121.125,
+     "perfume": "creed-silver-mountain-water-edp-100",
+     "precio": 25.75,
+     "referencia": 320.0,
+     "metodo": "texto"
+    },
+    {
+     "perfume": "dolce-gabbana-the-one-edp-75",
+     "precio": 49.14,
+     "referencia": 90.01,
      "metodo": "jsonld-url"
     }
-   ]
+   ],
+   "jsonld": 3
   },
   "lookfantastic": {
    "ok": 3,
    "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 21,
+   "sin_precio": 2,
+   "dudoso": 6,
    "ejemplos": [
     {
-     "perfume": "hugo-boss-boss-bottled-infinite-edp-100",
+     "perfume": "davidoff-cool-water-edt-125",
      "precio": 3.99,
-     "referencia": 49.62,
+     "referencia": 25.2,
      "metodo": "texto"
     },
     {
-     "perfume": "hugo-boss-boss-bottled-night-edt-100",
+     "perfume": "dolce-gabbana-k-by-dolce-gabbana-edt-100",
      "precio": 3.99,
-     "referencia": 46.375,
+     "referencia": 59.95,
      "metodo": "texto"
     },
     {
-     "perfume": "hugo-boss-boss-bottled-parfum-parfum-100",
-     "precio": 11.49,
-     "referencia": 64.92500000000001,
+     "perfume": "burberry-goddess-edp-100",
+     "precio": 3.99,
+     "referencia": 82.4,
      "metodo": "texto"
     }
    ],
    "jsonld": 3
   },
-  "notino": {
-   "ok": 2,
-   "bloqueada": 28,
+  "paco": {
+   "ok": 19,
+   "bloqueada": 0,
    "sin_precio": 0,
-   "dudoso": 1,
+   "dudoso": 0,
+   "jsonld": 19
+  },
+  "parejo": {
+   "ok": 5,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 2,
    "ejemplos": [
     {
-     "perfume": "carolina-herrera-212-men-edt-100",
-     "precio": 113.8,
-     "referencia": 52.95,
+     "perfume": "bvlgari-man-in-black-edp-100",
+     "precio": 126.65,
+     "referencia": 68.99,
+     "metodo": "jsonld"
+    },
+    {
+     "perfume": "dior-sauvage-parfum-parfum-100",
+     "precio": 176.8,
+     "referencia": 106.475,
      "metodo": "jsonld"
     }
    ],
-   "jsonld": 2
+   "jsonld": 5
+  },
+  "sephora": {
+   "ok": 0,
+   "bloqueada": 2,
+   "sin_precio": 0,
+   "dudoso": 0
   },
   "sabina": {
-   "ok": 22,
+   "ok": 19,
    "bloqueada": 0,
-   "sin_precio": 5,
+   "sin_precio": 2,
    "dudoso": 0,
-   "jsonld": 19,
-   "texto": 1,
+   "jsonld": 17,
    "precio-100ml": 2
   },
   "firstinfragrance": {
+   "ok": 7,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "jsonld": 7
+  },
+  "notino": {
+   "ok": 2,
+   "bloqueada": 19,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "jsonld": 2
+  },
+  "laguna": {
+   "ok": 10,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "precio-100ml": 4,
+   "jsonld": 4,
+   "jsonld-url": 2
+  },
+  "avenida": {
+   "ok": 5,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "variantes": 5
+  },
+  "perfumesclub": {
    "ok": 4,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
    "jsonld": 4
   },
-  "laguna": {
-   "ok": 14,
-   "bloqueada": 0,
-   "sin_precio": 1,
-   "dudoso": 0,
-   "precio-100ml": 3,
-   "jsonld": 5,
-   "jsonld-url": 6
-  },
-  "paco": {
-   "ok": 17,
-   "bloqueada": 0,
-   "sin_precio": 1,
-   "dudoso": 1,
-   "jsonld": 17,
-   "ejemplos": [
-    {
-     "perfume": "armani-acqua-di-gio-profondo-edp-75",
-     "precio": 50.0,
-     "referencia": null,
-     "metodo": "texto"
-    }
-   ]
-  },
-  "douglas": {
-   "ok": 1,
-   "bloqueada": 0,
-   "sin_precio": 1,
-   "dudoso": 0,
-   "precio-100ml": 1
-  },
-  "sephora": {
-   "ok": 0,
-   "bloqueada": 11,
-   "sin_precio": 0,
-   "dudoso": 0
-  },
-  "parejo": {
-   "ok": 9,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "jsonld": 9
-  },
-  "perfumesclub": {
-   "ok": 1,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "jsonld": 1
-  },
   "beautinow": {
    "ok": 0,
    "bloqueada": 0,
-   "sin_precio": 4,
+   "sin_precio": 2,
    "dudoso": 0
   },
   "arabicparfums": {
@@ -146,8 +141,14 @@
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "jsonld": 1,
-   "jsonld-url": 1
+   "jsonld": 2
+  },
+  "douglas": {
+   "ok": 3,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "precio-100ml": 3
   }
  },
  "limpiados": {},
