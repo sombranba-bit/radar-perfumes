@@ -1,138 +1,123 @@
 {
- "at": "2026-11-10T10:25:16+01:00",
+ "at": "2026-11-10T11:30:11+01:00",
  "revisados": 35,
  "tiendas": {
-  "firstinfragrance": {
-   "ok": 4,
+  "arabicparfums": {
+   "ok": 2,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "jsonld": 4
+   "jsonld": 2
   },
   "idealo": {
-   "ok": 31,
+   "ok": 34,
    "bloqueada": 0,
    "sin_precio": 0,
-   "dudoso": 1,
-   "jsonld-url": 27,
+   "dudoso": 0,
+   "jsonld-url": 29,
    "jsonld": 4,
-   "ejemplos": [
-    {
-     "perfume": "dolce-gabbana-the-one-edp-75",
-     "precio": 49.14,
-     "referencia": 90.01,
-     "metodo": "jsonld-url"
-    }
-   ]
-  },
-  "notino": {
-   "ok": 4,
-   "bloqueada": 20,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "jsonld": 4
-  },
-  "sabina": {
-   "ok": 20,
-   "bloqueada": 0,
-   "sin_precio": 3,
-   "dudoso": 0,
-   "jsonld": 17,
-   "precio-100ml": 3
-  },
-  "beautinow": {
-   "ok": 0,
-   "bloqueada": 0,
-   "sin_precio": 2,
-   "dudoso": 0
+   "texto": 1
   },
   "laguna": {
-   "ok": 10,
+   "ok": 15,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
    "jsonld": 6,
-   "precio-100ml": 2,
-   "jsonld-url": 2
+   "jsonld-url": 4,
+   "precio-100ml": 5
+  },
+  "notino": {
+   "ok": 0,
+   "bloqueada": 27,
+   "sin_precio": 0,
+   "dudoso": 0
+  },
+  "firstinfragrance": {
+   "ok": 2,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "jsonld": 2
   },
   "lookfantastic": {
-   "ok": 3,
+   "ok": 1,
    "bloqueada": 0,
-   "sin_precio": 1,
-   "dudoso": 9,
+   "sin_precio": 0,
+   "dudoso": 21,
    "ejemplos": [
     {
-     "perfume": "dolce-gabbana-k-by-dolce-gabbana-edt-100",
+     "perfume": "marc-jacobs-daisy-edt-100",
      "precio": 3.99,
-     "referencia": 59.95,
+     "referencia": 46.175,
      "metodo": "texto"
     },
     {
-     "perfume": "burberry-goddess-edp-100",
+     "perfume": "nina-ricci-nina-edt-80",
      "precio": 3.99,
-     "referencia": 82.4,
+     "referencia": 59.45,
      "metodo": "texto"
     },
     {
-     "perfume": "carolina-herrera-la-bomba-edp-80",
+     "perfume": "hugo-boss-boss-bottled-edt-200",
      "precio": 3.99,
-     "referencia": 94.95,
+     "referencia": 71.45,
      "metodo": "texto"
     }
    ],
-   "jsonld": 3
+   "jsonld": 1
+  },
+  "avenida": {
+   "ok": 12,
+   "bloqueada": 0,
+   "sin_precio": 1,
+   "dudoso": 1,
+   "variantes": 12,
+   "ejemplos": [
+    {
+     "perfume": "issey-miyake-l-eau-d-issey-pour-homme-edt-125",
+     "precio": 74.95,
+     "referencia": 49.8,
+     "metodo": "variantes"
+    }
+   ]
   },
   "paco": {
-   "ok": 20,
+   "ok": 21,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 1,
-   "jsonld": 19,
+   "jsonld": 20,
    "precio-100ml": 1,
    "ejemplos": [
     {
-     "perfume": "lancome-la-nuit-tresor-edp-100",
-     "precio": 179.0,
-     "referencia": 84.95,
+     "perfume": "hermes-h24-edt-100",
+     "precio": 135.0,
+     "referencia": 78.62,
      "metodo": "texto"
     }
    ]
   },
-  "arabicparfums": {
-   "ok": 3,
+  "sabina": {
+   "ok": 13,
    "bloqueada": 0,
-   "sin_precio": 0,
+   "sin_precio": 2,
    "dudoso": 0,
-   "jsonld": 3
+   "jsonld": 12,
+   "precio-100ml": 1
   },
-  "douglas": {
+  "parejo": {
    "ok": 5,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "precio-100ml": 5
+   "jsonld": 5
   },
-  "avenida": {
-   "ok": 6,
-   "bloqueada": 0,
+  "sephora": {
+   "ok": 0,
+   "bloqueada": 4,
    "sin_precio": 0,
-   "dudoso": 0,
-   "variantes": 6
-  },
-  "parejo": {
-   "ok": 7,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 1,
-   "jsonld": 7,
-   "ejemplos": [
-    {
-     "perfume": "dior-sauvage-parfum-parfum-100",
-     "precio": 176.8,
-     "referencia": 115.475,
-     "metodo": "jsonld"
-    }
-   ]
+   "dudoso": 0
   },
   "perfumesclub": {
    "ok": 3,
@@ -141,10 +126,16 @@
    "dudoso": 0,
    "jsonld": 3
   },
-  "sephora": {
+  "beautinow": {
    "ok": 0,
-   "bloqueada": 2,
-   "sin_precio": 0,
+   "bloqueada": 0,
+   "sin_precio": 1,
+   "dudoso": 0
+  },
+  "douglas": {
+   "ok": 0,
+   "bloqueada": 0,
+   "sin_precio": 1,
    "dudoso": 0
   }
  },
