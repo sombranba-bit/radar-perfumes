@@ -27,20 +27,20 @@
 *{box-sizing:border-box}
 [hidden]{display:none!important}
 body{background:var(--bg);color:var(--fg);font:15px/1.5 var(--body);padding-inline:16px;padding-block:28px 56px}
-.wrap{max-width:1200px;margin:0 auto;display:grid;gap:22px}
+.wrap{max-width:1200px;margin:0 auto;display:grid;gap:24px}
 header{display:grid;gap:6px}
-.eyebrow{font-size:11px;text-transform:uppercase;letter-spacing:.14em;color:var(--accent);font-weight:700}
-h1{font:700 clamp(34px,6vw,54px)/1 var(--display);margin:0;letter-spacing:-.015em;text-wrap:balance}
+.eyebrow{font-size:13px;color:var(--muted);font-weight:500}
+h1{font:500 clamp(36px,6vw,56px)/1.04 var(--display);margin:0;letter-spacing:-.015em;text-wrap:balance}
 .sub{color:var(--muted);margin:4px 0 0;max-width:64ch}
 .stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px}
-a.stat{color:inherit;text-decoration:none}a.stat:hover{border-color:var(--accent)}
-.stat{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:12px 14px;min-width:0}
+a.stat{color:inherit;text-decoration:none;transition:border-color .15s cubic-bezier(.22,1,.36,1)}a.stat:hover{border-color:var(--muted)}
+.stat{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:12px 16px;min-width:0;display:grid;gap:4px}
 .stat b{display:block;font:500 24px var(--mono);font-variant-numeric:tabular-nums}
-.stat span{font-size:11px;text-transform:uppercase;letter-spacing:.08em;color:var(--muted);font-weight:600}
+.stat span{font-size:13px;color:var(--muted);font-weight:500}
 .stat small{display:block;color:var(--muted);font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .filters{display:grid;gap:10px}
 .bar{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
-.chip{border:1px solid var(--line);background:var(--surface);color:var(--fg);border-radius:999px;padding:6px 14px;font:600 13px var(--body);cursor:pointer}
+.chip{border:1px solid var(--line);background:var(--surface);color:var(--fg);border-radius:999px;padding:6px 12px;font:500 13px var(--body);cursor:pointer;transition:background-color .15s cubic-bezier(.22,1,.36,1),color .15s cubic-bezier(.22,1,.36,1)}
 .chip[aria-pressed="true"]{background:var(--fg);color:var(--bg);border-color:var(--fg)}
 input,select,button{font:inherit;color:inherit}
 input,select{background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:7px 10px;min-width:0}
@@ -50,41 +50,44 @@ input:focus-visible,select:focus-visible,button:focus-visible,a:focus-visible,su
 .btn.ghost{background:transparent;color:var(--accent)}
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(330px,1fr));gap:16px;align-items:start}
 .card{background:var(--surface);border:1px solid var(--line);border-radius:14px;overflow:hidden;display:grid;min-width:0}
-.card.hit{border-color:var(--good);box-shadow:0 0 0 1px var(--good)}
+.card.hit{border-color:var(--good)}
 .sizes{display:flex;flex-wrap:wrap;gap:6px;margin:8px 0 4px}
-.sz{border:1px solid var(--line);background:transparent;color:var(--muted);border-radius:999px;padding:4px 11px;font:500 12px var(--mono);cursor:pointer;line-height:1.2}
+.sz{border:1px solid var(--line);background:transparent;color:var(--muted);border-radius:999px;padding:4px 12px;font:500 12px var(--mono);cursor:pointer;line-height:1.2}
 .sz:hover{border-color:var(--accent);color:var(--fg)}
 .sz.on{background:var(--accent);border-color:var(--accent);color:var(--bg)}
 .sz.new{border-style:dashed;opacity:.65}
-.top{display:grid;grid-template-columns:96px 1fr;gap:14px;padding:16px 16px 12px}
+.top{display:grid;grid-template-columns:96px 1fr;gap:16px;padding:16px 16px 12px}
 .art{border-radius:10px;display:grid;place-items:center;aspect-ratio:3/4;max-width:100%}
 .art svg{width:74%;height:auto}
 .id{min-width:0;display:grid;gap:4px;align-content:start}
-.brand{font-size:10.5px;text-transform:uppercase;letter-spacing:.1em;color:var(--muted);font-weight:700}
-.name{font:600 21px/1.12 var(--display);margin:0;text-wrap:balance}
+.brand{font-size:12px;color:var(--muted);font-weight:500}
+.name{font:500 22px/1.12 var(--display);margin:0;text-wrap:balance}
 .fmt{font:12px var(--mono);color:var(--muted)}
 .family{font-size:13px;color:var(--fg)}
-.notes{font-size:12.5px;color:var(--muted)}
+.notes{font-size:13px;color:var(--muted)}
 .body{padding:0 16px 16px;display:grid;gap:12px}
 .seasons{display:flex;gap:6px;flex-wrap:wrap}
-.ss{font:600 11.5px var(--body);padding:3px 9px;border-radius:999px;border:1px solid var(--line);color:var(--muted)}
-.ss.on{color:var(--surface);border-color:transparent}
-.ss.on.Primavera{background:var(--spring)} .ss.on.Verano{background:var(--summer)} .ss.on.Otoño{background:var(--autumn)} .ss.on.Invierno{background:var(--winter)}
-.ss.use{border-style:dashed}
+.seasons{gap:4px 12px;font-size:13px;color:var(--fg)}
+.ss:not(.on):not(.use){display:none}
+.ss{display:inline-flex;align-items:center;gap:6px}
+.ss.on::before{content:"";width:8px;height:8px;border-radius:50%;background:var(--c)}
+.ss.Primavera,.chip.season.Primavera{--c:var(--spring)} .ss.Verano,.chip.season.Verano{--c:var(--summer)} .ss.Otoño,.chip.season.Otoño{--c:var(--autumn)} .ss.Invierno,.chip.season.Invierno{--c:var(--winter)}
+.ss.use{color:var(--muted)}
+.ss.use::before{content:"·";margin-right:6px}
 .meters{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
 .meter{min-width:0}
-.meter span{display:block;font-size:10.5px;text-transform:uppercase;letter-spacing:.07em;color:var(--muted);font-weight:600;margin-bottom:4px}
+.meter span{display:block;font-size:12px;color:var(--muted);font-weight:500;margin-bottom:4px}
 .dots{display:flex;gap:3px}
 .dots i{height:6px;flex:1;border-radius:3px;background:var(--sunk)}
 .dots i.f{background:var(--fg)}
-.meter.value .dots i.f{background:var(--good)}
 .meter b{font:500 12px var(--mono);color:var(--muted)}
 .price{display:flex;align-items:baseline;justify-content:space-between;gap:10px;flex-wrap:wrap;border-top:1px solid var(--line);padding-top:12px}
 .price .big{font:500 30px/1 var(--mono);font-variant-numeric:tabular-nums}
 .price .where{font-size:13px;color:var(--muted);text-align:right}
 .pills{display:flex;gap:6px;flex-wrap:wrap}
-.pill{display:inline-block;font:600 11px var(--body);letter-spacing:.03em;padding:3px 9px;border-radius:999px;background:var(--accent-soft);color:var(--accent)}
-.pill.good{background:var(--good-soft);color:var(--good)}
+.pill{display:inline-block;font:500 12px var(--body);padding:2px 8px;border-radius:6px;border:1px solid var(--line);color:var(--muted)}
+.pill.deal{color:var(--accent)}
+.pill.good{color:var(--good);border-color:var(--good)}
 .row{display:flex;gap:10px;align-items:center;flex-wrap:wrap;font-size:13px;color:var(--muted)}
 .row input{width:90px}
 svg.spark{width:100%;height:42px;display:block}
@@ -92,13 +95,13 @@ details summary{cursor:pointer;font-size:13px;font-weight:600;color:var(--accent
 .tbl{overflow-x:auto;margin-top:8px}
 table{width:100%;border-collapse:collapse;font-size:13px;font-variant-numeric:tabular-nums}
 td,th{padding:6px 4px;border-bottom:1px solid var(--line);text-align:left;white-space:nowrap}
-th{font-size:10.5px;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);font-weight:600}
+th{font-size:12px;color:var(--muted);font-weight:500}
 tr.best td{background:var(--good-soft)}
 td.p{font-family:var(--mono)}
 td input{width:76px;padding:4px 6px}
 td button{border:1px solid var(--line);background:transparent;border-radius:6px;padding:3px 8px;cursor:pointer;font-size:12px}
 a{color:var(--accent)}
-.tag{font-size:10px;text-transform:uppercase;letter-spacing:.06em;color:var(--muted)}
+.tag{font:12px var(--mono);color:var(--muted)}
 .empty{padding:28px;border:1px dashed var(--line);border-radius:12px;color:var(--muted)}
 form.add{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:8px;background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:14px}
 .foot{font-size:12px;color:var(--muted);max-width:90ch}
@@ -124,19 +127,15 @@ form.add{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));g
 .chlist.all{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));overflow:visible}
 .ch{flex:0 0 200px;scroll-snap-align:start;background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:10px 12px;display:grid;gap:6px;text-decoration:none;color:var(--fg);min-width:0}
 .ch:hover{border-color:var(--accent)}
-.ch.mine{border-color:var(--good);box-shadow:0 0 0 1px var(--good)}
+.ch.mine{border-color:var(--good)}
 .ch .t{font-size:13px;font-weight:600;line-height:1.3;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
 .ch .m{display:flex;align-items:baseline;justify-content:space-between;gap:6px;font-size:12px;color:var(--muted);min-width:0}
 .ch .m b{font:500 16px var(--mono);color:var(--fg);font-variant-numeric:tabular-nums}
 .ch.mine .m span{color:var(--good);font-weight:600}
 .ch .m span{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .frow{display:grid;grid-template-columns:84px 1fr;gap:8px;align-items:center}
-.flabel{font-size:10.5px;text-transform:uppercase;letter-spacing:.09em;color:var(--muted);font-weight:700}
-.chip.season{--c:var(--muted);border-color:var(--c);color:var(--c);background:transparent}
-.chip.season.Primavera{--c:var(--spring)} .chip.season.Verano{--c:var(--summer)} .chip.season.Otoño{--c:var(--autumn)} .chip.season.Invierno{--c:var(--winter)}
-.chip.season[aria-pressed="true"]{background:var(--c);color:var(--surface);border-color:var(--c)}
-.chip.season.Todas[aria-pressed="true"]{background:var(--fg);color:var(--bg);border-color:var(--fg)}
-.chip.season span{pointer-events:none}
+.flabel{font-size:12px;color:var(--muted);font-weight:500}
+.chip.season i{display:inline-block;width:8px;height:8px;border-radius:50%;background:var(--c);margin-right:6px;pointer-events:none}
 @media (max-width:520px){.frow{grid-template-columns:1fr;gap:4px}}
 .filters{display:grid;gap:10px;background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:12px}
 .filters #q{width:100%}
@@ -145,12 +144,11 @@ form.add{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));g
 .seg{display:inline-flex;flex-wrap:wrap;gap:4px;background:var(--bg);border:1px solid var(--line);border-radius:999px;padding:3px}
 .seg .chip{border:none;background:transparent;padding:5px 12px}
 .seg .chip[aria-pressed="true"]{background:var(--fg);color:var(--bg)}
-.seg .chip.season[aria-pressed="false"]{background:transparent}
 .bgroups{display:grid;gap:8px;border-top:1px solid var(--line);padding-top:10px}
 .bg{display:grid;grid-template-columns:84px 1fr;gap:8px;align-items:start}
 .bg .flabel{padding-top:8px}
 .bg .bar{gap:6px}
-.bchip{padding:4px 11px;font-size:12.5px}
+.bchip{padding:4px 12px;font-size:13px}
 .bchip small{color:var(--muted);font:500 11px var(--mono);margin-left:2px}
 .bchip[aria-pressed="true"] small{color:inherit;opacity:.7}
 @media (max-width:520px){.bg{grid-template-columns:1fr;gap:4px}.bg .flabel{padding-top:0}}
@@ -163,7 +161,7 @@ form.add{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));g
 ul.deals{margin:4px 0 0;padding-left:18px;font-size:13px}
 #toast{position:fixed;left:50%;transform:translateX(-50%);bottom:calc(16px + env(safe-area-inset-bottom,0px));background:var(--fg);color:var(--bg);padding:8px 14px;border-radius:8px;font-size:13px}
 @media (max-width:420px){.top{grid-template-columns:76px 1fr}.meters{gap:8px}}
-@media (prefers-reduced-motion:no-preference){.card{transition:border-color .2s,transform .2s}.card:hover{transform:translateY(-2px)}}
+.card{transition:border-color .15s cubic-bezier(.22,1,.36,1)}.card:hover{border-color:var(--muted)}
 </style>
 </head>
 <body>
@@ -181,7 +179,7 @@ ul.deals{margin:4px 0 0;padding-left:18px;font-size:13px}
     <div class="chlist" id="chlist"></div>
   </section>
   <div class="filters">
-    <input id="q" type="search" placeholder="Busca cualquier perfume, nota o familia, en tu lista o en internet…" aria-label="Buscar perfume">
+    <input id="q" type="search" placeholder="Busca un perfume, una nota o una familia" aria-label="Buscar perfume">
     <div class="tools">
       <div class="seg" id="genders" role="group" aria-label="Para quién"></div>
       <div class="seg" id="tiers" role="group" aria-label="Tipo"></div>
@@ -509,7 +507,7 @@ function renderChollos(){
 function render(){
   renderChollos();
   const tierOf=i=>i.tier||'Diseñador';
-  $('genders').innerHTML=['Todos','Hombre','Mujer','Unisex'].map(g=>`<button class="chip" type="button" aria-pressed="${g===gender}" data-g="${g}">${{Todos:'Todos',Hombre:'♂ Hombre',Mujer:'♀ Mujer',Unisex:'⚥ Unisex'}[g]}</button>`).join('');
+  $('genders').innerHTML=['Todos','Hombre','Mujer','Unisex'].map(g=>`<button class="chip" type="button" aria-pressed="${g===gender}" data-g="${g}">${g}</button>`).join('');
   $('tiers').innerHTML=['Todos','Diseñador','Nicho','Árabe'].map(t=>`<button class="chip" type="button" aria-pressed="${t===tier}" data-tier="${t}">${t}</button>`).join('');
   const brands=['Todas',...new Set(items.filter(i=>tier==='Todos'||tierOf(i)===tier).map(i=>i.brand).sort())];
   if(!brands.includes(brand))brand='Todas';
@@ -517,8 +515,7 @@ function render(){
   const chip=(b,n)=>`<button class="chip bchip" type="button" aria-pressed="${b===brand}" data-b="${esc(b)}">${esc(b)}${n?` <small>${n}</small>`:''}</button>`;
   $('brands').innerHTML=`<div class="bg"><span class="flabel">Marca</span><div class="bar">${chip('Todas')}</div></div>`+
     ['Diseñador','Nicho','Árabe'].filter(t=>byTier[t]).map(t=>`<div class="bg"><span class="flabel">${t}</span><div class="bar">${Object.keys(byTier[t]).sort().map(b=>chip(b)).join('')}</div></div>`).join('');
-  const ICON={Primavera:'🌸',Verano:'☀️',Otoño:'🍂',Invierno:'❄️'};
-  $('seasons').innerHTML=['Todas',...SEASONS].map(s=>`<button class="chip season ${s}" type="button" aria-pressed="${s===season}" data-s="${s}" title="${s==='Todas'?'Cualquier temporada':s}">${s==='Todas'?'Todo el año':`<span aria-hidden="true">${ICON[s]}</span> ${s}`}</button>`).join('');
+  $('seasons').innerHTML=['Todas',...SEASONS].map(s=>`<button class="chip season ${s}" type="button" aria-pressed="${s===season}" data-s="${s}" title="${s==='Todas'?'Cualquier temporada':s}">${s==='Todas'?'Todo el año':`<i aria-hidden="true"></i>${s}`}</button>`).join('');
   $('brandList').innerHTML=brands.slice(1).map(b=>`<option value="${esc(b)}">`).join('');
   const vs=valueScores(),words=norm($('q').value).split(/\s+/).filter(Boolean);
   // Each typed word must appear somewhere (any order, accents ignored).
@@ -574,7 +571,7 @@ function card(it,val,vars=[it]){
       </div>
     </div>
     <div class="body">
-      ${p?`<div class="seasons">${SEASONS.map(s=>`<span class="ss ${p.se.includes(s)?'on '+s:''}">${({Primavera:'🌸',Verano:'☀️',Otoño:'🍂',Invierno:'❄️'})[s]} ${s}</span>`).join('')}<span class="ss use">${p.use}</span></div>
+      ${p?`<div class="seasons">${SEASONS.map(s=>`<span class="ss ${p.se.includes(s)?'on '+s:''}">${s}</span>`).join('')}<span class="ss use">${p.use}</span></div>
       <div class="meters">
         <div class="meter"><span>Duración</span>${dots(p.dur)}</div>
         <div class="meter"><span>Estela</span>${dots(p.sil)}</div>
@@ -584,7 +581,7 @@ function card(it,val,vars=[it]){
         <span class="big">${eur(b?.p)}</span>
         <span class="where">${b?'en '+SHOP[b.s].n+'<br>'+eur(c)+' / 100 ml':'Sin precio todavía'}</span>
       </div>
-      <div class="pills">${hit?'<span class="pill good">Por debajo de tu objetivo</span>':''}${min!=null&&b&&b.p<=min&&pts.length>1?'<span class="pill">Mínimo histórico</span>':''}${deals.some(d=>!d.expired)?'<span class="pill">Chollo publicado</span>':''}</div>
+      <div class="pills">${hit?'<span class="pill good">Por debajo de tu objetivo</span>':''}${min!=null&&b&&b.p<=min&&pts.length>1?'<span class="pill">Mínimo histórico</span>':''}${deals.some(d=>!d.expired)?'<span class="pill deal">Chollo publicado</span>':''}</div>
       <div class="row"><label>Mi objetivo <input type="number" step="0.01" min="0" id="t-${it.id}" value="${it.target??''}" data-target="${it.id}" placeholder="€"></label>${min!=null?`<span>Mínimo visto ${eur(min)}</span>`:''}</div>
       ${spark(pts)}
       <details ${open.has(it.id)?'open':''} data-open="${it.id}"><summary>Precios por tienda y fotos</summary>
