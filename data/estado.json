@@ -1,110 +1,115 @@
 {
- "at": "2026-11-11T11:36:08+01:00",
+ "at": "2026-11-11T12:55:34+01:00",
  "revisados": 35,
  "tiendas": {
-  "firstinfragrance": {
-   "ok": 2,
+  "avenida": {
+   "ok": 15,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "jsonld": 2
+   "variantes": 14,
+   "jsonld": 1
   },
   "idealo": {
-   "ok": 33,
+   "ok": 31,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 3,
+   "jsonld-url": 26,
+   "texto": 1,
+   "ejemplos": [
+    {
+     "perfume": "kilian-angels-share-edp-50",
+     "precio": 184.9,
+     "referencia": 116.83,
+     "metodo": "jsonld-url"
+    },
+    {
+     "perfume": "le-labo-another-13-edp-100",
+     "precio": 15.49,
+     "referencia": 399.0,
+     "metodo": "texto"
+    },
+    {
+     "perfume": "le-labo-santal-33-edp-100",
+     "precio": 240.0,
+     "referencia": null,
+     "metodo": "texto"
+    }
+   ],
+   "jsonld": 4
+  },
+  "laguna": {
+   "ok": 17,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "jsonld": 4,
-   "jsonld-url": 28,
-   "texto": 1
+   "jsonld": 10,
+   "jsonld-url": 7
   },
   "lookfantastic": {
    "ok": 1,
    "bloqueada": 0,
    "sin_precio": 0,
-   "dudoso": 22,
+   "dudoso": 15,
    "ejemplos": [
     {
-     "perfume": "marc-jacobs-daisy-edt-100",
+     "perfume": "jean-paul-gaultier-le-male-elixir-parfum-125",
      "precio": 3.99,
-     "referencia": 47.6,
+     "referencia": 94.95,
      "metodo": "texto"
     },
     {
-     "perfume": "nina-ricci-nina-edt-80",
+     "perfume": "jean-paul-gaultier-scandal-edp-80",
      "precio": 3.99,
-     "referencia": 59.45,
+     "referencia": 79.95,
      "metodo": "texto"
     },
     {
-     "perfume": "hugo-boss-boss-bottled-edt-200",
+     "perfume": "jean-paul-gaultier-scandal-pour-homme-edt-100",
      "precio": 3.99,
-     "referencia": 70.4,
+     "referencia": 79.95,
      "metodo": "texto"
     }
    ],
    "jsonld": 1
   },
   "notino": {
-   "ok": 0,
-   "bloqueada": 27,
+   "ok": 1,
+   "bloqueada": 22,
    "sin_precio": 0,
-   "dudoso": 0
-  },
-  "avenida": {
-   "ok": 13,
-   "bloqueada": 0,
-   "sin_precio": 1,
-   "dudoso": 1,
-   "variantes": 13,
-   "ejemplos": [
-    {
-     "perfume": "issey-miyake-l-eau-d-issey-pour-homme-edt-125",
-     "precio": 74.95,
-     "referencia": 49.8,
-     "metodo": "variantes"
-    }
-   ]
+   "dudoso": 0,
+   "jsonld": 1
   },
   "paco": {
-   "ok": 22,
+   "ok": 16,
    "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 1,
-   "jsonld": 21,
-   "precio-100ml": 1,
-   "ejemplos": [
-    {
-     "perfume": "hermes-h24-edt-100",
-     "precio": 135.0,
-     "referencia": 78.62,
-     "metodo": "texto"
-    }
-   ]
+   "sin_precio": 1,
+   "dudoso": 0,
+   "jsonld": 16
   },
   "sabina": {
-   "ok": 14,
-   "bloqueada": 0,
-   "sin_precio": 2,
-   "dudoso": 0,
-   "jsonld": 13,
-   "precio-100ml": 1
-  },
-  "laguna": {
-   "ok": 15,
+   "ok": 20,
    "bloqueada": 0,
    "sin_precio": 0,
-   "dudoso": 0,
-   "jsonld-url": 4,
-   "jsonld": 6,
-   "precio-100ml": 5
-  },
-  "parejo": {
-   "ok": 5,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "jsonld": 5
+   "dudoso": 2,
+   "jsonld": 15,
+   "texto": 1,
+   "precio-100ml": 4,
+   "ejemplos": [
+    {
+     "perfume": "maison-margiela-replica-by-the-fireplace-edt-100",
+     "precio": 130.81,
+     "referencia": 84.59,
+     "metodo": "jsonld"
+    },
+    {
+     "perfume": "mancera-instant-crush-edp-120",
+     "precio": 155.0,
+     "referencia": 86.83,
+     "metodo": "jsonld"
+    }
+   ]
   },
   "sephora": {
    "ok": 0,
@@ -112,33 +117,63 @@
    "sin_precio": 0,
    "dudoso": 0
   },
-  "arabicparfums": {
+  "perfumesclub": {
    "ok": 1,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
    "jsonld": 1
   },
-  "perfumesclub": {
+  "arabicparfums": {
    "ok": 3,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
    "jsonld": 3
   },
+  "parejo": {
+   "ok": 9,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "jsonld": 9
+  },
   "beautinow": {
    "ok": 0,
    "bloqueada": 0,
-   "sin_precio": 1,
+   "sin_precio": 3,
    "dudoso": 0
   },
-  "douglas": {
-   "ok": 0,
+  "firstinfragrance": {
+   "ok": 6,
    "bloqueada": 0,
-   "sin_precio": 1,
-   "dudoso": 0
+   "sin_precio": 0,
+   "dudoso": 1,
+   "jsonld": 6,
+   "ejemplos": [
+    {
+     "perfume": "mancera-instant-crush-edp-120",
+     "precio": 159.0,
+     "referencia": 101.53999999999999,
+     "metodo": "jsonld"
+    }
+   ]
+  },
+  "brasty": {
+   "ok": 1,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "jsonld": 1
+  },
+  "douglas": {
+   "ok": 2,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "precio-100ml": 2
   }
  },
  "limpiados": {},
- "chollometro": "ok 87"
+ "chollometro": "ok 86"
 }
