@@ -138,8 +138,7 @@ table.offers{width:100%;border-collapse:collapse}
 @media (prefers-reduced-motion:reduce){*{transition:none!important}}
 
 /* Fotos de producto y añadidos de la versión principal */
-.tile .ph.photo,.pdp .ph.photo{background:var(--raised)}
-.ph img{width:78%;height:78%;object-fit:contain;mix-blend-mode:multiply;transition:transform .3s var(--ease)}
+.ph img{width:78%;height:78%;object-fit:contain;mix-blend-mode:multiply;filter:brightness(1.05) contrast(1.06);transition:transform .3s var(--ease)}
 .tile:hover .ph img{transform:translateY(-4px)}
 .pdp .ph img{width:82%;height:82%}
 .thumbs{display:flex;gap:8px;margin-top:12px;flex-wrap:wrap}
@@ -201,7 +200,7 @@ const tint=p=>(p?.liq||'#cbbfae')+'26';
 function pic(i,cls='',idx=0){
   const ph=R.photos(i),f=ph[idx];
   if(!f)return `<div class="ph ${cls}" style="background:${tint(i.p)}">${R.bottle(i.p)}`;
-  return `<div class="ph photo ${cls}" data-fallback="${i.id}"><img src="${esc(f.url)}" alt="${esc(i.brand+' '+i.name)}" loading="lazy" decoding="async" referrerpolicy="no-referrer">`;
+  return `<div class="ph photo ${cls}" style="background:${tint(i.p)}" data-fallback="${i.id}"><img src="${esc(f.url)}" alt="${esc(i.brand+' '+i.name)}" loading="lazy" decoding="async" referrerpolicy="no-referrer">`;
 }
 document.addEventListener('error',e=>{const im=e.target;if(im.tagName!=='IMG')return;const box=im.closest('[data-fallback]');if(box){const it=D.items.find(x=>x.id===box.dataset.fallback);box.classList.remove('photo');box.style.background=tint(it?.p);im.replaceWith(document.createRange().createContextualFragment(R.bottle(it?.p)))}else{const b=im.closest('button'),g=b&&b.parentNode;if(b)b.remove();if(g&&g.children.length<2)g.remove()}},true);
 function filters(){
