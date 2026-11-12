@@ -329,7 +329,9 @@ const pct=x=>(x>0?'+':x<0?'−':'')+Math.abs(x).toLocaleString('es-ES',{maximumF
 
 // Fotos de producto que ha guardado la pasada (direcciones de las tiendas, no copias)
 const PHOTO_ORDER=['idealo','notino','sabina','perfumesclub','laguna','paco','avenida','lookfantastic','parejo','brasty','arabicparfums','firstinfragrance','beautinow','douglas','sephora'];
-function photos(it){const im=it.images||{};const ks=Object.keys(im).sort((a,b)=>(PHOTO_ORDER.indexOf(a)+99)%99-(PHOTO_ORDER.indexOf(b)+99)%99);const seen=new Set();return ks.map(k=>({s:k,url:im[k]})).filter(x=>!seen.has(x.url)&&seen.add(x.url))}
+// Fotos de relleno de las tiendas (el icono de cámara de Idealo y similares)
+const NO_PHOTO=/idealo\.com\/images\/product\/|placeholder|no[-_]?image|sin[-_]imagen/i;
+function photos(it){const im=Object.fromEntries(Object.entries(it.images||{}).filter(([,u])=>!NO_PHOTO.test(u)));const ks=Object.keys(im).sort((a,b)=>(PHOTO_ORDER.indexOf(a)+99)%99-(PHOTO_ORDER.indexOf(b)+99)%99);const seen=new Set();return ks.map(k=>({s:k,url:im[k]})).filter(x=>!seen.has(x.url)&&seen.add(x.url))}
 // Ahorro: diferencia entre la tienda más cara y la más barata con stock
 function spread(it){const o=offers(it).filter(x=>x.stock&&x.age!=null&&x.age<=14);if(o.length<2)return null;return {n:o.length,save:o[o.length-1].p-o[0].p}}
 async function load(dir='../data/'){

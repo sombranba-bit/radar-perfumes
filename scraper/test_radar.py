@@ -142,3 +142,5 @@ it3 = {"brand": "B", "name": "N", "ml": 100, "urls": {"paco": "https://p.es/x"},
 radar.update_perfume(it3, lambda u: R(200, ld({"@type": "Product", "name": "N 100 ml", "image": "https://p.es/n.jpg", "offers": {"price": "40", "priceCurrency": "EUR"}})), {}, "2026-11-12")
 assert it3["images"] == {"paco": "https://p.es/n.jpg"} and it3["prices"]["paco"]["p"] == 40.0
 print("OK: fotos")
+assert radar.product_image('<meta property="og:image" content="https://cdn.idealo.com/images/product/599824/es_ES/0/gross.jpg">') is None
+print("OK: sin fotos de relleno")

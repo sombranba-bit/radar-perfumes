@@ -197,7 +197,15 @@ def extract(page, ml, url):
     return None, None, "sin-precio"
 
 
+NO_PHOTO = re.compile(r"idealo\.com/images/product/|placeholder|no[-_]?image|sin[-_]imagen", re.I)
+
+
 def product_image(page):
+    pic = _product_image(page)
+    return None if pic and NO_PHOTO.search(pic) else pic
+
+
+def _product_image(page):
     """Foto principal del producto: la del JSON-LD y, si no hay, la de og:image. Solo la dirección, nunca el archivo."""
     for raw in re.findall(r'<script[^>]+application/ld\+json[^>]*>(.*?)</script>', page, re.S | re.I):
         try:
