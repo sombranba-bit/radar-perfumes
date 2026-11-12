@@ -71,9 +71,12 @@ def jsonld_offers(page):
     out = []
     for raw in re.findall(r'<script[^>]+application/ld\+json[^>]*>(.*?)</script>', page, re.S | re.I):
         try:
-            data = json.loads(htmllib.unescape(raw.strip()), strict=False)
+            data = json.loads(raw.strip(), strict=False)   # unescaping first breaks JSON whose text holds &quot;
         except Exception:
-            continue
+            try:
+                data = json.loads(htmllib.unescape(raw.strip()), strict=False)
+            except Exception:
+                continue
         for o in _walk(data):
             if not (_types(o) & {"Product", "ProductGroup"}):
                 continue

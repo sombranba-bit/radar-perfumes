@@ -127,3 +127,8 @@ av = ''.join('<div class="g" data-child-id="%s" style="display: none;"><div clas
 av += ''.join('<div class="prices" data-child-id="%s" style="display: none;"><span class="original-price">%s€</span><span class="current-price">%s€</span></div>' % x for x in (("126350", "79,00", "61,95"), ("126349", "112,00", "87,95")))
 assert extract(av, 100, "https://www.perfumeriasavenida.com/terre-d-hermes-edt-hermes")[:1] == (87.95,) and extract(av, 50, "https://x")[0] == 61.95
 print("OK: Douglas y Avenida")
+
+# 16. JSON-LD cuyo texto lleva &quot; (Lookfantastic): no hay que desescapar antes de leerlo
+q = '<script type="application/ld+json">{"@type":"ProductGroup","hasVariant":[{"@type":"Product","name":"L\'Eau d\'Issey 100ml","description":"el &quot;agua&quot; 50 ml","offers":{"price":"43.95","priceCurrency":"EUR"}}]}</script>'
+assert extract(q + "<span>3,99€</span>", 100, "https://www.lookfantastic.es/x/1.html")[0] == 43.95
+print("OK: JSON-LD con &quot;")

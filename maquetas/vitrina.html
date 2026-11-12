@@ -1,0 +1,233 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#f4f4f2">
+<title>Radar de Perfumes · Vitrina</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=Bodoni+Moda:opsz,wght@6..96,500&display=swap" rel="stylesheet">
+<style>
+/* Maqueta B — Vitrina. Catálogo para mirar: filtros fijos a la izquierda, frascos grandes y una ficha completa por perfume. */
+:root{
+  --chrome:#f4f4f2;--sheet:#fff;--raised:#f3f3f1;--active:#e9e9e6;--border:#e6e6e3;--rule:#efefec;--control:#cdcbc4;
+  --text:#16150f;--muted:#5f5d57;--accent:#7a4a12;--positive:#1e7b4f;--negative:#b4232a;
+  --pos-bg:#e3f4e8;--pos-ink:#14532d;
+  --r-card:8px;--r-ctl:6px;--r-sheet:16px;--gap:24px;--pad:24px;--ctl:36px;
+  --display:"Bodoni Moda",Georgia,serif;--ease:cubic-bezier(.22,1,.36,1);
+}
+*{box-sizing:border-box}
+html{-webkit-tap-highlight-color:transparent;-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--chrome);color:var(--text);font:400 14px/1.5 "IBM Plex Sans",Inter,system-ui,sans-serif;font-variant-numeric:tabular-nums}
+::selection{background:var(--accent);color:#fff}
+a{color:inherit}
+button,input,select{font:inherit;color:inherit}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.ic{flex:none;display:block}
+[hidden]{display:none!important}
+
+.shell{display:grid;grid-template-columns:228px minmax(0,1fr);grid-template-rows:56px minmax(0,1fr);min-height:100dvh}
+.brandmark{grid-row:1;display:flex;align-items:center;gap:10px;padding:0 20px;font-weight:600}
+.brandmark i{font:500 22px/1 var(--display);font-style:normal}
+.topbar{display:flex;align-items:center;justify-content:center;gap:12px;padding:0 24px}
+.search{position:relative;width:min(560px,100%)}
+.search .ic{position:absolute;left:12px;top:50%;transform:translateY(-50%);color:var(--muted)}
+.search input{width:100%;height:36px;border:1px solid var(--border);background:var(--sheet);border-radius:var(--r-ctl);padding:0 12px 0 38px;font-size:15px}
+.menu{display:none;background:none;border:0;width:44px;height:44px;place-items:center;cursor:pointer}
+
+aside{grid-row:2;padding:8px 12px 24px;overflow-y:auto;position:sticky;top:0;max-height:calc(100dvh - 56px)}
+.fgroup{margin:0 0 20px;border:0;padding:0}
+.fgroup legend{font-size:12px;color:var(--muted);padding:0 8px;margin-bottom:4px}
+.opt{display:flex;align-items:center;justify-content:space-between;width:100%;min-height:32px;padding:0 8px;border:0;background:none;border-radius:var(--r-ctl);cursor:pointer;text-align:left;transition:background-color .12s var(--ease)}
+.opt:hover{background:var(--active)}
+.opt[aria-pressed="true"]{background:var(--active);font-weight:600}
+.opt .dot{width:8px;height:8px;border-radius:50%;margin-right:8px}
+.opt span{display:flex;align-items:center}
+.bsearch{width:100%;height:32px;border:1px solid var(--border);border-radius:var(--r-ctl);padding:0 10px;margin:4px 0 6px;background:var(--sheet)}
+.blist{max-height:280px;overflow-y:auto;scrollbar-width:thin}
+
+.sheet{grid-row:2;background:var(--sheet);border:1px solid var(--border);border-radius:var(--r-sheet) 0 0 0;border-right:0;border-bottom:0;margin:0;padding:var(--pad) 32px 64px;min-width:0}
+.head{display:flex;align-items:flex-end;justify-content:space-between;gap:16px;flex-wrap:wrap}
+h1{font:500 32px/1.1 var(--display);margin:0}
+.meta{color:var(--muted);margin:4px 0 0}
+.head select{height:var(--ctl);border:1px solid var(--border);border-radius:var(--r-ctl);padding:0 10px;background:var(--sheet)}
+.chips{display:flex;gap:8px;flex-wrap:wrap;margin-top:16px}
+.chip{display:inline-flex;align-items:center;gap:6px;height:28px;padding:0 6px 0 10px;border-radius:var(--r-ctl);background:var(--raised);border:0;cursor:pointer;font-size:13px}
+.chip:hover{background:var(--active)}
+
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:32px 24px;margin-top:24px}
+.tile{display:block;text-decoration:none;color:inherit;border-radius:var(--r-card)}
+.tile .ph{position:relative;aspect-ratio:4/5;border-radius:var(--r-card);display:grid;place-items:center;overflow:hidden;transition:background-color .2s var(--ease)}
+.tile .ph svg{width:46%;height:auto;transition:transform .3s var(--ease)}
+.tile:hover .ph svg{transform:translateY(-4px)}
+.tile .badge{position:absolute;left:10px;top:10px;background:var(--pos-bg);color:var(--pos-ink);border-radius:4px;padding:2px 8px;font-size:12px;font-weight:500}
+.tile .deal{position:absolute;right:10px;top:10px;background:var(--sheet);border-radius:4px;padding:2px 8px;font-size:12px}
+.tile .br{color:var(--muted);font-size:13px;margin-top:10px}
+.tile h2{font:500 20px/1.15 var(--display);margin:2px 0 6px}
+.tile .pr{display:flex;justify-content:space-between;align-items:baseline;gap:8px}
+.tile .pr b{font-size:17px;font-weight:600}
+.tile .pr span{color:var(--muted);font-size:13px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.more{display:block;margin:40px auto 0;height:40px;padding:0 20px;border:1px solid var(--control);background:var(--sheet);border-radius:var(--r-ctl);cursor:pointer}
+.more:hover{background:var(--raised)}
+.empty{color:var(--muted);padding:48px 0}
+.empty button{border:0;background:none;color:var(--accent);cursor:pointer;padding:0;text-decoration:underline}
+
+/* Ficha */
+.sheet:focus{outline:none}
+.back{display:inline-flex;align-items:center;gap:6px;color:var(--muted);text-decoration:none;min-height:36px}
+.back:hover{color:var(--text)}
+.pdp{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,6fr);gap:48px;margin-top:8px}
+.pdp .ph{aspect-ratio:4/5;border-radius:var(--r-card);display:grid;place-items:center;position:sticky;top:24px}
+.pdp .ph svg{width:42%;height:auto}
+.pdp h1{font-size:40px}
+.pdp .lead{color:var(--muted);margin:6px 0 0;font-size:15px}
+.sizes{display:flex;gap:8px;margin-top:20px;flex-wrap:wrap}
+.sizes button{min-width:72px;height:40px;border:1px solid var(--control);background:var(--sheet);border-radius:var(--r-ctl);cursor:pointer}
+.sizes button:hover{border-color:var(--text)}
+.sizes button[aria-pressed="true"]{border-color:var(--text);box-shadow:inset 0 0 0 1px var(--text)}
+.bestbox{margin-top:24px;display:flex;gap:16px;align-items:baseline;flex-wrap:wrap}
+.bestbox b{font-size:36px;font-weight:500;letter-spacing:-.01em}
+.bestbox span{color:var(--muted)}
+.cta{display:inline-flex;align-items:center;gap:8px;height:44px;padding:0 20px;background:var(--text);color:#fff;border-radius:var(--r-ctl);text-decoration:none;font-weight:500;margin-top:12px}
+.cta:hover{background:#38352c}
+h3{font-size:16px;font-weight:600;margin:40px 0 12px}
+table.offers{width:100%;border-collapse:collapse}
+.offers th{text-align:left;font-weight:400;color:var(--muted);font-size:12px;padding:0 0 8px}
+.offers td{height:48px;border-top:1px solid var(--rule)}
+.offers td.n,.offers th.n{text-align:right}
+.offers a{text-decoration:none}
+.offers a:hover{text-decoration:underline}
+.offers .old{color:var(--muted);font-size:13px}
+.offers tr.out td{color:var(--muted)}
+.chart{width:100%;height:auto;display:block;color:var(--accent)}
+.chart text{fill:var(--muted);font-size:11px}
+.chart-empty{color:var(--muted)}
+.profile{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px 32px}
+.profile dt{color:var(--muted);font-size:13px}
+.profile dd{margin:2px 0 0}
+.meter{display:flex;gap:4px;margin-top:6px}
+.meter i{height:6px;flex:1;border-radius:3px;background:var(--active)}
+.meter i.f{background:var(--text)}
+.target{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+.target input{width:120px;height:40px;border:1px solid var(--control);border-radius:var(--r-ctl);padding:0 10px;font-size:16px}
+.dealrow{display:block;padding:12px 0;border-top:1px solid var(--rule);text-decoration:none}
+.dealrow:hover b{text-decoration:underline}
+.dealrow span{color:var(--muted);font-size:13px}
+
+/* Móvil: el marco desaparece y los filtros van a una hoja */
+@media (max-width:860px){
+  .shell{grid-template-columns:1fr;grid-template-rows:56px auto}
+  .brandmark{display:none}
+  .topbar{justify-content:flex-start;padding:0 8px 0 4px}
+  .menu{display:grid}
+  aside{position:fixed;inset:0;max-height:none;background:var(--chrome);z-index:20;padding:16px 16px calc(24px + env(safe-area-inset-bottom));transform:translateY(100%);transition:transform .3s var(--ease);visibility:hidden}
+  aside.open{transform:none;visibility:visible}
+  aside .close{display:flex}
+  .sheet{border-radius:0;border:0;padding:16px 16px 48px}
+  .grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:24px 12px}
+  .tile h2{font-size:17px}
+  .pdp{grid-template-columns:1fr;gap:16px}
+  .pdp .ph{position:static;aspect-ratio:1/1}
+  .pdp h1{font-size:28px}
+  h1{font-size:24px}
+  .profile{grid-template-columns:1fr}
+}
+.close{display:none;justify-content:space-between;align-items:center;margin-bottom:12px;font-weight:600}
+.close button{width:44px;height:44px;border:0;background:none;display:grid;place-items:center;cursor:pointer}
+@media (pointer:coarse){.opt{min-height:44px}.search input,.head select,.bsearch{height:44px;font-size:16px}}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+</head>
+<body>
+<div class="shell">
+  <div class="brandmark"><i>Radar</i> de Perfumes</div>
+  <div class="topbar">
+    <button class="menu" id="openF" type="button" aria-label="Filtros" aria-controls="filters" aria-expanded="false"><svg class="ic" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><line x1="21" x2="14" y1="4" y2="4"/><line x1="10" x2="3" y1="4" y2="4"/><line x1="21" x2="12" y1="12" y2="12"/><line x1="8" x2="3" y1="12" y2="12"/><line x1="21" x2="16" y1="20" y2="20"/><line x1="12" x2="3" y1="20" y2="20"/><line x1="14" x2="14" y1="2" y2="6"/><line x1="8" x2="8" y1="10" y2="14"/><line x1="16" x2="16" y1="18" y2="22"/></svg></button>
+    <label class="search"><svg class="ic" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg><input id="q" type="search" placeholder="Buscar perfume, marca o nota" aria-label="Buscar perfume"></label>
+  </div>
+  <aside id="filters" aria-label="Filtros">
+    <div class="close">Filtros <button type="button" id="closeF" aria-label="Cerrar filtros"><svg class="ic" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg></button></div>
+    <div id="fbox"></div>
+  </aside>
+  <main class="sheet" id="sheet" tabindex="-1"></main>
+</div>
+<script src="core.js"></script>
+<script>
+const R=window.RP,$=id=>document.getElementById(id),esc=R.esc,eur=R.eur;
+let D=null,S=R.readState(),limit=24,sizeSel={},bq='';
+const SEASON_C={Primavera:'#5f8f3e',Verano:'#c58a12',Otoño:'#b0532a',Invierno:'#3f6f9c'};
+const tint=p=>(p?.liq||'#cbbfae')+'26';
+function filters(){
+  const opt=(k,v,label,extra='')=>`<button class="opt" type="button" data-f="${k}" data-v="${esc(v)}" aria-pressed="${S[k]===v}"><span>${extra}${esc(label)}</span></button>`;
+  const brands=[...new Set(D.items.map(i=>i.brand))].sort((a,b)=>a.localeCompare(b,'es')).filter(b=>R.norm(b).includes(R.norm(bq)));
+  $('fbox').innerHTML=`
+  <fieldset class="fgroup"><legend>Para</legend>${['Todos','Hombre','Mujer','Unisex'].map(v=>opt('g',v,v==='Todos'?'Todos':v)).join('')}</fieldset>
+  <fieldset class="fgroup"><legend>Tipo</legend>${['Todos','Diseñador','Nicho','Árabe'].map(v=>opt('tier',v,v==='Todos'?'Todos los tipos':v)).join('')}</fieldset>
+  <fieldset class="fgroup"><legend>Temporada</legend>${['Todas',...R.SEASONS].map(v=>opt('season',v,v==='Todas'?'Todo el año':v,v==='Todas'?'':`<i class="dot" style="background:${SEASON_C[v]}"></i>`)).join('')}</fieldset>
+  <fieldset class="fgroup"><legend>Marca</legend><input class="bsearch" id="bq" type="search" placeholder="Buscar marca" aria-label="Buscar marca" value="${esc(bq)}">
+    <div class="blist">${opt('brand','Todas','Todas las marcas')}${brands.map(b=>opt('brand',b,b)).join('')}</div></fieldset>`;
+}
+function tile(x){
+  const i=x.cur,b=i.b;
+  return `<a class="tile" href="#p/${x.key}"><div class="ph" style="background:${tint(i.p)}">${R.bottle(i.p)}${i.dr&&i.dr.pct<=-3?`<span class="badge">${R.pct(i.dr.pct)} hoy</span>`:''}${i.deals.length?'<span class="deal">Chollo</span>':''}</div>
+  <div class="br">${esc(i.brand)} · ${i.ml} ml${x.vars.length>1?' · '+x.vars.length+' tamaños':''}</div><h2>${esc(i.name)}</h2>
+  <div class="pr"><b>${b?eur(b.p):'Sin precio'}</b><span>${b?esc(b.name):''}</span></div></a>`;
+}
+function catalog(){
+  const g=R.groups(D.items,S,sizeSel),dirty=['q','g','tier','season','brand'].filter(k=>S[k]!==R.DEFAULTS[k]);
+  const lab={q:'«'+S.q+'»',g:S.g,tier:S.tier,season:S.season,brand:S.brand};
+  $('sheet').innerHTML=`<div class="head"><div><h1>Perfumes</h1><p class="meta" role="status">${g.length} perfumes · precios leídos ${R.agoTime(D.estado?.at)}</p></div>
+   <label>Ordenar <select id="sort">${R.SORTS.map(([k,l])=>`<option value="${k}" ${k===S.sort?'selected':''}>${l}</option>`).join('')}</select></label></div>
+   ${dirty.length?`<div class="chips">${dirty.map(k=>`<button class="chip" type="button" data-unset="${k}" aria-label="Quitar filtro ${esc(lab[k])}">${esc(lab[k])}<svg class="ic" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg></button>`).join('')}</div>`:''}
+   ${g.length?`<div class="grid">${g.slice(0,limit).map(tile).join('')}</div>${g.length>limit?`<button class="more" type="button" id="more">Mostrar ${Math.min(24,g.length-limit)} más</button>`:''}`
+   :`<p class="empty">Ningún perfume cumple estos filtros. <button type="button" data-clearall>Quitar todos los filtros</button></p>`}`;
+}
+function detail(key){
+  const all=R.groups(D.items,R.DEFAULTS,sizeSel),x=all.find(g=>g.key===key);if(!x){location.hash='';return}
+  const i=x.cur,p=i.p,o=R.offers(i),b=i.b,t=R.targets()[i.id];
+  const meter=n=>`<div class="meter" aria-label="${n} de 5">${[1,2,3,4,5].map(k=>`<i class="${k<=n?'f':''}"></i>`).join('')}</div>`;
+  $('sheet').innerHTML=`<a class="back" href="#"><svg class="ic" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="m12 19-7-7 7-7"/><path d="M19 12H5"/></svg>Volver al catálogo</a>
+  <div class="pdp"><div class="ph" style="background:${tint(p)}">${R.bottle(p)}</div><div>
+    <p class="meta">${esc(i.brand)} · ${esc(R.tierOf(i))}</p><h1>${esc(i.name)}</h1>
+    <p class="lead">${esc(i.conc)}${p?' · '+p.g+' · '+esc(p.fam)+'. '+esc(p.notes):''}</p>
+    <div class="sizes" role="group" aria-label="Tamaño">${x.vars.map(v=>`<button type="button" aria-pressed="${v.id===i.id}" data-size="${v.id}">${v.ml} ml</button>`).join('')}</div>
+    <div class="bestbox"><b>${b?eur(b.p):'Sin precio'}</b>${b?`<span>en ${esc(b.name)} · ${eur(b.p/i.ml*100)} los 100 ml${i.dr?' · '+R.pct(i.dr.pct)+' frente a su media de 30 días':''}</span>`:''}</div>
+    ${b?`<a class="cta" href="${esc(b.url)}" target="_blank" rel="noopener">Ver en ${esc(b.name)}<svg class="ic" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M15 3h6v6"/><path d="M10 14 21 3"/><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg></a>`:''}
+    <h3>Precio en cada tienda</h3>
+    <table class="offers"><thead><tr><th>Tienda</th><th>Leído</th><th class="n">Precio</th></tr></thead><tbody>${o.map(z=>`<tr class="${z.stock?'':'out'}"><td><a href="${esc(z.url)}" target="_blank" rel="noopener">${esc(z.name)}</a></td><td class="old">${z.stock?R.ago(z.d):'agotado'}</td><td class="n">${eur(z.p)}</td></tr>`).join('')||'<tr><td colspan="3">Aún no hay precios</td></tr>'}</tbody></table>
+    <h3>Mejor precio, día a día</h3>${R.lineChart(R.series(i),{stroke:'var(--accent)',grid:'#16150f'})}
+    <h3>Cómo es</h3>${p?`<dl class="profile"><div><dt>Duración</dt><dd>${meter(p.dur)}</dd></div><div><dt>Estela</dt><dd>${meter(p.sil)}</dd></div>
+      <div><dt>Temporada</dt><dd>${p.se.join(', ')}</dd></div><div><dt>Cuándo</dt><dd>${esc(p.use)}</dd></div></dl>`:'<p class="meta">Sin ficha de perfil.</p>'}
+    <h3>Avísame si baja</h3><label class="target">Por debajo de <input type="number" inputmode="decimal" min="0" step="0.5" value="${t??''}" data-target="${i.id}" aria-label="Precio objetivo en euros"> €</label>
+    ${i.deals.length?`<h3>Chollos publicados</h3>${i.deals.slice(0,4).map(d=>`<a class="dealrow" href="${esc(d.url)}" target="_blank" rel="noopener"><b>${esc(d.t)}</b><br><span>${d.p?eur(d.p)+' · ':''}${esc(d.shop||'Chollometro')}</span></a>`).join('')}`:''}
+  </div></div>`;
+  $('sheet').focus({preventScroll:true});scrollTo(0,0);
+}
+function route(){const m=location.hash.match(/^#p\/(.+)$/);m?detail(m[1]):catalog();R.writeState(S)}
+function setF(k,v){S[k]=v;limit=24;filters();if(location.hash)location.hash='';else route()}
+document.addEventListener('click',e=>{
+  const t=e.target.closest('[data-f],[data-unset],[data-clearall],[data-size],#more,#openF,#closeF');if(!t)return;
+  if(t.dataset.f){setF(t.dataset.f,t.dataset.v);if(innerWidth<=860)toggleF(false);return}
+  if(t.dataset.unset){setF(t.dataset.unset,R.DEFAULTS[t.dataset.unset]);if(t.dataset.unset==='q')$('q').value='';return}
+  if(t.dataset.clearall!==undefined){S={...R.DEFAULTS,sort:S.sort};$('q').value='';filters();route();return}
+  if(t.dataset.size){const it=D.items.find(x=>x.id===t.dataset.size);sizeSel[it.key]=it.id;route();return}
+  if(t.id==='more'){limit+=24;catalog();return}
+  if(t.id==='openF')toggleF(true);if(t.id==='closeF')toggleF(false);
+});
+function toggleF(on){$('filters').classList.toggle('open',on);$('openF').setAttribute('aria-expanded',on);if(on)$('closeF').focus();else $('openF').focus()}
+document.addEventListener('keydown',e=>{if(e.key==='Escape'&&$('filters').classList.contains('open'))toggleF(false)});
+document.addEventListener('input',e=>{if(e.target.id==='bq'){bq=e.target.value;filters();$('bq').focus();$('bq').setSelectionRange(bq.length,bq.length)}});
+document.addEventListener('change',e=>{
+  if(e.target.id==='sort'){S.sort=e.target.value;route()}
+  if(e.target.dataset.target){const v=e.target.value===''?null:parseFloat(e.target.value);R.setTarget(e.target.dataset.target,v)}
+});
+$('q').addEventListener('input',e=>{S.q=e.target.value;limit=24;if(location.hash)location.hash='';else route()});
+addEventListener('hashchange',route);
+(async()=>{
+  D=await R.load();
+  if(!D){$('sheet').innerHTML='<p class="empty">No se han podido cargar los precios. <a href="">Reintentar</a></p>';return}
+  $('q').value=S.q;filters();route();
+})();
+</script>
+</body>
+</html>
