@@ -245,12 +245,13 @@ const ageDays=d=>d?Math.max(0,Math.round((Date.now()-new Date(d.slice(0,10)+'T12
 function offers(it){
   return Object.entries(it.prices||{}).filter(([,v])=>v&&v.p!=null).map(([s,v])=>({s,name:shopName(s),p:v.p,d:v.d,age:ageDays(v.d),stock:v.stock!==false,note:v.note||'',url:(it.urls||{})[s]||(SHOP[s]?.s?.(encodeURIComponent(it.brand+' '+it.name+' '+it.ml+' ml')))})).sort((a,b)=>(b.stock-a.stock)||(a.p-b.p));
 }
-function best(it){const o=offers(it).filter(x=>x.stock);return o[0]||null}
+// Mejor precio: el más bajo leído en los últimos 14 días; uno más viejo solo si no hay otro
+function best(it){const o=offers(it).filter(x=>x.stock);return o.find(x=>x.age!=null&&x.age<=14)||o[0]||null}
 const per100=it=>{const b=best(it);return b?b.p/it.ml*100:null};
 function series(it){const m={};for(const h of it.history||[])if(m[h.d]==null||h.p<m[h.d])m[h.d]=h.p;return Object.entries(m).sort().map(([d,p])=>({d,p}))}
 // Bajada: mejor precio de hoy frente a la media de los mejores precios diarios de los 30 días anteriores
 function drop(it){
-  const s=series(it),b=best(it);if(!b||s.length<3)return null;
+  const s=series(it),b=best(it);if(!b||b.age==null||b.age>2||s.length<3)return null;
   const cut=new Date(Date.now()-30*DAY).toISOString().slice(0,10),last=s[s.length-1].d;
   const prev=s.filter(x=>x.d>=cut&&x.d<last).map(x=>x.p);if(prev.length<2)return null;
   const avg=prev.reduce((a,c)=>a+c,0)/prev.length;
@@ -325,8 +326,14 @@ function setTarget(id,v){const t=targets();if(v==null)delete t[id];else t[id]=v;
 const ago=d=>{const n=ageDays(d);return n==null?'':n===0?'hoy':n===1?'ayer':'hace '+n+' días'};
 const agoTime=t=>{if(!t)return '';const m=Math.round((Date.now()-new Date(t))/6e4);return m<60?'hace '+m+' min':m<1440?'hace '+Math.round(m/60)+' h':'hace '+Math.round(m/1440)+' d'};
 const pct=x=>(x>0?'+':x<0?'−':'')+Math.abs(x).toLocaleString('es-ES',{maximumFractionDigits:0})+' %';
-async function load(){
-  const get=f=>fetch('../data/'+f+'?t='+Date.now(),{cache:'no-store'}).then(r=>r.ok?r.json():null).catch(()=>null);
+
+// Fotos de producto que ha guardado la pasada (direcciones de las tiendas, no copias)
+const PHOTO_ORDER=['idealo','notino','sabina','perfumesclub','laguna','paco','avenida','lookfantastic','parejo','brasty','arabicparfums','firstinfragrance','beautinow','douglas','sephora'];
+function photos(it){const im=it.images||{};const ks=Object.keys(im).sort((a,b)=>(PHOTO_ORDER.indexOf(a)+99)%99-(PHOTO_ORDER.indexOf(b)+99)%99);const seen=new Set();return ks.map(k=>({s:k,url:im[k]})).filter(x=>!seen.has(x.url)&&seen.add(x.url))}
+// Ahorro: diferencia entre la tienda más cara y la más barata con stock
+function spread(it){const o=offers(it).filter(x=>x.stock&&x.age!=null&&x.age<=14);if(o.length<2)return null;return {n:o.length,save:o[o.length-1].p-o[0].p}}
+async function load(dir='../data/'){
+  const get=f=>fetch(dir+f+'?t='+Date.now(),{cache:'no-store'}).then(r=>r.ok?r.json():null).catch(()=>null);
   const [items,ch,estado]=await Promise.all([get('perfumes.json'),get('chollos.json'),get('estado.json')]);
   if(!items)return null;
   const vs=valueScores(items);
@@ -336,5 +343,5 @@ async function load(){
   for(const it of items){const n=norm(it.name),bw=norm(it.brand).split(' ')[0];it.deals=deals.filter(d=>{const t=norm(d.t);return t.includes(n)&&t.includes(bw)})}
   return {items,deals,estado};
 }
-window.RP={icon,readState,writeState,groups,SORTS,DEFAULTS,targets,setTarget,ago,agoTime,pct,tierOf:it=>it.tier||'Diseñador',SHOPS,SHOP,SEASONS,PROFILES,norm,esc,eur,prof,tierOf,shopName,ageDays,offers,best,per100,series,drop,bottle,lineChart,load,base};
+window.RP={photos,spread,icon,readState,writeState,groups,SORTS,DEFAULTS,targets,setTarget,ago,agoTime,pct,tierOf:it=>it.tier||'Diseñador',SHOPS,SHOP,SEASONS,PROFILES,norm,esc,eur,prof,tierOf,shopName,ageDays,offers,best,per100,series,drop,bottle,lineChart,load,base};
 })();

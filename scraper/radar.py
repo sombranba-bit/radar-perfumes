@@ -197,6 +197,28 @@ def extract(page, ml, url):
     return None, None, "sin-precio"
 
 
+def product_image(page):
+    """Foto principal del producto: la del JSON-LD y, si no hay, la de og:image. Solo la dirección, nunca el archivo."""
+    for raw in re.findall(r'<script[^>]+application/ld\+json[^>]*>(.*?)</script>', page, re.S | re.I):
+        try:
+            data = json.loads(raw.strip(), strict=False)
+        except Exception:
+            continue
+        for o in _walk(data):
+            if not (_types(o) & {"Product", "ProductGroup"}):
+                continue
+            im = o.get("image")
+            if isinstance(im, list):
+                im = im[0] if im else None
+            if isinstance(im, dict):
+                im = im.get("url") or im.get("contentUrl")
+            if isinstance(im, str) and im.startswith(("http://", "https://", "//")):
+                return htmllib.unescape(im if not im.startswith("//") else "https:" + im)
+    m = re.search(r'<meta[^>]+property=["\']og:image["\'][^>]+content=["\']([^"\']+)', page, re.I) or \
+        re.search(r'<meta[^>]+content=["\']([^"\']+)["\'][^>]+property=["\']og:image', page, re.I)
+    return htmllib.unescape(m.group(1)) if m and m.group(1).startswith("http") else None
+
+
 def plausible(p, ref, how="jsonld"):
     if ref is None:
         return how != "texto"
@@ -373,6 +395,9 @@ def update_perfume(it, get, stats, today):
             continue
         st["ok"] += 1
         st[how] = st.get(how, 0) + 1
+        pic = product_image(r.text)
+        if pic:
+            it.setdefault("images", {})[shop] = pic[:500]
         entry = {"p": round(p, 2), "d": today, "auto": True, "gh": True}
         if stock is False:
             entry["stock"] = False

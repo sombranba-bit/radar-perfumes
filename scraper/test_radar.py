@@ -132,3 +132,13 @@ print("OK: Douglas y Avenida")
 q = '<script type="application/ld+json">{"@type":"ProductGroup","hasVariant":[{"@type":"Product","name":"L\'Eau d\'Issey 100ml","description":"el &quot;agua&quot; 50 ml","offers":{"price":"43.95","priceCurrency":"EUR"}}]}</script>'
 assert extract(q + "<span>3,99€</span>", 100, "https://www.lookfantastic.es/x/1.html")[0] == 43.95
 print("OK: JSON-LD con &quot;")
+
+# 17. Foto del producto
+assert radar.product_image(ld({"@type": "Product", "name": "X", "image": ["https://cdn.x/a.jpg", "https://cdn.x/b.jpg"]})) == "https://cdn.x/a.jpg"
+assert radar.product_image(ld({"@type": "ProductGroup", "hasVariant": [{"@type": "Product", "image": {"url": "https://cdn.x/c.jpg"}}]})) == "https://cdn.x/c.jpg"
+assert radar.product_image('<meta property="og:image" content="https://cdn.x/og.jpg">') == "https://cdn.x/og.jpg"
+assert radar.product_image("<p>nada</p>") is None
+it3 = {"brand": "B", "name": "N", "ml": 100, "urls": {"paco": "https://p.es/x"}, "prices": {}, "history": []}
+radar.update_perfume(it3, lambda u: R(200, ld({"@type": "Product", "name": "N 100 ml", "image": "https://p.es/n.jpg", "offers": {"price": "40", "priceCurrency": "EUR"}})), {}, "2026-11-12")
+assert it3["images"] == {"paco": "https://p.es/n.jpg"} and it3["prices"]["paco"]["p"] == 40.0
+print("OK: fotos")
