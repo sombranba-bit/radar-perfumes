@@ -1,40 +1,41 @@
 {
- "at": "2026-11-12T18:51:46+01:00",
+ "at": "2026-11-12T19:52:39+01:00",
  "revisados": 35,
  "tiendas": {
-  "arabicparfums": {
-   "ok": 4,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "jsonld": 3,
-   "jsonld-url": 1
-  },
   "idealo": {
    "ok": 32,
    "bloqueada": 0,
-   "sin_precio": 1,
-   "dudoso": 1,
-   "jsonld-url": 28,
-   "jsonld": 3,
-   "texto": 1,
-   "ejemplos": [
-    {
-     "perfume": "creed-silver-mountain-water-edp-100",
-     "precio": 24.75,
-     "referencia": 320.0,
-     "metodo": "texto"
-    }
-   ]
-  },
-  "laguna": {
-   "ok": 9,
-   "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "jsonld": 5,
-   "jsonld-url": 1,
-   "precio-100ml": 3
+   "jsonld-url": 28,
+   "jsonld": 4
+  },
+  "lookfantastic": {
+   "ok": 2,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 14,
+   "ejemplos": [
+    {
+     "perfume": "burberry-goddess-edp-100",
+     "precio": 3.99,
+     "referencia": 82.4,
+     "metodo": "texto"
+    },
+    {
+     "perfume": "carolina-herrera-la-bomba-edp-80",
+     "precio": 3.99,
+     "referencia": 94.95,
+     "metodo": "texto"
+    },
+    {
+     "perfume": "dolce-gabbana-devotion-edp-100",
+     "precio": 3.99,
+     "referencia": 83.935,
+     "metodo": "texto"
+    }
+   ],
+   "jsonld": 2
   },
   "notino": {
    "ok": 0,
@@ -42,77 +43,74 @@
    "sin_precio": 0,
    "dudoso": 0
   },
-  "parejo": {
-   "ok": 6,
+  "paco": {
+   "ok": 24,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 1,
-   "jsonld": 6,
+   "jsonld": 23,
+   "precio-100ml": 1,
    "ejemplos": [
     {
-     "perfume": "bvlgari-man-in-black-edp-100",
-     "precio": 126.65,
-     "referencia": 73.25,
-     "metodo": "jsonld"
+     "perfume": "lancome-la-nuit-tresor-edp-100",
+     "precio": 179.0,
+     "referencia": 84.95,
+     "metodo": "texto"
     }
    ]
   },
   "sabina": {
-   "ok": 16,
-   "bloqueada": 0,
-   "sin_precio": 4,
-   "dudoso": 0,
-   "precio-100ml": 3,
-   "jsonld": 13
-  },
-  "avenida": {
-   "ok": 2,
+   "ok": 17,
    "bloqueada": 0,
    "sin_precio": 1,
    "dudoso": 0,
-   "variantes": 2
+   "jsonld": 15,
+   "precio-100ml": 2
   },
-  "lookfantastic": {
-   "ok": 2,
+  "avenida": {
+   "ok": 11,
    "bloqueada": 0,
-   "sin_precio": 2,
-   "dudoso": 10,
-   "ejemplos": [
-    {
-     "perfume": "armani-acqua-di-gio-profondo-edp-75",
-     "precio": 3.99,
-     "referencia": 77.63,
-     "metodo": "texto"
-    },
-    {
-     "perfume": "tom-ford-tobacco-vanille-edp-50",
-     "precio": 3.99,
-     "referencia": 167.49,
-     "metodo": "texto"
-    },
-    {
-     "perfume": "armani-my-way-edp-90",
-     "precio": 3.99,
-     "referencia": 85.95,
-     "metodo": "texto"
-    }
-   ],
-   "jsonld": 2
+   "sin_precio": 0,
+   "dudoso": 0,
+   "variantes": 11
   },
-  "paco": {
-   "ok": 14,
+  "laguna": {
+   "ok": 12,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "precio-100ml": 1,
+   "jsonld": 7,
+   "jsonld-url": 4
+  },
+  "parejo": {
+   "ok": 10,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 1,
+   "jsonld": 10,
    "ejemplos": [
     {
-     "perfume": "armani-acqua-di-gio-profondo-edp-75",
-     "precio": 50.0,
-     "referencia": null,
-     "metodo": "texto"
+     "perfume": "dior-sauvage-parfum-parfum-100",
+     "precio": 176.8,
+     "referencia": 115.95,
+     "metodo": "jsonld"
     }
-   ],
-   "jsonld": 14
+   ]
+  },
+  "perfumesclub": {
+   "ok": 3,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "jsonld": 3
+  },
+  "douglas": {
+   "ok": 4,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "precio-100ml": 4
   },
   "sephora": {
    "ok": 0,
@@ -120,34 +118,21 @@
    "sin_precio": 0,
    "dudoso": 0
   },
-  "beautinow": {
-   "ok": 0,
-   "bloqueada": 0,
-   "sin_precio": 3,
-   "dudoso": 0
-  },
   "firstinfragrance": {
-   "ok": 7,
+   "ok": 2,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "jsonld": 7
+   "jsonld": 2
   },
-  "perfumesclub": {
-   "ok": 1,
+  "arabicparfums": {
+   "ok": 2,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "jsonld": 1
-  },
-  "douglas": {
-   "ok": 1,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "precio-100ml": 1
+   "jsonld": 2
   }
  },
  "limpiados": {},
- "chollometro": "ok 86"
+ "chollometro": "ok 84"
 }
