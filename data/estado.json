@@ -1,145 +1,137 @@
 {
- "at": "2026-11-12T17:36:54+01:00",
+ "at": "2026-11-12T18:51:46+01:00",
  "revisados": 35,
  "tiendas": {
+  "arabicparfums": {
+   "ok": 4,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "jsonld": 3,
+   "jsonld-url": 1
+  },
   "idealo": {
    "ok": 32,
    "bloqueada": 0,
-   "sin_precio": 0,
+   "sin_precio": 1,
    "dudoso": 1,
-   "jsonld-url": 31,
+   "jsonld-url": 28,
+   "jsonld": 3,
+   "texto": 1,
    "ejemplos": [
     {
-     "perfume": "acqua-di-parma-colonia-edc-100",
-     "precio": 154.84,
-     "referencia": 96.71,
-     "metodo": "jsonld"
-    }
-   ],
-   "jsonld": 1
-  },
-  "paco": {
-   "ok": 20,
-   "bloqueada": 0,
-   "sin_precio": 2,
-   "dudoso": 1,
-   "jsonld": 19,
-   "ejemplos": [
-    {
-     "perfume": "hugo-boss-boss-bottled-absolu-parfum-100",
-     "precio": 140.0,
-     "referencia": 85.85,
+     "perfume": "creed-silver-mountain-water-edp-100",
+     "precio": 24.75,
+     "referencia": 320.0,
      "metodo": "texto"
     }
-   ],
-   "precio-100ml": 1
+   ]
   },
-  "sabina": {
-   "ok": 25,
+  "laguna": {
+   "ok": 9,
    "bloqueada": 0,
-   "sin_precio": 6,
+   "sin_precio": 0,
    "dudoso": 0,
-   "jsonld": 24,
-   "texto": 1
+   "jsonld": 5,
+   "jsonld-url": 1,
+   "precio-100ml": 3
   },
-  "sephora": {
+  "notino": {
    "ok": 0,
-   "bloqueada": 12,
+   "bloqueada": 24,
    "sin_precio": 0,
    "dudoso": 0
   },
-  "douglas": {
-   "ok": 4,
-   "bloqueada": 0,
-   "sin_precio": 1,
-   "dudoso": 0,
-   "precio-100ml": 4
-  },
-  "avenida": {
-   "ok": 16,
-   "bloqueada": 0,
-   "sin_precio": 1,
-   "dudoso": 0,
-   "variantes": 16
-  },
-  "laguna": {
-   "ok": 17,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "jsonld": 6,
-   "jsonld-url": 7,
-   "precio-100ml": 4
-  },
-  "lookfantastic": {
-   "ok": 4,
-   "bloqueada": 0,
-   "sin_precio": 1,
-   "dudoso": 18,
-   "ejemplos": [
-    {
-     "perfume": "dolce-gabbana-light-blue-edt-100",
-     "precio": 3.99,
-     "referencia": 72.0,
-     "metodo": "texto"
-    },
-    {
-     "perfume": "dolce-gabbana-the-one-for-men-edp-100",
-     "precio": 3.99,
-     "referencia": 66.94,
-     "metodo": "texto"
-    },
-    {
-     "perfume": "givenchy-gentleman-edp-100",
-     "precio": 120.75,
-     "referencia": 71.2,
-     "metodo": "texto"
-    }
-   ],
-   "jsonld": 3,
-   "texto": 1
-  },
-  "notino": {
-   "ok": 2,
-   "bloqueada": 25,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "jsonld": 2
-  },
   "parejo": {
-   "ok": 5,
+   "ok": 6,
    "bloqueada": 0,
    "sin_precio": 0,
-   "dudoso": 2,
-   "jsonld": 5,
+   "dudoso": 1,
+   "jsonld": 6,
    "ejemplos": [
     {
-     "perfume": "dolce-gabbana-light-blue-pour-homme-edt-125",
-     "precio": 78.2,
-     "referencia": 45.53,
-     "metodo": "jsonld"
-    },
-    {
-     "perfume": "givenchy-l-interdit-edp-80",
-     "precio": 113.05,
-     "referencia": 74.0,
+     "perfume": "bvlgari-man-in-black-edp-100",
+     "precio": 126.65,
+     "referencia": 73.25,
      "metodo": "jsonld"
     }
    ]
   },
-  "brasty": {
+  "sabina": {
+   "ok": 16,
+   "bloqueada": 0,
+   "sin_precio": 4,
+   "dudoso": 0,
+   "precio-100ml": 3,
+   "jsonld": 13
+  },
+  "avenida": {
    "ok": 2,
    "bloqueada": 0,
-   "sin_precio": 0,
+   "sin_precio": 1,
    "dudoso": 0,
+   "variantes": 2
+  },
+  "lookfantastic": {
+   "ok": 2,
+   "bloqueada": 0,
+   "sin_precio": 2,
+   "dudoso": 10,
+   "ejemplos": [
+    {
+     "perfume": "armani-acqua-di-gio-profondo-edp-75",
+     "precio": 3.99,
+     "referencia": 77.63,
+     "metodo": "texto"
+    },
+    {
+     "perfume": "tom-ford-tobacco-vanille-edp-50",
+     "precio": 3.99,
+     "referencia": 167.49,
+     "metodo": "texto"
+    },
+    {
+     "perfume": "armani-my-way-edp-90",
+     "precio": 3.99,
+     "referencia": 85.95,
+     "metodo": "texto"
+    }
+   ],
    "jsonld": 2
   },
+  "paco": {
+   "ok": 14,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 1,
+   "ejemplos": [
+    {
+     "perfume": "armani-acqua-di-gio-profondo-edp-75",
+     "precio": 50.0,
+     "referencia": null,
+     "metodo": "texto"
+    }
+   ],
+   "jsonld": 14
+  },
+  "sephora": {
+   "ok": 0,
+   "bloqueada": 3,
+   "sin_precio": 0,
+   "dudoso": 0
+  },
+  "beautinow": {
+   "ok": 0,
+   "bloqueada": 0,
+   "sin_precio": 3,
+   "dudoso": 0
+  },
   "firstinfragrance": {
-   "ok": 3,
+   "ok": 7,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "jsonld": 3
+   "jsonld": 7
   },
   "perfumesclub": {
    "ok": 1,
@@ -148,11 +140,12 @@
    "dudoso": 0,
    "jsonld": 1
   },
-  "beautinow": {
-   "ok": 0,
+  "douglas": {
+   "ok": 1,
    "bloqueada": 0,
-   "sin_precio": 3,
-   "dudoso": 0
+   "sin_precio": 0,
+   "dudoso": 0,
+   "precio-100ml": 1
   }
  },
  "limpiados": {},
