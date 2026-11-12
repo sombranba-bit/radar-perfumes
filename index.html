@@ -91,7 +91,7 @@ input:focus-visible,select:focus-visible,button:focus-visible,a:focus-visible,su
 .row{display:flex;gap:10px;align-items:center;flex-wrap:wrap;font-size:13px;color:var(--muted)}
 .row input{width:90px}
 svg.spark{width:100%;height:42px;display:block}
-details summary{cursor:pointer;font-size:13px;font-weight:600;color:var(--accent)}
+details summary{cursor:pointer;font-size:13px;font-weight:600;color:var(--accent);padding:8px 0}
 .tbl{overflow-x:auto;margin-top:8px}
 table{width:100%;border-collapse:collapse;font-size:13px;font-variant-numeric:tabular-nums}
 td,th{padding:6px 4px;border-bottom:1px solid var(--line);text-align:left;white-space:nowrap}
@@ -103,7 +103,16 @@ td button{border:1px solid var(--line);background:transparent;border-radius:6px;
 a{color:var(--accent)}
 .tag{font:12px var(--mono);color:var(--muted)}
 .empty{padding:28px;border:1px dashed var(--line);border-radius:12px;color:var(--muted)}
-form.add{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:8px;background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:14px}
+form.add{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:12px;align-items:end;background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:16px}
+form.add label{display:grid;gap:4px;font-size:13px;color:var(--muted)}
+.chip,.sz{min-height:32px;display:inline-flex;align-items:center}
+.btn,.sz{transition:background-color .15s cubic-bezier(.22,1,.36,1),border-color .15s cubic-bezier(.22,1,.36,1),color .15s cubic-bezier(.22,1,.36,1),transform .12s cubic-bezier(.22,1,.36,1)}
+.chip{transition:background-color .15s cubic-bezier(.22,1,.36,1),color .15s cubic-bezier(.22,1,.36,1),transform .12s cubic-bezier(.22,1,.36,1)}
+.chip[aria-pressed="false"]:hover,.seg .chip[aria-pressed="false"]:hover{background:var(--sunk)}
+.btn:hover{filter:brightness(1.08)}.btn.ghost:hover{filter:none;background:var(--accent-soft)}
+.chip:active,.sz:active,.btn:active{transform:scale(.97)}
+@media (pointer:coarse){.chip,.sz,.btn,input,select{min-height:44px}details summary,.chtoggle{padding-block:12px}}
+@media (prefers-reduced-motion:reduce){*,*::before{transition:none!important;scroll-behavior:auto!important}.chip:active,.sz:active,.btn:active{transform:none}}
 .foot{font-size:12px;color:var(--muted);max-width:90ch}
 .del{background:none;border:none;color:var(--warn);cursor:pointer;font-size:12px;padding:0}
 .web{background:var(--surface);border:1px solid var(--accent);border-radius:12px;padding:14px 16px;display:grid;gap:10px}
@@ -116,7 +125,7 @@ form.add{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));g
 .chsrc{font:500 13px var(--body);color:var(--muted)}
 .flame{width:18px;height:18px;flex:none;align-self:center}
 .chhead .tag{margin-left:auto}
-.chtoggle{border:none;background:none;color:var(--accent);font:600 13px var(--body);cursor:pointer;padding:0}
+.chtoggle{border:none;background:none;color:var(--accent);font:600 13px var(--body);cursor:pointer;padding:8px 4px}
 .chlist{display:flex;gap:10px;overflow-x:auto;scroll-snap-type:x mandatory;padding-bottom:6px;min-width:0}
 .chlist{scrollbar-width:thin;scrollbar-color:var(--line) transparent}
 .chlist:hover{scrollbar-color:var(--accent) transparent}
@@ -187,7 +196,7 @@ ul.deals{margin:4px 0 0;padding-left:18px;font-size:13px}
     </div>
     <div class="bgroups" id="brands"></div>
     <div class="tools sub2">
-      <span class="count" id="count"></span>
+      <span class="count" id="count" role="status" aria-live="polite"></span>
       <select id="sort" aria-label="Ordenar">
         <option value="value">Mejor calidad/precio</option>
         <option value="target">Más cerca de mi objetivo</option>
@@ -199,19 +208,19 @@ ul.deals{margin:4px 0 0;padding-left:18px;font-size:13px}
     </div>
   </div>
   <form class="add" id="addForm" hidden>
-    <input id="fBrand" list="brandList" placeholder="Marca" required>
+    <label>Marca<input id="fBrand" list="brandList" required></label>
     <datalist id="brandList"></datalist>
-    <input id="fName" placeholder="Nombre (p. ej. Boss Bottled)" required>
-    <select id="fConc"><option>EDT</option><option>EDP</option><option>Parfum</option><option>Elixir</option><option>Colonia</option></select>
-    <input id="fMl" type="number" min="5" step="1" placeholder="ml" required>
-    <input id="fTarget" type="number" min="0" step="0.01" placeholder="Objetivo €">
+    <label>Nombre<input id="fName" placeholder="p. ej. Boss Bottled" required></label>
+    <label>Concentración<select id="fConc"><option>EDT</option><option>EDP</option><option>Parfum</option><option>Elixir</option><option>Colonia</option></select></label>
+    <label>Tamaño (ml)<input id="fMl" type="number" min="5" step="1" inputmode="numeric" required></label>
+    <label>Objetivo (€, opcional)<input id="fTarget" type="number" min="0" step="0.01" inputmode="decimal"></label>
     <button class="btn" type="submit">Guardar</button>
   </form>
   <div class="web" id="web" hidden></div>
   <div class="grid" id="grid"><div class="empty">Cargando la lista de perfumes…</div></div>
   <p class="foot">Precio de tienda sin envío. En Notino puede incluir un código de descuento general, indicado en la nota. Las ilustraciones son orientativas, no fotos del frasco real; la foto está en la ficha de cada tienda. Duración y estela son valoraciones generales de cada perfume (1 a 5). La nota de calidad/precio compara duración y estela con el mejor precio por 100 ml, entre los perfumes de esta lista.</p>
 </div>
-<div id="toast" hidden></div>
+<div id="toast" role="status" aria-live="polite" hidden></div>
 
 <script>
 const SHOPS=[
@@ -537,7 +546,7 @@ function render(){
     web.innerHTML=`<h2>Buscar «${esc(qtxt)}» en internet</h2><div class="links">${L.map(([n,u])=>`<a href="${u}" target="_blank" rel="noopener">${n} ↗</a>`).join('')}</div>
       <div class="row">Cada enlace abre los resultados de esa tienda en una pestaña nueva. <button class="btn ghost" type="button" id="addFromSearch">Añadir «${esc(qtxt)}» a mi lista</button></div>`}
   if(!items.length){$('grid').innerHTML='<div class="empty">Aún no hay perfumes. Pulsa «Añadir perfume» para crear el primero.</div>';return}
-  if(!list.length){const act=[brand!=='Todas'&&'marca «'+brand+'»',season!=='Todas'&&'temporada «'+season+'»',words.length&&'búsqueda «'+$('q').value.trim()+'»'].filter(Boolean);
+  if(!list.length){const act=[gender!=='Todos'&&'«'+gender+'»',tier!=='Todos'&&'tipo «'+tier+'»',brand!=='Todas'&&'marca «'+brand+'»',season!=='Todas'&&'temporada «'+season+'»',words.length&&'búsqueda «'+$('q').value.trim()+'»'].filter(Boolean);
     $('grid').innerHTML=`<div class="empty">Ningún perfume coincide con ${esc(act.join(', '))}. <button class="btn ghost" type="button" id="reset">Quitar filtros</button></div>`;return}
   const seen=new Set(),rows=[];
   for(const it of list){const g=gkey(it);if(seen.has(g))continue;seen.add(g);
@@ -669,7 +678,7 @@ $('addForm').addEventListener('submit',async e=>{
   // Datos que deja la pasada automática de GitHub (data/*.json, junto a esta página).
   const get=f=>fetch('data/'+f+'?t='+Date.now(),{cache:'no-store'}).then(r=>r.ok?r.json():null).catch(()=>null);
   const [p,c,e]=await Promise.all([get('perfumes.json'),get('chollos.json'),get('estado.json')]);
-  if(!p){$('grid').innerHTML='<div class="empty">No se han podido cargar los datos. Recarga la página.</div>';return}
+  if(!p){$('grid').innerHTML='<div class="empty">No se han podido cargar los precios. Revisa la conexión y vuelve a intentarlo. <button class="btn ghost" type="button" onclick="location.reload()">Reintentar</button></div>';return}
   SNAPSHOT=p;if(c)chollos=c;ESTADO=e;
   loadLocal();render();
 })();
