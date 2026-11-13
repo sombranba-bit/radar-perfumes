@@ -1,233 +1,219 @@
 {
- "at": "2026-11-13T17:36:35+01:00",
+ "at": "2026-11-13T18:33:03+01:00",
  "revisados": 70,
  "tiendas": {
-  "avenida": {
-   "ok": 36,
-   "bloqueada": 0,
-   "sin_precio": 3,
-   "dudoso": 1,
-   "jsonld": 2,
-   "variantes": 34,
-   "ejemplos": [
-    {
-     "perfume": "lancome-la-vie-est-belle-edp-100",
-     "precio": 109.95,
-     "referencia": 73.13,
-     "metodo": "variantes"
-    }
-   ]
-  },
-  "idealo": {
-   "ok": 63,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 1,
-   "jsonld": 3,
-   "jsonld-url": 60,
-   "ejemplos": [
-    {
-     "perfume": "acqua-di-parma-colonia-edc-100",
-     "precio": 154.84,
-     "referencia": 96.71,
-     "metodo": "jsonld"
-    }
-   ]
-  },
-  "druni": {
+  "beautinow": {
    "ok": 0,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "via_idealo": 44
-  },
-  "laguna": {
-   "ok": 44,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "jsonld": 14,
-   "jsonld-url": 17,
-   "precio-100ml": 13
-  },
-  "lookfantastic": {
-   "ok": 30,
-   "bloqueada": 0,
-   "sin_precio": 2,
-   "dudoso": 18,
-   "jsonld": 29,
-   "ejemplos": [
-    {
-     "perfume": "ralph-lauren-polo-red-edt-125",
-     "precio": 3.99,
-     "referencia": 72.82,
-     "metodo": "texto"
-    },
-    {
-     "perfume": "tom-ford-ombre-leather-edp-100",
-     "precio": 38.64,
-     "referencia": 132.89499999999998,
-     "metodo": "jsonld"
-    },
-    {
-     "perfume": "valentino-born-in-roma-donna-edp-100",
-     "precio": 29.44,
-     "referencia": 93.935,
-     "metodo": "jsonld"
-    }
-   ],
-   "texto": 1
-  },
-  "notino": {
-   "ok": 4,
-   "bloqueada": 54,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "via_idealo": 22,
-   "jsonld": 4
-  },
-  "paco": {
-   "ok": 48,
    "bloqueada": 0,
    "sin_precio": 5,
-   "dudoso": 2,
-   "jsonld": 48,
+   "dudoso": 0
+  },
+  "firstinfragrance": {
+   "ok": 8,
+   "bloqueada": 3,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "jsonld": 8
+  },
+  "idealo": {
+   "ok": 65,
+   "bloqueada": 0,
+   "sin_precio": 1,
+   "dudoso": 1,
+   "jsonld": 8,
+   "jsonld-url": 56,
+   "texto": 1,
    "ejemplos": [
     {
-     "perfume": "azzaro-chrome-edt-100",
-     "precio": 116.0,
-     "referencia": 48.7,
-     "metodo": "texto"
-    },
-    {
-     "perfume": "hugo-boss-boss-bottled-absolu-parfum-100",
-     "precio": 140.0,
-     "referencia": 85.85,
+     "perfume": "creed-silver-mountain-water-edp-100",
+     "precio": 24.75,
+     "referencia": 320.0,
      "metodo": "texto"
     }
    ]
   },
-  "sabina": {
-   "ok": 48,
-   "bloqueada": 0,
-   "sin_precio": 6,
-   "dudoso": 0,
-   "jsonld": 47,
-   "precio-100ml": 1
-  },
-  "primor": {
-   "ok": 0,
-   "bloqueada": 0,
+  "notino": {
+   "ok": 7,
+   "bloqueada": 42,
    "sin_precio": 0,
    "dudoso": 0,
-   "via_idealo": 45
-  },
-  "arenal": {
-   "ok": 0,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "via_idealo": 42
+   "via_idealo": 23,
+   "jsonld": 7
   },
   "julia": {
    "ok": 0,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "via_idealo": 51
+   "via_idealo": 40
   },
-  "parejo": {
-   "ok": 14,
+  "sabina": {
+   "ok": 35,
+   "bloqueada": 0,
+   "sin_precio": 7,
+   "dudoso": 0,
+   "jsonld": 30,
+   "precio-100ml": 5
+  },
+  "avenida": {
+   "ok": 11,
+   "bloqueada": 0,
+   "sin_precio": 1,
+   "dudoso": 0,
+   "variantes": 11
+  },
+  "primor": {
+   "ok": 0,
    "bloqueada": 0,
    "sin_precio": 0,
-   "dudoso": 5,
+   "dudoso": 0,
+   "via_idealo": 33
+  },
+  "druni": {
+   "ok": 0,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "via_idealo": 35
+  },
+  "arenal": {
+   "ok": 0,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "via_idealo": 32
+  },
+  "laguna": {
+   "ok": 18,
+   "bloqueada": 0,
+   "sin_precio": 1,
+   "dudoso": 0,
+   "jsonld-url": 4,
+   "jsonld": 10,
+   "precio-100ml": 4
+  },
+  "lookfantastic": {
+   "ok": 16,
+   "bloqueada": 0,
+   "sin_precio": 2,
+   "dudoso": 10,
    "ejemplos": [
     {
-     "perfume": "rabanne-fame-edp-80",
-     "precio": 113.9,
-     "referencia": 69.95,
-     "metodo": "jsonld"
+     "perfume": "versace-dylan-blue-edt-100",
+     "precio": 3.99,
+     "referencia": 60.9,
+     "metodo": "texto"
     },
     {
-     "perfume": "viktor-rolf-spicebomb-extreme-edp-90",
-     "precio": 116.45,
-     "referencia": 76.005,
-     "metodo": "jsonld"
+     "perfume": "armani-acqua-di-gio-profondo-edp-75",
+     "precio": 3.99,
+     "referencia": 77.63,
+     "metodo": "texto"
     },
     {
-     "perfume": "yves-saint-laurent-black-opium-edp-90",
-     "precio": 153.0,
-     "referencia": 80.95,
+     "perfume": "calvin-klein-obsession-for-men-edt-125",
+     "precio": 51.75,
+     "referencia": 24.65,
      "metodo": "jsonld"
     }
    ],
-   "jsonld": 14
+   "jsonld": 16
   },
-  "sephora": {
-   "ok": 6,
+  "paco": {
+   "ok": 35,
    "bloqueada": 0,
-   "sin_precio": 28,
-   "dudoso": 0,
-   "variantes": 6
-  },
-  "douglas": {
-   "ok": 6,
-   "bloqueada": 0,
-   "sin_precio": 1,
-   "dudoso": 1,
-   "precio-100ml": 6,
+   "sin_precio": 0,
+   "dudoso": 2,
+   "jsonld": 34,
    "ejemplos": [
     {
-     "perfume": "chanel-chanel-n-5-edp-100",
-     "precio": 727.09,
-     "referencia": 140.8,
-     "metodo": "precio-100ml"
+     "perfume": "armani-acqua-di-gio-profondo-edp-75",
+     "precio": 50.0,
+     "referencia": null,
+     "metodo": "texto"
+    },
+    {
+     "perfume": "lancome-la-nuit-tresor-edp-100",
+     "precio": 179.0,
+     "referencia": 84.95,
+     "metodo": "texto"
+    }
+   ],
+   "precio-100ml": 1
+  },
+  "parejo": {
+   "ok": 16,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 1,
+   "jsonld": 16,
+   "ejemplos": [
+    {
+     "perfume": "dior-sauvage-parfum-parfum-100",
+     "precio": 176.8,
+     "referencia": 115.95,
+     "metodo": "jsonld"
     }
    ]
   },
-  "beautinow": {
-   "ok": 0,
-   "bloqueada": 0,
-   "sin_precio": 4,
-   "dudoso": 0
-  },
-  "perfumesclub": {
-   "ok": 7,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "jsonld": 7
-  },
-  "arabicparfums": {
-   "ok": 1,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "jsonld": 1
-  },
-  "brasty": {
+  "sephora": {
    "ok": 3,
    "bloqueada": 0,
+   "sin_precio": 12,
+   "dudoso": 2,
+   "ejemplos": [
+    {
+     "perfume": "versace-dylan-blue-edt-100",
+     "precio": 127.0,
+     "referencia": 60.9,
+     "metodo": "variantes"
+    },
+    {
+     "perfume": "burberry-her-edp-100",
+     "precio": 153.0,
+     "referencia": 69.95,
+     "metodo": "variantes"
+    }
+   ],
+   "variantes": 3
+  },
+  "douglas": {
+   "ok": 4,
+   "bloqueada": 0,
+   "sin_precio": 2,
+   "dudoso": 0,
+   "precio-100ml": 4
+  },
+  "arabicparfums": {
+   "ok": 3,
+   "bloqueada": 3,
    "sin_precio": 0,
    "dudoso": 0,
-   "jsonld": 3
+   "jsonld": 2,
+   "jsonld-url": 1
   },
-  "makeup": {
-   "ok": 0,
-   "bloqueada": 0,
-   "sin_precio": 3,
-   "dudoso": 0
-  },
-  "firstinfragrance": {
-   "ok": 1,
+  "perfumesclub": {
+   "ok": 4,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "jsonld": 1
+   "jsonld": 4
   }
  },
  "limpiados": {
-  "lattafa-khamrah-edp-100": [
+  "calvin-klein-ck-one-edt-200": [
+   "parejo"
+  ],
+  "carolina-herrera-212-vip-men-edt-100": [
+   "lookfantastic"
+  ],
+  "versace-bright-crystal-edt-90": [
+   "avenida"
+  ],
+  "versace-eros-flame-edp-100": [
+   "avenida"
+  ],
+  "viktor-rolf-spicebomb-extreme-edp-90": [
    "parejo"
   ]
  },
