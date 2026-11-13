@@ -149,7 +149,7 @@ lf = '<script type="application/ld+json">{"@type":"ProductGroup","hasVariant":[{
 assert radar.extract(lf, 100, "https://www.lookfantastic.es/p/x/1/")[:2] == (61.95, True), radar.extract(lf, 100, "u")
 print("OK: Lookfantastic con varias versiones")
 # Ofertas de otras tiendas en Idealo
-li = lambda shop, title, price: f'<li class="productOffers-listItem row row-24 " data-trx-click-data=\'{{&#034;shop_id&#034;:{shop},&#034;offer_position&#034;:8}}\'><div class="productOffers-listItemTitle">{title}</div><div class="productOffers-listItemOfferPrice"> {price} € 620,00 €/l</div><img data-src="//cdn.idealo.com/folder/Shop/298/6/{shop}/s11_shop_160x60.png"></li>'
+li = lambda shop, title, price: f'<li class="productOffers-listItem row row-24 " data-trx-click-data=\'click_target=>offer-row;{{&#034;offer_key&#034;:&#034;5a36&#034;,&#034;shop_id&#034;:&#034;{shop}&#034;,&#034;offer_position&#034;:&#034;0&#034;}}\'><div class="productOffers-listItemTitle">{title}</div><div class="productOffers-listItemOfferPrice"> {price} € 620,00 €/l</div></li>'
 pg = "<ul>" + li("298684", "Versace Eros Eau de Toilette 100 ml", "62,00") + li("298684", "Versace Eros 50 ml", "41,00") + li("324169", "Eros EDT 100ml estuche", "50,00") + li("317847", "Eros 100 ml", "54,95") + li("285297", "Eros 100 ml", "30,00") + "</ul>"
 assert radar.idealo_offers(pg, 100) == {"notino": 62.0, "druni": 54.95}, radar.idealo_offers(pg, 100)
 print("OK: ofertas de Idealo")

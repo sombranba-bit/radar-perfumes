@@ -258,7 +258,7 @@ def idealo_offers(page, ml):
     """{tienda: precio} de la lista de ofertas de una ficha de Idealo, solo del tamaño ml y sin estuches."""
     out = {}
     for chunk in re.split(r'<li[^>]+class="productOffers-listItem[\s"]', page)[1:]:
-        shop = re.search(r'shop_id\D{1,12}?(\d{5,7})|/Shop/\d+/\d+/(\d{5,7})/', chunk)
+        shop = re.search(r'shop_id\W{1,6}(\d{5,7})|/Shop/\d+/\d+/(\d{5,7})/', htmllib.unescape(chunk))   # &#034; trae dígitos
         price = re.search(r'productOffers-listItemOfferPrice[^>]*>\s*([\d.]+,\d{2})', chunk)
         if not (shop and price):
             continue
