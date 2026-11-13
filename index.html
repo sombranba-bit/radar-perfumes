@@ -70,7 +70,7 @@ h1{font:500 32px/1.1 var(--display);margin:0}
 .more{display:block;margin:40px auto 0;height:40px;padding:0 20px;border:1px solid var(--control);background:var(--sheet);border-radius:var(--r-ctl);cursor:pointer}
 .more:hover{background:var(--raised)}
 .empty{color:var(--muted);padding:48px 0}
-.empty button{border:0;background:none;color:var(--accent);cursor:pointer;padding:0;text-decoration:underline}
+.empty button{border:0;background:none;color:var(--accent);cursor:pointer;padding:12px 0;min-height:44px;font:inherit;text-decoration:underline}
 
 /* Ficha */
 .sheet:focus{outline:none}
@@ -90,12 +90,14 @@ h1{font:500 32px/1.1 var(--display);margin:0}
 .bestbox span{color:var(--muted)}
 .cta{display:inline-flex;align-items:center;gap:8px;height:44px;padding:0 20px;background:var(--text);color:#fff;border-radius:var(--r-ctl);text-decoration:none;font-weight:500;margin-top:12px}
 .cta:hover{background:#38352c}
-h3{font-size:16px;font-weight:600;margin:40px 0 12px}
+h3,.pdp h2{font-size:16px;font-weight:600;margin:40px 0 12px}
 table.offers{width:100%;border-collapse:collapse}
 .offers th{text-align:left;font-weight:400;color:var(--muted);font-size:12px;padding:0 0 8px}
 .offers td{height:48px;border-top:1px solid var(--rule)}
 .offers td.n,.offers th.n{text-align:right}
-.offers a{text-decoration:none}
+.offers a{text-decoration:none;display:inline-flex;align-items:center;min-height:44px}
+.oldp summary{cursor:pointer;color:var(--muted);font-size:13px;padding:12px 0;min-height:44px}
+.via{color:var(--muted);font-size:12px}
 .offers a:hover{text-decoration:underline}
 .offers .old{color:var(--muted);font-size:13px}
 .offers tr.out td{color:var(--muted)}
@@ -166,21 +168,28 @@ table.offers{width:100%;border-collapse:collapse}
 .nav2 a:hover{background:var(--active)}
 .nav2 a[aria-current="page"]{background:var(--active);font-weight:600}
 .upd{color:var(--muted);font-size:13px;padding:0 8px;margin:16px 0 0}
-.upd a{color:var(--muted)}
+.upd a{color:var(--muted);display:inline-block;padding:8px 0}
 .deals{display:grid;gap:0;margin-top:16px}
 .deals a{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:16px;align-items:center;padding:14px 0;border-top:1px solid var(--rule);text-decoration:none}
 .deals a:hover b{text-decoration:underline}
-.deals span{display:block;color:var(--muted);font-size:13px}
+.deals .sub{display:block;color:var(--muted);font-size:13px}
 .mine{display:inline-block;background:var(--pos-bg);color:var(--pos-ink);border-radius:4px;padding:1px 8px;font-size:12px;font-weight:500;margin-left:6px}
 @media (pointer:coarse){.nav2 a{min-height:44px}}
+.tchollos{display:none;margin-left:auto;height:44px;align-items:center;padding:0 8px;text-decoration:none;font-weight:500;white-space:nowrap}
+.tchollos[aria-current="page"]{text-decoration:underline;text-underline-offset:4px}
+@media (max-width:860px){.tchollos{display:inline-flex}.topbar .search{flex:1;min-width:0}}
+.skel{background:var(--raised);animation:pulse 1.4s ease-in-out infinite}
+@keyframes pulse{50%{opacity:.55}}
+@media (prefers-reduced-motion:reduce){.skel{animation:none}}
 </style>
 </head>
 <body>
 <div class="shell">
-  <div class="brandmark"><i>Radar</i> de Perfumes</div>
-  <div class="topbar">
+  <header class="brandmark"><i>Radar</i> de Perfumes</header>
+  <div class="topbar" role="search">
     <button class="menu" id="openF" type="button" aria-label="Filtros" aria-controls="filters" aria-expanded="false"><svg class="ic" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><line x1="21" x2="14" y1="4" y2="4"/><line x1="10" x2="3" y1="4" y2="4"/><line x1="21" x2="12" y1="12" y2="12"/><line x1="8" x2="3" y1="12" y2="12"/><line x1="21" x2="16" y1="20" y2="20"/><line x1="12" x2="3" y1="20" y2="20"/><line x1="14" x2="14" y1="2" y2="6"/><line x1="8" x2="8" y1="10" y2="14"/><line x1="16" x2="16" y1="18" y2="22"/></svg></button>
-    <label class="search"><svg class="ic" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg><input id="q" type="search" placeholder="Buscar perfume, marca o nota" aria-label="Buscar perfume"></label>
+    <label class="search"><svg class="ic" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg><input id="q" type="search" placeholder="Buscar perfume o marca" aria-label="Buscar perfume"></label>
+    <a class="tchollos" href="#chollos" data-sec="chollos">Chollos</a>
   </div>
   <aside id="filters" aria-label="Filtros">
     <div class="close">Filtros <button type="button" id="closeF" aria-label="Cerrar filtros"><svg class="ic" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg></button></div>
@@ -188,9 +197,9 @@ table.offers{width:100%;border-collapse:collapse}
     <div id="fbox"></div>
     <p class="upd" id="upd"></p>
   </aside>
-  <main class="sheet" id="sheet" tabindex="-1"></main>
+  <main class="sheet" id="sheet" tabindex="-1"><p class="meta" role="status">Cargando precios…</p><div class="grid" aria-hidden="true"><div class="tile"><div class="ph skel"></div></div><div class="tile"><div class="ph skel"></div></div><div class="tile"><div class="ph skel"></div></div><div class="tile"><div class="ph skel"></div></div><div class="tile"><div class="ph skel"></div></div><div class="tile"><div class="ph skel"></div></div><div class="tile"><div class="ph skel"></div></div><div class="tile"><div class="ph skel"></div></div></div></main>
 </div>
-<script src="maquetas/core.js?v=e75ef59"></script>
+<script>document.write('<script src="maquetas/core.js?v='+Math.floor(Date.now()/36e5)+'"><\/script>')</script>
 <script>
 const R=window.RP,$=id=>document.getElementById(id),esc=R.esc,eur=R.eur;
 let D=null,S=R.readState(),limit=24,sizeSel={},bq='';
@@ -202,7 +211,7 @@ function pic(i,cls='',idx=0){
   if(!f)return `<div class="ph ${cls}" style="background:${tint(i.p)}">${R.bottle(i.p)}`;
   return `<div class="ph photo ${cls}" style="background:${tint(i.p)}" data-fallback="${i.id}"><img src="${esc(f.url)}" alt="${esc(i.brand+' '+i.name)}" loading="lazy" decoding="async" referrerpolicy="no-referrer">`;
 }
-document.addEventListener('error',e=>{const im=e.target;if(im.tagName!=='IMG')return;const box=im.closest('[data-fallback]');if(box){const it=D.items.find(x=>x.id===box.dataset.fallback);box.classList.remove('photo');box.style.background=tint(it?.p);im.replaceWith(document.createRange().createContextualFragment(R.bottle(it?.p)))}else{const b=im.closest('button'),g=b&&b.parentNode;if(b)b.remove();if(g&&g.children.length<2)g.remove()}},true);
+document.addEventListener('error',e=>{const im=e.target;if(im.tagName!=='IMG')return;const box=im.closest('[data-fallback]');if(box){const it=D.items.find(x=>x.id===box.dataset.fallback);box.classList.remove('photo');if(box.closest('#mainph'))$('credit')?.remove();box.style.background=tint(it?.p);im.replaceWith(document.createRange().createContextualFragment(R.bottle(it?.p)))}else{const b=im.closest('button'),g=b&&b.parentNode;if(b)b.remove();if(g&&g.children.length<2)g.remove()}},true);
 function filters(){
   const opt=(k,v,label,extra='')=>`<button class="opt" type="button" data-f="${k}" data-v="${esc(v)}" aria-pressed="${S[k]===v}"><span>${extra}${esc(label)}</span></button>`;
   const brands=[...new Set(D.items.map(i=>i.brand))].sort((a,b)=>a.localeCompare(b,'es')).filter(b=>R.norm(b).includes(R.norm(bq)));
@@ -241,14 +250,18 @@ function catalog(){
 }
 function chollos(){
   const mine=D.deals.filter(d=>D.items.some(i=>i.deals.includes(d))),rest=D.deals.filter(d=>!mine.includes(d));
-  const rowD=d=>{const it=D.items.find(i=>i.deals.includes(d));return `<a href="${esc(d.url)}" target="_blank" rel="noopener"><span><b>${esc(d.t)}</b>${it?'<span class="mine">En tu lista</span>':''}<span>${esc(d.shop||'Chollometro')}</span></span><b>${d.p?eur(d.p):''}</b></a>`};
+  const rowD=d=>{const it=D.items.find(i=>i.deals.includes(d));return `<a href="${esc(d.url)}" target="_blank" rel="noopener"><span><b>${esc(d.t)}</b>${it?' <span class="mine">En tu lista</span>':''}<span class="sub">${esc(d.shop||'Chollometro')}</span></span><b>${d.p?eur(d.p):''}</b></a>`};
   $('sheet').innerHTML=`<h1>Chollos de Chollometro</h1><p class="meta">${D.deals.length} chollos de perfumes activos · ${mine.length} de perfumes de tu lista. Se revisan en cada pasada.</p>
   <div class="deals">${[...mine,...rest].map(rowD).join('')||'<p class="empty">No hay chollos activos ahora mismo.</p>'}</div>`;
+}
+function offerTable(o){
+  if(!o.length)return '';
+  return `<table class="offers"><thead><tr><th>Tienda</th><th>Leído</th><th class="n">Precio</th></tr></thead><tbody>${o.map(z=>`<tr class="${z.stock?'':'out'}"><td><a href="${esc(z.url)}" target="_blank" rel="noopener">${esc(z.name)}</a></td><td class="old">${z.stock?R.ago(z.d):'agotado'}${z.via?' <span class="via">vía '+esc(R.shopName(z.via))+'</span>':''}</td><td class="n">${eur(z.p)}</td></tr>`).join('')}</tbody></table>`;
 }
 function detail(key){
   const all=R.groups(D.items,R.DEFAULTS,sizeSel),x=all.find(g=>g.key===key);if(!x){location.hash='';return}
   const i=x.cur,p=i.p,o=R.offers(i),b=i.b,t=R.targets()[i.id],ph=R.photos(i);
-  const meter=n=>`<div class="meter" aria-label="${n} de 5">${[1,2,3,4,5].map(k=>`<i class="${k<=n?'f':''}"></i>`).join('')}</div>`;
+  const meter=n=>`<div class="meter" role="img" aria-label="${n} de 5">${[1,2,3,4,5].map(k=>`<i class="${k<=n?'f':''}"></i>`).join('')}</div>`;
   $('sheet').innerHTML=`<a class="back" href="#"><svg class="ic" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="m12 19-7-7 7-7"/><path d="M19 12H5"/></svg>Volver al catálogo</a>
   <div class="pdp"><div><div id="mainph">${pic(i)}</div></div>
     ${ph.length>1?`<div class="thumbs" role="group" aria-label="Fotos">${ph.map((f,k)=>`<button type="button" aria-pressed="${k===0}" data-ph="${k}" aria-label="Foto de ${esc(R.shopName(f.s))}"><img src="${esc(f.url)}" alt="" loading="lazy" referrerpolicy="no-referrer"></button>`).join('')}</div>`:''}
@@ -258,13 +271,13 @@ function detail(key){
     <div class="sizes" role="group" aria-label="Tamaño">${x.vars.map(v=>`<button type="button" aria-pressed="${v.id===i.id}" data-size="${v.id}">${v.ml} ml</button>`).join('')}</div>
     <div class="bestbox"><b>${b?eur(b.p):'Sin precio'}</b>${b?`<span>en ${esc(b.name)}${b.age>7?' (leído '+R.ago(b.d)+')':''} · ${eur(b.p/i.ml*100)} los 100 ml${i.dr?' · '+R.pct(i.dr.pct)+' frente a su media de 30 días':''}</span>`:''}</div>
     ${b?`<a class="cta" href="${esc(b.url)}" target="_blank" rel="noopener">Ver en ${esc(b.name)}<svg class="ic" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M15 3h6v6"/><path d="M10 14 21 3"/><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg></a>`:''}
-    <h3>Precio en cada tienda</h3>
-    <table class="offers"><thead><tr><th>Tienda</th><th>Leído</th><th class="n">Precio</th></tr></thead><tbody>${o.map(z=>`<tr class="${z.stock?'':'out'}"><td><a href="${esc(z.url)}" target="_blank" rel="noopener">${esc(z.name)}</a></td><td class="old">${z.stock?R.ago(z.d):'agotado'}</td><td class="n">${eur(z.p)}</td></tr>`).join('')||'<tr><td colspan="3">Aún no hay precios</td></tr>'}</tbody></table>
-    <h3>Mejor precio, día a día</h3>${R.lineChart(R.series(i),{stroke:'var(--accent)',grid:'#16150f'})}
-    <h3>Cómo es</h3>${p?`<dl class="profile"><div><dt>Duración</dt><dd>${meter(p.dur)}</dd></div><div><dt>Estela</dt><dd>${meter(p.sil)}</dd></div>
+    <h2>Precio en cada tienda</h2>
+    ${offerTable(o.filter(z=>z.age==null||z.age<=30))||'<p class="meta">Aún no hay precios recientes</p>'}${(n=>n.length?`<details class="oldp"><summary>${n.length} ${n.length===1?'precio leído':'precios leídos'} hace más de un mes</summary>${offerTable(n)}</details>`:'')(o.filter(z=>z.age!=null&&z.age>30))}
+    <h2>Mejor precio, día a día</h2>${R.lineChart(R.series(i),{stroke:'var(--accent)',grid:'#16150f'})}
+    <h2>Cómo es</h2>${p?`<dl class="profile"><div><dt>Duración</dt><dd>${meter(p.dur)}</dd></div><div><dt>Estela</dt><dd>${meter(p.sil)}</dd></div>
       <div><dt>Temporada</dt><dd>${p.se.join(', ')}</dd></div><div><dt>Cuándo</dt><dd>${esc(p.use)}</dd></div></dl>`:'<p class="meta">Sin ficha de perfil.</p>'}
-    <h3>Avísame si baja</h3><label class="target">Por debajo de <input type="number" inputmode="decimal" min="0" step="0.5" value="${t??''}" data-target="${i.id}" aria-label="Precio objetivo en euros"> €</label>
-    ${i.deals.length?`<h3>Chollos publicados</h3>${i.deals.slice(0,4).map(d=>`<a class="dealrow" href="${esc(d.url)}" target="_blank" rel="noopener"><b>${esc(d.t)}</b><br><span>${d.p?eur(d.p)+' · ':''}${esc(d.shop||'Chollometro')}</span></a>`).join('')}`:''}
+    <h2>Avísame si baja</h2><label class="target">Por debajo de <input type="number" inputmode="decimal" min="0" step="0.5" value="${t??''}" data-target="${i.id}" aria-label="Precio objetivo en euros"> €</label>
+    ${i.deals.length?`<h2>Chollos publicados</h2>${i.deals.slice(0,4).map(d=>`<a class="dealrow" href="${esc(d.url)}" target="_blank" rel="noopener"><b>${esc(d.t)}</b><br><span>${d.p?eur(d.p)+' · ':''}${esc(d.shop||'Chollometro')}</span></a>`).join('')}`:''}
   </div></div>`;
   $('sheet').focus({preventScroll:true});scrollTo(0,0);
 }
@@ -277,7 +290,7 @@ function route(){
 function setF(k,v){S[k]=v;limit=24;filters();if(location.hash)location.hash='';else route()}
 document.addEventListener('click',e=>{
   const t=e.target.closest('[data-f],[data-unset],[data-clearall],[data-size],[data-ph],[data-sortdrop],#more,#openF,#closeF,[data-sec]');if(!t)return;
-  if(t.dataset.sec&&innerWidth<=860)toggleF(false);
+  if(t.dataset.sec&&$('filters').classList.contains('open'))toggleF(false);
   if(t.dataset.f){setF(t.dataset.f,t.dataset.v);if(innerWidth<=860)toggleF(false);return}
   if(t.dataset.unset){setF(t.dataset.unset,R.DEFAULTS[t.dataset.unset]);if(t.dataset.unset==='q')$('q').value='';return}
   if(t.dataset.clearall!==undefined){S={...R.DEFAULTS,sort:S.sort};$('q').value='';filters();route();return}

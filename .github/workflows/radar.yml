@@ -6,8 +6,8 @@ on:
   workflow_dispatch:
     inputs:
       perfumes:
-        description: "Perfumes a revisar en esta pasada (35 normal, 250 = todos)"
-        default: "35"
+        description: "Perfumes a revisar en esta pasada (70 normal, 250 = todos)"
+        default: "70"
 
 permissions:
   contents: write
@@ -30,7 +30,7 @@ jobs:
       - run: python scraper/test_radar.py
       - run: python scraper/radar.py
         env:
-          RADAR_BATCH: ${{ github.event.inputs.perfumes || '35' }}
+          RADAR_BATCH: ${{ github.event.inputs.perfumes || '70' }}
       - name: Guardar datos
         run: |
           git config user.name "radar-bot"

@@ -21,7 +21,7 @@ from zoneinfo import ZoneInfo
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
 TZ = ZoneInfo("Europe/Madrid")
-BATCH = int(os.environ.get("RADAR_BATCH", "35"))      # perfumes por pasada
+BATCH = int(os.environ.get("RADAR_BATCH", "70"))      # perfumes por pasada
 MANUAL = {"coqueteo", "marvimundo", "arenal", "primor", "druni", "julia", "eci", "amazon"}
 
 PRICE_RE = re.compile(r"(\d{1,4}(?:[.\s]\d{3})*(?:[.,]\d{1,2})?)\s*(?:€|&euro;|EUR)")
@@ -176,7 +176,8 @@ def extract(page, ml, url):
     if not own:
         own = [o for o in offers if not _mls(o[1]) and _mls(o[2]) == {ml}]  # producto de un solo tamaño
         if len({round(o[0], 2) for o in own}) != 1:
-            own = []
+            # Varias versiones del mismo tamaño (Lookfantastic): la más barata que esté disponible
+            own = [o for o in own if o[3]]
     if own:
         p, _, _, st = min(own, key=lambda o: o[0])
         return p, st, "jsonld"
@@ -227,6 +228,32 @@ def _product_image(page):
     return htmllib.unescape(m.group(1)) if m and m.group(1).startswith("http") else None
 
 
+# Tiendas que bloquean la lectura directa pero salen en las ofertas de Idealo
+IDEALO_SHOPS = {"notino.es": "notino", "primor.eu": "primor", "druni.es": "druni",
+                "arenal.com": "arenal", "perfumeriajulia.es": "julia"}
+BUNDLE_RE = re.compile(r"\bset\b|estuche|cofre|lote|pack|tester|muestra|miniatura|\+", re.I)
+
+
+def idealo_offers(page, ml):
+    """{tienda: precio} de la lista de ofertas de una ficha de Idealo, solo del tamaño ml y sin estuches."""
+    out = {}
+    for chunk in re.split(r'<li[^>]+class="productOffers-listItem[\s"]', page)[1:]:
+        shop = re.search(r'data-shop-name="([^"]+)"', chunk)
+        price = re.search(r'productOffers-listItemOfferPrice[^>]*>\s*([\d.]+,\d{2})', chunk)
+        if not (shop and price):
+            continue
+        dom = shop.group(1).split(" - ")[0].strip().lower().split("/")[0]
+        sid = IDEALO_SHOPS.get(dom)
+        t0 = chunk.find("productOffers-listItemTitle")
+        title = re.sub(r"<[^>]+>", " ", chunk[t0:price.start()]) if 0 <= t0 < price.start() else ""
+        if not sid or BUNDLE_RE.search(title) or (_mls(title) and ml not in _mls(title)):
+            continue
+        p = to_float(price.group(1))
+        if p and (sid not in out or p < out[sid]):
+            out[sid] = p
+    return out
+
+
 def plausible(p, ref, how="jsonld"):
     if ref is None:
         return how != "texto"
@@ -274,11 +301,16 @@ VAT = {"firstinfragrance": 1.19}
 
 
 # ---------------------------------------------------------------- red
+MOBILE_HOSTS = ("sephora.es",)
+
+
 def make_session():
     try:
         from curl_cffi import requests as cr
         s = cr.Session(impersonate="chrome")
-        return lambda u: s.get(u, timeout=25, allow_redirects=True)
+        # Sephora bloquea el navegador de escritorio desde GitHub pero deja pasar al de iPhone
+        m = cr.Session(impersonate="safari_ios")
+        return lambda u: (m if any(h in u for h in MOBILE_HOSTS) else s).get(u, timeout=25, allow_redirects=True)
     except Exception:
         import urllib.request
         def get(u):
@@ -295,6 +327,7 @@ SEARCH = {
     "douglas": "https://www.douglas.es/es/search?q={q}",
     "idealo": "https://www.idealo.es/resultados.html?q={q}",
     "lookfantastic": "https://www.lookfantastic.es/search?q={q}",
+    "sephora": "https://www.sephora.es/buscar/?q={q}",
 }
 DISCOVER_PER_RUN = int(os.environ.get("RADAR_DISCOVER", "20"))
 CONC_WORDS = {"EDT": "eau de toilette", "EDP": "eau de parfum", "EDC": "eau de cologne", "Parfum": "parfum", "Elixir": "elixir"}
@@ -403,6 +436,21 @@ def update_perfume(it, get, stats, today):
             continue
         st["ok"] += 1
         st[how] = st.get(how, 0) + 1
+        if shop == "idealo":
+            via = idealo_offers(r.text, ml)
+            DEBUG.setdefault("idealo_ofertas", {"perfume": it.get("id"), "encontradas": via,
+                             "listas": r.text.count("productOffers-listItem")})
+            for sid, vp in via.items():
+                own = prices.get(sid) or {}
+                if own.get("d") == today and not own.get("via"):
+                    continue   # ya leída hoy en la propia tienda
+                if not plausible(vp, ref_price(prices, sid), "jsonld"):
+                    continue
+                vs = stats.setdefault(sid, {"ok": 0, "bloqueada": 0, "sin_precio": 0, "dudoso": 0})
+                vs["via_idealo"] = vs.get("via_idealo", 0) + 1
+                prices[sid] = {"p": round(vp, 2), "d": today, "auto": True, "gh": True, "via": "idealo"}
+                hist[:] = [h for h in hist if not (h.get("d") == today and h.get("s") == sid)]
+                hist.append({"d": today, "s": sid, "p": round(vp, 2)})
         pic = product_image(r.text)
         if pic:
             it.setdefault("images", {})[shop] = pic[:500]

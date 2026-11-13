@@ -144,3 +144,13 @@ assert it3["images"] == {"paco": "https://p.es/n.jpg"} and it3["prices"]["paco"]
 print("OK: fotos")
 assert radar.product_image('<meta property="og:image" content="https://cdn.idealo.com/images/product/599824/es_ES/0/gross.jpg">') is None
 print("OK: sin fotos de relleno")
+# Lookfantastic: dos versiones de 100 ml, una agotada y más cara
+lf = '<script type="application/ld+json">{"@type":"ProductGroup","hasVariant":[{"@type":"Product","name":"Eros 100ml","offers":{"@type":"Offer","sku":"1","availability":"https://schema.org/OutOfStock","price":113.49,"priceCurrency":"EUR"}},{"@type":"Product","name":"Eros 100ml","offers":{"@type":"Offer","sku":"2","availability":"https://schema.org/InStock","price":61.95,"priceCurrency":"EUR"}}]}</script>'
+assert radar.extract(lf, 100, "https://www.lookfantastic.es/p/x/1/")[:2] == (61.95, True), radar.extract(lf, 100, "u")
+print("OK: Lookfantastic con varias versiones")
+# Ofertas de otras tiendas en Idealo
+li = lambda shop, title, price: f'<li class="productOffers-listItem row"><div class="productOffers-listItemTitle">{title}</div><div class="productOffers-listItemOfferPrice"> {price} € 620,00 €/l</div><a data-shop-name="{shop} - Tienda de X">Ver</a><a data-shop-name="{shop}">Ver oferta</a></li>'
+pg = "<ul>" + li("notino.es", "Versace Eros Eau de Toilette 100 ml", "62,00") + li("notino.es", "Versace Eros 50 ml", "41,00") + li("primor.eu", "Eros EDT 100ml estuche", "50,00") + li("druni.es", "Eros 100 ml", "54,95") + li("ebay.es", "Eros 100 ml", "30,00") + "</ul>"
+assert radar.idealo_offers(pg, 100) == {"notino": 62.0, "druni": 54.95}, radar.idealo_offers(pg, 100)
+print("OK: ofertas de Idealo")
+

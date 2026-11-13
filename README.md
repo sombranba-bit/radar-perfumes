@@ -4,8 +4,11 @@ Comparador y rastreador de precios de perfumes. Funciona solo en GitHub:
 
 - **La página** (`index.html`) se publica con GitHub Pages.
 - **La pasada automática** (`.github/workflows/radar.yml`) corre cada 30 minutos, 24/7. En cada pasada:
-  - revisa los 35 perfumes que llevan más tiempo sin revisar (la lista completa se recorre cada ~3 horas);
-  - lee las fichas guardadas de cada tienda y apunta el precio del tamaño exacto;
+  - revisa los 70 perfumes que llevan más tiempo sin revisar (GitHub las lanza cada 60–80 min, así que la lista completa se recorre cada ~3 horas);
+  - para lanzar una pasada con todos: **Actions → Pasada de precios → Run workflow** y pon `250`;
+  - lee las fichas guardadas de cada tienda y apunta el precio del tamaño exacto, y la dirección de la foto del producto (nunca la copia);
+  - de la ficha de Idealo saca también Notino, Primor, Druni, Arenal y Perfumería Julia, que no dejan leer su web desde GitHub;
+  - a Sephora entra como un iPhone, que es lo único que no bloquea;
   - lee los chollos de perfumes de Chollometro;
   - guarda todo en `data/`.
 - `data/estado.json` dice, de cada tienda, cuántas fichas se leyeron bien, cuántas bloquearon la lectura y cuántas se descartaron por precio raro.
@@ -69,7 +72,6 @@ jobs:
 
 Edita `data/perfumes.json` en GitHub. Copia un bloque existente y cambia `brand`, `name`, `conc`, `ml` e `id`. En `urls` pon la ficha de cada tienda, si la tienes.
 
-Los perfumes que añades desde la página se guardan solo en tu navegador, y la pasada automática no los rastrea.
 
 ## Probar el extractor
 
