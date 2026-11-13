@@ -1,146 +1,225 @@
 {
- "at": "2026-11-13T15:54:20+01:00",
- "revisados": 40,
+ "at": "2026-11-13T16:25:54+01:00",
+ "revisados": 70,
  "tiendas": {
+  "douglas": {
+   "ok": 2,
+   "bloqueada": 0,
+   "sin_precio": 1,
+   "dudoso": 0,
+   "precio-100ml": 2
+  },
   "idealo": {
-   "ok": 36,
+   "ok": 64,
    "bloqueada": 0,
    "sin_precio": 0,
-   "dudoso": 1,
-   "jsonld-url": 32,
+   "dudoso": 3,
+   "jsonld-url": 54,
+   "jsonld": 9,
+   "texto": 1,
    "ejemplos": [
     {
-     "perfume": "creed-silver-mountain-water-edp-100",
-     "precio": 24.75,
-     "referencia": 320.0,
+     "perfume": "kilian-angels-share-edp-50",
+     "precio": 184.9,
+     "referencia": 116.83,
+     "metodo": "jsonld-url"
+    },
+    {
+     "perfume": "le-labo-another-13-edp-100",
+     "precio": 20.75,
+     "referencia": 399.0,
+     "metodo": "texto"
+    },
+    {
+     "perfume": "le-labo-santal-33-edp-100",
+     "precio": 20.75,
+     "referencia": null,
      "metodo": "texto"
     }
-   ],
-   "jsonld": 4
+   ]
   },
   "primor": {
    "ok": 0,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "via_idealo": 18
-  },
-  "druni": {
-   "ok": 0,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "via_idealo": 19
-  },
-  "arenal": {
-   "ok": 0,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "via_idealo": 20
+   "via_idealo": 39
   },
   "julia": {
    "ok": 0,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "via_idealo": 24
+   "via_idealo": 39
   },
-  "paco": {
-   "ok": 24,
+  "laguna": {
+   "ok": 31,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "jsonld": 23,
-   "precio-100ml": 1
-  },
-  "sabina": {
-   "ok": 22,
-   "bloqueada": 0,
-   "sin_precio": 3,
-   "dudoso": 0,
-   "jsonld": 20,
-   "precio-100ml": 2
-  },
-  "sephora": {
-   "ok": 3,
-   "bloqueada": 0,
-   "sin_precio": 4,
-   "dudoso": 0,
-   "variantes": 3
-  },
-  "firstinfragrance": {
-   "ok": 6,
-   "bloqueada": 1,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "jsonld": 6
+   "jsonld": 16,
+   "jsonld-url": 10,
+   "precio-100ml": 5
   },
   "notino": {
-   "ok": 4,
-   "bloqueada": 23,
+   "ok": 12,
+   "bloqueada": 37,
    "sin_precio": 0,
    "dudoso": 0,
-   "via_idealo": 17,
-   "jsonld": 4
+   "via_idealo": 24,
+   "jsonld": 12
   },
   "parejo": {
-   "ok": 6,
+   "ok": 12,
    "bloqueada": 0,
    "sin_precio": 0,
-   "dudoso": 1,
-   "jsonld": 6,
+   "dudoso": 2,
+   "jsonld": 12,
    "ejemplos": [
     {
-     "perfume": "dior-sauvage-parfum-parfum-100",
-     "precio": 176.8,
-     "referencia": 115.95,
+     "perfume": "lattafa-khamrah-edp-100",
+     "precio": 40.8,
+     "referencia": 24.95,
+     "metodo": "jsonld"
+    },
+    {
+     "perfume": "lattafa-yara-edp-100",
+     "precio": 30.6,
+     "referencia": 19.95,
      "metodo": "jsonld"
     }
    ]
   },
-  "laguna": {
-   "ok": 10,
+  "sabina": {
+   "ok": 34,
    "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "precio-100ml": 3,
-   "jsonld": 5,
-   "jsonld-url": 2
-  },
-  "avenida": {
-   "ok": 7,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "variantes": 7
-  },
-  "lookfantastic": {
-   "ok": 9,
-   "bloqueada": 0,
-   "sin_precio": 1,
-   "dudoso": 3,
+   "sin_precio": 2,
+   "dudoso": 1,
+   "jsonld": 27,
+   "precio-100ml": 6,
+   "texto": 1,
    "ejemplos": [
     {
-     "perfume": "davidoff-cool-water-edt-125",
+     "perfume": "mancera-instant-crush-edp-120",
+     "precio": 155.0,
+     "referencia": 89.0,
+     "metodo": "jsonld"
+    }
+   ]
+  },
+  "sephora": {
+   "ok": 0,
+   "bloqueada": 0,
+   "sin_precio": 7,
+   "dudoso": 1,
+   "ejemplos": [
+    {
+     "perfume": "lancome-la-nuit-tresor-edp-100",
+     "precio": 165.0,
+     "referencia": 84.95,
+     "metodo": "variantes"
+    }
+   ]
+  },
+  "druni": {
+   "ok": 0,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "via_idealo": 42
+  },
+  "lookfantastic": {
+   "ok": 24,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 12,
+   "ejemplos": [
+    {
+     "perfume": "lancome-la-nuit-tresor-edp-100",
      "precio": 3.99,
-     "referencia": 23.035,
+     "referencia": 84.95,
      "metodo": "texto"
     },
     {
-     "perfume": "dolce-gabbana-the-one-edp-75",
-     "precio": 45.43,
-     "referencia": 79.95,
+     "perfume": "nina-ricci-nina-edt-80",
+     "precio": 3.99,
+     "referencia": 64.85,
      "metodo": "texto"
     },
     {
-     "perfume": "hugo-boss-boss-orange-man-edt-100",
-     "precio": 3.99,
-     "referencia": 29.95,
+     "perfume": "rabanne-invictus-victory-elixir-parfum-100",
+     "precio": 142.6,
+     "referencia": 86.725,
+     "metodo": "jsonld"
+    }
+   ],
+   "jsonld": 24
+  },
+  "paco": {
+   "ok": 34,
+   "bloqueada": 0,
+   "sin_precio": 1,
+   "dudoso": 2,
+   "ejemplos": [
+    {
+     "perfume": "lancome-la-nuit-tresor-edp-100",
+     "precio": 179.0,
+     "referencia": 84.95,
+     "metodo": "texto"
+    },
+    {
+     "perfume": "hermes-h24-edt-100",
+     "precio": 135.0,
+     "referencia": 69.95,
      "metodo": "texto"
     }
    ],
-   "jsonld": 9
+   "jsonld": 33,
+   "precio-100ml": 1
+  },
+  "arabicparfums": {
+   "ok": 3,
+   "bloqueada": 3,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "jsonld": 3
+  },
+  "arenal": {
+   "ok": 0,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "via_idealo": 36
+  },
+  "firstinfragrance": {
+   "ok": 2,
+   "bloqueada": 6,
+   "sin_precio": 0,
+   "dudoso": 1,
+   "jsonld": 2,
+   "ejemplos": [
+    {
+     "perfume": "mancera-instant-crush-edp-120",
+     "precio": 159.0,
+     "referencia": 102.625,
+     "metodo": "jsonld"
+    }
+   ]
+  },
+  "avenida": {
+   "ok": 24,
+   "bloqueada": 0,
+   "sin_precio": 1,
+   "dudoso": 1,
+   "variantes": 24,
+   "ejemplos": [
+    {
+     "perfume": "issey-miyake-l-eau-d-issey-pour-homme-edt-125",
+     "precio": 74.95,
+     "referencia": 46.58,
+     "metodo": "variantes"
+    }
+   ]
   },
   "perfumesclub": {
    "ok": 4,
@@ -152,28 +231,17 @@
   "beautinow": {
    "ok": 0,
    "bloqueada": 0,
-   "sin_precio": 2,
+   "sin_precio": 4,
    "dudoso": 0
   },
-  "arabicparfums": {
-   "ok": 2,
+  "brasty": {
+   "ok": 1,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "jsonld": 2
-  },
-  "douglas": {
-   "ok": 4,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "precio-100ml": 4
+   "jsonld": 1
   }
  },
- "limpiados": {
-  "lancome-la-vie-est-belle-edp-100": [
-   "avenida"
-  ]
- },
+ "limpiados": {},
  "chollometro": "ok 84"
 }

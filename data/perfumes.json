@@ -31580,7 +31580,7 @@
    "idealo": "2026-10-26",
    "lookfantastic": "2026-11-09"
   },
-  "checked": "2026-11-13T15:03:23+01:00",
+  "checked": "2026-11-13T16:19:02+01:00",
   "conc": "EDP",
   "deals": [
    {
@@ -32011,6 +32011,31 @@
    },
    {
     "d": "2026-11-13",
+    "p": 59.92,
+    "s": "primor"
+   },
+   {
+    "d": "2026-11-13",
+    "p": 59.95,
+    "s": "druni"
+   },
+   {
+    "d": "2026-11-13",
+    "p": 59.95,
+    "s": "arenal"
+   },
+   {
+    "d": "2026-11-13",
+    "p": 72.05,
+    "s": "julia"
+   },
+   {
+    "d": "2026-11-13",
+    "p": 85.5,
+    "s": "notino"
+   },
+   {
+    "d": "2026-11-13",
     "p": 59.29,
     "s": "idealo"
    },
@@ -32040,11 +32065,32 @@
   "ml": 100,
   "name": "Gentleman Reserve Privée",
   "prices": {
+   "arenal": {
+    "auto": true,
+    "d": "2026-11-13",
+    "gh": true,
+    "p": 59.95,
+    "via": "idealo"
+   },
+   "druni": {
+    "auto": true,
+    "d": "2026-11-13",
+    "gh": true,
+    "p": 59.95,
+    "via": "idealo"
+   },
    "idealo": {
     "auto": true,
     "d": "2026-11-13",
     "gh": true,
     "p": 59.29
+   },
+   "julia": {
+    "auto": true,
+    "d": "2026-11-13",
+    "gh": true,
+    "p": 72.05,
+    "via": "idealo"
    },
    "laguna": {
     "auto": true,
@@ -32054,15 +32100,23 @@
    },
    "notino": {
     "auto": true,
-    "d": "2026-11-09",
+    "d": "2026-11-13",
     "gh": true,
-    "p": 72.67
+    "p": 85.5,
+    "via": "idealo"
    },
    "paco": {
     "auto": true,
     "d": "2026-11-13",
     "gh": true,
     "p": 59.92
+   },
+   "primor": {
+    "auto": true,
+    "d": "2026-11-13",
+    "gh": true,
+    "p": 59.92,
+    "via": "idealo"
    },
    "sabina": {
     "auto": true,
@@ -34667,7 +34721,7 @@
    "idealo": "2026-10-26",
    "lookfantastic": "2026-11-09"
   },
-  "checked": "2026-11-13T15:03:31+01:00",
+  "checked": "2026-11-13T16:19:11+01:00",
   "conc": "EDP",
   "history": [
    {
@@ -35073,6 +35127,26 @@
    {
     "d": "2026-11-13",
     "p": 70.85,
+    "s": "druni"
+   },
+   {
+    "d": "2026-11-13",
+    "p": 70.85,
+    "s": "arenal"
+   },
+   {
+    "d": "2026-11-13",
+    "p": 91.62,
+    "s": "julia"
+   },
+   {
+    "d": "2026-11-13",
+    "p": 96.5,
+    "s": "notino"
+   },
+   {
+    "d": "2026-11-13",
+    "p": 70.85,
     "s": "idealo"
    },
    {
@@ -35101,17 +35175,39 @@
   "ml": 100,
   "name": "L'Homme Idéal",
   "prices": {
+   "arenal": {
+    "auto": true,
+    "d": "2026-11-13",
+    "gh": true,
+    "p": 70.85,
+    "via": "idealo"
+   },
+   "druni": {
+    "auto": true,
+    "d": "2026-11-13",
+    "gh": true,
+    "p": 70.85,
+    "via": "idealo"
+   },
    "idealo": {
     "auto": true,
     "d": "2026-11-13",
     "gh": true,
     "p": 70.85
    },
+   "julia": {
+    "auto": true,
+    "d": "2026-11-13",
+    "gh": true,
+    "p": 91.62,
+    "via": "idealo"
+   },
    "notino": {
     "auto": true,
-    "d": "2026-11-02",
+    "d": "2026-11-13",
     "gh": true,
-    "p": 95.5
+    "p": 96.5,
+    "via": "idealo"
    },
    "paco": {
     "auto": true,
@@ -35149,7 +35245,7 @@
    "idealo": "2026-10-26",
    "lookfantastic": "2026-11-09"
   },
-  "checked": "2026-11-13T15:03:37+01:00",
+  "checked": "2026-11-13T16:19:17+01:00",
   "conc": "EDP",
   "deals": [
    {
@@ -35467,6 +35563,16 @@
    },
    {
     "d": "2026-11-13",
+    "p": 107.95,
+    "s": "druni"
+   },
+   {
+    "d": "2026-11-13",
+    "p": 116.0,
+    "s": "notino"
+   },
+   {
+    "d": "2026-11-13",
     "p": 89.62,
     "s": "idealo"
    },
@@ -35490,6 +35596,13 @@
   "ml": 90,
   "name": "Shalimar",
   "prices": {
+   "druni": {
+    "auto": true,
+    "d": "2026-11-13",
+    "gh": true,
+    "p": 107.95,
+    "via": "idealo"
+   },
    "idealo": {
     "auto": true,
     "d": "2026-11-13",
@@ -35498,9 +35611,10 @@
    },
    "notino": {
     "auto": true,
-    "d": "2026-11-02",
+    "d": "2026-11-13",
     "gh": true,
-    "p": 114.0
+    "p": 116.0,
+    "via": "idealo"
    },
    "perfumesclub": {
     "auto": true,
@@ -35531,7 +35645,7 @@
    "idealo": "2026-10-26",
    "lookfantastic": "2026-11-09"
   },
-  "checked": "2026-11-13T15:03:43+01:00",
+  "checked": "2026-11-13T16:19:22+01:00",
   "conc": "EDT",
   "history": [
    {
@@ -35741,6 +35855,31 @@
    },
    {
     "d": "2026-11-13",
+    "p": 69.94,
+    "s": "primor"
+   },
+   {
+    "d": "2026-11-13",
+    "p": 69.95,
+    "s": "druni"
+   },
+   {
+    "d": "2026-11-13",
+    "p": 69.95,
+    "s": "arenal"
+   },
+   {
+    "d": "2026-11-13",
+    "p": 85.95,
+    "s": "julia"
+   },
+   {
+    "d": "2026-11-13",
+    "p": 94.5,
+    "s": "notino"
+   },
+   {
+    "d": "2026-11-13",
     "p": 54.5,
     "s": "idealo"
    }
@@ -35753,11 +35892,25 @@
   "ml": 100,
   "name": "H24",
   "prices": {
+   "arenal": {
+    "auto": true,
+    "d": "2026-11-13",
+    "gh": true,
+    "p": 69.95,
+    "via": "idealo"
+   },
    "avenida": {
     "auto": true,
     "d": "2026-11-13",
     "gh": true,
     "p": 85.95
+   },
+   "druni": {
+    "auto": true,
+    "d": "2026-11-13",
+    "gh": true,
+    "p": 69.95,
+    "via": "idealo"
    },
    "idealo": {
     "auto": true,
@@ -35765,17 +35918,32 @@
     "gh": true,
     "p": 54.5
    },
+   "julia": {
+    "auto": true,
+    "d": "2026-11-13",
+    "gh": true,
+    "p": 85.95,
+    "via": "idealo"
+   },
    "notino": {
     "auto": true,
-    "d": "2026-11-02",
+    "d": "2026-11-13",
     "gh": true,
-    "p": 78.62
+    "p": 94.5,
+    "via": "idealo"
    },
    "paco": {
     "auto": true,
     "d": "2026-10-09",
     "p": 65.04,
     "stock": false
+   },
+   "primor": {
+    "auto": true,
+    "d": "2026-11-13",
+    "gh": true,
+    "p": 69.94,
+    "via": "idealo"
    }
   },
   "target": null,
@@ -36856,7 +37024,7 @@
    "douglas": "2026-11-09",
    "idealo": "2026-10-26"
   },
-  "checked": "2026-11-13T15:03:50+01:00",
+  "checked": "2026-11-13T16:19:29+01:00",
   "conc": "EDP",
   "deals": [
    {
@@ -37080,6 +37248,26 @@
    {
     "d": "2026-11-13",
     "p": 55.12,
+    "s": "notino"
+   },
+   {
+    "d": "2026-11-13",
+    "p": 59.9,
+    "s": "primor"
+   },
+   {
+    "d": "2026-11-13",
+    "p": 59.95,
+    "s": "druni"
+   },
+   {
+    "d": "2026-11-13",
+    "p": 74.95,
+    "s": "julia"
+   },
+   {
+    "d": "2026-11-13",
+    "p": 55.12,
     "s": "idealo"
    },
    {
@@ -37103,11 +37291,25 @@
     "gh": true,
     "p": 69.95
    },
+   "druni": {
+    "auto": true,
+    "d": "2026-11-13",
+    "gh": true,
+    "p": 59.95,
+    "via": "idealo"
+   },
    "idealo": {
     "auto": true,
     "d": "2026-11-13",
     "gh": true,
     "p": 55.12
+   },
+   "julia": {
+    "auto": true,
+    "d": "2026-11-13",
+    "gh": true,
+    "p": 74.95,
+    "via": "idealo"
    },
    "lookfantastic": {
     "auto": true,
@@ -37117,9 +37319,17 @@
    },
    "notino": {
     "auto": true,
-    "d": "2026-11-09",
+    "d": "2026-11-13",
     "gh": true,
-    "p": 55.12
+    "p": 55.12,
+    "via": "idealo"
+   },
+   "primor": {
+    "auto": true,
+    "d": "2026-11-13",
+    "gh": true,
+    "p": 59.9,
+    "via": "idealo"
    }
   },
   "target": null,
@@ -37626,7 +37836,7 @@
    "douglas": "2026-11-09",
    "idealo": "2026-10-26"
   },
-  "checked": "2026-11-13T15:03:57+01:00",
+  "checked": "2026-11-13T16:19:37+01:00",
   "conc": "EDP",
   "deals": [
    {
@@ -37957,6 +38167,31 @@
    },
    {
     "d": "2026-11-13",
+    "p": 71.94,
+    "s": "primor"
+   },
+   {
+    "d": "2026-11-13",
+    "p": 71.95,
+    "s": "druni"
+   },
+   {
+    "d": "2026-11-13",
+    "p": 71.95,
+    "s": "arenal"
+   },
+   {
+    "d": "2026-11-13",
+    "p": 79.95,
+    "s": "julia"
+   },
+   {
+    "d": "2026-11-13",
+    "p": 90.5,
+    "s": "notino"
+   },
+   {
+    "d": "2026-11-13",
     "p": 61.73,
     "s": "idealo"
    },
@@ -37981,11 +38216,32 @@
   "ml": 100,
   "name": "Boss Bottled Beyond",
   "prices": {
+   "arenal": {
+    "auto": true,
+    "d": "2026-11-13",
+    "gh": true,
+    "p": 71.95,
+    "via": "idealo"
+   },
+   "druni": {
+    "auto": true,
+    "d": "2026-11-13",
+    "gh": true,
+    "p": 71.95,
+    "via": "idealo"
+   },
    "idealo": {
     "auto": true,
     "d": "2026-11-13",
     "gh": true,
     "p": 61.73
+   },
+   "julia": {
+    "auto": true,
+    "d": "2026-11-13",
+    "gh": true,
+    "p": 79.95,
+    "via": "idealo"
    },
    "lookfantastic": {
     "auto": true,
@@ -37995,9 +38251,10 @@
    },
    "notino": {
     "auto": true,
-    "d": "2026-11-09",
+    "d": "2026-11-13",
     "gh": true,
-    "p": 90.5
+    "p": 90.5,
+    "via": "idealo"
    },
    "paco": {
     "auto": true,
@@ -38005,6 +38262,13 @@
     "gh": true,
     "p": 71.94,
     "stock": false
+   },
+   "primor": {
+    "auto": true,
+    "d": "2026-11-13",
+    "gh": true,
+    "p": 71.94,
+    "via": "idealo"
    },
    "sabina": {
     "auto": true,
@@ -39228,9 +39492,10 @@
   "brand": "Hugo Boss",
   "buscado": {
    "douglas": "2026-11-09",
-   "idealo": "2026-10-26"
+   "idealo": "2026-10-26",
+   "sephora": "2026-11-13"
   },
-  "checked": "2026-11-13T15:01:55+01:00",
+  "checked": "2026-11-13T16:17:32+01:00",
   "conc": "EDT",
   "deals": [
    {
@@ -39520,6 +39785,26 @@
    },
    {
     "d": "2026-11-13",
+    "p": 69.93,
+    "s": "primor"
+   },
+   {
+    "d": "2026-11-13",
+    "p": 69.95,
+    "s": "druni"
+   },
+   {
+    "d": "2026-11-13",
+    "p": 69.95,
+    "s": "arenal"
+   },
+   {
+    "d": "2026-11-13",
+    "p": 74.95,
+    "s": "julia"
+   },
+   {
+    "d": "2026-11-13",
     "p": 60.85,
     "s": "idealo"
    },
@@ -39527,6 +39812,16 @@
     "d": "2026-11-13",
     "p": 43.13,
     "s": "lookfantastic"
+   },
+   {
+    "d": "2026-11-13",
+    "p": 57.2,
+    "s": "notino"
+   },
+   {
+    "d": "2026-11-13",
+    "p": 101.15,
+    "s": "parejo"
    }
   ],
   "id": "hugo-boss-boss-bottled-edt-200",
@@ -39535,23 +39830,45 @@
    "idealo": "https://cdn.idealo.com/folder/Product/1192/5/1192549/s11_produktbild_gross/hugo-boss-bottled-eau-de-toilette-200-ml.jpg",
    "laguna": "https://www.perfumeriaslaguna.com/images/products/main_737052351100-min.jpeg",
    "lookfantastic": "https://main.thgimages.com/?url=https://static.thcdn.com/productimg/original/11858153-1135172426309987.jpg&format=webp&width=1500&height=1500&fit=cover",
+   "notino": "https://cdn.notinoimg.com/order_2k/hugo-boss/737052189765_01-o/boss-bottled___250318.jpg",
    "paco": "https://www.pacoperfumerias.com/on/demandware.static/-/Sites-pacoper-master-catalog/default/dw844e6f5f/images/7/2/72375_2.jpg",
    "parejo": "https://www.joyeriaparejo.com/38303-large_default/boss-bottled-200-ml-eau-de-toilette-hugo-boss.jpg"
   },
   "ml": 200,
   "name": "Boss Bottled",
   "prices": {
+   "arenal": {
+    "auto": true,
+    "d": "2026-11-13",
+    "gh": true,
+    "p": 69.95,
+    "via": "idealo"
+   },
    "avenida": {
     "auto": true,
     "d": "2026-11-13",
     "gh": true,
     "p": 79.95
    },
+   "druni": {
+    "auto": true,
+    "d": "2026-11-13",
+    "gh": true,
+    "p": 69.95,
+    "via": "idealo"
+   },
    "idealo": {
     "auto": true,
     "d": "2026-11-13",
     "gh": true,
     "p": 60.85
+   },
+   "julia": {
+    "auto": true,
+    "d": "2026-11-13",
+    "gh": true,
+    "p": 74.95,
+    "via": "idealo"
    },
    "laguna": {
     "auto": true,
@@ -39568,7 +39885,7 @@
    },
    "notino": {
     "auto": true,
-    "d": "2026-11-09",
+    "d": "2026-11-13",
     "gh": true,
     "p": 57.2
    },
@@ -39578,6 +39895,19 @@
     "gh": true,
     "p": 69.94,
     "stock": false
+   },
+   "parejo": {
+    "auto": true,
+    "d": "2026-11-13",
+    "gh": true,
+    "p": 101.15
+   },
+   "primor": {
+    "auto": true,
+    "d": "2026-11-13",
+    "gh": true,
+    "p": 69.93,
+    "via": "idealo"
    }
   },
   "target": null,
@@ -41038,7 +41368,7 @@
    "douglas": "2026-11-09",
    "idealo": "2026-10-26"
   },
-  "checked": "2026-11-13T15:04:02+01:00",
+  "checked": "2026-11-13T16:19:41+01:00",
   "conc": "EDT",
   "deals": [
    {
@@ -42077,7 +42407,7 @@
    "douglas": "2026-11-09",
    "idealo": "2026-10-26"
   },
-  "checked": "2026-11-13T15:04:11+01:00",
+  "checked": "2026-11-13T16:19:50+01:00",
   "conc": "Parfum",
   "deals": [
    {
@@ -43422,7 +43752,7 @@
    "idealo": "2026-10-26",
    "lookfantastic": "2026-11-09"
   },
-  "checked": "2026-11-13T15:04:15+01:00",
+  "checked": "2026-11-13T16:19:56+01:00",
   "conc": "EDP",
   "history": [
    {
@@ -43918,7 +44248,7 @@
    "douglas": "2026-11-09",
    "idealo": "2026-10-26"
   },
-  "checked": "2026-11-13T15:04:24+01:00",
+  "checked": "2026-11-13T16:20:05+01:00",
   "conc": "EDT",
   "deals": [
    {
@@ -44333,6 +44663,26 @@
    {
     "d": "2026-11-13",
     "p": 42.92,
+    "s": "primor"
+   },
+   {
+    "d": "2026-11-13",
+    "p": 42.95,
+    "s": "arenal"
+   },
+   {
+    "d": "2026-11-13",
+    "p": 42.95,
+    "s": "druni"
+   },
+   {
+    "d": "2026-11-13",
+    "p": 55.95,
+    "s": "julia"
+   },
+   {
+    "d": "2026-11-13",
+    "p": 42.92,
     "s": "idealo"
    },
    {
@@ -44356,17 +44706,38 @@
   "ml": 100,
   "name": "L'Eau d'Issey",
   "prices": {
+   "arenal": {
+    "auto": true,
+    "d": "2026-11-13",
+    "gh": true,
+    "p": 42.95,
+    "via": "idealo"
+   },
    "avenida": {
     "auto": true,
     "d": "2026-11-13",
     "gh": true,
     "p": 59.95
    },
+   "druni": {
+    "auto": true,
+    "d": "2026-11-13",
+    "gh": true,
+    "p": 42.95,
+    "via": "idealo"
+   },
    "idealo": {
     "auto": true,
     "d": "2026-11-13",
     "gh": true,
     "p": 42.92
+   },
+   "julia": {
+    "auto": true,
+    "d": "2026-11-13",
+    "gh": true,
+    "p": 55.95,
+    "via": "idealo"
    },
    "laguna": {
     "auto": true,
@@ -44385,6 +44756,13 @@
     "d": "2026-11-13",
     "gh": true,
     "p": 42.92
+   },
+   "primor": {
+    "auto": true,
+    "d": "2026-11-13",
+    "gh": true,
+    "p": 42.92,
+    "via": "idealo"
    }
   },
   "target": null,
@@ -44404,7 +44782,7 @@
    "douglas": "2026-11-09",
    "idealo": "2026-10-26"
   },
-  "checked": "2026-11-13T15:04:57+01:00",
+  "checked": "2026-11-13T16:20:22+01:00",
   "conc": "EDT",
   "deals": [
    {
@@ -44912,6 +45290,21 @@
    },
    {
     "d": "2026-11-13",
+    "p": 44.95,
+    "s": "druni"
+   },
+   {
+    "d": "2026-11-13",
+    "p": 44.95,
+    "s": "arenal"
+   },
+   {
+    "d": "2026-11-13",
+    "p": 49.95,
+    "s": "primor"
+   },
+   {
+    "d": "2026-11-13",
     "p": 44.49,
     "s": "idealo"
    },
@@ -44953,6 +45346,13 @@
   "ml": 125,
   "name": "L'Eau d'Issey pour Homme",
   "prices": {
+   "arenal": {
+    "auto": true,
+    "d": "2026-11-13",
+    "gh": true,
+    "p": 44.95,
+    "via": "idealo"
+   },
    "avenida": {
     "auto": true,
     "d": "2026-10-09",
@@ -44963,6 +45363,13 @@
     "d": "2026-10-09",
     "p": null,
     "stock": false
+   },
+   "druni": {
+    "auto": true,
+    "d": "2026-11-13",
+    "gh": true,
+    "p": 44.95,
+    "via": "idealo"
    },
    "idealo": {
     "auto": true,
@@ -45000,6 +45407,13 @@
     "gh": true,
     "p": 55.25
    },
+   "primor": {
+    "auto": true,
+    "d": "2026-11-13",
+    "gh": true,
+    "p": 49.95,
+    "via": "idealo"
+   },
    "sabina": {
     "auto": true,
     "d": "2026-11-13",
@@ -45027,7 +45441,7 @@
    "douglas": "2026-11-09",
    "idealo": "2026-10-26"
   },
-  "checked": "2026-11-13T15:05:11+01:00",
+  "checked": "2026-11-13T16:20:35+01:00",
   "conc": "EDP",
   "deals": [
    {
@@ -45626,7 +46040,7 @@
    "douglas": "2026-10-26",
    "idealo": "2026-10-26"
   },
-  "checked": "2026-11-13T15:05:26+01:00",
+  "checked": "2026-11-13T16:20:49+01:00",
   "conc": "EDP",
   "history": [
    {
@@ -45836,6 +46250,21 @@
    },
    {
     "d": "2026-11-13",
+    "p": 69.95,
+    "s": "arenal"
+   },
+   {
+    "d": "2026-11-13",
+    "p": 69.95,
+    "s": "druni"
+   },
+   {
+    "d": "2026-11-13",
+    "p": 81.95,
+    "s": "julia"
+   },
+   {
+    "d": "2026-11-13",
     "p": 64.75,
     "s": "idealo"
    },
@@ -45861,17 +46290,38 @@
   "ml": 100,
   "name": "La Belle",
   "prices": {
+   "arenal": {
+    "auto": true,
+    "d": "2026-11-13",
+    "gh": true,
+    "p": 69.95,
+    "via": "idealo"
+   },
    "avenida": {
     "auto": true,
     "d": "2026-10-27",
     "gh": true,
     "p": 89.95
    },
+   "druni": {
+    "auto": true,
+    "d": "2026-11-13",
+    "gh": true,
+    "p": 69.95,
+    "via": "idealo"
+   },
    "idealo": {
     "auto": true,
     "d": "2026-11-13",
     "gh": true,
     "p": 64.75
+   },
+   "julia": {
+    "auto": true,
+    "d": "2026-11-13",
+    "gh": true,
+    "p": 81.95,
+    "via": "idealo"
    },
    "laguna": {
     "auto": true,
@@ -45924,7 +46374,7 @@
    "douglas": "2026-11-09",
    "idealo": "2026-10-26"
   },
-  "checked": "2026-11-13T15:05:39+01:00",
+  "checked": "2026-11-13T16:21:03+01:00",
   "conc": "EDT",
   "deals": [
    {
@@ -46517,6 +46967,26 @@
    },
    {
     "d": "2026-11-13",
+    "p": 74.95,
+    "s": "julia"
+   },
+   {
+    "d": "2026-11-13",
+    "p": 76.95,
+    "s": "druni"
+   },
+   {
+    "d": "2026-11-13",
+    "p": 76.95,
+    "s": "arenal"
+   },
+   {
+    "d": "2026-11-13",
+    "p": 76.95,
+    "s": "primor"
+   },
+   {
+    "d": "2026-11-13",
     "p": 63.07,
     "s": "idealo"
    },
@@ -46553,17 +47023,38 @@
   "ml": 125,
   "name": "Le Beau",
   "prices": {
+   "arenal": {
+    "auto": true,
+    "d": "2026-11-13",
+    "gh": true,
+    "p": 76.95,
+    "via": "idealo"
+   },
    "avenida": {
     "auto": true,
     "d": "2026-11-13",
     "gh": true,
     "p": 76.95
    },
+   "druni": {
+    "auto": true,
+    "d": "2026-11-13",
+    "gh": true,
+    "p": 76.95,
+    "via": "idealo"
+   },
    "idealo": {
     "auto": true,
     "d": "2026-11-13",
     "gh": true,
     "p": 63.07
+   },
+   "julia": {
+    "auto": true,
+    "d": "2026-11-13",
+    "gh": true,
+    "p": 74.95,
+    "via": "idealo"
    },
    "laguna": {
     "auto": true,
@@ -46595,6 +47086,13 @@
     "gh": true,
     "p": 76.96
    },
+   "primor": {
+    "auto": true,
+    "d": "2026-11-13",
+    "gh": true,
+    "p": 76.95,
+    "via": "idealo"
+   },
    "sabina": {
     "auto": true,
     "d": "2026-11-13",
@@ -46621,7 +47119,7 @@
    "douglas": "2026-11-09",
    "idealo": "2026-10-26"
   },
-  "checked": "2026-11-13T15:05:49+01:00",
+  "checked": "2026-11-13T16:21:12+01:00",
   "conc": "EDP",
   "deals": [
    {
@@ -47020,6 +47518,21 @@
    },
    {
     "d": "2026-11-13",
+    "p": 86.95,
+    "s": "druni"
+   },
+   {
+    "d": "2026-11-13",
+    "p": 86.95,
+    "s": "arenal"
+   },
+   {
+    "d": "2026-11-13",
+    "p": 86.95,
+    "s": "primor"
+   },
+   {
+    "d": "2026-11-13",
     "p": 71.3,
     "s": "idealo"
    },
@@ -47049,6 +47562,20 @@
   "ml": 125,
   "name": "Le Beau Le Parfum",
   "prices": {
+   "arenal": {
+    "auto": true,
+    "d": "2026-11-13",
+    "gh": true,
+    "p": 86.95,
+    "via": "idealo"
+   },
+   "druni": {
+    "auto": true,
+    "d": "2026-11-13",
+    "gh": true,
+    "p": 86.95,
+    "via": "idealo"
+   },
    "idealo": {
     "auto": true,
     "d": "2026-11-13",
@@ -47074,6 +47601,13 @@
     "gh": true,
     "p": 86.95
    },
+   "primor": {
+    "auto": true,
+    "d": "2026-11-13",
+    "gh": true,
+    "p": 86.95,
+    "via": "idealo"
+   },
    "sabina": {
     "auto": true,
     "d": "2026-11-13",
@@ -47096,7 +47630,7 @@
    "douglas": "2026-11-09",
    "idealo": "2026-10-26"
   },
-  "checked": "2026-11-13T15:06:05+01:00",
+  "checked": "2026-11-13T16:21:29+01:00",
   "conc": "EDT",
   "history": [
    {
@@ -47691,6 +48225,31 @@
    },
    {
     "d": "2026-11-13",
+    "p": 73.3,
+    "s": "notino"
+   },
+   {
+    "d": "2026-11-13",
+    "p": 75.95,
+    "s": "druni"
+   },
+   {
+    "d": "2026-11-13",
+    "p": 75.95,
+    "s": "arenal"
+   },
+   {
+    "d": "2026-11-13",
+    "p": 75.95,
+    "s": "primor"
+   },
+   {
+    "d": "2026-11-13",
+    "p": 75.95,
+    "s": "julia"
+   },
+   {
+    "d": "2026-11-13",
     "p": 56.59,
     "s": "idealo"
    },
@@ -47733,17 +48292,38 @@
   "ml": 125,
   "name": "Le Male",
   "prices": {
+   "arenal": {
+    "auto": true,
+    "d": "2026-11-13",
+    "gh": true,
+    "p": 75.95,
+    "via": "idealo"
+   },
    "avenida": {
     "auto": true,
     "d": "2026-11-13",
     "gh": true,
     "p": 75.95
    },
+   "druni": {
+    "auto": true,
+    "d": "2026-11-13",
+    "gh": true,
+    "p": 75.95,
+    "via": "idealo"
+   },
    "idealo": {
     "auto": true,
     "d": "2026-11-13",
     "gh": true,
     "p": 56.59
+   },
+   "julia": {
+    "auto": true,
+    "d": "2026-11-13",
+    "gh": true,
+    "p": 75.95,
+    "via": "idealo"
    },
    "laguna": {
     "auto": true,
@@ -47759,8 +48339,10 @@
    },
    "notino": {
     "auto": true,
-    "d": "2026-10-09",
-    "p": 126
+    "d": "2026-11-13",
+    "gh": true,
+    "p": 73.3,
+    "via": "idealo"
    },
    "paco": {
     "auto": true,
@@ -47773,6 +48355,13 @@
     "d": "2026-11-13",
     "gh": true,
     "p": 100.3
+   },
+   "primor": {
+    "auto": true,
+    "d": "2026-11-13",
+    "gh": true,
+    "p": 75.95,
+    "via": "idealo"
    },
    "sabina": {
     "auto": true,
@@ -47799,7 +48388,7 @@
    "douglas": "2026-11-09",
    "idealo": "2026-11-09"
   },
-  "checked": "2026-11-13T15:06:14+01:00",
+  "checked": "2026-11-13T16:21:38+01:00",
   "conc": "Parfum",
   "deals": [
    {
@@ -48285,7 +48874,7 @@
    "douglas": "2026-11-09",
    "idealo": "2026-10-26"
   },
-  "checked": "2026-11-13T15:06:28+01:00",
+  "checked": "2026-11-13T16:21:50+01:00",
   "conc": "Parfum",
   "deals": [
    {
@@ -48821,7 +49410,27 @@
    },
    {
     "d": "2026-11-13",
-    "p": 76.55,
+    "p": 89.95,
+    "s": "julia"
+   },
+   {
+    "d": "2026-11-13",
+    "p": 94.95,
+    "s": "druni"
+   },
+   {
+    "d": "2026-11-13",
+    "p": 94.95,
+    "s": "arenal"
+   },
+   {
+    "d": "2026-11-13",
+    "p": 94.95,
+    "s": "primor"
+   },
+   {
+    "d": "2026-11-13",
+    "p": 65.12,
     "s": "idealo"
    },
    {
@@ -48857,17 +49466,38 @@
   "ml": 125,
   "name": "Le Male Elixir",
   "prices": {
+   "arenal": {
+    "auto": true,
+    "d": "2026-11-13",
+    "gh": true,
+    "p": 94.95,
+    "via": "idealo"
+   },
    "avenida": {
     "auto": true,
     "d": "2026-11-13",
     "gh": true,
     "p": 94.95
    },
+   "druni": {
+    "auto": true,
+    "d": "2026-11-13",
+    "gh": true,
+    "p": 94.95,
+    "via": "idealo"
+   },
    "idealo": {
     "auto": true,
     "d": "2026-11-13",
     "gh": true,
-    "p": 76.55
+    "p": 65.12
+   },
+   "julia": {
+    "auto": true,
+    "d": "2026-11-13",
+    "gh": true,
+    "p": 89.95,
+    "via": "idealo"
    },
    "laguna": {
     "auto": true,
@@ -48891,6 +49521,13 @@
     "d": "2026-11-13",
     "gh": true,
     "p": 94.95
+   },
+   "primor": {
+    "auto": true,
+    "d": "2026-11-13",
+    "gh": true,
+    "p": 94.95,
+    "via": "idealo"
    },
    "sabina": {
     "auto": true,
@@ -49559,7 +50196,7 @@
    "douglas": "2026-11-09",
    "idealo": "2026-10-26"
   },
-  "checked": "2026-11-13T15:06:41+01:00",
+  "checked": "2026-11-13T16:22:02+01:00",
   "conc": "EDP",
   "history": [
    {
@@ -50019,6 +50656,26 @@
    },
    {
     "d": "2026-11-13",
+    "p": 75.95,
+    "s": "julia"
+   },
+   {
+    "d": "2026-11-13",
+    "p": 79.95,
+    "s": "arenal"
+   },
+   {
+    "d": "2026-11-13",
+    "p": 79.95,
+    "s": "druni"
+   },
+   {
+    "d": "2026-11-13",
+    "p": 79.95,
+    "s": "primor"
+   },
+   {
+    "d": "2026-11-13",
     "p": 68.92,
     "s": "idealo"
    },
@@ -50050,17 +50707,38 @@
   "ml": 80,
   "name": "Scandal",
   "prices": {
+   "arenal": {
+    "auto": true,
+    "d": "2026-11-13",
+    "gh": true,
+    "p": 79.95,
+    "via": "idealo"
+   },
    "avenida": {
     "auto": true,
     "d": "2026-11-13",
     "gh": true,
     "p": 89.95
    },
+   "druni": {
+    "auto": true,
+    "d": "2026-11-13",
+    "gh": true,
+    "p": 79.95,
+    "via": "idealo"
+   },
    "idealo": {
     "auto": true,
     "d": "2026-11-13",
     "gh": true,
     "p": 68.92
+   },
+   "julia": {
+    "auto": true,
+    "d": "2026-11-13",
+    "gh": true,
+    "p": 75.95,
+    "via": "idealo"
    },
    "laguna": {
     "auto": true,
@@ -50085,6 +50763,13 @@
     "gh": true,
     "p": 79.94,
     "stock": false
+   },
+   "primor": {
+    "auto": true,
+    "d": "2026-11-13",
+    "gh": true,
+    "p": 79.95,
+    "via": "idealo"
    },
    "sabina": {
     "auto": true,
@@ -50111,7 +50796,7 @@
    "idealo": "2026-10-26",
    "sephora": "2026-11-13"
   },
-  "checked": "2026-11-13T15:10:24+01:00",
+  "checked": "2026-11-13T16:22:14+01:00",
   "conc": "EDT",
   "history": [
    {
@@ -50606,6 +51291,26 @@
    },
    {
     "d": "2026-11-13",
+    "p": 79.95,
+    "s": "druni"
+   },
+   {
+    "d": "2026-11-13",
+    "p": 79.95,
+    "s": "arenal"
+   },
+   {
+    "d": "2026-11-13",
+    "p": 79.95,
+    "s": "primor"
+   },
+   {
+    "d": "2026-11-13",
+    "p": 79.95,
+    "s": "julia"
+   },
+   {
+    "d": "2026-11-13",
     "p": 63.52,
     "s": "idealo"
    },
@@ -50642,17 +51347,38 @@
   "ml": 100,
   "name": "Scandal pour Homme",
   "prices": {
+   "arenal": {
+    "auto": true,
+    "d": "2026-11-13",
+    "gh": true,
+    "p": 79.95,
+    "via": "idealo"
+   },
    "avenida": {
     "auto": true,
     "d": "2026-11-13",
     "gh": true,
     "p": 79.95
    },
+   "druni": {
+    "auto": true,
+    "d": "2026-11-13",
+    "gh": true,
+    "p": 79.95,
+    "via": "idealo"
+   },
    "idealo": {
     "auto": true,
     "d": "2026-11-13",
     "gh": true,
     "p": 63.52
+   },
+   "julia": {
+    "auto": true,
+    "d": "2026-11-13",
+    "gh": true,
+    "p": 79.95,
+    "via": "idealo"
    },
    "laguna": {
     "auto": true,
@@ -50671,6 +51397,13 @@
     "d": "2026-11-13",
     "gh": true,
     "p": 79.95
+   },
+   "primor": {
+    "auto": true,
+    "d": "2026-11-13",
+    "gh": true,
+    "p": 79.95,
+    "via": "idealo"
    },
    "sabina": {
     "auto": true,
@@ -50696,7 +51429,7 @@
    "idealo": "2026-10-26",
    "sephora": "2026-11-13"
   },
-  "checked": "2026-11-13T15:10:31+01:00",
+  "checked": "2026-11-13T16:22:19+01:00",
   "conc": "EDT",
   "deals": [
    {
@@ -50967,9 +51700,10 @@
   "buscado": {
    "douglas": "2026-10-25",
    "idealo": "2026-10-25",
-   "lookfantastic": "2026-11-08"
+   "lookfantastic": "2026-11-08",
+   "sephora": "2026-11-13"
   },
-  "checked": "2026-11-13T15:00:59+01:00",
+  "checked": "2026-11-13T16:16:07+01:00",
   "conc": "EDP",
   "deals": [
    {
@@ -51494,6 +52228,16 @@
    {
     "d": "2026-11-13",
     "p": 46.95,
+    "s": "primor"
+   },
+   {
+    "d": "2026-11-13",
+    "p": 83.4,
+    "s": "julia"
+   },
+   {
+    "d": "2026-11-13",
+    "p": 46.95,
     "s": "idealo"
    },
    {
@@ -51535,6 +52279,13 @@
     "gh": true,
     "p": 46.95
    },
+   "julia": {
+    "auto": true,
+    "d": "2026-11-13",
+    "gh": true,
+    "p": 83.4,
+    "via": "idealo"
+   },
    "laguna": {
     "auto": true,
     "d": "2026-11-13",
@@ -51553,6 +52304,13 @@
     "gh": true,
     "p": 63.75
    },
+   "primor": {
+    "auto": true,
+    "d": "2026-11-13",
+    "gh": true,
+    "p": 46.95,
+    "via": "idealo"
+   },
    "sabina": {
     "auto": true,
     "d": "2026-11-13",
@@ -51568,7 +52326,8 @@
    "laguna": "https://www.perfumeriaslaguna.com/kenzo-flower-by-kenzo-edp-100",
    "notino": "https://www.notino.es/kenzo/flower-by-kenzo-eau-de-parfum-para-mujer/p-60711/",
    "parejo": "https://www.joyeriaparejo.com/perfumes/flower-vapo-100-ml-eau-de-parfum-kenzo",
-   "sabina": "https://www.sabina.com/es/women-s-perfumes/1365-flower-kenzo.html"
+   "sabina": "https://www.sabina.com/es/women-s-perfumes/1365-flower-kenzo.html",
+   "sephora": "https://www.sephora.es/p/flower-ikebana-indigo-by-kenzo---eau-de-parfum-P1000206070.html"
   }
  },
  {
@@ -51579,7 +52338,7 @@
    "lookfantastic": "2026-11-09",
    "sephora": "2026-11-13"
   },
-  "checked": "2026-11-13T15:10:38+01:00",
+  "checked": "2026-11-13T16:22:21+01:00",
   "conc": "EDP",
   "history": [
    {
@@ -51758,7 +52517,7 @@
    "lookfantastic": "2026-11-09",
    "sephora": "2026-11-13"
   },
-  "checked": "2026-11-13T15:10:43+01:00",
+  "checked": "2026-11-13T16:22:23+01:00",
   "conc": "EDP",
   "history": [
    {
@@ -51883,7 +52642,7 @@
    "douglas": "2026-11-09",
    "idealo": "2026-10-26"
   },
-  "checked": "2026-11-13T15:10:57+01:00",
+  "checked": "2026-11-13T16:22:33+01:00",
   "conc": "EDP",
   "history": [
    {
@@ -52278,8 +53037,38 @@
    },
    {
     "d": "2026-11-13",
+    "p": 69.0,
+    "s": "sephora"
+   },
+   {
+    "d": "2026-11-13",
     "p": 79.95,
     "s": "avenida"
+   },
+   {
+    "d": "2026-11-13",
+    "p": 56.62,
+    "s": "primor"
+   },
+   {
+    "d": "2026-11-13",
+    "p": 59.95,
+    "s": "julia"
+   },
+   {
+    "d": "2026-11-13",
+    "p": 61.95,
+    "s": "arenal"
+   },
+   {
+    "d": "2026-11-13",
+    "p": 61.95,
+    "s": "druni"
+   },
+   {
+    "d": "2026-11-13",
+    "p": 80.5,
+    "s": "notino"
    },
    {
     "d": "2026-11-13",
@@ -52295,11 +53084,6 @@
     "d": "2026-11-13",
     "p": 70.84,
     "s": "sabina"
-   },
-   {
-    "d": "2026-11-13",
-    "p": 69.0,
-    "s": "sephora"
    }
   ],
   "id": "lancome-idole-edp-50",
@@ -52314,17 +53098,38 @@
   "ml": 50,
   "name": "Idôle",
   "prices": {
+   "arenal": {
+    "auto": true,
+    "d": "2026-11-13",
+    "gh": true,
+    "p": 61.95,
+    "via": "idealo"
+   },
    "avenida": {
     "auto": true,
     "d": "2026-11-13",
     "gh": true,
     "p": 79.95
    },
+   "druni": {
+    "auto": true,
+    "d": "2026-11-13",
+    "gh": true,
+    "p": 61.95,
+    "via": "idealo"
+   },
    "idealo": {
     "auto": true,
     "d": "2026-11-13",
     "gh": true,
     "p": 49.26
+   },
+   "julia": {
+    "auto": true,
+    "d": "2026-11-13",
+    "gh": true,
+    "p": 59.95,
+    "via": "idealo"
    },
    "lookfantastic": {
     "auto": true,
@@ -52334,9 +53139,10 @@
    },
    "notino": {
     "auto": true,
-    "d": "2026-10-11",
-    "note": "con código ALL",
-    "p": 73.95
+    "d": "2026-11-13",
+    "gh": true,
+    "p": 80.5,
+    "via": "idealo"
    },
    "paco": {
     "auto": true,
@@ -52344,6 +53150,13 @@
     "gh": true,
     "p": 56.62,
     "stock": false
+   },
+   "primor": {
+    "auto": true,
+    "d": "2026-11-13",
+    "gh": true,
+    "p": 56.62,
+    "via": "idealo"
    },
    "sabina": {
     "auto": true,
@@ -52373,9 +53186,10 @@
   "brand": "Lancôme",
   "buscado": {
    "douglas": "2026-11-08",
-   "idealo": "2026-10-25"
+   "idealo": "2026-10-25",
+   "sephora": "2026-11-13"
   },
-  "checked": "2026-11-13T15:01:03+01:00",
+  "checked": "2026-11-13T16:16:14+01:00",
   "conc": "EDP",
   "history": [
    {
@@ -52481,6 +53295,16 @@
    {
     "d": "2026-11-13",
     "p": 84.95,
+    "s": "druni"
+   },
+   {
+    "d": "2026-11-13",
+    "p": 85.95,
+    "s": "julia"
+   },
+   {
+    "d": "2026-11-13",
+    "p": 84.95,
     "s": "idealo"
    }
   ],
@@ -52491,11 +53315,25 @@
   "ml": 100,
   "name": "La Nuit Trésor",
   "prices": {
+   "druni": {
+    "auto": true,
+    "d": "2026-11-13",
+    "gh": true,
+    "p": 84.95,
+    "via": "idealo"
+   },
    "idealo": {
     "auto": true,
     "d": "2026-11-13",
     "gh": true,
     "p": 84.95
+   },
+   "julia": {
+    "auto": true,
+    "d": "2026-11-13",
+    "gh": true,
+    "p": 85.95,
+    "via": "idealo"
    },
    "lookfantastic": {
     "auto": true,
@@ -52515,7 +53353,8 @@
   "urls": {
    "idealo": "https://www.idealo.es/precios/4680665/lancome-la-nuit-tresor-eau-de-parfum-100-ml.html",
    "lookfantastic": "https://www.lookfantastic.es/p/lancome-tresor-la-nuit-eau-de-parfum-100ml/11401037/",
-   "paco": "https://www.pacoperfumerias.com/lancome-tresor-la-nuit-153206.html"
+   "paco": "https://www.pacoperfumerias.com/lancome-tresor-la-nuit-153206.html",
+   "sephora": "https://www.sephora.es/p/la-nuit-tresor---eau-de-parfum-346127.html"
   }
  },
  {
@@ -52957,7 +53796,7 @@
    "idealo": "2026-10-26",
    "lookfantastic": "2026-11-09"
   },
-  "checked": "2026-11-13T15:11:09+01:00",
+  "checked": "2026-11-13T16:22:45+01:00",
   "conc": "EDP",
   "history": [
    {
@@ -53437,7 +54276,32 @@
    },
    {
     "d": "2026-11-13",
-    "p": 78.91,
+    "p": 84.95,
+    "s": "julia"
+   },
+   {
+    "d": "2026-11-13",
+    "p": 90.91,
+    "s": "primor"
+   },
+   {
+    "d": "2026-11-13",
+    "p": 90.95,
+    "s": "arenal"
+   },
+   {
+    "d": "2026-11-13",
+    "p": 90.95,
+    "s": "druni"
+   },
+   {
+    "d": "2026-11-13",
+    "p": 117.0,
+    "s": "notino"
+   },
+   {
+    "d": "2026-11-13",
+    "p": 68.65,
     "s": "idealo"
    },
    {
@@ -53467,17 +54331,38 @@
   "ml": 100,
   "name": "Trésor",
   "prices": {
+   "arenal": {
+    "auto": true,
+    "d": "2026-11-13",
+    "gh": true,
+    "p": 90.95,
+    "via": "idealo"
+   },
    "avenida": {
     "auto": true,
     "d": "2026-11-13",
     "gh": true,
     "p": 119.95
    },
+   "druni": {
+    "auto": true,
+    "d": "2026-11-13",
+    "gh": true,
+    "p": 90.95,
+    "via": "idealo"
+   },
    "idealo": {
     "auto": true,
     "d": "2026-11-13",
     "gh": true,
-    "p": 78.91
+    "p": 68.65
+   },
+   "julia": {
+    "auto": true,
+    "d": "2026-11-13",
+    "gh": true,
+    "p": 84.95,
+    "via": "idealo"
    },
    "laguna": {
     "auto": true,
@@ -53487,10 +54372,10 @@
    },
    "notino": {
     "auto": true,
-    "d": "2026-10-26",
+    "d": "2026-11-13",
     "gh": true,
-    "p": 118.0,
-    "stock": false
+    "p": 117.0,
+    "via": "idealo"
    },
    "paco": {
     "auto": true,
@@ -53503,6 +54388,13 @@
     "d": "2026-11-13",
     "gh": true,
     "p": 90.92
+   },
+   "primor": {
+    "auto": true,
+    "d": "2026-11-13",
+    "gh": true,
+    "p": 90.91,
+    "via": "idealo"
    },
    "sephora": {
     "auto": true,
@@ -53530,7 +54422,7 @@
    "lookfantastic": "2026-11-09",
    "sephora": "2026-11-13"
   },
-  "checked": "2026-11-13T15:11:27+01:00",
+  "checked": "2026-11-13T16:22:56+01:00",
   "conc": "EDP",
   "deals": [
    {
@@ -54050,6 +54942,26 @@
    },
    {
     "d": "2026-11-13",
+    "p": 18.39,
+    "s": "primor"
+   },
+   {
+    "d": "2026-11-13",
+    "p": 18.4,
+    "s": "arenal"
+   },
+   {
+    "d": "2026-11-13",
+    "p": 18.4,
+    "s": "druni"
+   },
+   {
+    "d": "2026-11-13",
+    "p": 19.95,
+    "s": "julia"
+   },
+   {
+    "d": "2026-11-13",
     "p": 17.16,
     "s": "idealo"
    },
@@ -54092,11 +55004,32 @@
     "gh": true,
     "p": 21.99
    },
+   "arenal": {
+    "auto": true,
+    "d": "2026-11-13",
+    "gh": true,
+    "p": 18.4,
+    "via": "idealo"
+   },
+   "druni": {
+    "auto": true,
+    "d": "2026-11-13",
+    "gh": true,
+    "p": 18.4,
+    "via": "idealo"
+   },
    "idealo": {
     "auto": true,
     "d": "2026-11-13",
     "gh": true,
     "p": 17.16
+   },
+   "julia": {
+    "auto": true,
+    "d": "2026-11-13",
+    "gh": true,
+    "p": 19.95,
+    "via": "idealo"
    },
    "laguna": {
     "auto": true,
@@ -54115,6 +55048,13 @@
     "d": "2026-11-13",
     "gh": true,
     "p": 24.65
+   },
+   "primor": {
+    "auto": true,
+    "d": "2026-11-13",
+    "gh": true,
+    "p": 18.39,
+    "via": "idealo"
    },
    "sabina": {
     "auto": true,
@@ -54139,9 +55079,10 @@
   "buscado": {
    "douglas": "2026-11-08",
    "idealo": "2026-10-25",
-   "lookfantastic": "2026-11-08"
+   "lookfantastic": "2026-11-08",
+   "sephora": "2026-11-13"
   },
-  "checked": "2026-11-13T15:01:15+01:00",
+  "checked": "2026-11-13T16:16:30+01:00",
   "conc": "EDP",
   "deals": [
    {
@@ -54702,6 +55643,21 @@
    },
    {
     "d": "2026-11-13",
+    "p": 19.88,
+    "s": "primor"
+   },
+   {
+    "d": "2026-11-13",
+    "p": 19.95,
+    "s": "druni"
+   },
+   {
+    "d": "2026-11-13",
+    "p": 25.95,
+    "s": "julia"
+   },
+   {
+    "d": "2026-11-13",
     "p": 15.89,
     "s": "idealo"
    },
@@ -54709,6 +55665,11 @@
     "d": "2026-11-13",
     "p": 23.95,
     "s": "laguna"
+   },
+   {
+    "d": "2026-11-13",
+    "p": 18.8,
+    "s": "notino"
    },
    {
     "d": "2026-11-13",
@@ -54726,6 +55687,7 @@
    "arabicparfums": "https://arabicparfums.com/cdn/shop/files/perfume-con-notas-de-bergamota-acordes-marinos-violeta-mbar-musgo-de-roble-pachul-e-iris_1024x1024.png?v=1772817521",
    "idealo": "https://cdn.idealo.com/folder/Product/201847/1/201847139/s11_produktbild_gross/lattafa-fakhar-lattafa-black-eau-de-parfum-100-ml.jpg",
    "laguna": "https://www.perfumeriaslaguna.com/images/products/lattafa-fakhar-100ml.jpg",
+   "notino": "https://cdn.notinoimg.com/order_2k/lattafa/6291107456058_01-o/fakhar-lattafa-men___220926.jpg",
    "parejo": "https://www.joyeriaparejo.com/52814-large_default/lattafa-fakhar-men-edp-100ml.jpg",
    "sabina": "https://static2.sabinacdn.com/79084/fakhar-black-men.jpg"
   },
@@ -54738,11 +55700,25 @@
     "gh": true,
     "p": 21.99
    },
+   "druni": {
+    "auto": true,
+    "d": "2026-11-13",
+    "gh": true,
+    "p": 19.95,
+    "via": "idealo"
+   },
    "idealo": {
     "auto": true,
     "d": "2026-11-13",
     "gh": true,
     "p": 15.89
+   },
+   "julia": {
+    "auto": true,
+    "d": "2026-11-13",
+    "gh": true,
+    "p": 25.95,
+    "via": "idealo"
    },
    "laguna": {
     "auto": true,
@@ -54752,15 +55728,22 @@
    },
    "notino": {
     "auto": true,
-    "d": "2026-11-07",
+    "d": "2026-11-13",
     "gh": true,
-    "p": 22.6
+    "p": 18.8
    },
    "parejo": {
     "auto": true,
     "d": "2026-11-13",
     "gh": true,
     "p": 27.2
+   },
+   "primor": {
+    "auto": true,
+    "d": "2026-11-13",
+    "gh": true,
+    "p": 19.88,
+    "via": "idealo"
    },
    "sabina": {
     "auto": true,
@@ -54788,7 +55771,7 @@
    "lookfantastic": "2026-11-10",
    "sephora": "2026-11-13"
   },
-  "checked": "2026-11-13T15:11:55+01:00",
+  "checked": "2026-11-13T16:23:12+01:00",
   "conc": "EDP",
   "deals": [
    {
@@ -55349,6 +56332,26 @@
    },
    {
     "d": "2026-11-13",
+    "p": 40.8,
+    "s": "parejo"
+   },
+   {
+    "d": "2026-11-13",
+    "p": 24.94,
+    "s": "primor"
+   },
+   {
+    "d": "2026-11-13",
+    "p": 24.95,
+    "s": "arenal"
+   },
+   {
+    "d": "2026-11-13",
+    "p": 24.95,
+    "s": "druni"
+   },
+   {
+    "d": "2026-11-13",
     "p": 20.98,
     "s": "idealo"
    },
@@ -55356,11 +56359,6 @@
     "d": "2026-11-13",
     "p": 28.81,
     "s": "notino"
-   },
-   {
-    "d": "2026-11-13",
-    "p": 40.8,
-    "s": "parejo"
    },
    {
     "d": "2026-11-13",
@@ -55386,11 +56384,25 @@
     "gh": true,
     "p": 29.99
    },
+   "arenal": {
+    "auto": true,
+    "d": "2026-11-13",
+    "gh": true,
+    "p": 24.95,
+    "via": "idealo"
+   },
    "beautinow": {
     "auto": true,
     "d": "2026-10-11",
     "p": null,
     "stock": false
+   },
+   "druni": {
+    "auto": true,
+    "d": "2026-11-13",
+    "gh": true,
+    "p": 24.95,
+    "via": "idealo"
    },
    "idealo": {
     "auto": true,
@@ -55417,6 +56429,13 @@
     "gh": true,
     "p": 40.8
    },
+   "primor": {
+    "auto": true,
+    "d": "2026-11-13",
+    "gh": true,
+    "p": 24.94,
+    "via": "idealo"
+   },
    "sabina": {
     "auto": true,
     "d": "2026-11-13",
@@ -55441,9 +56460,10 @@
   "buscado": {
    "douglas": "2026-11-08",
    "idealo": "2026-10-25",
-   "lookfantastic": "2026-11-09"
+   "lookfantastic": "2026-11-09",
+   "sephora": "2026-11-13"
   },
-  "checked": "2026-11-13T15:01:21+01:00",
+  "checked": "2026-11-13T16:16:41+01:00",
   "conc": "EDP",
   "deals": [],
   "history": [
@@ -55774,15 +56794,41 @@
    },
    {
     "d": "2026-11-13",
+    "p": 24.94,
+    "s": "primor"
+   },
+   {
+    "d": "2026-11-13",
+    "p": 24.95,
+    "s": "arenal"
+   },
+   {
+    "d": "2026-11-13",
+    "p": 24.95,
+    "s": "druni"
+   },
+   {
+    "d": "2026-11-13",
+    "p": 29.95,
+    "s": "julia"
+   },
+   {
+    "d": "2026-11-13",
     "p": 22.59,
     "s": "idealo"
+   },
+   {
+    "d": "2026-11-13",
+    "p": 24.9,
+    "s": "notino"
    }
   ],
   "id": "lattafa-khamrah-qahwa-edp-100",
   "images": {
    "arabicparfums": "https://arabicparfums.com/cdn/shop/files/5603_1024x1024.jpg?v=1771060254",
    "idealo": "https://cdn.idealo.com/folder/Product/203687/5/203687572/s11_produktbild_gross/lattafa-khamrah-qahwa-eau-de-parfum-100ml.jpg",
-   "laguna": "https://www.perfumeriaslaguna.com/images/products/lattafa-khamrah-qahwa-edp-100ml.jpg"
+   "laguna": "https://www.perfumeriaslaguna.com/images/products/lattafa-khamrah-qahwa-edp-100ml.jpg",
+   "notino": "https://cdn.notinoimg.com/order_2k/lattafa/6290360593661_01-o/khamrah-qahwa___240112.jpg"
   },
   "ml": 100,
   "name": "Khamrah Qahwa",
@@ -55793,11 +56839,32 @@
     "gh": true,
     "p": 29.99
    },
+   "arenal": {
+    "auto": true,
+    "d": "2026-11-13",
+    "gh": true,
+    "p": 24.95,
+    "via": "idealo"
+   },
+   "druni": {
+    "auto": true,
+    "d": "2026-11-13",
+    "gh": true,
+    "p": 24.95,
+    "via": "idealo"
+   },
    "idealo": {
     "auto": true,
     "d": "2026-11-13",
     "gh": true,
     "p": 22.59
+   },
+   "julia": {
+    "auto": true,
+    "d": "2026-11-13",
+    "gh": true,
+    "p": 29.95,
+    "via": "idealo"
    },
    "laguna": {
     "auto": true,
@@ -55808,9 +56875,16 @@
    },
    "notino": {
     "auto": true,
-    "d": "2026-11-09",
+    "d": "2026-11-13",
     "gh": true,
-    "p": 35.2
+    "p": 24.9
+   },
+   "primor": {
+    "auto": true,
+    "d": "2026-11-13",
+    "gh": true,
+    "p": 24.94,
+    "via": "idealo"
    }
   },
   "target": null,
@@ -55830,7 +56904,7 @@
    "lookfantastic": "2026-11-09",
    "sephora": "2026-11-13"
   },
-  "checked": "2026-11-13T15:12:17+01:00",
+  "checked": "2026-11-13T16:23:26+01:00",
   "conc": "EDP",
   "deals": [
    {
@@ -56345,6 +57419,26 @@
    },
    {
     "d": "2026-11-13",
+    "p": 19.2,
+    "s": "notino"
+   },
+   {
+    "d": "2026-11-13",
+    "p": 19.17,
+    "s": "primor"
+   },
+   {
+    "d": "2026-11-13",
+    "p": 19.95,
+    "s": "druni"
+   },
+   {
+    "d": "2026-11-13",
+    "p": 19.99,
+    "s": "julia"
+   },
+   {
+    "d": "2026-11-13",
     "p": 17.47,
     "s": "idealo"
    },
@@ -56352,11 +57446,6 @@
     "d": "2026-11-13",
     "p": 19.95,
     "s": "laguna"
-   },
-   {
-    "d": "2026-11-13",
-    "p": 19.2,
-    "s": "notino"
    },
    {
     "d": "2026-11-13",
@@ -56387,11 +57476,25 @@
     "p": null,
     "stock": false
    },
+   "druni": {
+    "auto": true,
+    "d": "2026-11-13",
+    "gh": true,
+    "p": 19.95,
+    "via": "idealo"
+   },
    "idealo": {
     "auto": true,
     "d": "2026-11-13",
     "gh": true,
     "p": 17.47
+   },
+   "julia": {
+    "auto": true,
+    "d": "2026-11-13",
+    "gh": true,
+    "p": 19.99,
+    "via": "idealo"
    },
    "laguna": {
     "auto": true,
@@ -56404,6 +57507,13 @@
     "d": "2026-11-13",
     "gh": true,
     "p": 19.2
+   },
+   "primor": {
+    "auto": true,
+    "d": "2026-11-13",
+    "gh": true,
+    "p": 19.17,
+    "via": "idealo"
    },
    "sabina": {
     "auto": true,
@@ -56432,7 +57542,7 @@
    "lookfantastic": "2026-11-09",
    "sephora": "2026-11-13"
   },
-  "checked": "2026-11-13T15:12:21+01:00",
+  "checked": "2026-11-13T16:23:27+01:00",
   "conc": "EDP",
   "history": [
    {
@@ -56506,7 +57616,7 @@
    "lookfantastic": "2026-11-09",
    "sephora": "2026-11-13"
   },
-  "checked": "2026-11-13T15:12:24+01:00",
+  "checked": "2026-11-13T16:23:28+01:00",
   "conc": "EDP",
   "history": [],
   "id": "le-labo-santal-33-edp-100",
@@ -56527,7 +57637,7 @@
    "lookfantastic": "2026-11-09",
    "sephora": "2026-11-13"
   },
-  "checked": "2026-11-13T15:12:33+01:00",
+  "checked": "2026-11-13T16:23:32+01:00",
   "conc": "EDT",
   "history": [
    {
@@ -56875,7 +57985,7 @@
    "lookfantastic": "2026-11-09",
    "sephora": "2026-11-13"
   },
-  "checked": "2026-11-13T15:12:43+01:00",
+  "checked": "2026-11-13T16:23:42+01:00",
   "conc": "EDP",
   "history": [
    {
@@ -57114,9 +58224,10 @@
   "buscado": {
    "douglas": "2026-11-09",
    "idealo": "2026-10-26",
-   "lookfantastic": "2026-11-09"
+   "lookfantastic": "2026-11-09",
+   "sephora": "2026-11-13"
   },
-  "checked": "2026-11-13T15:01:24+01:00",
+  "checked": "2026-11-13T16:16:47+01:00",
   "conc": "Parfum",
   "deals": [],
   "history": [
@@ -57352,7 +58463,7 @@
    "lookfantastic": "2026-11-09",
    "sephora": "2026-11-13"
   },
-  "checked": "2026-11-13T15:12:48+01:00",
+  "checked": "2026-11-13T16:23:45+01:00",
   "conc": "EDP",
   "deals": [
    {
@@ -57594,7 +58705,7 @@
    "idealo": "2026-10-26",
    "sephora": "2026-11-13"
   },
-  "checked": "2026-11-13T15:12:55+01:00",
+  "checked": "2026-11-13T16:23:50+01:00",
   "conc": "EDT",
   "deals": [],
   "history": [
@@ -57750,6 +58861,16 @@
    },
    {
     "d": "2026-11-13",
+    "p": 98.5,
+    "s": "notino"
+   },
+   {
+    "d": "2026-11-13",
+    "p": 153.0,
+    "s": "julia"
+   },
+   {
+    "d": "2026-11-13",
     "p": 84.59,
     "s": "idealo"
    },
@@ -57779,11 +58900,25 @@
     "gh": true,
     "p": 84.59
    },
+   "julia": {
+    "auto": true,
+    "d": "2026-11-13",
+    "gh": true,
+    "p": 153.0,
+    "via": "idealo"
+   },
    "lookfantastic": {
     "auto": true,
     "d": "2026-11-13",
     "gh": true,
     "p": 116.84
+   },
+   "notino": {
+    "auto": true,
+    "d": "2026-11-13",
+    "gh": true,
+    "p": 98.5,
+    "via": "idealo"
    },
    "sabina": {
     "auto": true,
@@ -58084,7 +59219,7 @@
    "lookfantastic": "2026-11-10",
    "sephora": "2026-11-13"
   },
-  "checked": "2026-11-13T15:13:09+01:00",
+  "checked": "2026-11-13T16:23:58+01:00",
   "conc": "EDP",
   "deals": [
    {
@@ -58551,7 +59686,7 @@
    "lookfantastic": "2026-11-10",
    "sephora": "2026-11-13"
   },
-  "checked": "2026-11-13T15:13:15+01:00",
+  "checked": "2026-11-13T16:24:04+01:00",
   "conc": "EDP",
   "deals": [],
   "history": [
@@ -58746,9 +59881,10 @@
   "brand": "Marc Jacobs",
   "buscado": {
    "douglas": "2026-11-09",
-   "idealo": "2026-10-26"
+   "idealo": "2026-10-26",
+   "sephora": "2026-11-13"
   },
-  "checked": "2026-11-13T15:01:27+01:00",
+  "checked": "2026-11-13T16:16:53+01:00",
   "conc": "EDT",
   "deals": [],
   "history": [
@@ -58884,6 +60020,26 @@
    },
    {
     "d": "2026-11-13",
+    "p": 65.95,
+    "s": "julia"
+   },
+   {
+    "d": "2026-11-13",
+    "p": 68.95,
+    "s": "arenal"
+   },
+   {
+    "d": "2026-11-13",
+    "p": 68.95,
+    "s": "druni"
+   },
+   {
+    "d": "2026-11-13",
+    "p": 69.99,
+    "s": "primor"
+   },
+   {
+    "d": "2026-11-13",
     "p": 47.6,
     "s": "idealo"
    },
@@ -58891,21 +60047,48 @@
     "d": "2026-11-13",
     "p": 44.28,
     "s": "lookfantastic"
+   },
+   {
+    "d": "2026-11-13",
+    "p": 47.6,
+    "s": "notino"
    }
   ],
   "id": "marc-jacobs-daisy-edt-100",
   "images": {
    "idealo": "https://i.ytimg.com/vi/dcyR7PFi-14/sddefault.jpg",
-   "lookfantastic": "https://main.thgimages.com/?url=https://static.thcdn.com/productimg/original/11079184-1665172746753301.jpg&format=webp&width=1500&height=1500&fit=cover"
+   "lookfantastic": "https://main.thgimages.com/?url=https://static.thcdn.com/productimg/original/11079184-1665172746753301.jpg&format=webp&width=1500&height=1500&fit=cover",
+   "notino": "https://cdn.notinoimg.com/order_2k/marc-jacobs/031655513034_01-o/daisy___130904.jpg"
   },
   "ml": 100,
   "name": "Daisy",
   "prices": {
+   "arenal": {
+    "auto": true,
+    "d": "2026-11-13",
+    "gh": true,
+    "p": 68.95,
+    "via": "idealo"
+   },
+   "druni": {
+    "auto": true,
+    "d": "2026-11-13",
+    "gh": true,
+    "p": 68.95,
+    "via": "idealo"
+   },
    "idealo": {
     "auto": true,
     "d": "2026-11-13",
     "gh": true,
     "p": 47.6
+   },
+   "julia": {
+    "auto": true,
+    "d": "2026-11-13",
+    "gh": true,
+    "p": 65.95,
+    "via": "idealo"
    },
    "lookfantastic": {
     "auto": true,
@@ -58915,9 +60098,16 @@
    },
    "notino": {
     "auto": true,
-    "d": "2026-11-07",
+    "d": "2026-11-13",
     "gh": true,
     "p": 47.6
+   },
+   "primor": {
+    "auto": true,
+    "d": "2026-11-13",
+    "gh": true,
+    "p": 69.99,
+    "via": "idealo"
    }
   },
   "target": null,
@@ -58936,7 +60126,7 @@
    "lookfantastic": "2026-11-09",
    "sephora": "2026-11-13"
   },
-  "checked": "2026-11-13T15:13:29+01:00",
+  "checked": "2026-11-13T16:24:16+01:00",
   "conc": "EDP",
   "deals": [
    {
@@ -59477,6 +60667,26 @@
    {
     "d": "2026-11-13",
     "p": 49.95,
+    "s": "julia"
+   },
+   {
+    "d": "2026-11-13",
+    "p": 54.89,
+    "s": "primor"
+   },
+   {
+    "d": "2026-11-13",
+    "p": 54.9,
+    "s": "druni"
+   },
+   {
+    "d": "2026-11-13",
+    "p": 54.9,
+    "s": "arenal"
+   },
+   {
+    "d": "2026-11-13",
+    "p": 49.95,
     "s": "idealo"
    },
    {
@@ -59506,17 +60716,38 @@
   "ml": 100,
   "name": "Explorer",
   "prices": {
+   "arenal": {
+    "auto": true,
+    "d": "2026-11-13",
+    "gh": true,
+    "p": 54.9,
+    "via": "idealo"
+   },
    "avenida": {
     "auto": true,
     "d": "2026-11-13",
     "gh": true,
     "p": 59.95
    },
+   "druni": {
+    "auto": true,
+    "d": "2026-11-13",
+    "gh": true,
+    "p": 54.9,
+    "via": "idealo"
+   },
    "idealo": {
     "auto": true,
     "d": "2026-11-13",
     "gh": true,
     "p": 49.95
+   },
+   "julia": {
+    "auto": true,
+    "d": "2026-11-13",
+    "gh": true,
+    "p": 49.95,
+    "via": "idealo"
    },
    "notino": {
     "auto": true,
@@ -59535,6 +60766,13 @@
     "d": "2026-11-13",
     "gh": true,
     "p": 65.45
+   },
+   "primor": {
+    "auto": true,
+    "d": "2026-11-13",
+    "gh": true,
+    "p": 54.89,
+    "via": "idealo"
    },
    "sabina": {
     "auto": true,
@@ -59562,7 +60800,7 @@
    "lookfantastic": "2026-11-09",
    "sephora": "2026-11-13"
   },
-  "checked": "2026-11-13T15:13:45+01:00",
+  "checked": "2026-11-13T16:24:30+01:00",
   "conc": "EDT",
   "deals": [
    {
@@ -60182,6 +61420,31 @@
    },
    {
     "d": "2026-11-13",
+    "p": 47.6,
+    "s": "notino"
+   },
+   {
+    "d": "2026-11-13",
+    "p": 54.89,
+    "s": "primor"
+   },
+   {
+    "d": "2026-11-13",
+    "p": 54.9,
+    "s": "druni"
+   },
+   {
+    "d": "2026-11-13",
+    "p": 54.9,
+    "s": "arenal"
+   },
+   {
+    "d": "2026-11-13",
+    "p": 57.5,
+    "s": "julia"
+   },
+   {
+    "d": "2026-11-13",
     "p": 43.26,
     "s": "idealo"
    },
@@ -60218,17 +61481,38 @@
   "ml": 100,
   "name": "Legend",
   "prices": {
+   "arenal": {
+    "auto": true,
+    "d": "2026-11-13",
+    "gh": true,
+    "p": 54.9,
+    "via": "idealo"
+   },
    "avenida": {
     "auto": true,
     "d": "2026-11-13",
     "gh": true,
     "p": 49.95
    },
+   "druni": {
+    "auto": true,
+    "d": "2026-11-13",
+    "gh": true,
+    "p": 54.9,
+    "via": "idealo"
+   },
    "idealo": {
     "auto": true,
     "d": "2026-11-13",
     "gh": true,
     "p": 43.26
+   },
+   "julia": {
+    "auto": true,
+    "d": "2026-11-13",
+    "gh": true,
+    "p": 57.5,
+    "via": "idealo"
    },
    "laguna": {
     "auto": true,
@@ -60238,8 +61522,10 @@
    },
    "notino": {
     "auto": true,
-    "d": "2026-10-11",
-    "p": 60
+    "d": "2026-11-13",
+    "gh": true,
+    "p": 47.6,
+    "via": "idealo"
    },
    "paco": {
     "auto": true,
@@ -60252,6 +61538,13 @@
     "d": "2026-11-13",
     "gh": true,
     "p": 46.75
+   },
+   "primor": {
+    "auto": true,
+    "d": "2026-11-13",
+    "gh": true,
+    "p": 54.89,
+    "via": "idealo"
    },
    "sabina": {
     "auto": true,
@@ -60723,7 +62016,7 @@
    "lookfantastic": "2026-11-09",
    "sephora": "2026-11-13"
   },
-  "checked": "2026-11-13T15:13:46+01:00",
+  "checked": "2026-11-13T16:24:30+01:00",
   "conc": "EDT",
   "deals": [
    {
@@ -60750,7 +62043,7 @@
    "lookfantastic": "2026-10-26",
    "sephora": "2026-11-13"
   },
-  "checked": "2026-11-13T15:13:52+01:00",
+  "checked": "2026-11-13T16:24:34+01:00",
   "conc": "EDP",
   "deals": [
    {
@@ -60938,7 +62231,27 @@
    },
    {
     "d": "2026-11-13",
-    "p": 64.34,
+    "p": 73.95,
+    "s": "arenal"
+   },
+   {
+    "d": "2026-11-13",
+    "p": 73.95,
+    "s": "druni"
+   },
+   {
+    "d": "2026-11-13",
+    "p": 78.0,
+    "s": "julia"
+   },
+   {
+    "d": "2026-11-13",
+    "p": 93.9,
+    "s": "notino"
+   },
+   {
+    "d": "2026-11-13",
+    "p": 61.07,
     "s": "idealo"
    },
    {
@@ -60955,11 +62268,39 @@
   "ml": 60,
   "name": "Alien",
   "prices": {
+   "arenal": {
+    "auto": true,
+    "d": "2026-11-13",
+    "gh": true,
+    "p": 73.95,
+    "via": "idealo"
+   },
+   "druni": {
+    "auto": true,
+    "d": "2026-11-13",
+    "gh": true,
+    "p": 73.95,
+    "via": "idealo"
+   },
    "idealo": {
     "auto": true,
     "d": "2026-11-13",
     "gh": true,
-    "p": 64.34
+    "p": 61.07
+   },
+   "julia": {
+    "auto": true,
+    "d": "2026-11-13",
+    "gh": true,
+    "p": 78.0,
+    "via": "idealo"
+   },
+   "notino": {
+    "auto": true,
+    "d": "2026-11-13",
+    "gh": true,
+    "p": 93.9,
+    "via": "idealo"
    },
    "paco": {
     "auto": true,
@@ -61222,7 +62563,7 @@
    "idealo": "2026-10-26",
    "sephora": "2026-11-13"
   },
-  "checked": "2026-11-13T15:14:06+01:00",
+  "checked": "2026-11-13T16:24:47+01:00",
   "conc": "EDP",
   "history": [
    {
@@ -61527,7 +62868,27 @@
    },
    {
     "d": "2026-11-13",
-    "p": 57.41,
+    "p": 59.95,
+    "s": "druni"
+   },
+   {
+    "d": "2026-11-13",
+    "p": 59.95,
+    "s": "arenal"
+   },
+   {
+    "d": "2026-11-13",
+    "p": 89.7,
+    "s": "julia"
+   },
+   {
+    "d": "2026-11-13",
+    "p": 93.94,
+    "s": "primor"
+   },
+   {
+    "d": "2026-11-13",
+    "p": 59.95,
     "s": "idealo"
    },
    {
@@ -61553,6 +62914,13 @@
   "ml": 100,
   "name": "Bleu Noir",
   "prices": {
+   "arenal": {
+    "auto": true,
+    "d": "2026-11-13",
+    "gh": true,
+    "p": 59.95,
+    "via": "idealo"
+   },
    "avenida": {
     "auto": true,
     "d": "2026-11-13",
@@ -61566,11 +62934,25 @@
     "p": 55.52,
     "stock": false
    },
+   "druni": {
+    "auto": true,
+    "d": "2026-11-13",
+    "gh": true,
+    "p": 59.95,
+    "via": "idealo"
+   },
    "idealo": {
     "auto": true,
     "d": "2026-11-13",
     "gh": true,
-    "p": 57.41
+    "p": 59.95
+   },
+   "julia": {
+    "auto": true,
+    "d": "2026-11-13",
+    "gh": true,
+    "p": 89.7,
+    "via": "idealo"
    },
    "laguna": {
     "auto": true,
@@ -61596,6 +62978,13 @@
     "gh": true,
     "p": 59.95,
     "stock": false
+   },
+   "primor": {
+    "auto": true,
+    "d": "2026-11-13",
+    "gh": true,
+    "p": 93.94,
+    "via": "idealo"
    }
   },
   "target": null,
@@ -61617,7 +63006,7 @@
    "idealo": "2026-10-26",
    "lookfantastic": "2026-10-26"
   },
-  "checked": "2026-11-13T15:14:20+01:00",
+  "checked": "2026-11-13T16:25:02+01:00",
   "conc": "EDP",
   "deals": [
    {
@@ -62141,6 +63530,26 @@
    },
    {
     "d": "2026-11-13",
+    "p": 89.95,
+    "s": "arenal"
+   },
+   {
+    "d": "2026-11-13",
+    "p": 89.95,
+    "s": "druni"
+   },
+   {
+    "d": "2026-11-13",
+    "p": 89.95,
+    "s": "primor"
+   },
+   {
+    "d": "2026-11-13",
+    "p": 89.95,
+    "s": "julia"
+   },
+   {
+    "d": "2026-11-13",
     "p": 66.47,
     "s": "idealo"
    },
@@ -62183,17 +63592,38 @@
   "ml": 100,
   "name": "For Her",
   "prices": {
+   "arenal": {
+    "auto": true,
+    "d": "2026-11-13",
+    "gh": true,
+    "p": 89.95,
+    "via": "idealo"
+   },
    "avenida": {
     "auto": true,
     "d": "2026-11-13",
     "gh": true,
     "p": 85.95
    },
+   "druni": {
+    "auto": true,
+    "d": "2026-11-13",
+    "gh": true,
+    "p": 89.95,
+    "via": "idealo"
+   },
    "idealo": {
     "auto": true,
     "d": "2026-11-13",
     "gh": true,
     "p": 66.47
+   },
+   "julia": {
+    "auto": true,
+    "d": "2026-11-13",
+    "gh": true,
+    "p": 89.95,
+    "via": "idealo"
    },
    "laguna": {
     "auto": true,
@@ -62219,6 +63649,13 @@
     "gh": true,
     "p": 85.0
    },
+   "primor": {
+    "auto": true,
+    "d": "2026-11-13",
+    "gh": true,
+    "p": 89.95,
+    "via": "idealo"
+   },
    "sabina": {
     "auto": true,
     "d": "2026-11-13",
@@ -62242,9 +63679,10 @@
   "brand": "Nina Ricci",
   "buscado": {
    "douglas": "2026-11-09",
-   "idealo": "2026-10-26"
+   "idealo": "2026-10-26",
+   "sephora": "2026-11-13"
   },
-  "checked": "2026-11-13T15:01:36+01:00",
+  "checked": "2026-11-13T16:17:04+01:00",
   "conc": "EDT",
   "deals": [],
   "history": [
@@ -62440,6 +63878,26 @@
    },
    {
     "d": "2026-11-13",
+    "p": 48.95,
+    "s": "julia"
+   },
+   {
+    "d": "2026-11-13",
+    "p": 64.75,
+    "s": "primor"
+   },
+   {
+    "d": "2026-11-13",
+    "p": 64.95,
+    "s": "arenal"
+   },
+   {
+    "d": "2026-11-13",
+    "p": 64.95,
+    "s": "druni"
+   },
+   {
+    "d": "2026-11-13",
     "p": 48.65,
     "s": "idealo"
    }
@@ -62448,22 +63906,44 @@
   "images": {
    "avenida": "https://www.perfumeriasavenida.com/pub/media/catalog/product/cache/63e2cc2d2c1185b8c1d9543422602ecb/P/A/PADRE40159_1-Nina-Ricci-Nina-80-ml.jpg",
    "idealo": "https://cdn.idealo.com/folder/Product/686/4/686416/s11_produktbild_gross/nina-ricci-nina-eau-de-toilette-80-ml.jpg",
+   "notino": "https://cdn.notinoimg.com/order_2k/nina-ricci/3137370357476_01-o/nina___230614.jpg",
    "paco": "https://www.pacoperfumerias.com/on/demandware.static/-/Sites-pacoper-master-catalog/default/dw65705dda/images/2/1/212845_2.jpg"
   },
   "ml": 80,
   "name": "Nina",
   "prices": {
+   "arenal": {
+    "auto": true,
+    "d": "2026-11-13",
+    "gh": true,
+    "p": 64.95,
+    "via": "idealo"
+   },
    "avenida": {
     "auto": true,
     "d": "2026-11-13",
     "gh": true,
     "p": 69.95
    },
+   "druni": {
+    "auto": true,
+    "d": "2026-11-13",
+    "gh": true,
+    "p": 64.95,
+    "via": "idealo"
+   },
    "idealo": {
     "auto": true,
     "d": "2026-11-13",
     "gh": true,
     "p": 48.65
+   },
+   "julia": {
+    "auto": true,
+    "d": "2026-11-13",
+    "gh": true,
+    "p": 48.95,
+    "via": "idealo"
    },
    "lookfantastic": {
     "auto": true,
@@ -62474,7 +63954,7 @@
    },
    "notino": {
     "auto": true,
-    "d": "2026-11-09",
+    "d": "2026-11-13",
     "gh": true,
     "p": 80.9,
     "stock": false
@@ -62485,6 +63965,13 @@
     "gh": true,
     "p": 64.75,
     "stock": false
+   },
+   "primor": {
+    "auto": true,
+    "d": "2026-11-13",
+    "gh": true,
+    "p": 64.75,
+    "via": "idealo"
    }
   },
   "target": null,
@@ -62502,9 +63989,10 @@
   "buscado": {
    "douglas": "2026-11-09",
    "idealo": "2026-10-26",
-   "lookfantastic": "2026-11-09"
+   "lookfantastic": "2026-11-09",
+   "sephora": "2026-11-13"
   },
-  "checked": "2026-11-13T15:01:41+01:00",
+  "checked": "2026-11-13T16:17:11+01:00",
   "conc": "Parfum",
   "deals": [],
   "history": [
@@ -62739,7 +64227,7 @@
    "idealo": "2026-10-26",
    "lookfantastic": "2026-11-09"
   },
-  "checked": "2026-11-13T15:14:25+01:00",
+  "checked": "2026-11-13T16:25:05+01:00",
   "conc": "EDP",
   "history": [
    {
@@ -62901,9 +64389,10 @@
   "buscado": {
    "douglas": "2026-11-09",
    "idealo": "2026-10-26",
-   "lookfantastic": "2026-11-09"
+   "lookfantastic": "2026-11-09",
+   "sephora": "2026-11-13"
   },
-  "checked": "2026-11-13T15:01:43+01:00",
+  "checked": "2026-11-13T16:17:15+01:00",
   "conc": "EDP",
   "deals": [],
   "history": [
@@ -63046,11 +64535,17 @@
     "d": "2026-11-13",
     "p": 279.81,
     "s": "idealo"
+   },
+   {
+    "d": "2026-11-13",
+    "p": 290.0,
+    "s": "notino"
    }
   ],
   "id": "parfums-de-marly-herod-edp-125",
   "images": {
-   "idealo": "https://cdn.idealo.com/folder/Product/4460/4/4460452/s11_produktbild_gross/parfums-de-marly-herod-eau-de-parfum-125-ml.jpg"
+   "idealo": "https://cdn.idealo.com/folder/Product/4460/4/4460452/s11_produktbild_gross/parfums-de-marly-herod-eau-de-parfum-125-ml.jpg",
+   "notino": "https://cdn.notinoimg.com/order_2k/parfums-de-marly/3700578502353_01-o/herod___231103.jpg"
   },
   "ml": 125,
   "name": "Herod",
@@ -63063,7 +64558,7 @@
    },
    "notino": {
     "auto": true,
-    "d": "2026-11-09",
+    "d": "2026-11-13",
     "gh": true,
     "p": 290.0
    }
@@ -63082,7 +64577,7 @@
    "idealo": "2026-10-27",
    "lookfantastic": "2026-11-10"
   },
-  "checked": "2026-11-13T15:14:33+01:00",
+  "checked": "2026-11-13T16:25:13+01:00",
   "conc": "EDP",
   "history": [
    {
@@ -63462,7 +64957,7 @@
    "idealo": "2026-10-26",
    "lookfantastic": "2026-11-09"
   },
-  "checked": "2026-11-13T15:14:38+01:00",
+  "checked": "2026-11-13T16:25:18+01:00",
   "conc": "EDP",
   "history": [
    {
@@ -63662,6 +65157,11 @@
    },
    {
     "d": "2026-11-13",
+    "p": 290.0,
+    "s": "notino"
+   },
+   {
+    "d": "2026-11-13",
     "p": 197.02,
     "s": "idealo"
    }
@@ -63687,6 +65187,13 @@
     "gh": true,
     "p": 197.02
    },
+   "notino": {
+    "auto": true,
+    "d": "2026-11-13",
+    "gh": true,
+    "p": 290.0,
+    "via": "idealo"
+   },
    "sabina": {
     "auto": true,
     "d": "2026-11-13",
@@ -63707,9 +65214,10 @@
   "brand": "Prada",
   "buscado": {
    "douglas": "2026-11-09",
-   "idealo": "2026-10-26"
+   "idealo": "2026-10-26",
+   "sephora": "2026-11-13"
   },
-  "checked": "2026-11-13T15:02:01+01:00",
+  "checked": "2026-11-13T16:17:38+01:00",
   "conc": "EDP",
   "history": [
    {
@@ -63809,6 +65317,26 @@
    },
    {
     "d": "2026-11-13",
+    "p": 91.93,
+    "s": "primor"
+   },
+   {
+    "d": "2026-11-13",
+    "p": 91.95,
+    "s": "arenal"
+   },
+   {
+    "d": "2026-11-13",
+    "p": 91.95,
+    "s": "druni"
+   },
+   {
+    "d": "2026-11-13",
+    "p": 105.3,
+    "s": "julia"
+   },
+   {
+    "d": "2026-11-13",
     "p": 82.54,
     "s": "idealo"
    },
@@ -63827,11 +65355,32 @@
   "ml": 80,
   "name": "Candy",
   "prices": {
+   "arenal": {
+    "auto": true,
+    "d": "2026-11-13",
+    "gh": true,
+    "p": 91.95,
+    "via": "idealo"
+   },
+   "druni": {
+    "auto": true,
+    "d": "2026-11-13",
+    "gh": true,
+    "p": 91.95,
+    "via": "idealo"
+   },
    "idealo": {
     "auto": true,
     "d": "2026-11-13",
     "gh": true,
     "p": 82.54
+   },
+   "julia": {
+    "auto": true,
+    "d": "2026-11-13",
+    "gh": true,
+    "p": 105.3,
+    "via": "idealo"
    },
    "lookfantastic": {
     "auto": true,
@@ -63845,6 +65394,13 @@
     "gh": true,
     "p": 91.94,
     "stock": false
+   },
+   "primor": {
+    "auto": true,
+    "d": "2026-11-13",
+    "gh": true,
+    "p": 91.93,
+    "via": "idealo"
    }
   },
   "target": null,
@@ -63862,7 +65418,7 @@
    "idealo": "2026-10-26",
    "lookfantastic": "2026-10-26"
   },
-  "checked": "2026-11-13T15:14:49+01:00",
+  "checked": "2026-11-13T16:25:28+01:00",
   "conc": "EDT",
   "deals": [
    {
@@ -64170,7 +65726,27 @@
    },
    {
     "d": "2026-11-13",
-    "p": 80.3,
+    "p": 80.88,
+    "s": "primor"
+   },
+   {
+    "d": "2026-11-13",
+    "p": 80.9,
+    "s": "druni"
+   },
+   {
+    "d": "2026-11-13",
+    "p": 80.9,
+    "s": "arenal"
+   },
+   {
+    "d": "2026-11-13",
+    "p": 92.3,
+    "s": "julia"
+   },
+   {
+    "d": "2026-11-13",
+    "p": 68.72,
     "s": "idealo"
    },
    {
@@ -64200,11 +65776,32 @@
   "ml": 100,
   "name": "L'Homme",
   "prices": {
+   "arenal": {
+    "auto": true,
+    "d": "2026-11-13",
+    "gh": true,
+    "p": 80.9,
+    "via": "idealo"
+   },
+   "druni": {
+    "auto": true,
+    "d": "2026-11-13",
+    "gh": true,
+    "p": 80.9,
+    "via": "idealo"
+   },
    "idealo": {
     "auto": true,
     "d": "2026-11-13",
     "gh": true,
-    "p": 80.3
+    "p": 68.72
+   },
+   "julia": {
+    "auto": true,
+    "d": "2026-11-13",
+    "gh": true,
+    "p": 92.3,
+    "via": "idealo"
    },
    "lookfantastic": {
     "auto": true,
@@ -64224,6 +65821,13 @@
     "gh": true,
     "p": 80.88,
     "stock": false
+   },
+   "primor": {
+    "auto": true,
+    "d": "2026-11-13",
+    "gh": true,
+    "p": 80.88,
+    "via": "idealo"
    },
    "sabina": {
     "auto": true,
@@ -64860,9 +66464,10 @@
   "brand": "Prada",
   "buscado": {
    "douglas": "2026-11-09",
-   "idealo": "2026-10-26"
+   "idealo": "2026-10-26",
+   "sephora": "2026-11-13"
   },
-  "checked": "2026-11-13T15:02:14+01:00",
+  "checked": "2026-11-13T16:17:51+01:00",
   "conc": "EDT",
   "deals": [
    {
@@ -65375,6 +66980,26 @@
    },
    {
     "d": "2026-11-13",
+    "p": 70.92,
+    "s": "primor"
+   },
+   {
+    "d": "2026-11-13",
+    "p": 70.95,
+    "s": "druni"
+   },
+   {
+    "d": "2026-11-13",
+    "p": 70.95,
+    "s": "arenal"
+   },
+   {
+    "d": "2026-11-13",
+    "p": 81.25,
+    "s": "julia"
+   },
+   {
+    "d": "2026-11-13",
     "p": 61.7,
     "s": "idealo"
    },
@@ -65406,17 +67031,38 @@
   "ml": 100,
   "name": "Luna Rossa Ocean",
   "prices": {
+   "arenal": {
+    "auto": true,
+    "d": "2026-11-13",
+    "gh": true,
+    "p": 70.95,
+    "via": "idealo"
+   },
    "avenida": {
     "auto": true,
     "d": "2026-11-13",
     "gh": true,
     "p": 86.95
    },
+   "druni": {
+    "auto": true,
+    "d": "2026-11-13",
+    "gh": true,
+    "p": 70.95,
+    "via": "idealo"
+   },
    "idealo": {
     "auto": true,
     "d": "2026-11-13",
     "gh": true,
     "p": 61.7
+   },
+   "julia": {
+    "auto": true,
+    "d": "2026-11-13",
+    "gh": true,
+    "p": 81.25,
+    "via": "idealo"
    },
    "laguna": {
     "auto": true,
@@ -65447,6 +67093,13 @@
     "d": "2026-11-13",
     "gh": true,
     "p": 101.15
+   },
+   "primor": {
+    "auto": true,
+    "d": "2026-11-13",
+    "gh": true,
+    "p": 70.92,
+    "via": "idealo"
    }
   },
   "target": null,
@@ -65467,7 +67120,7 @@
    "douglas": "2026-10-26",
    "idealo": "2026-10-26"
   },
-  "checked": "2026-11-13T15:15:05+01:00",
+  "checked": "2026-11-13T16:25:41+01:00",
   "conc": "EDP",
   "deals": [
    {
@@ -66030,6 +67683,26 @@
    },
    {
     "d": "2026-11-13",
+    "p": 99.94,
+    "s": "primor"
+   },
+   {
+    "d": "2026-11-13",
+    "p": 99.94,
+    "s": "julia"
+   },
+   {
+    "d": "2026-11-13",
+    "p": 99.95,
+    "s": "arenal"
+   },
+   {
+    "d": "2026-11-13",
+    "p": 99.95,
+    "s": "druni"
+   },
+   {
+    "d": "2026-11-13",
     "p": 86.95,
     "s": "idealo"
    },
@@ -66061,6 +67734,13 @@
   "ml": 90,
   "name": "Paradoxe",
   "prices": {
+   "arenal": {
+    "auto": true,
+    "d": "2026-11-13",
+    "gh": true,
+    "p": 99.95,
+    "via": "idealo"
+   },
    "avenida": {
     "auto": true,
     "d": "2026-11-13",
@@ -66073,11 +67753,25 @@
     "gh": true,
     "p": 99.94
    },
+   "druni": {
+    "auto": true,
+    "d": "2026-11-13",
+    "gh": true,
+    "p": 99.95,
+    "via": "idealo"
+   },
    "idealo": {
     "auto": true,
     "d": "2026-11-13",
     "gh": true,
     "p": 86.95
+   },
+   "julia": {
+    "auto": true,
+    "d": "2026-11-13",
+    "gh": true,
+    "p": 99.94,
+    "via": "idealo"
    },
    "laguna": {
     "auto": true,
@@ -66101,6 +67795,13 @@
     "d": "2026-11-03",
     "gh": true,
     "p": 99.94
+   },
+   "primor": {
+    "auto": true,
+    "d": "2026-11-13",
+    "gh": true,
+    "p": 99.94,
+    "via": "idealo"
    },
    "sabina": {
     "auto": true,
@@ -66127,7 +67828,7 @@
    "douglas": "2026-11-09",
    "idealo": "2026-10-26"
   },
-  "checked": "2026-11-13T15:15:19+01:00",
+  "checked": "2026-11-13T16:25:54+01:00",
   "conc": "EDT",
   "deals": [
    {
@@ -66575,6 +68276,31 @@
    },
    {
     "d": "2026-11-13",
+    "p": 70.9,
+    "s": "notino"
+   },
+   {
+    "d": "2026-11-13",
+    "p": 72.95,
+    "s": "druni"
+   },
+   {
+    "d": "2026-11-13",
+    "p": 72.95,
+    "s": "arenal"
+   },
+   {
+    "d": "2026-11-13",
+    "p": 72.95,
+    "s": "primor"
+   },
+   {
+    "d": "2026-11-13",
+    "p": 72.95,
+    "s": "julia"
+   },
+   {
+    "d": "2026-11-13",
     "p": 65.99,
     "s": "idealo"
    },
@@ -66606,17 +68332,38 @@
   "ml": 100,
   "name": "1 Million",
   "prices": {
+   "arenal": {
+    "auto": true,
+    "d": "2026-11-13",
+    "gh": true,
+    "p": 72.95,
+    "via": "idealo"
+   },
    "avenida": {
     "auto": true,
     "d": "2026-11-13",
     "gh": true,
     "p": 72.95
    },
+   "druni": {
+    "auto": true,
+    "d": "2026-11-13",
+    "gh": true,
+    "p": 72.95,
+    "via": "idealo"
+   },
    "idealo": {
     "auto": true,
     "d": "2026-11-13",
     "gh": true,
     "p": 65.99
+   },
+   "julia": {
+    "auto": true,
+    "d": "2026-11-13",
+    "gh": true,
+    "p": 72.95,
+    "via": "idealo"
    },
    "laguna": {
     "auto": true,
@@ -66632,8 +68379,10 @@
    },
    "notino": {
     "auto": true,
-    "d": "2026-10-12",
-    "p": 119
+    "d": "2026-11-13",
+    "gh": true,
+    "p": 70.9,
+    "via": "idealo"
    },
    "paco": {
     "auto": true,
@@ -66647,6 +68396,13 @@
     "d": "2026-11-13",
     "gh": true,
     "p": 89.25
+   },
+   "primor": {
+    "auto": true,
+    "d": "2026-11-13",
+    "gh": true,
+    "p": 72.95,
+    "via": "idealo"
    }
   },
   "target": null,
@@ -68555,9 +70311,10 @@
   "brand": "Rabanne",
   "buscado": {
    "douglas": "2026-11-09",
-   "idealo": "2026-11-09"
+   "idealo": "2026-11-09",
+   "sephora": "2026-11-13"
   },
-  "checked": "2026-11-13T15:02:26+01:00",
+  "checked": "2026-11-13T16:18:02+01:00",
   "conc": "Parfum",
   "deals": [
    {
@@ -69561,7 +71318,7 @@
    "douglas": "2026-11-09",
    "idealo": "2026-10-26"
   },
-  "checked": "2026-11-13T15:02:39+01:00",
+  "checked": "2026-11-13T16:18:14+01:00",
   "conc": "EDP",
   "history": [
    {
@@ -70077,6 +71834,26 @@
    {
     "d": "2026-11-13",
     "p": 63.95,
+    "s": "julia"
+   },
+   {
+    "d": "2026-11-13",
+    "p": 78.95,
+    "s": "arenal"
+   },
+   {
+    "d": "2026-11-13",
+    "p": 78.95,
+    "s": "druni"
+   },
+   {
+    "d": "2026-11-13",
+    "p": 78.99,
+    "s": "primor"
+   },
+   {
+    "d": "2026-11-13",
+    "p": 63.95,
     "s": "idealo"
    },
    {
@@ -70107,17 +71884,38 @@
   "ml": 80,
   "name": "Olympéa",
   "prices": {
+   "arenal": {
+    "auto": true,
+    "d": "2026-11-13",
+    "gh": true,
+    "p": 78.95,
+    "via": "idealo"
+   },
    "avenida": {
     "auto": true,
     "d": "2026-11-13",
     "gh": true,
     "p": 87.95
    },
+   "druni": {
+    "auto": true,
+    "d": "2026-11-13",
+    "gh": true,
+    "p": 78.95,
+    "via": "idealo"
+   },
    "idealo": {
     "auto": true,
     "d": "2026-11-13",
     "gh": true,
     "p": 63.95
+   },
+   "julia": {
+    "auto": true,
+    "d": "2026-11-13",
+    "gh": true,
+    "p": 63.95,
+    "via": "idealo"
    },
    "laguna": {
     "auto": true,
@@ -70148,6 +71946,13 @@
     "d": "2026-11-13",
     "gh": true,
     "p": 95.2
+   },
+   "primor": {
+    "auto": true,
+    "d": "2026-11-13",
+    "gh": true,
+    "p": 78.99,
+    "via": "idealo"
    },
    "sephora": {
     "auto": true,
@@ -71662,9 +73467,10 @@
   "buscado": {
    "douglas": "2026-11-09",
    "idealo": "2026-10-26",
-   "lookfantastic": "2026-11-09"
+   "lookfantastic": "2026-11-09",
+   "sephora": "2026-11-13"
   },
-  "checked": "2026-11-13T15:02:42+01:00",
+  "checked": "2026-11-13T16:18:19+01:00",
   "conc": "EDP",
   "history": [
    {
@@ -71869,6 +73675,11 @@
    },
    {
     "d": "2026-11-13",
+    "p": 38.25,
+    "s": "notino"
+   },
+   {
+    "d": "2026-11-13",
     "p": 37.95,
     "s": "idealo"
    }
@@ -71895,8 +73706,10 @@
    },
    "notino": {
     "auto": true,
-    "d": "2026-10-18",
-    "p": 35.3
+    "d": "2026-11-13",
+    "gh": true,
+    "p": 38.25,
+    "via": "idealo"
    }
   },
   "target": null,
@@ -71912,9 +73725,10 @@
   "buscado": {
    "douglas": "2026-11-09",
    "idealo": "2026-10-26",
-   "lookfantastic": "2026-10-26"
+   "lookfantastic": "2026-10-26",
+   "sephora": "2026-11-13"
   },
-  "checked": "2026-11-13T15:02:46+01:00",
+  "checked": "2026-11-13T16:18:25+01:00",
   "conc": "EDP",
   "history": [
    {
@@ -72109,6 +73923,31 @@
    },
    {
     "d": "2026-11-13",
+    "p": 132.94,
+    "s": "primor"
+   },
+   {
+    "d": "2026-11-13",
+    "p": 132.95,
+    "s": "arenal"
+   },
+   {
+    "d": "2026-11-13",
+    "p": 132.95,
+    "s": "druni"
+   },
+   {
+    "d": "2026-11-13",
+    "p": 163.0,
+    "s": "notino"
+   },
+   {
+    "d": "2026-11-13",
+    "p": 189.0,
+    "s": "julia"
+   },
+   {
+    "d": "2026-11-13",
     "p": 118.59,
     "s": "idealo"
    },
@@ -72126,22 +73965,52 @@
   "ml": 100,
   "name": "Black Orchid",
   "prices": {
+   "arenal": {
+    "auto": true,
+    "d": "2026-11-13",
+    "gh": true,
+    "p": 132.95,
+    "via": "idealo"
+   },
+   "druni": {
+    "auto": true,
+    "d": "2026-11-13",
+    "gh": true,
+    "p": 132.95,
+    "via": "idealo"
+   },
    "idealo": {
     "auto": true,
     "d": "2026-11-13",
     "gh": true,
     "p": 118.59
    },
+   "julia": {
+    "auto": true,
+    "d": "2026-11-13",
+    "gh": true,
+    "p": 189.0,
+    "via": "idealo"
+   },
    "notino": {
     "auto": true,
-    "d": "2026-10-25",
-    "p": 162.1
+    "d": "2026-11-13",
+    "gh": true,
+    "p": 163.0,
+    "via": "idealo"
    },
    "paco": {
     "auto": true,
     "d": "2026-11-13",
     "gh": true,
     "p": 132.94
+   },
+   "primor": {
+    "auto": true,
+    "d": "2026-11-13",
+    "gh": true,
+    "p": 132.94,
+    "via": "idealo"
    }
   },
   "target": null,
@@ -72158,9 +74027,10 @@
   "buscado": {
    "douglas": "2026-11-09",
    "idealo": "2026-10-26",
-   "lookfantastic": "2026-10-26"
+   "lookfantastic": "2026-10-26",
+   "sephora": "2026-11-13"
   },
-  "checked": "2026-11-13T15:02:50+01:00",
+  "checked": "2026-11-13T16:18:30+01:00",
   "conc": "EDP",
   "history": [
    {
@@ -75406,9 +77276,10 @@
   "buscado": {
    "douglas": "2026-11-09",
    "idealo": "2026-10-26",
-   "lookfantastic": "2026-11-09"
+   "lookfantastic": "2026-11-09",
+   "sephora": "2026-11-13"
   },
-  "checked": "2026-11-13T15:02:52+01:00",
+  "checked": "2026-11-13T16:18:34+01:00",
   "conc": "EDT",
   "history": [
    {
@@ -75508,6 +77379,16 @@
    },
    {
     "d": "2026-11-13",
+    "p": 61.87,
+    "s": "primor"
+   },
+   {
+    "d": "2026-11-13",
+    "p": 66.0,
+    "s": "notino"
+   },
+   {
+    "d": "2026-11-13",
     "p": 61.54,
     "s": "idealo"
    }
@@ -75527,8 +77408,17 @@
    },
    "notino": {
     "auto": true,
-    "d": "2026-10-25",
-    "p": 63.5
+    "d": "2026-11-13",
+    "gh": true,
+    "p": 66.0,
+    "via": "idealo"
+   },
+   "primor": {
+    "auto": true,
+    "d": "2026-11-13",
+    "gh": true,
+    "p": 61.87,
+    "via": "idealo"
    }
   },
   "target": null,
@@ -77128,9 +79018,10 @@
   "buscado": {
    "douglas": "2026-11-09",
    "idealo": "2026-10-26",
-   "lookfantastic": "2026-11-09"
+   "lookfantastic": "2026-11-09",
+   "sephora": "2026-11-13"
   },
-  "checked": "2026-11-13T15:02:57+01:00",
+  "checked": "2026-11-13T16:18:39+01:00",
   "conc": "EDP",
   "history": [
    {
@@ -77230,6 +79121,16 @@
    },
    {
     "d": "2026-11-13",
+    "p": 69.15,
+    "s": "primor"
+   },
+   {
+    "d": "2026-11-13",
+    "p": 69.95,
+    "s": "druni"
+   },
+   {
+    "d": "2026-11-13",
     "p": 59.93,
     "s": "idealo"
    }
@@ -77242,6 +79143,13 @@
   "ml": 100,
   "name": "Eros Pour Femme",
   "prices": {
+   "druni": {
+    "auto": true,
+    "d": "2026-11-13",
+    "gh": true,
+    "p": 69.95,
+    "via": "idealo"
+   },
    "idealo": {
     "auto": true,
     "d": "2026-11-13",
@@ -77259,6 +79167,13 @@
     "gh": true,
     "p": 69.15,
     "stock": false
+   },
+   "primor": {
+    "auto": true,
+    "d": "2026-11-13",
+    "gh": true,
+    "p": 69.15,
+    "via": "idealo"
    }
   },
   "target": null,
@@ -80038,9 +81953,10 @@
   "buscado": {
    "douglas": "2026-11-09",
    "idealo": "2026-10-26",
-   "lookfantastic": "2026-10-26"
+   "lookfantastic": "2026-10-26",
+   "sephora": "2026-11-13"
   },
-  "checked": "2026-11-13T15:03:02+01:00",
+  "checked": "2026-11-13T16:18:44+01:00",
   "conc": "EDT",
   "history": [
    {
@@ -80230,6 +82146,31 @@
    },
    {
     "d": "2026-11-13",
+    "p": 65.95,
+    "s": "julia"
+   },
+   {
+    "d": "2026-11-13",
+    "p": 68.48,
+    "s": "primor"
+   },
+   {
+    "d": "2026-11-13",
+    "p": 68.5,
+    "s": "druni"
+   },
+   {
+    "d": "2026-11-13",
+    "p": 68.5,
+    "s": "arenal"
+   },
+   {
+    "d": "2026-11-13",
+    "p": 92.5,
+    "s": "notino"
+   },
+   {
+    "d": "2026-11-13",
     "p": 59.58,
     "s": "idealo"
    },
@@ -80247,17 +82188,52 @@
   "ml": 100,
   "name": "L'Homme",
   "prices": {
+   "arenal": {
+    "auto": true,
+    "d": "2026-11-13",
+    "gh": true,
+    "p": 68.5,
+    "via": "idealo"
+   },
+   "druni": {
+    "auto": true,
+    "d": "2026-11-13",
+    "gh": true,
+    "p": 68.5,
+    "via": "idealo"
+   },
    "idealo": {
     "auto": true,
     "d": "2026-11-13",
     "gh": true,
     "p": 59.58
    },
+   "julia": {
+    "auto": true,
+    "d": "2026-11-13",
+    "gh": true,
+    "p": 65.95,
+    "via": "idealo"
+   },
+   "notino": {
+    "auto": true,
+    "d": "2026-11-13",
+    "gh": true,
+    "p": 92.5,
+    "via": "idealo"
+   },
    "paco": {
     "auto": true,
     "d": "2026-11-13",
     "gh": true,
     "p": 68.48
+   },
+   "primor": {
+    "auto": true,
+    "d": "2026-11-13",
+    "gh": true,
+    "p": 68.48,
+    "via": "idealo"
    }
   },
   "target": null,
@@ -81395,9 +83371,10 @@
   "buscado": {
    "douglas": "2026-11-09",
    "idealo": "2026-10-26",
-   "lookfantastic": "2026-10-26"
+   "lookfantastic": "2026-10-26",
+   "sephora": "2026-11-13"
   },
-  "checked": "2026-11-13T15:03:08+01:00",
+  "checked": "2026-11-13T16:18:50+01:00",
   "conc": "EDP",
   "history": [
    {
@@ -81527,6 +83504,26 @@
    },
    {
     "d": "2026-11-13",
+    "p": 95.93,
+    "s": "primor"
+   },
+   {
+    "d": "2026-11-13",
+    "p": 95.95,
+    "s": "arenal"
+   },
+   {
+    "d": "2026-11-13",
+    "p": 95.95,
+    "s": "druni"
+   },
+   {
+    "d": "2026-11-13",
+    "p": 95.95,
+    "s": "julia"
+   },
+   {
+    "d": "2026-11-13",
     "p": 88.69,
     "s": "idealo"
    },
@@ -81545,11 +83542,32 @@
   "ml": 90,
   "name": "Libre Intense",
   "prices": {
+   "arenal": {
+    "auto": true,
+    "d": "2026-11-13",
+    "gh": true,
+    "p": 95.95,
+    "via": "idealo"
+   },
+   "druni": {
+    "auto": true,
+    "d": "2026-11-13",
+    "gh": true,
+    "p": 95.95,
+    "via": "idealo"
+   },
    "idealo": {
     "auto": true,
     "d": "2026-11-13",
     "gh": true,
     "p": 88.69
+   },
+   "julia": {
+    "auto": true,
+    "d": "2026-11-13",
+    "gh": true,
+    "p": 95.95,
+    "via": "idealo"
    },
    "lookfantastic": {
     "auto": true,
@@ -81563,6 +83581,13 @@
     "gh": true,
     "p": 95.93,
     "stock": false
+   },
+   "primor": {
+    "auto": true,
+    "d": "2026-11-13",
+    "gh": true,
+    "p": 95.93,
+    "via": "idealo"
    }
   },
   "target": null,
@@ -81580,7 +83605,7 @@
    "idealo": "2026-10-26",
    "lookfantastic": "2026-11-09"
   },
-  "checked": "2026-11-13T15:03:14+01:00",
+  "checked": "2026-11-13T16:18:55+01:00",
   "conc": "EDP",
   "history": [
    {
@@ -81865,6 +83890,31 @@
    },
    {
     "d": "2026-11-13",
+    "p": 82.94,
+    "s": "primor"
+   },
+   {
+    "d": "2026-11-13",
+    "p": 82.95,
+    "s": "arenal"
+   },
+   {
+    "d": "2026-11-13",
+    "p": 82.95,
+    "s": "druni"
+   },
+   {
+    "d": "2026-11-13",
+    "p": 82.95,
+    "s": "julia"
+   },
+   {
+    "d": "2026-11-13",
+    "p": 120.0,
+    "s": "notino"
+   },
+   {
+    "d": "2026-11-13",
     "p": 75.88,
     "s": "idealo"
    },
@@ -81888,11 +83938,32 @@
   "ml": 90,
   "name": "Mon Paris",
   "prices": {
+   "arenal": {
+    "auto": true,
+    "d": "2026-11-13",
+    "gh": true,
+    "p": 82.95,
+    "via": "idealo"
+   },
+   "druni": {
+    "auto": true,
+    "d": "2026-11-13",
+    "gh": true,
+    "p": 82.95,
+    "via": "idealo"
+   },
    "idealo": {
     "auto": true,
     "d": "2026-11-13",
     "gh": true,
     "p": 75.88
+   },
+   "julia": {
+    "auto": true,
+    "d": "2026-11-13",
+    "gh": true,
+    "p": 82.95,
+    "via": "idealo"
    },
    "laguna": {
     "auto": true,
@@ -81900,11 +83971,25 @@
     "gh": true,
     "p": 79.95
    },
+   "notino": {
+    "auto": true,
+    "d": "2026-11-13",
+    "gh": true,
+    "p": 120.0,
+    "via": "idealo"
+   },
    "paco": {
     "auto": true,
     "d": "2026-11-13",
     "gh": true,
     "p": 82.94
+   },
+   "primor": {
+    "auto": true,
+    "d": "2026-11-13",
+    "gh": true,
+    "p": 82.94,
+    "via": "idealo"
    }
   },
   "target": null,
