@@ -249,8 +249,8 @@ def _product_image(page):
 
 
 # Tiendas que bloquean la lectura directa pero salen en las ofertas de Idealo
-IDEALO_SHOPS = {"notino.es": "notino", "primor.eu": "primor", "druni.es": "druni",
-                "arenal.com": "arenal", "perfumeriajulia.es": "julia"}
+# El HTML que recibe GitHub no trae el nombre de la tienda, solo su número en Idealo
+IDEALO_SHOPS = {"298684": "notino", "324169": "primor", "317847": "druni", "317714": "arenal", "331204": "julia"}
 BUNDLE_RE = re.compile(r"\bset\b|estuche|cofre|lote|pack|tester|muestra|miniatura|\+", re.I)
 
 
@@ -258,12 +258,11 @@ def idealo_offers(page, ml):
     """{tienda: precio} de la lista de ofertas de una ficha de Idealo, solo del tamaño ml y sin estuches."""
     out = {}
     for chunk in re.split(r'<li[^>]+class="productOffers-listItem[\s"]', page)[1:]:
-        shop = re.search(r'data-shop-name="([^"]+)"', chunk)
+        shop = re.search(r'shop_id\D{1,12}?(\d{5,7})|/Shop/\d+/\d+/(\d{5,7})/', chunk)
         price = re.search(r'productOffers-listItemOfferPrice[^>]*>\s*([\d.]+,\d{2})', chunk)
         if not (shop and price):
             continue
-        dom = shop.group(1).split(" - ")[0].strip().lower().split("/")[0]
-        sid = IDEALO_SHOPS.get(dom)
+        sid = IDEALO_SHOPS.get(shop.group(1) or shop.group(2))
         t0 = chunk.find("productOffers-listItemTitle")
         title = re.sub(r"<[^>]+>", " ", chunk[t0:price.start()]) if 0 <= t0 < price.start() else ""
         if not sid or BUNDLE_RE.search(title) or (_mls(title) and ml not in _mls(title)):
@@ -460,7 +459,7 @@ def update_perfume(it, get, stats, today):
             via = idealo_offers(r.text, ml)
             if "idealo_ofertas" not in DEBUG:
                 k = r.text.find("productOffers-listItem")
-                k2 = r.text.find("notino")
+                k2 = r.text.find("298684")
                 DEBUG["idealo_ofertas"] = {"perfume": it.get("id"), "encontradas": via, "listas": r.text.count("productOffers-listItem"),
                                            "muestra": r.text[max(0, k - 300): k + 2500], "notino": r.text[max(0, k2 - 1500): k2 + 600] if k2 >= 0 else None}
             for sid, vp in via.items():
