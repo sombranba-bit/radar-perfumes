@@ -1,5 +1,5 @@
 {
- "at": "2026-11-12T08:10:57+01:00",
+ "at": "2026-11-13T09:21:44+01:00",
  "tiendas": {
   "primor": {
    "url": "https://www.primor.eu/es_es/catalogsearch/result/?q=boss+bottled",
@@ -29,17 +29,17 @@
   "douglas": {
    "url": "https://www.douglas.es/es/search?q=boss%20bottled",
    "codigo": 200,
-   "kb": 1637,
+   "kb": 1639,
    "titulo": "Resultados para \"boss bottled\"",
-   "precios_eur": 415,
+   "precios_eur": 416,
    "jsonld": 1,
-   "menciona_boss": 910,
+   "menciona_boss": 926,
    "estado": "con precios"
   },
   "eci": {
    "url": "https://www.elcorteingles.es/buscar/?s=boss+bottled",
    "codigo": 404,
-   "kb": 326,
+   "kb": 325,
    "titulo": "El Corte Inglés",
    "precios_eur": 2,
    "jsonld": 0,
@@ -48,22 +48,22 @@
   },
   "amazon": {
    "url": "https://www.amazon.es/s?k=boss+bottled+edt+100+ml",
-   "codigo": 200,
-   "kb": 1031,
-   "titulo": "Amazon.es : boss bottled edt 100 ml",
-   "precios_eur": 3,
+   "codigo": 503,
+   "kb": 1,
+   "titulo": "Lo sentimos.",
+   "precios_eur": 0,
    "jsonld": 0,
-   "menciona_boss": 325,
-   "estado": "con precios"
+   "menciona_boss": 0,
+   "estado": "bloqueada"
   },
   "idealo": {
    "url": "https://www.idealo.es/resultados.html?q=boss+bottled",
    "codigo": 200,
-   "kb": 1059,
+   "kb": 1065,
    "titulo": "boss bottled en idealo.es",
-   "precios_eur": 130,
+   "precios_eur": 132,
    "jsonld": 0,
-   "menciona_boss": 573,
+   "menciona_boss": 572,
    "estado": "con precios"
   },
   "bodybell": {
@@ -124,11 +124,11 @@
   "makeup": {
    "url": "https://makeup.es/search/?q=boss+bottled",
    "codigo": 200,
-   "kb": 1009,
+   "kb": 1007,
    "titulo": "Resultados de la búsqueda | Makeup.es",
-   "precios_eur": 67,
+   "precios_eur": 66,
    "jsonld": 3,
-   "menciona_boss": 299,
+   "menciona_boss": 310,
    "estado": "con precios"
   },
   "gotta": {
@@ -164,11 +164,11 @@
   "lookfantastic": {
    "url": "https://www.lookfantastic.es/search?q=boss+bottled",
    "codigo": 200,
-   "kb": 604,
+   "kb": 601,
    "titulo": "Resultado encontrado para \"boss bottled\"",
    "precios_eur": 98,
    "jsonld": 1,
-   "menciona_boss": 256,
+   "menciona_boss": 243,
    "estado": "con precios"
   },
   "perfumesclub": {
