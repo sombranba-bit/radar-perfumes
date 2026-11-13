@@ -1,158 +1,170 @@
 {
- "at": "2026-11-13T14:01:14+01:00",
- "revisados": 35,
+ "at": "2026-11-13T15:06:41+01:00",
+ "revisados": 70,
  "tiendas": {
-  "avenida": {
-   "ok": 6,
-   "bloqueada": 0,
-   "sin_precio": 1,
-   "dudoso": 0,
-   "variantes": 6
-  },
-  "beautinow": {
-   "ok": 0,
-   "bloqueada": 1,
-   "sin_precio": 4,
-   "dudoso": 0
-  },
   "idealo": {
-   "ok": 32,
+   "ok": 65,
    "bloqueada": 0,
-   "sin_precio": 1,
-   "dudoso": 2,
-   "jsonld-url": 28,
-   "jsonld": 3,
-   "texto": 1,
-   "ejemplos": [
-    {
-     "perfume": "burberry-her-edp-100",
-     "precio": 64.32,
-     "referencia": 121.125,
-     "metodo": "jsonld-url"
-    },
-    {
-     "perfume": "creed-silver-mountain-water-edp-100",
-     "precio": 24.75,
-     "referencia": 320.0,
-     "metodo": "texto"
-    }
-   ]
-  },
-  "laguna": {
-   "ok": 10,
-   "bloqueada": 0,
-   "sin_precio": 1,
+   "sin_precio": 0,
    "dudoso": 0,
-   "jsonld-url": 3,
-   "precio-100ml": 4,
-   "jsonld": 3
+   "jsonld": 9,
+   "jsonld-url": 56
   },
   "lookfantastic": {
-   "ok": 2,
+   "ok": 23,
    "bloqueada": 0,
    "sin_precio": 1,
    "dudoso": 13,
    "ejemplos": [
     {
-     "perfume": "versace-eros-edt-100",
-     "precio": 3.99,
-     "referencia": 71.8,
+     "perfume": "mugler-angel-edp-100",
+     "precio": 119.6,
+     "referencia": 79.7,
+     "metodo": "jsonld"
+    },
+    {
+     "perfume": "dolce-gabbana-the-one-edp-75",
+     "precio": 45.43,
+     "referencia": 82.98,
      "metodo": "texto"
     },
     {
-     "perfume": "carolina-herrera-212-men-edt-100",
+     "perfume": "hugo-boss-boss-orange-man-edt-100",
      "precio": 3.99,
-     "referencia": 53.040000000000006,
-     "metodo": "texto"
-    },
-    {
-     "perfume": "versace-dylan-blue-edt-100",
-     "precio": 3.99,
-     "referencia": 62.475,
+     "referencia": 29.95,
      "metodo": "texto"
     }
    ],
-   "jsonld": 2
+   "jsonld": 23
+  },
+  "sephora": {
+   "ok": 0,
+   "bloqueada": 0,
+   "sin_precio": 9,
+   "dudoso": 0
+  },
+  "beautinow": {
+   "ok": 0,
+   "bloqueada": 0,
+   "sin_precio": 2,
+   "dudoso": 0
   },
   "notino": {
-   "ok": 2,
-   "bloqueada": 25,
+   "ok": 0,
+   "bloqueada": 51,
    "sin_precio": 0,
-   "dudoso": 0,
-   "jsonld": 2
+   "dudoso": 0
   },
-  "parejo": {
-   "ok": 9,
+  "sabina": {
+   "ok": 34,
    "bloqueada": 0,
-   "sin_precio": 0,
+   "sin_precio": 3,
    "dudoso": 1,
-   "jsonld": 9,
+   "jsonld": 30,
+   "precio-100ml": 4,
    "ejemplos": [
     {
-     "perfume": "bvlgari-man-in-black-edp-100",
-     "precio": 126.65,
-     "referencia": 71.07,
+     "perfume": "burberry-goddess-edp-100",
+     "precio": 113.96,
+     "referencia": 72.12,
      "metodo": "jsonld"
     }
    ]
   },
-  "sabina": {
-   "ok": 17,
-   "bloqueada": 0,
-   "sin_precio": 6,
-   "dudoso": 0,
-   "jsonld": 15,
-   "precio-100ml": 2
-  },
-  "sephora": {
-   "ok": 0,
-   "bloqueada": 7,
+  "arabicparfums": {
+   "ok": 3,
+   "bloqueada": 2,
    "sin_precio": 0,
-   "dudoso": 0
+   "dudoso": 0,
+   "jsonld": 3
   },
-  "paco": {
-   "ok": 16,
+  "laguna": {
+   "ok": 27,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "jsonld": 14,
+   "precio-100ml": 6,
+   "jsonld-url": 7
+  },
+  "firstinfragrance": {
+   "ok": 2,
+   "bloqueada": 2,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "jsonld": 2
+  },
+  "douglas": {
+   "ok": 5,
    "bloqueada": 0,
    "sin_precio": 1,
-   "dudoso": 1,
-   "jsonld": 16,
+   "dudoso": 0,
+   "precio-100ml": 5
+  },
+  "paco": {
+   "ok": 43,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 2,
+   "jsonld": 41,
+   "precio-100ml": 2,
    "ejemplos": [
     {
-     "perfume": "armani-acqua-di-gio-profondo-edp-75",
-     "precio": 50.0,
-     "referencia": null,
+     "perfume": "lancome-la-nuit-tresor-edp-100",
+     "precio": 179.0,
+     "referencia": 84.95,
+     "metodo": "texto"
+    },
+    {
+     "perfume": "hermes-h24-edt-100",
+     "precio": 135.0,
+     "referencia": 78.62,
      "metodo": "texto"
     }
    ]
   },
-  "firstinfragrance": {
-   "ok": 8,
+  "avenida": {
+   "ok": 21,
    "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "jsonld": 8
+   "sin_precio": 1,
+   "dudoso": 1,
+   "variantes": 21,
+   "ejemplos": [
+    {
+     "perfume": "issey-miyake-l-eau-d-issey-pour-homme-edt-125",
+     "precio": 74.95,
+     "referencia": 49.8,
+     "metodo": "variantes"
+    }
+   ]
   },
-  "douglas": {
-   "ok": 1,
+  "parejo": {
+   "ok": 11,
    "bloqueada": 0,
    "sin_precio": 0,
-   "dudoso": 0,
-   "precio-100ml": 1
-  },
-  "arabicparfums": {
-   "ok": 2,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "jsonld": 1,
-   "jsonld-url": 1
+   "dudoso": 2,
+   "jsonld": 11,
+   "ejemplos": [
+    {
+     "perfume": "dior-sauvage-parfum-parfum-100",
+     "precio": 176.8,
+     "referencia": 115.95,
+     "metodo": "jsonld"
+    },
+    {
+     "perfume": "hugo-boss-boss-bottled-edt-200",
+     "precio": 101.15,
+     "referencia": 59.025000000000006,
+     "metodo": "jsonld"
+    }
+   ]
   },
   "perfumesclub": {
-   "ok": 1,
+   "ok": 6,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "jsonld": 1
+   "jsonld": 6
   }
  },
  "limpiados": {},
