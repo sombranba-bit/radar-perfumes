@@ -153,4 +153,9 @@ li = lambda shop, title, price: f'<li class="productOffers-listItem row"><div cl
 pg = "<ul>" + li("notino.es", "Versace Eros Eau de Toilette 100 ml", "62,00") + li("notino.es", "Versace Eros 50 ml", "41,00") + li("primor.eu", "Eros EDT 100ml estuche", "50,00") + li("druni.es", "Eros 100 ml", "54,95") + li("ebay.es", "Eros 100 ml", "30,00") + "</ul>"
 assert radar.idealo_offers(pg, 100) == {"notino": 62.0, "druni": 54.95}, radar.idealo_offers(pg, 100)
 print("OK: ofertas de Idealo")
+# Sephora: datos internos con precio y precio por 100 ml (texto escapado como en la página)
+sp = r'{\"isAvailable\":true,\"format\":\"Standard\",\"promotion\":\"$undefined\",\"pricePerUnit\":\"70,00 € / 100ml\",\"price\":35,\"x\":1},{\"isAvailable\":true,\"format\":\"Standard\",\"promotion\":\"$undefined\",\"pricePerUnit\":\"51,00 € / 100ml\",\"price\":51,\"x\":1},{\"isAvailable\":true,\"format\":\"Gift_Set\",\"promotion\":\"$undefined\",\"pricePerUnit\":\"57,00 € / 100ml\",\"price\":57}'
+assert radar.extract(sp, 100, "https://www.sephora.es/p/boss-bottled-P2384.html")[:2] == (51.0, True), radar.extract(sp, 100, "https://www.sephora.es/p/x")
+assert radar.extract(sp, 50, "https://www.sephora.es/p/boss-bottled-P2384.html")[0] == 35.0
+print("OK: Sephora")
 

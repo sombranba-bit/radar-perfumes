@@ -169,6 +169,23 @@ def text_window_price(page, ml):
     return None
 
 
+SEPHORA_RE = re.compile(r'"isAvailable":(true|false),"format":"(\w+)"[^{}]{0,200}?"pricePerUnit":"([\d.,]+) € / 100ml","price":([\d.]+)')
+
+
+def sephora_price(page, ml):
+    """Sephora (Next.js): cada tamaño trae precio y precio por 100 ml; de ahí sale su tamaño. (precio, disponible) o None."""
+    txt = page.replace('\\"', '"')
+    found = []
+    for av, fmt, ppu, p in SEPHORA_RE.findall(txt):
+        ppu, p = to_float(ppu), to_float(p)
+        if fmt == "Standard" and ppu and p and round(p / ppu * 100) == ml:
+            found.append((p, av == "true"))
+    if not found:
+        return None
+    ok = [f for f in found if f[1]]
+    return min(ok or found)
+
+
 def extract(page, ml, url):
     """(precio, en_stock, metodo) del tamaño ml, o (None, None, motivo)."""
     offers = jsonld_offers(page)
@@ -186,6 +203,9 @@ def extract(page, ml, url):
     if url_ml and len(single) == 1:
         o = next(o for o in offers if not _mls(o[1]))
         return o[0], o[3], "jsonld-url"
+    sp = sephora_price(page, ml) if "sephora" in url else None
+    if sp:
+        return sp[0], sp[1], "variantes"
     p = magento_price(page, ml) or child_price(page, ml)
     if p:
         return p, None, "variantes"
@@ -438,8 +458,11 @@ def update_perfume(it, get, stats, today):
         st[how] = st.get(how, 0) + 1
         if shop == "idealo":
             via = idealo_offers(r.text, ml)
-            DEBUG.setdefault("idealo_ofertas", {"perfume": it.get("id"), "encontradas": via,
-                             "listas": r.text.count("productOffers-listItem")})
+            if "idealo_ofertas" not in DEBUG:
+                k = r.text.find("productOffers-listItem")
+                k2 = r.text.find("notino")
+                DEBUG["idealo_ofertas"] = {"perfume": it.get("id"), "encontradas": via, "listas": r.text.count("productOffers-listItem"),
+                                           "muestra": r.text[max(0, k - 300): k + 2500], "notino": r.text[max(0, k2 - 1500): k2 + 600] if k2 >= 0 else None}
             for sid, vp in via.items():
                 own = prices.get(sid) or {}
                 if own.get("d") == today and not own.get("via"):
