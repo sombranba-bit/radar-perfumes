@@ -1,107 +1,162 @@
 {
- "at": "2026-11-13T09:20:38+01:00",
+ "at": "2026-11-13T10:32:52+01:00",
  "revisados": 35,
  "tiendas": {
-  "idealo": {
-   "ok": 33,
+  "avenida": {
+   "ok": 13,
    "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "jsonld": 6,
-   "jsonld-url": 27
-  },
-  "lookfantastic": {
-   "ok": 1,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 18,
+   "sin_precio": 1,
+   "dudoso": 1,
    "ejemplos": [
     {
-     "perfume": "hugo-boss-boss-orange-man-edt-100",
-     "precio": 3.99,
-     "referencia": 29.95,
+     "perfume": "issey-miyake-l-eau-d-issey-pour-homme-edt-125",
+     "precio": 74.95,
+     "referencia": 49.8,
+     "metodo": "variantes"
+    }
+   ],
+   "variantes": 13
+  },
+  "beautinow": {
+   "ok": 0,
+   "bloqueada": 0,
+   "sin_precio": 4,
+   "dudoso": 0
+  },
+  "idealo": {
+   "ok": 30,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 3,
+   "jsonld-url": 25,
+   "texto": 2,
+   "ejemplos": [
+    {
+     "perfume": "kilian-angels-share-edp-50",
+     "precio": 184.9,
+     "referencia": 116.83,
+     "metodo": "jsonld-url"
+    },
+    {
+     "perfume": "le-labo-another-13-edp-100",
+     "precio": 20.75,
+     "referencia": 399.0,
      "metodo": "texto"
     },
     {
-     "perfume": "hugo-boss-boss-the-scent-for-her-edp-100",
-     "precio": 3.99,
-     "referencia": 64.5,
-     "metodo": "texto"
-    },
-    {
-     "perfume": "lancome-la-nuit-tresor-edp-100",
-     "precio": 3.99,
-     "referencia": 84.06,
+     "perfume": "le-labo-santal-33-edp-100",
+     "precio": 20.75,
+     "referencia": null,
      "metodo": "texto"
     }
    ],
-   "jsonld": 1
+   "jsonld": 3
+  },
+  "laguna": {
+   "ok": 18,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "jsonld-url": 6,
+   "precio-100ml": 4,
+   "jsonld": 8
+  },
+  "lookfantastic": {
+   "ok": 0,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 16,
+   "ejemplos": [
+    {
+     "perfume": "issey-miyake-l-eau-d-issey-pour-homme-edt-125",
+     "precio": 3.99,
+     "referencia": 49.8,
+     "metodo": "texto"
+    },
+    {
+     "perfume": "jean-paul-gaultier-gaultier-divine-edp-100",
+     "precio": 3.99,
+     "referencia": 94.95,
+     "metodo": "texto"
+    },
+    {
+     "perfume": "jean-paul-gaultier-la-belle-edp-100",
+     "precio": 3.99,
+     "referencia": 82.45,
+     "metodo": "texto"
+    }
+   ]
   },
   "notino": {
-   "ok": 0,
-   "bloqueada": 26,
+   "ok": 1,
+   "bloqueada": 21,
    "sin_precio": 0,
-   "dudoso": 0
+   "dudoso": 0,
+   "jsonld": 1
   },
   "paco": {
    "ok": 17,
    "bloqueada": 0,
    "sin_precio": 0,
-   "dudoso": 2,
-   "precio-100ml": 2,
-   "jsonld": 15,
+   "dudoso": 0,
+   "jsonld": 17
+  },
+  "parejo": {
+   "ok": 7,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 1,
+   "jsonld": 7,
    "ejemplos": [
     {
-     "perfume": "lancome-la-nuit-tresor-edp-100",
-     "precio": 179.0,
-     "referencia": 84.95,
-     "metodo": "texto"
-    },
-    {
-     "perfume": "hermes-h24-edt-100",
-     "precio": 135.0,
-     "referencia": 78.62,
-     "metodo": "texto"
+     "perfume": "lattafa-yara-edp-100",
+     "precio": 30.6,
+     "referencia": 19.95,
+     "metodo": "jsonld"
     }
    ]
   },
   "sabina": {
-   "ok": 9,
-   "bloqueada": 0,
-   "sin_precio": 3,
-   "dudoso": 0,
-   "jsonld": 7,
-   "precio-100ml": 2
-  },
-  "avenida": {
-   "ok": 10,
+   "ok": 22,
    "bloqueada": 0,
    "sin_precio": 0,
-   "dudoso": 0,
-   "variantes": 10
+   "dudoso": 2,
+   "jsonld": 17,
+   "texto": 1,
+   "precio-100ml": 4,
+   "ejemplos": [
+    {
+     "perfume": "maison-margiela-replica-by-the-fireplace-edt-100",
+     "precio": 130.81,
+     "referencia": 84.59,
+     "metodo": "jsonld"
+    },
+    {
+     "perfume": "mancera-instant-crush-edp-120",
+     "precio": 155.0,
+     "referencia": 86.83,
+     "metodo": "jsonld"
+    }
+   ]
+  },
+  "sephora": {
+   "ok": 0,
+   "bloqueada": 5,
+   "sin_precio": 0,
+   "dudoso": 0
   },
   "douglas": {
-   "ok": 1,
+   "ok": 0,
    "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "precio-100ml": 1
+   "sin_precio": 1,
+   "dudoso": 0
   },
-  "laguna": {
-   "ok": 11,
+  "perfumesclub": {
+   "ok": 2,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "jsonld": 7,
-   "jsonld-url": 3,
-   "precio-100ml": 1
-  },
-  "parejo": {
-   "ok": 5,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "jsonld": 5
+   "jsonld": 2
   },
   "arabicparfums": {
    "ok": 3,
@@ -111,26 +166,40 @@
    "jsonld": 3
   },
   "firstinfragrance": {
-   "ok": 2,
+   "ok": 4,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 3,
+   "jsonld": 4,
+   "ejemplos": [
+    {
+     "perfume": "mancera-cedrat-boise-edp-120",
+     "precio": 165.41,
+     "referencia": 99.45,
+     "metodo": "jsonld"
+    },
+    {
+     "perfume": "mancera-instant-crush-edp-120",
+     "precio": 189.21,
+     "referencia": 101.53999999999999,
+     "metodo": "jsonld"
+    },
+    {
+     "perfume": "parfums-de-marly-pegasus-edp-125",
+     "precio": 345.1,
+     "referencia": 197.02,
+     "metodo": "jsonld"
+    }
+   ]
+  },
+  "brasty": {
+   "ok": 1,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "jsonld": 2
-  },
-  "sephora": {
-   "ok": 0,
-   "bloqueada": 1,
-   "sin_precio": 0,
-   "dudoso": 0
-  },
-  "perfumesclub": {
-   "ok": 2,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "jsonld": 2
+   "jsonld": 1
   }
  },
  "limpiados": {},
- "chollometro": "ok 82"
+ "chollometro": "ok 83"
 }
