@@ -279,10 +279,14 @@ def idealo_offers(page, ml):
     return out
 
 
-def plausible(p, ref, how="jsonld"):
+# Tiendas que venden a precio de catálogo: hasta 1,8 veces la media de las de descuento
+FULL_PRICE = {"sephora", "douglas"}
+
+
+def plausible(p, ref, how="jsonld", shop=""):
     if ref is None:
         return how != "texto"
-    lo, hi = (0.75, 1.3) if how == "texto" else (0.55, 1.5)
+    lo, hi = (0.75, 1.3) if how == "texto" else (0.55, 1.8 if shop in FULL_PRICE else 1.5)
     return lo * ref <= p <= hi * ref
 
 
@@ -302,7 +306,7 @@ def clean_outliers(it, today):
             continue
         others = [w["p"] for k, w in prices.items() if k != shop and w and w.get("p") and w.get("stock") is not False]
         # solo por arriba: un precio bajo que coincide con otras tiendas suele ser una rebaja real
-        if len(others) >= 2 and v["p"] > 1.5 * statistics.median(others):
+        if len(others) >= 2 and v["p"] > (1.8 if shop in FULL_PRICE else 1.5) * statistics.median(others):
             del prices[shop]
             it["history"] = [h for h in it.get("history", []) if not (h.get("s") == shop and h.get("p") == v["p"])]
             gone.append(shop)
@@ -448,7 +452,7 @@ def update_perfume(it, get, stats, today):
         if p and how != "texto":
             p *= VAT.get(shop, 1)
         ref = ref_price(prices, shop)
-        ok = bool(p) and plausible(p, ref, how)
+        ok = bool(p) and plausible(p, ref, how, shop)
         debug_sample(shop, url, r.text, ml, {"precio": p and round(p, 2), "metodo": how, "referencia": ref, "aceptado": ok})
         if not p:
             st["sin_precio"] += 1

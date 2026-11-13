@@ -158,4 +158,5 @@ sp = r'{\"isAvailable\":true,\"format\":\"Standard\",\"promotion\":\"$undefined\
 assert radar.extract(sp, 100, "https://www.sephora.es/p/boss-bottled-P2384.html")[:2] == (51.0, True), radar.extract(sp, 100, "https://www.sephora.es/p/x")
 assert radar.extract(sp, 50, "https://www.sephora.es/p/boss-bottled-P2384.html")[0] == 35.0
 print("OK: Sephora")
-
+assert radar.plausible(87, 57.45, "variantes", "sephora") and not radar.plausible(87, 57.45, "variantes", "sabina")
+print("OK: margen de precio de catálogo")
