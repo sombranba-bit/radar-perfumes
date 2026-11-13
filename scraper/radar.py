@@ -255,20 +255,26 @@ BUNDLE_RE = re.compile(r"\bset\b|estuche|cofre|lote|pack|tester|muestra|miniatur
 
 
 def idealo_offers(page, ml):
-    """{tienda: precio} de la lista de ofertas de una ficha de Idealo, solo del tamaño ml y sin estuches."""
+    """{tienda: precio} de la lista de ofertas de una ficha de Idealo, solo del tamaño ml y sin estuches.
+    Cada oferta lleva un enlace de salida /relocator/relocate?...price=48.40&sid=298684 (sid = número de tienda)."""
+    from urllib.parse import parse_qs
     out = {}
     for chunk in re.split(r'<li[^>]+class="productOffers-listItem[\s"]', page)[1:]:
-        shop = re.search(r'shop_id\W{1,6}(\d{5,7})|/Shop/\d+/\d+/(\d{5,7})/', htmllib.unescape(chunk))   # &#034; trae dígitos
-        price = re.search(r'productOffers-listItemOfferPrice[^>]*>\s*([\d.]+,\d{2})', chunk)
-        if not (shop and price):
+        chunk = htmllib.unescape(chunk)
+        link = re.search(r'relocate\?([^"\'\s>]+)', chunk)
+        if not link:
             continue
-        sid = IDEALO_SHOPS.get(shop.group(1) or shop.group(2))
+        q = parse_qs(link.group(1))
+        sid = IDEALO_SHOPS.get((q.get("sid") or [""])[0])
+        p = to_float((q.get("price") or [""])[0])
+        if not (sid and p):
+            continue
         t0 = chunk.find("productOffers-listItemTitle")
-        title = re.sub(r"<[^>]+>", " ", chunk[t0:price.start()]) if 0 <= t0 < price.start() else ""
-        if not sid or BUNDLE_RE.search(title) or (_mls(title) and ml not in _mls(title)):
+        title = re.sub(r"<[^>]+>", " ", chunk[t0:t0 + 1500]) if t0 >= 0 else ""
+        title = title.split("€")[0]
+        if BUNDLE_RE.search(title) or (_mls(title) and ml not in _mls(title)):
             continue
-        p = to_float(price.group(1))
-        if p and (sid not in out or p < out[sid]):
+        if sid not in out or p < out[sid]:
             out[sid] = p
     return out
 
