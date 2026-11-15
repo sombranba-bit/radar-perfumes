@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="theme-color" content="#f4f4f2">
+<meta name="theme-color" content="#16150f">
 <title>Estela · precios de perfume</title>
 <meta name="description" content="Compara el precio de 200 perfumes en las perfumerías españolas y mira cuáles bajan hoy.">
 <meta property="og:title" content="Estela · precios de perfume"><meta property="og:description" content="Compara el precio de 200 perfumes en las perfumerías españolas y mira cuáles bajan hoy.">
@@ -189,29 +189,88 @@ table.offers{width:100%;border-collapse:collapse}
 .brandmark b{display:block;font:500 26px/1 var(--display)}
 .brandmark small{display:block;font-size:11px;color:var(--muted);margin-top:3px;letter-spacing:.01em}
 .mark{color:var(--text)}
-.hero{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,1fr);gap:48px;align-items:center;padding:16px 0 40px;border-bottom:1px solid var(--rule);margin-bottom:32px}
-.hero .kick{font-size:13px;color:var(--accent);margin:0 0 16px}
-.hero h1{font:400 56px/1.02 var(--display);letter-spacing:-.01em;margin:0;max-width:12ch}
-.hero .lede{font-size:17px;line-height:1.55;color:var(--muted);max-width:44ch;margin:20px 0 0}
-.hero .facts{display:grid;grid-template-columns:repeat(3,auto);justify-content:start;gap:8px 28px;margin:28px 0 0;padding:0;list-style:none}
-.hero .facts li{font-size:13px;color:var(--muted)}
-.hero .facts b{display:block;font:400 30px/1.1 var(--display);color:var(--text)}
-.feat{display:grid;grid-template-columns:minmax(0,1fr);text-decoration:none;color:inherit}
-.feat .ph{aspect-ratio:4/3;max-height:min(52vh,460px);width:100%;border-radius:12px}
+.cat{font:500 26px/1.1 var(--display);margin:0}
+
+.tfam{display:none}
+.famg{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:12px}
+.famc{display:flex;flex-direction:column;justify-content:space-between;gap:12px;min-height:150px;padding:16px;border:0;border-radius:12px;text-align:left;cursor:pointer;font:inherit;color:inherit;overflow:hidden}
+.famt{display:flex;justify-content:space-between;align-items:baseline;gap:8px}
+.famn{font-size:18px;font-weight:600}
+.famk{font-size:13px;opacity:.75;white-space:nowrap}
+.famph{display:flex;gap:6px;align-items:flex-end}
+.famph img{width:56px;height:64px;object-fit:contain;mix-blend-mode:multiply}
+.fams{margin-top:48px}
+.sec{font-size:18px;font-weight:600;margin:0 0 16px}
+.olf{margin-top:28px;padding:20px;border-radius:12px;display:grid;gap:16px}
+.olf-fam{display:flex;align-items:center;gap:12px}
+.olf-fam i{width:36px;height:36px;border-radius:50%;background:var(--fam);flex:none}
+.olf-fam small{display:block;font-size:12px;opacity:.7}
+.olf-fam b{font-weight:600}
+.olf-notes{display:flex;flex-wrap:wrap;gap:8px;margin:0;padding:0;list-style:none}
+.olf-notes li{padding:6px 12px;border-radius:999px;font-size:14px;background:color-mix(in srgb,var(--fam) 18%,transparent);border:1px solid color-mix(in srgb,var(--fam) 35%,transparent)}
+.olf-se{display:grid;grid-template-columns:repeat(4,1fr);gap:4px}
+.olf-se span{text-align:center;font-size:12px;padding:6px 0;border-radius:6px;color:var(--muted);background:color-mix(in srgb,currentColor 6%,transparent)}
+.olf-se span.on{color:var(--text);background:color-mix(in srgb,var(--fam) 22%,transparent);font-weight:500}
+.featph{position:relative}
+.feat{display:block;text-decoration:none;color:inherit}
+.feat .ph{aspect-ratio:4/3;max-height:min(52vh,460px);width:100%}
 .feat .ph img{width:70%;height:70%}
 .feat .ph svg{height:72%;width:auto}
-.feat figcaption{display:flex;justify-content:space-between;align-items:baseline;gap:16px;margin-top:14px}
-.feat .nm{font:500 22px/1.15 var(--display)}
-.feat .sub{display:block;font-size:13px;color:var(--muted);margin-top:4px}
+.featcap{display:flex;justify-content:space-between;align-items:baseline;gap:16px;margin-top:14px}
+.feat .nm{font-size:22px;display:block}
+.feat .sub{display:block;font-size:13px;opacity:.7;margin-top:4px}
 .feat .pz{text-align:right;white-space:nowrap}
 .feat .pz b{display:block;font-size:20px;font-weight:600}
-.feat .pz span{font-size:13px;color:var(--positive)}
-.feat .tag{position:absolute;left:16px;top:16px;background:#fff;border-radius:6px;padding:4px 10px;font-size:12px;color:var(--muted)}
-.cat{font:500 26px/1.1 var(--display);margin:0}
-@media (max-width:1100px){.hero{grid-template-columns:1fr;gap:32px}.hero h1{font-size:44px}}
-@media (max-width:860px){.hero{padding:8px 0 28px;margin-bottom:24px}.hero h1{font-size:36px}.hero .lede{font-size:15px}.hero .facts{gap:8px 16px}.hero .facts b{font-size:24px}.hero .facts li{font-size:12px}
-  .mbrand{display:flex!important}}
-.mbrand{display:none;align-items:center;gap:8px;margin:0 0 20px;font:500 22px/1 var(--display);color:var(--text);text-decoration:none}
+.feat .pz span{font-size:13px}
+.feat .tag{position:absolute;left:16px;top:16px;border-radius:6px;padding:4px 10px;font-size:12px}
+.facts{display:flex;flex-wrap:wrap;gap:12px 32px;margin:28px 0 0;padding:0;list-style:none}
+.facts b{display:block;font-size:30px;line-height:1.1;font-weight:500}
+.facts span{font-size:13px;opacity:.75}
+.mbrand{display:none}
+@media (max-width:860px){.mbrand{display:flex}.facts{gap:12px 20px}.facts b{font-size:24px}.famc{min-height:120px}}
+
+:root{--chrome:#16150f;--sheet:#fbf9f5;--raised:#f2eee6;--active:#ebe6dc;--border:#e6e0d4;--rule:#ece7dd;--accent:#8a5a1c}
+.shell{background:#16150f}
+.brandmark{text-decoration:none;gap:12px;color:#f4efe6}.brandmark b{font:500 28px/1 var(--display);display:block}.brandmark small{display:block;font-size:11px;color:#b9b2a5;margin-top:3px}
+.mark{color:#f4efe6}
+.topbar .search input{background:#26241d;border-color:#36332a;color:#f4efe6}
+.topbar .search .ic,.menu,.tchollos{color:#f4efe6}
+aside{background:#fbf9f5}
+.sheet{border:0;border-radius:0}
+@media (min-width:861px){aside{border-top-left-radius:0}.shell{grid-template-rows:64px minmax(0,1fr)}}
+.tfam{display:inline-flex;align-items:center;gap:6px;font-size:12px;color:var(--muted);margin-top:10px}
+.tfam::before{content:"";width:8px;height:8px;border-radius:50%;background:var(--fam)}
+.tile .br{margin-top:2px}
+.hero{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.1fr);margin:-24px -32px 40px;min-height:440px}
+.hero .txt{padding:48px 32px;display:flex;flex-direction:column;justify-content:center;background:var(--raised)}
+/* Barra superior en retícula: marca sobre el menú, buscador alineado con el contenido, Chollos a la derecha */
+@media (min-width:861px){
+ .brandmark{padding:0 20px}
+ .topbar{justify-content:flex-start;gap:24px;padding:0 32px}
+ .topbar .search{width:min(520px,100%);margin:0}
+ .topbar .search input{height:40px}
+ .tchollos{display:inline-flex;margin-left:auto;height:40px;color:#f4efe6;font-weight:500}
+ .tchollos[aria-current="page"]{text-decoration:underline;text-underline-offset:6px}
+}
+.hero .kick{font-size:13px;color:var(--accent);margin:0 0 14px}
+.hero h1{font:400 56px/1.02 var(--display);margin:0;max-width:12ch}
+.hero .lede{font-size:16px;color:var(--muted);margin:18px 0 0;max-width:44ch}
+.hero .feat{position:relative;display:block;height:100%}
+.hero .featph{height:100%}
+.hero .facts{display:grid;grid-template-columns:repeat(3,auto);justify-content:start}
+.hero .feat .ph{aspect-ratio:auto;height:100%;max-height:none;border-radius:0}
+.hero .featcap{position:absolute;left:24px;right:24px;bottom:20px;background:#fbf9f5;border-radius:10px;padding:14px 16px;margin:0}
+.feat .nm{font-family:var(--display)}
+.feat .tag{background:#16150f;color:#f4efe6}
+.feat .pz span{color:var(--positive)}
+.facts b{font-family:var(--display);font-weight:400}
+.famc{background:#fff;border:1px solid var(--border)}
+.famc .famn::before{content:"";display:inline-block;width:10px;height:10px;border-radius:50%;background:var(--fam);margin-right:8px}
+.olf{background:var(--raised)}
+.sec,.strip>h2,.sr{font-family:var(--display);font-weight:500;font-size:26px}
+.mbrand{align-items:center;gap:8px;margin-bottom:12px}.mbrand b{font:500 26px/1 var(--display)}.mbrand .mark{color:var(--text)}
+@media (max-width:1100px){.hero{grid-template-columns:1fr}.hero .feat .ph{aspect-ratio:4/3}}
+@media (max-width:860px){.hero{margin:-16px -16px 28px}.hero .txt{padding:24px 16px}.hero h1{font-size:36px}.topbar{background:#16150f}}
 </style>
 </head>
 <body>
@@ -255,8 +314,8 @@ function filters(){
 }
 function tile(x){
   const i=x.cur,b=i.b,sp=R.spread(i);
-  return `<a class="tile" href="#p/${x.key}">${pic(i)}${i.dr&&i.dr.pct<=-3?`<span class="badge">${R.pct(i.dr.pct)} hoy</span>`:''}${i.deals.length?'<span class="deal">Chollo</span>':''}</div>
-  <div class="br">${esc(i.brand)} · ${i.ml} ml${x.vars.length>1?' · '+x.vars.length+' tamaños':''}</div><h2>${esc(i.name)}</h2>
+  return `<a class="tile" href="#p/${x.key}" style="--fam:${(famOf(i)||[])[2]||'#bbb'}">${pic(i)}${i.dr&&i.dr.pct<=-3?`<span class="badge">${R.pct(i.dr.pct)} hoy</span>`:''}${i.deals.length?'<span class="deal">Chollo</span>':''}</div>
+  <div class="br">${esc(i.brand)} · ${i.ml} ml${x.vars.length>1?' · '+x.vars.length+' tamaños':''}</div><span class="tfam">${(famOf(i)||[])[1]||''}</span><h2>${esc(i.name)}</h2>
   <div class="pr"><b>${b?eur(b.p):'Sin precio'}</b><span>${b?esc(b.name):''}</span></div>
   ${sp?`<div class="cmp">en ${sp.n} tiendas${sp.save>=1?' · ahorras '+eur(sp.save,0):''}</div>`:''}</a>`;
 }
@@ -266,29 +325,43 @@ function webLinks(q){
   return `<section class="web" aria-label="Buscar en internet"><h2>Buscar «${esc(q)}» en internet</h2><p>Cada enlace abre los resultados de esa tienda en una pestaña nueva.</p><div class="links">${L.map(([n,u])=>`<a href="${u}" target="_blank" rel="noopener">${n}</a>`).join('')}</div></section>`;
 }
 
+
+const FAMS=[['floral','Floral','#d4849a'],['amaderada','Amaderada','#8b6b4c'],['oriental','Oriental','#9c4a3c'],['ambar','Ámbar','#c98a2e'],
+  ['aromatica','Aromática','#7f9a6a'],['gourmand','Gourmand','#b0764a'],['citrica','Cítrica','#d9ac2c'],['acuatica','Acuática','#5b9ab8']];
+function famOf(i){const f=R.norm(i?.p?.fam||'');const w=f.split(' ')[0];return FAMS.find(([k])=>w.startsWith(k))||FAMS.find(([k])=>f.includes(k))||null}
+function famsSection(){
+  const gs=R.groups(D.items,R.DEFAULTS,sizeSel);
+  const cards=FAMS.map(([k,n,c])=>{const m=gs.filter(x=>famOf(x.cur)?.[0]===k);if(!m.length)return '';
+    const ph=m.map(x=>R.photos(x.cur)[0]).filter(Boolean).slice(0,3);
+    return `<button class="famc" type="button" data-fam="${k}" style="--fam:${c}"><span class="famt"><span class="famn">${n}</span><span class="famk">${m.length} perfumes</span></span><span class="famph">${ph.map(f=>`<img src="${esc(f.url)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()">`).join('')}</span></button>`}).join('');
+  return `<section class="fams" aria-labelledby="hFams"><h2 id="hFams" class="sec">Por familia olfativa</h2><div class="famg">${cards}</div></section>`;
+}
+document.addEventListener('click',e=>{const b=e.target.closest('[data-fam]');if(!b)return;const n=FAMS.find(f=>f[0]===b.dataset.fam)[1];S.q=n.toLowerCase();$('q').value=n;limit=24;route();scrollTo(0,0)});
+function olf(i){
+  const p=i.p;if(!p)return '';const f=famOf(i),notes=p.notes.split(/,\s*/);
+  return `<section class="olf" style="--fam:${f?f[2]:'var(--accent)'}" aria-label="Cómo huele">
+    <div class="olf-fam"><i aria-hidden="true"></i><span><small>Familia</small><b>${esc(p.fam)}</b></span></div>
+    <ul class="olf-notes" aria-label="Notas">${notes.map((n,k)=>`<li style="--k:${k}">${esc(n)}</li>`).join('')}</ul>
+    <div class="olf-se" aria-label="Temporada">${R.SEASONS.map(s=>`<span class="${p.se.includes(s)?'on':''}">${s}</span>`).join('')}</div></section>`;
+}
 function stats(){
   const gs=R.groups(D.items,R.DEFAULTS,sizeSel),drops=gs.filter(x=>x.cur.dr&&x.cur.dr.pct<=-3);
   const byDrop=[...drops].sort((a,b)=>a.cur.dr.pct-b.cur.dr.pct);
-  const top=byDrop.find(x=>R.photos(x.cur).length)||byDrop[0]||null;
+  const withPh=byDrop.filter(x=>R.photos(x.cur).length);
   let save=null;for(const x of gs){const s=R.spread(x.cur);if(s&&(!save||s.save>save.s.save))save={x,s}}
-  const shops=new Set();for(const i of D.items)for(const o of R.offers(i))if(o.age!=null&&o.age<=2&&o.s!=='idealo')shops.add(o.s);   // Idealo compara, no vende
-  return {n:gs.length,drops:drops.length,top,save,shops:shops.size,at:D.estado?.at};
+  const shops=new Set();for(const i of D.items)for(const o of R.offers(i))if(o.age!=null&&o.age<=2&&o.s!=='idealo')shops.add(o.s);
+  return {n:gs.length,drops:drops.length,top:withPh[0]||byDrop[0]||null,tops:withPh.slice(0,3),save,shops:shops.size,at:D.estado?.at};
 }
+const today=()=>new Date().toLocaleDateString('es-ES',{weekday:'long',day:'numeric',month:'long'});
+function featCard(t,label='La bajada del día'){const i=t&&t.cur;if(!i)return '';
+  return `<a class="feat" href="#p/${t.key}"><div class="featph">${pic(i)}</div><span class="tag">${label}</span></div>
+    <span class="featcap"><span><span class="nm">${esc(i.name)}</span><span class="sub">${esc(i.brand)} · ${i.ml} ml · en ${esc(i.b.name)}</span></span>
+    <span class="pz"><b>${eur(i.b.p)}</b><span>${R.pct(i.dr.pct)} frente a su media</span></span></span></a>`}
+function factsList(st){return `<ul class="facts"><li><b>${st.drops}</b><span>bajan hoy</span></li>${st.save?`<li><b>${eur(st.save.s.save,0)}</b><span>de ahorro en ${esc(st.save.x.cur.name)}</span></li>`:''}<li><b>${st.shops}</b><span>perfumerías comparadas</span></li></ul>`}
 
-function hero(st){
-  const t=st.top,i=t&&t.cur;
-  const feat=i?`<a class="feat" href="#p/${t.key}"><div style="position:relative">${pic(i)}</div><span class="tag">La bajada del día</span></div>
-    <figcaption><span><span class="nm">${esc(i.name)}</span><span class="sub">${esc(i.brand)} · ${i.ml} ml · en ${esc(i.b.name)}</span></span>
-    <span class="pz"><b>${eur(i.b.p)}</b><span>${R.pct(i.dr.pct)} frente a su media</span></span></figcaption></a>`:'';
-  return `<section class="hero" aria-labelledby="hTitle"><div>
-    <span class="mbrand"><svg width="30" height="20" viewBox="0 0 34 22" aria-hidden="true"><path d="M3 17c6 0 8-11 15-11s6 7 13 4" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><circle cx="3" cy="17" r="2.6" fill="var(--accent)"/></svg>Estela</span>
-    <p class="kick">Hoy, ${new Date().toLocaleDateString('es-ES',{weekday:'long',day:'numeric',month:'long'})}</p>
-    <h1 id="hTitle">El precio que deja huella</h1>
-    <p class="lede">Seguimos ${st.n} perfumes en ${st.shops} perfumerías españolas y te enseñamos dónde cuesta menos cada uno, y cuáles bajan hoy.</p>
-    <ul class="facts"><li><b>${st.drops}</b>bajan hoy</li>${st.save?`<li><b>${eur(st.save.s.save,0)}</b>de ahorro en ${esc(st.save.x.cur.name)}</li>`:''}<li><b>${R.agoTime(st.at).replace('hace ','')}</b>desde la última lectura</li></ul>
-  </div>${feat}</section>`;
-}
-
+function hero(st){return `<section class="hero" aria-labelledby="hTitle"><div class="txt"><span class="mbrand"><svg class="mark" width="34" height="22" viewBox="0 0 34 22" aria-hidden="true"><path d="M3 17c6 0 8-11 15-11s6 7 13 4" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><circle cx="3" cy="17" r="2.6" fill="var(--accent)"/></svg><b>Estela</b></span><p class="kick">${today()}</p>
+   <h1 id="hTitle">El precio que deja huella</h1><p class="lede">Seguimos ${st.n} perfumes en ${st.shops} perfumerías españolas y te enseñamos dónde cuesta menos cada uno, y cuáles bajan hoy.</p>
+   ${factsList(st)}</div>${featCard(st.top)}</section>`}
 function catalog(){
   const g=R.groups(D.items,S,sizeSel),dirty=['q','g','tier','season','brand'].filter(k=>S[k]!==R.DEFAULTS[k]);
   const lab={q:'«'+S.q+'»',g:S.g,tier:S.tier,season:S.season,brand:S.brand};
@@ -299,7 +372,7 @@ function catalog(){
    <label>Ordenar <select id="sort">${R.SORTS.map(([k,l])=>`<option value="${k}" ${k===S.sort?'selected':''}>${l}</option>`).join('')}</select></label></div>
    ${dirty.length?`<div class="chips">${dirty.map(k=>`<button class="chip" type="button" data-unset="${k}" aria-label="Quitar filtro ${esc(lab[k])}">${esc(lab[k])}<svg class="ic" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg></button>`).join('')}</div>`:''}
    ${drops.length?`<section class="strip" aria-labelledby="hDrops"><h2 id="hDrops">Bajan hoy${S.sort!=='drop'?' <button type="button" data-sortdrop>Ver todos</button>':''}</h2><div class="row">${drops.map(tile).join('')}</div></section>`:''}
-   ${g.length?`${drops.length?'<h2 class="sr">Todos</h2>':''}<div class="grid">${list.slice(0,limit).map(tile).join('')}</div>${list.length>limit?`<button class="more" type="button" id="more">Mostrar ${Math.min(24,list.length-limit)} más</button>`:''}`
+   ${dirty.length?'':famsSection()}${g.length?`${drops.length?'<h2 class="sr">Todos</h2>':''}<div class="grid">${list.slice(0,limit).map(tile).join('')}</div>${list.length>limit?`<button class="more" type="button" id="more">Mostrar ${Math.min(24,list.length-limit)} más</button>`:''}`
    :`<p class="empty">Ningún perfume de tu lista cumple estos filtros. <button type="button" data-clearall>Quitar todos los filtros</button></p>`}
    ${S.q.trim()?webLinks(S.q.trim()):''}`;
 }
@@ -326,7 +399,7 @@ function detail(key){
     <div class="sizes" role="group" aria-label="Tamaño">${x.vars.map(v=>`<button type="button" aria-pressed="${v.id===i.id}" data-size="${v.id}">${v.ml} ml</button>`).join('')}</div>
     <div class="bestbox"><b>${b?eur(b.p):'Sin precio'}</b>${b?`<span>en ${esc(b.name)}${b.age>7?' (leído '+R.ago(b.d)+')':''} · ${eur(b.p/i.ml*100)} los 100 ml${i.dr?' · '+R.pct(i.dr.pct)+' frente a su media de 30 días':''}</span>`:''}</div>
     ${b?`<a class="cta" href="${esc(b.url)}" target="_blank" rel="noopener">Ver en ${esc(b.name)}<svg class="ic" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M15 3h6v6"/><path d="M10 14 21 3"/><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg></a>`:''}
-    <h2>Precio en cada tienda</h2>
+    ${olf(i)}<h2>Precio en cada tienda</h2>
     ${offerTable(o.filter(z=>z.age==null||z.age<=30))||'<p class="meta">Aún no hay precios recientes</p>'}${(n=>n.length?`<details class="oldp"><summary>${n.length} ${n.length===1?'precio leído':'precios leídos'} hace más de un mes</summary>${offerTable(n)}</details>`:'')(o.filter(z=>z.age!=null&&z.age>30))}
     <h2>Mejor precio, día a día</h2>${R.lineChart(R.series(i),{stroke:'var(--accent)',grid:'#16150f'})}
     <h2>Cómo es</h2>${p?`<dl class="profile"><div><dt>Duración</dt><dd>${meter(p.dur)}</dd></div><div><dt>Estela</dt><dd>${meter(p.sil)}</dd></div>

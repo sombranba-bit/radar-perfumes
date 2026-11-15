@@ -246,11 +246,22 @@ aside{background:#fbf9f5}
 .tfam::before{content:"";width:8px;height:8px;border-radius:50%;background:var(--fam)}
 .tile .br{margin-top:2px}
 .hero{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.1fr);margin:-24px -32px 40px;min-height:440px}
-.hero .txt{padding:48px 40px;display:flex;flex-direction:column;justify-content:center;background:var(--raised)}
+.hero .txt{padding:48px 32px;display:flex;flex-direction:column;justify-content:center;background:var(--raised)}
+/* Barra superior en retícula: marca sobre el menú, buscador alineado con el contenido, Chollos a la derecha */
+@media (min-width:861px){
+ .brandmark{padding:0 20px}
+ .topbar{justify-content:flex-start;gap:24px;padding:0 32px}
+ .topbar .search{width:min(520px,100%);margin:0}
+ .topbar .search input{height:40px}
+ .tchollos{display:inline-flex;margin-left:auto;height:40px;color:#f4efe6;font-weight:500}
+ .tchollos[aria-current="page"]{text-decoration:underline;text-underline-offset:6px}
+}
 .hero .kick{font-size:13px;color:var(--accent);margin:0 0 14px}
 .hero h1{font:400 56px/1.02 var(--display);margin:0;max-width:12ch}
 .hero .lede{font-size:16px;color:var(--muted);margin:18px 0 0;max-width:44ch}
-.hero .feat{position:relative;display:block}
+.hero .feat{position:relative;display:block;height:100%}
+.hero .featph{height:100%}
+.hero .facts{display:grid;grid-template-columns:repeat(3,auto);justify-content:start}
 .hero .feat .ph{aspect-ratio:auto;height:100%;max-height:none;border-radius:0}
 .hero .featcap{position:absolute;left:24px;right:24px;bottom:20px;background:#fbf9f5;border-radius:10px;padding:14px 16px;margin:0}
 .feat .nm{font-family:var(--display)}
