@@ -250,7 +250,8 @@ def _product_image(page):
 
 # Tiendas que bloquean la lectura directa pero salen en las ofertas de Idealo
 # El HTML que recibe GitHub no trae el nombre de la tienda, solo su número en Idealo
-IDEALO_SHOPS = {"298684": "notino", "324169": "primor", "317847": "druni", "317714": "arenal", "331204": "julia"}
+IDEALO_SHOPS = {"298684": "notino", "324169": "primor", "317847": "druni", "317714": "arenal", "331204": "julia",
+                "318691": "brasty", "299184": "sabina"}   # estas dos se leen también directo; Idealo cubre lo que falte
 BUNDLE_RE = re.compile(r"\bset\b|estuche|cofre|lote|pack|tester|muestra|miniatura|\+", re.I)
 
 
