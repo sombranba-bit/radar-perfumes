@@ -22,6 +22,7 @@ E.ic={
   auto:s=>I('<circle cx="12" cy="12" r="9"/><path d="M12 3v18" /><path d="M12 3a9 9 0 0 1 0 18Z" fill="currentColor" stroke="none"/>',s),
   down:s=>I('<path d="M12 5v14"/><path d="m19 12-7 7-7-7"/>',s),
 };
+E.NAME='Estela';E.TAG='';
 E.MARK=`<svg width="30" height="20" viewBox="0 0 34 22" aria-hidden="true"><path d="M3 17c6 0 8-11 15-11s6 7 13 4" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/><circle cx="3" cy="17" r="2.8" fill="var(--accent)"/></svg>`;
 
 // tema: Automático (sigue al sistema) / Claro / Oscuro, recordado en este navegador
@@ -159,7 +160,7 @@ E.savedView=()=>{const f=E.favs(),tg=R.targets(),gs=E.all().filter(x=>f.includes
   E.main(`<div class="wrap"><div class="rhead"><h1>Guardados</h1></div><p class="rmeta">Los que guardas y los que tienen precio objetivo. Se guardan solo en este navegador.</p>
   ${gs.length?`<div class="grid" style="margin-top:20px">${gs.map(E.card).join('')}</div>`:'<p class="empty">Aún no has guardado ninguno. En cada ficha tienes el botón Guardar.</p>'}</div>`)};
 
-E.foot=()=>{const st=E.stats();return `<footer class="wrap"><div class="foot"><div><b>Estela</b><p>Comparamos ${st.n} perfumes en ${st.shops} perfumerías españolas varias veces al día. No cobramos comisión por los enlaces.</p></div>
+E.foot=()=>{const st=E.stats();return `<footer class="wrap"><div class="foot"><div><b>${E.NAME}</b><p>Comparamos ${st.n} perfumes en ${st.shops} perfumerías españolas varias veces al día. No cobramos comisión por los enlaces.</p></div>
   <div><b>Datos</b><p>Precios y fotos de cada tienda. Notino, Primor, Druni, Arenal y Julia se leen a través de Idealo.</p></div>
   <div><b>Última lectura</b><p>${R.agoTime(st.at)}</p></div><div><b>Código</b><p><a href="https://github.com/sombranba-bit/radar-perfumes/commits/main" target="_blank" rel="noopener">Historial de cambios</a></p></div></div></footer>`};
 
@@ -167,7 +168,7 @@ E.foot=()=>{const st=E.stats();return `<footer class="wrap"><div class="foot"><d
 E.main=html=>{const m=$('main');m.innerHTML=html;document.body.classList.remove('has-bar')};
 E.shell=({name,variants,catalog})=>{const nav=[['','Inicio','home'],...(catalog?[['#catalogo','Catálogo','grid']]:[]),['#chollos','Chollos','tag'],['#guardados','Guardados','heart']];
   document.body.insertAdjacentHTML('afterbegin',`<a class="skip" href="#main">Saltar al contenido</a>
-  <header class="top"><div class="wrap"><a class="brand" href="#" aria-label="Estela, inicio">${E.MARK}<b>Estela</b></a>
+  <header class="top"><div class="wrap"><a class="brand" href="#" aria-label="${E.NAME}, inicio">${E.MARK}<span><b>${E.NAME}</b>${E.TAG?`<small class="btag">${E.TAG}</small>`:''}</span></a>
   <div class="search">${E.ic.search(18)}<input id="q" type="search" placeholder="Busca perfume, marca o nota" aria-label="Buscar perfume" autocomplete="off"></div>
   <nav class="tools" aria-label="Menú">${nav.slice(1).map(([h,l,ic])=>`<a class="tbtn" href="${h||'#'}" data-sec="${h}">${E.ic[ic](18)}<span class="tlabel">${l}</span>${ic==='heart'?'<span class="count" data-gc hidden></span>':''}</a>`).join('')}
   <button class="tbtn themebtn" id="themeb" type="button"></button></nav></div></header>
