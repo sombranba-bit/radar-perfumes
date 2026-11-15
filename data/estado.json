@@ -1,145 +1,46 @@
 {
- "at": "2026-11-15T00:16:53+01:00",
+ "at": "2026-11-15T01:15:17+01:00",
  "revisados": 70,
  "tiendas": {
   "avenida": {
-   "ok": 31,
+   "ok": 25,
    "bloqueada": 0,
-   "sin_precio": 3,
-   "dudoso": 3,
-   "variantes": 29,
-   "ejemplos": [
-    {
-     "perfume": "issey-miyake-l-eau-d-issey-pour-homme-edt-125",
-     "precio": 74.95,
-     "referencia": 45.765,
-     "metodo": "variantes"
-    },
-    {
-     "perfume": "versace-bright-crystal-edt-90",
-     "precio": 89.95,
-     "referencia": 59.95,
-     "metodo": "variantes"
-    },
-    {
-     "perfume": "versace-eros-flame-edp-100",
-     "precio": 89.95,
-     "referencia": 59.95,
-     "metodo": "variantes"
-    }
-   ],
-   "jsonld": 2
+   "sin_precio": 2,
+   "dudoso": 0,
+   "variantes": 25
   },
   "idealo": {
-   "ok": 62,
+   "ok": 65,
    "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 3,
-   "jsonld-url": 53,
-   "jsonld": 8,
+   "sin_precio": 1,
+   "dudoso": 1,
+   "jsonld-url": 60,
+   "jsonld": 4,
    "texto": 1,
    "ejemplos": [
     {
-     "perfume": "kilian-angels-share-edp-50",
-     "precio": 184.9,
-     "referencia": 116.83,
-     "metodo": "jsonld-url"
-    },
-    {
-     "perfume": "le-labo-another-13-edp-100",
-     "precio": 15.44,
-     "referencia": 399.0,
-     "metodo": "texto"
-    },
-    {
-     "perfume": "le-labo-santal-33-edp-100",
-     "precio": 240.0,
-     "referencia": null,
+     "perfume": "creed-silver-mountain-water-edp-100",
+     "precio": 24.75,
+     "referencia": 320.0,
      "metodo": "texto"
     }
    ]
-  },
-  "laguna": {
-   "ok": 44,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "jsonld": 18,
-   "precio-100ml": 13,
-   "jsonld-url": 13
-  },
-  "lookfantastic": {
-   "ok": 31,
-   "bloqueada": 0,
-   "sin_precio": 1,
-   "dudoso": 15,
-   "jsonld": 31,
-   "ejemplos": [
-    {
-     "perfume": "issey-miyake-l-eau-d-issey-edt-100",
-     "precio": 76.36,
-     "referencia": 42.95,
-     "metodo": "jsonld"
-    },
-    {
-     "perfume": "jean-paul-gaultier-le-beau-edt-125",
-     "precio": 3.99,
-     "referencia": 76.95,
-     "metodo": "texto"
-    },
-    {
-     "perfume": "jean-paul-gaultier-le-beau-le-parfum-edp-125",
-     "precio": 3.99,
-     "referencia": 86.95,
-     "metodo": "texto"
-    }
-   ]
-  },
-  "notino": {
-   "ok": 0,
-   "bloqueada": 55,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "via_idealo": 26
-  },
-  "sabina": {
-   "ok": 44,
-   "bloqueada": 0,
-   "sin_precio": 3,
-   "dudoso": 1,
-   "precio-100ml": 6,
-   "jsonld": 38,
-   "ejemplos": [
-    {
-     "perfume": "kilian-angels-share-edp-50",
-     "precio": 110.99,
-     "referencia": 153.75,
-     "metodo": "texto"
-    }
-   ]
-  },
-  "firstinfragrance": {
-   "ok": 4,
-   "bloqueada": 4,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "jsonld": 4
   },
   "primor": {
    "ok": 0,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "via_idealo": 35
+   "via_idealo": 42
   },
-  "arenal": {
+  "druni": {
    "ok": 0,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "via_idealo": 36
+   "via_idealo": 42
   },
-  "druni": {
+  "arenal": {
    "ok": 0,
    "bloqueada": 0,
    "sin_precio": 0,
@@ -151,68 +52,82 @@
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "via_idealo": 41
+   "via_idealo": 44
   },
-  "paco": {
-   "ok": 40,
-   "bloqueada": 0,
-   "sin_precio": 3,
+  "notino": {
+   "ok": 8,
+   "bloqueada": 42,
+   "sin_precio": 0,
    "dudoso": 1,
-   "jsonld": 40,
+   "via_idealo": 29,
+   "jsonld": 8,
    "ejemplos": [
     {
-     "perfume": "azzaro-chrome-edt-100",
-     "precio": 116.0,
-     "referencia": 48.7,
+     "perfume": "carolina-herrera-very-good-girl-edp-80",
+     "precio": 162.0,
+     "referencia": 99.95,
+     "metodo": "jsonld"
+    }
+   ]
+  },
+  "paco": {
+   "ok": 42,
+   "bloqueada": 0,
+   "sin_precio": 3,
+   "dudoso": 2,
+   "jsonld": 42,
+   "ejemplos": [
+    {
+     "perfume": "hugo-boss-boss-bottled-absolu-parfum-100",
+     "precio": 140.0,
+     "referencia": 85.85,
+     "metodo": "texto"
+    },
+    {
+     "perfume": "armani-acqua-di-gio-profondo-edp-75",
+     "precio": 50.0,
+     "referencia": null,
      "metodo": "texto"
     }
    ]
   },
-  "beautinow": {
-   "ok": 0,
-   "bloqueada": 7,
-   "sin_precio": 0,
-   "dudoso": 0
+  "sabina": {
+   "ok": 44,
+   "bloqueada": 0,
+   "sin_precio": 8,
+   "dudoso": 0,
+   "jsonld": 42,
+   "precio-100ml": 2
+  },
+  "laguna": {
+   "ok": 29,
+   "bloqueada": 0,
+   "sin_precio": 1,
+   "dudoso": 0,
+   "jsonld-url": 13,
+   "precio-100ml": 8,
+   "jsonld": 8
   },
   "parejo": {
-   "ok": 13,
+   "ok": 17,
    "bloqueada": 0,
    "sin_precio": 0,
-   "dudoso": 5,
-   "jsonld": 13,
+   "dudoso": 2,
+   "jsonld": 17,
    "ejemplos": [
     {
-     "perfume": "lattafa-khamrah-edp-100",
-     "precio": 40.8,
-     "referencia": 24.95,
+     "perfume": "calvin-klein-ck-one-edt-200",
+     "precio": 43.35,
+     "referencia": 28.225,
      "metodo": "jsonld"
     },
     {
-     "perfume": "lattafa-yara-edp-100",
-     "precio": 30.6,
-     "referencia": 19.95,
-     "metodo": "jsonld"
-    },
-    {
-     "perfume": "rabanne-fame-edp-80",
-     "precio": 113.9,
-     "referencia": 69.95,
+     "perfume": "carolina-herrera-212-vip-men-edt-100",
+     "precio": 84.15,
+     "referencia": 55.95,
      "metodo": "jsonld"
     }
    ]
-  },
-  "sephora": {
-   "ok": 0,
-   "bloqueada": 24,
-   "sin_precio": 0,
-   "dudoso": 0
-  },
-  "douglas": {
-   "ok": 2,
-   "bloqueada": 0,
-   "sin_precio": 2,
-   "dudoso": 0,
-   "precio-100ml": 2
   },
   "perfumesclub": {
    "ok": 5,
@@ -221,12 +136,76 @@
    "dudoso": 0,
    "jsonld": 5
   },
-  "arabicparfums": {
-   "ok": 2,
-   "bloqueada": 2,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "jsonld": 2
+  "sephora": {
+   "ok": 6,
+   "bloqueada": 0,
+   "sin_precio": 16,
+   "dudoso": 5,
+   "ejemplos": [
+    {
+     "perfume": "calvin-klein-ck-one-edt-200",
+     "precio": 61.99,
+     "referencia": 28.225,
+     "metodo": "variantes"
+    },
+    {
+     "perfume": "givenchy-gentleman-edp-100",
+     "precio": 129.0,
+     "referencia": 64.95,
+     "metodo": "variantes"
+    },
+    {
+     "perfume": "hugo-boss-boss-bottled-elixir-elixir-100",
+     "precio": 150.0,
+     "referencia": 67.06,
+     "metodo": "variantes"
+    }
+   ],
+   "variantes": 5,
+   "texto": 1
+  },
+  "lookfantastic": {
+   "ok": 19,
+   "bloqueada": 0,
+   "sin_precio": 2,
+   "dudoso": 16,
+   "ejemplos": [
+    {
+     "perfume": "calvin-klein-eternity-for-men-edt-100",
+     "precio": 58.77,
+     "referencia": 38.95,
+     "metodo": "jsonld"
+    },
+    {
+     "perfume": "carolina-herrera-212-vip-men-edt-100",
+     "precio": 103.5,
+     "referencia": 61.47,
+     "metodo": "jsonld"
+    },
+    {
+     "perfume": "dolce-gabbana-light-blue-edt-100",
+     "precio": 3.99,
+     "referencia": 64.95,
+     "metodo": "texto"
+    }
+   ],
+   "jsonld": 18,
+   "texto": 1
+  },
+  "douglas": {
+   "ok": 3,
+   "bloqueada": 0,
+   "sin_precio": 3,
+   "dudoso": 1,
+   "ejemplos": [
+    {
+     "perfume": "chanel-chanel-n-5-edp-100",
+     "precio": 727.09,
+     "referencia": 138.95,
+     "metodo": "precio-100ml"
+    }
+   ],
+   "precio-100ml": 3
   },
   "brasty": {
    "ok": 2,
@@ -235,11 +214,26 @@
    "dudoso": 0,
    "jsonld": 2
   },
-  "makeup": {
+  "firstinfragrance": {
+   "ok": 7,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "jsonld": 7
+  },
+  "beautinow": {
    "ok": 0,
    "bloqueada": 0,
-   "sin_precio": 3,
+   "sin_precio": 4,
    "dudoso": 0
+  },
+  "arabicparfums": {
+   "ok": 2,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "jsonld": 1,
+   "jsonld-url": 1
   }
  },
  "limpiados": {},
