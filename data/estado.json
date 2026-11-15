@@ -1,189 +1,143 @@
 {
- "at": "2026-11-15T19:47:12+01:00",
- "revisados": 70,
+ "at": "2026-11-15T20:17:06+01:00",
+ "revisados": 10,
  "tiendas": {
   "idealo": {
-   "ok": 65,
+   "ok": 10,
    "bloqueada": 0,
    "sin_precio": 0,
-   "dudoso": 1,
-   "jsonld-url": 58,
-   "ejemplos": [
-    {
-     "perfume": "creed-silver-mountain-water-edp-100",
-     "precio": 24.75,
-     "referencia": 320.0,
-     "metodo": "texto"
-    }
-   ],
-   "jsonld": 7
+   "dudoso": 0,
+   "jsonld-url": 9,
+   "jsonld": 1
   },
-  "primor": {
+  "brasty": {
    "ok": 0,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "via_idealo": 40
+   "via_idealo": 3
   },
   "druni": {
    "ok": 0,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "via_idealo": 40
+   "via_idealo": 7
   },
   "arenal": {
    "ok": 0,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "via_idealo": 36
+   "via_idealo": 5
   },
-  "lookfantastic": {
-   "ok": 17,
+  "primor": {
+   "ok": 0,
    "bloqueada": 0,
-   "sin_precio": 2,
-   "dudoso": 11,
-   "ejemplos": [
-    {
-     "perfume": "calvin-klein-obsession-for-men-edt-125",
-     "precio": 51.75,
-     "referencia": 24.65,
-     "metodo": "jsonld"
-    },
-    {
-     "perfume": "carolina-herrera-very-good-girl-edp-80",
-     "precio": 3.99,
-     "referencia": 99.95,
-     "metodo": "texto"
-    },
-    {
-     "perfume": "burberry-hero-edt-100",
-     "precio": 94.01,
-     "referencia": 57.66,
-     "metodo": "jsonld"
-    }
-   ],
-   "jsonld": 17
-  },
-  "notino": {
-   "ok": 4,
-   "bloqueada": 44,
    "sin_precio": 0,
    "dudoso": 0,
-   "via_idealo": 26,
-   "jsonld": 4
-  },
-  "paco": {
-   "ok": 41,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 1,
-   "jsonld": 40,
-   "precio-100ml": 1,
-   "ejemplos": [
-    {
-     "perfume": "lancome-la-nuit-tresor-edp-100",
-     "precio": 179.0,
-     "referencia": 84.95,
-     "metodo": "texto"
-    }
-   ]
-  },
-  "parejo": {
-   "ok": 15,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 1,
-   "jsonld": 15,
-   "ejemplos": [
-    {
-     "perfume": "dior-sauvage-parfum-parfum-100",
-     "precio": 176.8,
-     "referencia": 115.95,
-     "metodo": "jsonld"
-    }
-   ]
+   "via_idealo": 5
   },
   "julia": {
    "ok": 0,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "via_idealo": 42
+   "via_idealo": 6
+  },
+  "sabina": {
+   "ok": 4,
+   "bloqueada": 0,
+   "sin_precio": 2,
+   "dudoso": 0,
+   "via_idealo": 1,
+   "jsonld": 4
+  },
+  "notino": {
+   "ok": 0,
+   "bloqueada": 7,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "via_idealo": 7
   },
   "laguna": {
-   "ok": 19,
+   "ok": 2,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "jsonld": 11,
-   "precio-100ml": 3,
-   "jsonld-url": 5
+   "jsonld": 2
   },
-  "sabina": {
-   "ok": 29,
+  "paco": {
+   "ok": 3,
    "bloqueada": 0,
-   "sin_precio": 3,
-   "dudoso": 0,
-   "jsonld": 25,
-   "precio-100ml": 4
-  },
-  "sephora": {
-   "ok": 9,
-   "bloqueada": 0,
-   "sin_precio": 5,
+   "sin_precio": 0,
    "dudoso": 1,
-   "variantes": 9,
+   "jsonld": 2,
+   "precio-100ml": 1,
    "ejemplos": [
     {
-     "perfume": "burberry-her-edp-100",
-     "precio": 153.0,
-     "referencia": 66.55,
-     "metodo": "variantes"
+     "perfume": "hermes-h24-edt-100",
+     "precio": 135.0,
+     "referencia": 69.95,
+     "metodo": "texto"
     }
    ]
   },
-  "firstinfragrance": {
-   "ok": 8,
+  "sephora": {
+   "ok": 1,
    "bloqueada": 0,
    "sin_precio": 0,
-   "dudoso": 0,
-   "jsonld": 8
-  },
-  "avenida": {
-   "ok": 12,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "variantes": 12
+   "dudoso": 3,
+   "ejemplos": [
+    {
+     "perfume": "givenchy-gentleman-reserve-privee-edp-100",
+     "precio": 129.0,
+     "referencia": 62.45,
+     "metodo": "variantes"
+    },
+    {
+     "perfume": "guerlain-l-homme-ideal-edp-100",
+     "precio": 141.0,
+     "referencia": 70.93,
+     "metodo": "variantes"
+    },
+    {
+     "perfume": "hermes-h24-edt-100",
+     "precio": 128.0,
+     "referencia": 69.95,
+     "metodo": "variantes"
+    }
+   ],
+   "variantes": 1
   },
   "perfumesclub": {
-   "ok": 4,
+   "ok": 2,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "jsonld": 4
+   "jsonld": 2
   },
-  "beautinow": {
-   "ok": 0,
-   "bloqueada": 0,
-   "sin_precio": 2,
-   "dudoso": 0
-  },
-  "arabicparfums": {
-   "ok": 5,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "jsonld": 5
-  },
-  "douglas": {
+  "avenida": {
    "ok": 3,
    "bloqueada": 0,
-   "sin_precio": 2,
+   "sin_precio": 0,
    "dudoso": 0,
-   "precio-100ml": 3
+   "variantes": 3
+  },
+  "lookfantastic": {
+   "ok": 3,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 1,
+   "jsonld": 3,
+   "ejemplos": [
+    {
+     "perfume": "hugo-boss-boss-bottled-tonic-edt-100",
+     "precio": 3.99,
+     "referencia": 39.99,
+     "metodo": "texto"
+    }
+   ]
   }
  },
  "limpiados": {},
