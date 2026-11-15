@@ -145,8 +145,12 @@ print("OK: fotos")
 assert radar.product_image('<meta property="og:image" content="https://cdn.idealo.com/images/product/599824/es_ES/0/gross.jpg">') is None
 print("OK: sin fotos de relleno")
 # Lookfantastic: dos versiones de 100 ml, una agotada y más cara
-lf = '<script type="application/ld+json">{"@type":"ProductGroup","hasVariant":[{"@type":"Product","name":"Eros 100ml","offers":{"@type":"Offer","sku":"1","availability":"https://schema.org/OutOfStock","price":113.49,"priceCurrency":"EUR"}},{"@type":"Product","name":"Eros 100ml","offers":{"@type":"Offer","sku":"2","availability":"https://schema.org/InStock","price":61.95,"priceCurrency":"EUR"}}]}</script>'
-assert radar.extract(lf, 100, "https://www.lookfantastic.es/p/x/1/")[:2] == (61.95, True), radar.extract(lf, 100, "u")
+lf = '<script type="application/ld+json">{"@type":"ProductGroup","hasVariant":[{"@type":"Product","name":"Eros 100ml","offers":{"@type":"Offer","sku":"14271424","availability":"https://schema.org/OutOfStock","price":113.49,"priceCurrency":"EUR"}},{"@type":"Product","name":"Eros 100ml","offers":{"@type":"Offer","sku":"11034083","availability":"https://schema.org/InStock","price":61.95,"priceCurrency":"EUR"}}]}</script>'
+assert radar.extract(lf, 100, "https://www.lookfantastic.es/p/x/11034083/")[:2] == (61.95, True)
+# Variantes con el mismo nombre y distinto tamaño: manda el código de la ficha, no el precio más bajo
+lf2 = lf.replace('"sku":"14271424","availability":"https://schema.org/OutOfStock","price":113.49', '"sku":"17041761","availability":"https://schema.org/InStock","price":94.95')
+assert radar.extract(lf2, 100, "https://www.lookfantastic.es/p/la-bomba-80ml/17041761/")[0] == 94.95
+assert radar.extract(lf2, 100, "https://www.lookfantastic.es/p/la-bomba-80ml/99999999/")[0] is None
 print("OK: Lookfantastic con varias versiones")
 # Ofertas de otras tiendas en Idealo
 li = lambda shop, title, price: f'<li class="productOffers-listItem row row-24 " data-trx-click-data=\'{{&#034;shop_id&#034;:&#034;{shop}&#034;}}\'><div class="productOffers-listItemTitle"><a>{title}</a></div><div class="productOffers-listItemOfferPrice"> {price} € 620,00 €/l</div><a href="/relocator/relocate?categoryId=8694&amp;offerKey=5de4&amp;price={price.replace(",", ".")}&amp;productid=200588019&amp;sid={shop}&amp;type=offer&amp;pos=3">Ver oferta</a></li>'
@@ -160,3 +164,11 @@ assert radar.extract(sp, 50, "https://www.sephora.es/p/boss-bottled-P2384.html")
 print("OK: Sephora")
 assert radar.plausible(87, 57.45, "variantes", "sephora") and not radar.plausible(87, 57.45, "variantes", "sabina")
 print("OK: margen de precio de catálogo")
+# Descubrimiento: no coger otra concentración ni "Pure Musc" cuando buscas For Her
+it = {"name": "Le Male Le Parfum", "brand": "Jean Paul Gaultier", "conc": "EDP", "ml": 125}
+pg = '<a href="https://www.lookfantastic.es/p/jean-paul-gaultier-le-male-eau-de-toilette-125ml/10076089/">x</a>'
+assert radar.best_link(pg, "https://www.lookfantastic.es/search?q={q}", it) is None
+it = {"name": "For Her", "brand": "Narciso Rodriguez", "conc": "EDP", "ml": 100}
+pg = '<a href="https://www.lookfantastic.es/p/narciso-rodriguez-pure-musc-for-her-eau-de-parfum-100ml/12127907/">x</a><a href="https://www.lookfantastic.es/p/narciso-rodriguez-for-her-eau-de-parfum-100ml/10822240/">y</a>'
+assert radar.best_link(pg, "https://www.lookfantastic.es/search?q={q}", it).endswith("/10822240/")
+print("OK: descubrimiento sin versiones equivocadas")

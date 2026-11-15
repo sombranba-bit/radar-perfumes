@@ -193,8 +193,10 @@ def extract(page, ml, url):
     if not own:
         own = [o for o in offers if not _mls(o[1]) and _mls(o[2]) == {ml}]  # producto de un solo tamaño
         if len({round(o[0], 2) for o in own}) != 1:
-            # Varias versiones del mismo tamaño (Lookfantastic): la más barata que esté disponible
-            own = [o for o in own if o[3]]
+            # Lookfantastic pone a todas sus variantes (30, 50, 80 ml…) el nombre de la ficha:
+            # la buena es la del código de la dirección (?variation=… o /p/…/<código>/); si no, ninguna
+            code = re.search(r"variation=(\d+)", url) or re.search(r"/(\d{6,10})(?:/|\.html|$)", url)
+            own = [o for o in own if code and code.group(1) in o[1].split()]
     if own:
         p, _, _, st = min(own, key=lambda o: o[0])
         return p, st, "jsonld"
@@ -373,7 +375,8 @@ def words(t):
 # Versiones del mismo perfume que no hay que confundir (Bottled vs Bottled Night)
 FLANKERS = {"night", "intense", "intenso", "elixir", "absolu", "absolute", "extreme", "infinite", "tonic", "beyond", "sport",
             "privee", "noir", "black", "gold", "platinum", "oud", "cologne", "fraiche", "aqua", "blue", "red", "flame", "royal",
-            "set", "estuche", "lote", "pack", "tester", "recarga", "refill", "mini", "body", "deodorant", "desodorante", "gel"}
+            "set", "estuche", "lote", "pack", "tester", "recarga", "refill", "mini", "body", "deodorant", "desodorante", "gel",
+            "pure", "musc", "nuit", "profumo"}
 
 
 def best_link(page, base, it):
@@ -393,6 +396,12 @@ def best_link(page, base, it):
         hay = (href + " " + re.sub(r"<[^>]+>", " ", ctx)).lower()
         hay_w = set(words(hay))
         if not need or not all(w in hay_w for w in need) or (FLANKERS & hay_w) - set(words(it["name"] + " " + it.get("conc", ""))):
+            continue
+        if href in it.get("descartadas", ()):
+            continue
+        # otra concentración (pides EDP y el enlace dice eau de toilette, sin decir la tuya)
+        others = [c for k, c in CONC_WORDS.items() if k != it.get("conc") and " " in c]
+        if conc and conc not in hay.replace(" ", "-") and any(c.replace(" ", "-") in hay.replace(" ", "-") for c in others):
             continue
         sc = 2 + (brand in hay_w) + (bool(conc) and conc in hay.replace(" ", "-")) + (str(it["ml"]) in hay)
         if sc > score:

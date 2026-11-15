@@ -233,7 +233,7 @@ const PROFILES={
 };
 const norm=s=>String(s||'').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'');
 const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
-const eur=(n,d=2)=>n==null?'—':n.toLocaleString('es-ES',{minimumFractionDigits:d,maximumFractionDigits:d})+' €';
+const eur=(n,d=2)=>n==null?'—':n.toLocaleString('es-ES',{minimumFractionDigits:d,maximumFractionDigits:d})+'\u00a0€';   // espacio fijo: el € nunca pasa solo a la línea siguiente
 const base=id=>id.replace(/-\d+$/,'');
 const PROF_BASE=Object.fromEntries(Object.entries(PROFILES).map(([k,v])=>[base(k),v]));
 const prof=it=>PROFILES[it.id]||PROF_BASE[base(it.id)];
