@@ -242,7 +242,7 @@ function pic(i,cls='',idx=0){
   if(!f)return `<div class="ph ${cls}" style="background:${tint(i.p)}">${R.bottle(i.p)}`;
   return `<div class="ph photo ${cls}" style="background:${tint(i.p)}" data-fallback="${i.id}"><img src="${esc(f.url)}" alt="${esc(i.brand+' '+i.name)}" loading="lazy" decoding="async" referrerpolicy="no-referrer">`;
 }
-document.addEventListener('error',e=>{const im=e.target;if(im.tagName!=='IMG')return;const box=im.closest('[data-fallback]');if(box){const it=D.items.find(x=>x.id===box.dataset.fallback);box.classList.remove('photo');if(box.closest('#mainph'))$('credit')?.remove();box.style.background=tint(it?.p);im.replaceWith(document.createRange().createContextualFragment(R.bottle(it?.p)))}else{const b=im.closest('button'),g=b&&b.parentNode;if(b)b.remove();if(g&&g.children.length<2)g.remove()}},true);
+document.addEventListener('error',e=>{const im=e.target;if(im.tagName!=='IMG')return;const box=im.closest('[data-fallback]');if(box){const it=D.items.find(x=>x.id===box.dataset.fallback);box.classList.remove('photo');if(box.closest('#mainph'))$('credit')?.remove();box.style.background=tint(it?.p);im.replaceWith(document.createRange().createContextualFragment(R.bottle(it?.p)))}else{const b=im.closest('.thumbs button'),g=b&&b.parentNode;if(b)b.remove();if(g&&g.children.length<2)g.remove()}},true);
 function filters(){
   const opt=(k,v,label,extra='')=>`<button class="opt" type="button" data-f="${k}" data-v="${esc(v)}" aria-pressed="${S[k]===v}"><span>${extra}${esc(label)}</span></button>`;
   const brands=[...new Set(D.items.map(i=>i.brand))].sort((a,b)=>a.localeCompare(b,'es')).filter(b=>R.norm(b).includes(R.norm(bq)));
