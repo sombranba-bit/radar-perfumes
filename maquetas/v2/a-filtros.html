@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#f5f4f0">
+<title>Estela · Filtros arriba</title>
+<meta name="description" content="Maqueta A: catálogo con filtros en una barra bajo la búsqueda.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600&family=Instrument+Serif&display=swap" rel="stylesheet">
+<script>try{var t=localStorage.getItem('estela-theme');if(t&&t!=='auto')document.documentElement.dataset.theme=t}catch(e){}</script>
+<link rel="stylesheet" href="estela.css">
+<style>
+.fbar{position:sticky;top:68px;z-index:30;background:color-mix(in srgb,var(--bg) 92%,transparent);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
+.fbar .wrap{display:flex;align-items:center;gap:16px;height:84px}
+.cats{display:flex;gap:28px;overflow-x:auto;scrollbar-width:none;flex:1;min-width:0;mask-image:linear-gradient(90deg,#000 92%,transparent)}
+.cats::-webkit-scrollbar{display:none}
+.cat{display:grid;justify-items:center;gap:6px;min-width:64px;padding:8px 0 10px;border:0;background:none;cursor:pointer;color:var(--muted);font-weight:500;font-size:13px;border-bottom:2px solid transparent;white-space:nowrap}
+.cat .sw{width:28px;height:28px;border-radius:50%;background:radial-gradient(circle at 35% 30%,color-mix(in srgb,var(--c) 45%,#fff),var(--c));opacity:.85}
+.cat:hover{color:var(--text)}
+.cat[aria-pressed="true"]{color:var(--text);border-bottom-color:var(--text)}
+.cat[aria-pressed="true"] .sw{opacity:1}
+.fright{display:flex;gap:8px;align-items:center;flex:none}
+.lead{display:flex;align-items:end;justify-content:space-between;gap:24px;margin:36px 0 8px;flex-wrap:wrap}
+.lead h1{margin:0;font:400 48px/1 var(--serif);letter-spacing:-.015em;max-width:16ch}
+.lead p{margin:0;color:var(--muted);max-width:44ch}
+.quick{display:flex;gap:8px;flex-wrap:wrap;margin:20px 0 0}
+@media (max-width:860px){.fbar{top:58px}.fbar .wrap{height:76px;gap:10px}.cats{gap:18px}.fright .select{display:none}.lead h1{font-size:36px}.lead{margin-top:20px}}
+</style>
+</head>
+<body class="v-a">
+<script>document.write('<script src="../core.js?v='+Math.floor(Date.now()/36e5)+'"><\/script>')</script>
+<script src="estela.js"></script>
+<script>
+const V=[["a-filtros.html", "A", "Filtros arriba"], ["b-secciones.html", "B", "Por secciones"], ["c-buscador.html", "C", "Buscador"], ["d-mercado.html", "D", "Mercado"], ["e-indice.html", "E", "Índice"]],R=E.R;
+
+const famBtns=()=>`<button class="cat" type="button" data-fam="" aria-pressed="${!E.FAM}" style="--c:#8f8a80"><span class="sw"></span>Todas</button>`+E.FAMS.map(([k,n,c])=>`<button class="cat" type="button" data-fam="${k}" aria-pressed="${E.FAM===k}" style="--c:${c}"><span class="sw"></span>${n}</button>`).join('');
+const quick=()=>['Hombre','Mujer','Unisex'].map(v=>`<button class="chip" type="button" data-f="g" data-v="${E.S.g===v?'Todos':v}" aria-pressed="${E.S.g===v}">${v}</button>`).join('')+'<span class="sep"></span>'+['Nicho','Árabe'].map(v=>`<button class="chip" type="button" data-f="tier" data-v="${E.S.tier===v?'Todos':v}" aria-pressed="${E.S.tier===v}">${v}</button>`).join('');
+function home(){
+  const g=E.list(),d=E.dirty(),st=E.stats(),drops=d.length?[]:E.drops().slice(0,12);
+  E.main(`<div class="fbar"><div class="wrap"><div class="cats" role="group" aria-label="Familia olfativa">${famBtns()}</div><div class="fright">${E.filterBtn()}${E.sortSel()}</div></div></div>
+  <div class="wrap">${E.msearch()}
+   ${d.length?`<div class="rhead"><h1>${E.FAM&&d.length===1?E.labels().fam:'Perfumes'}<span class="rcount">${g.length}</span></h1></div>${E.activeChips()}`
+   :`<div class="lead"><h1>Dónde cuesta menos cada perfume, hoy</h1><p>${st.n} perfumes en ${st.shops} perfumerías. ${st.drops} bajan hoy frente a su media del último mes.</p></div><div class="quick" role="group" aria-label="Filtros rápidos">${quick()}</div>`}
+   ${E.rail('hDrop','Bajan hoy','Frente a su precio medio de 30 días',drops,`<button type="button" data-sortdrop>Ver todos</button>`)}
+   ${d.length?'':`<div class="sec-h sec"><div><h2>Todo el catálogo</h2></div></div>`}
+   ${g.length?`<div class="grid" ${d.length?'':''}>${g.slice(0,E.limit).map(E.card).join('')}</div>${E.more(g.length)}`:E.empty()}</div>`)}
+E.start({name:'a-filtros.html',variants:V,home,searchGoesToCatalog:false});
+
+</script>
+</body>
+</html>

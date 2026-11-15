@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#f5f4f0">
+<title>Estela · Índice</title>
+<meta name="description" content="Maqueta E: el catálogo como un índice tipográfico, al estilo de las casas de perfume de autor.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600&family=Instrument+Serif&display=swap&family=IBM+Plex+Mono:wght@400;500" rel="stylesheet">
+<script>try{var t=localStorage.getItem('estela-theme');if(t&&t!=='auto')document.documentElement.dataset.theme=t}catch(e){}</script>
+<link rel="stylesheet" href="estela.css">
+<style>
+.v-e{--mono:"IBM Plex Mono",ui-monospace,monospace;--plate:#ebe7df}
+:root[data-theme="dark"] .v-e,.v-e{}
+.v-e .brand b{font-size:28px}
+.intro{display:grid;grid-template-columns:minmax(0,1.4fr) minmax(0,1fr);gap:40px;align-items:end;padding:56px 0 32px;border-bottom:1px solid var(--line-2)}
+.intro h1{margin:0;font:400 clamp(48px,7vw,104px)/.92 var(--serif);letter-spacing:-.025em}
+.intro p{margin:0;color:var(--muted);font-size:17px;max-width:40ch}
+.intro .mono{font-family:var(--mono);font-size:13px;color:var(--muted);display:block;margin-top:14px}
+.filt{display:flex;gap:4px 22px;flex-wrap:wrap;padding:18px 0;border-bottom:1px solid var(--line-2);position:sticky;top:68px;background:var(--bg);z-index:20}
+.filt button,.filt select{border:0;background:none;padding:6px 0;cursor:pointer;color:var(--muted);font-size:15px;font-weight:500}
+.filt button[aria-pressed="true"]{color:var(--text);text-decoration:underline;text-underline-offset:6px;text-decoration-thickness:1.5px}
+.filt .r{margin-left:auto;display:flex;gap:18px;align-items:center}
+.idxl{list-style:none;margin:0;padding:0}
+.idxl a{display:grid;grid-template-columns:56px minmax(0,2.2fr) minmax(0,1.2fr) minmax(0,1fr) 72px 110px;gap:16px;align-items:baseline;padding:18px 0;border-bottom:1px solid var(--line);text-decoration:none;position:relative}
+.idxl .n{font-family:var(--mono);font-size:13px;color:var(--muted)}
+.idxl .t{font:400 30px/1.05 var(--serif);letter-spacing:-.01em}
+.idxl .m{color:var(--muted);font-size:14px}
+.idxl .m .dot{margin-right:6px}
+.idxl .ml{font-family:var(--mono);font-size:13px;color:var(--muted)}
+.idxl .p{text-align:right;font-weight:600;font-size:17px}
+.idxl .p small{display:block;font-weight:500;color:var(--pos);font-size:12px}
+.idxl .th{display:none}
+@media (hover:hover) and (pointer:fine){.idxl a:hover .t{font-style:normal;color:var(--accent)}}
+.peek{position:fixed;z-index:35;width:240px;pointer-events:none;opacity:0;transform:translateY(8px) scale(.98);transition:opacity .18s var(--ease),transform .18s var(--ease)}
+.peek.on{opacity:1;transform:none}
+.peek .plate{box-shadow:var(--shadow)}
+.v-e .pdp h1{font-size:72px}
+.v-e .buy,.v-e .olf,.v-e .card .plate{border-radius:4px}
+.v-e .plate{border-radius:4px}
+.v-e .btn{border-radius:4px}
+@media (max-width:860px){.intro{grid-template-columns:1fr;padding:28px 0 20px;gap:16px}.filt{top:58px;gap:2px 16px;flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none}.filt::-webkit-scrollbar{display:none}.filt button{white-space:nowrap}
+ .idxl a{grid-template-columns:64px minmax(0,1fr) auto;grid-template-areas:"th t p" "th m p";row-gap:4px;align-items:center;padding:14px 0}
+ .idxl .th{display:block;grid-area:th}.idxl .th .plate{border-radius:4px}.idxl .n,.idxl .ml,.idxl .fm{display:none}.idxl .t{grid-area:t;font-size:22px}.idxl .m{grid-area:m}.idxl .p{grid-area:p}.v-e .pdp h1{font-size:44px}}
+</style>
+</head>
+<body class="v-e">
+<script>document.write('<script src="../core.js?v='+Math.floor(Date.now()/36e5)+'"><\/script>')</script>
+<script src="estela.js"></script>
+<script>
+const V=[["a-filtros.html", "A", "Filtros arriba"], ["b-secciones.html", "B", "Por secciones"], ["c-buscador.html", "C", "Buscador"], ["d-mercado.html", "D", "Mercado"], ["e-indice.html", "E", "Índice"]],R=E.R;
+
+function home(){const g=E.list(),st=E.stats(),d=E.dirty();
+  E.main(`<div class="wrap">${d.length?'':`<section class="intro" aria-labelledby="hT"><h1 id="hT">Índice de precios de perfume</h1><div><p>${st.n} fragancias de autor, nicho y diseñador. Para cada una, la perfumería que la vende más barata hoy.</p><span class="mono">${st.shops} perfumerías · leído ${R.agoTime(st.at)}</span></div></section>`}
+  ${E.msearch()}<div class="filt" role="group" aria-label="Filtrar"><button type="button" data-fam="" aria-pressed="${!E.FAM}">Todas</button>${E.FAMS.map(([k,n])=>`<button type="button" data-fam="${k}" aria-pressed="${E.FAM===k}">${n}</button>`).join('')}
+   <span class="r"><button type="button" data-openf>Filtros${E.dirty().filter(k=>k!=='q'&&k!=='fam').length?' ('+E.dirty().filter(k=>k!=='q'&&k!=='fam').length+')':''}</button>${E.sortSel().replace('class="select"','class="select" style="border:0;background-color:transparent"')}</span></div>
+  ${d.length?`<div class="rhead" style="margin-top:20px"><h1>${g.length} perfumes</h1></div>${E.activeChips()}`:''}
+  ${g.length?`<ol class="idxl">${g.slice(0,E.limit).map((x,k)=>{const i=x.cur,f=E.famOf(i);return `<li><a href="#p/${x.key}" data-peek="${x.key}"><span class="th">${E.pic(i)}</span></span><span class="n">${String(k+1).padStart(3,'0')}</span><span class="t">${E.esc(i.name)}</span><span class="m">${E.esc(i.brand)}</span><span class="m fm">${f?`<i class="dot" style="--c:${f[2]}"></i>${f[1]}`:''}</span><span class="ml">${i.ml} ml</span><span class="p">${i.b?E.eur(i.b.p):'—'}${i.dr&&i.dr.pct<=-3?`<small>${R.pct(i.dr.pct)}</small>`:''}</span></a></li>`}).join('')}</ol>${E.more(g.length)}`:E.empty()}</div>`)}
+// vista previa de la foto al pasar el ratón (solo con ratón)
+const peek=document.createElement('div');peek.className='peek';peek.setAttribute('aria-hidden','true');document.body.append(peek);let pk=null;
+if(matchMedia('(hover: hover) and (pointer: fine)').matches){
+ document.addEventListener('pointerover',e=>{const a=e.target.closest('[data-peek]');if(!a){peek.classList.remove('on');pk=null;return}if(pk!==a.dataset.peek){pk=a.dataset.peek;const x=E.all().find(g=>g.key===pk);peek.innerHTML=E.pic(x.cur)+'</span>'}peek.classList.add('on')});
+ document.addEventListener('pointermove',e=>{if(peek.classList.contains('on')){const x=Math.min(e.clientX+28,innerWidth-260),y=Math.min(e.clientY-120,innerHeight-260);peek.style.left=x+'px';peek.style.top=Math.max(80,y)+'px'}});
+ addEventListener('hashchange',()=>peek.classList.remove('on'))}
+E.start({name:'e-indice.html',variants:V,home,searchGoesToCatalog:false});
+
+</script>
+</body>
+</html>

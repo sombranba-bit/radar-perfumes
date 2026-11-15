@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#f5f4f0">
+<title>Estela · Mercado</title>
+<meta name="description" content="Maqueta D: el precio de los perfumes leído como un mercado, con índice, subidas y bajadas.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600&family=Instrument+Serif&display=swap" rel="stylesheet">
+<script>try{var t=localStorage.getItem('estela-theme');if(t&&t!=='auto')document.documentElement.dataset.theme=t}catch(e){}</script>
+<link rel="stylesheet" href="estela.css">
+<style>
+.v-d{--r-lg:20px}
+.dash{display:grid;grid-template-columns:minmax(0,1.35fr) minmax(0,1fr);gap:16px;margin-top:28px}
+.panel{padding:24px;border-radius:var(--r-xl);background:var(--surface);border:1px solid var(--line)}
+.idx small{color:var(--muted);font-weight:500}
+.idx .big{display:flex;align-items:baseline;gap:14px;flex-wrap:wrap;margin:6px 0 2px}
+.idx .big b{font-size:64px;font-weight:600;letter-spacing:-.03em;line-height:1}
+.idx p{margin:0 0 16px;color:var(--muted);max-width:52ch}
+.idx .chart{color:var(--accent)}
+.seg{display:inline-flex;padding:4px;border-radius:999px;background:var(--surface-2);gap:2px}
+.seg button{height:36px;padding:0 16px;border-radius:999px;border:0;background:none;cursor:pointer;font-weight:500;color:var(--muted)}
+.seg button[aria-pressed="true"]{background:var(--surface);color:var(--text);box-shadow:0 1px 2px rgba(0,0,0,.08)}
+.movers .rows{gap:0}.movers .row{border:0;border-radius:0;background:none;padding:12px 0;border-top:1px solid var(--line);grid-template-columns:52px minmax(0,1fr) auto}
+.movers .row:first-child{border-top:0}.movers .row .rline{display:none}
+.side{display:grid;gap:16px;align-content:start}
+.mini{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}
+@media (max-width:1200px){.mini{grid-template-columns:repeat(2,minmax(0,1fr))}}
+.mini .kpi b{font-size:28px}
+.list-h{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:12px;flex-wrap:wrap}
+.list-h h2{margin:0;font-size:20px;font-weight:600}
+.tbl .row{grid-template-columns:56px minmax(0,1fr) 120px auto}
+.tbl .row .spark{width:120px}
+@media (max-width:1000px){.dash{grid-template-columns:minmax(0,1fr)}}
+@media (max-width:860px){.idx .big b{font-size:48px}.panel{padding:18px}.tbl .row{grid-template-columns:56px minmax(0,1fr) auto}}
+</style>
+</head>
+<body class="v-d">
+<script>document.write('<script src="../core.js?v='+Math.floor(Date.now()/36e5)+'"><\/script>')</script>
+<script src="estela.js"></script>
+<script>
+const V=[["a-filtros.html", "A", "Filtros arriba"], ["b-secciones.html", "B", "Por secciones"], ["c-buscador.html", "C", "Buscador"], ["d-mercado.html", "D", "Mercado"], ["e-indice.html", "E", "Índice"]],R=E.R;
+
+let tab='drop';
+function movers(){const gs=E.all();
+  if(tab==='drop')return E.drops().slice(0,7);
+  if(tab==='up')return gs.filter(x=>x.cur.dr&&x.cur.dr.pct>=3).sort((a,b)=>b.cur.dr.pct-a.cur.dr.pct).slice(0,7);
+  return E.bySave().slice(0,7)}
+function home(){const st=E.stats(),ix=E.index(),last=ix[ix.length-1],gs=E.all(),fav=gs.filter(x=>E.favs().includes(x.key)),ups=gs.filter(x=>x.cur.dr&&x.cur.dr.pct>=3).length;
+  const lv=last?last.p:100,ch=lv-100;
+  E.main(`<div class="wrap">${E.msearch()}<div class="dash"><div class="side">
+   <section class="panel idx" aria-labelledby="hIx"><h1 id="hIx" style="margin:0;font:500 13px/1.4 var(--sans);color:var(--muted)">Índice Estela · ${E.today()}</h1><div class="big"><b>${lv.toLocaleString('es-ES',{maximumFractionDigits:1,minimumFractionDigits:1})}</b><span class="pill ${ch<0?'down':''}">${ch<0?'':'+'}${ch.toLocaleString('es-ES',{maximumFractionDigits:1})} puntos</span></div>
+    <p>La mediana del precio de hoy frente a la media de 30 días de cada perfume. 100 es lo normal; por debajo, el mercado está más barato de lo habitual.</p>${R.lineChart(ix,{stroke:'var(--accent)',grid:'currentColor',h:250}).replace(/ €<\/text>/g,'</text>').replace(/aria-label="[^"]*"/,'aria-label="Índice Estela de los últimos 30 días"')}</section><div class="mini"><a class="kpi" href="#catalogo" data-sortdrop><small>Bajan hoy</small><b class="pos">${st.drops}</b><span>de ${st.n} perfumes</span></a><div class="kpi"><small>Suben</small><b>${ups}</b><span>más caros hoy</span></div>
+     <div class="kpi"><small>Mayor diferencia</small><b>${st.save?E.eur(st.save.s.save,0):'—'}</b><span>${st.save?E.esc(st.save.x.cur.name):''}</span></div><div class="kpi"><small>Tiendas leídas</small><b>${st.shops}</b><span>${R.agoTime(st.at)}</span></div></div></div>
+    <div class="side"><section class="panel movers" aria-labelledby="hMv"><div class="list-h"><h2 id="hMv">Movimientos</h2><div class="seg" role="group" aria-label="Qué ver">${[['drop','Bajan'],['up','Suben'],['save','Ahorro']].map(([k,l])=>`<button type="button" data-tab="${k}" aria-pressed="${tab===k}">${l}</button>`).join('')}</div></div><div class="rows">${movers().map(E.row).join('')||'<p class="rmeta">Nada que enseñar hoy.</p>'}</div></section></div></div>
+   ${fav.length?`<section class="sec panel tbl"><div class="list-h"><h2>Tu lista</h2><a class="chip" href="#guardados">Ver todo</a></div><div class="rows">${fav.map(E.row).join('')}</div></section>`:''}
+   ${E.rail('hSave','Donde más ahorras','',E.bySave().slice(0,14))}</div>`)}
+function catalog(){const g=E.list(),d=E.dirty();
+  E.main(`<div class="wrap">${E.msearch()}<div class="rhead"><h1>${E.FAM&&d.length===1?E.labels().fam:'Todos los perfumes'}<span class="rcount">${g.length}</span></h1><div class="cat-tools" style="display:flex;gap:8px">${E.filterBtn()}${E.sortSel()}</div></div>${E.activeChips()}
+  <section class="panel tbl">${g.length?`<div class="rows movers">${g.slice(0,E.limit).map(E.row).join('')}</div>${E.more(g.length)}`:E.empty()}</section></div>`)}
+document.addEventListener('click',e=>{const b=e.target.closest('[data-tab]');if(b){tab=b.dataset.tab;E.rerender()}});
+E.start({name:'d-mercado.html',variants:V,home,catalog});
+
+</script>
+</body>
+</html>

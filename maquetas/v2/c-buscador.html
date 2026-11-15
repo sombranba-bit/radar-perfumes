@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#f5f4f0">
+<title>Estela · Buscador</title>
+<meta name="description" content="Maqueta C: buscador primero y resultados en lista con precio de cada tienda.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600&family=Instrument+Serif&display=swap" rel="stylesheet">
+<script>try{var t=localStorage.getItem('estela-theme');if(t&&t!=='auto')document.documentElement.dataset.theme=t}catch(e){}</script>
+<link rel="stylesheet" href="estela.css">
+<style>
+.v-c[data-view="home"] .top .search{visibility:hidden}
+.home{min-height:calc(100svh - 68px);display:grid;align-content:center;justify-items:center;gap:22px;padding:40px 0 64px;text-align:center}
+.home .big{display:flex;align-items:center;gap:14px}.home .big b{font:400 88px/1 var(--serif);letter-spacing:-.02em}.home .big svg{width:72px;height:auto}
+.home p{margin:0;color:var(--muted);font-size:17px}
+.home .search{max-width:720px}.home .search input{height:62px;font-size:18px;padding-left:56px;box-shadow:var(--shadow);border-color:var(--line)}.home .search .ic{left:20px}
+.home .chips{justify-content:center;flex-wrap:wrap;max-width:760px}
+.home .tops{width:100%;max-width:880px;text-align:left;margin-top:28px}
+.home .tops h2{font-size:15px;color:var(--muted);font-weight:500;margin:0 0 10px}
+.res{display:grid;grid-template-columns:minmax(0,1fr) 300px;gap:32px;align-items:start}
+.aside{position:sticky;top:92px;display:grid;gap:12px}
+.box{padding:18px;border-radius:var(--r-lg);background:var(--surface);border:1px solid var(--line)}
+.box h2{font-size:15px;margin:0 0 10px}.box .chips{flex-wrap:wrap}
+.box p{margin:0;color:var(--muted);font-size:14px}
+.qbar{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin:6px 0 16px}
+@media (max-width:1000px){.res{grid-template-columns:1fr}.aside{position:static;order:-1;display:none}}
+@media (max-width:860px){.rcount{font-family:var(--sans)}.home{min-height:auto;padding:28px 0 24px;justify-items:start;text-align:left}.home .big b{font-size:56px}.home .big svg{width:48px}.home .chips{justify-content:flex-start}.home .search input{height:52px}.v-c .top .search{visibility:visible}}
+</style>
+</head>
+<body class="v-c">
+<script>document.write('<script src="../core.js?v='+Math.floor(Date.now()/36e5)+'"><\/script>')</script>
+<script src="estela.js"></script>
+<script>
+const V=[["a-filtros.html", "A", "Filtros arriba"], ["b-secciones.html", "B", "Por secciones"], ["c-buscador.html", "C", "Buscador"], ["d-mercado.html", "D", "Mercado"], ["e-indice.html", "E", "Índice"]],R=E.R;
+
+function home(){const st=E.stats();
+  E.main(`<div class="wrap"><section class="home" aria-labelledby="hT"><h1 class="big" id="hT">${E.MARK}<b>Estela</b></h1><p>Compara ${st.n} perfumes en ${st.shops} perfumerías españolas. Precios leídos ${R.agoTime(st.at)}.</p>
+   <div class="search">${E.ic.search(20)}<input data-q type="search" placeholder="Busca perfume, marca o nota" aria-label="Buscar perfume" autocomplete="off"></div>
+   <div class="chips" role="group" aria-label="Buscar por familia">${E.FAMS.map(([k,n,c])=>`<button class="chip" type="button" data-fam="${k}"><i class="dot" style="--c:${c}"></i>${n}</button>`).join('')}</div>
+   <div class="tops"><h2>Bajan hoy</h2><div class="rows">${E.drops().slice(0,5).map(E.row).join('')}</div><p style="margin-top:14px"><a class="chip" href="#catalogo" data-sortdrop>Ver los ${st.drops}</a></p></div></section></div>`)}
+function catalog(){const g=E.list(),d=E.dirty(),st=E.stats();
+  const sv=g.map(x=>R.spread(x.cur)).filter(Boolean);
+  E.main(`<div class="wrap">${E.msearch()}<div class="rhead"><h1>${E.S.q?'«'+E.esc(E.S.q)+'»':E.FAM&&d.length===1?E.labels().fam:'Resultados'}<span class="rcount">${g.length} perfumes</span></h1></div>
+  <div class="qbar">${E.filterBtn()}${['Hombre','Mujer','Unisex'].map(v=>`<button class="chip" type="button" data-f="g" data-v="${E.S.g===v?'Todos':v}" aria-pressed="${E.S.g===v}">${v}</button>`).join('')}<span class="sep"></span>${E.sortSel()}</div>${E.activeChips()}
+  <div class="res"><div>${g.length?`<div class="rows">${g.slice(0,E.limit).map(E.row).join('')}</div>${E.more(g.length)}`:E.empty()}</div>
+  <aside class="aside" aria-label="Resumen"><div class="box"><h2>En estos resultados</h2><p>${g.filter(x=>x.cur.dr&&x.cur.dr.pct<=-3).length} bajan hoy · ${sv.length} se venden en varias tiendas, con ${E.eur(sv.reduce((a,s)=>a+s.save,0)/(sv.length||1),0)} de diferencia media.</p></div>
+   <div class="box"><h2>Familia</h2><div class="chips">${E.FAMS.map(([k,n,c])=>`<button class="chip" type="button" data-fam="${k}" aria-pressed="${E.FAM===k}"><i class="dot" style="--c:${c}"></i>${n}</button>`).join('')}</div></div></aside></div></div>`)}
+E.start({name:'c-buscador.html',variants:V,home,catalog});
+
+</script>
+</body>
+</html>
