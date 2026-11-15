@@ -1,6 +1,6 @@
-# Radar de Perfumes
+# Estela (antes Radar de Perfumes)
 
-Comparador y rastreador de precios de perfumes. Funciona solo en GitHub:
+Comparador de precios de perfume: sigue 200 perfumes en las perfumerías españolas y enseña dónde cuesta menos cada uno y cuáles bajan hoy. La dirección web sigue siendo la del repositorio `radar-perfumes`. Funciona solo en GitHub:
 
 - **La página** (`index.html`) se publica con GitHub Pages.
 - **La pasada automática** (`.github/workflows/radar.yml`) corre cada 30 minutos, 24/7. En cada pasada:

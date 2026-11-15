@@ -1,4 +1,4 @@
-# Radar de Perfumes
+# Estela (antes Radar de Perfumes)
 
 ## Qué es
 Comparador y rastreador de precios de perfumes de diseñador, nicho y árabes en perfumerías online de España y Europa, con los chollos de Chollometro. Una pasada automática en GitHub Actions lee los precios cada 30 minutos.
