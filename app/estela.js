@@ -49,8 +49,8 @@ const SEASON_C={Primavera:'#5f8f3e',Verano:'#c58a12',Otoño:'#b0532a',Invierno:'
 
 // fotos al tamaño justo
 const TILE_ORDER=['lookfantastic','arabicparfums','firstinfragrance','sabina','paco','parejo','laguna','brasty','perfumesclub','avenida','idealo','sephora','douglas','notino'];
-E.sized=(u,w)=>/thgimages\.com/.test(u)?u.replace(/width=\d+/,'width='+w).replace(/height=\d+/,'height='+w):/\/cdn\/shop\//.test(u)?u.replace(/_\d+x\d+(\.\w+)/,`_${w}x${w}$1`).replace(/([?&])width=\d+/,'$1width='+w):u;
-E.photosFor=(i,size)=>{const ph=R.photos(i);if(size!=='s')return ph;return [...ph].sort((a,b)=>((TILE_ORDER.indexOf(a.s)+99)%99)-((TILE_ORDER.indexOf(b.s)+99)%99)).map(f=>({...f,url:E.sized(f.url,480)}))};
+E.sized=(u,w)=>/thgimages\.com/.test(u)?u.replace(/width=\d+/,'width='+w).replace(/height=\d+/,'height='+w):/\/cdn\/shop\//.test(u)?u.replace(/_\d+x\d+(\.\w+)/,`_${w}x${w}$1`).replace(/([?&])width=\d+/,'$1width='+w):/demandware\.static/.test(u)?u.split('?')[0]+'?sw='+w+'&sh='+w:u;
+E.photosFor=(i,size)=>{const ph=R.photos(i);if(size!=='s')return ph.map(f=>({...f,url:E.sized(f.url,1000)}));return [...ph].sort((a,b)=>((TILE_ORDER.indexOf(a.s)+99)%99)-((TILE_ORDER.indexOf(b.s)+99)%99)).map(f=>({...f,url:E.sized(f.url,480)}))};
 E.pic=(i,{idx=0,size='s',eager=false,cls=''}={})=>{const f=E.photosFor(i,size)[idx];
   return `<span class="plate ${cls}" data-fb="${i.id}">${f?`<img src="${esc(f.url)}" alt="${esc(i.brand+' '+i.name)}" ${eager?'fetchpriority="high"':'loading="lazy"'} decoding="async" referrerpolicy="no-referrer">`:R.bottle(i.p)}`};
 document.addEventListener('error',e=>{const im=e.target;if(im.tagName!=='IMG')return;const box=im.closest('[data-fb]');

@@ -8,6 +8,9 @@ on:
       limite:
         description: "Perfumes como máximo en esta ejecución"
         default: "250"
+      rehacer:
+        description: "escasas = vuelve a buscar las pirámides con 5 notas o menos"
+        default: ""
 permissions:
   contents: write
 concurrency:
@@ -35,6 +38,7 @@ jobs:
         run: python scraper/notas.py
         env:
           NOTAS_LIMITE: ${{ github.event.inputs.limite }}
+          NOTAS_REHACER: ${{ github.event.inputs.rehacer }}
       - if: github.event.inputs.modo != 'probe'
         name: Guardar notas
         run: |

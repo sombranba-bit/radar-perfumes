@@ -108,6 +108,9 @@ def clean_text(h):
 
 LV = re.compile(r'(?i)notas? de salida\s*(?::|son)\s*(.{3,220}?)\s*[.;]?\s*(?:las\s+)?notas? de coraz[oó]n\s*(?::|son)\s*(.{3,220}?)\s*[.;]?\s*(?:las\s+)?notas? de fondo\s*(?::|son)\s*(.{3,220}?)(?:\.|;| {2}|$)')
 
+# Paco y otras lo cuentan en prosa: "En las notas de salida de X se encuentran ... En su corazón, ... Finalizan en un fondo de ..."
+LV2 = re.compile(r'(?i)notas? de salida[^.:]{0,45}?(?:se encuentran|incluyen|destacan|:|son)\s*(.{3,260}?)\.\s*[^.]{0,30}?coraz[oó]n[^.:,]{0,30}?(?:,|:|se encuentran|incluyen|destacan|son)\s*(.{3,260}?)\.\s*[^.]{0,40}?fondo(?: de)?[^.:,]{0,20}?(?:,|:|de|son)?\s*(.{3,260}?)\.')
+
 
 def split_notes(s):
     s = re.sub(r'(?i)\b(las|los|la|el|y unas?|con)\b', ' ', s)
@@ -115,26 +118,51 @@ def split_notes(s):
     out = []
     for p in parts:
         p = re.sub(r'\(.*?\)', '', p).strip(' .:-')
-        if re.fullmatch(r"[A-Za-zÁÉÍÓÚÜÑáéíóúüñ' -]{3,28}", p) and len(p.split()) <= 4:
+        if re.fullmatch(r"[A-Za-zÁÉÍÓÚÜÑáéíóúüñ' -]{3,28}", p) and len(p.split()) <= 5:
             out.append([p.capitalize(), 1])
     return out
 
 
+def total(levels):
+    return sum(len(v) for v in (levels or {}).values())
+
+
 def store_pyramid(it):
+    """La pirámide más completa entre las fichas de las tiendas (no la primera que aparezca)."""
+    best = None
     for shop in STORE_ORDER:
         u = (it.get('urls') or {}).get(shop)
         if not u:
             continue
         h = get(u)
+        time.sleep(1)
         if not h:
             continue
-        m = LV.search(clean_text(h))
-        if m:
+        t = clean_text(h)
+        for rx in (LV, LV2):
+            m = rx.search(t)
+            if not m:
+                continue
             top, heart, base = (split_notes(g) for g in m.groups())
             if top and heart and base:
-                return {'src': 'tienda:' + shop, 'url': u, 'levels': {'top': top, 'heart': heart, 'base': base}}
-        time.sleep(1)
-    return None
+                lv = {'top': top, 'heart': heart, 'base': base}
+                if not best or total(lv) > total(best['levels']):
+                    best = {'src': 'tienda:' + shop, 'url': u, 'levels': lv}
+    return best
+
+
+def choose(rec, sp):
+    """Se queda con la pirámide más completa; si la única pirámide es mucho más pobre que la lista de Parfumo, enseña la lista."""
+    if sp and total(sp['levels']) > total(rec.get('levels')):
+        rec = {**rec, 'levels': sp['levels'], 'levels_src': sp['src'], 'levels_url': sp['url']}
+        rec.setdefault('src', sp['src'])
+        if not rec.get('src'):
+            rec['src'] = sp['src']
+    if rec.get('levels') and rec.get('flat') and total(rec['levels']) < 0.6 * len(rec['flat']):
+        rec['levels'] = {}
+        rec.pop('levels_src', None)
+        rec.pop('levels_url', None)
+    return rec
 
 
 def main():
@@ -144,24 +172,22 @@ def main():
     seen, n = set(), 0
     for it in items:
         k = key(it)
-        if k in seen or (k in done and done[k].get('src')):
+        old = done.get(k) or {}
+        redo = os.environ.get('NOTAS_REHACER') == 'escasas' and old.get('src') and total(old.get('levels')) <= 5
+        if k in seen or (old.get('src') and not redo):
             continue
         seen.add(k)
         if n >= limit:
             break
         n += 1
         rec = {'src': None}
-        url = parfumo_search(it)
+        url = old.get('url') if old.get('src') == 'parfumo' else parfumo_search(it)
         time.sleep(1.5)
         if url:
             rec = parfumo_page(url) or rec
             time.sleep(1.5)
-        if not rec.get('levels'):
-            sp = store_pyramid(it)
-            if sp:
-                rec = {**rec, 'levels': sp['levels'], 'levels_src': sp['src'], 'levels_url': sp['url']}
-                if not rec.get('src'):
-                    rec['src'] = sp['src']
+        if total(rec.get('levels')) <= 5:
+            rec = choose(rec, store_pyramid(it))
         rec['checked'] = time.strftime('%Y-%m-%d')
         done[k] = rec
         lv = rec.get('levels') or {}
@@ -182,6 +208,12 @@ if __name__ == '__main__':
         assert [x[0] for x in split_notes(m.group(3))] == ['Haba tonka', 'Cacao']
         h = '<div class="nb_n"><span class="clickable_note_img notefont5" data-nt="n"><span class="nowrap pointer"><img src="x" alt="Ambroxan">Ambroxan</span></span></div>'
         assert NOTE.findall(h) == [('5', 'Ambroxan')], NOTE.findall(h)
+        g = 'En las notas de salida de Good Girl se encuentran la almendra, el café, la bergamota y el limón. En su corazón, jazmín sambac, nardos, raíz de lirio, rosa de Bulgaria y flor de azahar del naranjo. Finalizan en un fondo de haba tonka, cacao, sándalo, vainilla, praliné, canela, cedro y pachulí. “Una mujer'
+        m = LV2.search(g)
+        assert m and [x[0] for x in split_notes(m.group(1))] == ['Almendra', 'Café', 'Bergamota', 'Limón'], m and m.groups()
+        assert len(split_notes(m.group(2))) == 5 and split_notes(m.group(3))[0][0] == 'Haba tonka', m.groups()
+        r = choose({'src': 'parfumo', 'levels': {'top': [['a', 1]], 'heart': [['b', 1]], 'base': [['c', 1]]}, 'flat': [['x', 1]] * 9}, None)
+        assert r['levels'] == {}, r
         print('ok')
     else:
         main()
