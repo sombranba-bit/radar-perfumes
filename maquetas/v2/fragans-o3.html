@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#f5f4f0">
+<title>Fragans · Pirámide</title>
+<meta name="description" content="Fragans, comparador de precios de perfume. Maqueta B: inicio por secciones con carruseles; el catálogo va en su propia pantalla.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600&family=Instrument+Serif&family=Fraunces:opsz,wght@9..144,500;9..144,600&display=swap" rel="stylesheet">
+<script>try{document.documentElement.dataset.palette=localStorage.getItem('fragans-pal')||'burdeos';document.documentElement.dataset.cards=localStorage.getItem('fragans-cards')||'fundida';var t=localStorage.getItem('estela-theme');if(t&&t!=='auto')document.documentElement.dataset.theme=t}catch(e){}</script>
+<link rel="stylesheet" href="estela.css">
+<style>
+.hero{padding:56px 0 8px;display:grid;justify-items:center;text-align:center;gap:18px}
+.hero h1{margin:0;font:400 72px/.95 var(--serif);letter-spacing:-.02em;max-width:13ch}
+.hero p{margin:0;color:var(--muted);font-size:17px;max-width:46ch}
+.hero .search{max-width:680px}.hero .search input{height:60px;font-size:18px;padding-left:54px;box-shadow:var(--shadow);border-color:transparent}
+.hero .search .ic{left:20px}
+.hero .chips{justify-content:center;flex-wrap:wrap}
+.v-b[data-view="home"]:not(.scrolled) .top .search{visibility:hidden}
+.feature{display:grid;grid-template-columns:1.1fr 1fr;gap:0;border-radius:var(--r-xl);overflow:hidden;background:var(--surface);border:1px solid var(--line);text-decoration:none}
+.feature .plate{border-radius:0;aspect-ratio:auto;min-height:380px}
+.feature .ftxt{padding:36px;display:flex;flex-direction:column;justify-content:center;gap:12px}
+.feature .ftxt small{color:var(--muted);font-weight:500}
+.feature .fh{margin:0;font:400 44px/1 var(--serif)}
+.feature .fp{display:flex;align-items:center;gap:12px}.feature .fp b{font-size:32px;font-weight:600}
+.cat-h{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;margin:28px 0 20px}
+.cat-h h1{margin:0;font:400 44px/1 var(--serif)}.cat-h .rcount{color:var(--muted);margin-left:10px;font-size:15px}
+.cat-tools{display:flex;gap:8px;align-items:center}
+@media (max-width:860px){.hero{padding:24px 0 0;justify-items:start;text-align:left}.hero h1{font-size:44px}.hero .chips{justify-content:flex-start;flex-wrap:nowrap}.hero .search input{height:52px}
+ .feature{grid-template-columns:1fr}.feature .plate{min-height:240px}.feature .ftxt{padding:20px}.feature .fh{font-size:32px}.cat-h h1{font-size:34px}.v-b .top .search{visibility:visible}}
+:root{--accent:#2b4a9b;--serif:"Fraunces",Georgia,serif}@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--accent:#a9bcff;--accent-ink:#0f1730;--serif:"Fraunces",Georgia,serif}}:root[data-theme="dark"]{--accent:#a9bcff;--accent-ink:#0f1730;--serif:"Fraunces",Georgia,serif}.brand b{font-weight:600;font-size:28px;letter-spacing:-.02em}.hero h1,.sec-h h2,.cat-h h1,.pdp h1,.rhead h1,.feature .fh{font-weight:500;letter-spacing:-.025em}:root[data-palette="tinta"]{--accent:#2b4a9b;--accent-ink:#fff;--bg:#f3f4f8;--surface-2:#eceef5}@media (prefers-color-scheme:dark){:root[data-palette="tinta"]:not([data-theme="light"]){--accent:#a9bcff;--accent-ink:#0f1730;--bg:#0d0f15;--surface:#171a23;--surface-2:#21253a}}:root[data-palette="tinta"][data-theme="dark"]{--accent:#a9bcff;--accent-ink:#0f1730;--bg:#0d0f15;--surface:#171a23;--surface-2:#21253a}:root[data-palette="botella"]{--accent:#1d5a43;--accent-ink:#fff;--bg:#f2f5f1;--surface-2:#e9efe8}@media (prefers-color-scheme:dark){:root[data-palette="botella"]:not([data-theme="light"]){--accent:#8fd1b0;--accent-ink:#06231a;--bg:#0b100e;--surface:#141a17;--surface-2:#1d2621}}:root[data-palette="botella"][data-theme="dark"]{--accent:#8fd1b0;--accent-ink:#06231a;--bg:#0b100e;--surface:#141a17;--surface-2:#1d2621}:root[data-palette="burdeos"]{--accent:#8a2335;--accent-ink:#fff;--bg:#f7f2f2;--surface-2:#f0e8e8}@media (prefers-color-scheme:dark){:root[data-palette="burdeos"]:not([data-theme="light"]){--accent:#f3a3b1;--accent-ink:#2c0710;--bg:#120c0d;--surface:#1c1516;--surface-2:#2a1e20}}:root[data-palette="burdeos"][data-theme="dark"]{--accent:#f3a3b1;--accent-ink:#2c0710;--bg:#120c0d;--surface:#1c1516;--surface-2:#2a1e20}.btn{background:var(--accent);color:var(--accent-ink)}.chip[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:var(--accent-ink)}
+.hero h1 em{font-style:normal;color:var(--accent)}.sec-h a,.sec-h button{color:var(--accent)}.tabbar a[aria-current="page"]{color:var(--accent)}
+.hero .search input:focus,.search input:focus{border-color:var(--accent);box-shadow:0 0 0 4px color-mix(in srgb,var(--accent) 15%,transparent)}
+/* tarjetas: fundidas con la página o blancas con contraste */
+:root[data-cards="fundida"]{--plate:color-mix(in srgb,var(--accent) 4%,var(--surface-2))}
+:root[data-cards="fundida"] .rail .plate,:root[data-cards="fundida"] .grid .plate{box-shadow:inset 0 0 0 1px color-mix(in srgb,var(--accent) 8%,transparent)}
+:root[data-cards="blanca"]{--plate:#fff}
+:root[data-cards="blanca"] .rail .card,:root[data-cards="blanca"] .grid .card{background:var(--surface);border-radius:var(--r-lg);padding:8px 8px 14px;box-shadow:var(--shadow)}
+:root[data-cards="blanca"] .rail .card .cbody,:root[data-cards="blanca"] .grid .card .cbody{padding:12px 6px 0}
+:root[data-cards="blanca"] .rail .plate,:root[data-cards="blanca"] .grid .plate{border-radius:calc(var(--r-lg) - 8px)}
+:root[data-cards="blanca"] .rail{padding:6px 2px 16px}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"])[data-cards="fundida"]{--plate:color-mix(in srgb,var(--accent) 14%,#e9e4dc)}:root:not([data-theme="light"])[data-cards="blanca"]{--plate:#f4f1ec}}
+:root[data-theme="dark"][data-cards="fundida"]{--plate:color-mix(in srgb,var(--accent) 14%,#e9e4dc)}:root[data-theme="dark"][data-cards="blanca"]{--plate:#f4f1ec}
+.pill.down,.save{background:color-mix(in srgb,var(--pos) 14%,var(--surface))}.feature .btn{align-self:start}
+
+.feature{background:color-mix(in srgb,var(--c,var(--accent)) 10%,var(--surface))}
+.feature .ftxt small{color:var(--text)}
+.fams{grid-template-columns:repeat(4,minmax(0,1fr))}
+.fam{background:color-mix(in srgb,var(--c) 13%,var(--surface));border-color:color-mix(in srgb,var(--c) 25%,transparent);min-height:150px;justify-content:space-between}
+.fam:hover{border-color:var(--c)}
+.fam .fdesc{color:var(--muted);font-size:13px;line-height:1.35}
+.pulse{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.3fr);gap:32px;align-items:center;padding:28px 32px;border-radius:var(--r-xl);background:var(--surface);border:1px solid var(--line)}
+.pulse small{color:var(--muted);font-weight:500}
+.pulse .pv{font:500 44px/1.05 var(--serif);letter-spacing:-.02em;margin:8px 0}
+.pulse .pv em{font-style:normal;color:var(--accent)}
+.pulse p{margin:0;color:var(--muted)}
+.pulse .chart{color:var(--accent)}
+.famband{display:flex;gap:20px;align-items:center;padding:24px 28px;border-radius:var(--r-xl);background:color-mix(in srgb,var(--c) 14%,var(--surface));border:1px solid color-mix(in srgb,var(--c) 25%,transparent);margin:24px 0 8px}
+.famband .sw{width:64px;height:64px;border-radius:50%;flex:none;background:radial-gradient(circle at 35% 30%,color-mix(in srgb,var(--c) 45%,#fff),var(--c))}
+.famband h1{margin:0;font:500 40px/1 var(--serif);letter-spacing:-.02em}
+.famband p{margin:6px 0 0;color:var(--muted);max-width:60ch}
+.pal{display:flex;gap:2px;align-items:center;padding-left:6px;margin-left:4px;border-left:1px solid #ddd}
+.pal button{width:30px;height:30px;border-radius:8px;border:0;background:none;cursor:pointer;display:grid;place-items:center}
+.pal i{width:16px;height:16px;border-radius:50%;background:var(--s)}
+.pal button[aria-pressed="true"]{background:#eee}
+.pal .cardsb{width:auto;padding:0 10px;font:500 13px/1 system-ui,sans-serif;color:#333}
+@media (max-width:1000px){.fams{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:860px){.pulse{grid-template-columns:1fr;padding:20px;gap:12px}.pulse .pv{font-size:32px}.famband{padding:18px;gap:14px}.famband h1{font-size:30px}.famband .sw{width:44px;height:44px}.fam{min-height:0}}
+
+.note{display:grid;justify-items:center;gap:6px;border:0;background:none;cursor:pointer;padding:0;color:inherit;font:inherit;max-width:96px}
+.nt{display:grid;place-items:center;border-radius:10px;background:radial-gradient(circle at 30% 25%,color-mix(in srgb,var(--nc) 55%,#fff),var(--nc));color:var(--ni);box-shadow:inset 0 0 0 1px rgba(0,0,0,.06);transition:transform .15s var(--ease)}
+@media (hover:hover) and (pointer:fine){.note:hover .nt{transform:translateY(-2px)}}
+.nt svg{width:74%;height:74%}
+.nl{font-size:13px;font-weight:600;text-align:center;line-height:1.2}
+.nts{display:flex;justify-content:center;align-items:end;gap:16px;flex-wrap:wrap}
+.pyr .lvh{display:flex;align-items:center;gap:14px;margin:20px 0 14px;font:500 13px/1 var(--sans);color:var(--muted)}
+.pyr .lv:first-child .lvh{margin-top:4px}
+.pyr .lvh::before,.pyr .lvh::after{content:"";flex:1;height:1px;background:linear-gradient(90deg,transparent,var(--line-2))}
+.pyr .lvh::after{background:linear-gradient(90deg,var(--line-2),transparent)}
+.acc{display:grid;gap:3px}
+.ab{height:28px;width:var(--w);background:var(--ac);color:var(--ai);border-radius:0 8px 8px 0;display:grid;place-items:center;font-weight:600;font-size:14px}
+.ab .tr,.ab i{display:none}
+.accstack,.acclegend{display:none}
+.when{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:12px}
+.wi{display:grid;justify-items:center;gap:6px;color:var(--faint)}
+.wi.on{color:var(--text)}
+.wl{font-size:13px;font-weight:600;color:var(--text)}
+.wb{width:100%;max-width:90px;height:7px;border-radius:4px;background:var(--line-2);overflow:hidden}
+.wb i{display:block;height:100%;background:var(--wc);border-radius:4px}
+.olfp{padding:20px;border-radius:var(--r-xl);background:var(--surface);border:1px solid var(--line);margin-bottom:14px}
+.ph{font-size:16px;font-weight:600;margin:0 0 16px;letter-spacing:-.01em}
+.olfnote{color:var(--muted);font-size:13px;text-align:center;margin:16px 0 0}
+.frs{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.fr{padding:18px 20px 20px;border-radius:var(--r-xl);background:var(--surface);border:1px solid var(--line)}
+.fr h3{margin:0 0 14px}
+.fr h3 button{display:flex;align-items:center;gap:10px;border:0;background:none;font:600 18px/1.2 var(--sans);cursor:pointer;padding:0;color:var(--text)}
+.fr h3 small{color:var(--muted);font-weight:500;font-size:13px}
+.fr .nts{justify-content:flex-start;gap:14px}
+@media (max-width:860px){.frs{grid-template-columns:minmax(0,1fr)}.when{grid-template-columns:repeat(3,minmax(0,1fr));row-gap:18px}.nts{gap:12px}}
+
+.acc{display:none}
+.accstack{display:flex;height:22px;border-radius:11px;overflow:hidden;gap:2px;background:var(--surface)}
+.acclegend{display:flex;flex-wrap:wrap;gap:6px 16px;margin-top:14px;font-size:14px;font-weight:500}
+.acclegend span{display:inline-flex;align-items:center;gap:7px}.acclegend i{width:12px;height:12px;border-radius:4px}
+.pyr{display:grid;justify-items:center;gap:6px}
+.pyr .lv{padding:14px 18px 16px;background:color-mix(in srgb,var(--accent) 7%,var(--surface-2));clip-path:polygon(8% 0,92% 0,100% 100%,0 100%)}
+.pyr .lv-top{width:55%;clip-path:polygon(30% 0,70% 0,100% 100%,0 100%);padding-top:22px}.pyr .lv-heart{width:78%}.pyr .lv-base{width:100%}
+.pyr .lvh,.pyr .lv:first-child .lvh{margin:0 0 12px;justify-content:center;color:var(--text)}.pyr .lvh::before,.pyr .lvh::after{display:none}
+.when{display:flex;flex-wrap:wrap;gap:8px}
+.wi{display:inline-flex;align-items:center;gap:8px;padding:6px 14px 6px 8px;border-radius:999px;border:1px solid var(--line-2)}
+.wi svg{width:24px;height:24px}.wi .wb{display:none}
+.wi.on{background:color-mix(in srgb,var(--wc) 30%,var(--surface));border-color:transparent}
+.wi:not(.on) .wl{color:var(--muted);font-weight:500;text-decoration:line-through;text-decoration-color:var(--line-2)}
+.frs{grid-template-columns:minmax(0,1fr);gap:0}
+.fr{background:none;border:0;border-top:1px solid var(--line-2);border-radius:0;padding:18px 0;display:grid;grid-template-columns:240px minmax(0,1fr);align-items:center}
+.fr h3{margin:0}.fr h3 button{font:500 26px/1.1 var(--serif)}.fr h3 small{display:block;font:500 13px var(--sans)}
+.fr h3 button{flex-wrap:wrap}
+@media (max-width:860px){.fr{grid-template-columns:minmax(0,1fr);gap:12px}.pyr .lv-top{width:80%}.pyr .lv-heart{width:92%}}
+</style>
+</head>
+<body class="v-b">
+<script>document.write('<script src="../core.js?v='+Math.floor(Date.now()/36e5)+'"><\/script>')</script>
+<script src="estela.js"></script>
+<script src="olfato.js"></script>
+<script>
+const V=[["fragans-o1.html", "Calco", "calco de Fragrantica"], ["fragans-o2.html", "Integrada", "en la paleta de Fragans"], ["fragans-o3.html", "Pirámide", "pirámide de verdad"], ["fragans.html", "Antes", ""]],R=E.R;
+
+const DESC={floral:'Rosa, jazmín, peonía. Lo romántico y luminoso',amaderada:'Cedro, sándalo, vetiver. Seca, elegante, de piel',oriental:'Especias, resinas e incienso. Cálida y envolvente',ambar:'Vainilla, resinas dulces y ámbar. Profunda y de noche',
+ aromatica:'Lavanda, salvia y hierbas. Fresca y limpia',gourmand:'Caramelo, café, cacao. Se huele a postre',citrica:'Bergamota, limón, naranja. Ligera, de verano',acuatica:'Notas marinas y ozono. Lo fresco de toda la vida'};
+function pulse(){const ix=E.index(),l=ix[ix.length-1];if(!l||ix.length<5)return '';const ch=l.p-100,a=Math.abs(ch).toLocaleString('es-ES',{maximumFractionDigits:1});
+ return `<section class="sec pulse" aria-labelledby="hPu"><div><small id="hPu">El mercado hoy</small><p class="pv">${Math.abs(ch)<.3?'Precios <em>normales</em>':`Un <em>${a} %</em> ${ch<0?'más barato':'más caro'}`}</p><p>Mediana de los ${E.stats().n} perfumes frente a su precio medio de los últimos 30 días.</p></div>
+ ${R.lineChart(ix,{stroke:'var(--accent)',grid:'currentColor',h:170}).replace(/<text[^>]*>[^<]* €<\/text>/g,'').replace(/aria-label="[^"]*"/,'aria-label="Precio del mercado frente a lo normal, últimos 30 días"')}</section>`}
+function home(){
+  const st=E.stats(),gs=E.all(),drops=E.drops(),save=E.bySave(),nicho=gs.filter(x=>R.tierOf(x.cur)==='Nicho'&&x.cur.b).sort((a,b)=>a.cur.b.p-b.cur.b.p),arab=gs.filter(x=>R.tierOf(x.cur)==='Árabe'&&x.cur.b),fav=gs.filter(x=>E.favs().includes(x.key)),t=st.top;
+  E.main(`<div class="wrap"><section class="hero" aria-labelledby="hT"><h1 id="hT">Encuentra tu perfume <em>al mejor precio</em></h1><p>${st.n} perfumes, ${st.shops} perfumerías y ${st.prices} precios leídos en las últimas 48 horas.</p>
+   <div class="search">${E.ic.search(20)}<input data-q type="search" placeholder="Busca perfume, marca o nota" aria-label="Buscar perfume" autocomplete="off"></div>
+   <div class="chips" role="group" aria-label="Accesos rápidos">${[['g','Hombre'],['g','Mujer'],['tier','Nicho'],['tier','Árabe']].map(([k,v])=>`<a class="chip" href="#catalogo" data-f="${k}" data-v="${v}">${v}</a>`).join('')}<a class="chip" href="#chollos">Chollos</a></div></section>
+   ${fav.length?E.rail('hFav','Tus guardados','',fav):''}
+   ${t?`<section class="sec"><a class="feature" href="#p/${t.key}" style="--c:${E.famOf(t.cur)?.[2]||'var(--accent)'}">${E.pic(t.cur,{size:'l',eager:true})}</span><span class="ftxt"><small>La bajada del día · ${E.today()}</small><h2 class="fh">${E.esc(t.cur.name)}</h2><span class="rmeta">${E.esc(t.cur.brand)} · ${t.cur.ml} ml · en ${E.esc(t.cur.b.name)}</span><span class="fp"><b>${E.eur(t.cur.b.p)}</b><span class="pill down">${R.pct(t.cur.dr.pct)} frente a su media</span></span><span class="btn" style="align-self:start;margin-top:8px">Ver dónde comprarlo</span></span></a></section>`:''}
+   ${E.rail('hDrop','Bajan hoy',st.drops+' perfumes por debajo de su media de 30 días',drops.slice(0,14),'<a href="#catalogo" data-sortdrop>Ver todos</a>')}
+   ${pulse()}
+   ${O.famSection(gs)}
+   ${E.rail('hSave','Donde más ahorras','La diferencia entre la tienda más cara y la más barata',save.slice(0,14))}
+   ${E.rail('hNicho','Nicho al mejor precio','',nicho.slice(0,14),'<a href="#catalogo" data-f="tier" data-v="Nicho">Ver todos</a>')}</div>`)}
+function catalog(){const g=E.list(),d=E.dirty();
+  const F=E.FAMS.find(f=>f[0]===E.FAM);
+  E.main(`<div class="wrap">${E.msearch()}${F?`<div class="famband" style="--c:${F[2]}"><span class="sw"></span><div><h1>${F[1]}</h1><p>${DESC[F[0]]}. ${g.length} perfumes, del más barato al más caro según el orden que elijas.</p></div></div>`:''}<div class="cat-h"><h1${F?' class="sr-only"':''}>${F&&d.length===1?F[1]:'Catálogo'}<span class="rcount">${g.length} perfumes</span></h1><div class="cat-tools">${E.filterBtn()}${E.sortSel()}</div></div>${E.activeChips()}
+  ${g.length?`<div class="grid">${g.slice(0,E.limit).map(E.card).join('')}</div>${E.more(g.length)}`:E.empty()}</div>`)}
+addEventListener('scroll',()=>document.body.classList.toggle('scrolled',scrollY>300),{passive:true});
+E.NAME='Fragans';E.TAG='Comparador de precios de perfume';E.MARK='<svg width="30" height="30" viewBox="0 0 28 28" aria-hidden="true"><circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M12 7.2c2.3 2.7 3.4 4.5 3.4 5.9a3.4 3.4 0 0 1-6.8 0c0-1.4 1.1-3.2 3.4-5.9Z" fill="var(--accent)"/><path d="m18.6 18.6 6 6" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></svg>';
+const PALS=[['burdeos','Burdeos','#8a2335'],['botella','Verde botella','#1d5a43'],['tinta','Tinta','#2b4a9b']];
+
+const addPal=()=>{const mq=document.querySelector('.mq');if(!mq||mq.querySelector('.pal'))return;const cur=document.documentElement.dataset.palette;
+ mq.insertAdjacentHTML('beforeend',`<span class="pal" role="group" aria-label="Color">${PALS.map(([k,l,c])=>`<button type="button" data-pal="${k}" aria-pressed="${k===cur}" aria-label="Color ${l}" title="${l}" style="--s:${c}"><i></i></button>`).join('')}</span><span class="pal" role="group" aria-label="Tarjetas">${[['fundida','Fundida'],['blanca','Blanca']].map(([k,l])=>`<button type="button" class="cardsb" data-cards="${k}" aria-pressed="${k===document.documentElement.dataset.cards}">${l}</button>`).join('')}</span>`)};
+document.addEventListener('click',e=>{const c=e.target.closest('.cardsb');if(c){document.documentElement.dataset.cards=c.dataset.cards;try{localStorage.setItem('fragans-cards',c.dataset.cards)}catch(e){}document.querySelectorAll('.cardsb').forEach(x=>x.setAttribute('aria-pressed',x===c))}});
+document.addEventListener('click',e=>{const b=e.target.closest('[data-pal]');if(!b)return;document.documentElement.dataset.palette=b.dataset.pal;try{localStorage.setItem('fragans-pal',b.dataset.pal)}catch(e){}
+ document.querySelectorAll('[data-pal]').forEach(x=>x.setAttribute('aria-pressed',x===b))});
+E.start({name:'fragans-o3.html',variants:V,home,catalog}).then(addPal);
+
+</script>
+</body>
+</html>

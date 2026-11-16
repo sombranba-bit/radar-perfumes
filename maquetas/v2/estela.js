@@ -140,7 +140,7 @@ E.detail=key=>{const x=E.all().find(g=>g.key===key);if(!x){location.hash='';retu
       ${hist(i)}</div>
     <div class="block"><h2>Precio en cada tienda</h2>${recent.length?offerRows(recent,b):'<p class="rmeta">Aún no hay precios recientes</p>'}${old.length?`<details class="oldp"><summary>${old.length} ${old.length===1?'precio leído':'precios leídos'} hace más de un mes</summary>${offerRows(old)}</details>`:''}</div>
     <div class="block"><h2>Mejor precio, día a día</h2>${R.lineChart(R.series(i),{stroke:'var(--accent)',grid:'currentColor'})}</div>
-    ${p?`<div class="block"><h2>Cómo huele</h2><div class="olf" style="--c:${f?f[2]:'var(--accent)'}"><div class="olf-fam"><span class="sw"></span><span><small>Familia</small><b>${esc(p.fam)}</b></span></div>
+    ${p&&E.olf?E.olf(i,f):p?`<div class="block"><h2>Cómo huele</h2><div class="olf" style="--c:${f?f[2]:'var(--accent)'}"><div class="olf-fam"><span class="sw"></span><span><small>Familia</small><b>${esc(p.fam)}</b></span></div>
       <ul class="notes" aria-label="Notas">${p.notes.split(/,\s*/).map(n=>`<li>${esc(n)}</li>`).join('')}</ul>
       <div class="seasons" aria-label="Temporada">${R.SEASONS.map(s=>`<span class="${p.se.includes(s)?'on':''}" style="--c:${SEASON_C[s]}">${s}</span>`).join('')}</div>
       <div class="meters">${meter(p.dur,'Duración')}${meter(p.sil,'Estela')}</div><p class="rmeta" style="margin:0">Mejor para: ${esc(p.use)}</p></div></div>`:''}
