@@ -13,6 +13,25 @@ S = requests.Session(impersonate='chrome')
 CONC = {'EDP': 'eau de parfum', 'EDT': 'eau de toilette', 'EDC': 'eau de cologne', 'Parfum': 'parfum', 'Extrait': 'extrait', 'Elixir': 'elixir'}
 SIZE = {'xl': 100, 'l': 85, 'm': 65, 's': 45, 'xs': 30}
 BRAND = {'Armani': 'Giorgio Armani', 'YSL': 'Yves Saint Laurent', 'Paco Rabanne': 'Rabanne', 'Hugo Boss': 'Hugo Boss', 'CH': 'Carolina Herrera', 'D&G': 'Dolce & Gabbana', 'Lattafa': 'Lattafa Perfumes', 'Afnan': 'Afnan Perfumes', 'Rasasi': 'Rasasi'}
+# Fichas de Parfumo que el buscador no empareja solo (otro nombre, año o "Emporio Armani -" delante), revisadas a mano
+P = 'https://www.parfumo.com/Perfumes/'
+PARFUMO_URL = {k: P + v for k, v in {
+    'Armani|Acqua di Giò Profondo|EDP': 'Giorgio_Armani/acqua-di-gio-profondo-2024-eau-de-parfum',
+    'Armani|Code|EDT': 'Giorgio_Armani/Armani_Code_Black_Code_Eau_de_Toilette',
+    'Armani|Stronger With You Absolutely|Parfum': 'Giorgio_Armani/emporio-armani-stronger-with-you-absolutely',
+    'Bvlgari|Man in Black|EDP': 'Bvlgari/Bvlgari_Man_In_Black',
+    'Chanel|Chanel Nº5|EDP': 'Chanel/N5_Eau_de_Parfum',
+    'Chanel|Gabrielle|EDP': 'Chanel/Gabrielle_Chanel',
+    'Chanel|Égoïste Platinum|EDT': 'Chanel/Platinum_Egoiste_Eau_de_Toilette',
+    'Givenchy|Gentleman Reserve Privée|EDP': 'Givenchy/gentleman-givenchy-reserve-privee',
+    'Hugo Boss|Boss The Scent Le Parfum|Parfum': 'Hugo_Boss/the-scent-le-parfum-for-him',
+    'Lancôme|La Nuit Trésor|EDP': 'Lancome/La_Nuit_Tresor',
+    'Maison Francis Kurkdjian|Baccarat Rouge 540 Extrait|Parfum': 'Maison_Francis_Kurkdjian/Baccarat_Rouge_540_Extrait_de_Parfum',
+    'Narciso Rodriguez|Bleu Noir|EDP': 'Narciso_Rodriguez/For_Him_Bleu_Noir_Eau_de_Parfum',
+    'Valentino|Uomo Born in Roma Intense|EDP': 'Valentino/valentino-uomo-born-in-roma-intense',
+    'Yves Saint Laurent|Libre Intense|EDP': 'Yves_Saint_Laurent/libre-eau-de-parfum-intense',
+    'Yves Saint Laurent|Y|EDT': 'Yves_Saint_Laurent/Y_2017',
+}.items()}
 STORE_ORDER = ('laguna', 'avenida', 'parejo', 'sabina', 'paco')
 
 
@@ -181,7 +200,7 @@ def main():
             break
         n += 1
         rec = {'src': None}
-        url = old.get('url') if old.get('src') == 'parfumo' else parfumo_search(it)
+        url = PARFUMO_URL.get(k) or (old.get('url') if old.get('src') == 'parfumo' else parfumo_search(it))
         time.sleep(1.5)
         if url:
             rec = parfumo_page(url) or rec
