@@ -31,6 +31,6 @@ for f, kws in [('parfumo', ['Ambroxan', 'Bergamot', 'Top Notes', 'Heart Notes', 
 r = s.get('https://www.parfumo.com/Perfumes/Chanel/Bleu_de_Chanel_Eau_de_Parfum', timeout=30)
 h = r.text
 print('bleu', r.status_code)
-for kw in ['Top Notes', 'Heart Notes', 'Base Notes', 'Grapefruit']:
-    for m in list(re.finditer(kw, h))[:1]:
-        print('== bleu', kw, re.sub(r'\s+', ' ', h[max(0, m.start() - 300):m.start() + 900]))
+print(sorted(set(re.findall(r'class="(nb_\w+)', h))), sorted(set(re.findall(r'class="(s-circle s-circle_\w+)', h))))
+i = h.find('notes_list')
+print('== bleu', re.sub(r'<img[^>]*>', '', re.sub(r'\s+', ' ', h[i:i+5000])))
