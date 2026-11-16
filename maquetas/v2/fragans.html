@@ -9,7 +9,7 @@
 <meta name="description" content="Fragans, comparador de precios de perfume. Maqueta B: inicio por secciones con carruseles; el catálogo va en su propia pantalla.">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600&family=Instrument+Serif&family=Fraunces:opsz,wght@9..144,500;9..144,600&display=swap" rel="stylesheet">
-<script>try{document.documentElement.dataset.palette=localStorage.getItem('fragans-pal')||'tinta';var t=localStorage.getItem('estela-theme');if(t&&t!=='auto')document.documentElement.dataset.theme=t}catch(e){}</script>
+<script>try{document.documentElement.dataset.palette=localStorage.getItem('fragans-pal')||'burdeos';document.documentElement.dataset.cards=localStorage.getItem('fragans-cards')||'fundida';var t=localStorage.getItem('estela-theme');if(t&&t!=='auto')document.documentElement.dataset.theme=t}catch(e){}</script>
 <link rel="stylesheet" href="estela.css">
 <style>
 .hero{padding:56px 0 8px;display:grid;justify-items:center;text-align:center;gap:18px}
@@ -33,6 +33,16 @@
 :root{--accent:#2b4a9b;--serif:"Fraunces",Georgia,serif}@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--accent:#a9bcff;--accent-ink:#0f1730;--serif:"Fraunces",Georgia,serif}}:root[data-theme="dark"]{--accent:#a9bcff;--accent-ink:#0f1730;--serif:"Fraunces",Georgia,serif}.brand b{font-weight:600;font-size:28px;letter-spacing:-.02em}.hero h1,.sec-h h2,.cat-h h1,.pdp h1,.rhead h1,.feature .fh{font-weight:500;letter-spacing:-.025em}:root[data-palette="tinta"]{--accent:#2b4a9b;--accent-ink:#fff;--bg:#f3f4f8;--surface-2:#eceef5}@media (prefers-color-scheme:dark){:root[data-palette="tinta"]:not([data-theme="light"]){--accent:#a9bcff;--accent-ink:#0f1730;--bg:#0d0f15;--surface:#171a23;--surface-2:#21253a}}:root[data-palette="tinta"][data-theme="dark"]{--accent:#a9bcff;--accent-ink:#0f1730;--bg:#0d0f15;--surface:#171a23;--surface-2:#21253a}:root[data-palette="botella"]{--accent:#1d5a43;--accent-ink:#fff;--bg:#f2f5f1;--surface-2:#e9efe8}@media (prefers-color-scheme:dark){:root[data-palette="botella"]:not([data-theme="light"]){--accent:#8fd1b0;--accent-ink:#06231a;--bg:#0b100e;--surface:#141a17;--surface-2:#1d2621}}:root[data-palette="botella"][data-theme="dark"]{--accent:#8fd1b0;--accent-ink:#06231a;--bg:#0b100e;--surface:#141a17;--surface-2:#1d2621}:root[data-palette="burdeos"]{--accent:#8a2335;--accent-ink:#fff;--bg:#f7f2f2;--surface-2:#f0e8e8}@media (prefers-color-scheme:dark){:root[data-palette="burdeos"]:not([data-theme="light"]){--accent:#f3a3b1;--accent-ink:#2c0710;--bg:#120c0d;--surface:#1c1516;--surface-2:#2a1e20}}:root[data-palette="burdeos"][data-theme="dark"]{--accent:#f3a3b1;--accent-ink:#2c0710;--bg:#120c0d;--surface:#1c1516;--surface-2:#2a1e20}.btn{background:var(--accent);color:var(--accent-ink)}.chip[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:var(--accent-ink)}
 .hero h1 em{font-style:normal;color:var(--accent)}.sec-h a,.sec-h button{color:var(--accent)}.tabbar a[aria-current="page"]{color:var(--accent)}
 .hero .search input:focus,.search input:focus{border-color:var(--accent);box-shadow:0 0 0 4px color-mix(in srgb,var(--accent) 15%,transparent)}
+/* tarjetas: fundidas con la página o blancas con contraste */
+:root[data-cards="fundida"]{--plate:color-mix(in srgb,var(--accent) 4%,var(--surface-2))}
+:root[data-cards="fundida"] .rail .plate,:root[data-cards="fundida"] .grid .plate{box-shadow:inset 0 0 0 1px color-mix(in srgb,var(--accent) 8%,transparent)}
+:root[data-cards="blanca"]{--plate:#fff}
+:root[data-cards="blanca"] .rail .card,:root[data-cards="blanca"] .grid .card{background:var(--surface);border-radius:var(--r-lg);padding:8px 8px 14px;box-shadow:var(--shadow)}
+:root[data-cards="blanca"] .rail .card .cbody,:root[data-cards="blanca"] .grid .card .cbody{padding:12px 6px 0}
+:root[data-cards="blanca"] .rail .plate,:root[data-cards="blanca"] .grid .plate{border-radius:calc(var(--r-lg) - 8px)}
+:root[data-cards="blanca"] .rail{padding:6px 2px 16px}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"])[data-cards="fundida"]{--plate:color-mix(in srgb,var(--accent) 14%,#e9e4dc)}:root:not([data-theme="light"])[data-cards="blanca"]{--plate:#f4f1ec}}
+:root[data-theme="dark"][data-cards="fundida"]{--plate:color-mix(in srgb,var(--accent) 14%,#e9e4dc)}:root[data-theme="dark"][data-cards="blanca"]{--plate:#f4f1ec}
 .pill.down,.save{background:color-mix(in srgb,var(--pos) 14%,var(--surface))}.feature .btn{align-self:start}
 
 .feature{background:color-mix(in srgb,var(--c,var(--accent)) 10%,var(--surface))}
@@ -55,6 +65,7 @@
 .pal button{width:30px;height:30px;border-radius:8px;border:0;background:none;cursor:pointer;display:grid;place-items:center}
 .pal i{width:16px;height:16px;border-radius:50%;background:var(--s)}
 .pal button[aria-pressed="true"]{background:#eee}
+.pal .cardsb{width:auto;padding:0 10px;font:500 13px/1 system-ui,sans-serif;color:#333}
 @media (max-width:1000px){.fams{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media (max-width:860px){.pulse{grid-template-columns:1fr;padding:20px;gap:12px}.pulse .pv{font-size:32px}.famband{padding:18px;gap:14px}.famband h1{font-size:30px}.famband .sw{width:44px;height:44px}.fam{min-height:0}}
 </style>
@@ -89,10 +100,11 @@ function catalog(){const g=E.list(),d=E.dirty();
   ${g.length?`<div class="grid">${g.slice(0,E.limit).map(E.card).join('')}</div>${E.more(g.length)}`:E.empty()}</div>`)}
 addEventListener('scroll',()=>document.body.classList.toggle('scrolled',scrollY>300),{passive:true});
 E.NAME='Fragans';E.TAG='Comparador de precios de perfume';E.MARK='<svg width="30" height="30" viewBox="0 0 28 28" aria-hidden="true"><circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M12 7.2c2.3 2.7 3.4 4.5 3.4 5.9a3.4 3.4 0 0 1-6.8 0c0-1.4 1.1-3.2 3.4-5.9Z" fill="var(--accent)"/><path d="m18.6 18.6 6 6" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></svg>';
-const PALS=[['tinta','Tinta','#2b4a9b'],['botella','Verde botella','#1d5a43'],['burdeos','Burdeos','#8a2335']];
+const PALS=[['burdeos','Burdeos','#8a2335'],['botella','Verde botella','#1d5a43'],['tinta','Tinta','#2b4a9b']];
 
 const addPal=()=>{const mq=document.querySelector('.mq');if(!mq||mq.querySelector('.pal'))return;const cur=document.documentElement.dataset.palette;
- mq.insertAdjacentHTML('beforeend',`<span class="pal" role="group" aria-label="Color">${PALS.map(([k,l,c])=>`<button type="button" data-pal="${k}" aria-pressed="${k===cur}" aria-label="Color ${l}" title="${l}" style="--s:${c}"><i></i></button>`).join('')}</span>`)};
+ mq.insertAdjacentHTML('beforeend',`<span class="pal" role="group" aria-label="Color">${PALS.map(([k,l,c])=>`<button type="button" data-pal="${k}" aria-pressed="${k===cur}" aria-label="Color ${l}" title="${l}" style="--s:${c}"><i></i></button>`).join('')}</span><span class="pal" role="group" aria-label="Tarjetas">${[['fundida','Fundida'],['blanca','Blanca']].map(([k,l])=>`<button type="button" class="cardsb" data-cards="${k}" aria-pressed="${k===document.documentElement.dataset.cards}">${l}</button>`).join('')}</span>`)};
+document.addEventListener('click',e=>{const c=e.target.closest('.cardsb');if(c){document.documentElement.dataset.cards=c.dataset.cards;try{localStorage.setItem('fragans-cards',c.dataset.cards)}catch(e){}document.querySelectorAll('.cardsb').forEach(x=>x.setAttribute('aria-pressed',x===c))}});
 document.addEventListener('click',e=>{const b=e.target.closest('[data-pal]');if(!b)return;document.documentElement.dataset.palette=b.dataset.pal;try{localStorage.setItem('fragans-pal',b.dataset.pal)}catch(e){}
  document.querySelectorAll('[data-pal]').forEach(x=>x.setAttribute('aria-pressed',x===b))});
 E.start({name:'fragans.html',variants:V,home,catalog}).then(addPal);

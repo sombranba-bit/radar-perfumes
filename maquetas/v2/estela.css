@@ -77,7 +77,7 @@ a{color:inherit}button,input,select{font:inherit;color:inherit}
 .cbody{padding:12px 2px 0}
 .cmeta{display:flex;align-items:center;gap:6px;color:var(--muted);font-size:13px}
 .cname{font-size:16px;font-weight:600;line-height:1.25;margin:2px 0 6px}
-.cprice{display:flex;align-items:center;gap:8px}
+.cprice{display:flex;align-items:center;gap:4px 8px;flex-wrap:wrap}
 .cprice b{font-size:18px;font-weight:600;letter-spacing:-.01em}
 .cshop{color:var(--muted);font-size:13px;margin-top:2px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .tbelow{display:inline-block;margin-top:6px;font-size:12px;font-weight:600;color:var(--pos)}
@@ -243,5 +243,6 @@ dialog.sheet::backdrop{background:rgba(0,0,0,.4);backdrop-filter:blur(2px)}
 .mq{position:fixed;left:50%;bottom:16px;transform:translateX(-50%);z-index:60;display:flex;gap:2px;padding:4px;background:#fff;color:#222;border:1px solid #ddd;border-radius:12px;box-shadow:0 6px 20px rgba(0,0,0,.18);font:500 13px/1 system-ui,sans-serif}
 .mq a{padding:9px 12px;border-radius:8px;text-decoration:none;color:#333;white-space:nowrap}
 .mq a[aria-current="page"]{background:#141311;color:#fff}
-@media (max-width:860px){.mq{bottom:calc(74px + env(safe-area-inset-bottom));font-size:12px}.has-bar .mq{bottom:calc(140px + env(safe-area-inset-bottom))}.mq a{padding:7px 9px}.mq .long{display:none}}
+@media (max-width:860px){.mq{bottom:calc(74px + env(safe-area-inset-bottom));font-size:12px;left:8px;right:8px;transform:none;max-width:none;overflow-x:auto;scrollbar-width:none}.has-bar .mq{bottom:calc(140px + env(safe-area-inset-bottom))}.mq a{padding:7px 9px}.mq .long{display:none}}
 @media (prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
+.hero{grid-template-columns:minmax(0,1fr)}.hero>*{max-width:100%}
