@@ -66,6 +66,8 @@ def parfumo_search(it):
             sc += 5
         elif not conc and it['conc'] in ('EDT', 'EDP'):
             sc += 1
+        elif conc:
+            sc -= 6  # otra concentración: no vale
         if sc > score:
             best, score = url, sc
     return best if score >= 10 else None
@@ -100,7 +102,8 @@ def parfumo_page(url):
 
 def clean_text(h):
     h = re.sub(r'<script.*?</script>|<style.*?</style>', ' ', h, flags=re.S)
-    return re.sub(r'\s+', ' ', html.unescape(re.sub(r'<[^>]+>', ' ', h)))
+    t = html.unescape(re.sub(r'<[^>]+>', ' ', h))
+    return re.sub(r'\s+', ' ', re.sub(r'<[^>]*>?|https?://\S+', ' ', t))
 
 
 LV = re.compile(r'(?i)notas? de salida\s*(?::|son)\s*(.{3,220}?)\s*[.;]?\s*(?:las\s+)?notas? de coraz[oó]n\s*(?::|son)\s*(.{3,220}?)\s*[.;]?\s*(?:las\s+)?notas? de fondo\s*(?::|son)\s*(.{3,220}?)(?:\.|;| {2}|$)')
@@ -109,7 +112,12 @@ LV = re.compile(r'(?i)notas? de salida\s*(?::|son)\s*(.{3,220}?)\s*[.;]?\s*(?:la
 def split_notes(s):
     s = re.sub(r'(?i)\b(las|los|la|el|y unas?|con)\b', ' ', s)
     parts = re.split(r',|\s+y\s+|\s+e\s+|/', s)
-    return [[p.strip(' .:-').capitalize(), 1] for p in parts if 1 < len(p.strip(' .:-')) < 40]
+    out = []
+    for p in parts:
+        p = re.sub(r'\(.*?\)', '', p).strip(' .:-')
+        if re.fullmatch(r"[A-Za-zÁÉÍÓÚÜÑáéíóúüñ' -]{3,28}", p) and len(p.split()) <= 4:
+            out.append([p.capitalize(), 1])
+    return out
 
 
 def store_pyramid(it):

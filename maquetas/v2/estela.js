@@ -22,7 +22,7 @@ E.ic={
   auto:s=>I('<circle cx="12" cy="12" r="9"/><path d="M12 3v18" /><path d="M12 3a9 9 0 0 1 0 18Z" fill="currentColor" stroke="none"/>',s),
   down:s=>I('<path d="M12 5v14"/><path d="m19 12-7 7-7-7"/>',s),
 };
-E.NAME='Estela';E.TAG='';
+E.NAME='Estela';E.pre=[];E.OLD='';E.TAG='';
 E.MARK=`<svg width="30" height="20" viewBox="0 0 34 22" aria-hidden="true"><path d="M3 17c6 0 8-11 15-11s6 7 13 4" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/><circle cx="3" cy="17" r="2.8" fill="var(--accent)"/></svg>`;
 
 // tema: Automático (sigue al sistema) / Claro / Oscuro, recordado en este navegador
@@ -71,7 +71,7 @@ E.stats=()=>{const gs=E.all(),dr=E.drops(),sv=E.bySave()[0];const shops=new Set(
 E.index=()=>{const from=new Date(Date.now()-30*864e5).toISOString().slice(0,10),day={};
   for(const x of E.all()){const s=R.series(x.cur).filter(p=>p.d>=from);if(s.length<5)continue;const avg=s.reduce((a,c)=>a+c.p,0)/s.length;
     for(const p of s)(day[p.d]=day[p.d]||[]).push(p.p/avg*100)}
-  const mx=Math.max(0,...Object.values(day).map(v=>v.length));return Object.entries(day).filter(([,v])=>v.length>=mx*.6).sort().slice(1).map(([d,v])=>{v.sort((a,b)=>a-b);return {d,p:v[v.length>>1]}}) /* el primer día del historial es una sola lectura y se dispara */};
+  const mx=Math.max(0,...Object.values(day).map(v=>v.length));return Object.entries(day).filter(([,v])=>v.length>=mx*.85).sort().slice(1).map(([d,v])=>{v.sort((a,b)=>a-b);return {d,p:v[v.length>>1]}}) /* el primer día del historial es una sola lectura y se dispara */};
 E.labels=()=>({q:'«'+E.S.q+'»',g:E.S.g,tier:E.S.tier,season:E.S.season,brand:E.S.brand,fam:(E.FAMS.find(f=>f[0]===E.FAM)||['',''])[1]});
 E.today=()=>new Date().toLocaleDateString('es-ES',{weekday:'long',day:'numeric',month:'long'});
 
@@ -162,7 +162,7 @@ E.savedView=()=>{const f=E.favs(),tg=R.targets(),gs=E.all().filter(x=>f.includes
 
 E.foot=()=>{const st=E.stats();return `<footer class="wrap"><div class="foot"><div><b>${E.NAME}</b><p>Comparamos ${st.n} perfumes en ${st.shops} perfumerías españolas varias veces al día. No cobramos comisión por los enlaces.</p></div>
   <div><b>Datos</b><p>Precios y fotos de cada tienda. Notino, Primor, Druni, Arenal y Julia se leen a través de Idealo.</p></div>
-  <div><b>Última lectura</b><p>${R.agoTime(st.at)}</p></div><div><b>Código</b><p><a href="https://github.com/sombranba-bit/radar-perfumes/commits/main" target="_blank" rel="noopener">Historial de cambios</a></p></div></div></footer>`};
+  <div><b>Última lectura</b><p>${R.agoTime(st.at)}</p></div><div><b>Código</b><p><a href="https://github.com/sombranba-bit/radar-perfumes/commits/main" target="_blank" rel="noopener">Historial de cambios</a>${E.OLD?`<br><a href="${E.OLD}">Versión anterior</a>`:''}</p></div></div></footer>`};
 
 // armazón
 E.main=html=>{const m=$('main');m.innerHTML=html;document.body.classList.remove('has-bar')};
@@ -174,7 +174,7 @@ E.shell=({name,variants,catalog})=>{const nav=[['','Inicio','home'],...(catalog?
   <button class="tbtn themebtn" id="themeb" type="button"></button></nav></div></header>
   <main id="main" tabindex="-1"></main><div id="foot"></div>
   <nav class="tabbar" aria-label="Barra de secciones">${nav.map(([h,l,ic])=>`<a href="${h||'#'}" data-sec="${h}">${E.ic[ic](22)}<span>${l}</span></a>`).join('')}</nav>
-  <nav class="mq" aria-label="Maquetas">${variants.map(([f,l,s])=>`<a href="${f}" ${f===name?'aria-current="page"':''}>${l}<span class="long"> ${s}</span></a>`).join('')}<a href="../propuesta.html">Antes</a></nav>`);
+  ${variants.length?`<nav class="mq" aria-label="Maquetas">${variants.map(([f,l,s])=>`<a href="${f}" ${f===name?'aria-current="page"':''}>${l}<span class="long"> ${s}</span></a>`).join('')}<a href="../propuesta.html">Antes</a></nav>`:''}`);
   applyTheme(theme())};
 E.msearch=()=>`<div class="msearch"><div class="search">${E.ic.search(18)}<input data-q type="search" placeholder="Busca perfume, marca o nota" aria-label="Buscar perfume" value="${esc(E.S.q)}" autocomplete="off"></div></div>`;
 
@@ -219,7 +219,7 @@ document.addEventListener('change',e=>{const t=e.target;
 addEventListener('hashchange',()=>{E.route();scrollTo(0,0);$('main').focus({preventScroll:true})});
 
 E.start=async views=>{V=views;E.shell(views);
-  E.D=await R.load('../../data/');
+  E.DATA=E.DATA||'../../data/';const [D]=await Promise.all([R.load(E.DATA),...E.pre.map(f=>f())]);E.D=D;
   if(!E.D){E.main('<div class="wrap"><p class="empty">No se han podido cargar los precios. Revisa la conexión y <a href="">vuelve a intentarlo</a>.</p></div>');return}
   $('q').value=E.S.q;E.gcount();E.route()};
 window.E=E;
