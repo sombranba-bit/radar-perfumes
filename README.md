@@ -1,8 +1,10 @@
-# Estela (antes Radar de Perfumes)
+# Fragans (antes Estela y Radar de Perfumes)
 
 Comparador de precios de perfume: sigue 200 perfumes en las perfumerías españolas y enseña dónde cuesta menos cada uno y cuáles bajan hoy. La dirección web sigue siendo la del repositorio `radar-perfumes`. Funciona solo en GitHub:
 
 - **La página** (`index.html`) se publica con GitHub Pages.
+- **La página** usa `app/` (estilos, lógica y bloque olfativo) y se genera desde la maqueta con `python3 maquetas/hacer_produccion.py`. La portada anterior sigue en `anterior.html`.
+- **Las notas olfativas** (`data/notas.json`) se cargan una sola vez con **Actions → Notas olfativas → Run workflow**: pirámide y acordes de Parfumo y, si Parfumo no separa salida, corazón y fondo, la pirámide que publica la ficha de Laguna, Avenida, Parejo, Sabina o Paco. Al volver a lanzarlo solo busca los perfumes nuevos o sin notas.
 - **La pasada automática** (`.github/workflows/radar.yml`) corre cada 30 minutos, 24/7. En cada pasada:
   - revisa los 70 perfumes que llevan más tiempo sin revisar (GitHub las lanza cada 60–80 min, así que la lista completa se recorre cada ~3 horas);
   - para lanzar una pasada con todos: **Actions → Pasada de precios → Run workflow** y pon `250`;
