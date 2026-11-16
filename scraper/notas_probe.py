@@ -20,3 +20,17 @@ for k, u in urls.items():
         print(k, r.status_code, len(r.text), (t.group(1).strip()[:80] if t else ''), 'Salida' in r.text, 'accord-bar' in r.text)
     except Exception as e:
         print(k, 'ERROR', e)
+
+# contexto de las notas y de los resultados de búsqueda, para escribir el lector
+for f, kws in [('parfumo', ['Ambroxan', 'Bergamot', 'Top Notes', 'Heart Notes', 'Base Notes', 'Fresh', 'pyramid', 'notes_list']), ('parfumo_s', ['Sauvage_Eau_de_Parfum', 'Sauvage Eau de Parfum']), ('bing', ['fragrantica.es/perfume'])]:
+    h = open(f'probe/{f}.html').read()
+    for kw in kws:
+        for m in list(re.finditer(re.escape(kw), h))[:2]:
+            print('==', f, kw, m.start(), re.sub(r'\s+', ' ', h[max(0, m.start() - 400):m.start() + 400]))
+# una página de Parfumo con pirámide completa
+r = s.get('https://www.parfumo.com/Perfumes/Chanel/Bleu_de_Chanel_Eau_de_Parfum', timeout=30)
+h = r.text
+print('bleu', r.status_code)
+for kw in ['Top Notes', 'Heart Notes', 'Base Notes', 'Grapefruit']:
+    for m in list(re.finditer(kw, h))[:1]:
+        print('== bleu', kw, re.sub(r'\s+', ' ', h[max(0, m.start() - 300):m.start() + 900]))
