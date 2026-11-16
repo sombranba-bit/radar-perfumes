@@ -55,7 +55,7 @@ function catalog(){const g=E.list(),d=E.dirty();
   ${g.length?`<div class="grid">${g.slice(0,E.limit).map(E.card).join('')}</div>${E.more(g.length)}`:E.empty()}</div>`)}
 addEventListener('scroll',()=>document.body.classList.toggle('scrolled',scrollY>300),{passive:true});
 E.NAME='Fragans';E.TAG='Comparador de precios de perfume';E.MARK='<svg width="30" height="30" viewBox="0 0 28 28" aria-hidden="true"><circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M12 7.2c2.3 2.7 3.4 4.5 3.4 5.9a3.4 3.4 0 0 1-6.8 0c0-1.4 1.1-3.2 3.4-5.9Z" fill="var(--accent)"/><path d="m18.6 18.6 6 6" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></svg>';
-E.start({name:'b-secciones.html',variants:V,home,catalog});
+E.start({name:'b-fragans-1.html',variants:V,home,catalog});
 
 </script>
 </body>
