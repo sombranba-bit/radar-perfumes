@@ -12,6 +12,7 @@ OUT = os.path.join(DATA, 'notas.json')
 S = requests.Session(impersonate='chrome')
 CONC = {'EDP': 'eau de parfum', 'EDT': 'eau de toilette', 'EDC': 'eau de cologne', 'Parfum': 'parfum', 'Extrait': 'extrait', 'Elixir': 'elixir'}
 SIZE = {'xl': 100, 'l': 85, 'm': 65, 's': 45, 'xs': 30}
+BRAND = {'Armani': 'Giorgio Armani', 'YSL': 'Yves Saint Laurent', 'Paco Rabanne': 'Rabanne', 'Hugo Boss': 'Hugo Boss', 'CH': 'Carolina Herrera', 'D&G': 'Dolce & Gabbana', 'Lattafa': 'Lattafa Perfumes', 'Afnan': 'Afnan Perfumes', 'Rasasi': 'Rasasi'}
 STORE_ORDER = ('laguna', 'avenida', 'parejo', 'sabina', 'paco')
 
 
@@ -50,7 +51,8 @@ def parfumo_search(it):
         label = re.search(r'<span class="label_a[^"]*">(.*?)</span>', raw)
         name = norm(re.sub(r'<span.*?</span>', '', raw))
         conc = norm(label.group(1)) if label else ''
-        if norm(brand) != norm(it['brand']):
+        b1, b2 = norm(brand), norm(BRAND.get(it['brand'], it['brand']))
+        if not (b1 == b2 or b1.startswith(b2 + ' ') or b2.startswith(b1 + ' ') or b1.endswith(' ' + b2)):
             continue
         sc = 0
         if name == norm(it['name']):
@@ -134,7 +136,7 @@ def main():
     seen, n = set(), 0
     for it in items:
         k = key(it)
-        if k in seen or k in done:
+        if k in seen or (k in done and done[k].get('src')):
             continue
         seen.add(k)
         if n >= limit:
