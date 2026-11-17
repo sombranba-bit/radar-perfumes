@@ -1,236 +1,227 @@
 {
- "at": "2026-11-17T16:34:41+01:00",
+ "at": "2026-11-17T17:40:19+01:00",
  "revisados": 70,
  "tiendas": {
   "avenida": {
-   "ok": 33,
+   "ok": 17,
+   "bloqueada": 0,
+   "sin_precio": 1,
+   "dudoso": 0,
+   "variantes": 17
+  },
+  "douglas": {
+   "ok": 3,
    "bloqueada": 0,
    "sin_precio": 3,
-   "dudoso": 2,
-   "variantes": 31,
-   "jsonld": 2,
-   "ejemplos": [
-    {
-     "perfume": "versace-bright-crystal-edt-90",
-     "precio": 89.95,
-     "referencia": 59.95,
-     "metodo": "variantes"
-    },
-    {
-     "perfume": "versace-eros-flame-edp-100",
-     "precio": 89.95,
-     "referencia": 59.95,
-     "metodo": "variantes"
-    }
-   ]
+   "dudoso": 0,
+   "precio-100ml": 3
   },
   "idealo": {
    "ok": 64,
    "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "jsonld-url": 61,
-   "jsonld": 3
-  },
-  "notino": {
-   "ok": 4,
-   "bloqueada": 52,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "via_idealo": 25,
-   "jsonld": 4
+   "sin_precio": 1,
+   "dudoso": 2,
+   "jsonld-url": 57,
+   "ejemplos": [
+    {
+     "perfume": "jean-paul-gaultier-le-male-le-parfum-edp-125",
+     "precio": 39.95,
+     "referencia": 86.95,
+     "metodo": "jsonld"
+    },
+    {
+     "perfume": "creed-silver-mountain-water-edp-100",
+     "precio": 31.87,
+     "referencia": 320.0,
+     "metodo": "texto"
+    }
+   ],
+   "jsonld": 6,
+   "texto": 1
   },
   "primor": {
    "ok": 0,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "via_idealo": 40
-  },
-  "druni": {
-   "ok": 0,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "via_idealo": 44
+   "via_idealo": 32
   },
   "arenal": {
    "ok": 0,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "via_idealo": 42
+   "via_idealo": 35
+  },
+  "druni": {
+   "ok": 0,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "via_idealo": 37
   },
   "julia": {
    "ok": 0,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "via_idealo": 51
+   "via_idealo": 40
+  },
+  "notino": {
+   "ok": 8,
+   "bloqueada": 44,
+   "sin_precio": 0,
+   "dudoso": 1,
+   "via_idealo": 23,
+   "jsonld": 8,
+   "ejemplos": [
+    {
+     "perfume": "carolina-herrera-212-men-edt-100",
+     "precio": 113.8,
+     "referencia": 50.55,
+     "metodo": "jsonld"
+    }
+   ]
   },
   "laguna": {
-   "ok": 42,
+   "ok": 23,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "jsonld-url": 17,
-   "jsonld": 13,
-   "precio-100ml": 12
+   "jsonld": 9,
+   "jsonld-url": 9,
+   "precio-100ml": 5
   },
-  "paco": {
-   "ok": 49,
+  "lookfantastic": {
+   "ok": 20,
    "bloqueada": 0,
-   "sin_precio": 4,
-   "dudoso": 2,
-   "jsonld": 48,
+   "sin_precio": 2,
+   "dudoso": 11,
+   "jsonld": 20,
    "ejemplos": [
     {
-     "perfume": "azzaro-chrome-edt-100",
-     "precio": 116.0,
-     "referencia": 48.7,
+     "perfume": "hugo-boss-hugo-man-edt-125",
+     "precio": 61.99,
+     "referencia": 34.95,
+     "metodo": "jsonld"
+    },
+    {
+     "perfume": "jean-paul-gaultier-le-male-le-parfum-edp-125",
+     "precio": 115.0,
+     "referencia": 86.95,
      "metodo": "texto"
     },
     {
-     "perfume": "hugo-boss-boss-bottled-absolu-parfum-100",
-     "precio": 140.0,
-     "referencia": 85.85,
+     "perfume": "carolina-herrera-212-men-edt-100",
+     "precio": 103.5,
+     "referencia": 52.95,
+     "metodo": "jsonld"
+    }
+   ]
+  },
+  "sabina": {
+   "ok": 41,
+   "bloqueada": 0,
+   "sin_precio": 7,
+   "dudoso": 0,
+   "texto": 1,
+   "jsonld": 36,
+   "precio-100ml": 4,
+   "via_idealo": 2
+  },
+  "brasty": {
+   "ok": 0,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "via_idealo": 23
+  },
+  "sephora": {
+   "ok": 0,
+   "bloqueada": 20,
+   "sin_precio": 0,
+   "dudoso": 2,
+   "ejemplos": [
+    {
+     "perfume": "acqua-di-parma-colonia-edc-100",
+     "precio": 126.0,
+     "referencia": 96.71,
+     "metodo": "texto"
+    },
+    {
+     "perfume": "hugo-boss-hugo-man-edt-125",
+     "precio": 80.0,
+     "referencia": 34.95,
+     "metodo": "variantes"
+    }
+   ]
+  },
+  "paco": {
+   "ok": 39,
+   "bloqueada": 0,
+   "sin_precio": 1,
+   "dudoso": 1,
+   "jsonld": 38,
+   "ejemplos": [
+    {
+     "perfume": "armani-acqua-di-gio-profondo-edp-75",
+     "precio": 50.0,
+     "referencia": null,
      "metodo": "texto"
     }
    ],
    "precio-100ml": 1
   },
   "parejo": {
-   "ok": 15,
+   "ok": 16,
    "bloqueada": 0,
    "sin_precio": 0,
-   "dudoso": 4,
-   "jsonld": 15,
-   "ejemplos": [
-    {
-     "perfume": "rabanne-fame-edp-80",
-     "precio": 113.9,
-     "referencia": 69.95,
-     "metodo": "jsonld"
-    },
-    {
-     "perfume": "viktor-rolf-spicebomb-extreme-edp-90",
-     "precio": 116.45,
-     "referencia": 71.09,
-     "metodo": "jsonld"
-    },
-    {
-     "perfume": "yves-saint-laurent-black-opium-edp-90",
-     "precio": 153.0,
-     "referencia": 82.69,
-     "metodo": "jsonld"
-    }
-   ]
-  },
-  "sabina": {
-   "ok": 44,
-   "bloqueada": 0,
-   "sin_precio": 6,
-   "dudoso": 0,
-   "jsonld": 42,
-   "via_idealo": 13,
-   "precio-100ml": 1,
-   "texto": 1
-  },
-  "lookfantastic": {
-   "ok": 32,
-   "bloqueada": 0,
-   "sin_precio": 2,
-   "dudoso": 13,
-   "ejemplos": [
-    {
-     "perfume": "mugler-alien-edp-60",
-     "precio": 113.85,
-     "referencia": 73.95,
-     "metodo": "texto"
-    },
-    {
-     "perfume": "narciso-rodriguez-bleu-noir-edp-100",
-     "precio": 97.46,
-     "referencia": 59.95,
-     "metodo": "jsonld"
-    },
-    {
-     "perfume": "rabanne-fame-edp-80",
-     "precio": 117.76,
-     "referencia": 69.95,
-     "metodo": "jsonld"
-    }
-   ],
-   "jsonld": 31,
-   "texto": 1
-  },
-  "brasty": {
-   "ok": 4,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "jsonld": 4,
-   "via_idealo": 18
-  },
-  "firstinfragrance": {
-   "ok": 3,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "jsonld": 3
-  },
-  "sephora": {
-   "ok": 1,
-   "bloqueada": 14,
-   "sin_precio": 13,
-   "dudoso": 0,
-   "variantes": 1
-  },
-  "douglas": {
-   "ok": 2,
-   "bloqueada": 0,
-   "sin_precio": 5,
    "dudoso": 1,
-   "precio-100ml": 2,
+   "jsonld": 16,
    "ejemplos": [
     {
-     "perfume": "chanel-chanel-n-5-edp-100",
-     "precio": 727.09,
-     "referencia": 138.95,
-     "metodo": "precio-100ml"
+     "perfume": "dior-sauvage-parfum-parfum-100",
+     "precio": 176.8,
+     "referencia": 115.95,
+     "metodo": "jsonld"
     }
    ]
+  },
+  "perfumesclub": {
+   "ok": 5,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "jsonld": 5
   },
   "beautinow": {
    "ok": 0,
    "bloqueada": 0,
-   "sin_precio": 3,
+   "sin_precio": 6,
    "dudoso": 0
   },
-  "perfumesclub": {
-   "ok": 6,
+  "firstinfragrance": {
+   "ok": 10,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "jsonld": 6
+   "jsonld": 10
   },
   "arabicparfums": {
-   "ok": 1,
+   "ok": 4,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "jsonld": 1
-  },
-  "makeup": {
-   "ok": 0,
-   "bloqueada": 0,
-   "sin_precio": 3,
-   "dudoso": 0
+   "jsonld": 3,
+   "jsonld-url": 1
   }
  },
  "limpiados": {
+  "dolce-gabbana-light-blue-edt-100": [
+   "lookfantastic"
+  ],
   "jean-paul-gaultier-la-belle-edp-100": [
-   "sephora"
+   "lookfantastic"
   ]
  },
  "chollometro": "ok 84"
