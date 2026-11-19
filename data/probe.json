@@ -1,5 +1,5 @@
 {
- "at": "2026-11-18T12:10:26+01:00",
+ "at": "2026-11-19T14:54:48+01:00",
  "tiendas": {
   "primor": {
    "url": "https://www.primor.eu/es_es/catalogsearch/result/?q=boss+bottled",
@@ -29,9 +29,9 @@
   "douglas": {
    "url": "https://www.douglas.es/es/search?q=boss%20bottled",
    "codigo": 200,
-   "kb": 1681,
+   "kb": 1680,
    "titulo": "Resultados para \"boss bottled\"",
-   "precios_eur": 494,
+   "precios_eur": 458,
    "jsonld": 1,
    "menciona_boss": 957,
    "estado": "con precios"
@@ -39,7 +39,7 @@
   "eci": {
    "url": "https://www.elcorteingles.es/buscar/?s=boss+bottled",
    "codigo": 404,
-   "kb": 318,
+   "kb": 319,
    "titulo": "El Corte Inglés",
    "precios_eur": 0,
    "jsonld": 0,
@@ -48,22 +48,22 @@
   },
   "amazon": {
    "url": "https://www.amazon.es/s?k=boss+bottled+edt+100+ml",
-   "codigo": 200,
-   "kb": 811,
-   "titulo": "Amazon.es : boss bottled edt 100 ml",
-   "precios_eur": 2,
+   "codigo": 503,
+   "kb": 1,
+   "titulo": "Lo sentimos.",
+   "precios_eur": 0,
    "jsonld": 0,
-   "menciona_boss": 116,
-   "estado": "entra, sin precios"
+   "menciona_boss": 0,
+   "estado": "bloqueada"
   },
   "idealo": {
    "url": "https://www.idealo.es/resultados.html?q=boss+bottled",
    "codigo": 200,
-   "kb": 1065,
+   "kb": 1070,
    "titulo": "boss bottled en idealo.es",
    "precios_eur": 131,
    "jsonld": 0,
-   "menciona_boss": 562,
+   "menciona_boss": 561,
    "estado": "con precios"
   },
   "bodybell": {
@@ -124,11 +124,11 @@
   "makeup": {
    "url": "https://makeup.es/search/?q=boss+bottled",
    "codigo": 200,
-   "kb": 1018,
+   "kb": 1038,
    "titulo": "Resultados de la búsqueda | Makeup.es",
-   "precios_eur": 63,
+   "precios_eur": 179,
    "jsonld": 3,
-   "menciona_boss": 315,
+   "menciona_boss": 314,
    "estado": "con precios"
   },
   "gotta": {
@@ -153,20 +153,20 @@
   },
   "sephora": {
    "url": "https://www.sephora.es/buscar?q=boss%20bottled",
-   "codigo": 403,
-   "kb": 0,
-   "titulo": "Access Denied",
+   "codigo": 200,
+   "kb": 2,
+   "titulo": null,
    "precios_eur": 0,
    "jsonld": 0,
    "menciona_boss": 0,
-   "estado": "bloqueada"
+   "estado": "entra, sin precios"
   },
   "lookfantastic": {
    "url": "https://www.lookfantastic.es/search?q=boss+bottled",
    "codigo": 200,
-   "kb": 602,
+   "kb": 598,
    "titulo": "Resultado encontrado para \"boss bottled\"",
-   "precios_eur": 107,
+   "precios_eur": 101,
    "jsonld": 1,
    "menciona_boss": 265,
    "estado": "con precios"
