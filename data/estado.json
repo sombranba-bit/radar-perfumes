@@ -1,5 +1,5 @@
 {
- "at": "2026-11-20T11:55:39+01:00",
+ "at": "2026-11-20T12:06:11+01:00",
  "revisados": 70,
  "tiendas": {
   "idealo": {
@@ -11,20 +11,11 @@
    "jsonld": 3
   },
   "notino": {
-   "ok": 4,
-   "bloqueada": 35,
+   "ok": 0,
+   "bloqueada": 40,
    "sin_precio": 0,
-   "dudoso": 1,
-   "via_idealo": 21,
-   "ejemplos": [
-    {
-     "perfume": "tom-ford-oud-wood-edp-50",
-     "precio": 260.0,
-     "referencia": 168.44,
-     "metodo": "jsonld"
-    }
-   ],
-   "jsonld": 4
+   "dudoso": 0,
+   "via_idealo": 21
   },
   "sabina": {
    "ok": 32,
@@ -72,11 +63,11 @@
    ]
   },
   "sephora": {
-   "ok": 6,
-   "bloqueada": 0,
-   "sin_precio": 19,
+   "ok": 1,
+   "bloqueada": 24,
+   "sin_precio": 0,
    "dudoso": 0,
-   "variantes": 6
+   "variantes": 1
   },
   "primor": {
    "ok": 0,
@@ -188,8 +179,8 @@
   },
   "beautinow": {
    "ok": 0,
-   "bloqueada": 0,
-   "sin_precio": 3,
+   "bloqueada": 3,
+   "sin_precio": 0,
    "dudoso": 0
   },
   "perfumesclub": {
