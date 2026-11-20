@@ -13,15 +13,6 @@ CAND = {
  'avenida': ['https://www.perfumeriasavenida.com/busqueda?controller=search&s={q}', 'https://www.perfumeriasavenida.com/search?q={q}', 'https://www.perfumeriasavenida.com/catalogsearch/result/?q={q}'],
  'parejo': ['https://www.joyeriaparejo.com/busqueda?s={q}', 'https://www.joyeriaparejo.com/search?q={q}', 'https://www.joyeriaparejo.com/catalogsearch/result/?q={q}', 'https://www.joyeriaparejo.com/?s={q}'],
 }
-q = 'versace+eros+eau+de+parfum'
-for shop, tpls in CAND.items():
-    for t in tpls:
-        try:
-            r = get(t.format(q=q))
-            print('##', shop, t, r.status_code, len(r.text), 'eros' in r.text.lower(), 'best=', best_link(r.text, t, it))
-        except Exception as e:
-            print('##', shop, t, 'ERR', e)
-        time.sleep(1)
 n = json.load(open('data/notas.json'))
 for i in d:
     k = key(i)
