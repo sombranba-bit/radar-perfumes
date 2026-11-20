@@ -43,7 +43,8 @@ jobs:
           git add data/
           git diff --cached --quiet && exit 0
           git commit -m "Pasada $(TZ=Europe/Madrid date '+%Y-%m-%d %H:%M')"
-          git pull --rebase --autostash
+          # si otra pasada guardó a la vez, en las líneas que choquen gana esta (la más reciente)
+          git pull --rebase --autostash -X theirs
           git push
 
   # GitHub retrasa los programados (a veces 6-9 h): cada pasada deja programada la siguiente, unos 35 min después.
