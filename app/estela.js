@@ -59,7 +59,8 @@ document.addEventListener('error',e=>{const im=e.target;if(im.tagName!=='IMG')re
 
 // grupos y cifras
 E.all=()=>R.groups(E.D.items,R.DEFAULTS,E.sizeSel);
-E.list=(s=E.S)=>R.groups(E.D.items,s,E.sizeSel).filter(x=>!E.FAM||E.famOf(x.cur)?.[0]===E.FAM);
+// los recién añadidos no salen en el catálogo hasta que alguna tienda les da precio
+E.list=(s=E.S)=>R.groups(E.D.items,s,E.sizeSel).filter(x=>x.vars.some(v=>v.b)&&(!E.FAM||E.famOf(x.cur)?.[0]===E.FAM));
 E.dirty=()=>{const d=['q','g','tier','season','brand'].filter(k=>E.S[k]!==R.DEFAULTS[k]);if(E.FAM)d.push('fam');return d};
 E.drops=()=>R.groups(E.D.items,{...R.DEFAULTS,sort:'drop'},E.sizeSel).filter(x=>x.cur.dr&&x.cur.dr.pct<=-3);
 E.bySave=()=>E.all().map(x=>({x,s:R.spread(x.cur)})).filter(o=>o.s&&o.s.save>=1).sort((a,b)=>b.s.save-a.s.save).map(o=>o.x);
