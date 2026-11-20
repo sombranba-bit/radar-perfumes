@@ -212,7 +212,7 @@
    "lookfantastic": "2026-11-16",
    "sephora": "2026-11-20"
   },
-  "checked": "2026-11-20T14:22:07+01:00",
+  "checked": "2026-11-20T15:24:27+01:00",
   "conc": "EDP",
   "deals": [
    {
@@ -594,7 +594,7 @@
    "lookfantastic": "2026-11-16",
    "sephora": "2026-11-20"
   },
-  "checked": "2026-11-20T14:22:15+01:00",
+  "checked": "2026-11-20T15:24:36+01:00",
   "conc": "EDP",
   "deals": [
    {
@@ -1199,7 +1199,7 @@
    },
    {
     "d": "2026-11-20",
-    "p": 45.66,
+    "p": 45.65,
     "s": "idealo"
    },
    {
@@ -1240,7 +1240,7 @@
     "auto": true,
     "d": "2026-11-20",
     "gh": true,
-    "p": 45.66
+    "p": 45.65
    },
    "laguna": {
     "auto": true,
@@ -35007,7 +35007,7 @@
    "parejo": "2026-11-20",
    "sephora": "2026-11-20"
   },
-  "checked": "2026-11-20T14:21:36+01:00",
+  "checked": "2026-11-20T15:23:52+01:00",
   "conc": "EDT",
   "deals": [
    {
@@ -35886,11 +35886,6 @@
    },
    {
     "d": "2026-11-20",
-    "p": 28.43,
-    "s": "notino"
-   },
-   {
-    "d": "2026-11-20",
     "p": 19.9,
     "s": "idealo"
    },
@@ -35898,6 +35893,11 @@
     "d": "2026-11-20",
     "p": 21.95,
     "s": "laguna"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 28.42,
+    "s": "notino"
    },
    {
     "d": "2026-11-20",
@@ -35966,8 +35966,7 @@
     "auto": true,
     "d": "2026-11-20",
     "gh": true,
-    "p": 28.43,
-    "via": "idealo"
+    "p": 28.42
    },
    "paco": {
     "auto": true,
@@ -42796,7 +42795,7 @@
    "paco": "2026-11-20",
    "sephora": "2026-11-20"
   },
-  "checked": "2026-11-20T14:21:40+01:00",
+  "checked": "2026-11-20T15:23:57+01:00",
   "conc": "EDT",
   "history": [
    {
@@ -43226,7 +43225,7 @@
    "lookfantastic": "2026-11-16",
    "sephora": "2026-11-20"
   },
-  "checked": "2026-11-20T14:21:45+01:00",
+  "checked": "2026-11-20T15:24:02+01:00",
   "conc": "EDT",
   "history": [
    {
@@ -45000,7 +44999,7 @@
    "lookfantastic": "2026-10-26",
    "sephora": "2026-11-20"
   },
-  "checked": "2026-11-20T14:21:55+01:00",
+  "checked": "2026-11-20T15:24:14+01:00",
   "conc": "EDT",
   "history": [
    {
@@ -94952,7 +94951,7 @@
    "parejo": "2026-11-20",
    "sephora": "2026-11-13"
   },
-  "checked": "2026-11-20T14:21:19+01:00",
+  "checked": "2026-11-20T15:23:34+01:00",
   "conc": "EDT",
   "history": [
    {
@@ -96510,7 +96509,7 @@
    "lookfantastic": "2026-10-26",
    "sephora": "2026-11-20"
   },
-  "checked": "2026-11-20T14:21:58+01:00",
+  "checked": "2026-11-20T15:24:18+01:00",
   "conc": "EDP",
   "deals": [
    {
@@ -126304,7 +126303,7 @@
    "lookfantastic": "2026-11-16",
    "sephora": "2026-11-20"
   },
-  "checked": "2026-11-20T14:22:03+01:00",
+  "checked": "2026-11-20T15:24:23+01:00",
   "conc": "EDP",
   "deals": [
    {
@@ -136866,7 +136865,7 @@
    "parejo": "2026-11-20",
    "sephora": "2026-11-20"
   },
-  "checked": "2026-11-20T15:02:49+01:00",
+  "checked": "2026-11-20T15:23:28+01:00",
   "conc": "EDC",
   "deals": [],
   "history": [],
@@ -137259,7 +137258,7 @@
    "parejo": "2026-11-20",
    "sephora": "2026-11-20"
   },
-  "checked": "2026-11-20T15:02:49+01:00",
+  "checked": "2026-11-20T15:23:28+01:00",
   "conc": "EDP",
   "deals": [],
   "history": [],
@@ -137274,118 +137273,641 @@
  },
  {
   "brand": "Chanel",
+  "buscado": {
+   "douglas": "2026-11-20",
+   "idealo": "2026-11-20",
+   "lookfantastic": "2026-11-20",
+   "paco": "2026-11-20",
+   "parejo": "2026-11-20",
+   "sephora": "2026-11-20"
+  },
+  "checked": "2026-11-20T15:15:46+01:00",
   "conc": "EDP",
   "deals": [],
-  "history": [],
+  "history": [
+   {
+    "d": "2026-11-20",
+    "p": 118.4,
+    "s": "paco"
+   }
+  ],
   "id": "chanel-allure-homme-edition-blanche-edp-100",
-  "images": {},
+  "images": {
+   "paco": "https://www.pacoperfumerias.com/on/demandware.static/-/Sites-pacoper-master-catalog/default/dw5f81f245/images/1/1/116189_2.jpg"
+  },
   "ml": 100,
   "name": "Allure Homme Édition Blanche",
-  "prices": {},
+  "prices": {
+   "paco": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 118.4
+   }
+  },
   "target": null,
   "tier": null,
-  "urls": {}
+  "urls": {
+   "idealo": "https://www.idealo.es/precios/5474123/chanel-allure-homme-edition-blanche-eau-de-parfum.html",
+   "paco": "https://www.pacoperfumerias.com/chanel-allure-homme-edition-blanche-22268.html"
+  }
  },
  {
   "brand": "Hermès",
+  "buscado": {
+   "douglas": "2026-11-20",
+   "idealo": "2026-11-20",
+   "lookfantastic": "2026-11-20",
+   "paco": "2026-11-20",
+   "parejo": "2026-11-20",
+   "sephora": "2026-11-20"
+  },
+  "checked": "2026-11-20T15:16:00+01:00",
   "conc": "Parfum",
   "deals": [],
-  "history": [],
+  "history": [
+   {
+    "d": "2026-11-20",
+    "p": 94.5,
+    "s": "notino"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 99.95,
+    "s": "julia"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 103.36,
+    "s": "sabina"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 109.95,
+    "s": "arenal"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 109.95,
+    "s": "druni"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 109.95,
+    "s": "primor"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 82.1,
+    "s": "idealo"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 109.95,
+    "s": "paco"
+   }
+  ],
   "id": "hermes-terre-d-hermes-parfum-parfum-75",
-  "images": {},
+  "images": {
+   "idealo": "https://cdn.idealo.com/folder/Product/206097/7/206097751/s11_produktbild_gross/hermes-terre-d-hermes-parfum-75ml.jpg",
+   "paco": "https://www.pacoperfumerias.com/on/demandware.static/-/Sites-pacoper-master-catalog/default/dw595c04ae/images/2/0/200878_2.jpg"
+  },
   "ml": 75,
   "name": "Terre d'Hermès Parfum",
-  "prices": {},
+  "prices": {
+   "arenal": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 109.95,
+    "via": "idealo"
+   },
+   "druni": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 109.95,
+    "via": "idealo"
+   },
+   "idealo": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 82.1
+   },
+   "julia": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 99.95,
+    "via": "idealo"
+   },
+   "notino": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 94.5,
+    "via": "idealo"
+   },
+   "paco": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 109.95
+   },
+   "primor": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 109.95,
+    "via": "idealo"
+   },
+   "sabina": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 103.36,
+    "via": "idealo"
+   }
+  },
   "target": null,
   "tier": null,
-  "urls": {}
+  "urls": {
+   "idealo": "https://www.idealo.es/precios/206097751/hermes-terre-d-hermes-parfum-75ml.html",
+   "paco": "https://www.pacoperfumerias.com/terre-d-hermes-2933.html"
+  }
  },
  {
   "brand": "Guerlain",
+  "buscado": {
+   "douglas": "2026-11-20",
+   "idealo": "2026-11-20",
+   "lookfantastic": "2026-11-20",
+   "paco": "2026-11-20",
+   "parejo": "2026-11-20",
+   "sephora": "2026-11-20"
+  },
+  "checked": "2026-11-20T15:16:16+01:00",
   "conc": "EDT",
   "deals": [],
-  "history": [],
+  "history": [
+   {
+    "d": "2026-11-20",
+    "p": 74.52,
+    "s": "brasty"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 74.01,
+    "s": "idealo"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 68.84,
+    "s": "paco"
+   }
+  ],
   "id": "guerlain-habit-rouge-edt-100",
-  "images": {},
+  "images": {
+   "idealo": "https://cdn.idealo.com/folder/Product/600/8/600821/s11_produktbild_gross/guerlain-habit-rouge-eau-de-toilette-100-ml.jpg",
+   "paco": "https://www.pacoperfumerias.com/on/demandware.static/-/Sites-pacoper-master-catalog/default/dw98465360/images/2/0/204958_2.jpg"
+  },
   "ml": 100,
   "name": "Habit Rouge",
-  "prices": {},
+  "prices": {
+   "brasty": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 74.52,
+    "via": "idealo"
+   },
+   "idealo": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 74.01
+   },
+   "paco": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 68.84
+   }
+  },
   "target": null,
   "tier": null,
-  "urls": {}
+  "urls": {
+   "idealo": "https://www.idealo.es/precios/600821/guerlain-habit-rouge-eau-de-toilette-100-ml.html",
+   "paco": "https://www.pacoperfumerias.com/guerlain-habit-rouge-eau-de-toilette-1549.html"
+  }
  },
  {
   "brand": "Montblanc",
+  "buscado": {
+   "douglas": "2026-11-20",
+   "idealo": "2026-11-20",
+   "lookfantastic": "2026-11-20",
+   "paco": "2026-11-20",
+   "parejo": "2026-11-20",
+   "sephora": "2026-11-20"
+  },
+  "checked": "2026-11-20T15:16:30+01:00",
   "conc": "EDP",
   "deals": [],
-  "history": [],
+  "history": [
+   {
+    "d": "2026-11-20",
+    "p": 49.95,
+    "s": "arenal"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 49.95,
+    "s": "druni"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 56.91,
+    "s": "sabina"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 40.31,
+    "s": "idealo"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 49.95,
+    "s": "paco"
+   }
+  ],
   "id": "montblanc-explorer-platinum-edp-100",
-  "images": {},
+  "images": {
+   "paco": "https://www.pacoperfumerias.com/on/demandware.static/-/Sites-pacoper-master-catalog/default/dw8c55788f/images/2/1/211703_2.jpg"
+  },
   "ml": 100,
   "name": "Explorer Platinum",
-  "prices": {},
+  "prices": {
+   "arenal": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 49.95,
+    "via": "idealo"
+   },
+   "druni": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 49.95,
+    "via": "idealo"
+   },
+   "idealo": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 40.31
+   },
+   "paco": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 49.95
+   },
+   "sabina": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 56.91,
+    "via": "idealo"
+   }
+  },
   "target": null,
   "tier": null,
-  "urls": {}
+  "urls": {
+   "idealo": "https://www.idealo.es/precios/203035553/montblanc-explorer-platinum-eau-de-parfum-100ml.html",
+   "paco": "https://www.pacoperfumerias.com/montblanc-explorer-platinum-26974.html"
+  }
  },
  {
   "brand": "Rabanne",
+  "buscado": {
+   "douglas": "2026-11-20",
+   "idealo": "2026-11-20",
+   "lookfantastic": "2026-11-20",
+   "paco": "2026-11-20",
+   "parejo": "2026-11-20",
+   "sephora": "2026-11-20"
+  },
+  "checked": "2026-11-20T15:16:43+01:00",
   "conc": "EDP",
   "deals": [],
-  "history": [],
+  "history": [
+   {
+    "d": "2026-11-20",
+    "p": 166.0,
+    "s": "idealo"
+   }
+  ],
   "id": "rabanne-invictus-platinum-edp-100",
-  "images": {},
+  "images": {
+   "idealo": "https://cdn.idealo.com/folder/Product/201897/5/201897583/s11_produktbild_gross/paco-rabanne-invictus-platinum-eau-de-parfum.jpg"
+  },
   "ml": 100,
   "name": "Invictus Platinum",
-  "prices": {},
+  "prices": {
+   "idealo": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 166.0
+   }
+  },
   "target": null,
   "tier": null,
-  "urls": {}
+  "urls": {
+   "idealo": "https://www.idealo.es/precios/201897583/paco-rabanne-invictus-platinum-eau-de-parfum.html"
+  }
  },
  {
   "brand": "Rabanne",
+  "buscado": {
+   "douglas": "2026-11-20",
+   "idealo": "2026-11-20",
+   "lookfantastic": "2026-11-20",
+   "paco": "2026-11-20",
+   "parejo": "2026-11-20",
+   "sephora": "2026-11-20"
+  },
+  "checked": "2026-11-20T15:16:56+01:00",
   "conc": "EDT",
   "deals": [],
-  "history": [],
+  "history": [
+   {
+    "d": "2026-11-20",
+    "p": 58.55,
+    "s": "brasty"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 67.26,
+    "s": "julia"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 58.55,
+    "s": "idealo"
+   }
+  ],
   "id": "rabanne-pure-xs-edt-100",
-  "images": {},
+  "images": {
+   "idealo": "https://cdn.idealo.com/folder/Product/5655/0/5655022/s11_produktbild_gross/paco-rabanne-pure-xs-eau-de-toilette-100-ml.jpg"
+  },
   "ml": 100,
   "name": "Pure XS",
-  "prices": {},
+  "prices": {
+   "brasty": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 58.55,
+    "via": "idealo"
+   },
+   "idealo": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 58.55
+   },
+   "julia": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 67.26,
+    "via": "idealo"
+   }
+  },
   "target": null,
   "tier": null,
-  "urls": {}
+  "urls": {
+   "idealo": "https://www.idealo.es/precios/5655022/paco-rabanne-pure-xs-eau-de-toilette-100-ml.html",
+   "paco": "https://www.pacoperfumerias.com/paco-rabanne-pure-xs-for-her-15761.html",
+   "parejo": "https://www.joyeriaparejo.com/perfumes/pure-xs-vapo-100-ml-eau-de-toilette-paco-rabanne"
+  }
  },
  {
   "brand": "Yves Saint Laurent",
+  "buscado": {
+   "douglas": "2026-11-20",
+   "idealo": "2026-11-20",
+   "lookfantastic": "2026-11-20",
+   "paco": "2026-11-20",
+   "parejo": "2026-11-20",
+   "sephora": "2026-11-20"
+  },
+  "checked": "2026-11-20T15:17:10+01:00",
   "conc": "Elixir",
   "deals": [],
-  "history": [],
+  "history": [
+   {
+    "d": "2026-11-20",
+    "p": 87.75,
+    "s": "julia"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 76.34,
+    "s": "idealo"
+   }
+  ],
   "id": "yves-saint-laurent-y-elixir-elixir-60",
-  "images": {},
+  "images": {
+   "idealo": "https://cdn.idealo.com/folder/Product/203918/4/203918442/s11_produktbild_gross/yves-saint-laurent-y-l-elixir-parfum-60ml.jpg"
+  },
   "ml": 60,
   "name": "Y Elixir",
-  "prices": {},
+  "prices": {
+   "idealo": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 76.34
+   },
+   "julia": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 87.75,
+    "via": "idealo"
+   }
+  },
   "target": null,
   "tier": null,
-  "urls": {}
+  "urls": {
+   "idealo": "https://www.idealo.es/precios/203918442/yves-saint-laurent-y-l-elixir-parfum-60ml.html"
+  }
  },
  {
   "brand": "Versace",
+  "buscado": {
+   "douglas": "2026-11-20",
+   "idealo": "2026-11-20",
+   "lookfantastic": "2026-11-20",
+   "paco": "2026-11-20",
+   "parejo": "2026-11-20",
+   "sephora": "2026-11-20"
+  },
+  "checked": "2026-11-20T15:17:29+01:00",
   "conc": "EDP",
   "deals": [],
-  "history": [],
+  "history": [
+   {
+    "d": "2026-11-20",
+    "p": 62.94,
+    "s": "primor"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 62.95,
+    "s": "arenal"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 62.95,
+    "s": "druni"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 63.24,
+    "s": "brasty"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 66.0,
+    "s": "notino"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 71.99,
+    "s": "sabina"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 74.95,
+    "s": "julia"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 59.92,
+    "s": "idealo"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 62.94,
+    "s": "paco"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 85.0,
+    "s": "parejo"
+   }
+  ],
   "id": "versace-eros-energy-edp-100",
-  "images": {},
+  "images": {
+   "paco": "https://www.pacoperfumerias.com/on/demandware.static/-/Sites-pacoper-master-catalog/default/dw1e621fae/images/2/2/221358_2.jpg",
+   "parejo": "https://www.joyeriaparejo.com/56892-large_default/versace-eros-energy-eau-de-parfum-100-ml-hombre.jpg"
+  },
   "ml": 100,
   "name": "Eros Energy",
-  "prices": {},
+  "prices": {
+   "arenal": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 62.95,
+    "via": "idealo"
+   },
+   "brasty": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 63.24,
+    "via": "idealo"
+   },
+   "druni": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 62.95,
+    "via": "idealo"
+   },
+   "idealo": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 59.92
+   },
+   "julia": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 74.95,
+    "via": "idealo"
+   },
+   "notino": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 66.0,
+    "via": "idealo"
+   },
+   "paco": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 62.94
+   },
+   "parejo": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 85.0
+   },
+   "primor": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 62.94,
+    "via": "idealo"
+   },
+   "sabina": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 71.99,
+    "via": "idealo"
+   }
+  },
   "target": null,
   "tier": null,
-  "urls": {}
+  "urls": {
+   "idealo": "https://www.idealo.es/precios/204714688/versace-eros-energy-eau-de-parfum-100ml.html",
+   "paco": "https://www.pacoperfumerias.com/versace-eros-energy-34611.html",
+   "parejo": "https://www.joyeriaparejo.com/perfumes/versace-eros-energy-eau-de-parfum-100-ml-hombre"
+  }
  },
  {
   "brand": "Jean Paul Gaultier",
+  "buscado": {
+   "douglas": "2026-11-20",
+   "idealo": "2026-11-20",
+   "lookfantastic": "2026-11-20",
+   "paco": "2026-11-20",
+   "parejo": "2026-11-20",
+   "sephora": "2026-11-20"
+  },
+  "checked": "2026-11-20T15:17:40+01:00",
   "conc": "EDP",
   "deals": [],
   "history": [],
@@ -137400,230 +137922,956 @@
  },
  {
   "brand": "Bvlgari",
+  "buscado": {
+   "douglas": "2026-11-20",
+   "idealo": "2026-11-20",
+   "lookfantastic": "2026-11-20",
+   "paco": "2026-11-20",
+   "parejo": "2026-11-20",
+   "sephora": "2026-11-20"
+  },
+  "checked": "2026-11-20T15:17:55+01:00",
   "conc": "EDP",
   "deals": [],
-  "history": [],
+  "history": [
+   {
+    "d": "2026-11-20",
+    "p": 105.74,
+    "s": "primor"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 105.75,
+    "s": "arenal"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 105.75,
+    "s": "druni"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 111.0,
+    "s": "julia"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 120.0,
+    "s": "notino"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 79.89,
+    "s": "idealo"
+   }
+  ],
   "id": "bvlgari-man-wood-essence-edp-100",
-  "images": {},
+  "images": {
+   "idealo": "https://cdn.idealo.com/folder/Product/6261/2/6261281/s11_produktbild_gross/bulgari-man-wood-essence-eau-de-parfum-100ml.jpg",
+   "paco": "https://www.pacoperfumerias.com/on/demandware.static/-/Sites-pacoper-master-catalog/default/dw25da3284/images/1/7/170295_2.jpg"
+  },
   "ml": 100,
   "name": "Man Wood Essence",
-  "prices": {},
+  "prices": {
+   "arenal": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 105.75,
+    "via": "idealo"
+   },
+   "druni": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 105.75,
+    "via": "idealo"
+   },
+   "idealo": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 79.89
+   },
+   "julia": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 111.0,
+    "via": "idealo"
+   },
+   "notino": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 120.0,
+    "via": "idealo"
+   },
+   "paco": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 105.75,
+    "stock": false
+   },
+   "primor": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 105.74,
+    "via": "idealo"
+   }
+  },
   "target": null,
   "tier": null,
-  "urls": {}
+  "urls": {
+   "idealo": "https://www.idealo.es/precios/6261281/bulgari-man-wood-essence-eau-de-parfum-100ml.html",
+   "paco": "https://www.pacoperfumerias.com/bulgari-man-wood-essence-15489.html"
+  }
  },
  {
   "brand": "Calvin Klein",
+  "buscado": {
+   "douglas": "2026-11-20",
+   "idealo": "2026-11-20",
+   "lookfantastic": "2026-11-20",
+   "paco": "2026-11-20",
+   "parejo": "2026-11-20",
+   "sephora": "2026-11-20"
+  },
+  "checked": "2026-11-20T15:18:09+01:00",
   "conc": "EDT",
   "deals": [],
-  "history": [],
+  "history": [
+   {
+    "d": "2026-11-20",
+    "p": 46.87,
+    "s": "notino"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 35.49,
+    "s": "idealo"
+   }
+  ],
   "id": "calvin-klein-defy-edt-100",
   "images": {},
   "ml": 100,
   "name": "Defy",
-  "prices": {},
+  "prices": {
+   "idealo": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 35.49
+   },
+   "notino": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 46.87,
+    "via": "idealo"
+   }
+  },
   "target": null,
   "tier": null,
-  "urls": {}
+  "urls": {
+   "idealo": "https://www.idealo.es/precios/201495331/calvin-klein-defy-eau-de-toilette-for-him-100ml.html",
+   "lookfantastic": "https://www.lookfantastic.es/p/calvin-klein-defy-eau-de-toilette-for-him-30ml/13097962/"
+  }
  },
  {
   "brand": "Lattafa",
+  "buscado": {
+   "douglas": "2026-11-20",
+   "idealo": "2026-11-20",
+   "lookfantastic": "2026-11-20",
+   "paco": "2026-11-20",
+   "parejo": "2026-11-20",
+   "sephora": "2026-11-20"
+  },
+  "checked": "2026-11-20T15:18:22+01:00",
   "conc": "EDP",
   "deals": [],
-  "history": [],
+  "history": [
+   {
+    "d": "2026-11-20",
+    "p": 14.03,
+    "s": "idealo"
+   }
+  ],
   "id": "lattafa-ana-abiyedh-edp-60",
-  "images": {},
+  "images": {
+   "idealo": "https://cdn.idealo.com/folder/Product/200137/7/200137729/s11_produktbild_gross/lattafa-ana-abiyedh-eau-de-parfum-60ml.jpg"
+  },
   "ml": 60,
   "name": "Ana Abiyedh",
-  "prices": {},
+  "prices": {
+   "idealo": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 14.03
+   }
+  },
   "target": null,
   "tier": "Árabe",
-  "urls": {}
+  "urls": {
+   "idealo": "https://www.idealo.es/precios/200137729/lattafa-ana-abiyedh-eau-de-parfum-60ml.html"
+  }
  },
  {
   "brand": "Lattafa",
+  "buscado": {
+   "douglas": "2026-11-20",
+   "idealo": "2026-11-20",
+   "lookfantastic": "2026-11-20",
+   "paco": "2026-11-20",
+   "parejo": "2026-11-20",
+   "sephora": "2026-11-20"
+  },
+  "checked": "2026-11-20T15:18:36+01:00",
   "conc": "EDP",
   "deals": [],
-  "history": [],
+  "history": [
+   {
+    "d": "2026-11-20",
+    "p": 22.6,
+    "s": "notino"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 24.95,
+    "s": "primor"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 25.0,
+    "s": "brasty"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 28.45,
+    "s": "sabina"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 29.95,
+    "s": "arenal"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 29.95,
+    "s": "druni"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 29.95,
+    "s": "julia"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 20.25,
+    "s": "idealo"
+   }
+  ],
   "id": "lattafa-fakhar-rose-edp-100",
-  "images": {},
+  "images": {
+   "idealo": "https://cdn.idealo.com/folder/Product/201845/7/201845784/s11_produktbild_gross/lattafa-fakhar-rose-eau-de-parfum-100-ml.jpg"
+  },
   "ml": 100,
   "name": "Fakhar Rose",
-  "prices": {},
+  "prices": {
+   "arenal": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 29.95,
+    "via": "idealo"
+   },
+   "brasty": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 25.0,
+    "via": "idealo"
+   },
+   "druni": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 29.95,
+    "via": "idealo"
+   },
+   "idealo": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 20.25
+   },
+   "julia": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 29.95,
+    "via": "idealo"
+   },
+   "notino": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 22.6,
+    "via": "idealo"
+   },
+   "primor": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 24.95,
+    "via": "idealo"
+   },
+   "sabina": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 28.45,
+    "via": "idealo"
+   }
+  },
   "target": null,
   "tier": "Árabe",
-  "urls": {}
+  "urls": {
+   "idealo": "https://www.idealo.es/precios/201845784/lattafa-fakhar-rose-eau-de-parfum-100-ml.html"
+  }
  },
  {
   "brand": "Afnan",
+  "buscado": {
+   "douglas": "2026-11-20",
+   "idealo": "2026-11-20",
+   "lookfantastic": "2026-11-20",
+   "paco": "2026-11-20",
+   "parejo": "2026-11-20",
+   "sephora": "2026-11-20"
+  },
+  "checked": "2026-11-20T15:18:49+01:00",
   "conc": "EDP",
   "deals": [],
-  "history": [],
+  "history": [
+   {
+    "d": "2026-11-20",
+    "p": 32.7,
+    "s": "brasty"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 40.0,
+    "s": "notino"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 32.7,
+    "s": "idealo"
+   }
+  ],
   "id": "afnan-turathi-blue-edp-90",
-  "images": {},
+  "images": {
+   "idealo": "https://cdn.idealo.com/folder/Product/201562/0/201562065/s11_produktbild_gross/afnan-turathi-homme-blue-eau-de-parfum-90-ml.jpg"
+  },
   "ml": 90,
   "name": "Turathi Blue",
-  "prices": {},
+  "prices": {
+   "brasty": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 32.7,
+    "via": "idealo"
+   },
+   "idealo": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 32.7
+   },
+   "notino": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 40.0,
+    "via": "idealo"
+   }
+  },
   "target": null,
   "tier": "Árabe",
-  "urls": {}
+  "urls": {
+   "idealo": "https://www.idealo.es/precios/201562065/afnan-turathi-homme-blue-eau-de-parfum-90-ml.html"
+  }
  },
  {
   "brand": "Armaf",
+  "buscado": {
+   "douglas": "2026-11-20",
+   "idealo": "2026-11-20",
+   "lookfantastic": "2026-11-20",
+   "paco": "2026-11-20",
+   "parejo": "2026-11-20",
+   "sephora": "2026-11-20"
+  },
+  "checked": "2026-11-20T15:19:03+01:00",
   "conc": "EDP",
   "deals": [],
-  "history": [],
+  "history": [
+   {
+    "d": "2026-11-20",
+    "p": 18.99,
+    "s": "sabina"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 18.99,
+    "s": "idealo"
+   }
+  ],
   "id": "armaf-odyssey-homme-edp-100",
-  "images": {},
+  "images": {
+   "idealo": "https://cdn.idealo.com/folder/Product/200435/0/200435012/s11_produktbild_gross/armaf-odyssey-homme-eau-de-parfum-100ml.jpg"
+  },
   "ml": 100,
   "name": "Odyssey Homme",
-  "prices": {},
+  "prices": {
+   "idealo": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 18.99
+   },
+   "sabina": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 18.99,
+    "via": "idealo"
+   }
+  },
   "target": null,
   "tier": "Árabe",
-  "urls": {}
+  "urls": {
+   "idealo": "https://www.idealo.es/precios/200435012/armaf-odyssey-homme-eau-de-parfum-100ml.html"
+  }
  },
  {
   "brand": "Parfums de Marly",
+  "buscado": {
+   "douglas": "2026-11-20",
+   "idealo": "2026-11-20",
+   "lookfantastic": "2026-11-20",
+   "paco": "2026-11-20",
+   "parejo": "2026-11-20",
+   "sephora": "2026-11-20"
+  },
+  "checked": "2026-11-20T15:19:17+01:00",
   "conc": "EDP",
   "deals": [],
-  "history": [],
+  "history": [
+   {
+    "d": "2026-11-20",
+    "p": 223.91,
+    "s": "brasty"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 285.0,
+    "s": "notino"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 223.91,
+    "s": "idealo"
+   }
+  ],
   "id": "parfums-de-marly-greenley-edp-125",
-  "images": {},
+  "images": {
+   "idealo": "https://cdn.idealo.com/folder/Product/201297/1/201297160/s11_produktbild_gross/parfums-de-marly-greenley-eau-de-parfum-125ml.jpg"
+  },
   "ml": 125,
   "name": "Greenley",
-  "prices": {},
+  "prices": {
+   "brasty": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 223.91,
+    "via": "idealo"
+   },
+   "idealo": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 223.91
+   },
+   "notino": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 285.0,
+    "via": "idealo"
+   }
+  },
   "target": null,
   "tier": "Nicho",
-  "urls": {}
+  "urls": {
+   "idealo": "https://www.idealo.es/precios/201297160/parfums-de-marly-greenley-eau-de-parfum-125ml.html"
+  }
  },
  {
   "brand": "Parfums de Marly",
+  "buscado": {
+   "douglas": "2026-11-20",
+   "idealo": "2026-11-20",
+   "lookfantastic": "2026-11-20",
+   "paco": "2026-11-20",
+   "parejo": "2026-11-20",
+   "sephora": "2026-11-20"
+  },
+  "checked": "2026-11-20T15:19:30+01:00",
   "conc": "EDP",
   "deals": [],
-  "history": [],
+  "history": [
+   {
+    "d": "2026-11-20",
+    "p": 290.0,
+    "s": "notino"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 238.26,
+    "s": "idealo"
+   }
+  ],
   "id": "parfums-de-marly-percival-edp-125",
-  "images": {},
+  "images": {
+   "idealo": "https://cdn.idealo.com/folder/Product/6401/4/6401402/s11_produktbild_gross/parfums-de-marly-percival-eau-de-parfum-125ml.jpg"
+  },
   "ml": 125,
   "name": "Percival",
-  "prices": {},
+  "prices": {
+   "idealo": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 238.26
+   },
+   "notino": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 290.0,
+    "via": "idealo"
+   }
+  },
   "target": null,
   "tier": "Nicho",
-  "urls": {}
+  "urls": {
+   "idealo": "https://www.idealo.es/precios/6401402/parfums-de-marly-percival-eau-de-parfum-125ml.html"
+  }
  },
  {
   "brand": "Initio",
+  "buscado": {
+   "douglas": "2026-11-20",
+   "idealo": "2026-11-20",
+   "lookfantastic": "2026-11-20",
+   "paco": "2026-11-20",
+   "parejo": "2026-11-20",
+   "sephora": "2026-11-20"
+  },
+  "checked": "2026-11-20T15:19:44+01:00",
   "conc": "EDP",
   "deals": [],
-  "history": [],
+  "history": [
+   {
+    "d": "2026-11-20",
+    "p": 194.99,
+    "s": "idealo"
+   }
+  ],
   "id": "initio-rehab-edp-90",
-  "images": {},
+  "images": {
+   "idealo": "https://cdn.idealo.com/folder/Product/6482/1/6482114/s11_produktbild_gross/initio-rehab-perfume-90ml.jpg"
+  },
   "ml": 90,
   "name": "Rehab",
-  "prices": {},
+  "prices": {
+   "idealo": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 194.99
+   }
+  },
   "target": null,
   "tier": "Nicho",
-  "urls": {}
+  "urls": {
+   "idealo": "https://www.idealo.es/precios/6482114/initio-rehab-perfume-90ml.html",
+   "lookfantastic": "https://www.lookfantastic.es/p/coco-eve-hair-rehab-travel-kit/15687296/"
+  }
  },
  {
   "brand": "Xerjoff",
+  "buscado": {
+   "douglas": "2026-11-20",
+   "idealo": "2026-11-20",
+   "lookfantastic": "2026-11-20",
+   "paco": "2026-11-20",
+   "parejo": "2026-11-20",
+   "sephora": "2026-11-20"
+  },
+  "checked": "2026-11-20T15:19:57+01:00",
   "conc": "EDP",
   "deals": [],
-  "history": [],
+  "history": [
+   {
+    "d": "2026-11-20",
+    "p": 419.0,
+    "s": "notino"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 545.0,
+    "s": "julia"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 301.29,
+    "s": "idealo"
+   }
+  ],
   "id": "xerjoff-alexandria-ii-edp-100",
   "images": {},
   "ml": 100,
   "name": "Alexandria II",
-  "prices": {},
+  "prices": {
+   "idealo": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 301.29
+   },
+   "julia": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 545.0,
+    "via": "idealo"
+   },
+   "notino": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 419.0,
+    "via": "idealo"
+   }
+  },
   "target": null,
   "tier": "Nicho",
-  "urls": {}
+  "urls": {
+   "idealo": "https://www.idealo.es/precios/200377472/xerjoff-alexandria-ii-eau-de-parfum-100ml.html"
+  }
  },
  {
   "brand": "Nishane",
+  "buscado": {
+   "douglas": "2026-11-20",
+   "idealo": "2026-11-20",
+   "lookfantastic": "2026-11-20",
+   "paco": "2026-11-20",
+   "parejo": "2026-11-20",
+   "sephora": "2026-11-20"
+  },
+  "checked": "2026-11-20T15:20:11+01:00",
   "conc": "Parfum",
   "deals": [],
-  "history": [],
+  "history": [
+   {
+    "d": "2026-11-20",
+    "p": 216.12,
+    "s": "sabina"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 166.69,
+    "s": "idealo"
+   }
+  ],
   "id": "nishane-ani-parfum-100",
   "images": {},
   "ml": 100,
   "name": "Ani",
-  "prices": {},
+  "prices": {
+   "idealo": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 166.69
+   },
+   "sabina": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 216.12,
+    "via": "idealo"
+   }
+  },
   "target": null,
   "tier": "Nicho",
-  "urls": {}
+  "urls": {
+   "idealo": "https://www.idealo.es/precios/200802777/nishane-ani-extrait-de-parfum-100ml.html"
+  }
  },
  {
   "brand": "Tom Ford",
+  "buscado": {
+   "douglas": "2026-11-20",
+   "idealo": "2026-11-20",
+   "lookfantastic": "2026-11-20",
+   "paco": "2026-11-20",
+   "parejo": "2026-11-20",
+   "sephora": "2026-11-20"
+  },
+  "checked": "2026-11-20T15:20:27+01:00",
   "conc": "EDP",
   "deals": [],
-  "history": [],
+  "history": [
+   {
+    "d": "2026-11-20",
+    "p": 236.24,
+    "s": "idealo"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 312.8,
+    "s": "lookfantastic"
+   }
+  ],
   "id": "tom-ford-tuscan-leather-edp-100",
-  "images": {},
+  "images": {
+   "idealo": "https://cdn.idealo.com/folder/Product/4419/5/4419569/s11_produktbild_gross/tom-ford-tuscan-leather-eau-de-parfum-100ml.jpg",
+   "lookfantastic": "https://main.thgimages.com/?url=https://static.thcdn.com/productimg/original/14579419-4795220442350108.jpg&format=webp&width=1500&height=1500&fit=cover"
+  },
   "ml": 100,
   "name": "Tuscan Leather",
-  "prices": {},
+  "prices": {
+   "idealo": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 236.24
+   },
+   "lookfantastic": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 312.8
+   }
+  },
   "target": null,
   "tier": "Nicho",
-  "urls": {}
+  "urls": {
+   "idealo": "https://www.idealo.es/precios/4419569/tom-ford-tuscan-leather-eau-de-parfum-100ml.html",
+   "lookfantastic": "https://www.lookfantastic.es/p/tom-ford-tuscan-leather-eau-de-parfum-spray-100ml/14579419/"
+  }
  },
  {
   "brand": "Maison Francis Kurkdjian",
+  "buscado": {
+   "douglas": "2026-11-20",
+   "idealo": "2026-11-20",
+   "lookfantastic": "2026-11-20",
+   "paco": "2026-11-20",
+   "parejo": "2026-11-20",
+   "sephora": "2026-11-20"
+  },
+  "checked": "2026-11-20T15:20:41+01:00",
   "conc": "EDP",
   "deals": [],
-  "history": [],
+  "history": [
+   {
+    "d": "2026-11-20",
+    "p": 228.15,
+    "s": "idealo"
+   }
+  ],
   "id": "maison-francis-kurkdjian-oud-satin-mood-edp-70",
   "images": {},
   "ml": 70,
   "name": "Oud Satin Mood",
-  "prices": {},
+  "prices": {
+   "idealo": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 228.15
+   }
+  },
   "target": null,
   "tier": "Nicho",
-  "urls": {}
+  "urls": {
+   "idealo": "https://www.idealo.es/precios/4810446/maison-francis-kurkdjian-paris-oud-satin-mood-eau-de-parfum-70-ml.html"
+  }
  },
  {
   "brand": "Mancera",
+  "buscado": {
+   "douglas": "2026-11-20",
+   "idealo": "2026-11-20",
+   "lookfantastic": "2026-11-20",
+   "paco": "2026-11-20",
+   "parejo": "2026-11-20",
+   "sephora": "2026-11-20"
+  },
+  "checked": "2026-11-20T15:20:55+01:00",
   "conc": "EDP",
   "deals": [],
-  "history": [],
+  "history": [
+   {
+    "d": "2026-11-20",
+    "p": 76.5,
+    "s": "brasty"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 76.5,
+    "s": "idealo"
+   }
+  ],
   "id": "mancera-roses-vanille-edp-120",
-  "images": {},
+  "images": {
+   "idealo": "https://cdn.idealo.com/folder/Product/4711/6/4711698/s11_produktbild_gross/mancera-roses-vanille-eau-de-parfum-120-ml.jpg"
+  },
   "ml": 120,
   "name": "Roses Vanille",
-  "prices": {},
+  "prices": {
+   "brasty": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 76.5,
+    "via": "idealo"
+   },
+   "idealo": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 76.5
+   }
+  },
   "target": null,
   "tier": "Nicho",
-  "urls": {}
+  "urls": {
+   "idealo": "https://www.idealo.es/precios/4711698/mancera-roses-vanille-eau-de-parfum-120-ml.html"
+  }
  },
  {
   "brand": "Diptyque",
+  "buscado": {
+   "douglas": "2026-11-20",
+   "idealo": "2026-11-20",
+   "lookfantastic": "2026-11-20",
+   "paco": "2026-11-20",
+   "parejo": "2026-11-20",
+   "sephora": "2026-11-20"
+  },
+  "checked": "2026-11-20T15:21:09+01:00",
   "conc": "EDT",
   "deals": [],
-  "history": [],
+  "history": [
+   {
+    "d": "2026-11-20",
+    "p": 180.0,
+    "s": "notino"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 135.59,
+    "s": "idealo"
+   }
+  ],
   "id": "diptyque-do-son-edt-100",
-  "images": {},
+  "images": {
+   "idealo": "https://cdn.idealo.com/folder/Product/2179/8/2179810/s11_produktbild_gross/diptyque-do-son-eau-de-toilette-100-ml.jpg"
+  },
   "ml": 100,
   "name": "Do Son",
-  "prices": {},
+  "prices": {
+   "idealo": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 135.59
+   },
+   "notino": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 180.0,
+    "via": "idealo"
+   }
+  },
   "target": null,
   "tier": "Nicho",
-  "urls": {}
+  "urls": {
+   "idealo": "https://www.idealo.es/precios/2179810/diptyque-do-son-eau-de-toilette-100-ml.html",
+   "paco": "https://www.pacoperfumerias.com/el-ganso-like-father-like-son-26688.html"
+  }
  },
  {
   "brand": "Yves Saint Laurent",
+  "buscado": {
+   "douglas": "2026-11-20",
+   "idealo": "2026-11-20",
+   "lookfantastic": "2026-11-20",
+   "paco": "2026-11-20",
+   "parejo": "2026-11-20",
+   "sephora": "2026-11-20"
+  },
+  "checked": "2026-11-20T15:21:22+01:00",
   "conc": "Parfum",
   "deals": [],
   "history": [],
   "id": "yves-saint-laurent-black-opium-le-parfum-parfum-90",
-  "images": {},
+  "images": {
+   "paco": "https://www.pacoperfumerias.com/on/demandware.static/-/Sites-pacoper-master-catalog/default/dw224f7494/images/2/0/209671_2.png"
+  },
   "ml": 90,
   "name": "Black Opium Le Parfum",
-  "prices": {},
+  "prices": {
+   "paco": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 92.95,
+    "stock": false
+   }
+  },
   "target": null,
   "tier": null,
-  "urls": {}
+  "urls": {
+   "lookfantastic": "https://www.lookfantastic.es/p/yves-saint-laurent-black-opium-le-parfum-50ml/14218331/",
+   "paco": "https://www.pacoperfumerias.com/yves-saint-laurent-black-opium-le-parfum-26546.html"
+  }
  },
  {
   "brand": "Chanel",
+  "buscado": {
+   "douglas": "2026-11-20",
+   "idealo": "2026-11-20",
+   "lookfantastic": "2026-11-20",
+   "paco": "2026-11-20",
+   "parejo": "2026-11-20",
+   "sephora": "2026-11-20"
+  },
+  "checked": "2026-11-20T15:21:34+01:00",
   "conc": "EDT",
   "deals": [],
   "history": [],
@@ -137638,90 +138886,562 @@
  },
  {
   "brand": "Carolina Herrera",
+  "buscado": {
+   "douglas": "2026-11-20",
+   "idealo": "2026-11-20",
+   "lookfantastic": "2026-11-20",
+   "paco": "2026-11-20",
+   "parejo": "2026-11-20",
+   "sephora": "2026-11-20"
+  },
+  "checked": "2026-11-20T15:21:53+01:00",
   "conc": "EDP",
   "deals": [],
-  "history": [],
+  "history": [
+   {
+    "d": "2026-11-20",
+    "p": 77.95,
+    "s": "julia"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 77.99,
+    "s": "arenal"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 77.99,
+    "s": "druni"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 77.99,
+    "s": "primor"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 81.83,
+    "s": "sabina"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 72.99,
+    "s": "idealo"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 97.75,
+    "s": "parejo"
+   }
+  ],
   "id": "carolina-herrera-212-vip-rose-edp-80",
-  "images": {},
+  "images": {
+   "idealo": "https://cdn.idealo.com/folder/Product/4515/7/4515734/s11_produktbild_gross/carolina-herrera-212-vip-rose-eau-de-parfum-80-ml.jpg",
+   "paco": "https://www.pacoperfumerias.com/on/demandware.static/-/Sites-pacoper-master-catalog/default/dw7d505c89/images/2/2/227571_2.jpg",
+   "parejo": "https://www.joyeriaparejo.com/50846-large_default/212-vip-rose-vapo-80-ml-eau-de-parfum-carolina-herrera.jpg"
+  },
   "ml": 80,
   "name": "212 VIP Rosé",
-  "prices": {},
+  "prices": {
+   "arenal": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 77.99,
+    "via": "idealo"
+   },
+   "druni": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 77.99,
+    "via": "idealo"
+   },
+   "idealo": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 72.99
+   },
+   "julia": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 77.95,
+    "via": "idealo"
+   },
+   "paco": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 77.98,
+    "stock": false
+   },
+   "parejo": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 97.75
+   },
+   "primor": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 77.99,
+    "via": "idealo"
+   },
+   "sabina": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 81.83,
+    "via": "idealo"
+   }
+  },
   "target": null,
   "tier": null,
-  "urls": {}
+  "urls": {
+   "idealo": "https://www.idealo.es/precios/4515734/carolina-herrera-212-vip-rose-eau-de-parfum-80-ml.html",
+   "paco": "https://www.pacoperfumerias.com/carolina-herrera-212-vip-rose-7628.html",
+   "parejo": "https://www.joyeriaparejo.com/perfumes/212-vip-rose-vapo-80-ml-eau-de-parfum-carolina-herrera"
+  }
  },
  {
   "brand": "Mugler",
+  "buscado": {
+   "douglas": "2026-11-20",
+   "idealo": "2026-11-20",
+   "lookfantastic": "2026-11-20",
+   "paco": "2026-11-20",
+   "parejo": "2026-11-20",
+   "sephora": "2026-11-20"
+  },
+  "checked": "2026-11-20T15:22:07+01:00",
   "conc": "EDP",
   "deals": [],
-  "history": [],
+  "history": [
+   {
+    "d": "2026-11-20",
+    "p": 56.76,
+    "s": "idealo"
+   }
+  ],
   "id": "mugler-alien-goddess-intense-edp-60",
   "images": {},
   "ml": 60,
   "name": "Alien Goddess Intense",
-  "prices": {},
+  "prices": {
+   "idealo": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 56.76
+   }
+  },
   "target": null,
   "tier": null,
-  "urls": {}
+  "urls": {
+   "idealo": "https://www.idealo.es/precios/202039518/thierry-mugler-alien-goddess-eau-de-parfum-intense-60ml.html",
+   "paco": "https://www.pacoperfumerias.com/thierry-mugler-alien-goddess-intense-25305.html"
+  }
  },
  {
   "brand": "Gucci",
+  "buscado": {
+   "douglas": "2026-11-20",
+   "idealo": "2026-11-20",
+   "lookfantastic": "2026-11-20",
+   "paco": "2026-11-20",
+   "parejo": "2026-11-20",
+   "sephora": "2026-11-20"
+  },
+  "checked": "2026-11-20T15:22:25+01:00",
   "conc": "EDP",
   "deals": [],
-  "history": [],
+  "history": [
+   {
+    "d": "2026-11-20",
+    "p": 77.14,
+    "s": "brasty"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 94.5,
+    "s": "notino"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 95.15,
+    "s": "julia"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 96.86,
+    "s": "sabina"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 99.94,
+    "s": "primor"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 99.95,
+    "s": "arenal"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 99.95,
+    "s": "druni"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 69.43,
+    "s": "idealo"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 102.85,
+    "s": "parejo"
+   }
+  ],
   "id": "gucci-flora-gorgeous-jasmine-edp-100",
-  "images": {},
+  "images": {
+   "idealo": "https://cdn.idealo.com/folder/Product/202047/1/202047184/s11_produktbild_gross/gucci-flora-gorgeous-jasmine-eau-de-parfum-100ml.jpg",
+   "paco": "https://www.pacoperfumerias.com/on/demandware.static/-/Sites-pacoper-master-catalog/default/dwbed2eb4a/images/2/1/210825_2.jpg",
+   "parejo": "https://www.joyeriaparejo.com/57683-large_default/gucci-flora-gorgeous-jasmine-eau-de-parfum-100-ml-mujer.jpg"
+  },
   "ml": 100,
   "name": "Flora Gorgeous Jasmine",
-  "prices": {},
+  "prices": {
+   "arenal": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 99.95,
+    "via": "idealo"
+   },
+   "brasty": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 77.14,
+    "via": "idealo"
+   },
+   "druni": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 99.95,
+    "via": "idealo"
+   },
+   "idealo": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 69.43
+   },
+   "julia": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 95.15,
+    "via": "idealo"
+   },
+   "notino": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 94.5,
+    "via": "idealo"
+   },
+   "paco": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 99.94,
+    "stock": false
+   },
+   "parejo": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 102.85
+   },
+   "primor": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 99.94,
+    "via": "idealo"
+   },
+   "sabina": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 96.86,
+    "via": "idealo"
+   }
+  },
   "target": null,
   "tier": null,
-  "urls": {}
+  "urls": {
+   "idealo": "https://www.idealo.es/precios/202047184/gucci-flora-gorgeous-jasmine-eau-de-parfum-100ml.html",
+   "paco": "https://www.pacoperfumerias.com/gucci-flora-gorgeous-jasmine-26952.html",
+   "parejo": "https://www.joyeriaparejo.com/perfumes/gucci-flora-gorgeous-jasmine-eau-de-parfum-100-ml-mujer"
+  }
  },
  {
   "brand": "Viktor&Rolf",
+  "buscado": {
+   "douglas": "2026-11-20",
+   "idealo": "2026-11-20",
+   "lookfantastic": "2026-11-20",
+   "paco": "2026-11-20",
+   "parejo": "2026-11-20",
+   "sephora": "2026-11-20"
+  },
+  "checked": "2026-11-20T15:22:41+01:00",
   "conc": "EDP",
   "deals": [],
-  "history": [],
+  "history": [
+   {
+    "d": "2026-11-20",
+    "p": 99.7,
+    "s": "sabina"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 54.59,
+    "s": "idealo"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 74.25,
+    "s": "paco"
+   }
+  ],
   "id": "viktor-rolf-good-fortune-edp-90",
-  "images": {},
+  "images": {
+   "idealo": "https://cdn.idealo.com/folder/Product/202000/7/202000720/s11_produktbild_gross/viktor-rolf-good-fortune-eau-de-parfum-90-ml.jpg",
+   "paco": "https://www.pacoperfumerias.com/on/demandware.static/-/Sites-pacoper-master-catalog/default/dw363b8c66/images/2/0/205065_2.jpg"
+  },
   "ml": 90,
   "name": "Good Fortune",
-  "prices": {},
+  "prices": {
+   "idealo": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 54.59
+   },
+   "paco": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 74.25
+   },
+   "sabina": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 99.7,
+    "via": "idealo"
+   }
+  },
   "target": null,
   "tier": null,
-  "urls": {}
+  "urls": {
+   "idealo": "https://www.idealo.es/precios/202000720/viktor-rolf-good-fortune-eau-de-parfum-90-ml.html",
+   "paco": "https://www.pacoperfumerias.com/viktor-rolf-good-fortune-24982.html"
+  }
  },
  {
   "brand": "Jean Paul Gaultier",
+  "buscado": {
+   "douglas": "2026-11-20",
+   "idealo": "2026-11-20",
+   "lookfantastic": "2026-11-20",
+   "paco": "2026-11-20",
+   "parejo": "2026-11-20",
+   "sephora": "2026-11-20"
+  },
+  "checked": "2026-11-20T15:22:58+01:00",
   "conc": "EDP",
   "deals": [],
-  "history": [],
+  "history": [
+   {
+    "d": "2026-11-20",
+    "p": 85.45,
+    "s": "sabina"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 89.95,
+    "s": "julia"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 92.94,
+    "s": "primor"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 92.95,
+    "s": "arenal"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 92.95,
+    "s": "druni"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 78.26,
+    "s": "idealo"
+   }
+  ],
   "id": "jean-paul-gaultier-la-belle-le-parfum-edp-100",
-  "images": {},
+  "images": {
+   "idealo": "https://cdn.idealo.com/folder/Product/203804/1/203804173/s11_produktbild_gross/jean-paul-gaultier-la-belle-paradise-garden-eau-de-parfum-100ml.jpg",
+   "paco": "https://www.pacoperfumerias.com/on/demandware.static/-/Sites-pacoper-master-catalog/default/dwb0db57cb/images/2/4/241021_2.jpg"
+  },
   "ml": 100,
   "name": "La Belle Le Parfum",
-  "prices": {},
+  "prices": {
+   "arenal": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 92.95,
+    "via": "idealo"
+   },
+   "druni": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 92.95,
+    "via": "idealo"
+   },
+   "idealo": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 78.26
+   },
+   "julia": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 89.95,
+    "via": "idealo"
+   },
+   "paco": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 86.94,
+    "stock": false
+   },
+   "primor": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 92.94,
+    "via": "idealo"
+   },
+   "sabina": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 85.45,
+    "via": "idealo"
+   }
+  },
   "target": null,
   "tier": null,
-  "urls": {}
+  "urls": {
+   "douglas": "https://www.douglas.es/es/p/3000056790",
+   "idealo": "https://www.idealo.es/precios/203804173/jean-paul-gaultier-la-belle-paradise-garden-eau-de-parfum-100ml.html",
+   "lookfantastic": "https://www.lookfantastic.es/p/jean-paul-gaultier-la-belle-rosea-eau-de-parfum-50ml/17694641/",
+   "paco": "https://www.pacoperfumerias.com/jean-paul-gaultier-gaultier-la-belle-rosea-37185.html"
+  }
  },
  {
   "brand": "Ariana Grande",
+  "buscado": {
+   "douglas": "2026-11-20",
+   "idealo": "2026-11-20",
+   "lookfantastic": "2026-11-20",
+   "paco": "2026-11-20",
+   "parejo": "2026-11-20",
+   "sephora": "2026-11-20"
+  },
+  "checked": "2026-11-20T15:23:12+01:00",
   "conc": "EDP",
   "deals": [],
-  "history": [],
+  "history": [
+   {
+    "d": "2026-11-20",
+    "p": 47.61,
+    "s": "brasty"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 49.6,
+    "s": "notino"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 47.61,
+    "s": "idealo"
+   }
+  ],
   "id": "ariana-grande-thank-u-next-edp-100",
-  "images": {},
+  "images": {
+   "idealo": "https://cdn.idealo.com/folder/Product/6761/7/6761738/s11_produktbild_gross/ariana-grande-thank-u-next-eau-de-parfum-100ml.jpg"
+  },
   "ml": 100,
   "name": "Thank U, Next",
-  "prices": {},
+  "prices": {
+   "brasty": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 47.61,
+    "via": "idealo"
+   },
+   "idealo": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 47.61
+   },
+   "notino": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 49.6,
+    "via": "idealo"
+   }
+  },
   "target": null,
   "tier": null,
-  "urls": {}
+  "urls": {
+   "idealo": "https://www.idealo.es/precios/6761738/ariana-grande-thank-u-next-eau-de-parfum-100ml.html"
+  }
  },
  {
   "brand": "Kayali",
+  "buscado": {
+   "douglas": "2026-11-20",
+   "idealo": "2026-11-20",
+   "lookfantastic": "2026-11-20",
+   "paco": "2026-11-20",
+   "parejo": "2026-11-20",
+   "sephora": "2026-11-20"
+  },
+  "checked": "2026-11-20T15:23:22+01:00",
   "conc": "EDP",
   "deals": [],
   "history": [],
@@ -137736,20 +139456,66 @@
  },
  {
   "brand": "Marc Jacobs",
+  "buscado": {
+   "douglas": "2026-11-20",
+   "idealo": "2026-11-20"
+  },
+  "checked": "2026-11-20T15:23:28+01:00",
   "conc": "EDT",
   "deals": [],
-  "history": [],
+  "history": [
+   {
+    "d": "2026-11-20",
+    "p": 70.5,
+    "s": "notino"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 72.95,
+    "s": "julia"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 51.24,
+    "s": "idealo"
+   }
+  ],
   "id": "marc-jacobs-daisy-love-edt-100",
   "images": {},
   "ml": 100,
   "name": "Daisy Love",
-  "prices": {},
+  "prices": {
+   "idealo": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 51.24
+   },
+   "julia": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 72.95,
+    "via": "idealo"
+   },
+   "notino": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 70.5,
+    "via": "idealo"
+   }
+  },
   "target": null,
   "tier": null,
-  "urls": {}
+  "urls": {
+   "idealo": "https://www.idealo.es/precios/6142046/marc-jacobs-daisy-love-eau-de-toilette-100ml.html"
+  }
  },
  {
   "brand": "Elie Saab",
+  "buscado": {},
+  "checked": "2026-11-20T15:23:28+01:00",
   "conc": "EDP",
   "deals": [],
   "history": [],
@@ -137764,6 +139530,8 @@
  },
  {
   "brand": "Tous",
+  "buscado": {},
+  "checked": "2026-11-20T15:23:28+01:00",
   "conc": "EDT",
   "deals": [],
   "history": [],
@@ -137778,6 +139546,8 @@
  },
  {
   "brand": "Loewe",
+  "buscado": {},
+  "checked": "2026-11-20T15:23:28+01:00",
   "conc": "EDP",
   "deals": [],
   "history": [],
@@ -137792,6 +139562,8 @@
  },
  {
   "brand": "Loewe",
+  "buscado": {},
+  "checked": "2026-11-20T15:23:28+01:00",
   "conc": "EDT",
   "deals": [],
   "history": [],
@@ -137806,6 +139578,8 @@
  },
  {
   "brand": "Halloween",
+  "buscado": {},
+  "checked": "2026-11-20T15:23:28+01:00",
   "conc": "EDT",
   "deals": [],
   "history": [],
