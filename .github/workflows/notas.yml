@@ -14,7 +14,7 @@ on:
 permissions:
   contents: write
 concurrency:
-  group: radar
+  group: notas
   cancel-in-progress: false
 jobs:
   notas:
