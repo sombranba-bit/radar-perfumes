@@ -193,3 +193,9 @@ lp = {"brand": "Yves Saint Laurent", "name": "Libre Le Parfum", "conc": "Parfum"
 pg = '<a href="/busqueda?s=libre+le+parfum">Libre Le Parfum</a><a href="/perfumes/libre-vapo-90-ml-eau-de-parfum-yves-saint-laurent">Libre Eau de Parfum 90 ml</a>'
 assert best_link(pg, "https://www.joyeriaparejo.com/busqueda?s={q}", lp) is None
 print("ok parejo")
+
+# 20-nov: nombre de una letra (Dolce & Gabbana Q)
+q = {"brand": "Dolce & Gabbana", "name": "Q", "conc": "EDP", "ml": 100}
+pg = '<a href="/perfumes/dolce-gabbana-q-eau-de-parfum-100ml-mujer">Dolce&Gabbana Q Eau de Parfum 100 ml</a><a href="/perfumes/dolce-gabbana-the-one-edp">The One</a>'
+assert best_link(pg, "https://www.joyeriaparejo.com/busqueda?s={q}", q).endswith("q-eau-de-parfum-100ml-mujer")
+print("ok nombre corto")

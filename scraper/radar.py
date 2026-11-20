@@ -420,7 +420,13 @@ def best_link(page, base, it):
             continue
         hay = (href + " " + re.sub(r"<[^>]+>", " ", ctx)).lower()
         hay_w = set(words(hay))
-        if not need or not all(w in hay_w for w in need) or (FLANKERS & hay_w) - set(words(it["name"] + " " + it.get("conc", ""))):
+        if not need:
+            # nombres de una o dos letras (D&G "Q"): la letra suelta y la marca, en la dirección o el texto
+            if brand not in hay_w or not re.search(r"(?<![a-z0-9])%s(?![a-z0-9])" % re.escape(it["name"].lower()), hay):
+                continue
+        elif not all(w in hay_w for w in need):
+            continue
+        if (FLANKERS & hay_w) - set(words(it["name"] + " " + it.get("conc", ""))):
             continue
         if href in it.get("descartadas", ()):
             continue
