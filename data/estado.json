@@ -1,51 +1,74 @@
 {
- "at": "2026-11-20T22:05:14+01:00",
+ "at": "2026-11-20T22:45:57+01:00",
  "revisados": 70,
  "tiendas": {
-  "avenida": {
-   "ok": 11,
-   "bloqueada": 0,
-   "sin_precio": 1,
-   "dudoso": 0,
-   "variantes": 11
-  },
   "idealo": {
-   "ok": 55,
+   "ok": 57,
    "bloqueada": 0,
    "sin_precio": 2,
-   "dudoso": 3,
-   "jsonld-url": 43,
-   "ejemplos": [
-    {
-     "perfume": "jean-paul-gaultier-le-male-le-parfum-edp-125",
-     "precio": 36.99,
-     "referencia": 82.95,
-     "metodo": "jsonld"
-    },
-    {
-     "perfume": "bvlgari-omnia-crystalline-edt-65",
-     "precio": 245.99,
-     "referencia": 85.49,
-     "metodo": "jsonld-url"
-    },
-    {
-     "perfume": "chanel-allure-homme-edition-blanche-edp-100",
-     "precio": 32.16,
-     "referencia": 118.4,
-     "metodo": "texto"
-    }
-   ],
-   "jsonld": 11,
-   "texto": 1
+   "dudoso": 0,
+   "jsonld-url": 54,
+   "jsonld": 3
+  },
+  "julia": {
+   "ok": 0,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "via_idealo": 31
+  },
+  "arenal": {
+   "ok": 0,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "via_idealo": 26
+  },
+  "druni": {
+   "ok": 0,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "via_idealo": 32
+  },
+  "primor": {
+   "ok": 0,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "via_idealo": 31
   },
   "sabina": {
-   "ok": 21,
+   "ok": 6,
    "bloqueada": 0,
-   "sin_precio": 5,
+   "sin_precio": 2,
    "dudoso": 0,
-   "via_idealo": 8,
-   "jsonld": 19,
-   "precio-100ml": 2
+   "via_idealo": 17,
+   "jsonld": 5,
+   "precio-100ml": 1
+  },
+  "paco": {
+   "ok": 30,
+   "bloqueada": 0,
+   "sin_precio": 4,
+   "dudoso": 1,
+   "jsonld": 29,
+   "precio-100ml": 1,
+   "ejemplos": [
+    {
+     "perfume": "nautica-voyage-edt-100",
+     "precio": 73.78,
+     "referencia": 20.23,
+     "metodo": "precio-100ml"
+    }
+   ]
+  },
+  "parejo": {
+   "ok": 7,
+   "bloqueada": 0,
+   "sin_precio": 3,
+   "dudoso": 0,
+   "jsonld": 7
   },
   "brasty": {
    "ok": 0,
@@ -54,100 +77,49 @@
    "dudoso": 0,
    "via_idealo": 14
   },
-  "lookfantastic": {
-   "ok": 20,
-   "bloqueada": 0,
-   "sin_precio": 5,
-   "dudoso": 0,
-   "jsonld": 20
-  },
   "notino": {
-   "ok": 4,
-   "bloqueada": 24,
-   "sin_precio": 0,
-   "dudoso": 2,
-   "via_idealo": 15,
-   "jsonld": 4,
-   "ejemplos": [
-    {
-     "perfume": "carolina-herrera-212-men-edt-100",
-     "precio": 113.8,
-     "referencia": 49.05,
-     "metodo": "jsonld"
-    },
-    {
-     "perfume": "tom-ford-tobacco-vanille-edp-50",
-     "precio": 259.0,
-     "referencia": 167.49,
-     "metodo": "jsonld"
-    }
-   ]
-  },
-  "paco": {
-   "ok": 26,
-   "bloqueada": 0,
-   "sin_precio": 6,
-   "dudoso": 0,
-   "jsonld": 25,
-   "precio-100ml": 1
-  },
-  "primor": {
    "ok": 0,
-   "bloqueada": 0,
+   "bloqueada": 10,
    "sin_precio": 0,
    "dudoso": 0,
    "via_idealo": 22
   },
-  "arenal": {
-   "ok": 0,
+  "lookfantastic": {
+   "ok": 10,
    "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "via_idealo": 21
-  },
-  "druni": {
-   "ok": 0,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "via_idealo": 23
-  },
-  "julia": {
-   "ok": 0,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "via_idealo": 25
+   "sin_precio": 5,
+   "dudoso": 1,
+   "jsonld": 10,
+   "ejemplos": [
+    {
+     "perfume": "davidoff-cool-water-edt-125",
+     "precio": 64.69,
+     "referencia": 21.51,
+     "metodo": "jsonld"
+    }
+   ]
   },
   "laguna": {
-   "ok": 12,
+   "ok": 5,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "precio-100ml": 2,
+   "jsonld": 3
+  },
+  "sephora": {
+   "ok": 1,
    "bloqueada": 0,
    "sin_precio": 1,
    "dudoso": 0,
-   "jsonld": 4,
-   "jsonld-url": 6,
-   "precio-100ml": 2
+   "variantes": 1
   },
-  "parejo": {
-   "ok": 13,
+  "avenida": {
+   "ok": 1,
    "bloqueada": 0,
-   "sin_precio": 2,
-   "dudoso": 2,
-   "ejemplos": [
-    {
-     "perfume": "lancome-la-vie-est-belle-edp-100",
-     "precio": 163.2,
-     "referencia": 84.95,
-     "metodo": "jsonld"
-    },
-    {
-     "perfume": "rabanne-pure-xs-edt-100",
-     "precio": 124.1,
-     "referencia": 58.55,
-     "metodo": "jsonld"
-    }
-   ],
-   "jsonld": 13
+   "sin_precio": 0,
+   "dudoso": 0,
+   "variantes": 1
   },
   "perfumesclub": {
    "ok": 1,
@@ -156,32 +128,32 @@
    "dudoso": 0,
    "jsonld": 1
   },
-  "sephora": {
-   "ok": 0,
-   "bloqueada": 0,
-   "sin_precio": 18,
-   "dudoso": 0
-  },
-  "beautinow": {
-   "ok": 0,
-   "bloqueada": 0,
-   "sin_precio": 4,
-   "dudoso": 0
-  },
   "firstinfragrance": {
    "ok": 2,
-   "bloqueada": 4,
+   "bloqueada": 1,
    "sin_precio": 0,
    "dudoso": 0,
    "jsonld": 2
+  },
+  "beautinow": {
+   "ok": 0,
+   "bloqueada": 2,
+   "sin_precio": 0,
+   "dudoso": 0
   },
   "arabicparfums": {
    "ok": 2,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "jsonld": 1,
-   "jsonld-url": 1
+   "jsonld": 2
+  },
+  "douglas": {
+   "ok": 1,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "precio-100ml": 1
   }
  },
  "limpiados": {},
