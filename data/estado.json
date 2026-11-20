@@ -1,75 +1,50 @@
 {
- "at": "2026-11-20T15:24:36+01:00",
- "revisados": 50,
+ "at": "2026-11-20T15:42:07+01:00",
+ "revisados": 55,
  "tiendas": {
   "idealo": {
-   "ok": 37,
+   "ok": 39,
    "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 1,
-   "ejemplos": [
-    {
-     "perfume": "chanel-allure-homme-edition-blanche-edp-100",
-     "precio": 32.16,
-     "referencia": null,
-     "metodo": "texto"
-    }
-   ],
-   "jsonld": 9,
-   "jsonld-url": 28
-  },
-  "paco": {
-   "ok": 14,
-   "bloqueada": 0,
-   "sin_precio": 3,
+   "sin_precio": 2,
    "dudoso": 0,
-   "jsonld": 13,
-   "precio-100ml": 1
-  },
-  "notino": {
-   "ok": 1,
-   "bloqueada": 6,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "via_idealo": 20,
-   "jsonld": 1
+   "jsonld-url": 37,
+   "jsonld": 2
   },
   "julia": {
    "ok": 0,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "via_idealo": 15
+   "via_idealo": 20
   },
   "sabina": {
-   "ok": 5,
-   "bloqueada": 0,
-   "sin_precio": 2,
-   "dudoso": 0,
-   "via_idealo": 10,
-   "jsonld": 4,
-   "precio-100ml": 1
-  },
-  "arenal": {
-   "ok": 0,
+   "ok": 1,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "via_idealo": 12
-  },
-  "druni": {
-   "ok": 0,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "via_idealo": 12
+   "via_idealo": 15,
+   "jsonld": 1
   },
   "primor": {
    "ok": 0,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "via_idealo": 11
+   "via_idealo": 22
+  },
+  "arenal": {
+   "ok": 0,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "via_idealo": 17
+  },
+  "druni": {
+   "ok": 0,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "via_idealo": 22
   },
   "brasty": {
    "ok": 0,
@@ -78,91 +53,78 @@
    "dudoso": 0,
    "via_idealo": 11
   },
-  "parejo": {
-   "ok": 3,
-   "bloqueada": 0,
+  "notino": {
+   "ok": 0,
+   "bloqueada": 3,
    "sin_precio": 0,
-   "dudoso": 1,
-   "ejemplos": [
-    {
-     "perfume": "rabanne-pure-xs-edt-100",
-     "precio": 124.1,
-     "referencia": 58.55,
-     "metodo": "jsonld"
-    }
-   ],
-   "jsonld": 3
+   "dudoso": 0,
+   "via_idealo": 13
   },
   "lookfantastic": {
-   "ok": 3,
+   "ok": 10,
    "bloqueada": 0,
-   "sin_precio": 4,
+   "sin_precio": 5,
+   "dudoso": 0,
+   "jsonld": 10
+  },
+  "paco": {
+   "ok": 21,
+   "bloqueada": 0,
+   "sin_precio": 3,
    "dudoso": 1,
-   "jsonld": 3,
+   "jsonld": 20,
+   "precio-100ml": 1,
    "ejemplos": [
     {
-     "perfume": "davidoff-cool-water-edt-125",
-     "precio": 64.69,
-     "referencia": 21.51,
-     "metodo": "jsonld"
+     "perfume": "nautica-voyage-edt-100",
+     "precio": 73.78,
+     "referencia": 20.23,
+     "metodo": "precio-100ml"
     }
    ]
   },
-  "douglas": {
-   "ok": 0,
+  "parejo": {
+   "ok": 5,
    "bloqueada": 0,
-   "sin_precio": 1,
-   "dudoso": 0
-  },
-  "laguna": {
-   "ok": 4,
-   "bloqueada": 0,
-   "sin_precio": 0,
+   "sin_precio": 2,
    "dudoso": 0,
-   "precio-100ml": 2,
-   "jsonld": 2
+   "jsonld": 5
   },
-  "sephora": {
-   "ok": 0,
-   "bloqueada": 1,
-   "sin_precio": 0,
-   "dudoso": 0
-  },
-  "avenida": {
-   "ok": 1,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "variantes": 1
-  },
-  "perfumesclub": {
+  "firstinfragrance": {
    "ok": 1,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
    "jsonld": 1
   },
-  "firstinfragrance": {
-   "ok": 2,
+  "douglas": {
+   "ok": 1,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "jsonld": 2
+   "precio-100ml": 1
   },
-  "beautinow": {
+  "sephora": {
    "ok": 0,
    "bloqueada": 0,
-   "sin_precio": 2,
+   "sin_precio": 1,
    "dudoso": 0
   },
-  "arabicparfums": {
-   "ok": 2,
+  "laguna": {
+   "ok": 1,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "jsonld": 2
+   "jsonld": 1
   }
  },
- "limpiados": {},
+ "limpiados": {
+  "xerjoff-alexandria-ii-edp-100": [
+   "julia"
+  ],
+  "viktor-rolf-good-fortune-edp-90": [
+   "sabina"
+  ]
+ },
  "chollometro": "ok 84"
 }
