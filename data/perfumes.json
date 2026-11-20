@@ -81153,9 +81153,11 @@
    "douglas": "2026-11-16",
    "idealo": "2026-10-26",
    "lookfantastic": "2026-11-16",
-   "sephora": "2026-11-13"
+   "paco": "2026-11-20",
+   "parejo": "2026-11-20",
+   "sephora": "2026-11-20"
   },
-  "checked": "2026-11-20T11:27:05+01:00",
+  "checked": "2026-11-20T12:41:49+01:00",
   "conc": "EDP",
   "history": [
    {
@@ -81350,9 +81352,10 @@
   "brand": "Lancôme",
   "buscado": {
    "douglas": "2026-11-16",
-   "idealo": "2026-10-26"
+   "idealo": "2026-10-26",
+   "parejo": "2026-11-20"
   },
-  "checked": "2026-11-20T11:27:17+01:00",
+  "checked": "2026-11-20T12:42:06+01:00",
   "conc": "EDP",
   "history": [
    {
@@ -82077,11 +82080,6 @@
    },
    {
     "d": "2026-11-20",
-    "p": 69.0,
-    "s": "sephora"
-   },
-   {
-    "d": "2026-11-20",
     "p": 79.95,
     "s": "avenida"
    },
@@ -82124,6 +82122,11 @@
     "d": "2026-11-20",
     "p": 70.84,
     "s": "sabina"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 69.0,
+    "s": "sephora"
    }
   ],
   "id": "lancome-idole-edp-50",
@@ -82218,6 +82221,7 @@
    "lookfantastic": "https://www.lookfantastic.es/lancome-idole-eau-de-parfum-50ml/12218754.html",
    "notino": "https://www.notino.es/lancome/idole-eau-de-parfum-para-mujer/p-15966663/",
    "paco": "https://www.pacoperfumerias.com/idole-perfume-lancome",
+   "parejo": "https://www.joyeriaparejo.com/perfumes/idole-25-ml-eau-de-parfum-lancome",
    "sabina": "https://www.sabina.com/es/women-s-perfumes/8550-lancome-idole-eau-de-parfum.html",
    "sephora": "https://www.sephora.es/p/idole---eau-de-parfum-P3809040.html"
   }
@@ -83362,9 +83366,10 @@
   "buscado": {
    "douglas": "2026-11-16",
    "idealo": "2026-10-26",
-   "lookfantastic": "2026-11-16"
+   "lookfantastic": "2026-11-16",
+   "parejo": "2026-11-20"
   },
-  "checked": "2026-11-20T11:27:31+01:00",
+  "checked": "2026-11-20T12:42:23+01:00",
   "conc": "EDP",
   "history": [
    {
@@ -84196,6 +84201,11 @@
     "d": "2026-11-20",
     "p": 86.41,
     "s": "perfumesclub"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 131.25,
+    "s": "sephora"
    }
   ],
   "id": "lancome-tresor-edp-100",
@@ -84203,8 +84213,10 @@
    "avenida": "https://www.perfumeriasavenida.com/pub/media/catalog/product/cache/63e2cc2d2c1185b8c1d9543422602ecb/P/A/PADRE17981_1-lancome-tresor-100.jpg",
    "idealo": "https://cdn.idealo.com/folder/Product/865/5/865530/s11_produktbild_gross/lancome-tresor-eau-de-parfum-100-ml.jpg",
    "laguna": "https://www.perfumeriaslaguna.com/images/products/lancome-tresor-1.jpg",
+   "notino": "https://cdn.notinoimg.com/order_2k/lancome/3147758034929_01-o/tresor___130808.jpg",
    "paco": "https://www.pacoperfumerias.com/on/demandware.static/-/Sites-pacoper-master-catalog/default/dw61205ea0/images/5/9/59052_2.jpg",
-   "perfumesclub": "https://i1.perfumesclub.com/grande/2850.jpg"
+   "perfumesclub": "https://i1.perfumesclub.com/grande/2850.jpg",
+   "sephora": "https://media.sephora.eu/content/dam/gdam/europe/digital/pim/published/L/LANCO/92113/87299-media_swatch.jpg?scaleWidth=750&scaleHeight=750&scaleMode=fit"
   },
   "ml": 100,
   "name": "Trésor",
@@ -84257,10 +84269,10 @@
    },
    "notino": {
     "auto": true,
-    "d": "2026-11-18",
+    "d": "2026-11-20",
     "gh": true,
-    "p": 124.0,
-    "via": "idealo"
+    "p": 130.0,
+    "stock": false
    },
    "paco": {
     "auto": true,
@@ -84284,8 +84296,9 @@
    },
    "sephora": {
     "auto": true,
-    "d": "2026-10-11",
-    "p": 175
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 131.25
    }
   },
   "target": null,
@@ -84296,6 +84309,7 @@
    "laguna": "https://www.perfumeriaslaguna.com/lancome-tresor-edp-100-vaporizador",
    "notino": "https://www.notino.es/lancome/tresor-eau-de-parfum-para-mujer/p-60805/",
    "paco": "https://www.pacoperfumerias.com/tresor-de-lancome-59054.html",
+   "parejo": "https://www.joyeriaparejo.com/perfumes/lancome-tresor-eau-de-parfum-50-ml-mujer",
    "perfumesclub": "https://www.perfumesclub.com/es/lancome/tresor-eau-de-perfume-vaporizador/p_35720/?pid=2848",
    "sephora": "https://www.sephora.es/p/tresor---eau-de-parfum-P14214.html"
   }
@@ -84306,9 +84320,10 @@
    "douglas": "2026-11-16",
    "idealo": "2026-10-26",
    "lookfantastic": "2026-11-16",
-   "sephora": "2026-11-13"
+   "paco": "2026-11-20",
+   "sephora": "2026-11-20"
   },
-  "checked": "2026-11-20T11:27:45+01:00",
+  "checked": "2026-11-20T12:42:39+01:00",
   "conc": "EDP",
   "deals": [
    {
@@ -85198,6 +85213,11 @@
    },
    {
     "d": "2026-11-20",
+    "p": 24.8,
+    "s": "notino"
+   },
+   {
+    "d": "2026-11-20",
     "p": 21.99,
     "s": "arabicparfums"
    },
@@ -85230,11 +85250,6 @@
     "d": "2026-11-20",
     "p": 17.07,
     "s": "idealo"
-   },
-   {
-    "d": "2026-11-20",
-    "p": 24.8,
-    "s": "notino"
    },
    {
     "d": "2026-11-20",
@@ -86354,9 +86369,10 @@
    "douglas": "2026-11-16",
    "idealo": "2026-10-26",
    "lookfantastic": "2026-11-17",
-   "sephora": "2026-11-13"
+   "paco": "2026-11-20",
+   "sephora": "2026-11-20"
   },
-  "checked": "2026-11-20T11:27:57+01:00",
+  "checked": "2026-11-20T12:42:58+01:00",
   "conc": "EDP",
   "deals": [
    {
@@ -87958,9 +87974,10 @@
    "douglas": "2026-11-16",
    "idealo": "2026-10-26",
    "lookfantastic": "2026-11-16",
-   "sephora": "2026-11-13"
+   "paco": "2026-11-20",
+   "sephora": "2026-11-20"
   },
-  "checked": "2026-11-20T11:28:09+01:00",
+  "checked": "2026-11-20T12:43:15+01:00",
   "conc": "EDP",
   "deals": [
    {
@@ -88832,6 +88849,11 @@
     "d": "2026-11-20",
     "p": 23.7,
     "s": "sabina"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 24.95,
+    "s": "paco"
    }
   ],
   "id": "lattafa-yara-edp-100",
@@ -88840,6 +88862,7 @@
    "idealo": "https://cdn.idealo.com/folder/Product/202097/1/202097173/s11_produktbild_gross/lattafa-yara-eau-de-parfum-100-ml.jpg",
    "laguna": "https://www.perfumeriaslaguna.com/images/products/lattafa-yara-yara-100ml.jpg",
    "notino": "https://cdn.notinoimg.com/order_2k/lattafa/6291108730515_01-o/yara___220926.jpg",
+   "paco": "https://www.pacoperfumerias.com/on/demandware.static/-/Sites-pacoper-master-catalog/default/dw6828768c/images/2/4/242109_2.jpg",
    "sabina": "https://static1.sabinacdn.com/82039/lattafa-yara-eau-de-parfum.jpg"
   },
   "ml": 100,
@@ -88904,6 +88927,12 @@
     "p": 24.0,
     "via": "idealo"
    },
+   "paco": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 24.95
+   },
    "primor": {
     "auto": true,
     "d": "2026-11-20",
@@ -88926,6 +88955,7 @@
    "idealo": "https://www.idealo.es/precios/202097173/lattafa-yara-eau-de-parfum-100-ml.html",
    "laguna": "https://www.perfumeriaslaguna.com/lattafa-yara-yara-100ml",
    "notino": "https://www.notino.es/lattafa/yara-eau-de-parfum-para-mujer/p-16146716/",
+   "paco": "https://www.pacoperfumerias.com/lattafa-yara-edp-37359.html",
    "parejo": "https://www.joyeriaparejo.com/perfumes/perfumes-arabes/perfumes-arabes-para-mujer/lattafa-yara-eau-de-parfum-100ml-oriental",
    "sabina": "https://www.sabina.com/es/perfumes-arabes-para-mujer/25142-lattafa-yara-eau-de-parfum.html"
   }
@@ -88936,9 +88966,11 @@
    "douglas": "2026-11-16",
    "idealo": "2026-10-26",
    "lookfantastic": "2026-11-16",
-   "sephora": "2026-11-13"
+   "paco": "2026-11-20",
+   "parejo": "2026-11-20",
+   "sephora": "2026-11-20"
   },
-  "checked": "2026-11-20T11:28:10+01:00",
+  "checked": "2026-11-20T12:43:23+01:00",
   "conc": "EDP",
   "history": [
    {
@@ -89010,9 +89042,11 @@
    "douglas": "2026-11-16",
    "idealo": "2026-11-09",
    "lookfantastic": "2026-11-16",
-   "sephora": "2026-11-13"
+   "paco": "2026-11-20",
+   "parejo": "2026-11-20",
+   "sephora": "2026-11-20"
   },
-  "checked": "2026-11-20T11:28:11+01:00",
+  "checked": "2026-11-20T12:43:30+01:00",
   "conc": "EDP",
   "history": [],
   "id": "le-labo-santal-33-edp-100",
@@ -89031,9 +89065,11 @@
    "douglas": "2026-11-16",
    "idealo": "2026-10-26",
    "lookfantastic": "2026-11-16",
-   "sephora": "2026-11-13"
+   "paco": "2026-11-20",
+   "parejo": "2026-11-20",
+   "sephora": "2026-11-20"
   },
-  "checked": "2026-11-20T11:28:19+01:00",
+  "checked": "2026-11-20T12:43:42+01:00",
   "conc": "EDT",
   "history": [
    {
@@ -89486,7 +89522,7 @@
    "lookfantastic": "2026-11-16",
    "sephora": "2026-11-13"
   },
-  "checked": "2026-11-20T11:28:24+01:00",
+  "checked": "2026-11-20T12:43:46+01:00",
   "conc": "EDP",
   "history": [
    {
@@ -90104,7 +90140,7 @@
    "lookfantastic": "2026-11-16",
    "sephora": "2026-11-13"
   },
-  "checked": "2026-11-20T11:28:28+01:00",
+  "checked": "2026-11-20T12:43:49+01:00",
   "conc": "EDP",
   "deals": [
    {
@@ -90416,7 +90452,7 @@
    "idealo": "2026-10-26",
    "sephora": "2026-11-13"
   },
-  "checked": "2026-11-20T11:28:38+01:00",
+  "checked": "2026-11-20T12:43:55+01:00",
   "conc": "EDT",
   "deals": [],
   "history": [
@@ -90703,6 +90739,11 @@
    {
     "d": "2026-11-20",
     "p": 153.0,
+    "s": "notino"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 153.0,
     "s": "julia"
    },
    {
@@ -90714,11 +90755,6 @@
     "d": "2026-11-20",
     "p": 116.84,
     "s": "lookfantastic"
-   },
-   {
-    "d": "2026-11-20",
-    "p": 153.0,
-    "s": "notino"
    },
    {
     "d": "2026-11-20",
@@ -91218,7 +91254,7 @@
    "lookfantastic": "2026-11-17",
    "sephora": "2026-11-13"
   },
-  "checked": "2026-11-20T11:28:49+01:00",
+  "checked": "2026-11-20T12:44:05+01:00",
   "conc": "EDP",
   "deals": [
    {
@@ -91826,7 +91862,7 @@
    "lookfantastic": "2026-11-17",
    "sephora": "2026-11-13"
   },
-  "checked": "2026-11-20T11:28:59+01:00",
+  "checked": "2026-11-20T12:44:10+01:00",
   "conc": "EDP",
   "deals": [],
   "history": [
@@ -92591,7 +92627,7 @@
    "lookfantastic": "2026-11-16",
    "sephora": "2026-11-13"
   },
-  "checked": "2026-11-20T11:29:11+01:00",
+  "checked": "2026-11-20T12:44:21+01:00",
   "conc": "EDP",
   "deals": [
    {
@@ -93456,6 +93492,11 @@
    },
    {
     "d": "2026-11-20",
+    "p": 48.6,
+    "s": "notino"
+   },
+   {
+    "d": "2026-11-20",
     "p": 59.95,
     "s": "avenida"
    },
@@ -93483,11 +93524,6 @@
     "d": "2026-11-20",
     "p": 49.95,
     "s": "idealo"
-   },
-   {
-    "d": "2026-11-20",
-    "p": 48.6,
-    "s": "notino"
    },
    {
     "d": "2026-11-20",
@@ -93601,7 +93637,7 @@
    "lookfantastic": "2026-11-16",
    "sephora": "2026-11-13"
   },
-  "checked": "2026-11-20T11:29:27+01:00",
+  "checked": "2026-11-20T12:44:37+01:00",
   "conc": "EDT",
   "deals": [
    {
@@ -95772,7 +95808,7 @@
    "lookfantastic": "2026-10-26",
    "sephora": "2026-11-13"
   },
-  "checked": "2026-11-20T11:29:34+01:00",
+  "checked": "2026-11-20T12:44:41+01:00",
   "conc": "EDP",
   "deals": [
    {
@@ -96731,7 +96767,7 @@
    "idealo": "2026-10-26",
    "sephora": "2026-11-13"
   },
-  "checked": "2026-11-20T11:29:48+01:00",
+  "checked": "2026-11-20T12:44:55+01:00",
   "conc": "EDP",
   "history": [
    {
@@ -97380,7 +97416,7 @@
    "lookfantastic": "2026-11-15",
    "sephora": "2026-11-13"
   },
-  "checked": "2026-11-20T11:30:07+01:00",
+  "checked": "2026-11-20T12:45:09+01:00",
   "conc": "EDP",
   "deals": [
    {
@@ -98307,6 +98343,11 @@
    },
    {
     "d": "2026-11-20",
+    "p": 126.96,
+    "s": "lookfantastic"
+   },
+   {
+    "d": "2026-11-20",
     "p": 103.2,
     "s": "notino"
    },
@@ -98384,8 +98425,7 @@
     "auto": true,
     "d": "2026-11-20",
     "gh": true,
-    "p": 126.96,
-    "stock": false
+    "p": 126.96
    },
    "notino": {
     "auto": true,
@@ -99291,7 +99331,7 @@
    "lookfantastic": "2026-11-16",
    "sephora": "2026-11-13"
   },
-  "checked": "2026-11-20T11:30:12+01:00",
+  "checked": "2026-11-20T12:45:13+01:00",
   "conc": "EDP",
   "history": [
    {
@@ -99742,7 +99782,7 @@
    "lookfantastic": "2026-11-17",
    "sephora": "2026-11-13"
   },
-  "checked": "2026-11-20T11:57:43+01:00",
+  "checked": "2026-11-20T12:47:00+01:00",
   "conc": "EDP",
   "history": [
    {
@@ -100264,7 +100304,7 @@
    "lookfantastic": "2026-11-16",
    "sephora": "2026-11-13"
   },
-  "checked": "2026-11-20T11:57:49+01:00",
+  "checked": "2026-11-20T12:47:06+01:00",
   "conc": "EDP",
   "history": [
    {
@@ -101105,7 +101145,7 @@
    "lookfantastic": "2026-10-26",
    "sephora": "2026-11-13"
   },
-  "checked": "2026-11-20T11:57:56+01:00",
+  "checked": "2026-11-20T12:47:15+01:00",
   "conc": "EDT",
   "deals": [
    {
@@ -103855,7 +103895,7 @@
    "idealo": "2026-10-26",
    "sephora": "2026-11-13"
   },
-  "checked": "2026-11-20T11:58:11+01:00",
+  "checked": "2026-11-20T12:47:29+01:00",
   "conc": "EDP",
   "deals": [
    {
@@ -104931,7 +104971,7 @@
    "idealo": "2026-10-26",
    "sephora": "2026-11-13"
   },
-  "checked": "2026-11-20T11:58:21+01:00",
+  "checked": "2026-11-20T12:47:43+01:00",
   "conc": "EDT",
   "deals": [
    {
@@ -105902,7 +105942,7 @@
    "idealo": "2026-10-26",
    "sephora": "2026-11-13"
   },
-  "checked": "2026-11-20T11:58:34+01:00",
+  "checked": "2026-11-20T12:47:57+01:00",
   "conc": "Parfum",
   "deals": [
    {
@@ -106725,7 +106765,7 @@
    "idealo": "2026-10-26",
    "sephora": "2026-11-13"
   },
-  "checked": "2026-11-20T11:58:44+01:00",
+  "checked": "2026-11-20T12:48:08+01:00",
   "conc": "EDP",
   "deals": [
    {
@@ -107631,7 +107671,7 @@
    "douglas": "2026-10-26",
    "idealo": "2026-10-26"
   },
-  "checked": "2026-11-20T11:58:58+01:00",
+  "checked": "2026-11-20T12:48:25+01:00",
   "conc": "EDT",
   "deals": [
    {
@@ -108725,6 +108765,11 @@
    },
    {
     "d": "2026-11-20",
+    "p": 73.0,
+    "s": "sephora"
+   },
+   {
+    "d": "2026-11-20",
     "p": 69.95,
     "s": "avenida"
    },
@@ -108777,11 +108822,6 @@
     "d": "2026-11-20",
     "p": 65.5,
     "s": "sabina"
-   },
-   {
-    "d": "2026-11-20",
-    "p": 73.0,
-    "s": "sephora"
    }
   ],
   "id": "rabanne-invictus-edt-100",
@@ -111507,7 +111547,7 @@
    "douglas": "2026-11-16",
    "idealo": "2026-10-26"
   },
-  "checked": "2026-11-20T11:59:14+01:00",
+  "checked": "2026-11-20T12:48:42+01:00",
   "conc": "EDT",
   "deals": [
    {
@@ -112496,6 +112536,11 @@
    },
    {
     "d": "2026-11-20",
+    "p": 66.0,
+    "s": "sephora"
+   },
+   {
+    "d": "2026-11-20",
     "p": 64.95,
     "s": "avenida"
    },
@@ -112548,11 +112593,6 @@
     "d": "2026-11-20",
     "p": 66.45,
     "s": "sabina"
-   },
-   {
-    "d": "2026-11-20",
-    "p": 66.0,
-    "s": "sephora"
    }
   ],
   "id": "rabanne-phantom-edt-100",
@@ -112666,7 +112706,7 @@
    "idealo": "2026-10-26",
    "sephora": "2026-11-13"
   },
-  "checked": "2026-11-20T11:59:26+01:00",
+  "checked": "2026-11-20T12:48:55+01:00",
   "conc": "EDP",
   "deals": [
    {
@@ -113545,7 +113585,7 @@
    "idealo": "2026-10-26",
    "sephora": "2026-11-13"
   },
-  "checked": "2026-11-20T11:59:35+01:00",
+  "checked": "2026-11-20T12:49:05+01:00",
   "conc": "EDT",
   "history": [
    {
@@ -115149,7 +115189,7 @@
    "douglas": "2026-11-16",
    "idealo": "2026-10-26"
   },
-  "checked": "2026-11-20T11:59:47+01:00",
+  "checked": "2026-11-20T12:49:19+01:00",
   "conc": "EDP",
   "history": [
    {
@@ -116044,6 +116084,11 @@
    },
    {
     "d": "2026-11-20",
+    "p": 152.25,
+    "s": "sephora"
+   },
+   {
+    "d": "2026-11-20",
     "p": 124.65,
     "s": "brasty"
    },
@@ -116101,11 +116146,6 @@
     "d": "2026-11-20",
     "p": 133.88,
     "s": "sabina"
-   },
-   {
-    "d": "2026-11-20",
-    "p": 152.25,
-    "s": "sephora"
    }
   ],
   "id": "tom-ford-noir-extreme-edp-100",
@@ -116233,7 +116273,7 @@
    "idealo": "2026-10-26",
    "parejo": "2026-11-20"
   },
-  "checked": "2026-11-20T12:00:07+01:00",
+  "checked": "2026-11-20T12:49:42+01:00",
   "conc": "EDP",
   "deals": [
    {
@@ -116977,7 +117017,7 @@
    "paco": "2026-11-20",
    "sephora": "2026-11-13"
   },
-  "checked": "2026-11-20T12:00:11+01:00",
+  "checked": "2026-11-20T12:49:46+01:00",
   "conc": "EDP",
   "history": [
    {
@@ -117634,7 +117674,7 @@
    "idealo": "2026-10-26",
    "sephora": "2026-11-13"
   },
-  "checked": "2026-11-20T12:00:19+01:00",
+  "checked": "2026-11-20T12:49:56+01:00",
   "conc": "EDP",
   "history": [
    {
@@ -118254,11 +118294,6 @@
    },
    {
     "d": "2026-11-20",
-    "p": 124.0,
-    "s": "notino"
-   },
-   {
-    "d": "2026-11-20",
     "p": 93.94,
     "s": "primor"
    },
@@ -118301,6 +118336,11 @@
     "d": "2026-11-20",
     "p": 125.06,
     "s": "lookfantastic"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 124.0,
+    "s": "notino"
    },
    {
     "d": "2026-11-20",
@@ -118409,7 +118449,7 @@
    "idealo": "2026-10-26",
    "sephora": "2026-11-13"
   },
-  "checked": "2026-11-20T12:00:30+01:00",
+  "checked": "2026-11-20T12:50:10+01:00",
   "conc": "EDT",
   "history": [
    {
@@ -119133,7 +119173,7 @@
    "douglas": "2026-11-16",
    "idealo": "2026-10-26"
   },
-  "checked": "2026-11-20T12:00:36+01:00",
+  "checked": "2026-11-20T12:50:15+01:00",
   "conc": "EDP",
   "history": [
    {
@@ -119829,7 +119869,7 @@
    "idealo": "2026-10-26",
    "sephora": "2026-11-13"
   },
-  "checked": "2026-11-20T12:00:49+01:00",
+  "checked": "2026-11-20T12:50:29+01:00",
   "conc": "EDT",
   "history": [
    {
@@ -120554,11 +120594,6 @@
    },
    {
     "d": "2026-11-20",
-    "p": 52.8,
-    "s": "notino"
-   },
-   {
-    "d": "2026-11-20",
     "p": 59.95,
     "s": "arenal"
    },
@@ -120586,6 +120621,11 @@
     "d": "2026-11-20",
     "p": 59.95,
     "s": "laguna"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 52.8,
+    "s": "notino"
    },
    {
     "d": "2026-11-20",
@@ -123096,7 +123136,7 @@
    "idealo": "2026-10-26",
    "sephora": "2026-11-13"
   },
-  "checked": "2026-11-20T12:00:55+01:00",
+  "checked": "2026-11-20T12:50:35+01:00",
   "conc": "EDP",
   "deals": [
    {
@@ -123542,11 +123582,6 @@
    },
    {
     "d": "2026-11-20",
-    "p": 52.8,
-    "s": "notino"
-   },
-   {
-    "d": "2026-11-20",
     "p": 59.94,
     "s": "primor"
    },
@@ -123579,6 +123614,11 @@
     "d": "2026-11-20",
     "p": 52.8,
     "s": "idealo"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 52.8,
+    "s": "notino"
    }
   ],
   "id": "versace-eros-flame-edp-100",
@@ -124003,7 +124043,7 @@
    "douglas": "2026-11-16",
    "idealo": "2026-10-26"
   },
-  "checked": "2026-11-20T12:01:04+01:00",
+  "checked": "2026-11-20T12:50:47+01:00",
   "conc": "EDT",
   "history": [
    {
@@ -124578,11 +124618,6 @@
    },
    {
     "d": "2026-11-20",
-    "p": 59.5,
-    "s": "notino"
-   },
-   {
-    "d": "2026-11-20",
     "p": 59.94,
     "s": "primor"
    },
@@ -124605,6 +124640,11 @@
     "d": "2026-11-20",
     "p": 62.95,
     "s": "laguna"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 59.5,
+    "s": "notino"
    },
    {
     "d": "2026-11-20",
@@ -124706,7 +124746,7 @@
    "idealo": "2026-10-26",
    "sephora": "2026-11-13"
   },
-  "checked": "2026-11-20T12:01:25+01:00",
+  "checked": "2026-11-20T12:51:03+01:00",
   "conc": "EDP",
   "history": [
    {
@@ -125688,7 +125728,7 @@
    "idealo": "2026-10-26",
    "sephora": "2026-11-13"
   },
-  "checked": "2026-11-20T12:01:31+01:00",
+  "checked": "2026-11-20T12:51:09+01:00",
   "conc": "EDP",
   "deals": [
    {
@@ -134435,7 +134475,7 @@
    "parejo": "2026-11-20",
    "sephora": "2026-11-20"
   },
-  "checked": "2026-11-20T11:30:22+01:00",
+  "checked": "2026-11-20T12:45:20+01:00",
   "conc": "Parfum",
   "deals": [],
   "history": [
@@ -134562,7 +134602,7 @@
    "parejo": "2026-11-20",
    "sephora": "2026-11-20"
   },
-  "checked": "2026-11-20T11:30:29+01:00",
+  "checked": "2026-11-20T12:45:25+01:00",
   "conc": "EDP",
   "deals": [],
   "history": [
@@ -134684,7 +134724,7 @@
    "parejo": "2026-11-20",
    "sephora": "2026-11-20"
   },
-  "checked": "2026-11-20T11:30:33+01:00",
+  "checked": "2026-11-20T12:45:28+01:00",
   "conc": "EDP",
   "deals": [],
   "history": [
@@ -134733,7 +134773,7 @@
    "douglas": "2026-11-20",
    "idealo": "2026-11-20"
   },
-  "checked": "2026-11-20T11:30:36+01:00",
+  "checked": "2026-11-20T12:45:29+01:00",
   "conc": "EDP",
   "deals": [],
   "history": [
@@ -134838,18 +134878,13 @@
  {
   "brand": "Givenchy",
   "buscado": {},
-  "checked": "2026-11-20T11:30:41+01:00",
+  "checked": "2026-11-20T12:45:35+01:00",
   "conc": "EDP",
   "deals": [],
   "descartadas": [
    "https://www.joyeriaparejo.com/busqueda?s=Givenchy+Gentleman+Society+eau+de+parfum"
   ],
   "history": [
-   {
-    "d": "2026-11-20",
-    "p": 68.25,
-    "s": "sephora"
-   },
    {
     "d": "2026-11-20",
     "p": 66.94,
@@ -134889,6 +134924,11 @@
     "d": "2026-11-20",
     "p": 67.93,
     "s": "paco"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 68.25,
+    "s": "sephora"
    }
   ],
   "id": "givenchy-gentleman-society-edp-100",
@@ -134973,7 +135013,7 @@
  {
   "brand": "Burberry",
   "buscado": {},
-  "checked": "2026-11-20T11:30:47+01:00",
+  "checked": "2026-11-20T12:45:40+01:00",
   "conc": "EDP",
   "deals": [],
   "descartadas": [
@@ -135094,7 +135134,7 @@
  {
   "brand": "Lattafa",
   "buscado": {},
-  "checked": "2026-11-20T11:30:51+01:00",
+  "checked": "2026-11-20T12:45:44+01:00",
   "conc": "EDP",
   "deals": [],
   "history": [
@@ -135188,7 +135228,7 @@
  {
   "brand": "Armaf",
   "buscado": {},
-  "checked": "2026-11-20T11:30:53+01:00",
+  "checked": "2026-11-20T12:45:45+01:00",
   "conc": "EDP",
   "deals": [],
   "descartadas": [
@@ -135290,7 +135330,7 @@
    "parejo": "2026-11-20",
    "sephora": "2026-11-20"
   },
-  "checked": "2026-11-20T11:56:12+01:00",
+  "checked": "2026-11-20T12:45:47+01:00",
   "conc": "EDP",
   "deals": [],
   "descartadas": [
@@ -135344,7 +135384,7 @@
    "parejo": "2026-11-20",
    "sephora": "2026-11-20"
   },
-  "checked": "2026-11-20T11:56:24+01:00",
+  "checked": "2026-11-20T12:45:49+01:00",
   "conc": "EDP",
   "deals": [],
   "history": [
@@ -135394,7 +135434,7 @@
    "parejo": "2026-11-20",
    "sephora": "2026-11-20"
   },
-  "checked": "2026-11-20T11:56:34+01:00",
+  "checked": "2026-11-20T12:45:53+01:00",
   "conc": "EDP",
   "deals": [],
   "descartadas": [
@@ -135472,7 +135512,7 @@
    "parejo": "2026-11-20",
    "sephora": "2026-11-20"
   },
-  "checked": "2026-11-20T11:56:47+01:00",
+  "checked": "2026-11-20T12:45:57+01:00",
   "conc": "EDT",
   "deals": [],
   "descartadas": [
@@ -135533,7 +135573,7 @@
    "douglas": "2026-11-20",
    "lookfantastic": "2026-11-20"
   },
-  "checked": "2026-11-20T11:56:55+01:00",
+  "checked": "2026-11-20T12:46:00+01:00",
   "conc": "EDT",
   "deals": [],
   "history": [
@@ -135627,7 +135667,7 @@
  {
   "brand": "Yves Saint Laurent",
   "buscado": {},
-  "checked": "2026-11-20T11:57:02+01:00",
+  "checked": "2026-11-20T12:46:09+01:00",
   "conc": "Parfum",
   "deals": [],
   "descartadas": [
@@ -135723,7 +135763,7 @@
  {
   "brand": "Valentino",
   "buscado": {},
-  "checked": "2026-11-20T11:57:06+01:00",
+  "checked": "2026-11-20T12:46:13+01:00",
   "conc": "EDP",
   "deals": [],
   "descartadas": [
@@ -135833,7 +135873,7 @@
  {
   "brand": "Carolina Herrera",
   "buscado": {},
-  "checked": "2026-11-20T11:57:12+01:00",
+  "checked": "2026-11-20T12:46:19+01:00",
   "conc": "EDP",
   "deals": [],
   "history": [
@@ -135961,7 +136001,7 @@
  {
   "brand": "Armani",
   "buscado": {},
-  "checked": "2026-11-20T11:57:17+01:00",
+  "checked": "2026-11-20T12:46:26+01:00",
   "conc": "EDP",
   "deals": [],
   "history": [
@@ -136105,7 +136145,7 @@
  {
   "brand": "Gucci",
   "buscado": {},
-  "checked": "2026-11-20T11:57:20+01:00",
+  "checked": "2026-11-20T12:46:29+01:00",
   "conc": "EDP",
   "deals": [],
   "descartadas": [
@@ -136190,7 +136230,7 @@
  {
   "brand": "Rabanne",
   "buscado": {},
-  "checked": "2026-11-20T11:57:24+01:00",
+  "checked": "2026-11-20T12:46:35+01:00",
   "conc": "Parfum",
   "deals": [],
   "descartadas": [
@@ -136312,7 +136352,7 @@
  {
   "brand": "Mugler",
   "buscado": {},
-  "checked": "2026-11-20T11:57:27+01:00",
+  "checked": "2026-11-20T12:46:38+01:00",
   "conc": "EDP",
   "deals": [],
   "history": [
@@ -136358,7 +136398,7 @@
  {
   "brand": "Prada",
   "buscado": {},
-  "checked": "2026-11-20T11:57:31+01:00",
+  "checked": "2026-11-20T12:46:41+01:00",
   "conc": "EDP",
   "deals": [],
   "descartadas": [
@@ -136464,7 +136504,7 @@
  {
   "brand": "Kayali",
   "buscado": {},
-  "checked": "2026-11-20T11:57:33+01:00",
+  "checked": "2026-11-20T12:46:50+01:00",
   "conc": "EDP",
   "deals": [],
   "descartadas": [
@@ -136508,7 +136548,7 @@
    "parejo": "2026-11-20",
    "sephora": "2026-11-20"
   },
-  "checked": "2026-11-20T12:31:02+01:00",
+  "checked": "2026-11-20T12:41:39+01:00",
   "conc": "EDC",
   "deals": [],
   "history": [],
@@ -136524,7 +136564,7 @@
  {
   "brand": "Maison Margiela",
   "buscado": {},
-  "checked": "2026-11-20T11:57:35+01:00",
+  "checked": "2026-11-20T12:46:53+01:00",
   "conc": "EDT",
   "deals": [],
   "descartadas": [
@@ -136585,7 +136625,7 @@
  {
   "brand": "Byredo",
   "buscado": {},
-  "checked": "2026-11-20T11:57:37+01:00",
+  "checked": "2026-11-20T12:46:54+01:00",
   "conc": "EDP",
   "deals": [],
   "descartadas": [
@@ -136628,7 +136668,7 @@
    "parejo": "2026-11-20",
    "sephora": "2026-11-20"
   },
-  "checked": "2026-11-20T11:59:52+01:00",
+  "checked": "2026-11-20T12:49:24+01:00",
   "conc": "EDP",
   "deals": [],
   "history": [
@@ -136763,7 +136803,7 @@
    "parejo": "2026-11-20",
    "sephora": "2026-11-20"
   },
-  "checked": "2026-11-20T11:59:57+01:00",
+  "checked": "2026-11-20T12:49:30+01:00",
   "conc": "EDP",
   "deals": [],
   "history": [
@@ -136890,7 +136930,7 @@
    "parejo": "2026-11-20",
    "sephora": "2026-11-20"
   },
-  "checked": "2026-11-20T12:31:02+01:00",
+  "checked": "2026-11-20T12:41:39+01:00",
   "conc": "EDP",
   "deals": [],
   "history": [],
