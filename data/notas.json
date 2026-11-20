@@ -572,8 +572,64 @@
 "url": "https://www.parfumo.com/Perfumes/Ariana_Grande/cloud-eau-de-parfum"
 },
 "Ariana Grande|Thank U, Next|EDP": {
+"accords": [
+[
+"Sweet",
+85
+],
+[
+"Fruity",
+85
+],
+[
+"Synthetic",
+65
+],
+[
+"Creamy",
+65
+],
+[
+"Gourmand",
+65
+]
+],
 "checked": "2026-11-20",
-"src": null
+"flat": [],
+"levels": {
+"base": [
+[
+"Sugar",
+3
+],
+[
+"Musk",
+1
+]
+],
+"heart": [
+[
+"Coconut cream",
+5
+],
+[
+"Pink rose",
+2
+]
+],
+"top": [
+[
+"Raspberry",
+1
+],
+[
+"White pear",
+1
+]
+]
+},
+"src": "parfumo",
+"url": "https://www.parfumo.com/Perfumes/Ariana_Grande/thank-u-next-eau-de-parfum"
 },
 "Armaf|Club de Nuit Iconic|EDP": {
 "accords": [
@@ -2272,8 +2328,64 @@
 "url": "https://www.parfumo.com/Perfumes/Bvlgari/Aqva_pour_Homme_Eau_de_Toilette"
 },
 "Bvlgari|Man Wood Essence|EDP": {
+"accords": [
+[
+"Woody",
+85
+],
+[
+"Green",
+65
+],
+[
+"Synthetic",
+65
+],
+[
+"Fresh",
+65
+],
+[
+"Spicy",
+45
+]
+],
 "checked": "2026-11-20",
-"src": null
+"flat": [],
+"levels": {
+"base": [
+[
+"Siam benzoin absolute",
+3
+],
+[
+"Virginia cedar wood",
+2
+]
+],
+"heart": [
+[
+"Cypress",
+5
+],
+[
+"Gaiac wood",
+2
+]
+],
+"top": [
+[
+"Coriander",
+2
+],
+[
+"Italian citrus zest",
+2
+]
+]
+},
+"src": "parfumo",
+"url": "https://www.parfumo.com/Perfumes/Bvlgari/bvlgari-man-wood-essence"
 },
 "Bvlgari|Man in Black|EDP": {
 "accords": [
@@ -4494,8 +4606,80 @@
 "url": "https://www.parfumo.com/Perfumes/Chanel/Gabrielle_Chanel"
 },
 "Chanel|Nº5 L'Eau|EDT": {
+"accords": [
+[
+"Floral",
+85
+],
+[
+"Fresh",
+85
+],
+[
+"Citrus",
+85
+],
+[
+"Powdery",
+65
+],
+[
+"Creamy",
+45
+]
+],
 "checked": "2026-11-20",
-"src": null
+"flat": [],
+"levels": {
+"base": [
+[
+"Musk",
+4
+],
+[
+"Vetiver",
+2
+],
+[
+"Cedar",
+1
+]
+],
+"heart": [
+[
+"Jasmine",
+3
+],
+[
+"Rose",
+3
+],
+[
+"Ylang-ylang",
+3
+]
+],
+"top": [
+[
+"Lemon",
+5
+],
+[
+"Aldehydes",
+4
+],
+[
+"Mandarin orange",
+3
+],
+[
+"Orange",
+2
+]
+]
+},
+"src": "parfumo",
+"url": "https://www.parfumo.com/Perfumes/Chanel/N5_L_Eau"
 },
 "Chanel|Égoïste Platinum|EDT": {
 "accords": [
@@ -6612,8 +6796,64 @@
 "url": "https://www.parfumo.com/Perfumes/Dolce_Gabbana/The_One_Eau_de_Parfum"
 },
 "Elie Saab|Le Parfum|EDP": {
+"accords": [
+[
+"Floral",
+85
+],
+[
+"Sweet",
+85
+],
+[
+"Powdery",
+45
+],
+[
+"Fresh",
+45
+],
+[
+"Woody",
+45
+]
+],
 "checked": "2026-11-20",
-"src": null
+"flat": [],
+"levels": {
+"base": [
+[
+"Rose honey",
+3
+],
+[
+"Cedarwood",
+1
+]
+],
+"heart": [
+[
+"Jasmine sambac",
+3
+],
+[
+"Jasminum grandiflorum",
+3
+],
+[
+"Patchouli",
+1
+]
+],
+"top": [
+[
+"Orange blossom",
+5
+]
+]
+},
+"src": "parfumo",
+"url": "https://www.parfumo.com/Perfumes/Elie_Saab/Le_Parfum"
 },
 "Givenchy|Gentleman Reserve Privée|EDP": {
 "accords": [
@@ -7077,8 +7317,80 @@
 "url": "https://www.parfumo.com/Perfumes/Gucci/flora-gorgeous-gardenia-eau-de-parfum"
 },
 "Gucci|Flora Gorgeous Jasmine|EDP": {
+"accords": [
+[
+"Floral",
+85
+],
+[
+"Sweet",
+85
+],
+[
+"Fresh",
+85
+],
+[
+"Powdery",
+45
+],
+[
+"Creamy",
+45
+]
+],
 "checked": "2026-11-20",
-"src": null
+"flat": [],
+"levels": {
+"base": [
+[
+"Australian sandalwood",
+2
+],
+[
+"Benzoin",
+2
+],
+[
+"Indonesian patchouli",
+1
+]
+],
+"heart": [
+[
+"Jasminum grandiflorum absolute",
+5
+],
+[
+"Jasmine sambac absolute",
+4
+],
+[
+"Damask rose",
+2
+],
+[
+"Magnolia",
+2
+]
+],
+"top": [
+[
+"Mandarin  orange blossom",
+3
+],
+[
+"Italian bergamot",
+2
+],
+[
+"Black pepper",
+1
+]
+]
+},
+"src": "parfumo",
+"url": "https://www.parfumo.com/Perfumes/Gucci/flora-gorgeous-jasmine"
 },
 "Gucci|Guilty pour Femme|EDP": {
 "accords": [
@@ -7417,8 +7729,84 @@
 "url": "https://www.parfumo.com/Perfumes/Guerlain/Shalimar"
 },
 "Halloween|Halloween|EDT": {
+"accords": [
+[
+"Floral",
+85
+],
+[
+"Fresh",
+65
+],
+[
+"Aquatic",
+65
+],
+[
+"Green",
+65
+],
+[
+"Sweet",
+45
+]
+],
 "checked": "2026-11-20",
-"src": null
+"flat": [],
+"levels": {
+"base": [
+[
+"Sandalwood",
+3
+],
+[
+"Myrrh",
+2
+],
+[
+"Vanilla",
+2
+],
+[
+"Frankincense",
+1
+]
+],
+"heart": [
+[
+"Violet",
+4
+],
+[
+"Magnolia",
+2
+],
+[
+"Pepper",
+2
+],
+[
+"Tuberose",
+1
+]
+],
+"top": [
+[
+"Banana leaf",
+5
+],
+[
+"Violet",
+4
+],
+[
+"Petitgrain",
+2
+]
+]
+},
+"src": "parfumo",
+"url": "https://www.parfumo.com/Perfumes/Halloween/Halloween"
 },
 "Hermès|H24|EDT": {
 "accords": [
@@ -7467,8 +7855,50 @@
 "url": "https://www.parfumo.com/Perfumes/Hermes/h24-eau-de-toilette"
 },
 "Hermès|Terre d'Hermès Parfum|Parfum": {
+"accords": [
+[
+"Woody",
+85
+],
+[
+"Earthy",
+85
+],
+[
+"Citrus",
+65
+],
+[
+"Spicy",
+65
+],
+[
+"Fresh",
+65
+]
+],
 "checked": "2026-11-20",
-"src": null
+"flat": [
+[
+"Grapefruit",
+5
+],
+[
+"Cedarwood",
+3
+],
+[
+"Shiso",
+3
+],
+[
+"Benzoin",
+2
+]
+],
+"levels": {},
+"src": "parfumo",
+"url": "https://www.parfumo.com/Perfumes/Hermes/Terre_d_Hermes_Parfum"
 },
 "Hermès|Terre d'Hermès|EDT": {
 "accords": [
@@ -8948,8 +9378,60 @@
 "url": "https://www.parfumo.com/Perfumes/Jean_Paul_Gaultier/gaultier-divine"
 },
 "Jean Paul Gaultier|La Belle Le Parfum|EDP": {
+"accords": [
+[
+"Sweet",
+85
+],
+[
+"Fruity",
+85
+],
+[
+"Gourmand",
+85
+],
+[
+"Creamy",
+45
+],
+[
+"Floral",
+45
+]
+],
 "checked": "2026-11-20",
-"src": null
+"flat": [],
+"levels": {
+"base": [
+[
+"Tonka bean",
+5
+],
+[
+"Musk",
+1
+]
+],
+"heart": [
+[
+"Vanilla",
+3
+],
+[
+"Jasmine",
+1
+]
+],
+"top": [
+[
+"Pear",
+4
+]
+]
+},
+"src": "parfumo",
+"url": "https://www.parfumo.com/Perfumes/Jean_Paul_Gaultier/la-belle-le-parfum"
 },
 "Jean Paul Gaultier|La Belle|EDP": {
 "accords": [
@@ -9992,8 +10474,120 @@
 "url": "https://www.parfumo.com/Perfumes/Kayali/vanilla-28-eau-de-parfum"
 },
 "Kayali|Yum Pistachio Gelato 33|EDP": {
+"accords": [
+[
+"Sweet",
+85
+],
+[
+"Creamy",
+85
+],
+[
+"Gourmand",
+85
+],
+[
+"Synthetic",
+45
+],
+[
+"Floral",
+45
+]
+],
 "checked": "2026-11-20",
-"src": null
+"flat": [],
+"levels": {
+"base": [
+[
+"Cream",
+4
+],
+[
+"Marshmallow",
+4
+],
+[
+"Cotton candy",
+3
+],
+[
+"Lokum",
+3
+],
+[
+"Tonka bean",
+3
+],
+[
+"Cedarwood",
+2
+],
+[
+"Sandalwood",
+2
+],
+[
+"Cocoa",
+1
+]
+],
+"heart": [
+[
+"Geranium",
+2
+],
+[
+"Jasmine",
+2
+],
+[
+"Lily of the valley",
+2
+],
+[
+"White peach",
+2
+],
+[
+"White peony",
+2
+],
+[
+"Pear",
+1
+],
+[
+"Raspberry",
+1
+]
+],
+"top": [
+[
+"Pistachio ice cream",
+5
+],
+[
+"Italian bergamot",
+3
+],
+[
+"Hazelnut",
+2
+],
+[
+"Rum",
+2
+],
+[
+"Cardamom",
+1
+]
+]
+},
+"src": "parfumo",
+"url": "https://www.parfumo.com/Perfumes/Kayali/pistachio-gelato-33-eau-de-parfum"
 },
 "Kenzo|Flower by Kenzo|EDP": {
 "accords": [
@@ -11136,12 +11730,150 @@
 "url": "https://www.parfumo.com/Perfumes/Le_Labo/Santal_33_Eau_de_Parfum"
 },
 "Loewe|001 Woman|EDP": {
+"accords": [
+[
+"Floral",
+85
+],
+[
+"Woody",
+85
+],
+[
+"Sweet",
+65
+],
+[
+"Fruity",
+45
+],
+[
+"Creamy",
+45
+]
+],
 "checked": "2026-11-20",
-"src": null
+"flat": [],
+"levels": {
+"base": [
+[
+"White musk",
+4
+],
+[
+"Amber",
+2
+],
+[
+"Vanilla",
+2
+]
+],
+"heart": [
+[
+"Egyptian jasmine",
+5
+],
+[
+"Sandalwood",
+5
+],
+[
+"Linen",
+2
+]
+],
+"top": [
+[
+"Calabrian mandarin orange",
+3
+],
+[
+"Pink pepper",
+3
+],
+[
+"Bergamot",
+1
+]
+]
+},
+"src": "parfumo",
+"url": "https://www.parfumo.com/Perfumes/Loewe/Loewe_001_Woman"
 },
 "Loewe|Solo Loewe|EDT": {
+"accords": [
+[
+"Spicy",
+85
+],
+[
+"Fresh",
+65
+],
+[
+"Citrus",
+65
+],
+[
+"Woody",
+65
+],
+[
+"Fruity",
+45
+]
+],
 "checked": "2026-11-20",
-"src": null
+"flat": [
+[
+"Lavender",
+5
+],
+[
+"Mandarin orange",
+5
+],
+[
+"Thyme",
+4
+],
+[
+"Cashmere",
+3
+],
+[
+"Cinnamon",
+3
+],
+[
+"Cumin",
+2
+],
+[
+"Guava",
+2
+],
+[
+"Lemon",
+2
+],
+[
+"Nutmeg",
+2
+],
+[
+"Patchouli",
+2
+],
+[
+"Bergamot",
+1
+]
+],
+"levels": {},
+"src": "parfumo",
+"url": "https://www.parfumo.com/Perfumes/Loewe/Solo_Loewe"
 },
 "Maison Francis Kurkdjian|Aqua Universalis|EDT": {
 "accords": [
@@ -11886,8 +12618,56 @@
 "url": "https://www.parfumo.com/Perfumes/Mancera/roses-vanille-eau-de-parfum"
 },
 "Marc Jacobs|Daisy Love|EDT": {
+"accords": [
+[
+"Sweet",
+85
+],
+[
+"Floral",
+85
+],
+[
+"Fruity",
+85
+],
+[
+"Fresh",
+65
+],
+[
+"Synthetic",
+45
+]
+],
 "checked": "2026-11-20",
-"src": null
+"flat": [],
+"levels": {
+"base": [
+[
+"Cashmere musk",
+2
+],
+[
+"Driftwood",
+1
+]
+],
+"heart": [
+[
+"Daisy tree",
+3
+]
+],
+"top": [
+[
+"Cloudberry",
+5
+]
+]
+},
+"src": "parfumo",
+"url": "https://www.parfumo.com/Perfumes/Marc_Jacobs/Daisy_Love"
 },
 "Marc Jacobs|Daisy|EDT": {
 "accords": [
@@ -12342,8 +13122,68 @@
 "url": "https://www.parfumo.com/Perfumes/mugler/A_Men_Angel_Men"
 },
 "Mugler|Alien Goddess Intense|EDP": {
+"accords": [
+[
+"Sweet",
+85
+],
+[
+"Creamy",
+85
+],
+[
+"Floral",
+85
+],
+[
+"Gourmand",
+45
+],
+[
+"Oriental",
+45
+]
+],
 "checked": "2026-11-20",
-"src": null
+"flat": [],
+"levels": {
+"base": [
+[
+"Cashmeran",
+3
+],
+[
+"Benzoin",
+2
+],
+[
+"Bourbon vanilla",
+2
+]
+],
+"heart": [
+[
+"Jasminum grandiflorum",
+5
+],
+[
+"Jasmine tea",
+2
+]
+],
+"top": [
+[
+"Coconut",
+3
+],
+[
+"Calabrian bergamot",
+1
+]
+]
+},
+"src": "parfumo",
+"url": "https://www.parfumo.com/Perfumes/mugler/alien-goddess-eau-de-parfum-intense"
 },
 "Mugler|Alien Goddess|EDP": {
 "accords": [
@@ -12823,8 +13663,96 @@
 "src": "tienda:avenida"
 },
 "Nishane|Ani|Parfum": {
+"accords": [
+[
+"Sweet",
+85
+],
+[
+"Spicy",
+85
+],
+[
+"Gourmand",
+65
+],
+[
+"Creamy",
+65
+],
+[
+"Citrus",
+45
+]
+],
 "checked": "2026-11-20",
-"src": null
+"flat": [],
+"levels": {
+"base": [
+[
+"Vanilla",
+5
+],
+[
+"Benzoin",
+3
+],
+[
+"Ambergris",
+2
+],
+[
+"Cedarwood",
+2
+],
+[
+"Musk",
+2
+],
+[
+"Patchouli",
+2
+],
+[
+"Sandalwood",
+2
+]
+],
+"heart": [
+[
+"Cardamom",
+3
+],
+[
+"Blackcurrant",
+2
+],
+[
+"Turkish rose",
+1
+]
+],
+"top": [
+[
+"Bergamot",
+3
+],
+[
+"Green notes",
+3
+],
+[
+"Blue ginger",
+2
+],
+[
+"Pink pepper",
+2
+]
+]
+},
+"src": "parfumo",
+"url": "https://www.parfumo.com/Perfumes/Nishane/Ani"
 },
 "Nishane|Hacivat|Parfum": {
 "accords": [
@@ -15642,8 +16570,84 @@
 "url": "https://www.parfumo.com/Perfumes/Tom_Ford/Tuscan_Leather_Eau_de_Parfum"
 },
 "Tous|Tous|EDT": {
+"accords": [
+[
+"Floral",
+85
+],
+[
+"Fresh",
+85
+],
+[
+"Spicy",
+45
+],
+[
+"Sweet",
+45
+],
+[
+"Fruity",
+45
+]
+],
 "checked": "2026-11-20",
-"src": null
+"flat": [],
+"levels": {
+"base": [
+[
+"Atlas cedar",
+3
+],
+[
+"Iris",
+2
+],
+[
+"White musk",
+2
+]
+],
+"heart": [
+[
+"Peony",
+5
+],
+[
+"Jasmine sambac",
+4
+],
+[
+"Gardenia",
+3
+],
+[
+"Rose",
+2
+]
+],
+"top": [
+[
+"Bergamot",
+4
+],
+[
+"Violet leaf",
+4
+],
+[
+"Blackcurrant leaf",
+2
+],
+[
+"Coriander",
+1
+]
+]
+},
+"src": "parfumo",
+"url": "https://www.parfumo.com/Perfumes/Tous/Tous"
 },
 "Valentino|Born in Roma Coral Fantasy Uomo|EDT": {
 "accords": [
@@ -16658,8 +17662,56 @@
 "url": "https://www.parfumo.com/Perfumes/Viktor_Rolf/Flowerbomb"
 },
 "Viktor&Rolf|Good Fortune|EDP": {
+"accords": [
+[
+"Floral",
+85
+],
+[
+"Sweet",
+85
+],
+[
+"Synthetic",
+65
+],
+[
+"Creamy",
+45
+],
+[
+"Green",
+45
+]
+],
 "checked": "2026-11-20",
-"src": null
+"flat": [],
+"levels": {
+"base": [
+[
+"Bourbon vanilla",
+4
+]
+],
+"heart": [
+[
+"Jasmine",
+5
+]
+],
+"top": [
+[
+"Fennel",
+2
+],
+[
+"Gentian",
+1
+]
+]
+},
+"src": "parfumo",
+"url": "https://www.parfumo.com/Perfumes/Viktor_Rolf/good-fortune"
 },
 "Viktor&Rolf|Spicebomb Extreme|EDP": {
 "accords": [
@@ -16738,8 +17790,88 @@
 "url": "https://www.parfumo.com/Perfumes/Viktor_Rolf/Spicebomb_Extreme"
 },
 "Xerjoff|Alexandria II|EDP": {
+"accords": [
+[
+"Oriental",
+85
+],
+[
+"Woody",
+85
+],
+[
+"Spicy",
+85
+],
+[
+"Sweet",
+65
+],
+[
+"Floral",
+45
+]
+],
 "checked": "2026-11-20",
-"src": null
+"flat": [],
+"levels": {
+"base": [
+[
+"Laotian oud",
+5
+],
+[
+"Amber",
+4
+],
+[
+"Sandalwood",
+3
+],
+[
+"Musk",
+2
+],
+[
+"Vanilla",
+1
+]
+],
+"heart": [
+[
+"Bulgarian rose",
+4
+],
+[
+"Lily of the valley",
+2
+],
+[
+"Cedarwood",
+1
+]
+],
+"top": [
+[
+"Lavender",
+3
+],
+[
+"Rosewood",
+2
+],
+[
+"Apple",
+1
+],
+[
+"Cinnamon",
+1
+]
+]
+},
+"src": "parfumo",
+"url": "https://www.parfumo.com/Perfumes/Xerjoff/alexandria-ii-parfum"
 },
 "Xerjoff|Erba Pura|EDP": {
 "accords": [
@@ -17542,8 +18674,50 @@
 "url": "https://www.parfumo.com/Perfumes/Yves_Saint_Laurent/Mon_Paris"
 },
 "Yves Saint Laurent|Y Elixir|Elixir": {
+"accords": [
+[
+"Fresh",
+85
+],
+[
+"Synthetic",
+85
+],
+[
+"Woody",
+85
+],
+[
+"Spicy",
+65
+],
+[
+"Sweet",
+65
+]
+],
 "checked": "2026-11-20",
-"src": null
+"flat": [
+[
+"White lavender",
+5
+],
+[
+"Moroccan geranium",
+4
+],
+[
+"Frankincense",
+2
+],
+[
+"Oud",
+1
+]
+],
+"levels": {},
+"src": "parfumo",
+"url": "https://www.parfumo.com/Perfumes/Yves_Saint_Laurent/y-l-elixir"
 },
 "Yves Saint Laurent|Y|EDP": {
 "accords": [
