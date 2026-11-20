@@ -5479,7 +5479,6 @@
   "buscado": {
    "douglas": "2026-11-16",
    "idealo": "2026-10-26",
-   "lookfantastic": "2026-10-26",
    "sephora": "2026-11-13"
   },
   "checked": "2026-11-20T15:41:56+01:00",
@@ -5497,6 +5496,9 @@
     "t": "Acqua di Giò Parfum 100 ml",
     "url": "https://www.chollometro.com/ofertas/aqua-di-gio-parfum-100ml-1729508"
    }
+  ],
+  "descartadas": [
+   "https://www.lookfantastic.es/p/armani-acqua-di-gio-homme-profondo-eau-de-parfum-100ml/15383806/"
   ],
   "history": [
    {
@@ -5685,7 +5687,6 @@
   "tier": "Diseñador",
   "urls": {
    "idealo": "https://www.idealo.es/precios/200020717/giorgio-armani-acqua-di-gio-profondo-eau-de-parfum-125ml.html",
-   "lookfantastic": "https://www.lookfantastic.es/p/armani-acqua-di-gio-homme-profondo-eau-de-parfum-100ml/15383806/",
    "sephora": "https://www.sephora.es/p/acqua-di-gio-pour-homme---eau-de-parfum-P1000212224.html"
   }
  },
@@ -61106,8 +61107,7 @@
   "buscado": {
    "douglas": "2026-11-15",
    "idealo": "2026-10-25",
-   "makeup": "2026-10-25",
-   "parejo": "2026-11-20"
+   "makeup": "2026-10-25"
   },
   "checked": "2026-11-20T14:47:05+01:00",
   "conc": "EDT",
@@ -61135,6 +61135,9 @@
     "t": "Boss Bottled EDT 200 ml",
     "url": "https://www.chollometro.com/ofertas/hugo-boss-boss-bottled-edt-200ml-1436511"
    }
+  ],
+  "descartadas": [
+   "https://www.joyeriaparejo.com/perfumes/boss-bottled-200-ml-eau-de-toilette-hugo-boss"
   ],
   "history": [
    {
@@ -62137,7 +62140,6 @@
    "makeup": "https://makeup.es/product/109891/",
    "notino": "https://www.notino.es/hugo-boss/boss-no6-bottled-eau-de-toilette-para-hombre/p-60486/",
    "paco": "https://www.pacoperfumerias.com/hugo-boss-bottled-569.html",
-   "parejo": "https://www.joyeriaparejo.com/perfumes/boss-bottled-200-ml-eau-de-toilette-hugo-boss",
    "perfumesclub": "https://www.perfumesclub.com/es/hugo-boss/boss-bottled-eau-de-toilette-vaporizador/p_23010/",
    "sabina": "https://www.sabina.com/es/perfumes-hombre/162-boss-bottled-eau-de-toilette.html",
    "sephora": "https://www.sephora.es/p/boss-bottled---eau-de-toilette-P2384.html"
@@ -139686,15 +139688,17 @@
   "brand": "Armani",
   "buscado": {
    "douglas": "2026-11-20",
-   "idealo": "2026-11-20",
-   "lookfantastic": "2026-11-20",
-   "paco": "2026-11-20",
    "parejo": "2026-11-20",
    "sephora": "2026-11-20"
   },
   "checked": "2026-11-20T15:31:27+01:00",
   "conc": "EDP",
   "deals": [],
+  "descartadas": [
+   "https://www.pacoperfumerias.com/acqua-di-gio-armani-91.html",
+   "https://www.lookfantastic.es/p/armani-acqua-di-gio-homme-profondo-eau-de-parfum-100ml/15383806/",
+   "https://www.idealo.es/precios/203975653/giorgio-armani-acqua-di-gio-profondo-eau-de-parfum-50ml.html"
+  ],
   "history": [],
   "id": "armani-acqua-di-gio-edp-75",
   "images": {},
@@ -139703,11 +139707,7 @@
   "prices": {},
   "target": null,
   "tier": null,
-  "urls": {
-   "idealo": "https://www.idealo.es/precios/203975653/giorgio-armani-acqua-di-gio-profondo-eau-de-parfum-50ml.html",
-   "lookfantastic": "https://www.lookfantastic.es/p/armani-acqua-di-gio-homme-profondo-eau-de-parfum-100ml/15383806/",
-   "paco": "https://www.pacoperfumerias.com/acqua-di-gio-armani-91.html"
-  }
+  "urls": {}
  },
  {
   "brand": "Rabanne",
@@ -139876,14 +139876,16 @@
   "buscado": {
    "douglas": "2026-11-20",
    "idealo": "2026-11-20",
-   "lookfantastic": "2026-11-20",
-   "paco": "2026-11-20",
    "parejo": "2026-11-20",
    "sephora": "2026-11-20"
   },
   "checked": "2026-11-20T15:32:21+01:00",
   "conc": "EDP",
   "deals": [],
+  "descartadas": [
+   "https://www.pacoperfumerias.com/carolina-herrera-bad-boy-17982.html",
+   "https://www.lookfantastic.es/p/carolina-herrera-bad-boy-cobalt-eau-de-parfum-100ml/13656993/"
+  ],
   "history": [
    {
     "d": "2026-11-20",
@@ -139922,27 +139924,12 @@
     "d": "2026-11-20",
     "gh": true,
     "p": 93.6
-   },
-   "lookfantastic": {
-    "auto": true,
-    "d": "2026-11-20",
-    "gh": true,
-    "p": 95.68,
-    "stock": false
-   },
-   "paco": {
-    "auto": true,
-    "d": "2026-11-20",
-    "gh": true,
-    "p": 65.95
    }
   },
   "target": null,
   "tier": null,
   "urls": {
-   "idealo": "https://www.idealo.es/precios/201140946/carolina-herrera-bad-boy-le-parfum-eau-de-parfum-100ml.html",
-   "lookfantastic": "https://www.lookfantastic.es/p/carolina-herrera-bad-boy-cobalt-eau-de-parfum-100ml/13656993/",
-   "paco": "https://www.pacoperfumerias.com/carolina-herrera-bad-boy-17982.html"
+   "idealo": "https://www.idealo.es/precios/201140946/carolina-herrera-bad-boy-le-parfum-eau-de-parfum-100ml.html"
   }
  },
  {
@@ -140175,13 +140162,15 @@
    "douglas": "2026-11-20",
    "idealo": "2026-11-20",
    "lookfantastic": "2026-11-20",
-   "paco": "2026-11-20",
    "parejo": "2026-11-20",
    "sephora": "2026-11-20"
   },
   "checked": "2026-11-20T15:33:21+01:00",
   "conc": "EDT",
   "deals": [],
+  "descartadas": [
+   "https://www.pacoperfumerias.com/valentino-born-in-roma-uomo-coral-fantasy-23926.html"
+  ],
   "history": [
    {
     "d": "2026-11-20",
@@ -140231,20 +140220,13 @@
     "d": "2026-11-20",
     "gh": true,
     "p": 90.16
-   },
-   "paco": {
-    "auto": true,
-    "d": "2026-11-20",
-    "gh": true,
-    "p": 71.09
    }
   },
   "target": null,
   "tier": null,
   "urls": {
    "idealo": "https://www.idealo.es/precios/4256898/valentino-uomo-eau-de-toilette-100-ml.html",
-   "lookfantastic": "https://www.lookfantastic.es/p/valentino-born-in-roma-uomo-eau-de-toilette-for-him-100ml/12737232/?variation=12737232",
-   "paco": "https://www.pacoperfumerias.com/valentino-born-in-roma-uomo-coral-fantasy-23926.html"
+   "lookfantastic": "https://www.lookfantastic.es/p/valentino-born-in-roma-uomo-eau-de-toilette-for-him-100ml/12737232/?variation=12737232"
   }
  },
  {
@@ -140919,7 +140901,6 @@
   "buscado": {
    "douglas": "2026-11-20",
    "idealo": "2026-11-20",
-   "lookfantastic": "2026-11-20",
    "paco": "2026-11-20",
    "parejo": "2026-11-20",
    "sephora": "2026-11-20"
@@ -140927,6 +140908,9 @@
   "checked": "2026-11-20T15:35:57+01:00",
   "conc": "EDT",
   "deals": [],
+  "descartadas": [
+   "https://www.lookfantastic.es/p/armani-acqua-di-gio-homme-eau-de-toilette-100ml/15383804/"
+  ],
   "history": [
    {
     "d": "2026-11-20",
@@ -140958,12 +140942,6 @@
     "gh": true,
     "p": 38.99
    },
-   "lookfantastic": {
-    "auto": true,
-    "d": "2026-11-20",
-    "gh": true,
-    "p": 76.48
-   },
    "paco": {
     "auto": true,
     "d": "2026-11-20",
@@ -140975,7 +140953,6 @@
   "tier": null,
   "urls": {
    "idealo": "https://www.idealo.es/precios/599128/azzaro-pour-homme-eau-de-toilette-100-ml.html",
-   "lookfantastic": "https://www.lookfantastic.es/p/armani-acqua-di-gio-homme-eau-de-toilette-100ml/15383804/",
    "paco": "https://www.pacoperfumerias.com/azzaro-pour-homme-360.html"
   }
  },
@@ -141215,8 +141192,6 @@
   "brand": "Jean Paul Gaultier",
   "buscado": {
    "douglas": "2026-11-20",
-   "idealo": "2026-11-20",
-   "lookfantastic": "2026-11-20",
    "paco": "2026-11-20",
    "parejo": "2026-11-20",
    "sephora": "2026-11-20"
@@ -141224,6 +141199,10 @@
   "checked": "2026-11-20T15:36:58+01:00",
   "conc": "EDP",
   "deals": [],
+  "descartadas": [
+   "https://www.idealo.es/precios/5645533/jean-paul-gaultier-scandal-eau-de-parfum-80ml.html",
+   "https://www.lookfantastic.es/p/jean-paul-gaultier-scandal-eau-de-parfum-spray-80ml/11707264/"
+  ],
   "history": [
    {
     "d": "2026-11-20",
@@ -141275,65 +141254,16 @@
   "ml": 80,
   "name": "Scandal Le Parfum",
   "prices": {
-   "arenal": {
-    "auto": true,
-    "d": "2026-11-20",
-    "gh": true,
-    "p": 79.95,
-    "via": "idealo"
-   },
-   "druni": {
-    "auto": true,
-    "d": "2026-11-20",
-    "gh": true,
-    "p": 79.95,
-    "via": "idealo"
-   },
-   "idealo": {
-    "auto": true,
-    "d": "2026-11-20",
-    "gh": true,
-    "p": 69.98
-   },
-   "julia": {
-    "auto": true,
-    "d": "2026-11-20",
-    "gh": true,
-    "p": 75.95,
-    "via": "idealo"
-   },
-   "lookfantastic": {
-    "auto": true,
-    "d": "2026-11-20",
-    "gh": true,
-    "p": 104.36
-   },
    "parejo": {
     "auto": true,
     "d": "2026-11-20",
     "gh": true,
     "p": 103.7
-   },
-   "primor": {
-    "auto": true,
-    "d": "2026-11-20",
-    "gh": true,
-    "p": 79.95,
-    "via": "idealo"
-   },
-   "sabina": {
-    "auto": true,
-    "d": "2026-11-20",
-    "gh": true,
-    "p": 77.64,
-    "via": "idealo"
    }
   },
   "target": null,
   "tier": null,
   "urls": {
-   "idealo": "https://www.idealo.es/precios/5645533/jean-paul-gaultier-scandal-eau-de-parfum-80ml.html",
-   "lookfantastic": "https://www.lookfantastic.es/p/jean-paul-gaultier-scandal-eau-de-parfum-spray-80ml/11707264/",
    "paco": "https://www.pacoperfumerias.com/jean-paul-gaultier-scandal-pour-homme-le-parfum-25622.html",
    "parejo": "https://www.joyeriaparejo.com/perfumes/scandal-vapo-80-ml-eau-de-parfum-jean-paul-gaultier"
   }
@@ -142149,7 +142079,6 @@
   "buscado": {
    "douglas": "2026-11-20",
    "idealo": "2026-11-20",
-   "lookfantastic": "2026-11-20",
    "paco": "2026-11-20",
    "parejo": "2026-11-20",
    "sephora": "2026-11-20"
@@ -142157,6 +142086,9 @@
   "checked": "2026-11-20T15:39:22+01:00",
   "conc": "EDP",
   "deals": [],
+  "descartadas": [
+   "https://www.lookfantastic.es/p/moschino-toy-boy-eau-de-parfum-50ml/12479671/"
+  ],
   "history": [
    {
     "d": "2026-11-20",
@@ -142229,7 +142161,6 @@
   "tier": null,
   "urls": {
    "idealo": "https://www.idealo.es/precios/6405422/moschino-toy-2-eau-de-parfum-100ml.html",
-   "lookfantastic": "https://www.lookfantastic.es/p/moschino-toy-boy-eau-de-parfum-50ml/12479671/",
    "paco": "https://www.pacoperfumerias.com/moschino-toy-2-15958.html"
   }
  },
