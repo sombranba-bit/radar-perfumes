@@ -1,5 +1,5 @@
 {
- "at": "2026-11-20T14:14:05+01:00",
+ "at": "2026-11-20T14:24:59+01:00",
  "revisados": 70,
  "tiendas": {
   "avenida": {
@@ -61,11 +61,20 @@
    "via_idealo": 39
   },
   "notino": {
-   "ok": 0,
-   "bloqueada": 51,
+   "ok": 7,
+   "bloqueada": 43,
    "sin_precio": 0,
-   "dudoso": 0,
-   "via_idealo": 19
+   "dudoso": 1,
+   "via_idealo": 19,
+   "ejemplos": [
+    {
+     "perfume": "maison-margiela-replica-jazz-club-edt-100",
+     "precio": 153.0,
+     "referencia": 101.06,
+     "metodo": "jsonld"
+    }
+   ],
+   "jsonld": 7
   },
   "laguna": {
    "ok": 24,
@@ -174,18 +183,18 @@
    "dudoso": 0
   },
   "firstinfragrance": {
-   "ok": 2,
-   "bloqueada": 8,
+   "ok": 10,
+   "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "jsonld": 2
+   "jsonld": 10
   },
   "arabicparfums": {
-   "ok": 2,
-   "bloqueada": 2,
+   "ok": 4,
+   "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "jsonld": 1,
+   "jsonld": 3,
    "jsonld-url": 1
   }
  },
