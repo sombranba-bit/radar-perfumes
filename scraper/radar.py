@@ -674,7 +674,8 @@ def main():
     perfumes = json.loads((DATA / "perfumes.json").read_text())
     today = datetime.now(TZ).date().isoformat()
     limpiados = {i["id"]: g for i in perfumes if (g := clean_outliers(i, today))}
-    order = sorted(perfumes, key=lambda i: i.get("checked") or "")
+    # primero los que aún no tienen ninguna tienda (recién añadidos), luego los que llevan más tiempo sin revisar
+    order = sorted(perfumes, key=lambda i: (bool(i.get("urls")), i.get("checked") or ""))
     stats = {}
     budget = DISCOVER_PER_RUN
     for it in order[:BATCH]:
