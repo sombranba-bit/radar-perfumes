@@ -8907,7 +8907,6 @@
  {
   "brand": "Armani",
   "buscado": {
-   "douglas": "2026-10-25",
    "idealo": "2026-10-25",
    "makeup": "2026-10-25",
    "parejo": "2026-11-20",
@@ -8940,6 +8939,9 @@
     "t": "Stronger With You Intensely 100 ml",
     "url": "https://www.chollometro.com/ofertas/armani-stronger-with-you-intensely-100ml-1761581"
    }
+  ],
+  "descartadas": [
+   "https://www.douglas.es/es/p/3001052351"
   ],
   "history": [
    {
@@ -9682,12 +9684,6 @@
     "gh": true,
     "p": 64.95
    },
-   "douglas": {
-    "auto": true,
-    "d": "2026-11-20",
-    "gh": true,
-    "p": 74.99
-   },
    "idealo": {
     "auto": true,
     "d": "2026-11-20",
@@ -9729,7 +9725,6 @@
   "target": null,
   "urls": {
    "avenida": "https://www.perfumeriasavenida.com/stronger-with-you-intensely-edp-armani",
-   "douglas": "https://www.douglas.es/es/p/3001052351",
    "idealo": "https://www.idealo.es/precios/213379094/emporio-armani-stronger-with-you-intensely-eau-de-parfum-100ml.html",
    "laguna": "https://www.perfumeriaslaguna.com/armani-stronger-with-you-intensely-1",
    "lookfantastic": "https://www.lookfantastic.es/p/armani-stronger-with-you-intensely-eau-de-parfum-spray-100ml/12020417/",
@@ -10391,9 +10386,7 @@
   "brand": "Azzaro",
   "buscado": {
    "douglas": "2026-11-16",
-   "idealo": "2026-10-26",
    "lookfantastic": "2026-11-16",
-   "paco": "2026-11-20",
    "parejo": "2026-11-20",
    "sephora": "2026-11-20"
   },
@@ -10427,7 +10420,9 @@
   ],
   "descartadas": [
    "https://www.sabina.com/es/mens-perfumes/11526-azzaro-the-most-wanted-intense-eau-de-parfum.html",
-   "https://www.pacoperfumerias.com/azzaro-the-most-wanted-intense-197613.html"
+   "https://www.pacoperfumerias.com/azzaro-the-most-wanted-intense-197613.html",
+   "https://www.idealo.es/precios/201876646/azzaro-the-most-wanted-le-parfum-100ml.html",
+   "https://www.pacoperfumerias.com/azzaro-the-most-wanted-parfum-35911.html"
   ],
   "history": [
    {
@@ -10967,12 +10962,6 @@
     "p": 69.95,
     "via": "idealo"
    },
-   "idealo": {
-    "auto": true,
-    "d": "2026-11-20",
-    "gh": true,
-    "p": 60.31
-   },
    "julia": {
     "auto": true,
     "d": "2026-11-20",
@@ -11004,9 +10993,7 @@
   "target": null,
   "urls": {
    "avenida": "https://www.perfumeriasavenida.com/the-most-wanted-edp-azzaro",
-   "idealo": "https://www.idealo.es/precios/201876646/azzaro-the-most-wanted-le-parfum-100ml.html",
-   "notino": "https://www.notino.es/azzaro/the-most-wanted-eau-de-parfum-para-hombre/p-16073737/",
-   "paco": "https://www.pacoperfumerias.com/azzaro-the-most-wanted-parfum-35911.html"
+   "notino": "https://www.notino.es/azzaro/the-most-wanted-eau-de-parfum-para-hombre/p-16073737/"
   }
  },
  {
@@ -13912,6 +13899,9 @@
   },
   "checked": "2026-11-20T15:13:24+01:00",
   "conc": "EDT",
+  "descartadas": [
+   "https://www.pacoperfumerias.com/burberry-hero-33989.html"
+  ],
   "history": [
    {
     "d": "2026-10-09",
@@ -14466,12 +14456,6 @@
     "gh": true,
     "p": 55.6
    },
-   "paco": {
-    "auto": true,
-    "d": "2026-11-20",
-    "gh": true,
-    "p": 57.66
-   },
    "primor": {
     "auto": true,
     "d": "2026-11-20",
@@ -14485,8 +14469,7 @@
   "urls": {
    "idealo": "https://www.idealo.es/precios/201490401/burberry-hero-eau-de-toilette-100-ml.html",
    "lookfantastic": "https://www.lookfantastic.es/p/burberry-hero-eau-de-toilette-for-men-100ml/13097980/",
-   "notino": "https://www.notino.es/burberry/hero-eau-de-toilette-para-hombre/p-16084170/",
-   "paco": "https://www.pacoperfumerias.com/burberry-hero-33989.html"
+   "notino": "https://www.notino.es/burberry/hero-eau-de-toilette-para-hombre/p-16084170/"
   }
  },
  {
@@ -20770,8 +20753,7 @@
   "brand": "Carolina Herrera",
   "buscado": {
    "douglas": "2026-11-16",
-   "idealo": "2026-10-26",
-   "parejo": "2026-11-20"
+   "idealo": "2026-10-26"
   },
   "checked": "2026-11-20T15:10:26+01:00",
   "conc": "EDT",
@@ -20782,6 +20764,9 @@
     "t": "212 Men EDT 100 ml en Amazon",
     "url": "https://www.chollometro.com/ofertas/212-men-eau-de-toilette-vapo-100-ml-1972469"
    }
+  ],
+  "descartadas": [
+   "https://www.joyeriaparejo.com/perfumes/212-vip-men-100-ml-eau-de-toilette-carolina-herrera"
   ],
   "history": [
    {
@@ -21663,7 +21648,6 @@
    "lookfantastic": "https://www.lookfantastic.es/p/carolina-herrera-212-men-eau-de-toilette-100ml/10952622/",
    "notino": "https://www.notino.es/carolina-herrera/212-eau-de-toilette-para-hombre/p-60597/",
    "paco": "https://www.pacoperfumerias.com/carolina-herrera-212-hombre-166780.html",
-   "parejo": "https://www.joyeriaparejo.com/perfumes/212-vip-men-100-ml-eau-de-toilette-carolina-herrera",
    "sabina": "https://www.sabina.com/es/mens-perfumes/65-212-men-eau-de-toilette-carolina-herrera.html",
    "sephora": "https://www.sephora.es/p/212-men---eau-de-toilette-P2316.html"
   }
@@ -28598,13 +28582,15 @@
   "brand": "Chanel",
   "buscado": {
    "douglas": "2026-11-16",
-   "idealo": "2026-10-26",
    "lookfantastic": "2026-11-16",
    "parejo": "2026-11-20"
   },
   "checked": "2026-11-20T14:23:28+01:00",
   "conc": "Parfum",
   "deals": [],
+  "descartadas": [
+   "https://www.idealo.es/precios/4449618/chanel-bleu-de-chanel-eau-de-parfum-100-ml.html"
+  ],
   "history": [
    {
     "d": "2026-10-12",
@@ -29236,12 +29222,6 @@
     "p": 116.95,
     "via": "idealo"
    },
-   "idealo": {
-    "auto": true,
-    "d": "2026-11-20",
-    "gh": true,
-    "p": 116.94
-   },
    "julia": {
     "auto": true,
     "d": "2026-11-20",
@@ -29278,7 +29258,6 @@
   "target": null,
   "tier": "Diseñador",
   "urls": {
-   "idealo": "https://www.idealo.es/precios/4449618/chanel-bleu-de-chanel-eau-de-parfum-100-ml.html",
    "paco": "https://www.pacoperfumerias.com/chanel-bleu-de-chanel-parfum-168345.html",
    "sabina": "https://www.sabina.com/es/bleu-de-chanel/21669-bleu-de-chanel-parfum-vaporizer.html",
    "sephora": "https://www.sephora.es/p/bleu-de-chanel---le-parfum-P3367005.html"
@@ -40136,7 +40115,6 @@
  {
   "brand": "Dior",
   "buscado": {
-   "douglas": "2026-10-26",
    "idealo": "2026-10-26",
    "lookfantastic": "2026-11-16",
    "parejo": "2026-11-20",
@@ -40168,6 +40146,9 @@
     "t": "Sauvage Elixir 100 ml",
     "url": "https://www.chollometro.com/ofertas/dior-sauvage-elixir-1733338"
    }
+  ],
+  "descartadas": [
+   "https://www.douglas.es/es/p/3001042193"
   ],
   "history": [
    {
@@ -40905,12 +40886,6 @@
     "p": 133.95,
     "via": "idealo"
    },
-   "douglas": {
-    "auto": true,
-    "d": "2026-11-20",
-    "gh": true,
-    "p": 115.95
-   },
    "druni": {
     "auto": true,
     "d": "2026-11-20",
@@ -40953,7 +40928,6 @@
   },
   "target": null,
   "urls": {
-   "douglas": "https://www.douglas.es/es/p/3001042193",
    "idealo": "https://www.idealo.es/precios/6086249/dior-sauvage-eau-de-parfum-100ml.html",
    "paco": "https://www.pacoperfumerias.com/dior-sauvage-eau-de-parfum-16013.html",
    "sabina": "https://www.sabina.com/es/mens-perfumes/7094-dior-sauvage-eau-de-parfum.html"
@@ -40962,7 +40936,6 @@
  {
   "brand": "Dior",
   "buscado": {
-   "douglas": "2026-10-26",
    "idealo": "2026-10-26",
    "lookfantastic": "2026-11-16",
    "parejo": "2026-11-20",
@@ -40994,6 +40967,9 @@
     "t": "Dior Sauvage EDP 200 ml",
     "url": "https://www.chollometro.com/ofertas/dior-sauvage-eau-de-parfum-para-hombres-200-ml-641199"
    }
+  ],
+  "descartadas": [
+   "https://www.douglas.es/es/p/3001042193"
   ],
   "history": [
    {
@@ -41631,12 +41607,6 @@
     "p": 114.34,
     "via": "idealo"
    },
-   "douglas": {
-    "auto": true,
-    "d": "2026-11-20",
-    "gh": true,
-    "p": 115.95
-   },
    "druni": {
     "auto": true,
     "d": "2026-11-20",
@@ -41680,7 +41650,6 @@
   },
   "target": null,
   "urls": {
-   "douglas": "https://www.douglas.es/es/p/3001042193",
    "idealo": "https://www.idealo.es/precios/4845532/dior-sauvage-eau-de-toilette-100-ml.html",
    "paco": "https://www.pacoperfumerias.com/sauvage-dior-eau-de-toilette-154874.html",
    "sabina": "https://www.sabina.com/es/perfumes-hombre/4620-sauvage-eau-de-toilette.html"
@@ -42233,8 +42202,6 @@
  {
   "brand": "Dior",
   "buscado": {
-   "douglas": "2026-10-26",
-   "idealo": "2026-10-26",
    "lookfantastic": "2026-11-16",
    "paco": "2026-11-20",
    "sephora": "2026-11-20"
@@ -42248,6 +42215,10 @@
     "t": "Sauvage Parfum 200 ml + regalos",
     "url": "https://www.chollometro.com/ofertas/fragancia-dior-sauvage-parfum-200ml-para-hombre-regalos-1808573"
    }
+  ],
+  "descartadas": [
+   "https://www.douglas.es/es/p/3001042193",
+   "https://www.idealo.es/precios/6086249/dior-sauvage-eau-de-parfum-100ml.html"
   ],
   "history": [
    {
@@ -42730,24 +42701,12 @@
     "p": 133.95,
     "via": "idealo"
    },
-   "douglas": {
-    "auto": true,
-    "d": "2026-11-20",
-    "gh": true,
-    "p": 115.95
-   },
    "druni": {
     "auto": true,
     "d": "2026-11-20",
     "gh": true,
     "p": 115.95,
     "via": "idealo"
-   },
-   "idealo": {
-    "auto": true,
-    "d": "2026-11-20",
-    "gh": true,
-    "p": 115.95
    },
    "julia": {
     "auto": true,
@@ -42779,8 +42738,6 @@
   "target": null,
   "tier": "Diseñador",
   "urls": {
-   "douglas": "https://www.douglas.es/es/p/3001042193",
-   "idealo": "https://www.idealo.es/precios/6086249/dior-sauvage-eau-de-parfum-100ml.html",
    "paco": "https://www.pacoperfumerias.com/dior-sauvage-parfum-18085.html",
    "parejo": "https://www.joyeriaparejo.com/perfumes/sauvage-vapo-100-ml-eau-de-parfum-dior",
    "sephora": "https://www.sephora.es/p/sauvage-parfum---edicion-limitada-notas-citricas-y-amaderadas-838972.html"
@@ -48705,11 +48662,13 @@
   "buscado": {
    "douglas": "2026-11-16",
    "idealo": "2026-10-26",
-   "lookfantastic": "2026-10-26",
    "parejo": "2026-11-20"
   },
   "checked": "2026-11-20T15:06:47+01:00",
   "conc": "EDP",
+  "descartadas": [
+   "https://www.lookfantastic.es/p/givenchy-gentleman-society-eau-de-parfum-60ml-travel-size-12.5ml/17796706"
+  ],
   "history": [
    {
     "d": "2026-10-09",
@@ -49533,7 +49492,6 @@
    "brasty": "https://www.brasty.es/givenchy-gentleman-eau-de-parfum-para-hombre-100-ml",
    "idealo": "https://www.idealo.es/precios/6074576/givenchy-gentleman-eau-de-parfum-100ml.html",
    "laguna": "https://www.perfumeriaslaguna.com/gentleman-givenchy-eau-de-parfum-100",
-   "lookfantastic": "https://www.lookfantastic.es/p/givenchy-gentleman-society-eau-de-parfum-60ml-travel-size-12.5ml/17796706/",
    "notino": "https://www.notino.es/givenchy/gentleman-eau-de-parfum-para-hombre/p-15694261/",
    "paco": "https://www.pacoperfumerias.com/givenchy-gentleman-eau-de-parfum",
    "sabina": "https://www.sabina.com/es/perfumes-hombre/6789-givenchy-gentleman-eau-de-parfum.html",
@@ -64025,10 +63983,8 @@
   "brand": "Hugo Boss",
   "buscado": {
    "douglas": "2026-11-15",
-   "idealo": "2026-10-25",
    "lookfantastic": "2026-10-25",
-   "parejo": "2026-11-20",
-   "sephora": "2026-11-13"
+   "parejo": "2026-11-20"
   },
   "checked": "2026-11-20T15:08:19+01:00",
   "conc": "Parfum",
@@ -64051,6 +64007,10 @@
     "t": "Boss Bottled Parfum 200 ml en Amazon",
     "url": "https://www.chollometro.com/ofertas/perfume-para-hombre-boss-bottled-parfum-200-ml-frasco-grande-precio-con-compra-recurrente-descuento-1641359"
    }
+  ],
+  "descartadas": [
+   "https://www.idealo.es/precios/200588019/hugo-boss-bottled-2020-eau-de-parfum-100ml.html",
+   "https://www.sephora.es/p/boss-bottled---eau-de-parfum-P10043387.html"
   ],
   "history": [
    {
@@ -65088,12 +65048,6 @@
     "p": 53.75,
     "via": "idealo"
    },
-   "idealo": {
-    "auto": true,
-    "d": "2026-11-20",
-    "gh": true,
-    "p": 49.12
-   },
    "julia": {
     "auto": true,
     "d": "2026-11-20",
@@ -65138,24 +65092,16 @@
     "d": "2026-11-20",
     "gh": true,
     "p": 71.2
-   },
-   "sephora": {
-    "auto": true,
-    "d": "2026-11-18",
-    "gh": true,
-    "p": 87.0
    }
   },
   "target": null,
   "urls": {
    "avenida": "https://www.perfumeriasavenida.com/boss-bottled-parfum-hugo-boss",
-   "idealo": "https://www.idealo.es/precios/200588019/hugo-boss-bottled-2020-eau-de-parfum-100ml.html",
    "laguna": "https://www.perfumeriaslaguna.com/boss-bottled-parfum-1",
    "lookfantastic": "https://www.lookfantastic.es/p/hugo-boss-boss-bottled-eau-de-parfum-50ml/12612983/?variation=12612983",
    "notino": "https://www.notino.es/hugo-boss/boss-bottled-parfum-perfume-para-hombre/p-16142130/",
    "paco": "https://www.pacoperfumerias.com/hugo-boss-boss-bottled-parfum-207929.html",
-   "sabina": "https://www.sabina.com/es/perfumes-hombre/17238-bottled-parfum-hugo-boss.html",
-   "sephora": "https://www.sephora.es/p/boss-bottled---eau-de-parfum-P10043387.html"
+   "sabina": "https://www.sabina.com/es/perfumes-hombre/17238-bottled-parfum-hugo-boss.html"
   }
  },
  {
@@ -71888,11 +71834,13 @@
  {
   "brand": "Jean Paul Gaultier",
   "buscado": {
-   "douglas": "2026-10-26",
    "idealo": "2026-10-26"
   },
   "checked": "2026-11-20T14:34:11+01:00",
   "conc": "EDP",
+  "descartadas": [
+   "https://www.douglas.es/es/p/3000056790"
+  ],
   "history": [
    {
     "d": "2026-10-09",
@@ -72446,7 +72394,6 @@
   "target": null,
   "urls": {
    "avenida": "https://www.perfumeriasavenida.com/la-belle-edp-jean-paul-gaultier",
-   "douglas": "https://www.douglas.es/es/p/3000056790",
    "idealo": "https://www.idealo.es/precios/6631936/jean-paul-gaultier-la-belle-eau-de-parfum-100ml.html",
    "laguna": "https://www.perfumeriaslaguna.com/jean-paul-gaultier-la-belle-1",
    "lookfantastic": "https://www.lookfantastic.es/p/jean-paul-gaultier-la-belle-eau-de-parfum-100ml/12182794/",
@@ -82641,7 +82588,6 @@
  {
   "brand": "Lancôme",
   "buscado": {
-   "douglas": "2026-10-25",
    "idealo": "2026-10-25",
    "paco": "2026-11-20",
    "parejo": "2026-11-20",
@@ -82656,6 +82602,9 @@
     "t": "La Vie Est Belle EDP 30 ml en Amazon",
     "url": "https://www.chollometro.com/ofertas/lancome-la-vie-est-belle-agua-de-perfume-vaporizador-30-ml-1874645"
    }
+  ],
+  "descartadas": [
+   "https://www.douglas.es/es/p/3000056790"
   ],
   "history": [
    {
@@ -83481,7 +83430,6 @@
   "target": null,
   "urls": {
    "avenida": "https://www.perfumeriasavenida.com/la-vie-est-belle-eau-de-parfum-edp-lancome",
-   "douglas": "https://www.douglas.es/es/p/3000056790",
    "idealo": "https://www.idealo.es/precios/4262241/lancome-la-vie-est-belle-eau-de-parfum-100-ml.html",
    "laguna": "https://www.perfumeriaslaguna.com/lancome-la-vie-est-belle-edp-100-vaporizador",
    "lookfantastic": "https://www.lookfantastic.es/p/lancome-la-vie-est-belle-eau-de-parfum-100ml/11185339/",
@@ -95964,7 +95912,6 @@
    "douglas": "2026-11-16",
    "idealo": "2026-10-26",
    "lookfantastic": "2026-10-26",
-   "parejo": "2026-11-20",
    "sephora": "2026-11-20"
   },
   "checked": "2026-11-20T14:39:35+01:00",
@@ -95976,6 +95923,9 @@
     "t": "Mugler Alien EDP 90 ml en Amazon",
     "url": "https://www.chollometro.com/ofertas/mugler-alien-eau-de-parfum-1645737"
    }
+  ],
+  "descartadas": [
+   "https://www.joyeriaparejo.com/perfumes/mugler-alien-goddess-eau-de-parfum-60-ml-mujer"
   ],
   "history": [
    {
@@ -96478,12 +96428,6 @@
     "gh": true,
     "p": 73.95
    },
-   "parejo": {
-    "auto": true,
-    "d": "2026-11-20",
-    "gh": true,
-    "p": 105.4
-   },
    "sabina": {
     "auto": true,
     "d": "2026-11-20",
@@ -96497,8 +96441,7 @@
   "urls": {
    "idealo": "https://www.idealo.es/precios/201076443/thierry-mugler-alien-eau-de-parfum-recargable-60-ml.html",
    "lookfantastic": "https://www.lookfantastic.es/p/mugler-alien-eau-de-parfum-natural-spray-refillable-90ml/10947978/?variation=10947978",
-   "paco": "https://www.pacoperfumerias.com/alien-thierry-mugler-217.html",
-   "parejo": "https://www.joyeriaparejo.com/perfumes/mugler-alien-goddess-eau-de-parfum-60-ml-mujer"
+   "paco": "https://www.pacoperfumerias.com/alien-thierry-mugler-217.html"
   }
  },
  {
@@ -122350,8 +122293,7 @@
   "brand": "Versace",
   "buscado": {
    "douglas": "2026-11-16",
-   "idealo": "2026-10-26",
-   "paco": "2026-11-20"
+   "idealo": "2026-10-26"
   },
   "checked": "2026-11-20T15:10:08+01:00",
   "conc": "EDT",
@@ -122374,6 +122316,9 @@
     "t": "Versace Eros EDT 200 ml",
     "url": "https://www.chollometro.com/ofertas/eau-de-toilette-para-hombre-versace-eros-200-ml-1587807"
    }
+  ],
+  "descartadas": [
+   "https://www.pacoperfumerias.com/versace-eros-najim-35385.html"
   ],
   "history": [
    {
@@ -123291,12 +123236,6 @@
     "p": 49.6,
     "via": "idealo"
    },
-   "paco": {
-    "auto": true,
-    "d": "2026-11-20",
-    "gh": true,
-    "p": 89.94
-   },
    "parejo": {
     "auto": true,
     "d": "2026-11-20",
@@ -123331,7 +123270,6 @@
    "laguna": "https://www.perfumeriaslaguna.com/versace-eros-edt-100-vaporizador",
    "lookfantastic": "https://www.lookfantastic.es/p/versace-eros-for-men-eau-de-toilette-100ml/11034085/",
    "notino": "https://www.notino.es/versace/eros-eau-de-toilette-para-hombre/p-100109/",
-   "paco": "https://www.pacoperfumerias.com/versace-eros-najim-35385.html",
    "parejo": "https://www.joyeriaparejo.com/perfumes/eros-100-ml-eau-de-toilette-versace",
    "sabina": "https://www.sabina.com/es/perfumes-hombre/976-eros-eau-de-toilette-versace.html",
    "sephora": "https://www.sephora.es/p/eros--edtv-200ml-P1572027.html"
@@ -129549,12 +129487,15 @@
  {
   "brand": "Yves Saint Laurent",
   "buscado": {
-   "douglas": "2026-10-26",
    "idealo": "2026-10-26"
   },
   "checked": "2026-11-20T15:11:30+01:00",
   "conc": "EDP",
   "deals": [],
+  "descartadas": [
+   "https://www.douglas.es/es/p/5000005003",
+   "https://www.lookfantastic.es/p/yves-saint-laurent-libre-eau-de-parfum-90ml/12218722"
+  ],
   "history": [
    {
     "d": "2026-10-09",
@@ -130795,12 +130736,6 @@
     "gh": true,
     "p": 89.95
    },
-   "douglas": {
-    "auto": true,
-    "d": "2026-11-20",
-    "gh": true,
-    "p": 91.0
-   },
    "druni": {
     "auto": true,
     "d": "2026-11-20",
@@ -130826,12 +130761,6 @@
     "d": "2026-11-20",
     "gh": true,
     "p": 89.95
-   },
-   "lookfantastic": {
-    "auto": true,
-    "d": "2026-11-20",
-    "gh": true,
-    "p": 118.34
    },
    "notino": {
     "auto": true,
@@ -130874,10 +130803,8 @@
   "target": null,
   "urls": {
    "avenida": "https://www.perfumeriasavenida.com/libre-edp-yves-saint-laurent",
-   "douglas": "https://www.douglas.es/es/p/5000005003",
    "idealo": "https://www.idealo.es/precios/6751283/yves-saint-laurent-libre-eau-de-parfum-90ml.html",
    "laguna": "https://www.perfumeriaslaguna.com/libre-eau-de-parfum-90",
-   "lookfantastic": "https://www.lookfantastic.es/p/yves-saint-laurent-libre-eau-de-parfum-90ml/12218722/",
    "notino": "https://www.notino.es/yves-saint-laurent/yves-saint-laurent-libre-eau-de-parfum-para-mujer/p-15968532/",
    "paco": "https://www.pacoperfumerias.com/libre-yves-saint-laurent-18035.html",
    "parejo": "https://www.joyeriaparejo.com/perfumes/libre-vapo-90-ml-eau-de-parfum-yves-saint-laurent",
@@ -134080,7 +134007,6 @@
  {
   "brand": "Armani",
   "buscado": {
-   "douglas": "2026-11-20",
    "idealo": "2026-11-20",
    "lookfantastic": "2026-11-20",
    "paco": "2026-11-20",
@@ -134090,6 +134016,9 @@
   "checked": "2026-11-20T14:32:26+01:00",
   "conc": "EDT",
   "deals": [],
+  "descartadas": [
+   "https://www.douglas.es/es/p/3001052351"
+  ],
   "history": [
    {
     "d": "2026-11-20",
@@ -134160,12 +134089,6 @@
     "p": 72.5,
     "via": "idealo"
    },
-   "douglas": {
-    "auto": true,
-    "d": "2026-11-20",
-    "gh": true,
-    "p": 74.99
-   },
    "druni": {
     "auto": true,
     "d": "2026-11-20",
@@ -134230,7 +134153,6 @@
   "target": null,
   "tier": null,
   "urls": {
-   "douglas": "https://www.douglas.es/es/p/3001052351",
    "idealo": "https://www.idealo.es/precios/5558498/emporio-armani-stronger-with-you-eau-de-toilette-100-ml.html",
    "lookfantastic": "https://www.lookfantastic.es/p/armani-stronger-with-you-eau-de-toilette-100ml/11671566/?variation=11671566",
    "paco": "https://www.pacoperfumerias.com/stronger-with-you-emporio-armani-12539.html",
@@ -134243,13 +134165,15 @@
    "douglas": "2026-11-20",
    "idealo": "2026-11-20",
    "lookfantastic": "2026-11-20",
-   "paco": "2026-11-20",
    "parejo": "2026-11-20",
    "sephora": "2026-11-20"
   },
   "checked": "2026-11-20T14:32:38+01:00",
   "conc": "EDP",
   "deals": [],
+  "descartadas": [
+   "https://www.pacoperfumerias.com/versace-eros-najim-35385.html"
+  ],
   "history": [
    {
     "d": "2026-11-20",
@@ -134345,12 +134269,6 @@
     "p": 52.8,
     "via": "idealo"
    },
-   "paco": {
-    "auto": true,
-    "d": "2026-11-20",
-    "gh": true,
-    "p": 89.94
-   },
    "parejo": {
     "auto": true,
     "d": "2026-11-20",
@@ -134382,7 +134300,6 @@
   "tier": null,
   "urls": {
    "idealo": "https://www.idealo.es/precios/200684393/versace-eros-pour-homme-eau-de-parfum-100ml.html",
-   "paco": "https://www.pacoperfumerias.com/versace-eros-najim-35385.html",
    "parejo": "https://www.joyeriaparejo.com/perfumes/versace-eros-femme-edp-100ml-mujer",
    "sephora": "https://www.sephora.es/p/eros---eau-de-parfum-568546.html"
   }
@@ -134754,12 +134671,14 @@
    "idealo": "2026-11-20",
    "lookfantastic": "2026-11-20",
    "paco": "2026-11-20",
-   "parejo": "2026-11-20",
    "sephora": "2026-11-20"
   },
   "checked": "2026-11-20T14:40:24+01:00",
   "conc": "Parfum",
   "deals": [],
+  "descartadas": [
+   "https://www.joyeriaparejo.com/busqueda"
+  ],
   "history": [
    {
     "d": "2026-11-20",
@@ -134870,8 +134789,7 @@
   "urls": {
    "idealo": "https://www.idealo.es/precios/203147147/paco-rabanne-phantom-eau-de-parfum-100ml.html",
    "lookfantastic": "https://www.lookfantastic.es/p/paco-rabanne-phantom-parfum-100ml/14887107/",
-   "paco": "https://www.pacoperfumerias.com/paco-rabanne-phantom-parfum-30688.html",
-   "parejo": "https://www.joyeriaparejo.com/busqueda?s=Rabanne+Phantom+Parfum+parfum"
+   "paco": "https://www.pacoperfumerias.com/paco-rabanne-phantom-parfum-30688.html"
   }
  },
  {
@@ -134881,12 +134799,14 @@
    "idealo": "2026-11-20",
    "lookfantastic": "2026-11-20",
    "paco": "2026-11-20",
-   "parejo": "2026-11-20",
    "sephora": "2026-11-20"
   },
   "checked": "2026-11-20T14:40:29+01:00",
   "conc": "EDP",
   "deals": [],
+  "descartadas": [
+   "https://www.joyeriaparejo.com/busqueda"
+  ],
   "history": [
    {
     "d": "2026-11-20",
@@ -134992,8 +134912,7 @@
   "tier": null,
   "urls": {
    "idealo": "https://www.idealo.es/precios/203804165/jean-paul-gaultier-le-beau-paradise-garden-eau-de-parfum-125ml.html",
-   "paco": "https://www.pacoperfumerias.com/jean-paul-gaultier-le-beau-paradise-garden-31632.html",
-   "parejo": "https://www.joyeriaparejo.com/busqueda?s=Jean+Paul+Gaultier+Le+Beau+Paradise+Garden+eau+de+parfum"
+   "paco": "https://www.pacoperfumerias.com/jean-paul-gaultier-le-beau-paradise-garden-31632.html"
   }
  },
  {
@@ -135003,12 +134922,14 @@
    "idealo": "2026-11-20",
    "lookfantastic": "2026-11-20",
    "paco": "2026-11-20",
-   "parejo": "2026-11-20",
    "sephora": "2026-11-20"
   },
   "checked": "2026-11-20T14:40:32+01:00",
   "conc": "EDP",
   "deals": [],
+  "descartadas": [
+   "https://www.joyeriaparejo.com/busqueda"
+  ],
   "history": [
    {
     "d": "2026-11-20",
@@ -135045,8 +134966,7 @@
   "target": null,
   "tier": null,
   "urls": {
-   "idealo": "https://www.idealo.es/precios/5515465/dolce-gabbana-pour-homme-light-blue-eau-intense-100-ml.html",
-   "parejo": "https://www.joyeriaparejo.com/busqueda?s=Dolce+Gabbana+Light+Blue+Eau+Intense+pour+Homme+eau+de+parfum"
+   "idealo": "https://www.idealo.es/precios/5515465/dolce-gabbana-pour-homme-light-blue-eau-intense-100-ml.html"
   }
  },
  {
@@ -135190,7 +135110,8 @@
   "conc": "EDP",
   "deals": [],
   "descartadas": [
-   "https://www.joyeriaparejo.com/busqueda?s=Givenchy+Gentleman+Society+eau+de+parfum"
+   "https://www.joyeriaparejo.com/busqueda?s=Givenchy+Gentleman+Society+eau+de+parfum",
+   "https://www.lookfantastic.es/p/givenchy-gentleman-society-eau-de-parfum-60ml-travel-size-12.5ml/17796706"
   ],
   "history": [
    {
@@ -135313,7 +135234,6 @@
   "tier": null,
   "urls": {
    "idealo": "https://www.idealo.es/precios/202375309/givenchy-gentleman-society-eau-de-parfum-100ml.html",
-   "lookfantastic": "https://www.lookfantastic.es/p/givenchy-gentleman-society-eau-de-parfum-60ml-travel-size-12.5ml/17796706/",
    "paco": "https://www.pacoperfumerias.com/givenchy-gentleman-society-ambree-33901.html",
    "sephora": "https://www.sephora.es/p/gentleman-society---eau-de-parfum-para-hombre-P10048413.html"
   }
@@ -135325,7 +135245,8 @@
   "conc": "EDP",
   "deals": [],
   "descartadas": [
-   "https://www.joyeriaparejo.com/busqueda?s=Burberry+Hero+eau+de+parfum"
+   "https://www.joyeriaparejo.com/busqueda?s=Burberry+Hero+eau+de+parfum",
+   "https://www.pacoperfumerias.com/burberry-hero-33989.html"
   ],
   "history": [
    {
@@ -135417,12 +135338,6 @@
     "p": 89.9,
     "via": "idealo"
    },
-   "paco": {
-    "auto": true,
-    "d": "2026-11-20",
-    "gh": true,
-    "p": 57.66
-   },
    "primor": {
     "auto": true,
     "d": "2026-11-20",
@@ -135435,8 +135350,7 @@
   "tier": null,
   "urls": {
    "idealo": "https://www.idealo.es/precios/202047927/burberry-hero-eau-de-parfum-100ml.html",
-   "lookfantastic": "https://www.lookfantastic.es/p/burberry-hero-eau-de-parfum-for-men-100ml/13998105/",
-   "paco": "https://www.pacoperfumerias.com/burberry-hero-33989.html"
+   "lookfantastic": "https://www.lookfantastic.es/p/burberry-hero-eau-de-parfum-for-men-100ml/13998105/"
   }
  },
  {
@@ -135979,7 +135893,9 @@
   "conc": "Parfum",
   "deals": [],
   "descartadas": [
-   "https://www.joyeriaparejo.com/perfumes/libre-vapo-90-ml-eau-de-parfum-yves-saint-laurent"
+   "https://www.joyeriaparejo.com/perfumes/libre-vapo-90-ml-eau-de-parfum-yves-saint-laurent",
+   "https://www.douglas.es/es/p/5000005003",
+   "https://www.lookfantastic.es/p/yves-saint-laurent-libre-eau-de-parfum-90ml/12218722"
   ],
   "history": [
    {
@@ -136026,23 +135942,11 @@
     "p": 97.95,
     "via": "idealo"
    },
-   "douglas": {
-    "auto": true,
-    "d": "2026-11-20",
-    "gh": true,
-    "p": 91.0
-   },
    "idealo": {
     "auto": true,
     "d": "2026-11-20",
     "gh": true,
     "p": 97.94
-   },
-   "lookfantastic": {
-    "auto": true,
-    "d": "2026-11-20",
-    "gh": true,
-    "p": 118.34
    },
    "paco": {
     "auto": true,
@@ -136062,9 +135966,7 @@
   "target": null,
   "tier": null,
   "urls": {
-   "douglas": "https://www.douglas.es/es/p/5000005003",
    "idealo": "https://www.idealo.es/precios/202058651/yves-saint-laurent-libre-le-parfum-90ml.html",
-   "lookfantastic": "https://www.lookfantastic.es/p/yves-saint-laurent-libre-eau-de-parfum-90ml/12218722/?variation=12218722",
    "paco": "https://www.pacoperfumerias.com/yves-saint-laurent-libre-le-parfum-25577.html"
   }
  },
@@ -136542,7 +136444,8 @@
   "conc": "Parfum",
   "deals": [],
   "descartadas": [
-   "https://www.joyeriaparejo.com/busqueda?s=Rabanne+Fame+Parfum+parfum"
+   "https://www.joyeriaparejo.com/busqueda?s=Rabanne+Fame+Parfum+parfum",
+   "https://www.pacoperfumerias.com/paco-rabanne-fame-eau-de-parfum-25578.html"
   ],
   "history": [
    {
@@ -136635,12 +136538,6 @@
     "gh": true,
     "p": 117.76
    },
-   "paco": {
-    "auto": true,
-    "d": "2026-11-20",
-    "gh": true,
-    "p": 69.94
-   },
    "sabina": {
     "auto": true,
     "d": "2026-11-20",
@@ -136653,8 +136550,7 @@
   "tier": null,
   "urls": {
    "idealo": "https://www.idealo.es/precios/203510952/paco-rabanne-fame-parfum-80ml.html",
-   "lookfantastic": "https://www.lookfantastic.es/p/paco-rabanne-fame-eau-de-parfum-80ml/13936232/?variation=13936232",
-   "paco": "https://www.pacoperfumerias.com/paco-rabanne-fame-eau-de-parfum-25578.html"
+   "lookfantastic": "https://www.lookfantastic.es/p/paco-rabanne-fame-eau-de-parfum-80ml/13936232/?variation=13936232"
   }
  },
  {
@@ -139259,7 +139155,6 @@
  {
   "brand": "Jean Paul Gaultier",
   "buscado": {
-   "douglas": "2026-11-20",
    "idealo": "2026-11-20",
    "lookfantastic": "2026-11-20",
    "paco": "2026-11-20",
@@ -139269,6 +139164,9 @@
   "checked": "2026-11-20T15:22:58+01:00",
   "conc": "EDP",
   "deals": [],
+  "descartadas": [
+   "https://www.douglas.es/es/p/3000056790"
+  ],
   "history": [
    {
     "d": "2026-11-20",
@@ -139361,7 +139259,6 @@
   "target": null,
   "tier": null,
   "urls": {
-   "douglas": "https://www.douglas.es/es/p/3000056790",
    "idealo": "https://www.idealo.es/precios/203804173/jean-paul-gaultier-la-belle-paradise-garden-eau-de-parfum-100ml.html",
    "lookfantastic": "https://www.lookfantastic.es/p/jean-paul-gaultier-la-belle-rosea-eau-de-parfum-50ml/17694641/",
    "paco": "https://www.pacoperfumerias.com/jean-paul-gaultier-gaultier-la-belle-rosea-37185.html"

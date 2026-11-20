@@ -443,6 +443,13 @@ def best_link(page, base, it):
     return best
 
 
+USED = {}   # ficha -> perfume que ya la usa (se rellena al empezar la pasada)
+
+
+def base_key(it):
+    return f"{it['brand']}|{it['name']}|{it['conc']}"
+
+
 def discover(it, get, today, budget):
     """Busca la ficha en las tiendas de SEARCH que aún no tiene. Devuelve cuántas búsquedas gastó."""
     urls = it.setdefault("urls", {})
@@ -463,8 +470,13 @@ def discover(it, get, today, budget):
             link = best_link(r.text, tpl, it)
             DEBUG.setdefault("busqueda_" + shop, {"perfume": it["id"], "encontrada": link,
                              "enlaces": re.findall(r'href="([^"#]{12,160})"', r.text)[200:240]})
-            if link:
+            owner = USED.get(link.split("?")[0].rstrip("/")) if link else None
+            if link and owner and owner != base_key(it):
+                # esa ficha ya es de otro perfume (otra concentración o versión): no la compartimos
+                it.setdefault("descartadas", []).append(link)
+            elif link:
                 urls[shop] = link
+                USED[link.split("?")[0].rstrip("/")] = base_key(it)
         except Exception:
             pass
         time.sleep(1.2)
@@ -684,6 +696,7 @@ def main():
     today = datetime.now(TZ).date().isoformat()
     limpiados = {i["id"]: g for i in perfumes if (g := clean_outliers(i, today))}
     # primero los que aún no tienen ninguna tienda (recién añadidos), luego los que llevan más tiempo sin revisar
+    USED.update({u.split("?")[0].rstrip("/"): base_key(i) for i in perfumes for u in (i.get("urls") or {}).values()})
     order = sorted(perfumes, key=lambda i: (bool(i.get("urls")), i.get("checked") or ""))
     stats = {}
     budget = DISCOVER_PER_RUN
