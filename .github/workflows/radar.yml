@@ -11,6 +11,7 @@ on:
 
 permissions:
   contents: write
+  actions: write
 
 concurrency:
   group: radar
@@ -40,3 +41,17 @@ jobs:
           git commit -m "Pasada $(TZ=Europe/Madrid date '+%Y-%m-%d %H:%M')"
           git pull --rebase --autostash
           git push
+
+  # GitHub retrasa los programados (a veces 6-9 h): cada pasada deja programada la siguiente, unos 35 min después.
+  # El cron de arriba queda de respaldo si la cadena se corta.
+  siguiente:
+    needs: pasada
+    if: always()
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - run: |
+          sleep 2100
+          gh workflow run radar.yml -R "$GITHUB_REPOSITORY"
+        env:
+          GH_TOKEN: ${{ github.token }}

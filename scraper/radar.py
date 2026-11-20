@@ -200,6 +200,9 @@ def extract(page, ml, url):
     if own:
         p, _, _, st = min(own, key=lambda o: o[0])
         return p, st, "jsonld"
+    # la ficha lista sus tamaños y este no está: la tienda no lo vende (no buscar el precio en el texto, que coge otro tamaño)
+    if len([o for o in offers if len(_mls(o[1]) or _mls(o[2])) == 1]) >= 2:
+        return None, None, "sin-tamaño"
     url_ml = re.search(rf"(?<!\d){ml}[-_ ]?ml(?![a-z])|[-_/]{ml}(?:[-_/.]|$)", url, re.I)
     single = {round(o[0], 2) for o in offers if not _mls(o[1])}
     if url_ml and len(single) == 1:
@@ -283,13 +286,20 @@ def idealo_offers(page, ml):
 
 
 # Tiendas que venden a precio de catálogo: hasta 1,8 veces la media de las de descuento
-FULL_PRICE = {"sephora", "douglas"}
+FULL_PRICE = {"sephora", "douglas", "lookfantastic"}   # venden a precio de catálogo, que puede doblar el de calle
+FULL_MAX = 2.5
+# Black Friday y Cyber Monday: se aceptan rebajas más fuertes (no en Idealo, que mezcla tamaños y vendedores)
+SALES = ("2026-11-20", "2026-12-02")
 
 
 def plausible(p, ref, how="jsonld", shop=""):
     if ref is None:
         return how != "texto"
-    lo, hi = (0.75, 1.3) if how == "texto" else (0.55, 1.8 if shop in FULL_PRICE else 1.5)
+    if how == "texto":
+        lo, hi = 0.75, 1.3
+    else:
+        sales = SALES[0] <= datetime.now(TZ).date().isoformat() <= SALES[1] and shop != "idealo"
+        lo, hi = (0.4 if sales else 0.55), (FULL_MAX if shop in FULL_PRICE else 1.5)
     return lo * ref <= p <= hi * ref
 
 
@@ -309,7 +319,7 @@ def clean_outliers(it, today):
             continue
         others = [w["p"] for k, w in prices.items() if k != shop and w and w.get("p") and w.get("stock") is not False]
         # solo por arriba: un precio bajo que coincide con otras tiendas suele ser una rebaja real
-        if len(others) >= 2 and v["p"] > (1.8 if shop in FULL_PRICE else 1.5) * statistics.median(others):
+        if len(others) >= 2 and v["p"] > (FULL_MAX if shop in FULL_PRICE else 1.5) * statistics.median(others):
             del prices[shop]
             it["history"] = [h for h in it.get("history", []) if not (h.get("s") == shop and h.get("p") == v["p"])]
             gone.append(shop)

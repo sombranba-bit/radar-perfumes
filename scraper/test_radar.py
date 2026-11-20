@@ -172,3 +172,12 @@ it = {"name": "For Her", "brand": "Narciso Rodriguez", "conc": "EDP", "ml": 100}
 pg = '<a href="https://www.lookfantastic.es/p/narciso-rodriguez-pure-musc-for-her-eau-de-parfum-100ml/12127907/">x</a><a href="https://www.lookfantastic.es/p/narciso-rodriguez-for-her-eau-de-parfum-100ml/10822240/">y</a>'
 assert radar.best_link(pg, "https://www.lookfantastic.es/search?q={q}", it).endswith("/10822240/")
 print("OK: descubrimiento sin versiones equivocadas")
+
+# 20-nov: la ficha lista sus tamaños y el buscado no está -> sin precio (antes cogía otro tamaño del texto)
+paco = ld({"@type": "ProductGroup", "name": "CHROME", "hasVariant": [
+    {"@type": "Product", "name": "CHROME 50ml", "offers": {"@type": "Offer", "price": 38.9, "priceCurrency": "EUR"}},
+    {"@type": "Product", "name": "CHROME 200ml", "offers": {"@type": "Offer", "price": 116, "priceCurrency": "EUR"}}]}) + "<p>100 ml 116,00 €</p>"
+assert extract(paco, 100, "https://www.pacoperfumerias.com/azzaro-chrome-735.html") == (None, None, "sin-tamaño")
+# Lookfantastic vende a precio de catálogo: hasta 2,5 veces la mediana de las demás
+assert plausible(104.65, 44.65, "jsonld", "lookfantastic") and not plausible(104.65, 44.65, "jsonld", "paco")
+print("ok 20-nov")
