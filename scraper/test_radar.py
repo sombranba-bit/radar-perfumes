@@ -186,3 +186,10 @@ print("ok 20-nov")
 assert moved_to_listing("https://www.sephora.es/p/colonia-P123.html", "https://www.sephora.es/todos-los-productos/perfume/perfume-hombre/agua-de-colonia-c297819/")
 assert not moved_to_listing("https://sephora.es/Perfume/Gentleman/P3275011", "https://www.sephora.es/p/gentleman---eau-de-parfum-P3275011.html")
 print("ok fichas retiradas")
+
+# 20-nov: la página de resultados de Parejo no es una ficha; "Le Parfum" no es el eau de parfum
+from radar import best_link
+lp = {"brand": "Yves Saint Laurent", "name": "Libre Le Parfum", "conc": "Parfum", "ml": 90}
+pg = '<a href="/busqueda?s=libre+le+parfum">Libre Le Parfum</a><a href="/perfumes/libre-vapo-90-ml-eau-de-parfum-yves-saint-laurent">Libre Eau de Parfum 90 ml</a>'
+assert best_link(pg, "https://www.joyeriaparejo.com/busqueda?s={q}", lp) is None
+print("ok parejo")

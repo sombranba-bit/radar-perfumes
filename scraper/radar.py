@@ -381,7 +381,7 @@ SEARCH = {
 }
 DISCOVER_PER_RUN = int(os.environ.get("RADAR_DISCOVER", "20"))
 CONC_WORDS = {"EDT": "eau de toilette", "EDP": "eau de parfum", "EDC": "eau de cologne", "Parfum": "parfum", "Elixir": "elixir"}
-SKIP_PATH = re.compile(r"/search|/buscar|resultados|/c/|/brands?/|/marcas?/|/categor|login|cart|wishlist|\.(?:css|js|png|jpg|svg|webp)", re.I)
+SKIP_PATH = re.compile(r"/search|/buscar|busqueda|[?&]s=|[?&]q=|resultados|/c/|/brands?/|/marcas?/|/categor|login|cart|wishlist|\.(?:css|js|png|jpg|svg|webp)", re.I)
 
 
 def moved_to_listing(url, final):
@@ -427,6 +427,9 @@ def best_link(page, base, it):
         # otra concentración (pides EDP y el enlace dice eau de toilette, sin decir la tuya)
         others = [c for k, c in CONC_WORDS.items() if k != it.get("conc") and " " in c]
         if conc and conc not in hay.replace(" ", "-") and any(c.replace(" ", "-") in hay.replace(" ", "-") for c in others):
+            continue
+        # "Le Parfum" / extracto: no vale la ficha del eau de parfum o eau de toilette del mismo nombre
+        if it.get("conc") in ("Parfum", "Elixir", "Extrait") and re.search(r"eau[- ]de[- ](?:parfum|toilette)", hay):
             continue
         sc = 2 + (brand in hay_w) + (bool(conc) and conc in hay.replace(" ", "-")) + (str(it["ml"]) in hay)
         if sc > score:
