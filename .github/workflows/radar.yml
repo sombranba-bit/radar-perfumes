@@ -57,6 +57,10 @@ jobs:
     steps:
       - run: |
           sleep 2100
-          gh workflow run radar.yml -R "$GITHUB_REPOSITORY"
+          # una sola cadena: si ya hay otra pasada en cola o una lanzada después de esta, no se programa otra
+          CREADA=$(gh api "repos/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID" --jq .created_at)
+          otras=$(gh api "repos/$GITHUB_REPOSITORY/actions/workflows/radar.yml/runs?per_page=20" --jq "[.workflow_runs[] | select(.id != $GITHUB_RUN_ID and (.status != \"completed\") and (.status != \"in_progress\" or .created_at > \"$CREADA\"))] | length")
+          echo "otras pasadas pendientes o más nuevas: $otras"
+          [ "$otras" = "0" ] && gh workflow run radar.yml -R "$GITHUB_REPOSITORY" || true
         env:
           GH_TOKEN: ${{ github.token }}
