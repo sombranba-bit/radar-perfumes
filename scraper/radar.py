@@ -376,6 +376,8 @@ SEARCH = {
     "idealo": "https://www.idealo.es/resultados.html?q={q}",
     "lookfantastic": "https://www.lookfantastic.es/search?q={q}",
     "sephora": "https://www.sephora.es/buscar/?q={q}",
+    "paco": "https://www.pacoperfumerias.com/search?q={q}",
+    "parejo": "https://www.joyeriaparejo.com/busqueda?s={q}",
 }
 DISCOVER_PER_RUN = int(os.environ.get("RADAR_DISCOVER", "20"))
 CONC_WORDS = {"EDT": "eau de toilette", "EDP": "eau de parfum", "EDC": "eau de cologne", "Parfum": "parfum", "Elixir": "elixir"}
@@ -399,7 +401,7 @@ def words(t):
 FLANKERS = {"night", "intense", "intenso", "elixir", "absolu", "absolute", "extreme", "infinite", "tonic", "beyond", "sport",
             "privee", "noir", "black", "gold", "platinum", "oud", "cologne", "fraiche", "aqua", "blue", "red", "flame", "royal",
             "set", "estuche", "lote", "pack", "tester", "recarga", "refill", "mini", "body", "deodorant", "desodorante", "gel",
-            "pure", "musc", "nuit", "profumo"}
+            "pure", "musc", "nuit", "profumo", "energy"}
 
 
 def best_link(page, base, it):

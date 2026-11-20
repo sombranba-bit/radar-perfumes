@@ -31,6 +31,22 @@ PARFUMO_URL = {k: P + v for k, v in {
     'Valentino|Uomo Born in Roma Intense|EDP': 'Valentino/valentino-uomo-born-in-roma-intense',
     'Yves Saint Laurent|Libre Intense|EDP': 'Yves_Saint_Laurent/libre-eau-de-parfum-intense',
     'Yves Saint Laurent|Y|EDT': 'Yves_Saint_Laurent/Y_2017',
+    'Armani|Stronger With You|EDT': 'Giorgio_Armani/Emporio_Armani_Stronger_With_You',
+    'Valentino|Born in Roma Coral Fantasy Uomo|EDT': 'Valentino/valentino-uomo-born-in-roma-coral-fantasy',
+    'Dolce & Gabbana|Light Blue Eau Intense pour Homme|EDP': 'Dolce_Gabbana/Light_Blue_pour_Homme_Eau_Intense',
+    'Lattafa|Badee Al Oud Oud for Glory|EDP': 'Lattafa/oud-for-glory',
+    'Dior|Miss Dior Blooming Bouquet|EDT': 'Dior/miss-dior-blooming-bouquet-2023-eau-de-toilette',
+    'Valentino|Born in Roma Donna Intense|EDP': 'Valentino/valentino-donna-born-in-roma-intense',
+    'Rabanne|Fame Parfum|Parfum': 'Rabanne/fame-parfum',
+    'Mugler|Alien Goddess|EDP': 'mugler/alien-goddess-eau-de-parfum',
+    'Prada|Paradoxe Intense|EDP': 'Prada/paradoxe-intense',
+    'Kayali|Vanilla 28|EDP': 'Kayali/vanilla-28-eau-de-parfum',
+    'Jo Malone|English Pear & Freesia|EDC': 'Jo_Malone/english-pear-freesia-cologne',
+    'Maison Margiela|Replica Lazy Sunday Morning|EDT': 'Maison_Margiela/lazy-sunday-morning-eau-de-toilette',
+    'Byredo|Mojave Ghost|EDP': 'Byredo/Mojave_Ghost_Eau_de_Parfum',
+    'Narciso Rodriguez|For Her Pure Musc|EDP': 'Narciso_Rodriguez/for-her-pure-musc-eau-de-parfum',
+    'Chloé|Chloé|EDP': 'Chloe/Chloe',
+    'Dolce & Gabbana|Q|EDP': 'Dolce_Gabbana/q-eau-de-parfum',
 }.items()}
 STORE_ORDER = ('laguna', 'avenida', 'parejo', 'sabina', 'paco')
 
