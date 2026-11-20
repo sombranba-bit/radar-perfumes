@@ -1,94 +1,143 @@
 {
- "at": "2026-11-20T15:42:07+01:00",
- "revisados": 55,
+ "at": "2026-11-20T15:59:04+01:00",
+ "revisados": 70,
  "tiendas": {
   "idealo": {
-   "ok": 39,
+   "ok": 44,
    "bloqueada": 0,
-   "sin_precio": 2,
+   "sin_precio": 1,
    "dudoso": 0,
-   "jsonld-url": 37,
-   "jsonld": 2
-  },
-  "julia": {
-   "ok": 0,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "via_idealo": 20
-  },
-  "sabina": {
-   "ok": 1,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "via_idealo": 15,
-   "jsonld": 1
+   "jsonld-url": 39,
+   "jsonld": 5
   },
   "primor": {
    "ok": 0,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "via_idealo": 22
+   "via_idealo": 29
   },
   "arenal": {
    "ok": 0,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "via_idealo": 17
+   "via_idealo": 26
   },
   "druni": {
    "ok": 0,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "via_idealo": 22
+   "via_idealo": 29
+  },
+  "julia": {
+   "ok": 0,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "via_idealo": 32
+  },
+  "paco": {
+   "ok": 34,
+   "bloqueada": 0,
+   "sin_precio": 2,
+   "dudoso": 2,
+   "jsonld": 31,
+   "precio-100ml": 3,
+   "ejemplos": [
+    {
+     "perfume": "armani-acqua-di-gio-elixir-parfum-75",
+     "precio": 50.0,
+     "referencia": null,
+     "metodo": "texto"
+    },
+    {
+     "perfume": "versace-yellow-diamond-edt-90",
+     "precio": 132.0,
+     "referencia": 52.8,
+     "metodo": "texto"
+    }
+   ]
   },
   "brasty": {
    "ok": 0,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "via_idealo": 11
-  },
-  "notino": {
-   "ok": 0,
-   "bloqueada": 3,
-   "sin_precio": 0,
-   "dudoso": 0,
    "via_idealo": 13
   },
+  "sabina": {
+   "ok": 4,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "via_idealo": 15,
+   "jsonld": 4
+  },
   "lookfantastic": {
-   "ok": 10,
+   "ok": 8,
    "bloqueada": 0,
    "sin_precio": 5,
    "dudoso": 0,
-   "jsonld": 10
+   "jsonld": 8
   },
-  "paco": {
-   "ok": 21,
+  "notino": {
+   "ok": 0,
+   "bloqueada": 4,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "via_idealo": 12
+  },
+  "douglas": {
+   "ok": 2,
    "bloqueada": 0,
-   "sin_precio": 3,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "precio-100ml": 2
+  },
+  "parejo": {
+   "ok": 6,
+   "bloqueada": 0,
+   "sin_precio": 2,
    "dudoso": 1,
-   "jsonld": 20,
-   "precio-100ml": 1,
+   "jsonld": 6,
    "ejemplos": [
     {
-     "perfume": "nautica-voyage-edt-100",
-     "precio": 73.78,
-     "referencia": 20.23,
-     "metodo": "precio-100ml"
+     "perfume": "givenchy-l-interdit-rouge-edp-80",
+     "precio": 126.65,
+     "referencia": 73.95,
+     "metodo": "jsonld"
     }
    ]
   },
-  "parejo": {
-   "ok": 5,
+  "sephora": {
+   "ok": 0,
    "bloqueada": 0,
    "sin_precio": 2,
+   "dudoso": 0
+  },
+  "avenida": {
+   "ok": 2,
+   "bloqueada": 0,
+   "sin_precio": 0,
    "dudoso": 0,
-   "jsonld": 5
+   "variantes": 2
+  },
+  "laguna": {
+   "ok": 2,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "precio-100ml": 1,
+   "jsonld": 1
+  },
+  "perfumesclub": {
+   "ok": 2,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "jsonld": 2
   },
   "firstinfragrance": {
    "ok": 1,
@@ -96,35 +145,8 @@
    "sin_precio": 0,
    "dudoso": 0,
    "jsonld": 1
-  },
-  "douglas": {
-   "ok": 1,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "precio-100ml": 1
-  },
-  "sephora": {
-   "ok": 0,
-   "bloqueada": 0,
-   "sin_precio": 1,
-   "dudoso": 0
-  },
-  "laguna": {
-   "ok": 1,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "jsonld": 1
   }
  },
- "limpiados": {
-  "xerjoff-alexandria-ii-edp-100": [
-   "julia"
-  ],
-  "viktor-rolf-good-fortune-edp-90": [
-   "sabina"
-  ]
- },
+ "limpiados": {},
  "chollometro": "ok 84"
 }
