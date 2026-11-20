@@ -1,5 +1,5 @@
 {
- "at": "2026-11-20T15:02:33+01:00",
+ "at": "2026-11-20T15:15:16+01:00",
  "tiendas": {
   "primor": {
    "url": "https://www.primor.eu/es_es/catalogsearch/result/?q=boss+bottled",
@@ -48,13 +48,13 @@
   },
   "amazon": {
    "url": "https://www.amazon.es/s?k=boss+bottled+edt+100+ml",
-   "codigo": 503,
-   "kb": 1,
-   "titulo": "Lo sentimos.",
+   "codigo": 200,
+   "kb": 2,
+   "titulo": "",
    "precios_eur": 0,
    "jsonld": 0,
-   "menciona_boss": 0,
-   "estado": "bloqueada"
+   "menciona_boss": 1,
+   "estado": "entra, sin precios"
   },
   "idealo": {
    "url": "https://www.idealo.es/resultados.html?q=boss+bottled",
