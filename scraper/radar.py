@@ -330,6 +330,12 @@ DEBUG = {}   # una muestra por tienda y pasada, para poder ajustar el extractor
 
 
 def debug_sample(shop, url, page, ml, result):
+    if not result.get("precio") and "fallo_" + shop not in DEBUG:
+        # el primer fallo de cada tienda, para ver qué devolvió (bloqueo suave, otra página, tamaño que no vende…)
+        t = page.replace('\\"', '"')
+        DEBUG["fallo_" + shop] = {"url": url, "ml": ml, "resultado": result, "largo": len(page),
+                                  "titulo": (re.search(r"<title>(.*?)</title>", page, re.S) or [None, ""])[1][:120],
+                                  "tamaños": sorted(set(ML_RE.findall(t)))[:12], "inicio": re.sub(r"\s+", " ", page[:400])}
     if shop in DEBUG:
         return
     blocks = re.findall(r'<script[^>]+application/ld\+json[^>]*>(.*?)</script>', page, re.S | re.I)
