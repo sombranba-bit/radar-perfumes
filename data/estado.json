@@ -1,5 +1,5 @@
 {
- "at": "2026-11-20T11:08:40+01:00",
+ "at": "2026-11-20T11:18:14+01:00",
  "revisados": 70,
  "tiendas": {
   "avenida": {
@@ -86,12 +86,11 @@
    ]
   },
   "notino": {
-   "ok": 6,
-   "bloqueada": 41,
+   "ok": 0,
+   "bloqueada": 47,
    "sin_precio": 0,
    "dudoso": 0,
-   "via_idealo": 26,
-   "jsonld": 6
+   "via_idealo": 26
   },
   "paco": {
    "ok": 36,
@@ -102,11 +101,11 @@
    "precio-100ml": 1
   },
   "parejo": {
-   "ok": 14,
-   "bloqueada": 2,
+   "ok": 16,
+   "bloqueada": 0,
    "sin_precio": 1,
    "dudoso": 1,
-   "jsonld": 14,
+   "jsonld": 16,
    "ejemplos": [
     {
      "perfume": "dior-sauvage-parfum-parfum-100",
@@ -139,18 +138,18 @@
    "dudoso": 0
   },
   "firstinfragrance": {
-   "ok": 10,
-   "bloqueada": 0,
+   "ok": 2,
+   "bloqueada": 8,
    "sin_precio": 0,
    "dudoso": 0,
-   "jsonld": 10
+   "jsonld": 2
   },
   "arabicparfums": {
-   "ok": 6,
-   "bloqueada": 0,
+   "ok": 2,
+   "bloqueada": 4,
    "sin_precio": 0,
    "dudoso": 0,
-   "jsonld": 5,
+   "jsonld": 1,
    "jsonld-url": 1
   },
   "brasty": {
