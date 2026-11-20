@@ -507,6 +507,106 @@
 "src": "parfumo",
 "url": "https://www.parfumo.com/Perfumes/Ariana_Grande/cloud-eau-de-parfum"
 },
+"Armaf|Club de Nuit Iconic|EDP": {
+"accords": [
+[
+"Fresh",
+85
+],
+[
+"Citrus",
+85
+],
+[
+"Aquatic",
+65
+],
+[
+"Woody",
+65
+],
+[
+"Synthetic",
+45
+]
+],
+"checked": "2026-11-20",
+"flat": [],
+"levels": {
+"base": [
+[
+"Amber",
+4
+],
+[
+"Sandalwood",
+3
+],
+[
+"Cedar",
+2
+],
+[
+"Labdanum",
+2
+],
+[
+"Patchouli",
+2
+],
+[
+"Woody notes",
+2
+],
+[
+"Frankincense",
+1
+]
+],
+"heart": [
+[
+"Nutmeg",
+4
+],
+[
+"Ginger",
+2
+],
+[
+"Jasmine",
+2
+],
+[
+"Melon",
+2
+]
+],
+"top": [
+[
+"Grapefruit",
+5
+],
+[
+"Lemon",
+4
+],
+[
+"Mint",
+3
+],
+[
+"Coriander",
+2
+],
+[
+"Pink pepper",
+2
+]
+]
+},
+"src": "parfumo",
+"url": "https://www.parfumo.com/Perfumes/Armaf/club-de-nuit-iconic"
+},
 "Armaf|Club de Nuit Intense Man|EDT": {
 "accords": [
 [
@@ -1161,6 +1261,82 @@
 "levels_url": "https://www.sabina.com/es/mens-perfumes/7582-emporio-armani-stronger-with-you-intensely-eau-de-parfum.html",
 "src": "tienda:sabina"
 },
+"Armani|Stronger With You|EDT": {
+"checked": "2026-11-20",
+"src": null
+},
+"Armani|Sì Passione|EDP": {
+"accords": [
+[
+"Fruity",
+85
+],
+[
+"Floral",
+85
+],
+[
+"Sweet",
+85
+],
+[
+"Synthetic",
+65
+],
+[
+"Fresh",
+45
+]
+],
+"checked": "2026-11-20",
+"flat": [],
+"levels": {
+"base": [
+[
+"Vanilla",
+3
+],
+[
+"Orcanox",
+2
+],
+[
+"Cedarwood",
+1
+]
+],
+"heart": [
+[
+"Jasmine absolute",
+3
+],
+[
+"Rose",
+3
+],
+[
+"Heliotrope",
+2
+]
+],
+"top": [
+[
+"Pear",
+5
+],
+[
+"Blackcurrant",
+4
+],
+[
+"Pink pepper",
+1
+]
+]
+},
+"src": "parfumo",
+"url": "https://www.parfumo.com/Perfumes/Giorgio_Armani/S_Passione"
+},
 "Armani|Sì|EDP": {
 "accords": [
 [
@@ -1316,6 +1492,54 @@
 },
 "src": "parfumo",
 "url": "https://www.parfumo.com/Perfumes/Azzaro/Chrome_Eau_de_Toilette"
+},
+"Azzaro|The Most Wanted Parfum|Parfum": {
+"accords": [
+[
+"Sweet",
+85
+],
+[
+"Spicy",
+85
+],
+[
+"Woody",
+85
+],
+[
+"Gourmand",
+65
+],
+[
+"Synthetic",
+45
+]
+],
+"checked": "2026-11-20",
+"flat": [],
+"levels": {
+"base": [
+[
+"Bourbon vanilla",
+5
+]
+],
+"heart": [
+[
+"Woody notes",
+1
+]
+],
+"top": [
+[
+"Red ginger",
+2
+]
+]
+},
+"src": "parfumo",
+"url": "https://www.parfumo.com/Perfumes/Azzaro/the-most-wanted-parfum"
 },
 "Azzaro|The Most Wanted|EDP": {
 "accords": [
@@ -1546,6 +1770,60 @@
 "levels": {},
 "src": "parfumo",
 "url": "https://www.parfumo.com/Perfumes/Burberry/goddess-eau-de-parfum"
+},
+"Burberry|Hero|EDP": {
+"accords": [
+[
+"Woody",
+85
+],
+[
+"Sweet",
+85
+],
+[
+"Spicy",
+85
+],
+[
+"Resinous",
+45
+],
+[
+"Synthetic",
+45
+]
+],
+"checked": "2026-11-20",
+"flat": [
+[
+"Benzoin",
+5
+],
+[
+"Himalayan cedar",
+3
+],
+[
+"Virginia cedar",
+3
+],
+[
+"Atlas cedar",
+2
+],
+[
+"Pine needle",
+2
+],
+[
+"Frankincense",
+1
+]
+],
+"levels": {},
+"src": "parfumo",
+"url": "https://www.parfumo.com/Perfumes/Burberry/hero-eau-de-parfum"
 },
 "Burberry|Hero|EDT": {
 "accords": [
@@ -2081,6 +2359,10 @@
 "src": "parfumo",
 "url": "https://www.parfumo.com/Perfumes/Byredo/Gypsy_Water_Eau_de_Parfum"
 },
+"Byredo|Mojave Ghost|EDP": {
+"checked": "2026-11-20",
+"src": null
+},
 "Calvin Klein|CK One|EDT": {
 "accords": [
 [
@@ -2585,6 +2867,74 @@
 "src": "parfumo",
 "url": "https://www.parfumo.com/Perfumes/Carolina_Herrera/212_VIP_Men_Eau_de_Toilette"
 },
+"Carolina Herrera|Bad Boy Cobalt|EDP": {
+"accords": [
+[
+"Fresh",
+85
+],
+[
+"Synthetic",
+85
+],
+[
+"Sweet",
+85
+],
+[
+"Fruity",
+65
+],
+[
+"Woody",
+45
+]
+],
+"checked": "2026-11-20",
+"flat": [],
+"levels": {
+"base": [
+[
+"Cedarwood",
+2
+],
+[
+"Truffle",
+2
+],
+[
+"Vetiver",
+2
+],
+[
+"Oak",
+1
+]
+],
+"heart": [
+[
+"Black plum",
+5
+],
+[
+"Egyptian geranium",
+2
+]
+],
+"top": [
+[
+"Pink pepper",
+3
+],
+[
+"Lavender",
+2
+]
+]
+},
+"src": "parfumo",
+"url": "https://www.parfumo.com/Perfumes/Carolina_Herrera/bad-boy-cobalt"
+},
 "Carolina Herrera|Bad Boy|EDT": {
 "accords": [
 [
@@ -2732,6 +3082,66 @@
 },
 "src": "parfumo",
 "url": "https://www.parfumo.com/Perfumes/Carolina_Herrera/CH_Men_Eau_de_Toilette"
+},
+"Carolina Herrera|Good Girl Blush|EDP": {
+"accords": [
+[
+"Floral",
+85
+],
+[
+"Sweet",
+85
+],
+[
+"Creamy",
+65
+],
+[
+"Powdery",
+65
+],
+[
+"Fruity",
+45
+]
+],
+"checked": "2026-11-20",
+"flat": [],
+"levels": {
+"base": [
+[
+"Tonka bean",
+4
+],
+[
+"Bourbon vanilla",
+1
+]
+],
+"heart": [
+[
+"Peony",
+5
+],
+[
+"Ylang-ylang",
+3
+]
+],
+"top": [
+[
+"Bitter almond",
+4
+],
+[
+"Bergamot",
+1
+]
+]
+},
+"src": "parfumo",
+"url": "https://www.parfumo.com/Perfumes/Carolina_Herrera/good-girl-blush-eau-de-parfum"
 },
 "Carolina Herrera|Good Girl|EDP": {
 "accords": [
@@ -3132,6 +3542,86 @@
 "levels": {},
 "src": "parfumo",
 "url": "https://www.parfumo.com/Perfumes/Chanel/Bleu_de_Chanel_Eau_de_Parfum"
+},
+"Chanel|Chance Eau Fraîche|EDT": {
+"accords": [
+[
+"Fresh",
+85
+],
+[
+"Citrus",
+85
+],
+[
+"Green",
+85
+],
+[
+"Floral",
+65
+],
+[
+"Woody",
+45
+]
+],
+"checked": "2026-11-20",
+"flat": [],
+"levels": {
+"base": [
+[
+"Musk",
+3
+],
+[
+"Iris",
+2
+],
+[
+"Vetiver",
+2
+],
+[
+"Amber",
+1
+],
+[
+"Patchouli",
+1
+],
+[
+"Teakwood",
+1
+]
+],
+"heart": [
+[
+"Jasmine",
+2
+],
+[
+"Water hyacinth",
+2
+],
+[
+"Pink pepper",
+1
+]
+],
+"top": [
+[
+"Citrus fruits",
+5
+],
+[
+"Cedar",
+2
+]
+]
+},
+"src": "parfumo",
+"url": "https://www.parfumo.com/Perfumes/Chanel/Chance_Eau_Fraiche_Eau_de_Toilette"
 },
 "Chanel|Chance Eau Tendre|EDT": {
 "accords": [
@@ -3606,6 +4096,10 @@
 },
 "src": "parfumo",
 "url": "https://www.parfumo.com/Perfumes/Chanel/Platinum_Egoiste_Eau_de_Toilette"
+},
+"Chloé|Chloé|EDP": {
+"checked": "2026-11-20",
+"src": null
 },
 "Creed|Aventus|EDP": {
 "accords": [
@@ -4443,6 +4937,10 @@
 "src": "parfumo",
 "url": "https://www.parfumo.com/Perfumes/Dior/J_Adore"
 },
+"Dior|Miss Dior Blooming Bouquet|EDT": {
+"checked": "2026-11-20",
+"src": null
+},
 "Dior|Miss Dior|EDP": {
 "accords": [
 [
@@ -5074,6 +5572,10 @@
 "levels_url": "https://www.sabina.com/es/perfumes-hombre/8659-k-by-dolce-gabbana.html",
 "src": "tienda:sabina"
 },
+"Dolce & Gabbana|Light Blue Eau Intense pour Homme|EDP": {
+"checked": "2026-11-20",
+"src": null
+},
 "Dolce & Gabbana|Light Blue pour Homme|EDT": {
 "accords": [
 [
@@ -5221,6 +5723,10 @@
 },
 "src": "parfumo",
 "url": "https://www.parfumo.com/Perfumes/Dolce_Gabbana/light-blue-eau-de-toilette"
+},
+"Dolce & Gabbana|Q|EDP": {
+"checked": "2026-11-20",
+"src": null
 },
 "Dolce & Gabbana|The One for Men|EDP": {
 "accords": [
@@ -5449,6 +5955,78 @@
 },
 "src": "parfumo",
 "url": "https://www.parfumo.com/Perfumes/Givenchy/gentleman-givenchy-reserve-privee"
+},
+"Givenchy|Gentleman Society|EDP": {
+"accords": [
+[
+"Sweet",
+85
+],
+[
+"Powdery",
+85
+],
+[
+"Spicy",
+65
+],
+[
+"Woody",
+65
+],
+[
+"Creamy",
+45
+]
+],
+"checked": "2026-11-20",
+"flat": [],
+"levels": {
+"base": [
+[
+"Bourbon vanilla absolute",
+5
+],
+[
+"Australian sandalwood",
+2
+],
+[
+"Himalayan cedar",
+1
+]
+],
+"heart": [
+[
+"Haitian vetiver",
+2
+],
+[
+"Madagascan vetiver",
+2
+],
+[
+"Uruguayan vetiver",
+2
+],
+[
+"French narcissus absolute",
+1
+]
+],
+"top": [
+[
+"Guatemala cardamom",
+3
+],
+[
+"French sage",
+2
+]
+]
+},
+"src": "parfumo",
+"url": "https://www.parfumo.com/Perfumes/Givenchy/gentleman-society-eau-de-parfum"
 },
 "Givenchy|Gentleman|EDP": {
 "checked": "2026-11-16",
@@ -5766,6 +6344,78 @@
 },
 "src": "parfumo",
 "url": "https://www.parfumo.com/Perfumes/Gucci/flora-gorgeous-gardenia-eau-de-parfum"
+},
+"Gucci|Guilty pour Femme|EDP": {
+"accords": [
+[
+"Floral",
+85
+],
+[
+"Sweet",
+85
+],
+[
+"Powdery",
+65
+],
+[
+"Fresh",
+45
+],
+[
+"Creamy",
+45
+]
+],
+"checked": "2026-11-20",
+"flat": [],
+"levels": {
+"base": [
+[
+"Amber",
+2
+],
+[
+"Patchouli",
+1
+]
+],
+"heart": [
+[
+"Lilac",
+5
+],
+[
+"Rose",
+2
+],
+[
+"Violet",
+2
+],
+[
+"Geranium",
+1
+]
+],
+"top": [
+[
+"Pink pepper",
+2
+],
+[
+"Bergamot",
+1
+],
+[
+"Mandora",
+1
+]
+]
+},
+"src": "parfumo",
+"url": "https://www.parfumo.com/Perfumes/Gucci/Guilty_pour_Femme_Eau_de_Parfum"
 },
 "Gucci|Guilty pour Homme|EDT": {
 "accords": [
@@ -7605,6 +8255,60 @@
 "src": "parfumo",
 "url": "https://www.parfumo.com/Perfumes/Jean_Paul_Gaultier/le-beau-le-parfum"
 },
+"Jean Paul Gaultier|Le Beau Paradise Garden|EDP": {
+"accords": [
+[
+"Sweet",
+85
+],
+[
+"Fresh",
+85
+],
+[
+"Fruity",
+85
+],
+[
+"Green",
+65
+],
+[
+"Synthetic",
+65
+]
+],
+"checked": "2026-11-20",
+"flat": [
+[
+"Coconut water",
+5
+],
+[
+"Green fig",
+3
+],
+[
+"Tonka bean",
+3
+],
+[
+"Mint",
+2
+],
+[
+"Sandalwood",
+2
+],
+[
+"Ginger",
+1
+]
+],
+"levels": {},
+"src": "parfumo",
+"url": "https://www.parfumo.com/Perfumes/Jean_Paul_Gaultier/le-beau-paradise-garden"
+},
 "Jean Paul Gaultier|Le Beau|EDT": {
 "accords": [
 [
@@ -8180,6 +8884,10 @@
 "src": "parfumo",
 "url": "https://www.parfumo.com/Perfumes/Jean_Paul_Gaultier/Ultra_Male"
 },
+"Jo Malone|English Pear & Freesia|EDC": {
+"checked": "2026-11-20",
+"src": null
+},
 "Jo Malone|Wood Sage & Sea Salt|EDC": {
 "accords": [
 [
@@ -8231,6 +8939,10 @@
 },
 "src": "parfumo",
 "url": "https://www.parfumo.com/Perfumes/Jo_Malone/Wood_Sage__Sea_Salt_Cologne"
+},
+"Kayali|Vanilla 28|EDP": {
+"checked": "2026-11-20",
+"src": null
 },
 "Kenzo|Flower by Kenzo|EDP": {
 "accords": [
@@ -8837,6 +9549,10 @@
 },
 "src": "parfumo",
 "url": "https://www.parfumo.com/Perfumes/Lattafa/asad-1"
+},
+"Lattafa|Badee Al Oud Oud for Glory|EDP": {
+"checked": "2026-11-20",
+"src": null
 },
 "Lattafa|Fakhar Black|EDP": {
 "checked": "2026-11-16",
@@ -9540,6 +10256,10 @@
 "levels_url": "https://www.sabina.com/es/women-s-perfumes/36193-replica-jazz-club-eau-de-toilette-maison-margiela.html",
 "src": "tienda:sabina"
 },
+"Maison Margiela|Replica Lazy Sunday Morning|EDT": {
+"checked": "2026-11-20",
+"src": null
+},
 "Mancera|Cedrat Boisé|EDP": {
 "accords": [
 [
@@ -9691,6 +10411,106 @@
 },
 "src": "parfumo",
 "url": "https://www.parfumo.com/Perfumes/Mancera/Instant_Crush"
+},
+"Mancera|Red Tobacco|EDP": {
+"accords": [
+[
+"Spicy",
+85
+],
+[
+"Sweet",
+85
+],
+[
+"Woody",
+65
+],
+[
+"Smoky",
+65
+],
+[
+"Oriental",
+65
+]
+],
+"checked": "2026-11-20",
+"flat": [],
+"levels": {
+"base": [
+[
+"Tobacco",
+5
+],
+[
+"Vanilla",
+3
+],
+[
+"Amber",
+2
+],
+[
+"Gaiac wood",
+2
+],
+[
+"Woody notes",
+2
+],
+[
+"Vetiver",
+1
+],
+[
+"White musk",
+1
+]
+],
+"heart": [
+[
+"Patchouli",
+2
+],
+[
+"Jasmine",
+1
+]
+],
+"top": [
+[
+"Cinnamon",
+2
+],
+[
+"Green apple",
+2
+],
+[
+"Incense",
+2
+],
+[
+"Nepalese oud",
+2
+],
+[
+"Nutmeg",
+2
+],
+[
+"Saffron",
+2
+],
+[
+"White peach",
+1
+]
+]
+},
+"src": "parfumo",
+"url": "https://www.parfumo.com/Perfumes/Mancera/Red_Tobacco"
 },
 "Marc Jacobs|Daisy|EDT": {
 "accords": [
@@ -10096,6 +10916,10 @@
 "src": "parfumo",
 "url": "https://www.parfumo.com/Perfumes/mugler/A_Men_Angel_Men"
 },
+"Mugler|Alien Goddess|EDP": {
+"checked": "2026-11-20",
+"src": null
+},
 "Mugler|Alien|EDP": {
 "accords": [
 [
@@ -10326,6 +11150,10 @@
 "src": "parfumo",
 "url": "https://www.parfumo.com/Perfumes/Narciso_Rodriguez/For_Him_Bleu_Noir_Eau_de_Parfum"
 },
+"Narciso Rodriguez|For Her Pure Musc|EDP": {
+"checked": "2026-11-20",
+"src": null
+},
 "Narciso Rodriguez|For Her|EDP": {
 "accords": [
 [
@@ -10534,6 +11362,78 @@
 },
 "src": "parfumo",
 "url": "https://www.parfumo.com/Perfumes/Nishane/Hacivat"
+},
+"Parfums de Marly|Althaïr|EDP": {
+"accords": [
+[
+"Sweet",
+85
+],
+[
+"Gourmand",
+85
+],
+[
+"Creamy",
+85
+],
+[
+"Spicy",
+65
+],
+[
+"Woody",
+45
+]
+],
+"checked": "2026-11-20",
+"flat": [],
+"levels": {
+"base": [
+[
+"Praliné",
+4
+],
+[
+"Ambrox",
+2
+],
+[
+"Gaiac wood",
+2
+],
+[
+"Musk",
+1
+]
+],
+"heart": [
+[
+"Bourbon vanilla",
+5
+],
+[
+"Elemi resin",
+1
+]
+],
+"top": [
+[
+"Cinnamon",
+3
+],
+[
+"Orange blossom",
+3
+],
+[
+"Bergamot",
+1
+]
+]
+},
+"src": "parfumo",
+"url": "https://www.parfumo.com/Perfumes/Parfums_de_Marly/althair"
 },
 "Parfums de Marly|Delina|EDP": {
 "accords": [
@@ -10994,6 +11894,62 @@
 "src": "parfumo",
 "url": "https://www.parfumo.com/Perfumes/Prada/L_Homme"
 },
+"Prada|Luna Rossa Black|EDP": {
+"accords": [
+[
+"Sweet",
+85
+],
+[
+"Powdery",
+85
+],
+[
+"Spicy",
+85
+],
+[
+"Creamy",
+65
+],
+[
+"Woody",
+45
+]
+],
+"checked": "2026-11-20",
+"flat": [],
+"levels": {
+"base": [
+[
+"Amber",
+3
+]
+],
+"heart": [
+[
+"Coumarin",
+5
+],
+[
+"Patchouli",
+2
+]
+],
+"top": [
+[
+"Angelica",
+3
+],
+[
+"Bergamot",
+1
+]
+]
+},
+"src": "parfumo",
+"url": "https://www.parfumo.com/Perfumes/Prada/Luna_Rossa_Black"
+},
 "Prada|Luna Rossa Carbon|EDT": {
 "accords": [
 [
@@ -11160,6 +12116,10 @@
 },
 "src": "parfumo",
 "url": "https://www.parfumo.com/Perfumes/Prada/luna-rossa-ocean-eau-de-toilette"
+},
+"Prada|Paradoxe Intense|EDP": {
+"checked": "2026-11-20",
+"src": null
 },
 "Prada|Paradoxe|EDP": {
 "accords": [
@@ -11372,6 +12332,10 @@
 },
 "src": "parfumo",
 "url": "https://www.parfumo.com/Perfumes/Rabanne/1_Million_Eau_de_Toilette"
+},
+"Rabanne|Fame Parfum|Parfum": {
+"checked": "2026-11-20",
+"src": null
 },
 "Rabanne|Fame|EDP": {
 "accords": [
@@ -11712,6 +12676,86 @@
 "src": "parfumo",
 "url": "https://www.parfumo.com/Perfumes/Rabanne/Olympea_Eau_de_Parfum"
 },
+"Rabanne|Phantom Parfum|Parfum": {
+"accords": [
+[
+"Sweet",
+85
+],
+[
+"Synthetic",
+85
+],
+[
+"Spicy",
+65
+],
+[
+"Fruity",
+65
+],
+[
+"Woody",
+45
+]
+],
+"checked": "2026-11-20",
+"flat": [],
+"levels": {
+"base": [
+[
+"Vanilla",
+5
+],
+[
+"Vetiver",
+2
+],
+[
+"Tolu balm",
+1
+]
+],
+"heart": [
+[
+"Cedarwood",
+2
+],
+[
+"Lavender",
+2
+],
+[
+"Geranium",
+1
+],
+[
+"Patchouli",
+1
+]
+],
+"top": [
+[
+"Lemon",
+4
+],
+[
+"Rhubarb",
+4
+],
+[
+"Bergamot",
+2
+],
+[
+"Cardamom",
+1
+]
+]
+},
+"src": "parfumo",
+"url": "https://www.parfumo.com/Perfumes/Rabanne/phantom-parfum"
+},
 "Rabanne|Phantom|EDT": {
 "accords": [
 [
@@ -12021,6 +13065,106 @@
 },
 "src": "parfumo",
 "url": "https://www.parfumo.com/Perfumes/Rasasi/hawas-for-him-for-him"
+},
+"Tom Ford|Bitter Peach|EDP": {
+"accords": [
+[
+"Fruity",
+85
+],
+[
+"Sweet",
+85
+],
+[
+"Gourmand",
+65
+],
+[
+"Spicy",
+45
+],
+[
+"Creamy",
+45
+]
+],
+"checked": "2026-11-20",
+"flat": [],
+"levels": {
+"base": [
+[
+"New Caledonian sandalwood",
+2
+],
+[
+"Vanilla",
+2
+],
+[
+"Benzoin",
+1
+],
+[
+"Cashmeran",
+1
+],
+[
+"Indonesian patchouli",
+1
+],
+[
+"Labdanum absolute",
+1
+],
+[
+"Styrax",
+1
+],
+[
+"Tonka bean absolute",
+1
+]
+],
+"heart": [
+[
+"Rum absolute",
+2
+],
+[
+"Cognac",
+1
+],
+[
+"Davana",
+1
+],
+[
+"Heliotrope",
+1
+],
+[
+"Jasmine sambac absolute",
+1
+]
+],
+"top": [
+[
+"Wild peach",
+5
+],
+[
+"Sicilian blood orange",
+2
+],
+[
+"Cardamom",
+1
+]
+]
+},
+"src": "parfumo",
+"url": "https://www.parfumo.com/Perfumes/Tom_Ford/bitter-peach-eau-de-parfum"
 },
 "Tom Ford|Black Orchid|EDP": {
 "accords": [
@@ -12453,6 +13597,14 @@
 "levels": {},
 "src": "parfumo",
 "url": "https://www.parfumo.com/Perfumes/Tom_Ford/Tobacco_Vanille_Eau_de_Parfum"
+},
+"Valentino|Born in Roma Coral Fantasy Uomo|EDT": {
+"checked": "2026-11-20",
+"src": null
+},
+"Valentino|Born in Roma Donna Intense|EDP": {
+"checked": "2026-11-20",
+"src": null
 },
 "Valentino|Born in Roma Donna|EDP": {
 "checked": "2026-11-16",
@@ -12971,6 +14123,94 @@
 },
 "src": "parfumo",
 "url": "https://www.parfumo.com/Perfumes/Versace/Eros_pour_Femme_Eau_de_Parfum"
+},
+"Versace|Eros|EDP": {
+"accords": [
+[
+"Sweet",
+85
+],
+[
+"Fresh",
+85
+],
+[
+"Citrus",
+85
+],
+[
+"Fruity",
+65
+],
+[
+"Synthetic",
+65
+]
+],
+"checked": "2026-11-20",
+"flat": [],
+"levels": {
+"base": [
+[
+"Patchouli Orpur®",
+3
+],
+[
+"Sandalwood",
+3
+],
+[
+"Vanilla",
+3
+],
+[
+"Virginia cedar",
+3
+],
+[
+"Vetiver Orpur®",
+2
+],
+[
+"Leather",
+1
+]
+],
+"heart": [
+[
+"Ambermax®",
+5
+],
+[
+"Clary sage",
+3
+],
+[
+"Geranium",
+2
+]
+],
+"top": [
+[
+"Italian lemon",
+4
+],
+[
+"Spearmint",
+4
+],
+[
+"Candied apple",
+3
+],
+[
+"Italian mandarin orange",
+3
+]
+]
+},
+"src": "parfumo",
+"url": "https://www.parfumo.com/Perfumes/Versace/eros-eau-de-parfum"
 },
 "Versace|Eros|EDT": {
 "accords": [
@@ -13673,6 +14913,86 @@
 },
 "src": "parfumo",
 "url": "https://www.parfumo.com/Perfumes/Yves_Saint_Laurent/libre-eau-de-parfum-intense"
+},
+"Yves Saint Laurent|Libre Le Parfum|Parfum": {
+"accords": [
+[
+"Sweet",
+85
+],
+[
+"Floral",
+85
+],
+[
+"Spicy",
+85
+],
+[
+"Oriental",
+45
+],
+[
+"Creamy",
+45
+]
+],
+"checked": "2026-11-20",
+"flat": [],
+"levels": {
+"base": [
+[
+"Honey",
+5
+],
+[
+"Bourbon vanilla",
+4
+],
+[
+"Tonka bean absolute",
+3
+],
+[
+"Vetiver",
+1
+]
+],
+"heart": [
+[
+"Moroccan orange blossom absolute",
+5
+],
+[
+"Provençal lavender",
+5
+],
+[
+"French lavender",
+3
+]
+],
+"top": [
+[
+"Mandarin orange",
+2
+],
+[
+"Moroccan saffron",
+2
+],
+[
+"Calabrian bergamot",
+1
+],
+[
+"Ginger",
+1
+]
+]
+},
+"src": "parfumo",
+"url": "https://www.parfumo.com/Perfumes/Yves_Saint_Laurent/libre-le-parfum"
 },
 "Yves Saint Laurent|Libre|EDP": {
 "accords": [
