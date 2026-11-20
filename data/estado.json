@@ -1,112 +1,157 @@
 {
- "at": "2026-11-20T16:01:14+01:00",
+ "at": "2026-11-20T16:08:17+01:00",
  "revisados": 70,
  "tiendas": {
   "idealo": {
-   "ok": 10,
+   "ok": 50,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "jsonld-url": 9,
-   "jsonld": 1
+   "jsonld-url": 44,
+   "jsonld": 6
   },
   "primor": {
    "ok": 0,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "via_idealo": 8
-  },
-  "arenal": {
-   "ok": 0,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "via_idealo": 7
-  },
-  "druni": {
-   "ok": 0,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "via_idealo": 8
+   "via_idealo": 31
   },
   "julia": {
    "ok": 0,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "via_idealo": 9
+   "via_idealo": 38
+  },
+  "sabina": {
+   "ok": 17,
+   "bloqueada": 0,
+   "sin_precio": 2,
+   "dudoso": 0,
+   "via_idealo": 18,
+   "jsonld": 15,
+   "precio-100ml": 2
   },
   "paco": {
-   "ok": 9,
+   "ok": 32,
+   "bloqueada": 0,
+   "sin_precio": 3,
+   "dudoso": 3,
+   "precio-100ml": 3,
+   "jsonld": 29,
+   "ejemplos": [
+    {
+     "perfume": "marc-jacobs-daisy-edt-100",
+     "precio": 147.0,
+     "referencia": 68.94,
+     "metodo": "texto"
+    },
+    {
+     "perfume": "versace-crystal-noir-edt-90",
+     "precio": 99.95,
+     "referencia": 61.87,
+     "metodo": "precio-100ml"
+    },
+    {
+     "perfume": "azzaro-the-most-wanted-parfum-parfum-100",
+     "precio": 99.0,
+     "referencia": 69.95,
+     "metodo": "texto"
+    }
+   ]
+  },
+  "parejo": {
+   "ok": 12,
+   "bloqueada": 0,
+   "sin_precio": 2,
+   "dudoso": 1,
+   "jsonld": 12,
+   "ejemplos": [
+    {
+     "perfume": "dior-sauvage-parfum-parfum-100",
+     "precio": 176.8,
+     "referencia": 115.95,
+     "metodo": "jsonld"
+    }
+   ]
+  },
+  "arenal": {
+   "ok": 0,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "jsonld": 9
+   "via_idealo": 30
+  },
+  "notino": {
+   "ok": 0,
+   "bloqueada": 32,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "via_idealo": 20
   },
   "brasty": {
    "ok": 0,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "via_idealo": 5
+   "via_idealo": 14
+  },
+  "druni": {
+   "ok": 0,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "via_idealo": 33
+  },
+  "sephora": {
+   "ok": 0,
+   "bloqueada": 0,
+   "sin_precio": 20,
+   "dudoso": 0
+  },
+  "avenida": {
+   "ok": 11,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "variantes": 11
+  },
+  "laguna": {
+   "ok": 12,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "jsonld": 7,
+   "jsonld-url": 5
   },
   "lookfantastic": {
+   "ok": 20,
+   "bloqueada": 0,
+   "sin_precio": 1,
+   "dudoso": 0,
+   "jsonld": 20
+  },
+  "perfumesclub": {
    "ok": 3,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
    "jsonld": 3
   },
-  "notino": {
-   "ok": 0,
-   "bloqueada": 4,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "via_idealo": 2
-  },
   "sabina": {
    "ok": 4,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "jsonld": 4
+   "precio-100ml": 2
   },
-  "sephora": {
-   "ok": 0,
-   "bloqueada": 0,
-   "sin_precio": 2,
-   "dudoso": 0
-  },
-  "avenida": {
-   "ok": 2,
+  "arabicparfums": {
+   "ok": 3,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "variantes": 2
-  },
-  "laguna": {
-   "ok": 2,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "precio-100ml": 1,
-   "jsonld": 1
-  },
-  "parejo": {
-   "ok": 1,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "jsonld": 1
-  },
-  "perfumesclub": {
-   "ok": 2,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "jsonld": 2
+   "jsonld": 3
   },
   "douglas": {
    "ok": 1,
@@ -123,6 +168,13 @@
    "jsonld": 1
   }
  },
- "limpiados": {},
+ "limpiados": {
+  "estee-lauder-pleasures-edp-100": [
+   "sabina"
+  ],
+  "lacoste-essential-edt-125": [
+   "julia"
+  ]
+ },
  "chollometro": "ok 84"
 }
