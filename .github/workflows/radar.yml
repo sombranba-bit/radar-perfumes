@@ -13,12 +13,12 @@ permissions:
   contents: write
   actions: write
 
-concurrency:
-  group: radar
-  cancel-in-progress: false
-
 jobs:
   pasada:
+    # solo la pasada ocupa el turno: la espera de "siguiente" no bloquea otros workflows
+    concurrency:
+      group: radar
+      cancel-in-progress: false
     runs-on: ubuntu-latest
     timeout-minutes: 60
     steps:
