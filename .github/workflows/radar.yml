@@ -8,6 +8,9 @@ on:
       perfumes:
         description: "Perfumes a revisar en esta pasada (70 normal, 250 = todos)"
         default: "70"
+      buscar:
+        description: "Búsquedas de fichas nuevas en tiendas (20 normal; más al añadir perfumes)"
+        default: "20"
 
 permissions:
   contents: write
@@ -32,6 +35,7 @@ jobs:
       - run: python scraper/radar.py
         env:
           RADAR_BATCH: ${{ github.event.inputs.perfumes || '70' }}
+          RADAR_DISCOVER: ${{ github.event.inputs.buscar || '20' }}
       - name: Guardar datos
         run: |
           git config user.name "radar-bot"
