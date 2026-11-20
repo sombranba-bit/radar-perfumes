@@ -99446,7 +99446,7 @@
    "lookfantastic": "2026-11-17",
    "sephora": "2026-11-13"
   },
-  "checked": "2026-11-19T23:08:26+01:00",
+  "checked": "2026-11-20T10:19:22+01:00",
   "conc": "EDP",
   "history": [
    {
@@ -99893,6 +99893,26 @@
     "d": "2026-11-19",
     "p": 290.0,
     "s": "sabina"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 290.0,
+    "s": "firstinfragrance"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 325.0,
+    "s": "notino"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 252.59,
+    "s": "idealo"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 290.0,
+    "s": "sabina"
    }
   ],
   "id": "parfums-de-marly-layton-edp-125",
@@ -99907,26 +99927,26 @@
   "prices": {
    "firstinfragrance": {
     "auto": true,
-    "d": "2026-11-19",
+    "d": "2026-11-20",
     "gh": true,
     "p": 290.0
    },
    "idealo": {
     "auto": true,
-    "d": "2026-11-19",
+    "d": "2026-11-20",
     "gh": true,
     "p": 252.59
    },
    "notino": {
     "auto": true,
-    "d": "2026-11-19",
+    "d": "2026-11-20",
     "gh": true,
     "p": 325.0,
     "via": "idealo"
    },
    "sabina": {
     "auto": true,
-    "d": "2026-11-19",
+    "d": "2026-11-20",
     "gh": true,
     "p": 290.0
    }
@@ -99948,7 +99968,7 @@
    "lookfantastic": "2026-11-16",
    "sephora": "2026-11-13"
   },
-  "checked": "2026-11-19T23:08:32+01:00",
+  "checked": "2026-11-20T10:19:28+01:00",
   "conc": "EDP",
   "history": [
    {
@@ -100270,6 +100290,26 @@
     "d": "2026-11-19",
     "p": 197.02,
     "s": "idealo"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 290.0,
+    "s": "firstinfragrance"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 205.65,
+    "s": "brasty"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 290.0,
+    "s": "notino"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 197.02,
+    "s": "idealo"
    }
   ],
   "id": "parfums-de-marly-pegasus-edp-125",
@@ -100283,33 +100323,33 @@
   "prices": {
    "brasty": {
     "auto": true,
-    "d": "2026-11-19",
+    "d": "2026-11-20",
     "gh": true,
     "p": 205.65,
     "via": "idealo"
    },
    "firstinfragrance": {
     "auto": true,
-    "d": "2026-11-19",
+    "d": "2026-11-20",
     "gh": true,
     "p": 290.0
    },
    "idealo": {
     "auto": true,
-    "d": "2026-11-19",
+    "d": "2026-11-20",
     "gh": true,
     "p": 197.02
    },
    "notino": {
     "auto": true,
-    "d": "2026-11-19",
+    "d": "2026-11-20",
     "gh": true,
     "p": 290.0,
     "via": "idealo"
    },
    "sabina": {
     "auto": true,
-    "d": "2026-11-19",
+    "d": "2026-11-20",
     "gh": true,
     "p": 265.0,
     "stock": false
@@ -100769,7 +100809,7 @@
    "lookfantastic": "2026-10-26",
    "sephora": "2026-11-13"
   },
-  "checked": "2026-11-19T23:08:44+01:00",
+  "checked": "2026-11-20T10:19:39+01:00",
   "conc": "EDT",
   "deals": [
    {
@@ -101364,6 +101404,46 @@
     "d": "2026-11-19",
     "p": 142.0,
     "s": "sephora"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 72.23,
+    "s": "primor"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 80.9,
+    "s": "arenal"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 80.9,
+    "s": "druni"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 92.3,
+    "s": "julia"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 95.9,
+    "s": "notino"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 72.23,
+    "s": "idealo"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 87.4,
+    "s": "lookfantastic"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 86.5,
+    "s": "sabina"
    }
   ],
   "id": "prada-l-homme-edt-100",
@@ -101380,60 +101460,61 @@
   "prices": {
    "arenal": {
     "auto": true,
-    "d": "2026-11-19",
+    "d": "2026-11-20",
     "gh": true,
     "p": 80.9,
     "via": "idealo"
    },
    "druni": {
     "auto": true,
-    "d": "2026-11-19",
+    "d": "2026-11-20",
     "gh": true,
     "p": 80.9,
     "via": "idealo"
    },
    "idealo": {
     "auto": true,
-    "d": "2026-11-19",
+    "d": "2026-11-20",
     "gh": true,
     "p": 72.23
    },
    "julia": {
     "auto": true,
-    "d": "2026-11-19",
+    "d": "2026-11-20",
     "gh": true,
     "p": 92.3,
     "via": "idealo"
    },
    "lookfantastic": {
     "auto": true,
-    "d": "2026-11-19",
+    "d": "2026-11-20",
     "gh": true,
     "p": 87.4
    },
    "notino": {
     "auto": true,
-    "d": "2026-11-19",
+    "d": "2026-11-20",
     "gh": true,
     "p": 95.9,
     "via": "idealo"
    },
    "paco": {
     "auto": true,
-    "d": "2026-11-19",
+    "d": "2026-11-20",
     "gh": true,
-    "p": 72.23
+    "p": 72.23,
+    "stock": false
    },
    "primor": {
     "auto": true,
-    "d": "2026-11-19",
+    "d": "2026-11-20",
     "gh": true,
     "p": 72.23,
     "via": "idealo"
    },
    "sabina": {
     "auto": true,
-    "d": "2026-11-19",
+    "d": "2026-11-20",
     "gh": true,
     "p": 86.5
    },
@@ -103464,7 +103545,7 @@
    "idealo": "2026-10-26",
    "sephora": "2026-11-13"
   },
-  "checked": "2026-11-19T23:09:00+01:00",
+  "checked": "2026-11-20T10:19:54+01:00",
   "conc": "EDP",
   "deals": [
    {
@@ -104374,6 +104455,56 @@
     "d": "2026-11-19",
     "p": 97.8,
     "s": "sabina"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 119.95,
+    "s": "avenida"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 99.94,
+    "s": "douglas"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 99.94,
+    "s": "primor"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 99.95,
+    "s": "arenal"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 99.95,
+    "s": "druni"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 101.95,
+    "s": "julia"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 90.81,
+    "s": "idealo"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 99.95,
+    "s": "laguna"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 126.79,
+    "s": "lookfantastic"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 97.8,
+    "s": "sabina"
    }
   ],
   "id": "prada-paradoxe-edp-90",
@@ -104390,14 +104521,14 @@
   "prices": {
    "arenal": {
     "auto": true,
-    "d": "2026-11-19",
+    "d": "2026-11-20",
     "gh": true,
     "p": 99.95,
     "via": "idealo"
    },
    "avenida": {
     "auto": true,
-    "d": "2026-11-19",
+    "d": "2026-11-20",
     "gh": true,
     "p": 119.95
    },
@@ -104410,39 +104541,39 @@
    },
    "douglas": {
     "auto": true,
-    "d": "2026-11-19",
+    "d": "2026-11-20",
     "gh": true,
     "p": 99.94
    },
    "druni": {
     "auto": true,
-    "d": "2026-11-19",
+    "d": "2026-11-20",
     "gh": true,
     "p": 99.95,
     "via": "idealo"
    },
    "idealo": {
     "auto": true,
-    "d": "2026-11-19",
+    "d": "2026-11-20",
     "gh": true,
     "p": 90.81
    },
    "julia": {
     "auto": true,
-    "d": "2026-11-19",
+    "d": "2026-11-20",
     "gh": true,
-    "p": 99.94,
+    "p": 101.95,
     "via": "idealo"
    },
    "laguna": {
     "auto": true,
-    "d": "2026-11-19",
+    "d": "2026-11-20",
     "gh": true,
     "p": 99.95
    },
    "lookfantastic": {
     "auto": true,
-    "d": "2026-11-19",
+    "d": "2026-11-20",
     "gh": true,
     "p": 126.79
    },
@@ -104459,14 +104590,14 @@
    },
    "primor": {
     "auto": true,
-    "d": "2026-11-19",
+    "d": "2026-11-20",
     "gh": true,
     "p": 99.94,
     "via": "idealo"
    },
    "sabina": {
     "auto": true,
-    "d": "2026-11-19",
+    "d": "2026-11-20",
     "gh": true,
     "p": 97.8
    }
@@ -104490,7 +104621,7 @@
    "idealo": "2026-10-26",
    "sephora": "2026-11-13"
   },
-  "checked": "2026-11-19T23:09:13+01:00",
+  "checked": "2026-11-20T10:20:08+01:00",
   "conc": "EDT",
   "deals": [
    {
@@ -105295,6 +105426,61 @@
     "d": "2026-11-19",
     "p": 89.25,
     "s": "parejo"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 69.95,
+    "s": "avenida"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 65.95,
+    "s": "arenal"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 65.95,
+    "s": "druni"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 65.95,
+    "s": "primor"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 69.3,
+    "s": "sabina"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 69.95,
+    "s": "julia"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 65.95,
+    "s": "idealo"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 69.95,
+    "s": "laguna"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 83.72,
+    "s": "lookfantastic"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 65.95,
+    "s": "paco"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 89.25,
+    "s": "parejo"
    }
   ],
   "id": "rabanne-1-million-edt-100",
@@ -105311,46 +105497,46 @@
   "prices": {
    "arenal": {
     "auto": true,
-    "d": "2026-11-19",
+    "d": "2026-11-20",
     "gh": true,
     "p": 65.95,
     "via": "idealo"
    },
    "avenida": {
     "auto": true,
-    "d": "2026-11-19",
+    "d": "2026-11-20",
     "gh": true,
     "p": 69.95
    },
    "druni": {
     "auto": true,
-    "d": "2026-11-19",
+    "d": "2026-11-20",
     "gh": true,
     "p": 65.95,
     "via": "idealo"
    },
    "idealo": {
     "auto": true,
-    "d": "2026-11-19",
+    "d": "2026-11-20",
     "gh": true,
     "p": 65.95
    },
    "julia": {
     "auto": true,
-    "d": "2026-11-19",
+    "d": "2026-11-20",
     "gh": true,
-    "p": 72.95,
+    "p": 69.95,
     "via": "idealo"
    },
    "laguna": {
     "auto": true,
-    "d": "2026-11-19",
+    "d": "2026-11-20",
     "gh": true,
     "p": 69.95
    },
    "lookfantastic": {
     "auto": true,
-    "d": "2026-11-19",
+    "d": "2026-11-20",
     "gh": true,
     "p": 83.72
    },
@@ -105363,26 +105549,26 @@
    },
    "paco": {
     "auto": true,
-    "d": "2026-11-19",
+    "d": "2026-11-20",
     "gh": true,
     "p": 65.95
    },
    "parejo": {
     "auto": true,
-    "d": "2026-11-19",
+    "d": "2026-11-20",
     "gh": true,
     "p": 89.25
    },
    "primor": {
     "auto": true,
-    "d": "2026-11-19",
+    "d": "2026-11-20",
     "gh": true,
     "p": 65.95,
     "via": "idealo"
    },
    "sabina": {
     "auto": true,
-    "d": "2026-11-19",
+    "d": "2026-11-20",
     "gh": true,
     "p": 69.3,
     "via": "idealo"
@@ -105406,7 +105592,7 @@
    "idealo": "2026-10-26",
    "sephora": "2026-11-13"
   },
-  "checked": "2026-11-19T23:09:26+01:00",
+  "checked": "2026-11-20T10:20:21+01:00",
   "conc": "Parfum",
   "deals": [
    {
@@ -106111,6 +106297,41 @@
     "d": "2026-11-19",
     "p": 83.55,
     "s": "sabina"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 83.95,
+    "s": "avenida"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 83.95,
+    "s": "druni"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 83.55,
+    "s": "idealo"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 83.95,
+    "s": "laguna"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 105.57,
+    "s": "lookfantastic"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 83.95,
+    "s": "paco"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 83.55,
+    "s": "sabina"
    }
   ],
   "id": "rabanne-1-million-elixir-parfum-100",
@@ -106127,32 +106348,32 @@
   "prices": {
    "avenida": {
     "auto": true,
-    "d": "2026-11-19",
+    "d": "2026-11-20",
     "gh": true,
     "p": 83.95
    },
    "druni": {
     "auto": true,
-    "d": "2026-11-19",
+    "d": "2026-11-20",
     "gh": true,
     "p": 83.95,
     "via": "idealo"
    },
    "idealo": {
     "auto": true,
-    "d": "2026-11-19",
+    "d": "2026-11-20",
     "gh": true,
     "p": 83.55
    },
    "laguna": {
     "auto": true,
-    "d": "2026-11-19",
+    "d": "2026-11-20",
     "gh": true,
     "p": 83.95
    },
    "lookfantastic": {
     "auto": true,
-    "d": "2026-11-19",
+    "d": "2026-11-20",
     "gh": true,
     "p": 105.57
    },
@@ -106164,13 +106385,13 @@
    },
    "paco": {
     "auto": true,
-    "d": "2026-11-19",
+    "d": "2026-11-20",
     "gh": true,
     "p": 83.95
    },
    "sabina": {
     "auto": true,
-    "d": "2026-11-19",
+    "d": "2026-11-20",
     "gh": true,
     "p": 83.55
    }
@@ -106194,7 +106415,7 @@
    "idealo": "2026-10-26",
    "sephora": "2026-11-13"
   },
-  "checked": "2026-11-19T23:09:38+01:00",
+  "checked": "2026-11-20T10:20:41+01:00",
   "conc": "EDP",
   "deals": [
    {
@@ -106935,6 +107156,61 @@
     "d": "2026-11-19",
     "p": 69.94,
     "s": "paco"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 69.95,
+    "s": "avenida"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 69.94,
+    "s": "primor"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 69.95,
+    "s": "arenal"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 69.95,
+    "s": "druni"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 76.91,
+    "s": "brasty"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 79.9,
+    "s": "julia"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 83.55,
+    "s": "sabina"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 69.94,
+    "s": "idealo"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 69.95,
+    "s": "laguna"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 117.76,
+    "s": "lookfantastic"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 69.94,
+    "s": "paco"
    }
   ],
   "id": "rabanne-fame-edp-80",
@@ -106950,49 +107226,55 @@
   "prices": {
    "arenal": {
     "auto": true,
-    "d": "2026-11-19",
+    "d": "2026-11-20",
     "gh": true,
     "p": 69.95,
     "via": "idealo"
    },
    "avenida": {
     "auto": true,
-    "d": "2026-11-19",
+    "d": "2026-11-20",
     "gh": true,
     "p": 69.95
    },
    "brasty": {
     "auto": true,
-    "d": "2026-11-19",
+    "d": "2026-11-20",
     "gh": true,
     "p": 76.91,
     "via": "idealo"
    },
    "druni": {
     "auto": true,
-    "d": "2026-11-19",
+    "d": "2026-11-20",
     "gh": true,
     "p": 69.95,
     "via": "idealo"
    },
    "idealo": {
     "auto": true,
-    "d": "2026-11-19",
+    "d": "2026-11-20",
     "gh": true,
     "p": 69.94
    },
    "julia": {
     "auto": true,
-    "d": "2026-11-19",
+    "d": "2026-11-20",
     "gh": true,
     "p": 79.9,
     "via": "idealo"
    },
    "laguna": {
     "auto": true,
-    "d": "2026-11-19",
+    "d": "2026-11-20",
     "gh": true,
     "p": 69.95
+   },
+   "lookfantastic": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 117.76
    },
    "notino": {
     "auto": true,
@@ -107001,20 +107283,20 @@
    },
    "paco": {
     "auto": true,
-    "d": "2026-11-19",
+    "d": "2026-11-20",
     "gh": true,
     "p": 69.94
    },
    "primor": {
     "auto": true,
-    "d": "2026-11-19",
+    "d": "2026-11-20",
     "gh": true,
     "p": 69.94,
     "via": "idealo"
    },
    "sabina": {
     "auto": true,
-    "d": "2026-11-19",
+    "d": "2026-11-20",
     "gh": true,
     "p": 83.55,
     "via": "idealo"
@@ -107039,7 +107321,7 @@
    "douglas": "2026-10-26",
    "idealo": "2026-10-26"
   },
-  "checked": "2026-11-19T23:09:58+01:00",
+  "checked": "2026-11-20T10:21:00+01:00",
   "conc": "EDT",
   "deals": [
    {
@@ -108130,6 +108412,61 @@
     "d": "2026-11-19",
     "p": 65.5,
     "s": "sabina"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 69.95,
+    "s": "avenida"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 65.99,
+    "s": "douglas"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 65.2,
+    "s": "brasty"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 65.95,
+    "s": "arenal"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 65.95,
+    "s": "druni"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 65.95,
+    "s": "primor"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 69.95,
+    "s": "julia"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 65.2,
+    "s": "idealo"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 69.95,
+    "s": "laguna"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 65.95,
+    "s": "paco"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 65.5,
+    "s": "sabina"
    }
   ],
   "id": "rabanne-invictus-edt-100",
@@ -108148,52 +108485,59 @@
   "prices": {
    "arenal": {
     "auto": true,
-    "d": "2026-11-19",
+    "d": "2026-11-20",
     "gh": true,
     "p": 65.95,
     "via": "idealo"
    },
    "avenida": {
     "auto": true,
-    "d": "2026-11-19",
+    "d": "2026-11-20",
     "gh": true,
     "p": 69.95
    },
+   "brasty": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 65.2,
+    "via": "idealo"
+   },
    "douglas": {
     "auto": true,
-    "d": "2026-11-19",
+    "d": "2026-11-20",
     "gh": true,
     "p": 65.99
    },
    "druni": {
     "auto": true,
-    "d": "2026-11-19",
+    "d": "2026-11-20",
     "gh": true,
     "p": 65.95,
     "via": "idealo"
    },
    "idealo": {
     "auto": true,
-    "d": "2026-11-19",
+    "d": "2026-11-20",
     "gh": true,
-    "p": 65.5
+    "p": 65.2
    },
    "julia": {
     "auto": true,
-    "d": "2026-11-19",
+    "d": "2026-11-20",
     "gh": true,
-    "p": 72.95,
+    "p": 69.95,
     "via": "idealo"
    },
    "laguna": {
     "auto": true,
-    "d": "2026-11-19",
+    "d": "2026-11-20",
     "gh": true,
     "p": 69.95
    },
    "lookfantastic": {
     "auto": true,
-    "d": "2026-11-19",
+    "d": "2026-11-20",
     "gh": true,
     "p": 87.4,
     "stock": false
@@ -108205,20 +108549,20 @@
    },
    "paco": {
     "auto": true,
-    "d": "2026-11-19",
+    "d": "2026-11-20",
     "gh": true,
     "p": 65.95
    },
    "primor": {
     "auto": true,
-    "d": "2026-11-19",
+    "d": "2026-11-20",
     "gh": true,
     "p": 65.95,
     "via": "idealo"
    },
    "sabina": {
     "auto": true,
-    "d": "2026-11-19",
+    "d": "2026-11-20",
     "gh": true,
     "p": 65.5
    },
@@ -110842,7 +111186,7 @@
    "douglas": "2026-11-16",
    "idealo": "2026-10-26"
   },
-  "checked": "2026-11-19T23:10:16+01:00",
+  "checked": "2026-11-20T10:21:16+01:00",
   "conc": "EDT",
   "deals": [
    {
@@ -111838,6 +112182,61 @@
     "d": "2026-11-19",
     "p": 66.45,
     "s": "sabina"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 64.95,
+    "s": "avenida"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 57.95,
+    "s": "arenal"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 57.95,
+    "s": "druni"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 67.52,
+    "s": "primor"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 75.95,
+    "s": "julia"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 57.95,
+    "s": "idealo"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 69.95,
+    "s": "laguna"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 90.16,
+    "s": "lookfantastic"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 57.95,
+    "s": "paco"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 97.75,
+    "s": "parejo"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 66.45,
+    "s": "sabina"
    }
   ],
   "id": "rabanne-phantom-edt-100",
@@ -111856,46 +112255,46 @@
   "prices": {
    "arenal": {
     "auto": true,
-    "d": "2026-11-19",
+    "d": "2026-11-20",
     "gh": true,
     "p": 57.95,
     "via": "idealo"
    },
    "avenida": {
     "auto": true,
-    "d": "2026-11-19",
+    "d": "2026-11-20",
     "gh": true,
     "p": 64.95
    },
    "druni": {
     "auto": true,
-    "d": "2026-11-19",
+    "d": "2026-11-20",
     "gh": true,
     "p": 57.95,
     "via": "idealo"
    },
    "idealo": {
     "auto": true,
-    "d": "2026-11-19",
+    "d": "2026-11-20",
     "gh": true,
     "p": 57.95
    },
    "julia": {
     "auto": true,
-    "d": "2026-11-19",
+    "d": "2026-11-20",
     "gh": true,
     "p": 75.95,
     "via": "idealo"
    },
    "laguna": {
     "auto": true,
-    "d": "2026-11-19",
+    "d": "2026-11-20",
     "gh": true,
     "p": 69.95
    },
    "lookfantastic": {
     "auto": true,
-    "d": "2026-11-19",
+    "d": "2026-11-20",
     "gh": true,
     "p": 90.16
    },
@@ -111908,26 +112307,26 @@
    },
    "paco": {
     "auto": true,
-    "d": "2026-11-19",
+    "d": "2026-11-20",
     "gh": true,
     "p": 57.95
    },
    "parejo": {
     "auto": true,
-    "d": "2026-11-19",
+    "d": "2026-11-20",
     "gh": true,
     "p": 97.75
    },
    "primor": {
     "auto": true,
-    "d": "2026-11-19",
+    "d": "2026-11-20",
     "gh": true,
     "p": 67.52,
     "via": "idealo"
    },
    "sabina": {
     "auto": true,
-    "d": "2026-11-19",
+    "d": "2026-11-20",
     "gh": true,
     "p": 66.45
    },
@@ -111958,7 +112357,7 @@
    "idealo": "2026-10-26",
    "sephora": "2026-11-13"
   },
-  "checked": "2026-11-19T23:10:30+01:00",
+  "checked": "2026-11-20T10:21:33+01:00",
   "conc": "EDP",
   "deals": [
    {
@@ -112684,6 +113083,51 @@
     "d": "2026-11-19",
     "p": 75.95,
     "s": "sabina"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 61.89,
+    "s": "primor"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 61.9,
+    "s": "arenal"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 61.9,
+    "s": "druni"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 84.0,
+    "s": "julia"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 85.5,
+    "s": "notino"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 56.57,
+    "s": "idealo"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 69.95,
+    "s": "laguna"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 73.95,
+    "s": "parejo"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 75.95,
+    "s": "sabina"
    }
   ],
   "id": "ralph-lauren-polo-blue-edp-125",
@@ -112700,74 +113144,74 @@
   "prices": {
    "arenal": {
     "auto": true,
-    "d": "2026-11-19",
+    "d": "2026-11-20",
     "gh": true,
     "p": 61.9,
     "via": "idealo"
    },
    "druni": {
     "auto": true,
-    "d": "2026-11-19",
+    "d": "2026-11-20",
     "gh": true,
     "p": 61.9,
     "via": "idealo"
    },
    "idealo": {
     "auto": true,
-    "d": "2026-11-19",
+    "d": "2026-11-20",
     "gh": true,
     "p": 56.57
    },
    "julia": {
     "auto": true,
-    "d": "2026-11-19",
+    "d": "2026-11-20",
     "gh": true,
     "p": 84.0,
     "via": "idealo"
    },
    "laguna": {
     "auto": true,
-    "d": "2026-11-19",
+    "d": "2026-11-20",
     "gh": true,
     "p": 69.95
    },
    "lookfantastic": {
     "auto": true,
-    "d": "2026-11-19",
+    "d": "2026-11-20",
     "gh": true,
     "p": 85.39,
     "stock": false
    },
    "notino": {
     "auto": true,
-    "d": "2026-11-19",
+    "d": "2026-11-20",
     "gh": true,
-    "p": 86.5,
+    "p": 85.5,
     "via": "idealo"
    },
    "paco": {
     "auto": true,
-    "d": "2026-11-19",
+    "d": "2026-11-20",
     "gh": true,
     "p": 61.89,
     "stock": false
    },
    "parejo": {
     "auto": true,
-    "d": "2026-11-19",
+    "d": "2026-11-20",
     "gh": true,
     "p": 73.95
    },
    "primor": {
     "auto": true,
-    "d": "2026-11-19",
+    "d": "2026-11-20",
     "gh": true,
     "p": 61.89,
     "via": "idealo"
    },
    "sabina": {
     "auto": true,
-    "d": "2026-11-19",
+    "d": "2026-11-20",
     "gh": true,
     "p": 75.95
    }
@@ -112792,7 +113236,7 @@
    "idealo": "2026-10-26",
    "sephora": "2026-11-13"
   },
-  "checked": "2026-11-19T23:10:39+01:00",
+  "checked": "2026-11-20T10:21:42+01:00",
   "conc": "EDT",
   "history": [
    {
@@ -113054,6 +113498,16 @@
     "d": "2026-11-19",
     "p": 60.75,
     "s": "sabina"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 84.89,
+    "s": "idealo"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 60.75,
+    "s": "sabina"
    }
   ],
   "id": "ralph-lauren-polo-red-edt-125",
@@ -113068,27 +113522,27 @@
   "prices": {
    "idealo": {
     "auto": true,
-    "d": "2026-11-19",
+    "d": "2026-11-20",
     "gh": true,
     "p": 84.89
    },
    "lookfantastic": {
     "auto": true,
-    "d": "2026-11-19",
+    "d": "2026-11-20",
     "gh": true,
     "p": 75.04,
     "stock": false
    },
    "paco": {
     "auto": true,
-    "d": "2026-11-19",
+    "d": "2026-11-20",
     "gh": true,
     "p": 66.95,
     "stock": false
    },
    "sabina": {
     "auto": true,
-    "d": "2026-11-19",
+    "d": "2026-11-20",
     "gh": true,
     "p": 60.75
    }
@@ -114356,7 +114810,7 @@
    "douglas": "2026-11-16",
    "idealo": "2026-10-26"
   },
-  "checked": "2026-11-19T23:10:55+01:00",
+  "checked": "2026-11-20T10:21:58+01:00",
   "conc": "EDP",
   "history": [
    {
@@ -115248,6 +115702,66 @@
     "d": "2026-11-19",
     "p": 133.88,
     "s": "sabina"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 124.65,
+    "s": "brasty"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 131.94,
+    "s": "primor"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 131.95,
+    "s": "arenal"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 131.95,
+    "s": "druni"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 155.99,
+    "s": "julia"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 164.0,
+    "s": "notino"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 124.65,
+    "s": "idealo"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 135.2,
+    "s": "laguna"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 145.36,
+    "s": "lookfantastic"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 131.94,
+    "s": "paco"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 131.94,
+    "s": "perfumesclub"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 133.88,
+    "s": "sabina"
    }
   ],
   "id": "tom-ford-noir-extreme-edp-100",
@@ -115256,13 +115770,20 @@
    "laguna": "https://www.perfumeriaslaguna.com/images/products-listing/noir-extreme-eau-de-parfum.jpg",
    "lookfantastic": "https://main.thgimages.com/?url=https://static.thcdn.com/productimg/original/12018669-8634925976650334.jpg&format=webp&width=1500&height=1500&fit=cover",
    "paco": "https://www.pacoperfumerias.com/on/demandware.static/-/Sites-pacoper-master-catalog/default/dw30fa287d/images/1/5/153424_2.jpg",
-   "perfumesclub": "https://i1.perfumesclub.com/grande/82090.jpg",
+   "perfumesclub": "https://i1.perfumesclub.com/grande/210832.jpg",
    "sabina": "https://static1.sabinacdn.com/25052/tom-ford-noir-extreme-eau-de-parfum.jpg",
    "sephora": "https://media.sephora.eu/content/dam/gdam/europe/digital/massivpimupload/T/TOM_FORD/325878/43266-media_swatch.jpg?scaleWidth=750&scaleHeight=750&scaleMode=fit"
   },
   "ml": 100,
   "name": "Noir Extreme",
   "prices": {
+   "arenal": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 131.95,
+    "via": "idealo"
+   },
    "beautinow": {
     "auto": true,
     "d": "2026-10-12",
@@ -115271,72 +115792,72 @@
    },
    "brasty": {
     "auto": true,
-    "d": "2026-11-19",
+    "d": "2026-11-20",
     "gh": true,
-    "p": 124.66,
+    "p": 124.65,
     "via": "idealo"
    },
    "druni": {
     "auto": true,
-    "d": "2026-11-19",
+    "d": "2026-11-20",
     "gh": true,
     "p": 131.95,
     "via": "idealo"
    },
    "idealo": {
     "auto": true,
-    "d": "2026-11-19",
+    "d": "2026-11-20",
     "gh": true,
-    "p": 124.66
+    "p": 124.65
    },
    "julia": {
     "auto": true,
-    "d": "2026-11-19",
+    "d": "2026-11-20",
     "gh": true,
     "p": 155.99,
     "via": "idealo"
    },
    "laguna": {
     "auto": true,
-    "d": "2026-11-19",
+    "d": "2026-11-20",
     "gh": true,
     "p": 135.2
    },
    "lookfantastic": {
     "auto": true,
-    "d": "2026-11-19",
+    "d": "2026-11-20",
     "gh": true,
     "p": 145.36
    },
    "notino": {
     "auto": true,
-    "d": "2026-11-19",
+    "d": "2026-11-20",
     "gh": true,
-    "p": 158.0,
+    "p": 164.0,
     "via": "idealo"
    },
    "paco": {
     "auto": true,
-    "d": "2026-11-19",
+    "d": "2026-11-20",
     "gh": true,
     "p": 131.94
    },
    "perfumesclub": {
     "auto": true,
-    "d": "2026-11-19",
+    "d": "2026-11-20",
     "gh": true,
     "p": 131.94
    },
    "primor": {
     "auto": true,
-    "d": "2026-11-19",
+    "d": "2026-11-20",
     "gh": true,
     "p": 131.94,
     "via": "idealo"
    },
    "sabina": {
     "auto": true,
-    "d": "2026-11-19",
+    "d": "2026-11-20",
     "gh": true,
     "p": 133.88
    },
@@ -133014,360 +133535,2227 @@
  },
  {
   "brand": "Rabanne",
-  "buscado": {},
-  "checked": "2026-11-20T09:38:46+01:00",
+  "buscado": {
+   "douglas": "2026-11-20",
+   "idealo": "2026-11-20",
+   "lookfantastic": "2026-11-20",
+   "paco": "2026-11-20",
+   "parejo": "2026-11-20",
+   "sephora": "2026-11-20"
+  },
+  "checked": "2026-11-20T10:11:18+01:00",
   "conc": "Parfum",
   "deals": [],
-  "history": [],
+  "history": [
+   {
+    "d": "2026-11-20",
+    "p": 63.64,
+    "s": "primor"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 63.65,
+    "s": "arenal"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 63.65,
+    "s": "druni"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 63.95,
+    "s": "julia"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 76.9,
+    "s": "sabina"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 58.72,
+    "s": "idealo"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 93.15,
+    "s": "lookfantastic"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 97.5,
+    "s": "sephora"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 63.64,
+    "s": "paco"
+   }
+  ],
   "id": "rabanne-phantom-parfum-parfum-100",
-  "images": {},
+  "images": {
+   "idealo": "https://cdn.idealo.com/folder/Product/203147/1/203147147/s11_produktbild_gross/paco-rabanne-phantom-eau-de-parfum-100ml.jpg",
+   "lookfantastic": "https://main.thgimages.com/?url=https://static.thcdn.com/productimg/original/14887107-1005074968603810.jpg&format=webp&width=1500&height=1500&fit=cover",
+   "paco": "https://www.pacoperfumerias.com/on/demandware.static/-/Sites-pacoper-master-catalog/default/dw6cd7df3a/images/2/4/241044_2.jpg",
+   "sephora": "https://media.sephora.eu/content/dam/gdam/europe/digital/pim/published/R/RABANNE_FRAGRANCES/696816/325840-media_swatch.jpg?scaleWidth=750&scaleHeight=750&scaleMode=fit"
+  },
   "ml": 100,
   "name": "Phantom Parfum",
-  "prices": {},
+  "prices": {
+   "arenal": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 63.65,
+    "via": "idealo"
+   },
+   "druni": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 63.65,
+    "via": "idealo"
+   },
+   "idealo": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 58.72
+   },
+   "julia": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 63.95,
+    "via": "idealo"
+   },
+   "lookfantastic": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 93.15
+   },
+   "paco": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 63.64
+   },
+   "primor": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 63.64,
+    "via": "idealo"
+   },
+   "sabina": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 76.9,
+    "via": "idealo"
+   },
+   "sephora": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 97.5
+   }
+  },
   "target": null,
   "tier": null,
-  "urls": {}
+  "urls": {
+   "idealo": "https://www.idealo.es/precios/203147147/paco-rabanne-phantom-eau-de-parfum-100ml.html",
+   "lookfantastic": "https://www.lookfantastic.es/p/paco-rabanne-phantom-parfum-100ml/14887107/",
+   "paco": "https://www.pacoperfumerias.com/paco-rabanne-phantom-parfum-30688.html",
+   "parejo": "https://www.joyeriaparejo.com/busqueda?s=Rabanne+Phantom+Parfum+parfum",
+   "sephora": "https://www.sephora.es/p/phantom-parfum---extrait-de-parfum-P10052583.html"
+  }
  },
  {
   "brand": "Jean Paul Gaultier",
-  "buscado": {},
-  "checked": "2026-11-20T09:38:46+01:00",
+  "buscado": {
+   "douglas": "2026-11-20",
+   "idealo": "2026-11-20",
+   "lookfantastic": "2026-11-20",
+   "paco": "2026-11-20",
+   "parejo": "2026-11-20",
+   "sephora": "2026-11-20"
+  },
+  "checked": "2026-11-20T10:11:35+01:00",
   "conc": "EDP",
   "deals": [],
-  "history": [],
+  "history": [
+   {
+    "d": "2026-11-20",
+    "p": 80.71,
+    "s": "sabina"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 82.95,
+    "s": "julia"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 84.95,
+    "s": "arenal"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 84.95,
+    "s": "druni"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 84.95,
+    "s": "primor"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 87.23,
+    "s": "brasty"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 69.56,
+    "s": "idealo"
+   }
+  ],
   "id": "jean-paul-gaultier-le-beau-paradise-garden-edp-125",
-  "images": {},
+  "images": {
+   "idealo": "https://cdn.idealo.com/folder/Product/203804/1/203804165/s11_produktbild_gross/jean-paul-gaultier-le-beau-paradise-garden-eau-de-parfum-125ml.jpg",
+   "paco": "https://www.pacoperfumerias.com/on/demandware.static/-/Sites-pacoper-master-catalog/default/dw75f7843d/images/2/1/218707_2.jpg"
+  },
   "ml": 125,
   "name": "Le Beau Paradise Garden",
-  "prices": {},
+  "prices": {
+   "arenal": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 84.95,
+    "via": "idealo"
+   },
+   "brasty": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 87.23,
+    "via": "idealo"
+   },
+   "druni": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 84.95,
+    "via": "idealo"
+   },
+   "idealo": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 69.56
+   },
+   "julia": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 82.95,
+    "via": "idealo"
+   },
+   "paco": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 84.95,
+    "stock": false
+   },
+   "primor": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 84.95,
+    "via": "idealo"
+   },
+   "sabina": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 80.71,
+    "via": "idealo"
+   }
+  },
   "target": null,
   "tier": null,
-  "urls": {}
+  "urls": {
+   "idealo": "https://www.idealo.es/precios/203804165/jean-paul-gaultier-le-beau-paradise-garden-eau-de-parfum-125ml.html",
+   "paco": "https://www.pacoperfumerias.com/jean-paul-gaultier-le-beau-paradise-garden-31632.html",
+   "parejo": "https://www.joyeriaparejo.com/busqueda?s=Jean+Paul+Gaultier+Le+Beau+Paradise+Garden+eau+de+parfum"
+  }
  },
  {
   "brand": "Dolce & Gabbana",
-  "buscado": {},
-  "checked": "2026-11-20T09:38:46+01:00",
+  "buscado": {
+   "douglas": "2026-11-20",
+   "idealo": "2026-11-20",
+   "lookfantastic": "2026-11-20",
+   "paco": "2026-11-20",
+   "parejo": "2026-11-20",
+   "sephora": "2026-11-20"
+  },
+  "checked": "2026-11-20T10:12:09+01:00",
   "conc": "EDP",
   "deals": [],
-  "history": [],
+  "history": [
+   {
+    "d": "2026-11-20",
+    "p": 76.65,
+    "s": "brasty"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 76.65,
+    "s": "idealo"
+   }
+  ],
   "id": "dolce-gabbana-light-blue-eau-intense-pour-homme-edp-100",
-  "images": {},
+  "images": {
+   "idealo": "https://cdn.idealo.com/folder/Product/5515/4/5515465/s11_produktbild_gross/dolce-gabbana-pour-homme-light-blue-eau-intense-100-ml.jpg"
+  },
   "ml": 100,
   "name": "Light Blue Eau Intense pour Homme",
-  "prices": {},
+  "prices": {
+   "brasty": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 76.65,
+    "via": "idealo"
+   },
+   "idealo": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 76.65
+   }
+  },
   "target": null,
   "tier": null,
-  "urls": {}
+  "urls": {
+   "idealo": "https://www.idealo.es/precios/5515465/dolce-gabbana-pour-homme-light-blue-eau-intense-100-ml.html",
+   "parejo": "https://www.joyeriaparejo.com/busqueda?s=Dolce+Gabbana+Light+Blue+Eau+Intense+pour+Homme+eau+de+parfum"
+  }
  },
  {
   "brand": "Carolina Herrera",
-  "buscado": {},
-  "checked": "2026-11-20T09:38:46+01:00",
+  "buscado": {
+   "douglas": "2026-11-20",
+   "idealo": "2026-11-20",
+   "lookfantastic": "2026-11-20",
+   "paco": "2026-11-20",
+   "parejo": "2026-11-20",
+   "sephora": "2026-11-20"
+  },
+  "checked": "2026-11-20T10:12:38+01:00",
   "conc": "EDP",
   "deals": [],
-  "history": [],
+  "history": [
+   {
+    "d": "2026-11-20",
+    "p": 74.95,
+    "s": "arenal"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 74.95,
+    "s": "druni"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 76.24,
+    "s": "brasty"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 76.75,
+    "s": "primor"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 77.14,
+    "s": "sabina"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 79.95,
+    "s": "julia"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 74.95,
+    "s": "idealo"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 98.25,
+    "s": "sephora"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 74.95,
+    "s": "paco"
+   }
+  ],
   "id": "carolina-herrera-bad-boy-cobalt-edp-100",
-  "images": {},
+  "images": {
+   "idealo": "https://cdn.idealo.com/folder/Product/201867/3/201867368/s11_produktbild_gross/carolina-herrera-bad-boy-cobalt-eau-de-parfum-100ml.jpg",
+   "lookfantastic": "https://main.thgimages.com/?url=https://static.thcdn.com/productimg/original/13656993-1295318195391888.jpg&format=webp&width=1500&height=1500&fit=cover",
+   "paco": "https://www.pacoperfumerias.com/on/demandware.static/-/Sites-pacoper-master-catalog/default/dw9df081a0/images/2/2/227570_2.jpg",
+   "sephora": "https://media.sephora.eu/content/dam/gdam/europe/digital/pim/published/C/CAROLINA_HERRERA/584468/271139-media_swatch.jpg?scaleWidth=750&scaleHeight=750&scaleMode=fit"
+  },
   "ml": 100,
   "name": "Bad Boy Cobalt",
-  "prices": {},
+  "prices": {
+   "arenal": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 74.95,
+    "via": "idealo"
+   },
+   "brasty": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 76.24,
+    "via": "idealo"
+   },
+   "druni": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 74.95,
+    "via": "idealo"
+   },
+   "idealo": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 74.95
+   },
+   "julia": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 79.95,
+    "via": "idealo"
+   },
+   "lookfantastic": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 95.68,
+    "stock": false
+   },
+   "paco": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 74.95
+   },
+   "primor": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 76.75,
+    "via": "idealo"
+   },
+   "sabina": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 77.14,
+    "via": "idealo"
+   },
+   "sephora": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 98.25
+   }
+  },
   "target": null,
   "tier": null,
-  "urls": {}
+  "urls": {
+   "idealo": "https://www.idealo.es/precios/201867368/carolina-herrera-bad-boy-cobalt-eau-de-parfum-100ml.html",
+   "lookfantastic": "https://www.lookfantastic.es/p/carolina-herrera-bad-boy-cobalt-eau-de-parfum-100ml/13656993/",
+   "paco": "https://www.pacoperfumerias.com/carolina-herrera-bad-boy-cobalt-24062.html",
+   "parejo": "https://www.joyeriaparejo.com/busqueda?s=Carolina+Herrera+Bad+Boy+Cobalt+eau+de+parfum",
+   "sephora": "https://www.sephora.es/p/carolina-herrera-bad-boy-cobalt-eau-de-parfum-P10024472.html"
+  }
  },
  {
   "brand": "Givenchy",
-  "buscado": {},
-  "checked": "2026-11-20T09:38:46+01:00",
+  "buscado": {
+   "douglas": "2026-11-20",
+   "idealo": "2026-11-20",
+   "lookfantastic": "2026-11-20",
+   "paco": "2026-11-20",
+   "parejo": "2026-11-20",
+   "sephora": "2026-11-20"
+  },
+  "checked": "2026-11-20T10:13:01+01:00",
   "conc": "EDP",
   "deals": [],
-  "history": [],
+  "history": [
+   {
+    "d": "2026-11-20",
+    "p": 66.94,
+    "s": "primor"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 66.95,
+    "s": "arenal"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 66.95,
+    "s": "druni"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 76.45,
+    "s": "julia"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 77.85,
+    "s": "sabina"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 90.7,
+    "s": "notino"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 66.94,
+    "s": "idealo"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 68.25,
+    "s": "sephora"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 67.93,
+    "s": "paco"
+   }
+  ],
   "id": "givenchy-gentleman-society-edp-100",
-  "images": {},
+  "images": {
+   "idealo": "https://cdn.idealo.com/folder/Product/202375/3/202375309/s11_produktbild_gross/givenchy-gentleman-society-eau-de-parfum-100ml.jpg",
+   "paco": "https://www.pacoperfumerias.com/on/demandware.static/-/Sites-pacoper-master-catalog/default/dw085f2ccf/images/2/2/227438_2.jpg",
+   "sephora": "https://media.sephora.eu/content/dam/gdam/europe/digital/pim/published/G/GIVENCHY/657561/312791-media_swatch-1.jpg?scaleWidth=750&scaleHeight=750&scaleMode=fit"
+  },
   "ml": 100,
   "name": "Gentleman Society",
-  "prices": {},
+  "prices": {
+   "arenal": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 66.95,
+    "via": "idealo"
+   },
+   "druni": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 66.95,
+    "via": "idealo"
+   },
+   "idealo": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 66.94
+   },
+   "julia": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 76.45,
+    "via": "idealo"
+   },
+   "notino": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 90.7,
+    "via": "idealo"
+   },
+   "paco": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 67.93
+   },
+   "primor": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 66.94,
+    "via": "idealo"
+   },
+   "sabina": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 77.85,
+    "via": "idealo"
+   },
+   "sephora": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 68.25
+   }
+  },
   "target": null,
   "tier": null,
-  "urls": {}
+  "urls": {
+   "idealo": "https://www.idealo.es/precios/202375309/givenchy-gentleman-society-eau-de-parfum-100ml.html",
+   "lookfantastic": "https://www.lookfantastic.es/p/givenchy-gentleman-society-eau-de-parfum-60ml-travel-size-12.5ml/17796706/",
+   "paco": "https://www.pacoperfumerias.com/givenchy-gentleman-society-ambree-33901.html",
+   "parejo": "https://www.joyeriaparejo.com/busqueda?s=Givenchy+Gentleman+Society+eau+de+parfum",
+   "sephora": "https://www.sephora.es/p/gentleman-society---eau-de-parfum-para-hombre-P10048413.html"
+  }
  },
  {
   "brand": "Burberry",
-  "buscado": {},
-  "checked": "2026-11-20T09:38:46+01:00",
+  "buscado": {
+   "douglas": "2026-11-20",
+   "idealo": "2026-11-20",
+   "lookfantastic": "2026-11-20",
+   "paco": "2026-11-20",
+   "parejo": "2026-11-20",
+   "sephora": "2026-11-20"
+  },
+  "checked": "2026-11-20T10:13:21+01:00",
   "conc": "EDP",
   "deals": [],
-  "history": [],
+  "history": [
+   {
+    "d": "2026-11-20",
+    "p": 69.3,
+    "s": "arenal"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 69.3,
+    "s": "druni"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 69.3,
+    "s": "julia"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 79.95,
+    "s": "primor"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 89.9,
+    "s": "notino"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 63.85,
+    "s": "idealo"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 107.81,
+    "s": "lookfantastic"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 57.66,
+    "s": "paco"
+   }
+  ],
   "id": "burberry-hero-edp-100",
-  "images": {},
+  "images": {
+   "lookfantastic": "https://main.thgimages.com/?url=https://static.thcdn.com/productimg/original/13998105-1705142364113834.jpg&format=webp&width=1500&height=1500&fit=cover",
+   "paco": "https://www.pacoperfumerias.com/on/demandware.static/-/Sites-pacoper-master-catalog/default/dwc431d3c1/images/2/2/227574_2.jpg"
+  },
   "ml": 100,
   "name": "Hero",
-  "prices": {},
+  "prices": {
+   "arenal": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 69.3,
+    "via": "idealo"
+   },
+   "druni": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 69.3,
+    "via": "idealo"
+   },
+   "idealo": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 63.85
+   },
+   "julia": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 69.3,
+    "via": "idealo"
+   },
+   "lookfantastic": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 107.81
+   },
+   "notino": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 89.9,
+    "via": "idealo"
+   },
+   "paco": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 57.66
+   },
+   "primor": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 79.95,
+    "via": "idealo"
+   }
+  },
   "target": null,
   "tier": null,
-  "urls": {}
+  "urls": {
+   "idealo": "https://www.idealo.es/precios/202047927/burberry-hero-eau-de-parfum-100ml.html",
+   "lookfantastic": "https://www.lookfantastic.es/p/burberry-hero-eau-de-parfum-for-men-100ml/13998105/",
+   "paco": "https://www.pacoperfumerias.com/burberry-hero-33989.html",
+   "parejo": "https://www.joyeriaparejo.com/busqueda?s=Burberry+Hero+eau+de+parfum"
+  }
  },
  {
   "brand": "Lattafa",
-  "buscado": {},
-  "checked": "2026-11-20T09:38:46+01:00",
+  "buscado": {
+   "douglas": "2026-11-20",
+   "idealo": "2026-11-20",
+   "lookfantastic": "2026-11-20",
+   "paco": "2026-11-20",
+   "parejo": "2026-11-20",
+   "sephora": "2026-11-20"
+  },
+  "checked": "2026-11-20T10:13:40+01:00",
   "conc": "EDP",
   "deals": [],
-  "history": [],
+  "history": [
+   {
+    "d": "2026-11-20",
+    "p": 24.95,
+    "s": "druni"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 29.0,
+    "s": "brasty"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 29.95,
+    "s": "julia"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 30.39,
+    "s": "sabina"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 21.69,
+    "s": "idealo"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 34.0,
+    "s": "parejo"
+   }
+  ],
   "id": "lattafa-badee-al-oud-oud-for-glory-edp-100",
-  "images": {},
+  "images": {
+   "idealo": "https://cdn.idealo.com/folder/Product/203281/6/203281636/s11_produktbild_gross/lattafa-badee-al-oud-honor-glory-eau-de-parfum-100ml.jpg",
+   "parejo": "https://www.joyeriaparejo.com/49864-large_default/lattafa-badee-al-oud-for-glory-edp-100ml-hombre.jpg"
+  },
   "ml": 100,
   "name": "Badee Al Oud Oud for Glory",
-  "prices": {},
+  "prices": {
+   "brasty": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 29.0,
+    "via": "idealo"
+   },
+   "druni": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 24.95,
+    "via": "idealo"
+   },
+   "idealo": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 21.69
+   },
+   "julia": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 29.95,
+    "via": "idealo"
+   },
+   "parejo": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 34.0
+   },
+   "sabina": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 30.39,
+    "via": "idealo"
+   }
+  },
   "target": null,
   "tier": "Árabe",
-  "urls": {}
+  "urls": {
+   "idealo": "https://www.idealo.es/precios/203281636/lattafa-badee-al-oud-honor-glory-eau-de-parfum-100ml.html",
+   "parejo": "https://www.joyeriaparejo.com/perfumes/perfumes-arabes/perfumes-arabes-hombre/lattafa-badee-al-oud-for-glory-edp-100ml-hombre"
+  }
  },
  {
   "brand": "Armaf",
-  "buscado": {},
-  "checked": "2026-11-20T09:38:46+01:00",
+  "buscado": {
+   "douglas": "2026-11-20",
+   "idealo": "2026-11-20",
+   "lookfantastic": "2026-11-20",
+   "paco": "2026-11-20",
+   "parejo": "2026-11-20",
+   "sephora": "2026-11-20"
+  },
+  "checked": "2026-11-20T10:14:01+01:00",
   "conc": "EDP",
   "deals": [],
-  "history": [],
+  "history": [
+   {
+    "d": "2026-11-20",
+    "p": 39.94,
+    "s": "primor"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 39.95,
+    "s": "arenal"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 39.95,
+    "s": "druni"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 43.2,
+    "s": "notino"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 44.6,
+    "s": "sabina"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 29.72,
+    "s": "idealo"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 45.05,
+    "s": "parejo"
+   }
+  ],
   "id": "armaf-club-de-nuit-iconic-edp-105",
-  "images": {},
+  "images": {
+   "idealo": "https://cdn.idealo.com/folder/Product/202314/1/202314177/s11_produktbild_gross/armaf-club-de-nuit-iconic-eau-de-parfum-105ml.jpg"
+  },
   "ml": 105,
   "name": "Club de Nuit Iconic",
-  "prices": {},
+  "prices": {
+   "arenal": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 39.95,
+    "via": "idealo"
+   },
+   "druni": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 39.95,
+    "via": "idealo"
+   },
+   "idealo": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 29.72
+   },
+   "notino": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 43.2,
+    "via": "idealo"
+   },
+   "parejo": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 45.05
+   },
+   "primor": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 39.94,
+    "via": "idealo"
+   },
+   "sabina": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 44.6,
+    "via": "idealo"
+   }
+  },
   "target": null,
   "tier": "Árabe",
-  "urls": {}
+  "urls": {
+   "idealo": "https://www.idealo.es/precios/202314177/armaf-club-de-nuit-iconic-eau-de-parfum-105ml.html",
+   "parejo": "https://www.joyeriaparejo.com/busqueda?s=Armaf+Club+de+Nuit+Iconic+eau+de+parfum"
+  }
  },
  {
   "brand": "Mancera",
-  "buscado": {},
-  "checked": "2026-11-20T09:38:46+01:00",
+  "buscado": {
+   "douglas": "2026-11-20",
+   "idealo": "2026-11-20",
+   "lookfantastic": "2026-11-20",
+   "paco": "2026-11-20",
+   "parejo": "2026-11-20",
+   "sephora": "2026-11-20"
+  },
+  "checked": "2026-11-20T10:14:17+01:00",
   "conc": "EDP",
   "deals": [],
-  "history": [],
+  "history": [
+   {
+    "d": "2026-11-20",
+    "p": 170.0,
+    "s": "julia"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 98.0,
+    "s": "idealo"
+   }
+  ],
   "id": "mancera-red-tobacco-edp-120",
-  "images": {},
+  "images": {
+   "idealo": "https://cdn.idealo.com/folder/Product/6275/3/6275369/s11_produktbild_gross/mancera-red-tobacco-eau-de-parfum-120ml.jpg"
+  },
   "ml": 120,
   "name": "Red Tobacco",
-  "prices": {},
+  "prices": {
+   "idealo": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 98.0
+   },
+   "julia": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 170.0,
+    "via": "idealo"
+   }
+  },
   "target": null,
   "tier": "Nicho",
-  "urls": {}
+  "urls": {
+   "idealo": "https://www.idealo.es/precios/6275369/mancera-red-tobacco-eau-de-parfum-120ml.html",
+   "parejo": "https://www.joyeriaparejo.com/busqueda?s=Mancera+Red+Tobacco+eau+de+parfum"
+  }
  },
  {
   "brand": "Parfums de Marly",
-  "buscado": {},
-  "checked": "2026-11-20T09:38:46+01:00",
+  "buscado": {
+   "douglas": "2026-11-20",
+   "idealo": "2026-11-20",
+   "lookfantastic": "2026-11-20",
+   "paco": "2026-11-20",
+   "parejo": "2026-11-20",
+   "sephora": "2026-11-20"
+  },
+  "checked": "2026-11-20T10:14:33+01:00",
   "conc": "EDP",
   "deals": [],
-  "history": [],
+  "history": [
+   {
+    "d": "2026-11-20",
+    "p": 290.0,
+    "s": "notino"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 246.49,
+    "s": "idealo"
+   }
+  ],
   "id": "parfums-de-marly-althair-edp-125",
-  "images": {},
+  "images": {
+   "idealo": "https://cdn.idealo.com/folder/Product/203281/5/203281551/s11_produktbild_gross/parfums-de-marly-althair-eau-de-parfum-125ml.jpg"
+  },
   "ml": 125,
   "name": "Althaïr",
-  "prices": {},
+  "prices": {
+   "idealo": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 246.49
+   },
+   "notino": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 290.0,
+    "via": "idealo"
+   }
+  },
   "target": null,
   "tier": "Nicho",
-  "urls": {}
+  "urls": {
+   "idealo": "https://www.idealo.es/precios/203281551/parfums-de-marly-althair-eau-de-parfum-125ml.html"
+  }
  },
  {
   "brand": "Tom Ford",
-  "buscado": {},
-  "checked": "2026-11-20T09:38:46+01:00",
+  "buscado": {
+   "douglas": "2026-11-20",
+   "idealo": "2026-11-20",
+   "lookfantastic": "2026-11-20",
+   "paco": "2026-11-20",
+   "parejo": "2026-11-20",
+   "sephora": "2026-11-20"
+  },
+  "checked": "2026-11-20T10:14:51+01:00",
   "conc": "EDP",
   "deals": [],
-  "history": [],
+  "history": [
+   {
+    "d": "2026-11-20",
+    "p": 232.7,
+    "s": "sabina"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 257.58,
+    "s": "brasty"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 232.7,
+    "s": "idealo"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 283.48,
+    "s": "lookfantastic"
+   }
+  ],
   "id": "tom-ford-bitter-peach-edp-50",
-  "images": {},
+  "images": {
+   "idealo": "https://cdn.idealo.com/folder/Product/200789/7/200789726/s11_produktbild_gross/tom-ford-bitter-peach-eau-de-parfum-50-ml.jpg",
+   "lookfantastic": "https://main.thgimages.com/?url=https://static.thcdn.com/productimg/original/13133995-5354925976455958.jpg&format=webp&width=1500&height=1500&fit=cover"
+  },
   "ml": 50,
   "name": "Bitter Peach",
-  "prices": {},
+  "prices": {
+   "brasty": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 257.58,
+    "via": "idealo"
+   },
+   "idealo": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 232.7
+   },
+   "lookfantastic": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 283.48
+   },
+   "sabina": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 232.7,
+    "via": "idealo"
+   }
+  },
   "target": null,
   "tier": "Nicho",
-  "urls": {}
+  "urls": {
+   "idealo": "https://www.idealo.es/precios/200789726/tom-ford-bitter-peach-eau-de-parfum-50-ml.html",
+   "lookfantastic": "https://www.lookfantastic.es/p/tom-ford-bitter-peach-eau-de-parfum-50ml/13133995/",
+   "parejo": "https://www.joyeriaparejo.com/busqueda?s=Tom+Ford+Bitter+Peach+eau+de+parfum"
+  }
  },
  {
   "brand": "Dior",
-  "buscado": {},
-  "checked": "2026-11-20T09:38:46+01:00",
+  "buscado": {
+   "douglas": "2026-11-20",
+   "idealo": "2026-11-20",
+   "lookfantastic": "2026-11-20",
+   "paco": "2026-11-20",
+   "parejo": "2026-11-20",
+   "sephora": "2026-11-20"
+  },
+  "checked": "2026-11-20T10:15:11+01:00",
   "conc": "EDT",
   "deals": [],
-  "history": [],
+  "history": [
+   {
+    "d": "2026-11-20",
+    "p": 157.41,
+    "s": "idealo"
+   }
+  ],
   "id": "dior-miss-dior-blooming-bouquet-edt-100",
-  "images": {},
+  "images": {
+   "idealo": "https://cdn.idealo.com/folder/Product/4244/6/4244631/s11_produktbild_gross/dior-miss-dior-blooming-bouquet-eau-de-toilette-100-ml.jpg",
+   "paco": "https://www.pacoperfumerias.com/on/demandware.static/-/Sites-pacoper-master-catalog/default/dwff7adf8a/images/2/0/209036_2.jpg"
+  },
   "ml": 100,
   "name": "Miss Dior Blooming Bouquet",
-  "prices": {},
+  "prices": {
+   "idealo": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 157.41
+   },
+   "paco": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 115.95,
+    "stock": false
+   }
+  },
   "target": null,
   "tier": null,
-  "urls": {}
+  "urls": {
+   "idealo": "https://www.idealo.es/precios/4244631/dior-miss-dior-blooming-bouquet-eau-de-toilette-100-ml.html",
+   "paco": "https://www.pacoperfumerias.com/dior-miss-dior-blooming-bouquet-16011.html",
+   "parejo": "https://www.joyeriaparejo.com/busqueda?s=Dior+Miss+Dior+Blooming+Bouquet+eau+de+toilette"
+  }
  },
  {
   "brand": "Chanel",
-  "buscado": {},
-  "checked": "2026-11-20T09:38:46+01:00",
+  "buscado": {
+   "douglas": "2026-11-20",
+   "idealo": "2026-11-20",
+   "lookfantastic": "2026-11-20",
+   "paco": "2026-11-20",
+   "parejo": "2026-11-20",
+   "sephora": "2026-11-20"
+  },
+  "checked": "2026-11-20T10:15:28+01:00",
   "conc": "EDT",
   "deals": [],
-  "history": [],
+  "history": [
+   {
+    "d": "2026-11-20",
+    "p": 116.74,
+    "s": "primor"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 116.75,
+    "s": "arenal"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 116.75,
+    "s": "druni"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 121.36,
+    "s": "julia"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 116.74,
+    "s": "idealo"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 118.4,
+    "s": "paco"
+   }
+  ],
   "id": "chanel-chance-eau-fraiche-edt-100",
-  "images": {},
+  "images": {
+   "idealo": "https://cdn.idealo.com/folder/Product/837/6/837692/s11_produktbild_gross/chanel-chance-eau-fraiche-eau-de-toilette-100-ml.jpg",
+   "paco": "https://www.pacoperfumerias.com/on/demandware.static/-/Sites-pacoper-master-catalog/default/dw25d15bac/images/2/0/208341_2.jpg"
+  },
   "ml": 100,
   "name": "Chance Eau Fraîche",
-  "prices": {},
+  "prices": {
+   "arenal": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 116.75,
+    "via": "idealo"
+   },
+   "druni": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 116.75,
+    "via": "idealo"
+   },
+   "idealo": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 116.74
+   },
+   "julia": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 121.36,
+    "via": "idealo"
+   },
+   "paco": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 118.4
+   },
+   "primor": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 116.74,
+    "via": "idealo"
+   }
+  },
   "target": null,
   "tier": null,
-  "urls": {}
+  "urls": {
+   "idealo": "https://www.idealo.es/precios/837692/chanel-chance-eau-fraiche-eau-de-toilette-100-ml.html",
+   "paco": "https://www.pacoperfumerias.com/chanel-chance-eau-fraiche-eau-de-toilette-23071.html"
+  }
  },
  {
   "brand": "Yves Saint Laurent",
-  "buscado": {},
-  "checked": "2026-11-20T09:38:46+01:00",
+  "buscado": {
+   "douglas": "2026-11-20",
+   "idealo": "2026-11-20",
+   "lookfantastic": "2026-11-20",
+   "paco": "2026-11-20",
+   "parejo": "2026-11-20",
+   "sephora": "2026-11-20"
+  },
+  "checked": "2026-11-20T10:15:55+01:00",
   "conc": "Parfum",
   "deals": [],
-  "history": [],
+  "history": [
+   {
+    "d": "2026-11-20",
+    "p": 91.0,
+    "s": "douglas"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 97.94,
+    "s": "primor"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 97.95,
+    "s": "arenal"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 97.94,
+    "s": "idealo"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 118.34,
+    "s": "lookfantastic"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 130.05,
+    "s": "parejo"
+   }
+  ],
   "id": "yves-saint-laurent-libre-le-parfum-parfum-90",
-  "images": {},
+  "images": {
+   "douglas": "https://media.douglas.es/medias/MXdDA6289686-0-dgl-ES.jpg?context=bWFzdGVyfGltYWdlc3w2NDY0NnxpbWFnZS9qcGVnfGFHWmpMMmczTnk4ME56azNNVEl6TmpZM05UWXhOQzlOV0dSRVFUWXlPRGsyT0RaZk1GOWtaMnd0UlZNdWFuQm58OTE3YjQ2NGFkNTUzYzlmNDY1YTk4MDQ3MzI2ZjZlMTE5MmMzYzMyNjQxYjA5NWJjYzJlNDZkMDI5ZjFiZDk0Nw&grid=true",
+   "idealo": "https://cdn.idealo.com/folder/Product/202058/6/202058651/s11_produktbild_gross/yves-saint-laurent-libre-le-parfum-90ml.jpg",
+   "lookfantastic": "https://main.thgimages.com/?url=https://static.thcdn.com/productimg/original/12218722-9555288799592020.jpg&format=webp&width=1500&height=1500&fit=cover",
+   "paco": "https://www.pacoperfumerias.com/on/demandware.static/-/Sites-pacoper-master-catalog/default/dw74ab2930/images/2/0/206904_2.jpg",
+   "parejo": "https://www.joyeriaparejo.com/52565-large_default/libre-vapo-90-ml-eau-de-parfum-yves-saint-laurent.jpg"
+  },
   "ml": 90,
   "name": "Libre Le Parfum",
-  "prices": {},
+  "prices": {
+   "arenal": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 97.95,
+    "via": "idealo"
+   },
+   "douglas": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 91.0
+   },
+   "idealo": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 97.94
+   },
+   "lookfantastic": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 118.34
+   },
+   "paco": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 97.94,
+    "stock": false
+   },
+   "parejo": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 130.05
+   },
+   "primor": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 97.94,
+    "via": "idealo"
+   }
+  },
   "target": null,
   "tier": null,
-  "urls": {}
+  "urls": {
+   "douglas": "https://www.douglas.es/es/p/5000005003",
+   "idealo": "https://www.idealo.es/precios/202058651/yves-saint-laurent-libre-le-parfum-90ml.html",
+   "lookfantastic": "https://www.lookfantastic.es/p/yves-saint-laurent-libre-eau-de-parfum-90ml/12218722/?variation=12218722",
+   "paco": "https://www.pacoperfumerias.com/yves-saint-laurent-libre-le-parfum-25577.html",
+   "parejo": "https://www.joyeriaparejo.com/perfumes/libre-vapo-90-ml-eau-de-parfum-yves-saint-laurent"
+  }
  },
  {
   "brand": "Valentino",
-  "buscado": {},
-  "checked": "2026-11-20T09:38:46+01:00",
+  "buscado": {
+   "douglas": "2026-11-20",
+   "idealo": "2026-11-20",
+   "lookfantastic": "2026-11-20",
+   "paco": "2026-11-20",
+   "parejo": "2026-11-20",
+   "sephora": "2026-11-20"
+  },
+  "checked": "2026-11-20T10:16:15+01:00",
   "conc": "EDP",
   "deals": [],
-  "history": [],
+  "history": [
+   {
+    "d": "2026-11-20",
+    "p": 106.93,
+    "s": "primor"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 106.95,
+    "s": "arenal"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 106.95,
+    "s": "druni"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 109.61,
+    "s": "sabina"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 113.4,
+    "s": "julia"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 98.64,
+    "s": "idealo"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 106.93,
+    "s": "paco"
+   }
+  ],
   "id": "valentino-born-in-roma-donna-intense-edp-100",
-  "images": {},
+  "images": {
+   "idealo": "https://cdn.idealo.com/folder/Product/202304/1/202304151/s11_produktbild_gross/valentino-born-in-roma-donna-intense-eau-de-parfum-100ml.jpg",
+   "paco": "https://www.pacoperfumerias.com/on/demandware.static/-/Sites-pacoper-master-catalog/default/dw47cbc9de/images/2/1/213774_2.jpg"
+  },
   "ml": 100,
   "name": "Born in Roma Donna Intense",
-  "prices": {},
+  "prices": {
+   "arenal": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 106.95,
+    "via": "idealo"
+   },
+   "druni": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 106.95,
+    "via": "idealo"
+   },
+   "idealo": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 98.64
+   },
+   "julia": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 113.4,
+    "via": "idealo"
+   },
+   "paco": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 106.93
+   },
+   "primor": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 106.93,
+    "via": "idealo"
+   },
+   "sabina": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 109.61,
+    "via": "idealo"
+   }
+  },
   "target": null,
   "tier": null,
-  "urls": {}
+  "urls": {
+   "idealo": "https://www.idealo.es/precios/202304151/valentino-born-in-roma-donna-intense-eau-de-parfum-100ml.html",
+   "lookfantastic": "https://www.lookfantastic.es/p/valentino-born-in-roma-donna-intense-eau-de-parfum-50ml/14234060/",
+   "paco": "https://www.pacoperfumerias.com/valentino-born-in-roma-donna-intense-30583.html",
+   "parejo": "https://www.joyeriaparejo.com/busqueda?s=Valentino+Born+in+Roma+Donna+Intense+eau+de+parfum"
+  }
  },
  {
   "brand": "Carolina Herrera",
-  "buscado": {},
-  "checked": "2026-11-20T09:38:46+01:00",
+  "buscado": {
+   "douglas": "2026-11-20",
+   "idealo": "2026-11-20",
+   "lookfantastic": "2026-11-20",
+   "paco": "2026-11-20",
+   "parejo": "2026-11-20",
+   "sephora": "2026-11-20"
+  },
+  "checked": "2026-11-20T10:16:35+01:00",
   "conc": "EDP",
   "deals": [],
-  "history": [],
+  "history": [
+   {
+    "d": "2026-11-20",
+    "p": 89.95,
+    "s": "arenal"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 89.95,
+    "s": "druni"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 89.95,
+    "s": "primor"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 94.95,
+    "s": "sabina"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 94.95,
+    "s": "julia"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 100.58,
+    "s": "brasty"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 82.31,
+    "s": "idealo"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 89.95,
+    "s": "paco"
+   }
+  ],
   "id": "carolina-herrera-good-girl-blush-edp-80",
-  "images": {},
+  "images": {
+   "idealo": "https://cdn.idealo.com/folder/Product/202464/1/202464153/s11_produktbild_gross/carolina-herrera-good-girl-blush-eau-de-parfum-80ml.jpg",
+   "lookfantastic": "https://main.thgimages.com/?url=https://static.thcdn.com/productimg/original/14270126-1635318197945623.jpg&format=webp&width=1500&height=1500&fit=cover",
+   "paco": "https://www.pacoperfumerias.com/on/demandware.static/-/Sites-pacoper-master-catalog/default/dw3e9a7bb9/images/2/1/210720_2.jpg"
+  },
   "ml": 80,
   "name": "Good Girl Blush",
-  "prices": {},
+  "prices": {
+   "arenal": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 89.95,
+    "via": "idealo"
+   },
+   "brasty": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 100.58,
+    "via": "idealo"
+   },
+   "druni": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 89.95,
+    "via": "idealo"
+   },
+   "idealo": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 82.31
+   },
+   "julia": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 94.95,
+    "via": "idealo"
+   },
+   "lookfantastic": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 119.89,
+    "stock": false
+   },
+   "paco": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 89.95
+   },
+   "primor": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 89.95,
+    "via": "idealo"
+   },
+   "sabina": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 94.95,
+    "via": "idealo"
+   }
+  },
   "target": null,
   "tier": null,
-  "urls": {}
+  "urls": {
+   "idealo": "https://www.idealo.es/precios/202464153/carolina-herrera-good-girl-blush-eau-de-parfum-80ml.html",
+   "lookfantastic": "https://www.lookfantastic.es/p/carolina-herrera-good-girl-blush-eau-de-parfum-80ml/14270126/",
+   "paco": "https://www.pacoperfumerias.com/carolina-herrera-good-girl-blush-26823.html",
+   "parejo": "https://www.joyeriaparejo.com/perfumes/carolina-herrera-good-girl-blush-eau-de-parfum-80ml-mujer"
+  }
  },
  {
   "brand": "Armani",
-  "buscado": {},
-  "checked": "2026-11-20T09:38:46+01:00",
+  "buscado": {
+   "douglas": "2026-11-20",
+   "idealo": "2026-11-20",
+   "lookfantastic": "2026-11-20",
+   "paco": "2026-11-20",
+   "parejo": "2026-11-20",
+   "sephora": "2026-11-20"
+  },
+  "checked": "2026-11-20T10:16:56+01:00",
   "conc": "EDP",
   "deals": [],
-  "history": [],
+  "history": [
+   {
+    "d": "2026-11-20",
+    "p": 90.94,
+    "s": "primor"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 90.95,
+    "s": "arenal"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 90.95,
+    "s": "druni"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 90.98,
+    "s": "sabina"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 92.74,
+    "s": "brasty"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 92.95,
+    "s": "julia"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 127.0,
+    "s": "notino"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 77.78,
+    "s": "idealo"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 108.68,
+    "s": "lookfantastic"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 83.87,
+    "s": "paco"
+   }
+  ],
   "id": "armani-si-passione-edp-100",
-  "images": {},
+  "images": {
+   "idealo": "https://cdn.idealo.com/folder/Product/5980/8/5980837/s11_produktbild_gross/giorgio-armani-si-passione-eau-de-parfum-100ml.jpg",
+   "lookfantastic": "https://main.thgimages.com/?url=https://static.thcdn.com/productimg/original/11918615-8845318192068092.jpg&format=webp&width=1500&height=1500&fit=cover",
+   "paco": "https://www.pacoperfumerias.com/on/demandware.static/-/Sites-pacoper-master-catalog/default/dw112787cf/images/1/6/168853_2.jpg"
+  },
   "ml": 100,
   "name": "Sì Passione",
-  "prices": {},
+  "prices": {
+   "arenal": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 90.95,
+    "via": "idealo"
+   },
+   "brasty": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 92.74,
+    "via": "idealo"
+   },
+   "druni": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 90.95,
+    "via": "idealo"
+   },
+   "idealo": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 77.78
+   },
+   "julia": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 92.95,
+    "via": "idealo"
+   },
+   "lookfantastic": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 108.68
+   },
+   "notino": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 127.0,
+    "via": "idealo"
+   },
+   "paco": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 83.87
+   },
+   "primor": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 90.94,
+    "via": "idealo"
+   },
+   "sabina": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 90.98,
+    "via": "idealo"
+   }
+  },
   "target": null,
   "tier": null,
-  "urls": {}
+  "urls": {
+   "idealo": "https://www.idealo.es/precios/5980837/giorgio-armani-si-passione-eau-de-parfum-100ml.html",
+   "lookfantastic": "https://www.lookfantastic.es/p/armani-si-passione-eau-de-parfum-100ml/11918615/",
+   "paco": "https://www.pacoperfumerias.com/armani-si-passione-perfume-15006.html",
+   "parejo": "https://www.joyeriaparejo.com/perfumes/si-passione-vapo-100-ml-eau-de-parfum-giorgio-armani"
+  }
  },
  {
   "brand": "Gucci",
-  "buscado": {},
-  "checked": "2026-11-20T09:38:46+01:00",
+  "buscado": {
+   "douglas": "2026-11-20",
+   "idealo": "2026-11-20",
+   "lookfantastic": "2026-11-20",
+   "paco": "2026-11-20",
+   "parejo": "2026-11-20",
+   "sephora": "2026-11-20"
+  },
+  "checked": "2026-11-20T10:17:14+01:00",
   "conc": "EDP",
   "deals": [],
-  "history": [],
+  "history": [
+   {
+    "d": "2026-11-20",
+    "p": 79.9,
+    "s": "arenal"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 79.9,
+    "s": "druni"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 87.35,
+    "s": "sabina"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 67.11,
+    "s": "idealo"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 79.9,
+    "s": "paco"
+   }
+  ],
   "id": "gucci-guilty-pour-femme-edp-90",
-  "images": {},
+  "images": {
+   "idealo": "https://cdn.idealo.com/folder/Product/6456/8/6456871/s11_produktbild_gross/gucci-guilty-pour-femme-eau-de-parfum-90-ml.jpg",
+   "paco": "https://www.pacoperfumerias.com/on/demandware.static/-/Sites-pacoper-master-catalog/default/dw9cae21f7/images/2/0/200782_2.jpg"
+  },
   "ml": 90,
   "name": "Guilty pour Femme",
-  "prices": {},
+  "prices": {
+   "arenal": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 79.9,
+    "via": "idealo"
+   },
+   "druni": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 79.9,
+    "via": "idealo"
+   },
+   "idealo": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 67.11
+   },
+   "paco": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 79.9
+   },
+   "sabina": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 87.35,
+    "via": "idealo"
+   }
+  },
   "target": null,
   "tier": null,
-  "urls": {}
+  "urls": {
+   "idealo": "https://www.idealo.es/precios/6456871/gucci-guilty-pour-femme-eau-de-parfum-90-ml.html",
+   "paco": "https://www.pacoperfumerias.com/gucci-guilty-pour-femme-eau-de-parfum-22753.html",
+   "parejo": "https://www.joyeriaparejo.com/busqueda?s=Gucci+Guilty+pour+Femme+eau+de+parfum"
+  }
  },
  {
   "brand": "Rabanne",
-  "buscado": {},
-  "checked": "2026-11-20T09:38:46+01:00",
+  "buscado": {
+   "douglas": "2026-11-20",
+   "idealo": "2026-11-20",
+   "lookfantastic": "2026-11-20",
+   "paco": "2026-11-20",
+   "parejo": "2026-11-20",
+   "sephora": "2026-11-20"
+  },
+  "checked": "2026-11-20T10:17:33+01:00",
   "conc": "Parfum",
   "deals": [],
-  "history": [],
+  "history": [
+   {
+    "d": "2026-11-20",
+    "p": 79.9,
+    "s": "julia"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 82.95,
+    "s": "arenal"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 82.95,
+    "s": "druni"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 89.71,
+    "s": "brasty"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 91.15,
+    "s": "sabina"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 68.54,
+    "s": "idealo"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 117.76,
+    "s": "lookfantastic"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 69.94,
+    "s": "paco"
+   }
+  ],
   "id": "rabanne-fame-parfum-parfum-80",
-  "images": {},
+  "images": {
+   "idealo": "https://cdn.idealo.com/folder/Product/203510/9/203510952/s11_produktbild_gross/paco-rabanne-fame-parfum-80ml.jpg",
+   "lookfantastic": "https://main.thgimages.com/?url=https://static.thcdn.com/productimg/original/13936232-1125116437948894.jpg&format=webp&width=1500&height=1500&fit=cover",
+   "paco": "https://www.pacoperfumerias.com/on/demandware.static/-/Sites-pacoper-master-catalog/default/dw120f443e/images/2/0/207546_2.jpg"
+  },
   "ml": 80,
   "name": "Fame Parfum",
-  "prices": {},
+  "prices": {
+   "arenal": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 82.95,
+    "via": "idealo"
+   },
+   "brasty": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 89.71,
+    "via": "idealo"
+   },
+   "druni": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 82.95,
+    "via": "idealo"
+   },
+   "idealo": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 68.54
+   },
+   "julia": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 79.9,
+    "via": "idealo"
+   },
+   "lookfantastic": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 117.76
+   },
+   "paco": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 69.94
+   },
+   "sabina": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 91.15,
+    "via": "idealo"
+   }
+  },
   "target": null,
   "tier": null,
-  "urls": {}
+  "urls": {
+   "idealo": "https://www.idealo.es/precios/203510952/paco-rabanne-fame-parfum-80ml.html",
+   "lookfantastic": "https://www.lookfantastic.es/p/paco-rabanne-fame-eau-de-parfum-80ml/13936232/?variation=13936232",
+   "paco": "https://www.pacoperfumerias.com/paco-rabanne-fame-eau-de-parfum-25578.html",
+   "parejo": "https://www.joyeriaparejo.com/busqueda?s=Rabanne+Fame+Parfum+parfum"
+  }
  },
  {
   "brand": "Mugler",
-  "buscado": {},
-  "checked": "2026-11-20T09:38:46+01:00",
+  "buscado": {
+   "douglas": "2026-11-20",
+   "idealo": "2026-11-20",
+   "lookfantastic": "2026-11-20",
+   "paco": "2026-11-20",
+   "parejo": "2026-11-20",
+   "sephora": "2026-11-20"
+  },
+  "checked": "2026-11-20T10:17:51+01:00",
   "conc": "EDP",
   "deals": [],
-  "history": [],
+  "history": [
+   {
+    "d": "2026-11-20",
+    "p": 55.03,
+    "s": "brasty"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 55.03,
+    "s": "idealo"
+   }
+  ],
   "id": "mugler-alien-goddess-edp-60",
   "images": {},
   "ml": 60,
   "name": "Alien Goddess",
-  "prices": {},
+  "prices": {
+   "brasty": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 55.03,
+    "via": "idealo"
+   },
+   "idealo": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 55.03
+   }
+  },
   "target": null,
   "tier": null,
-  "urls": {}
+  "urls": {
+   "idealo": "https://www.idealo.es/precios/202926296/thierry-mugler-alien-goddess-eau-de-parfum-supra-florale-60ml.html",
+   "lookfantastic": "https://www.lookfantastic.es/p/mugler-alien-goddess-eau-de-parfum-30ml/13035923/",
+   "paco": "https://www.pacoperfumerias.com/thierry-mugler-alien-goddess-22840.html",
+   "parejo": "https://www.joyeriaparejo.com/perfumes/mugler-alien-goddess-eau-de-parfum-60-ml-mujer"
+  }
  },
  {
   "brand": "Prada",
-  "buscado": {},
-  "checked": "2026-11-20T09:38:46+01:00",
+  "buscado": {
+   "douglas": "2026-11-20",
+   "idealo": "2026-11-20",
+   "lookfantastic": "2026-11-20",
+   "paco": "2026-11-20",
+   "parejo": "2026-11-20",
+   "sephora": "2026-11-20"
+  },
+  "checked": "2026-11-20T10:18:08+01:00",
   "conc": "EDP",
   "deals": [],
-  "history": [],
+  "history": [
+   {
+    "d": "2026-11-20",
+    "p": 109.94,
+    "s": "primor"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 109.95,
+    "s": "arenal"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 109.95,
+    "s": "druni"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 109.95,
+    "s": "julia"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 119.76,
+    "s": "brasty"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 99.32,
+    "s": "idealo"
+   }
+  ],
   "id": "prada-paradoxe-intense-edp-90",
-  "images": {},
+  "images": {
+   "idealo": "https://cdn.idealo.com/folder/Product/203099/2/203099218/s11_produktbild_gross/prada-paradoxe-intense-eau-de-parfum-90ml.jpg",
+   "paco": "https://www.pacoperfumerias.com/on/demandware.static/-/Sites-pacoper-master-catalog/default/dw32ba7996/images/2/1/213759_2.jpg"
+  },
   "ml": 90,
   "name": "Paradoxe Intense",
-  "prices": {},
+  "prices": {
+   "arenal": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 109.95,
+    "via": "idealo"
+   },
+   "brasty": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 119.76,
+    "via": "idealo"
+   },
+   "druni": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 109.95,
+    "via": "idealo"
+   },
+   "idealo": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 99.32
+   },
+   "julia": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 109.95,
+    "via": "idealo"
+   },
+   "paco": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 109.93,
+    "stock": false
+   },
+   "primor": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 109.94,
+    "via": "idealo"
+   }
+  },
   "target": null,
   "tier": null,
-  "urls": {}
+  "urls": {
+   "idealo": "https://www.idealo.es/precios/203099218/prada-paradoxe-intense-eau-de-parfum-90ml.html",
+   "lookfantastic": "https://www.lookfantastic.es/p/prada-paradoxe-intense-eau-de-parfum-50ml/14850408/?variation=14850408",
+   "paco": "https://www.pacoperfumerias.com/prada-paradoxe-intense-30630.html",
+   "parejo": "https://www.joyeriaparejo.com/busqueda?s=Prada+Paradoxe+Intense+eau+de+parfum"
+  }
  },
  {
   "brand": "Kayali",
-  "buscado": {},
-  "checked": "2026-11-20T09:38:46+01:00",
+  "buscado": {
+   "douglas": "2026-11-20",
+   "idealo": "2026-11-20",
+   "lookfantastic": "2026-11-20",
+   "paco": "2026-11-20",
+   "parejo": "2026-11-20",
+   "sephora": "2026-11-20"
+  },
+  "checked": "2026-11-20T10:18:24+01:00",
   "conc": "EDP",
   "deals": [],
-  "history": [],
+  "history": [
+   {
+    "d": "2026-11-20",
+    "p": 135.0,
+    "s": "idealo"
+   }
+  ],
   "id": "kayali-vanilla-28-edp-100",
-  "images": {},
+  "images": {
+   "idealo": "https://cdn.idealo.com/folder/Product/6423/2/6423206/s11_produktbild_gross/kayali-vanilla-28-eau-de-parfum-100ml.jpg"
+  },
   "ml": 100,
   "name": "Vanilla 28",
-  "prices": {},
+  "prices": {
+   "idealo": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 135.0
+   }
+  },
   "target": null,
   "tier": null,
-  "urls": {}
+  "urls": {
+   "idealo": "https://www.idealo.es/precios/6423206/kayali-vanilla-28-eau-de-parfum-100ml.html",
+   "paco": "https://www.pacoperfumerias.com/dkny-be-delicious-latte-vanilla-35852.html",
+   "parejo": "https://www.joyeriaparejo.com/busqueda?s=Kayali+Vanilla+28+eau+de+parfum"
+  }
  },
  {
   "brand": "Jo Malone",
-  "buscado": {},
-  "checked": "2026-11-20T09:38:46+01:00",
+  "buscado": {
+   "douglas": "2026-11-20",
+   "idealo": "2026-11-20",
+   "lookfantastic": "2026-11-20",
+   "paco": "2026-11-20",
+   "parejo": "2026-11-20",
+   "sephora": "2026-11-20"
+  },
+  "checked": "2026-11-20T10:18:38+01:00",
   "conc": "EDC",
   "deals": [],
   "history": [],
@@ -133382,40 +135770,115 @@
  },
  {
   "brand": "Maison Margiela",
-  "buscado": {},
-  "checked": "2026-11-20T09:38:46+01:00",
+  "buscado": {
+   "douglas": "2026-11-20",
+   "idealo": "2026-11-20",
+   "lookfantastic": "2026-11-20",
+   "paco": "2026-11-20",
+   "parejo": "2026-11-20",
+   "sephora": "2026-11-20"
+  },
+  "checked": "2026-11-20T10:18:57+01:00",
   "conc": "EDT",
   "deals": [],
-  "history": [],
+  "history": [
+   {
+    "d": "2026-11-20",
+    "p": 153.0,
+    "s": "notino"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 153.0,
+    "s": "julia"
+   },
+   {
+    "d": "2026-11-20",
+    "p": 84.99,
+    "s": "idealo"
+   }
+  ],
   "id": "maison-margiela-replica-lazy-sunday-morning-edt-100",
-  "images": {},
+  "images": {
+   "idealo": "https://cdn.idealo.com/folder/Product/4271/0/4271018/s11_produktbild_gross/maison-margiela-replica-lazy-sunday-morning-eau-de-toilette-100ml.jpg"
+  },
   "ml": 100,
   "name": "Replica Lazy Sunday Morning",
-  "prices": {},
+  "prices": {
+   "idealo": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 84.99
+   },
+   "julia": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 153.0,
+    "via": "idealo"
+   },
+   "notino": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 153.0,
+    "via": "idealo"
+   }
+  },
   "target": null,
   "tier": "Nicho",
-  "urls": {}
+  "urls": {
+   "idealo": "https://www.idealo.es/precios/4271018/maison-margiela-replica-lazy-sunday-morning-eau-de-toilette-100ml.html",
+   "lookfantastic": "https://www.lookfantastic.es/p/maison-margiela-replica-lazy-sunday-morning-eau-de-toilette-30ml/13183505/?variation=13183505",
+   "parejo": "https://www.joyeriaparejo.com/busqueda?s=Maison+Margiela+Replica+Lazy+Sunday+Morning+eau+de+toilette"
+  }
  },
  {
   "brand": "Byredo",
-  "buscado": {},
-  "checked": "2026-11-20T09:38:46+01:00",
+  "buscado": {
+   "douglas": "2026-11-20",
+   "idealo": "2026-11-20",
+   "lookfantastic": "2026-11-20",
+   "paco": "2026-11-20",
+   "parejo": "2026-11-20",
+   "sephora": "2026-11-20"
+  },
+  "checked": "2026-11-20T10:19:14+01:00",
   "conc": "EDP",
   "deals": [],
-  "history": [],
+  "history": [
+   {
+    "d": "2026-11-20",
+    "p": 206.74,
+    "s": "idealo"
+   }
+  ],
   "id": "byredo-mojave-ghost-edp-100",
-  "images": {},
+  "images": {
+   "idealo": "https://cdn.idealo.com/folder/Product/5353/6/5353605/s11_produktbild_gross/byredo-mojave-ghost-eau-de-parfum-100ml.jpg"
+  },
   "ml": 100,
   "name": "Mojave Ghost",
-  "prices": {},
+  "prices": {
+   "idealo": {
+    "auto": true,
+    "d": "2026-11-20",
+    "gh": true,
+    "p": 206.74
+   }
+  },
   "target": null,
   "tier": "Nicho",
-  "urls": {}
+  "urls": {
+   "idealo": "https://www.idealo.es/precios/5353605/byredo-mojave-ghost-eau-de-parfum-100ml.html",
+   "parejo": "https://www.joyeriaparejo.com/busqueda?s=Byredo+Mojave+Ghost+eau+de+parfum"
+  }
  },
  {
   "brand": "Narciso Rodriguez",
   "buscado": {},
-  "checked": "2026-11-20T09:38:46+01:00",
+  "checked": "2026-11-20T10:19:14+01:00",
   "conc": "EDP",
   "deals": [],
   "history": [],
@@ -133431,7 +135894,7 @@
  {
   "brand": "Chloé",
   "buscado": {},
-  "checked": "2026-11-20T09:38:46+01:00",
+  "checked": "2026-11-20T10:19:14+01:00",
   "conc": "EDP",
   "deals": [],
   "history": [],
@@ -133447,7 +135910,7 @@
  {
   "brand": "Dolce & Gabbana",
   "buscado": {},
-  "checked": "2026-11-20T09:38:46+01:00",
+  "checked": "2026-11-20T10:19:14+01:00",
   "conc": "EDP",
   "deals": [],
   "history": [],
