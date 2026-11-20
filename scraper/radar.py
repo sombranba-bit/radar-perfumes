@@ -376,6 +376,13 @@ CONC_WORDS = {"EDT": "eau de toilette", "EDP": "eau de parfum", "EDC": "eau de c
 SKIP_PATH = re.compile(r"/search|/buscar|resultados|/c/|/brands?/|/marcas?/|/categor|login|cart|wishlist|\.(?:css|js|png|jpg|svg|webp)", re.I)
 
 
+def moved_to_listing(url, final):
+    """La ficha redirige a un listado (categoría, buscador o portada de marca)."""
+    if not final or final.rstrip("/") == url.rstrip("/"):
+        return False
+    return bool(SKIP_PATH.search(final) or re.search(r"/todos-los-productos/|-c\d+/?(?:\?|$)", final))
+
+
 def words(t):
     t = "".join(c for c in unicodedata.normalize("NFD", t.lower()) if unicodedata.category(c) != "Mn")
     t = re.sub(r"[^a-z0-9]+", " ", t)
@@ -452,7 +459,7 @@ def update_perfume(it, get, stats, today):
     ml = it["ml"]
     prices = it.setdefault("prices", {})
     hist = it.setdefault("history", [])
-    for shop, url in (it.get("urls") or {}).items():
+    for shop, url in list((it.get("urls") or {}).items()):
         if shop in MANUAL or not url:
             continue
         st = stats.setdefault(shop, {"ok": 0, "bloqueada": 0, "sin_precio": 0, "dudoso": 0})
@@ -467,6 +474,14 @@ def update_perfume(it, get, stats, today):
             continue
         if code == 404 or code == 410:
             st["sin_precio"] += 1
+            continue
+        if moved_to_listing(url, getattr(r, "url", "") or ""):
+            # el producto ya no está: la tienda manda a una categoría y el texto daría un precio de otro perfume
+            urls = it["urls"]
+            it.setdefault("descartadas", []).append(urls.pop(shop))
+            it.setdefault("buscado", {}).pop(shop, None)
+            st["sin_precio"] += 1
+            st["retiradas"] = st.get("retiradas", 0) + 1
             continue
         p, stock, how = extract(r.text, ml, url)
         if p and how != "texto":

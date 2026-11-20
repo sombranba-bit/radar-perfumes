@@ -2,7 +2,7 @@
 import json, sys
 from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parent))
-from radar import extract, parse_chollos, to_float, plausible
+from radar import extract, parse_chollos, to_float, plausible, moved_to_listing
 
 def ld(o): return '<script type="application/ld+json">' + json.dumps(o) + '</script>'
 
@@ -181,3 +181,8 @@ assert extract(paco, 100, "https://www.pacoperfumerias.com/azzaro-chrome-735.htm
 # Lookfantastic vende a precio de catálogo: hasta 2,5 veces la mediana de las demás
 assert plausible(104.65, 44.65, "jsonld", "lookfantastic") and not plausible(104.65, 44.65, "jsonld", "paco")
 print("ok 20-nov")
+
+# 20-nov: ficha retirada que redirige a una categoría (Sephora, Acqua di Parma)
+assert moved_to_listing("https://www.sephora.es/p/colonia-P123.html", "https://www.sephora.es/todos-los-productos/perfume/perfume-hombre/agua-de-colonia-c297819/")
+assert not moved_to_listing("https://sephora.es/Perfume/Gentleman/P3275011", "https://www.sephora.es/p/gentleman---eau-de-parfum-P3275011.html")
+print("ok fichas retiradas")
