@@ -1,16 +1,21 @@
-# Prueba: qué devuelve el buscador de Parfumo para los perfumes sin notas.
-import json, re, time, sys
+# Prueba: por qué Sephora no da precio en muchas fichas (se imprime lo que ve el lector).
+import json, re, sys, time
 sys.path.insert(0, 'scraper')
-from notas import get, norm, key
-from urllib.parse import quote
-d = json.load(open('data/notas.json'))
-items = {key(i): i for i in json.load(open('data/perfumes.json'))}
-for k, v in d.items():
-    if v.get('src'):
-        continue
-    it = items[k]
-    for q in (f"{it['name']} {it['brand']}", norm(it['name']), f"{it['brand']} {it['name']}"):
-        h = get('https://www.parfumo.com/s_perfumes_x.php?in=1&filter=' + quote(q)) or ''
-        res = re.findall(r'<div class="name">\s*<a href="(https://www\.parfumo\.com/Perfumes/[^"]+)">(.*?)</a>\s*<span class="brand">.*?<a [^>]*>(.*?)</a>', h, re.S)
-        print('##', k, '|', q, '->', [(u.split('/Perfumes/')[1], re.sub(r'<[^>]+>', ' ', n).strip(), b) for u, n, b in res[:6]])
-        time.sleep(1.2)
+from radar import make_session, extract, SEPHORA_RE
+get = make_session()
+d = json.load(open('data/perfumes.json'))
+today = time.strftime('%Y-%m-%d')
+bad = [i for i in d if i.get('urls', {}).get('sephora') and (i['prices'].get('sephora') or {}).get('d', '') < '2026-11-18'][:8]
+good = [i for i in d if (i['prices'].get('sephora') or {}).get('d', '') >= '2026-11-19'][:2]
+print('sin leer', len([i for i in d if i.get('urls', {}).get('sephora') and (i['prices'].get('sephora') or {}).get('d', '') < '2026-11-18']), 'de', len([i for i in d if i.get('urls', {}).get('sephora')]))
+for it in good + bad:
+    u = it['urls']['sephora']
+    r = get(u)
+    t = r.text.replace('\\"', '"')
+    fm = re.findall(r'"format":"(\w+)"', t)
+    ppu = re.findall(r'"pricePerUnit":"([^"]+)"', t)[:6]
+    sizes = re.findall(r'(\d{2,3})\s?ml', t, re.I)
+    print('##', it['id'], r.status_code, len(r.text), 'final=', getattr(r, 'url', '')[:90], 'extract=', extract(r.text, it['ml'], u), 'formats=', sorted(set(fm)), 'ppu=', ppu, 'ml=', sorted(set(sizes))[:10], 'matches=', SEPHORA_RE.findall(t)[:4])
+    k = t.find('"pricePerUnit"')
+    print('   ', re.sub(r'\s+', ' ', t[max(0, k - 600):k + 200]) if k >= 0 else re.sub(r'\s+', ' ', t[:300]))
+    time.sleep(1.5)
