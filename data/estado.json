@@ -1,166 +1,182 @@
 {
- "at": "2026-11-21T11:53:46+01:00",
+ "at": "2026-11-21T12:37:06+01:00",
  "revisados": 70,
  "tiendas": {
+  "avenida": {
+   "ok": 15,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "variantes": 14,
+   "jsonld": 1
+  },
   "idealo": {
    "ok": 57,
    "bloqueada": 0,
-   "sin_precio": 3,
-   "dudoso": 0,
-   "jsonld-url": 51,
-   "jsonld": 6
-  },
-  "primor": {
-   "ok": 0,
-   "bloqueada": 0,
    "sin_precio": 0,
-   "dudoso": 0,
-   "via_idealo": 36
-  },
-  "sabina": {
-   "ok": 23,
-   "bloqueada": 0,
-   "sin_precio": 3,
-   "dudoso": 0,
-   "via_idealo": 17,
-   "jsonld": 20,
-   "precio-100ml": 3
-  },
-  "julia": {
-   "ok": 0,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "via_idealo": 40
-  },
-  "paco": {
-   "ok": 37,
-   "bloqueada": 0,
-   "sin_precio": 3,
-   "dudoso": 3,
-   "jsonld": 35,
-   "precio-100ml": 2,
+   "dudoso": 4,
+   "jsonld-url": 50,
+   "texto": 1,
    "ejemplos": [
     {
-     "perfume": "marc-jacobs-daisy-edt-100",
-     "precio": 147.0,
-     "referencia": 68.94,
-     "metodo": "texto"
+     "perfume": "kilian-angels-share-edp-50",
+     "precio": 181.79,
+     "referencia": 116.83,
+     "metodo": "jsonld-url"
     },
     {
-     "perfume": "versace-crystal-noir-edt-90",
-     "precio": 99.95,
-     "referencia": 61.86,
-     "metodo": "precio-100ml"
-    },
-    {
-     "perfume": "azzaro-the-most-wanted-parfum-parfum-100",
-     "precio": 99.0,
-     "referencia": 69.95,
-     "metodo": "texto"
-    }
-   ]
-  },
-  "parejo": {
-   "ok": 13,
-   "bloqueada": 0,
-   "sin_precio": 2,
-   "dudoso": 2,
-   "ejemplos": [
-    {
-     "perfume": "halloween-halloween-edt-100",
-     "precio": 41.65,
-     "referencia": 26.66,
+     "perfume": "lattafa-yara-edp-100",
+     "precio": 11.69,
+     "referencia": 21.49,
      "metodo": "jsonld"
     },
     {
-     "perfume": "yves-saint-laurent-mon-paris-edp-90",
-     "precio": 159.0,
-     "referencia": 82.95,
-     "metodo": "jsonld"
+     "perfume": "le-labo-another-13-edp-100",
+     "precio": 22.58,
+     "referencia": 399.0,
+     "metodo": "texto"
     }
    ],
-   "jsonld": 13
-  },
-  "brasty": {
-   "ok": 0,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "via_idealo": 19
+   "jsonld": 6
   },
   "arenal": {
    "ok": 0,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "via_idealo": 35
+   "via_idealo": 31
   },
   "druni": {
    "ok": 0,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "via_idealo": 39
+   "via_idealo": 33
   },
-  "sephora": {
-   "ok": 10,
+  "primor": {
+   "ok": 0,
    "bloqueada": 0,
-   "sin_precio": 13,
+   "sin_precio": 0,
    "dudoso": 0,
-   "variantes": 10
+   "via_idealo": 26
   },
-  "avenida": {
-   "ok": 15,
+  "julia": {
+   "ok": 0,
    "bloqueada": 0,
-   "sin_precio": 1,
-   "dudoso": 1,
-   "variantes": 15,
-   "ejemplos": [
-    {
-     "perfume": "issey-miyake-l-eau-d-issey-pour-homme-edt-125",
-     "precio": 74.95,
-     "referencia": 44.95,
-     "metodo": "variantes"
-    }
-   ]
+   "sin_precio": 0,
+   "dudoso": 0,
+   "via_idealo": 31
+  },
+  "laguna": {
+   "ok": 17,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "precio-100ml": 1,
+   "jsonld": 10,
+   "jsonld-url": 6
+  },
+  "lookfantastic": {
+   "ok": 22,
+   "bloqueada": 0,
+   "sin_precio": 5,
+   "dudoso": 0,
+   "jsonld": 22
   },
   "notino": {
    "ok": 0,
-   "bloqueada": 38,
+   "bloqueada": 22,
    "sin_precio": 0,
-   "dudoso": 0,
-   "via_idealo": 18
+   "dudoso": 1,
+   "via_idealo": 19,
+   "ejemplos": [
+    {
+     "perfume": "lattafa-khamrah-edp-100",
+     "precio": 37.9,
+     "referencia": 24.95,
+     "metodo": "jsonld"
+    }
+   ]
   },
-  "laguna": {
-   "ok": 19,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "jsonld": 9,
-   "jsonld-url": 6,
-   "precio-100ml": 4
-  },
-  "lookfantastic": {
-   "ok": 27,
+  "paco": {
+   "ok": 30,
    "bloqueada": 0,
    "sin_precio": 2,
+   "dudoso": 2,
+   "jsonld": 29,
+   "ejemplos": [
+    {
+     "perfume": "jean-paul-gaultier-ultra-male-edt-125",
+     "precio": 126.0,
+     "referencia": 67.445,
+     "metodo": "texto"
+    },
+    {
+     "perfume": "kayali-vanilla-28-edp-100",
+     "precio": 78.0,
+     "referencia": 135.0,
+     "metodo": "texto"
+    }
+   ],
+   "precio-100ml": 1
+  },
+  "parejo": {
+   "ok": 9,
+   "bloqueada": 1,
+   "sin_precio": 2,
+   "dudoso": 7,
+   "jsonld": 9,
+   "ejemplos": [
+    {
+     "perfume": "lattafa-khamrah-edp-100",
+     "precio": 40.8,
+     "referencia": 26.88,
+     "metodo": "jsonld"
+    },
+    {
+     "perfume": "lattafa-yara-edp-100",
+     "precio": 30.6,
+     "referencia": 19.99,
+     "metodo": "jsonld"
+    },
+    {
+     "perfume": "carolina-herrera-good-girl-blush-edp-80",
+     "precio": 140.25,
+     "referencia": 89.95,
+     "metodo": "jsonld"
+    }
+   ]
+  },
+  "sabina": {
+   "ok": 21,
+   "bloqueada": 0,
+   "sin_precio": 1,
    "dudoso": 0,
-   "jsonld": 27
+   "jsonld": 17,
+   "precio-100ml": 4,
+   "via_idealo": 16
+  },
+  "brasty": {
+   "ok": 1,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "via_idealo": 17,
+   "jsonld": 1
+  },
+  "sephora": {
+   "ok": 5,
+   "bloqueada": 0,
+   "sin_precio": 1,
+   "dudoso": 0,
+   "variantes": 5
   },
   "perfumesclub": {
-   "ok": 4,
+   "ok": 1,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "jsonld": 4
-  },
-  "douglas": {
-   "ok": 2,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "precio-100ml": 2
+   "jsonld": 1
   },
   "arabicparfums": {
    "ok": 3,
@@ -169,18 +185,33 @@
    "dudoso": 0,
    "jsonld": 3
   },
-  "firstinfragrance": {
-   "ok": 2,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "jsonld": 2
-  },
   "beautinow": {
    "ok": 0,
    "bloqueada": 0,
-   "sin_precio": 1,
+   "sin_precio": 3,
    "dudoso": 0
+  },
+  "firstinfragrance": {
+   "ok": 6,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 1,
+   "jsonld": 6,
+   "ejemplos": [
+    {
+     "perfume": "mancera-instant-crush-edp-120",
+     "precio": 159.0,
+     "referencia": 81.71,
+     "metodo": "jsonld"
+    }
+   ]
+  },
+  "douglas": {
+   "ok": 1,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "precio-100ml": 1
   }
  },
  "limpiados": {},
