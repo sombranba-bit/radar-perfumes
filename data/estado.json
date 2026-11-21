@@ -1,150 +1,50 @@
 {
- "at": "2026-11-21T02:26:43+01:00",
+ "at": "2026-11-21T03:06:29+01:00",
  "revisados": 70,
  "tiendas": {
-  "arabicparfums": {
-   "ok": 2,
-   "bloqueada": 2,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "jsonld": 1,
-   "jsonld-url": 1
-  },
   "idealo": {
-   "ok": 57,
+   "ok": 55,
    "bloqueada": 0,
-   "sin_precio": 2,
-   "dudoso": 1,
-   "jsonld-url": 45,
-   "jsonld": 11,
-   "texto": 1,
-   "ejemplos": [
-    {
-     "perfume": "chanel-allure-homme-edition-blanche-edp-100",
-     "precio": 32.16,
-     "referencia": 118.4,
-     "metodo": "texto"
-    }
-   ]
-  },
-  "arenal": {
-   "ok": 0,
-   "bloqueada": 0,
-   "sin_precio": 0,
+   "sin_precio": 3,
    "dudoso": 0,
-   "via_idealo": 20
-  },
-  "druni": {
-   "ok": 0,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "via_idealo": 22
+   "jsonld-url": 53,
+   "jsonld": 2
   },
   "julia": {
    "ok": 0,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "via_idealo": 24
-  },
-  "notino": {
-   "ok": 2,
-   "bloqueada": 19,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "via_idealo": 27,
-   "jsonld": 2
-  },
-  "laguna": {
-   "ok": 4,
-   "bloqueada": 4,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "jsonld-url": 1,
-   "precio-100ml": 2,
-   "jsonld": 1
-  },
-  "parejo": {
-   "ok": 10,
-   "bloqueada": 0,
-   "sin_precio": 2,
-   "dudoso": 1,
-   "jsonld": 10,
-   "ejemplos": [
-    {
-     "perfume": "rabanne-pure-xs-edt-100",
-     "precio": 124.1,
-     "referencia": 58.55,
-     "metodo": "jsonld"
-    }
-   ]
+   "via_idealo": 34
   },
   "sabina": {
-   "ok": 15,
+   "ok": 1,
    "bloqueada": 0,
-   "sin_precio": 4,
+   "sin_precio": 0,
    "dudoso": 0,
-   "via_idealo": 16,
-   "precio-100ml": 3,
-   "jsonld": 12
-  },
-  "avenida": {
-   "ok": 2,
-   "bloqueada": 0,
-   "sin_precio": 1,
-   "dudoso": 0,
-   "variantes": 2
-  },
-  "lookfantastic": {
-   "ok": 12,
-   "bloqueada": 0,
-   "sin_precio": 5,
-   "dudoso": 1,
-   "jsonld": 12,
-   "ejemplos": [
-    {
-     "perfume": "davidoff-cool-water-edt-125",
-     "precio": 64.69,
-     "referencia": 21.51,
-     "metodo": "jsonld"
-    }
-   ]
-  },
-  "paco": {
-   "ok": 25,
-   "bloqueada": 0,
-   "sin_precio": 5,
-   "dudoso": 0,
-   "jsonld": 24,
-   "precio-100ml": 1
-  },
-  "sephora": {
-   "ok": 9,
-   "bloqueada": 0,
-   "sin_precio": 2,
-   "dudoso": 0,
-   "variantes": 9
+   "via_idealo": 19,
+   "jsonld": 1
   },
   "primor": {
    "ok": 0,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "via_idealo": 21
+   "via_idealo": 34
   },
-  "beautinow": {
+  "arenal": {
    "ok": 0,
    "bloqueada": 0,
-   "sin_precio": 3,
-   "dudoso": 0
-  },
-  "firstinfragrance": {
-   "ok": 4,
-   "bloqueada": 2,
    "sin_precio": 0,
    "dudoso": 0,
-   "jsonld": 4
+   "via_idealo": 29
+  },
+  "druni": {
+   "ok": 0,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "via_idealo": 36
   },
   "brasty": {
    "ok": 0,
@@ -153,7 +53,71 @@
    "dudoso": 0,
    "via_idealo": 15
   },
-  "perfumesclub": {
+  "notino": {
+   "ok": 0,
+   "bloqueada": 3,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "via_idealo": 18
+  },
+  "lookfantastic": {
+   "ok": 9,
+   "bloqueada": 0,
+   "sin_precio": 7,
+   "dudoso": 0,
+   "jsonld": 9
+  },
+  "paco": {
+   "ok": 32,
+   "bloqueada": 0,
+   "sin_precio": 5,
+   "dudoso": 2,
+   "jsonld": 30,
+   "precio-100ml": 2,
+   "ejemplos": [
+    {
+     "perfume": "nautica-voyage-edt-100",
+     "precio": 73.78,
+     "referencia": 20.23,
+     "metodo": "precio-100ml"
+    },
+    {
+     "perfume": "armani-acqua-di-gio-elixir-parfum-75",
+     "precio": 50.0,
+     "referencia": null,
+     "metodo": "texto"
+    }
+   ]
+  },
+  "parejo": {
+   "ok": 6,
+   "bloqueada": 0,
+   "sin_precio": 2,
+   "dudoso": 0,
+   "jsonld": 6
+  },
+  "firstinfragrance": {
+   "ok": 1,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "jsonld": 1
+  },
+  "douglas": {
+   "ok": 2,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "precio-100ml": 2
+  },
+  "sephora": {
+   "ok": 4,
+   "bloqueada": 0,
+   "sin_precio": 3,
+   "dudoso": 0,
+   "variantes": 4
+  },
+  "laguna": {
    "ok": 1,
    "bloqueada": 0,
    "sin_precio": 0,
