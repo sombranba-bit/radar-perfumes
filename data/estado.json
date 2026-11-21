@@ -1,216 +1,166 @@
 {
- "at": "2026-11-21T01:43:47+01:00",
+ "at": "2026-11-21T02:26:43+01:00",
  "revisados": 70,
  "tiendas": {
+  "arabicparfums": {
+   "ok": 2,
+   "bloqueada": 2,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "jsonld": 1,
+   "jsonld-url": 1
+  },
   "idealo": {
-   "ok": 54,
+   "ok": 57,
    "bloqueada": 0,
-   "sin_precio": 1,
-   "dudoso": 0,
-   "jsonld-url": 50,
-   "jsonld": 4
-  },
-  "brasty": {
-   "ok": 3,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "via_idealo": 14,
-   "jsonld": 3
-  },
-  "notino": {
-   "ok": 4,
-   "bloqueada": 45,
-   "sin_precio": 0,
+   "sin_precio": 2,
    "dudoso": 1,
-   "via_idealo": 22,
-   "jsonld": 4,
+   "jsonld-url": 45,
+   "jsonld": 11,
+   "texto": 1,
    "ejemplos": [
     {
-     "perfume": "carolina-herrera-212-men-edt-100",
-     "precio": 113.8,
-     "referencia": 49.05,
-     "metodo": "jsonld"
+     "perfume": "chanel-allure-homme-edition-blanche-edp-100",
+     "precio": 32.16,
+     "referencia": 118.4,
+     "metodo": "texto"
     }
    ]
-  },
-  "primor": {
-   "ok": 0,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "via_idealo": 36
   },
   "arenal": {
    "ok": 0,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "via_idealo": 35
-  },
-  "sabina": {
-   "ok": 40,
-   "bloqueada": 0,
-   "sin_precio": 10,
-   "dudoso": 0,
-   "via_idealo": 27,
-   "jsonld": 39,
-   "precio-100ml": 1
-  },
-  "julia": {
-   "ok": 0,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "via_idealo": 40
-  },
-  "laguna": {
-   "ok": 35,
-   "bloqueada": 0,
-   "sin_precio": 1,
-   "dudoso": 0,
-   "precio-100ml": 9,
-   "jsonld-url": 17,
-   "jsonld": 9
-  },
-  "lookfantastic": {
-   "ok": 32,
-   "bloqueada": 0,
-   "sin_precio": 5,
-   "dudoso": 1,
-   "jsonld": 32,
-   "ejemplos": [
-    {
-     "perfume": "givenchy-gentleman-edp-100",
-     "precio": 141.45,
-     "referencia": 69.95,
-     "metodo": "texto"
-    }
-   ]
-  },
-  "sephora": {
-   "ok": 11,
-   "bloqueada": 0,
-   "sin_precio": 15,
-   "dudoso": 0,
-   "variantes": 11
-  },
-  "avenida": {
-   "ok": 32,
-   "bloqueada": 0,
-   "sin_precio": 1,
-   "dudoso": 0,
-   "variantes": 31,
-   "jsonld": 1
-  },
-  "beautinow": {
-   "ok": 0,
-   "bloqueada": 0,
-   "sin_precio": 5,
-   "dudoso": 0
-  },
-  "paco": {
-   "ok": 43,
-   "bloqueada": 0,
-   "sin_precio": 4,
-   "dudoso": 2,
-   "jsonld": 43,
-   "ejemplos": [
-    {
-     "perfume": "azzaro-chrome-edt-100",
-     "precio": 116.0,
-     "referencia": 49.95,
-     "metodo": "texto"
-    },
-    {
-     "perfume": "hugo-boss-boss-bottled-absolu-parfum-100",
-     "precio": 140.0,
-     "referencia": 80.9,
-     "metodo": "texto"
-    }
-   ]
-  },
-  "parejo": {
-   "ok": 13,
-   "bloqueada": 0,
-   "sin_precio": 1,
-   "dudoso": 6,
-   "jsonld": 13,
-   "ejemplos": [
-    {
-     "perfume": "viktor-rolf-spicebomb-extreme-edp-90",
-     "precio": 116.45,
-     "referencia": 71.09,
-     "metodo": "jsonld"
-    },
-    {
-     "perfume": "yves-saint-laurent-black-opium-edp-90",
-     "precio": 153.0,
-     "referencia": 82.95,
-     "metodo": "jsonld"
-    },
-    {
-     "perfume": "calvin-klein-ck-one-edt-200",
-     "precio": 43.35,
-     "referencia": 28.174999999999997,
-     "metodo": "jsonld"
-    }
-   ]
-  },
-  "arabicparfums": {
-   "ok": 1,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "jsonld": 1
+   "via_idealo": 20
   },
   "druni": {
    "ok": 0,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "via_idealo": 35
+   "via_idealo": 22
   },
-  "makeup": {
+  "julia": {
+   "ok": 0,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "via_idealo": 24
+  },
+  "notino": {
+   "ok": 2,
+   "bloqueada": 19,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "via_idealo": 27,
+   "jsonld": 2
+  },
+  "laguna": {
+   "ok": 4,
+   "bloqueada": 4,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "jsonld-url": 1,
+   "precio-100ml": 2,
+   "jsonld": 1
+  },
+  "parejo": {
+   "ok": 10,
+   "bloqueada": 0,
+   "sin_precio": 2,
+   "dudoso": 1,
+   "jsonld": 10,
+   "ejemplos": [
+    {
+     "perfume": "rabanne-pure-xs-edt-100",
+     "precio": 124.1,
+     "referencia": 58.55,
+     "metodo": "jsonld"
+    }
+   ]
+  },
+  "sabina": {
+   "ok": 15,
+   "bloqueada": 0,
+   "sin_precio": 4,
+   "dudoso": 0,
+   "via_idealo": 16,
+   "precio-100ml": 3,
+   "jsonld": 12
+  },
+  "avenida": {
+   "ok": 2,
+   "bloqueada": 0,
+   "sin_precio": 1,
+   "dudoso": 0,
+   "variantes": 2
+  },
+  "lookfantastic": {
+   "ok": 12,
+   "bloqueada": 0,
+   "sin_precio": 5,
+   "dudoso": 1,
+   "jsonld": 12,
+   "ejemplos": [
+    {
+     "perfume": "davidoff-cool-water-edt-125",
+     "precio": 64.69,
+     "referencia": 21.51,
+     "metodo": "jsonld"
+    }
+   ]
+  },
+  "paco": {
+   "ok": 25,
+   "bloqueada": 0,
+   "sin_precio": 5,
+   "dudoso": 0,
+   "jsonld": 24,
+   "precio-100ml": 1
+  },
+  "sephora": {
+   "ok": 9,
+   "bloqueada": 0,
+   "sin_precio": 2,
+   "dudoso": 0,
+   "variantes": 9
+  },
+  "primor": {
+   "ok": 0,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "via_idealo": 21
+  },
+  "beautinow": {
    "ok": 0,
    "bloqueada": 0,
    "sin_precio": 3,
    "dudoso": 0
   },
-  "perfumesclub": {
-   "ok": 5,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "jsonld": 5
-  },
-  "douglas": {
-   "ok": 3,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 1,
-   "precio-100ml": 3,
-   "ejemplos": [
-    {
-     "perfume": "chanel-chanel-n-5-edp-100",
-     "precio": 727.09,
-     "referencia": 138.95,
-     "metodo": "precio-100ml"
-    }
-   ]
-  },
   "firstinfragrance": {
-   "ok": 3,
+   "ok": 4,
+   "bloqueada": 2,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "jsonld": 4
+  },
+  "brasty": {
+   "ok": 0,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "jsonld": 3
+   "via_idealo": 15
+  },
+  "perfumesclub": {
+   "ok": 1,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "jsonld": 1
   }
  },
- "limpiados": {
-  "mancera-instant-crush-edp-120": [
-   "firstinfragrance"
-  ]
- },
+ "limpiados": {},
  "chollometro": "ok 84"
 }
