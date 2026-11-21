@@ -1,33 +1,78 @@
 {
- "at": "2026-11-21T08:23:11+01:00",
+ "at": "2026-11-21T09:09:53+01:00",
  "revisados": 70,
  "tiendas": {
   "idealo": {
-   "ok": 55,
+   "ok": 58,
    "bloqueada": 0,
-   "sin_precio": 3,
-   "dudoso": 3,
-   "jsonld-url": 48,
-   "jsonld": 6,
-   "texto": 1,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "jsonld": 7,
+   "jsonld-url": 51
+  },
+  "druni": {
+   "ok": 0,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "via_idealo": 39
+  },
+  "notino": {
+   "ok": 2,
+   "bloqueada": 37,
+   "sin_precio": 0,
+   "dudoso": 1,
+   "via_idealo": 22,
    "ejemplos": [
     {
-     "perfume": "kilian-angels-share-edp-50",
-     "precio": 181.79,
-     "referencia": 116.83,
-     "metodo": "jsonld-url"
-    },
+     "perfume": "tom-ford-oud-wood-edp-50",
+     "precio": 260.0,
+     "referencia": 168.44,
+     "metodo": "jsonld"
+    }
+   ],
+   "jsonld": 2
+  },
+  "sabina": {
+   "ok": 32,
+   "bloqueada": 0,
+   "sin_precio": 4,
+   "dudoso": 0,
+   "via_idealo": 15,
+   "jsonld": 31,
+   "precio-100ml": 1
+  },
+  "julia": {
+   "ok": 0,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "via_idealo": 44
+  },
+  "parejo": {
+   "ok": 15,
+   "bloqueada": 0,
+   "sin_precio": 1,
+   "dudoso": 8,
+   "jsonld": 15,
+   "ejemplos": [
     {
-     "perfume": "le-labo-another-13-edp-100",
-     "precio": 18.25,
-     "referencia": 399.0,
+     "perfume": "rabanne-fame-parfum-parfum-80",
+     "precio": 113.05,
+     "referencia": 82.95,
      "metodo": "texto"
     },
     {
-     "perfume": "le-labo-santal-33-edp-100",
-     "precio": 53.49,
-     "referencia": null,
-     "metodo": "texto"
+     "perfume": "mugler-alien-goddess-edp-60",
+     "precio": 105.4,
+     "referencia": 55.03,
+     "metodo": "jsonld"
+    },
+    {
+     "perfume": "rabanne-fame-edp-80",
+     "precio": 113.9,
+     "referencia": 69.95,
+     "metodo": "jsonld"
     }
    ]
   },
@@ -36,166 +81,130 @@
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "via_idealo": 28
+   "via_idealo": 38
   },
   "arenal": {
    "ok": 0,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "via_idealo": 34
-  },
-  "druni": {
-   "ok": 0,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "via_idealo": 34
-  },
-  "sabina": {
-   "ok": 23,
-   "bloqueada": 0,
-   "sin_precio": 3,
-   "dudoso": 0,
-   "via_idealo": 15,
-   "jsonld": 18,
-   "precio-100ml": 5
-  },
-  "julia": {
-   "ok": 0,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "via_idealo": 31
-  },
-  "paco": {
-   "ok": 32,
-   "bloqueada": 0,
-   "sin_precio": 1,
-   "dudoso": 2,
-   "jsonld": 31,
-   "ejemplos": [
-    {
-     "perfume": "azzaro-the-most-wanted-parfum-parfum-100",
-     "precio": 99.0,
-     "referencia": 69.95,
-     "metodo": "texto"
-    },
-    {
-     "perfume": "jean-paul-gaultier-ultra-male-edt-125",
-     "precio": 126.0,
-     "referencia": 67.445,
-     "metodo": "texto"
-    }
-   ],
-   "precio-100ml": 1
+   "via_idealo": 37
   },
   "brasty": {
    "ok": 1,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "via_idealo": 18,
+   "via_idealo": 21,
    "jsonld": 1
   },
   "lookfantastic": {
-   "ok": 25,
+   "ok": 33,
    "bloqueada": 0,
-   "sin_precio": 3,
+   "sin_precio": 5,
    "dudoso": 0,
-   "jsonld": 25
+   "jsonld": 33
   },
-  "notino": {
-   "ok": 0,
-   "bloqueada": 24,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "via_idealo": 13
-  },
-  "avenida": {
-   "ok": 15,
+  "paco": {
+   "ok": 41,
    "bloqueada": 0,
-   "sin_precio": 1,
-   "dudoso": 1,
-   "variantes": 15,
+   "sin_precio": 5,
+   "dudoso": 2,
+   "jsonld": 40,
    "ejemplos": [
     {
-     "perfume": "issey-miyake-l-eau-d-issey-pour-homme-edt-125",
-     "precio": 74.95,
-     "referencia": 44.95,
-     "metodo": "variantes"
+     "perfume": "kayali-vanilla-28-edp-100",
+     "precio": 78.0,
+     "referencia": 135.0,
+     "metodo": "texto"
+    },
+    {
+     "perfume": "azzaro-chrome-edt-100",
+     "precio": 116.0,
+     "referencia": 49.95,
+     "metodo": "texto"
     }
-   ]
-  },
-  "laguna": {
-   "ok": 20,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "jsonld": 9,
-   "precio-100ml": 5,
-   "jsonld-url": 6
+   ],
+   "precio-100ml": 1
   },
   "firstinfragrance": {
-   "ok": 5,
-   "bloqueada": 1,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "jsonld": 5
-  },
-  "beautinow": {
-   "ok": 0,
-   "bloqueada": 4,
-   "sin_precio": 0,
-   "dudoso": 0
-  },
-  "parejo": {
-   "ok": 7,
-   "bloqueada": 0,
-   "sin_precio": 3,
-   "dudoso": 4,
-   "jsonld": 7,
-   "ejemplos": [
-    {
-     "perfume": "lattafa-khamrah-edp-100",
-     "precio": 40.8,
-     "referencia": 26.88,
-     "metodo": "jsonld"
-    },
-    {
-     "perfume": "lattafa-yara-edp-100",
-     "precio": 30.6,
-     "referencia": 19.99,
-     "metodo": "jsonld"
-    },
-    {
-     "perfume": "carolina-herrera-good-girl-blush-edp-80",
-     "precio": 140.25,
-     "referencia": 89.95,
-     "metodo": "jsonld"
-    }
-   ]
-  },
-  "sephora": {
-   "ok": 3,
-   "bloqueada": 4,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "variantes": 3
-  },
-  "perfumesclub": {
    "ok": 2,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
    "jsonld": 2
   },
-  "arabicparfums": {
-   "ok": 3,
+  "sephora": {
+   "ok": 0,
+   "bloqueada": 0,
+   "sin_precio": 24,
+   "dudoso": 0
+  },
+  "avenida": {
+   "ok": 24,
+   "bloqueada": 0,
+   "sin_precio": 2,
+   "dudoso": 1,
+   "variantes": 22,
+   "jsonld": 2,
+   "ejemplos": [
+    {
+     "perfume": "versace-bright-crystal-edt-90",
+     "precio": 89.95,
+     "referencia": 59.95,
+     "metodo": "variantes"
+    }
+   ]
+  },
+  "douglas": {
+   "ok": 4,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 1,
+   "precio-100ml": 4,
+   "ejemplos": [
+    {
+     "perfume": "chanel-chanel-n-5-edp-100",
+     "precio": 727.09,
+     "referencia": 138.95,
+     "metodo": "precio-100ml"
+    }
+   ]
+  },
+  "laguna": {
+   "ok": 31,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "jsonld": 3
+   "jsonld": 9,
+   "jsonld-url": 13,
+   "precio-100ml": 9
+  },
+  "beautinow": {
+   "ok": 0,
+   "bloqueada": 0,
+   "sin_precio": 3,
+   "dudoso": 0
+  },
+  "perfumesclub": {
+   "ok": 6,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "jsonld": 6
+  },
+  "arabicparfums": {
+   "ok": 1,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "jsonld": 1
+  },
+  "makeup": {
+   "ok": 0,
+   "bloqueada": 0,
+   "sin_precio": 3,
+   "dudoso": 0
   }
  },
  "limpiados": {},
