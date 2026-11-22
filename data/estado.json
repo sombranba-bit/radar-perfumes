@@ -1,98 +1,14 @@
 {
- "at": "2026-11-22T02:55:16+01:00",
+ "at": "2026-11-22T03:40:19+01:00",
  "revisados": 70,
  "tiendas": {
   "idealo": {
-   "ok": 58,
+   "ok": 56,
    "bloqueada": 0,
-   "sin_precio": 1,
-   "dudoso": 3,
-   "jsonld": 7,
-   "jsonld-url": 51,
-   "ejemplos": [
-    {
-     "perfume": "carolina-herrera-carolina-herrera-edt-100",
-     "precio": 48.73,
-     "referencia": 101.545,
-     "metodo": "jsonld-url"
-    },
-    {
-     "perfume": "valentino-uomo-intense-edp-100",
-     "precio": 444.99,
-     "referencia": 94.88,
-     "metodo": "jsonld-url"
-    },
-    {
-     "perfume": "chloe-nomade-edp-75",
-     "precio": 58.03,
-     "referencia": 109.48,
-     "metodo": "jsonld"
-    }
-   ]
-  },
-  "notino": {
-   "ok": 0,
-   "bloqueada": 7,
-   "sin_precio": 0,
+   "sin_precio": 3,
    "dudoso": 0,
-   "via_idealo": 19
-  },
-  "primor": {
-   "ok": 0,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "via_idealo": 38
-  },
-  "druni": {
-   "ok": 0,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "via_idealo": 36
-  },
-  "sabina": {
-   "ok": 6,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "via_idealo": 22,
+   "jsonld-url": 50,
    "jsonld": 6
-  },
-  "arenal": {
-   "ok": 0,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "via_idealo": 32
-  },
-  "julia": {
-   "ok": 0,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "via_idealo": 39
-  },
-  "lookfantastic": {
-   "ok": 12,
-   "bloqueada": 0,
-   "sin_precio": 7,
-   "dudoso": 0,
-   "jsonld": 12
-  },
-  "firstinfragrance": {
-   "ok": 2,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "jsonld": 2
-  },
-  "douglas": {
-   "ok": 3,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "precio-100ml": 3
   },
   "brasty": {
    "ok": 0,
@@ -101,77 +17,164 @@
    "dudoso": 0,
    "via_idealo": 17
   },
-  "sephora": {
-   "ok": 8,
-   "bloqueada": 0,
-   "sin_precio": 5,
-   "dudoso": 0,
-   "variantes": 8
-  },
-  "laguna": {
-   "ok": 3,
+  "primor": {
+   "ok": 0,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "jsonld": 2,
-   "precio-100ml": 1
+   "via_idealo": 35
+  },
+  "julia": {
+   "ok": 0,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "via_idealo": 39
   },
   "paco": {
-   "ok": 41,
+   "ok": 37,
    "bloqueada": 0,
    "sin_precio": 3,
-   "dudoso": 2,
-   "jsonld": 36,
-   "precio-100ml": 5,
+   "dudoso": 3,
+   "jsonld": 35,
+   "precio-100ml": 2,
    "ejemplos": [
     {
-     "perfume": "armani-acqua-di-gio-elixir-parfum-75",
-     "precio": 50.0,
-     "referencia": null,
+     "perfume": "marc-jacobs-daisy-edt-100",
+     "precio": 147.0,
+     "referencia": 68.94,
      "metodo": "texto"
     },
     {
-     "perfume": "versace-yellow-diamond-edt-90",
-     "precio": 132.0,
-     "referencia": 52.8,
+     "perfume": "versace-crystal-noir-edt-90",
+     "precio": 99.95,
+     "referencia": 61.86,
+     "metodo": "precio-100ml"
+    },
+    {
+     "perfume": "azzaro-the-most-wanted-parfum-parfum-100",
+     "precio": 99.0,
+     "referencia": 69.95,
      "metodo": "texto"
     }
    ]
   },
   "parejo": {
-   "ok": 7,
-   "bloqueada": 0,
-   "sin_precio": 3,
-   "dudoso": 2,
-   "jsonld": 7,
+   "ok": 13,
+   "bloqueada": 1,
+   "sin_precio": 2,
+   "dudoso": 1,
+   "jsonld": 13,
    "ejemplos": [
     {
-     "perfume": "givenchy-l-interdit-rouge-edp-80",
-     "precio": 126.65,
-     "referencia": 73.95,
-     "metodo": "jsonld"
-    },
-    {
-     "perfume": "halloween-halloween-edt-100",
-     "precio": 41.65,
-     "referencia": 26.66,
+     "perfume": "yves-saint-laurent-mon-paris-edp-90",
+     "precio": 159.0,
+     "referencia": 82.95,
      "metodo": "jsonld"
     }
    ]
   },
+  "sabina": {
+   "ok": 24,
+   "bloqueada": 0,
+   "sin_precio": 3,
+   "dudoso": 0,
+   "jsonld": 21,
+   "via_idealo": 33,
+   "precio-100ml": 3
+  },
+  "sephora": {
+   "ok": 0,
+   "bloqueada": 0,
+   "sin_precio": 22,
+   "dudoso": 0
+  },
+  "arenal": {
+   "ok": 0,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "via_idealo": 35
+  },
+  "druni": {
+   "ok": 0,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "via_idealo": 39
+  },
   "avenida": {
+   "ok": 17,
+   "bloqueada": 0,
+   "sin_precio": 1,
+   "dudoso": 1,
+   "variantes": 17,
+   "ejemplos": [
+    {
+     "perfume": "issey-miyake-l-eau-d-issey-pour-homme-edt-125",
+     "precio": 74.95,
+     "referencia": 44.95,
+     "metodo": "variantes"
+    }
+   ]
+  },
+  "notino": {
+   "ok": 3,
+   "bloqueada": 37,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "via_idealo": 24,
+   "jsonld": 3
+  },
+  "laguna": {
+   "ok": 21,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "jsonld": 10,
+   "jsonld-url": 6,
+   "precio-100ml": 5
+  },
+  "lookfantastic": {
+   "ok": 29,
+   "bloqueada": 0,
+   "sin_precio": 2,
+   "dudoso": 0,
+   "jsonld": 29
+  },
+  "perfumesclub": {
+   "ok": 4,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "jsonld": 4
+  },
+  "douglas": {
    "ok": 2,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "variantes": 2
+   "precio-100ml": 2
   },
-  "perfumesclub": {
+  "arabicparfums": {
+   "ok": 3,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "jsonld": 3
+  },
+  "firstinfragrance": {
    "ok": 2,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
    "jsonld": 2
+  },
+  "beautinow": {
+   "ok": 0,
+   "bloqueada": 0,
+   "sin_precio": 1,
+   "dudoso": 0
   }
  },
  "limpiados": {},
