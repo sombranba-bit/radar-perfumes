@@ -1,160 +1,191 @@
 {
- "at": "2026-11-22T14:51:51+01:00",
+ "at": "2026-11-22T15:34:20+01:00",
  "revisados": 70,
  "tiendas": {
   "idealo": {
-   "ok": 60,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "jsonld-url": 53,
-   "jsonld": 7
-  },
-  "sabina": {
-   "ok": 21,
-   "bloqueada": 0,
-   "sin_precio": 2,
-   "dudoso": 0,
-   "via_idealo": 19,
-   "jsonld": 19,
-   "precio-100ml": 2
-  },
-  "notino": {
-   "ok": 1,
-   "bloqueada": 35,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "via_idealo": 26,
-   "jsonld": 1
-  },
-  "paco": {
-   "ok": 40,
+   "ok": 55,
    "bloqueada": 0,
    "sin_precio": 3,
    "dudoso": 3,
-   "precio-100ml": 4,
-   "jsonld": 36,
+   "jsonld-url": 47,
+   "jsonld": 7,
+   "texto": 1,
    "ejemplos": [
     {
-     "perfume": "marc-jacobs-daisy-edt-100",
-     "precio": 147.0,
-     "referencia": 68.94,
+     "perfume": "kilian-angels-share-edp-50",
+     "precio": 181.79,
+     "referencia": 116.83,
+     "metodo": "jsonld-url"
+    },
+    {
+     "perfume": "le-labo-another-13-edp-100",
+     "precio": 17.53,
+     "referencia": 399.0,
      "metodo": "texto"
     },
     {
-     "perfume": "versace-crystal-noir-edt-90",
-     "precio": 99.95,
-     "referencia": 61.86,
-     "metodo": "precio-100ml"
-    },
-    {
-     "perfume": "azzaro-the-most-wanted-parfum-parfum-100",
-     "precio": 99.0,
-     "referencia": 69.95,
+     "perfume": "le-labo-santal-33-edp-100",
+     "precio": 53.49,
+     "referencia": null,
      "metodo": "texto"
     }
    ]
   },
-  "primor": {
-   "ok": 0,
+  "lookfantastic": {
+   "ok": 24,
    "bloqueada": 0,
-   "sin_precio": 0,
+   "sin_precio": 3,
    "dudoso": 0,
-   "via_idealo": 38
+   "jsonld": 24
   },
-  "arenal": {
-   "ok": 0,
+  "paco": {
+   "ok": 31,
    "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "via_idealo": 36
+   "sin_precio": 1,
+   "dudoso": 1,
+   "jsonld": 30,
+   "ejemplos": [
+    {
+     "perfume": "jean-paul-gaultier-ultra-male-edt-125",
+     "precio": 126.0,
+     "referencia": 67.445,
+     "metodo": "texto"
+    }
+   ],
+   "precio-100ml": 1
   },
-  "druni": {
+  "notino": {
    "ok": 0,
-   "bloqueada": 0,
+   "bloqueada": 23,
    "sin_precio": 0,
    "dudoso": 0,
-   "via_idealo": 40
-  },
-  "brasty": {
-   "ok": 0,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "via_idealo": 20
+   "via_idealo": 16
   },
   "julia": {
    "ok": 0,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "via_idealo": 44
-  },
-  "lookfantastic": {
-   "ok": 23,
-   "bloqueada": 0,
-   "sin_precio": 1,
-   "dudoso": 0,
-   "jsonld": 23
-  },
-  "sephora": {
-   "ok": 0,
-   "bloqueada": 0,
-   "sin_precio": 22,
-   "dudoso": 0
+   "via_idealo": 29
   },
   "avenida": {
-   "ok": 13,
+   "ok": 15,
    "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "variantes": 13
-  },
-  "laguna": {
-   "ok": 14,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "precio-100ml": 1,
-   "jsonld": 8,
-   "jsonld-url": 5
-  },
-  "parejo": {
-   "ok": 14,
-   "bloqueada": 0,
-   "sin_precio": 3,
-   "dudoso": 2,
-   "jsonld": 14,
+   "sin_precio": 1,
+   "dudoso": 1,
+   "variantes": 15,
    "ejemplos": [
     {
-     "perfume": "halloween-halloween-edt-100",
-     "precio": 41.65,
-     "referencia": 26.66,
-     "metodo": "jsonld"
-    },
+     "perfume": "issey-miyake-l-eau-d-issey-pour-homme-edt-125",
+     "precio": 74.95,
+     "referencia": 44.95,
+     "metodo": "variantes"
+    }
+   ]
+  },
+  "laguna": {
+   "ok": 20,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "jsonld": 9,
+   "precio-100ml": 5,
+   "jsonld-url": 6
+  },
+  "sabina": {
+   "ok": 22,
+   "bloqueada": 0,
+   "sin_precio": 2,
+   "dudoso": 0,
+   "precio-100ml": 5,
+   "via_idealo": 15,
+   "jsonld": 17
+  },
+  "firstinfragrance": {
+   "ok": 5,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 1,
+   "jsonld": 5,
+   "ejemplos": [
     {
-     "perfume": "yves-saint-laurent-mon-paris-edp-90",
+     "perfume": "mancera-instant-crush-edp-120",
      "precio": 159.0,
-     "referencia": 82.95,
+     "referencia": 105.0,
      "metodo": "jsonld"
     }
    ]
   },
+  "brasty": {
+   "ok": 1,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "via_idealo": 16,
+   "jsonld": 1
+  },
+  "primor": {
+   "ok": 0,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "via_idealo": 26
+  },
+  "arenal": {
+   "ok": 0,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "via_idealo": 32
+  },
+  "druni": {
+   "ok": 0,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "via_idealo": 33
+  },
+  "beautinow": {
+   "ok": 0,
+   "bloqueada": 4,
+   "sin_precio": 0,
+   "dudoso": 0
+  },
+  "parejo": {
+   "ok": 9,
+   "bloqueada": 1,
+   "sin_precio": 3,
+   "dudoso": 4,
+   "jsonld": 9,
+   "ejemplos": [
+    {
+     "perfume": "lattafa-khamrah-edp-100",
+     "precio": 40.8,
+     "referencia": 26.88,
+     "metodo": "jsonld"
+    },
+    {
+     "perfume": "carolina-herrera-good-girl-blush-edp-80",
+     "precio": 140.25,
+     "referencia": 89.95,
+     "metodo": "jsonld"
+    },
+    {
+     "perfume": "armani-si-passione-edp-100",
+     "precio": 137.7,
+     "referencia": 90.965,
+     "metodo": "jsonld"
+    }
+   ]
+  },
+  "sephora": {
+   "ok": 1,
+   "bloqueada": 2,
+   "sin_precio": 4,
+   "dudoso": 0,
+   "variantes": 1
+  },
   "perfumesclub": {
-   "ok": 5,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "jsonld": 5
-  },
-  "douglas": {
-   "ok": 3,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "precio-100ml": 3
-  },
-  "firstinfragrance": {
    "ok": 2,
    "bloqueada": 0,
    "sin_precio": 0,

@@ -1,5 +1,5 @@
 {
- "at": "2026-11-21T15:28:49+01:00",
+ "at": "2026-11-22T15:35:23+01:00",
  "tiendas": {
   "primor": {
    "url": "https://www.primor.eu/es_es/catalogsearch/result/?q=boss+bottled",
@@ -39,7 +39,7 @@
   "eci": {
    "url": "https://www.elcorteingles.es/buscar/?s=boss+bottled",
    "codigo": 404,
-   "kb": 320,
+   "kb": 312,
    "titulo": "El Corte Inglés",
    "precios_eur": 0,
    "jsonld": 0,
@@ -59,7 +59,7 @@
   "idealo": {
    "url": "https://www.idealo.es/resultados.html?q=boss+bottled",
    "codigo": 200,
-   "kb": 1056,
+   "kb": 1060,
    "titulo": "boss bottled en idealo.es",
    "precios_eur": 130,
    "jsonld": 0,
@@ -124,7 +124,7 @@
   "makeup": {
    "url": "https://makeup.es/search/?q=boss+bottled",
    "codigo": 200,
-   "kb": 817,
+   "kb": 813,
    "titulo": "Resultados de la búsqueda | Makeup.es",
    "precios_eur": 172,
    "jsonld": 3,
@@ -153,13 +153,13 @@
   },
   "sephora": {
    "url": "https://www.sephora.es/buscar?q=boss%20bottled",
-   "codigo": 200,
-   "kb": 2,
-   "titulo": null,
+   "codigo": 403,
+   "kb": 0,
+   "titulo": "Access Denied",
    "precios_eur": 0,
    "jsonld": 0,
    "menciona_boss": 0,
-   "estado": "entra, sin precios"
+   "estado": "bloqueada"
   },
   "lookfantastic": {
    "url": "https://www.lookfantastic.es/search?q=boss+bottled",
