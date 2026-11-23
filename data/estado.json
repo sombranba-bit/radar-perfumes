@@ -1,140 +1,162 @@
 {
- "at": "2026-11-23T21:40:07+01:00",
+ "at": "2026-11-23T22:19:36+01:00",
  "revisados": 70,
  "tiendas": {
   "idealo": {
-   "ok": 59,
+   "ok": 54,
    "bloqueada": 0,
-   "sin_precio": 1,
-   "dudoso": 0,
-   "jsonld-url": 51,
-   "jsonld": 8
+   "sin_precio": 2,
+   "dudoso": 5,
+   "jsonld-url": 48,
+   "jsonld": 6,
+   "ejemplos": [
+    {
+     "perfume": "yves-saint-laurent-opium-edp-90",
+     "precio": 148.67,
+     "referencia": 95.95,
+     "metodo": "jsonld-url"
+    },
+    {
+     "perfume": "carolina-herrera-good-girl-supreme-edp-80",
+     "precio": 75.61,
+     "referencia": 194.27,
+     "metodo": "texto"
+    },
+    {
+     "perfume": "carolina-herrera-carolina-herrera-edt-100",
+     "precio": 48.73,
+     "referencia": 102.55000000000001,
+     "metodo": "jsonld-url"
+    }
+   ]
   },
   "brasty": {
    "ok": 0,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "via_idealo": 17
+   "via_idealo": 11
   },
-  "paco": {
-   "ok": 28,
-   "bloqueada": 0,
-   "sin_precio": 6,
-   "dudoso": 1,
-   "precio-100ml": 2,
-   "jsonld": 26,
-   "ejemplos": [
-    {
-     "perfume": "nautica-voyage-edt-100",
-     "precio": 73.78,
-     "referencia": 20.48,
-     "metodo": "precio-100ml"
-    }
-   ]
-  },
-  "arenal": {
+  "notino": {
    "ok": 0,
-   "bloqueada": 0,
+   "bloqueada": 5,
    "sin_precio": 0,
    "dudoso": 0,
-   "via_idealo": 23
-  },
-  "druni": {
-   "ok": 0,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "via_idealo": 26
-  },
-  "sabina": {
-   "ok": 5,
-   "bloqueada": 0,
-   "sin_precio": 2,
-   "dudoso": 0,
-   "via_idealo": 15,
-   "jsonld": 4,
-   "precio-100ml": 1
-  },
-  "julia": {
-   "ok": 0,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "via_idealo": 25
-  },
-  "parejo": {
-   "ok": 7,
-   "bloqueada": 0,
-   "sin_precio": 3,
-   "dudoso": 1,
-   "ejemplos": [
-    {
-     "perfume": "rabanne-pure-xs-edt-100",
-     "precio": 124.1,
-     "referencia": 56.26,
-     "metodo": "jsonld"
-    }
-   ],
-   "jsonld": 7
+   "via_idealo": 20
   },
   "primor": {
    "ok": 0,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "via_idealo": 21
+   "via_idealo": 34
   },
-  "notino": {
-   "ok": 1,
-   "bloqueada": 6,
+  "arenal": {
+   "ok": 0,
+   "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "via_idealo": 30,
-   "jsonld": 1
+   "via_idealo": 29
+  },
+  "druni": {
+   "ok": 0,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "via_idealo": 33
+  },
+  "sabina": {
+   "ok": 2,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "via_idealo": 20,
+   "jsonld": 2
+  },
+  "julia": {
+   "ok": 0,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "via_idealo": 34
   },
   "lookfantastic": {
-   "ok": 6,
+   "ok": 14,
    "bloqueada": 0,
    "sin_precio": 7,
-   "dudoso": 1,
-   "jsonld": 6,
+   "dudoso": 0,
+   "jsonld": 14
+  },
+  "paco": {
+   "ok": 36,
+   "bloqueada": 0,
+   "sin_precio": 2,
+   "dudoso": 2,
+   "jsonld": 32,
+   "precio-100ml": 4,
    "ejemplos": [
     {
-     "perfume": "davidoff-cool-water-edt-125",
-     "precio": 64.69,
-     "referencia": 21.95,
+     "perfume": "armani-acqua-di-gio-elixir-parfum-75",
+     "precio": 50.0,
+     "referencia": null,
+     "metodo": "texto"
+    },
+    {
+     "perfume": "versace-yellow-diamond-edt-90",
+     "precio": 132.0,
+     "referencia": 52.8,
+     "metodo": "texto"
+    }
+   ]
+  },
+  "parejo": {
+   "ok": 7,
+   "bloqueada": 0,
+   "sin_precio": 2,
+   "dudoso": 1,
+   "jsonld": 7,
+   "ejemplos": [
+    {
+     "perfume": "givenchy-l-interdit-rouge-edp-80",
+     "precio": 126.65,
+     "referencia": 74.1,
      "metodo": "jsonld"
     }
    ]
   },
-  "laguna": {
-   "ok": 4,
+  "firstinfragrance": {
+   "ok": 1,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "precio-100ml": 2,
-   "jsonld": 2
+   "jsonld": 1
+  },
+  "douglas": {
+   "ok": 2,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "precio-100ml": 2
   },
   "sephora": {
    "ok": 0,
    "bloqueada": 0,
-   "sin_precio": 1,
+   "sin_precio": 11,
    "dudoso": 0
+  },
+  "laguna": {
+   "ok": 2,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "jsonld": 1,
+   "precio-100ml": 1
   },
   "avenida": {
    "ok": 0,
    "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 1,
-   "ejemplos": [
-    {
-     "perfume": "davidoff-cool-water-edt-125",
-     "precio": 66.95,
-     "referencia": 21.049999999999997,
-     "metodo": "texto"
-    }
-   ]
+   "sin_precio": 1,
+   "dudoso": 0
   },
   "perfumesclub": {
    "ok": 1,
@@ -142,26 +164,6 @@
    "sin_precio": 0,
    "dudoso": 0,
    "jsonld": 1
-  },
-  "firstinfragrance": {
-   "ok": 2,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "jsonld": 2
-  },
-  "beautinow": {
-   "ok": 0,
-   "bloqueada": 0,
-   "sin_precio": 2,
-   "dudoso": 0
-  },
-  "arabicparfums": {
-   "ok": 2,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "jsonld": 2
   }
  },
  "limpiados": {},
