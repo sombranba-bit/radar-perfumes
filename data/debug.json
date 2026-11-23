@@ -1,118 +1,71 @@
 {
- "fallo_avenida": {
-  "url": "https://www.perfumeriasavenida.com/eros-edt-versace",
-  "ml": 100,
-  "resultado": {
-   "precio": null,
-   "metodo": "sin-precio",
-   "referencia": 58.45,
-   "aceptado": false
-  },
-  "largo": 384789,
-  "titulo": "Versace Eros EDT para hombre | Perfumerías Avenida",
-  "tamaños": [
-   "100",
-   "50"
-  ],
-  "inicio": " <!doctype html><html class=\"no-js\" lang=\"es\" dir=\"ltr\" data-market=\"es\" > <head><script data-source-attribution=\"shopify.exit_interstitial\">(()=>{var i=Function.prototype.bind.bind(Function.prototype.call),nn=(y,d)=>{for(let m=y;m;m=Object.getPrototypeOf(m)){let T=Object.getOwnPropertyDescriptor(m,d);if(T)return T}throw new TypeError(`${d} is not defined`)},a=(y,d)=>i(nn(y,d).ge"
- },
  "avenida": {
-  "url": "https://www.perfumeriasavenida.com/eros-edt-versace",
-  "ml": 100,
+  "url": "https://www.perfumeriasavenida.com/cool-water-edt-davidoff",
+  "ml": 125,
   "resultado": {
-   "precio": null,
-   "metodo": "sin-precio",
-   "referencia": 58.45,
+   "precio": 66.95,
+   "metodo": "texto",
+   "referencia": 21.049999999999997,
    "aceptado": false
   },
   "jsonld": [
    "{\n         \"@context\": \"https://schema.org\",\n         \"@type\": \"Organization\",\n         \"name\": \"Perfumerías Avenida\",\n         \n    \n           \"logo\": \"https:\\/\\/www.perfumeriasavenida.com\\/cdn\\/shop\\/files\\/logo-b-n-avenida_946x.png?v=1789563538\",\n         \n         \"url\": \"https:\\/\\/www.perfumeriasavenida.com\"\n       }",
-   "{\n      \"@context\": \"https://schema.org\",\n      \"@type\": \"BreadcrumbList\",\n      \"itemListElement\": [{\n            \"@type\": \"ListItem\",\n            \"position\": 1,\n            \"name\": \"Inicio\",\n            \"item\": \"https:\\/\\/www.perfumeriasavenida.com\\/\"\n          },{\n            \"@type\": \"ListItem\",\n            \"position\": 2,\n            \"name\": \"Perfumes\",\n            \"item\": \"https:\\/\\/www.perfumeriasavenida.com\\/collections\\/perfumes\"\n          },{\n            \"@type\": \"ListItem\",\n            \"position\": 3,\n            \"name\": \"Perfumes de hombre\",\n            \"item\": \"https:\\/\\/www.perfumeriasavenida.com\\/collections\\/perfumes-hombre\"\n          },{\n            \"@type\": \"ListItem\",\n            \"position\": 4,\n            \"name\": \"Eros EDT\",\n            \"item\": \"https:\\/\\/www.perfumeriasavenida.com\\/products\\/versace-eros-eau-de-toilette-para-hombre\"\n          }]\n    }"
+   "{\n      \"@context\": \"https://schema.org\",\n      \"@type\": \"BreadcrumbList\",\n      \"itemListElement\": [{\n            \"@type\": \"ListItem\",\n            \"position\": 1,\n            \"name\": \"Inicio\",\n            \"item\": \"https:\\/\\/www.perfumeriasavenida.com\\/\"\n          },{\n            \"@type\": \"ListItem\",\n            \"position\": 2,\n            \"name\": \"Perfumes\",\n            \"item\": \"https:\\/\\/www.perfumeriasavenida.com\\/collections\\/perfumes\"\n          }]\n    }",
+   "{\n        \"unit_price\":12488,\n        \"unit_price_measurement\": {\n          \"measured_type\": \"volume\",\n          \"quantity_value\":40.0,\n          \"quantity_unit\": \"ml\",\n          \"reference_value\":100,\n          \"reference_unit\": \"ml\"\n        }\n      }",
+   "{\n        \"unit_price\":10817,\n        \"unit_price_measurement\": {\n          \"measured_type\": \"volume\",\n          \"quantity_value\":30.0,\n          \"quantity_unit\": \"ml\",\n          \"reference_value\":100,\n          \"reference_unit\": \"ml\"\n        }\n      }"
   ],
   "precios_en_html": [
    "oard                                   class=\"nl-promocode__btn\"                                   data-clipboard-text=\"20€\"                                                           ",
    "ip=\"Copiado al portapapeles\"                           >                               <span class=\"nl-promocode__code\">20€</span>                           </copy-clipboard>         ",
-   "=\"true\"                 show-discount        >                 <span class=\"price price--large price--highlight\">       59,95€     </span><span class=\"price text--subdued pdp-unit-price\"",
-   "dad\">         <span class=\"unit-price-measurement\">           <span class=\"unit-price-measurement__price\">              59,95€           </span>           <span class=\"unit-price-measure",
-   "an>         </span>       </span><div class=\"price-list__compare-container\">         <span class=\"price price--compare\">127,00€</span>                                          <span class",
-   "div class=\"unit-price-measurement\">                   <span class=\"unit-price-measurement__price\">                      59,95€                   </span>                   <span class=\"un",
-   "=\"true\"                 show-discount        >                 <span class=\"price price--large price--highlight\">       59,95€     </span><span class=\"price text--subdued pdp-unit-price\"",
-   "dad\">         <span class=\"unit-price-measurement\">           <span class=\"unit-price-measurement__price\">              59,95€           </span>           <span class=\"unit-price-measure",
-   "an>         </span>       </span><div class=\"price-list__compare-container\">         <span class=\"price price--compare\">127,00€</span>                                          <span class",
-   "                      value=\"55152765993293\"                 data-sku=\"62613\"               >                 100 ml -  59,95€               </option><option                             ",
-   "                       value=\"55152766026061\"                 data-sku=\"62614\"               >                 50 ml -  48,95€               </option></select><svg       focusable=\"false",
-   "\"lazy\">            </div>     <div class=\"product-form-reinsurance__text\">                <p>ENVÍO GRATUITO A PARTIR DE 20€</p>            </div>                        </div>        ",
-   "  </svg></div><div class=\"text-with-icons__content-wrapper\"><p class=\"heading heading--small\">ENVÍOS GRATIS A PARTIR DE 20€</p></div>       </div >        <div        href=\"\"       cl",
-   "  </svg></div><div class=\"text-with-icons__content-wrapper\"><p class=\"heading heading--small\">ENVÍOS GRATIS A PARTIR DE 20€</p></div>     </div ><drawer-content       id=\"product-sect",
-   "rrentColor\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>     </svg>ENVÍOS GRATIS A PARTIR DE 20€</p>          <button           type=\"button\"           clas",
-   "rrentColor\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>     </svg>ENVÍOS GRATIS A PARTIR DE 20€</p>          <button           type=\"button\"           clas"
-  ],
-  "variantes": []
- },
- "fallo_beautinow": {
-  "url": "https://beautinow.com/products/versace-eros-eau-de-toilette-2/",
-  "ml": 100,
-  "resultado": {
-   "precio": null,
-   "metodo": "sin-precio",
-   "referencia": 61.95,
-   "aceptado": false
-  },
-  "largo": 845932,
-  "titulo": "Buy Versace Eros Eau de Toilette | Black Friday 2026 | Beautinow",
-  "tamaños": [
-   "100",
-   "22",
-   "30",
-   "300",
-   "50",
-   "75"
-  ],
-  "inicio": "<!DOCTYPE html> <html lang=\"en\"> <head><script>(function(w,i,g){w[g]=w[g]||[];if(typeof w[g].push=='function')w[g].push(i)}) (window,'GTM-59GCKBX','google_tags_first_party');</script><script>(function(w,d,s,l){w[l]=w[l]||[];(function(){w[l].push(arguments);})('set', 'developer_id.dY2E1Nz', true); var f=d.getElementsByTagName(s)[0], j=d.createElement(s);j.async=true;j.src='/googlemetrics/'; f"
- },
- "beautinow": {
-  "url": "https://beautinow.com/products/versace-eros-eau-de-toilette-2/",
-  "ml": 100,
-  "resultado": {
-   "precio": null,
-   "metodo": "sin-precio",
-   "referencia": 61.95,
-   "aceptado": false
-  },
-  "jsonld": [
-   "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": [\"Organization\",\"Store\"],\n  \"name\": \"Beautinow\",\n  \"url\": \"https://beautinow.com\",\n  \"logo\": \"https://cdn4.beautinow.com/wp-content/uploads/2024/02/Black-Logo-Cut-New.png\",\n  \"foundingDate\": \"2019\",\n  \"description\": \"Niche Perfume & Beauty: Skincare, Haircare & Makeup at the Lowest Prices you can find online. 10% OFF First Order, Free Shipping.\",\n  \"sameAs\": [\n    \"https://www.facebook.com/beautinownll/\",\n    \"https://www.instagram.com/beautinownl/?hl=en\",\n    \"https://www.youtube.com/@beautinownl\",\n    \"https://nl.pinterest.com/beautinow/\",\n    \"https://www.wikidata.org/wiki/Q135229641\"\n  ],\n  \"contactPoint\": {\n    \"@type\": \"ContactPoint\",\n    \"contactType\": \"customer support\",\n    \"telephone\": \"010 322 0006\",\n    \"email\": \"cs@beautinow.nl\",\n    \"areaServed\": \"EN\",\n    \"availableLanguage\": [\"English\"]\n  },\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"streetAddress\": \"Wilhelminaplein 1, 3072DE\",\n    \"addressLocality\": \"Rotterdam\",\n    \"addressCountry\": \"NL\"\n  },\n  \"openingHours\": \"Mo-Fr 09:00-17:30\",\n  \"currenciesAccepted\": \"EUR\",\n  \"priceRange\": \"$$$\"\n}",
-   "{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":[\"WebPage\",\"ItemPage\"],\"@id\":\"https:\\/\\/beautinow.com\\/products\\/versace-eros-eau-de-toilette-2\\/\",\"url\":\"https:\\/\\/beautinow.com\\/products\\/versace-eros-eau-de-toilette-2\\/\",\"name\":\"Buy Versace Eros Eau de Toilette | Black Friday 2026 | Beautinow\",\"isPartOf\":{\"@id\":\"https:\\/\\/beautinow.com\\/#website\"},\"primaryImageOfPage\":{\"@id\":\"https:\\/\\/beautinow.com\\/products\\/versace-eros-eau-de-toilette-2\\/#primaryimage\"},\"image\":{\"@id\":\"https:\\/\\/beautinow.com\\/products\\/versace-eros-eau-de-toilette-2\\/#primaryimage\"},\"thumbnailUrl\":\"https:\\/\\/beautinow.com\\/wp-content\\/uploads\\/2024\\/09\\/8011003809257-Versace-Eros-EDT-Tester-100ml.png\",\"description\":\"Experience Versace Eros Eau de Toilette. Buy from Beautinow for 100% guaranteed authenticity, unbeatable EU prices, and lightning-fast shipping from the Netherlands.\",\"breadcrumb\":{\"@id\":\"https:\\/\\/beautinow.com\\/products\\/versace-eros-eau-de-toilette-2\\/#breadcrumb\"},\"inLanguage\":\"en-GB\",\"potentialAction\":{\"@type\":\"BuyAction\",\"target\":\"https:\\/\\/beautinow.com\\/products\\/versace-eros-eau-de-toilette-2\\/\"}},{\"@type\":\"ImageObject\",\"inLanguage\":\"en-GB\",\"@id\":\"https:\\/\\/beautinow.com\\/products\\/versace-eros-eau-de-toilette-2\\/#primaryimage\",\"url\":\"https:\\/\\/beautinow.com\\/wp-content\\/uploads\\/2024\\/09\\/8011003809257-Versace-Eros-EDT-Tester-100ml.png\",\"contentUrl\":\"https:\\/\\/beautinow.com\\/wp-content\\/uploads\\/2024\\/09\\/8011003809257-Versace-Eros-EDT-Tester-100ml.png\",\"width\":600,\"height\":600},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/beautinow.com\\/products\\/versace-eros-eau-de-toilette-2\\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/beautinow.com\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Designer Perfume Brands\",\"item\":\"https:\\/\\/beautinow.com\\/collections\\/designer-perfume-brands\\/\"},{\"@type\":\"ListItem\",\"position\":3,\"name\":\"Versace Eros Eau de Toilette\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/beautinow.com\\/#website\",\"url\":\"https:\\/\\/beautinow.com\\/\",\"name\":\"Beautinow\",\"description\":\"Moeiteloos uniek\",\"publisher\":{\"@id\":\"https:\\/\\/beautinow.com\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/beautinow.com\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-GB\"},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/beautinow.com\\/#organization\",\"name\":\"Beautinow B.V.\",\"alternateName\":\"Beautinow\",\"url\":\"https:\\/\\/beautinow.com\\/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-GB\",\"@id\":\"https:\\/\\/beautinow.com\\/#\\/schema\\/logo\\/image\\/\",\"url\":\"https:\\/\\/beautinow.com\\/wp-content\\/uploads\\/2026\\/04\\/White-Logo-e1777030593303.png\",\"contentUrl\":\"https:\\/\\/beautinow.com\\/wp-content\\/uploads\\/2026\\/04\\/White-Logo-e1777030593303.png\",\"width\":1000,\"height\":1000,\"caption\":\"Beautinow B.V.\"},\"image\":{\"@id\":\"https:\\/\\/beautinow.com\\/#\\/schema\\/logo\\/image\\/\"},\"sa",
-   "{\n  \"@context\": \"https://schema.org\",\n  \"@graph\": [\n\n    {\n      \"@type\": [\"Organization\", \"Store\"],\n      \"@id\": \"https://beautinow.com/#organization\",\n      \"name\": \"Beautinow\",\n      \"url\": \"https://beautinow.com\",\n      \"logo\": \"https://cdn4.beautinow.com/wp-content/uploads/2024/02/Black-Logo-Cut-New.png\",\n      \"foundingDate\": \"2019\",\n      \"description\": \"Netherlands-based online retailer offering authentic niche perfumes and beauty products with fast EU delivery.\",\n      \"sameAs\": [\n        \"https://www.trustpilot.com/review/www.beautinow.com\",\n        \"https://www.instagram.com/beautinownl/\",\n        \"https://www.facebook.com/beautinownll/\",\n        \"https://www.youtube.com/@beautinownl\"\n      ],\n      \"address\": {\n        \"@type\": \"PostalAddress\",\n        \"streetAddress\": \"Wilhelminaplein 1\",\n        \"addressLocality\": \"Rotterdam\",\n        \"postalCode\": \"3072DE\",\n        \"addressCountry\": \"NL\"\n      },\n      \"areaServed\": {\n        \"@type\": \"AdministrativeArea\",\n        \"name\": \"European Union\"\n      },\n      \"currenciesAccepted\": \"EUR\",\n      \"priceRange\": \"$$$\"\n    },\n    {\n      \"@type\": \"ProductGroup\",\n      \"@id\": \"https://beautinow.com/products/versace-eros-eau-de-toilette-2/#productgroup\",\n      \"name\": \"Versace Eros Eau de Toilette\",\n      \"description\": \"Versace Eros Eau de Toilette is a bold men's fragrance that blends fresh citrus, aromatic herbs, and warm woody notes. Launched in 2012 and crafted by perfumer Aurélien Guichard, this Eau de Toilette captures the essence of passion and desire, making it ideal for evening wear and cooler seasons. Fragrance Type: Eau de Toilette Gender: Men Fragrance Family: Aromatic Fougere Longevity: 6–8 hours Sillage: Moderate to Strong Projection: Moderate Versace Eros Eau de Toilette Notes Top Notes: Mint, Green Apple, Lemon Middle Notes: Tonka Bean, Ambroxan, Geranium Base Notes: Madagascar Vanilla, Virginian Cedar, Atlas Cedar, Vetiver, Oakmoss Scent Description Eros Eau de Toilette opens with a vibrant blend of mint, green apple, and lemon, creating a fresh and invigorating introduction. The heart reveals a warm combination of tonka bean, ambroxan, and geranium, adding depth and sensuality to the composition. The base notes of Madagascar vanilla, cedarwood, vetiver, and oakmoss provide a smooth and masculine finish, encapsulating the luxurious essence of the fragrance. Performance Details Longevity: Long-lasting, with the scent remaining noticeable for 6–8 hours. Sillage: Moderate to strong, leaving a pleasant trail without being overpowering. Projection: Moderate, projecting well in close proximity. Experience the refined elegance of Versace Eros Eau de Toilette—a fragrance that embodies sophistication through its harmonious blend of fresh, aromatic, and woody notes. Note: All products are 100% authentic.\",\n      \"url\": \"https://beautinow.com/products/versace-eros-eau-de-toilette-2/\",\n      \"brand\": {\n      \"@type\": \"Brand\",\n      \"@id\": \"https://beautinow.com/collections/versace/\",\n     "
-  ],
-  "precios_en_html": [
-   "ory4%22%3A%22Men%27s%20Perfumes%20%26%20Fragrances%22%2C%22item_category5%22%3A%22Perfumes%22%7D%5D%2C%22currency%22%3A%22EUR%22%2C%22value%22%3A%220%22%2C%22ecomm_prodid%22%3A%22157709",
-   "2%2C%22YE%22%3A%22Yemen%22%2C%22ZM%22%3A%22Zambia%22%2C%22ZW%22%3A%22Zimbabwe%22%7D%2C%22currency%22%3A%7B%22code%22%3A%22EUR%22%2C%22precision%22%3A2%2C%22symbol%22%3A%22%5Cu20ac%22%2C"
+   "=\"true\"                 show-discount        >                 <span class=\"price price--large price--highlight\">       48,95€     </span><div class=\"price-list__compare-container\">     ",
+   "hlight\">       48,95€     </span><div class=\"price-list__compare-container\">         <span class=\"price price--compare\">121,00€</span>                                          <span class",
+   "oad-product-data=\"true\"                 show-discount        >                 <span class=\"price price--large \">       96,95€     </span></product-price-list>                </div>     ",
+   "=\"true\"                 show-discount        >                 <span class=\"price price--large price--highlight\">       49,95€     </span><span class=\"price text--subdued pdp-unit-price\"",
+   "dad\">         <span class=\"unit-price-measurement\">           <span class=\"unit-price-measurement__price\">              124,88€           </span>           <span class=\"unit-price-measure",
+   "an>         </span>       </span><div class=\"price-list__compare-container\">         <span class=\"price price--compare\">98,00€</span>                                          <span class",
+   "=\"true\"                 show-discount        >                 <span class=\"price price--large price--highlight\">       32,45€     </span><span class=\"price text--subdued pdp-unit-price\"",
+   "dad\">         <span class=\"unit-price-measurement\">           <span class=\"unit-price-measurement__price\">              108,17€           </span>           <span class=\"unit-price-measure",
+   "an>         </span>       </span><div class=\"price-list__compare-container\">         <span class=\"price price--compare\">72,00€</span>                                          <span class",
+   "      data-variant-id=\"55268586750285\"                   data-option-position=\"1\"                   data-variant-price=\"32,45€\"                   data-variant-compare=\"72,00€\"           ",
+   "         data-option-position=\"1\"                   data-variant-price=\"32,45€\"                   data-variant-compare=\"72,00€\"                   data-variant-unit-price=\"108,17€\"       ",
+   " data-variant-price=\"32,45€\"                   data-variant-compare=\"72,00€\"                   data-variant-unit-price=\"108,17€\"                                        checked=\"checked\"  ",
+   "      data-variant-id=\"55268586783053\"                   data-option-position=\"1\"                   data-variant-price=\"49,95€\"                   data-variant-compare=\"103,00€\"          ",
+   "         data-option-position=\"1\"                   data-variant-price=\"49,95€\"                   data-variant-compare=\"103,00€\"                   data-variant-unit-price=\"99,90€\"        ",
+   "data-variant-price=\"49,95€\"                   data-variant-compare=\"103,00€\"                   data-variant-unit-price=\"99,90€\"                                                       >   ",
+   "      data-variant-id=\"55268586815821\"                   data-option-position=\"1\"                   data-variant-price=\"71,95€\"                   data-variant-compare=\"146,00€\"          ",
+   "         data-option-position=\"1\"                   data-variant-price=\"71,95€\"                   data-variant-compare=\"146,00€\"                   data-variant-unit-price=\"71,95€\"        ",
+   "data-variant-price=\"71,95€\"                   data-variant-compare=\"146,00€\"                   data-variant-unit-price=\"71,95€\"                                                       >   ",
+   "      data-variant-id=\"55266809741645\"                   data-option-position=\"1\"                   data-variant-price=\"74,45€\"                   data-variant-compare=\"161,00€\"          ",
+   "         data-option-position=\"1\"                   data-variant-price=\"74,45€\"                   data-variant-compare=\"161,00€\"                   data-variant-unit-price=\"49,63€\"        ",
+   "data-variant-price=\"74,45€\"                   data-variant-compare=\"161,00€\"                   data-variant-unit-price=\"49,63€\"                                                       >   ",
+   "application/json\" data-product-item-variants>       [{\"id\":55268586750285,\"available\":true,\"options\":[\"30 ml\"],\"price\":\"32,45€\",\"compare\":\"72,00€\",\"unit\":\"108,17€\"},{\"id\":55268586783053,",
+   "ata-product-item-variants>       [{\"id\":55268586750285,\"available\":true,\"options\":[\"30 ml\"],\"price\":\"32,45€\",\"compare\":\"72,00€\",\"unit\":\"108,17€\"},{\"id\":55268586783053,\"available\":true,\"o"
   ],
   "variantes": []
  },
  "idealo": {
-  "url": "https://www.idealo.es/precios/3753172/versace-eros-eau-de-toilette-100-ml.html",
-  "ml": 100,
+  "url": "https://www.idealo.es/precios/600489/davidoff-cool-water-eau-de-toilette-125-ml.html",
+  "ml": 125,
   "resultado": {
-   "precio": 48.48,
+   "precio": 19.9,
    "metodo": "jsonld-url",
-   "referencia": 65.95,
+   "referencia": 23.035,
    "aceptado": true
   },
   "jsonld": [
-   "{\"@context\":\"http://schema.org\",\"@type\":\"Product\",\"aggregateRating\":{\"@type\":\"AggregateRating\",\"ratingValue\":4.400000095367432,\"ratingCount\":15,\"bestRating\":5.0,\"worstRating\":1.0},\"name\":\"Versace Eros Eau de Toilette\",\"offers\":{\"@type\":\"AggregateOffer\",\"lowPrice\":48.48,\"highPrice\":88.0,\"priceCurrency\":\"EUR\",\"offerCount\":22,\"availability\":\"https://schema.org/InStock\",\"itemCondition\":\"https://schema.org/NewCondition\"},\"review\":[{\"@type\":\"Review\",\"author\":{\"@type\":\"Person\",\"name\":\"Christin N.\"},\"datePublished\":\"2023-03-24\",\"reviewBody\":\"Compré este perfume para mi novio hace unos 4 meses y los dos estamos muy contentos con él. Huele increíblemente bien y no es demasiado fuerte. El olor se nota un poco en los demás, pero no demasiado. La botella tenía entonces 50 ml y hace una semana pedí una nueva botella con 100 ml. Por desgracia, el perfume es bastante caro. Sólo el frasco de 50 ml cuesta unos 80 euros y el de 100 ml, unos 105 euros. Pero no pasa nada porque le voy a regalar el perfume a mi novio por su cumpleaños porque le ha gustado mucho. También me encanta el frasco de perfume. Sencillamente, parece de muy alta calidad. Así que realmente sólo puedo recomendar este perfume.\\n⊕ Alta calidad, Dura mucho\\n⊖ Caro\",\"reviewRating\":{\"@type\":\"Rating\",\"bestRating\":\"5\",\"worstRating\":\"1\",\"ratingValue\":\"5\"}},{\"@type\":\"Review\",\"author\":{\"@type\":\"Person\",\"name\":\"Emil M.\"},\"datePublished\":\"2022-11-16\",\"reviewBody\":\"En mi opinión, es la mejor fragancia masculina que he usado, pero tiene pequeños aspectos negativos, y es que no dura tanto. Sólo puedo recomendárselo a todo el mundo. Huele muy, muy bien, además es super adecuado para todas las edades y tiene una super relación calidad-precio.\\n⊕ Huele muy muy fuerte\\n⊖ No dura mucho\",\"reviewRating\":{\"@type\":\"Rating\",\"bestRating\":\"5\",\"worstRating\":\"1\",\"ratingValue\":\"4\"}},{\"@type\":\"Review\",\"author\":{\"@type\":\"Person\",\"name\":\"Kev W.\"},\"datePublished\":\"2022-10-24\",\"reviewBody\":\"Fragancia muy buena, elegante y duradera. Sin embargo, es muy caro para lo que ofrece. No sé si volvería a comprarlo. Solo por el precio no volvería a pagar. Cuando está en oferta, absolutamente recomendable. Oloroso 1.\\n⊕ Olor fuerte\\n⊖ Caro\",\"reviewRating\":{\"@type\":\"Rating\",\"bestRating\":\"5\",\"worstRating\":\"1\",\"ratingValue\":\"5\"}},{\"@type\":\"Review\",\"author\":{\"@type\":\"Person\",\"name\":\"Melisa K.\"},\"datePublished\":\"2022-10-23\",\"reviewBody\":\"Este perfume me trae muchos cumplidos cada vez. Aunque me parece un poco caro, sigo pensando que está bien porque dura unas cuantas horas. Además, visualmente me parece muy bonito, como también valoro el envase. A mí me huele un poco a limón, pachulí y vainilla. Ideal para llevar a diario, pero también para salir.\\n⊕ Oler\\n⊖ Precio\",\"reviewRating\":{\"@type\":\"Rating\",\"bestRating\":\"5\",\"worstRating\":\"1\",\"ratingValue\":\"5\"}},{\"@type\":\"Review\",\"author\":{\"@type\":\"Person\",\"name\":\"Sahin K.\"},\"datePublished\":\"2022-10-16\",\"reviewBody\":\"Tengo esta fragancia en mi colección de perfumes desde hace mucho tiempo y, aunque tengo m",
-   "{\"@context\":\"https://schema.org\",\"@type\":\"ProductGroup\",\"name\":\"Versace Eros Eau de Toilette\",\"brand\":{\"@type\":\"Brand\",\"name\":\"Versace\"},\"productGroupID\":\"3753174\",\"hasVariant\":[{\"@type\":\"Product\",\"@id\":\"https://www.idealo.es/precios/3753172/versace-eros-eau-de-toilette-100-ml.html\",\"url\":\"https://www.idealo.es/precios/3753172/versace-eros-eau-de-toilette-100-ml.html\",\"name\":\"Versace Eros Eau de Toilette (100 ml)\",\"sku\":\"0667553846891\",\"image\":[\"https://cdn.idealo.com/images/product/3753172/es_ES/0/max.jpg\"]},{\"url\":\"https://www.idealo.es/precios/3753173/versace-eros-eau-de-toilette-50-ml.html\"},{\"url\":\"https://www.idealo.es/precios/3761618/versace-eros-eau-de-toilette-30-ml.html\"},{\"url\":\"https://www.idealo.es/precios/3938070/versace-eros-eau-de-toilette-200-ml.html\"}]}"
+   "{\"@context\":\"http://schema.org\",\"@type\":\"Product\",\"aggregateRating\":{\"@type\":\"AggregateRating\",\"ratingValue\":4.429999828338623,\"ratingCount\":44,\"bestRating\":5.0,\"worstRating\":1.0},\"name\":\"Davidoff Cool Water Eau de Toilette\",\"offers\":{\"@type\":\"AggregateOffer\",\"lowPrice\":19.9,\"highPrice\":87.63,\"priceCurrency\":\"EUR\",\"offerCount\":17,\"availability\":\"https://schema.org/InStock\",\"itemCondition\":\"https://schema.org/NewCondition\"},\"review\":[{\"@type\":\"Review\",\"author\":{\"@type\":\"Person\",\"name\":\"Idealo User\"},\"datePublished\":\"2015-02-10\",\"headline\":\"Fragrancia Hermosa\",\"reviewBody\":\"He estado usando esta fragancia desde 2006. Aroma decente, ligero y refrescante con notas masculinas menos abrumadoras. Recibo muchos comentarios positivos por el agradable olor. DAVIDOFF es popular por sus increíbles fragancias. Me complace especialmente el precio. Muy recomendable.\",\"reviewRating\":{\"@type\":\"Rating\",\"bestRating\":\"5\",\"worstRating\":\"1\",\"ratingValue\":\"5\"}},{\"@type\":\"Review\",\"author\":{\"@type\":\"Person\",\"name\":\"Bruno\"},\"datePublished\":\"2012-05-04\",\"headline\":\"Aroma bonito.\",\"reviewBody\":\"El perfume huele simplemente fresco. El aroma es ligero y dulce, me gusta mucho el perfume en la nariz. Hasta ahora solo he recibido comentarios positivos y seguiré usándolo por mucho tiempo. He estado usando el perfume desde 2006 y siempre estoy satisfecho. No hay nada más que decir.\",\"reviewRating\":{\"@type\":\"Rating\",\"bestRating\":\"5\",\"worstRating\":\"1\",\"ratingValue\":\"5\"}},{\"@type\":\"Review\",\"author\":{\"@type\":\"Person\",\"name\":\"Marlon\"},\"datePublished\":\"2011-12-30\",\"reviewBody\":\"El perfume es genial. Huele maravillosamente fresco y herbáceo. Un clásico atemporal que siempre disfruto usar. Es discreto y huele agradablemente fresco. Con la cantidad y su uso moderado, dura medio eternidad. Cumplió totalmente con mis expectativas. En la tienda lo probé antes, pero solo en Internet pude conseguirlo a un precio mucho más bajo.\",\"reviewRating\":{\"@type\":\"Rating\",\"bestRating\":\"5\",\"worstRating\":\"1\",\"ratingValue\":\"5\"}}],\"brand\":{\"@type\":\"Brand\",\"name\":\"Davidoff\"},\"image\":[\"https://cdn.idealo.com/images/product/600489/es_ES/0/gross.jpg\"],\"description\":\"Perfumes de hombre Davidoff  Cool Water Eau de Toilette (125 ml) al mejor precio en idealo.es ! | ✓ Guía para comprar online ✓ Análisis y opiniones ✓ Las mejores ofertas y precios baratos\",\"url\":\"https://www.idealo.es/precios/600489/davidoff-cool-water-eau-de-toilette-125-ml.html\",\"sku\":\"0034142000000\",\"gtin\":\"0034142000000\"}",
+   "{\"@context\":\"https://schema.org\",\"@type\":\"ProductGroup\",\"name\":\"Davidoff Cool Water Eau de Toilette\",\"brand\":{\"@type\":\"Brand\",\"name\":\"Davidoff\"},\"productGroupID\":\"600488\",\"hasVariant\":[{\"@type\":\"Product\",\"@id\":\"https://www.idealo.es/precios/600489/davidoff-cool-water-eau-de-toilette-125-ml.html\",\"url\":\"https://www.idealo.es/precios/600489/davidoff-cool-water-eau-de-toilette-125-ml.html\",\"name\":\"Davidoff Cool Water Eau de Toilette (125 ml)\",\"sku\":\"0034142000000\",\"image\":[\"https://cdn.idealo.com/images/product/600489/es_ES/0/max.jpg\"]},{\"url\":\"https://www.idealo.es/precios/600485/davidoff-cool-water-eau-de-toilette-75-ml.html\"},{\"url\":\"https://www.idealo.es/precios/335658/davidoff-cool-water-eau-de-toilette-40-ml.html\"},{\"url\":\"https://www.idealo.es/precios/1185354/davidoff-cool-water-eau-de-toilette-200-ml.html\"},{\"url\":\"https://www.idealo.es/precios/206014460/davidoff-cool-water-eau-de-toilette-oceanic-edition-125ml.html\"}]}"
   ],
   "precios_en_html": [
-   "ref=\"//cdn.idealo.com/images/product/3753172/es_ES/0/gross.jpg\"/> \t\t\t<title>Versace Eros Eau de Toilette (100 ml) desde 48,48 € | Black Friday 2026 | ✓ Historial de precios en idealo</tit",
+   "/cdn.idealo.com/images/product/600489/es_ES/0/gross.jpg\"/> \t\t\t<title>Davidoff Cool Water Eau de Toilette (125 ml) desde 19,90 € | Black Friday 2026 | ✓ Historial de precios en idealo</tit",
    "),o=[i,...l].slice(0,10);Ct(o)},Nt=[\"Ich suche meine neue Waschmaschine.\",\"Vergleiche iPhone 17 mit Samsung S26!\",\"Sind 599€ ein Deal für's Galaxy S26 FE?\"],Mt=({onPromptClick:e})=>he(",
-   "338922&amp;type=offer&amp;pos=-2\"                                class=\"leadoutbox-priceAmount\" rel=\"noopener nofollow\">48,48 €</a>             <span>Gastos de envío no incluidos</span>  ",
-   "follow\">48,48 €</a>             <span>Gastos de envío no incluidos</span>             <div class=\"leadoutbox-priceBase\">484,80 €/l</div>             </div>         <a target=\"_blank\"      ",
-   "r-xlarge\" \t\t   data-trx-click=\"product_stage_cta_click;1-0-0;sooper\" \t\t> \t\t\t<p class=\"oopStage-priceRangeCtaRange\"> \t\t\t\t48,48 € – 88,00 €</p> \t\t\t<span class=\"oopStage-priceRangeCtaButton\"",
-   "\t\t   data-trx-click=\"product_stage_cta_click;1-0-0;sooper\" \t\t> \t\t\t<p class=\"oopStage-priceRangeCtaRange\"> \t\t\t\t48,48 € – 88,00 €</p> \t\t\t<span class=\"oopStage-priceRangeCtaButton\"> \t\t\t\tComp",
-   " class=\"oopStage-stickyPriceCtaPriceLabel\">desde</span>                 <span class=\"oopStage-stickyPriceCtaPriceValue\">48,48 €</span>             </span>             <a class=\"oopStage-s",
-   "eRange hide\"> \t\t\t\t<span class=\"oopStage-priceRangeOffers\">22 ofertas:</span> \t\t\t\t<span class=\"oopStage-priceRangePrice\">48,48 € – 88,00 €</span> \t\t\t</a> \t\t<div class=\"oopStage-metaInfoIte",
-   "e\"> \t\t\t\t<span class=\"oopStage-priceRangeOffers\">22 ofertas:</span> \t\t\t\t<span class=\"oopStage-priceRangePrice\">48,48 € – 88,00 €</span> \t\t\t</a> \t\t<div class=\"oopStage-metaInfoItemWrapper\">",
+   "338922&amp;type=offer&amp;pos=-2\"                                class=\"leadoutbox-priceAmount\" rel=\"noopener nofollow\">19,90 €</a>             <span>Gastos de envío no incluidos</span>  ",
+   "follow\">19,90 €</a>             <span>Gastos de envío no incluidos</span>             <div class=\"leadoutbox-priceBase\">159,20 €/l</div>             </div>         <a target=\"_blank\"      ",
+   "r-xlarge\" \t\t   data-trx-click=\"product_stage_cta_click;1-0-0;sooper\" \t\t> \t\t\t<p class=\"oopStage-priceRangeCtaRange\"> \t\t\t\t19,90 € – 87,63 €</p> \t\t\t<span class=\"oopStage-priceRangeCtaButton\"",
+   "\t\t   data-trx-click=\"product_stage_cta_click;1-0-0;sooper\" \t\t> \t\t\t<p class=\"oopStage-priceRangeCtaRange\"> \t\t\t\t19,90 € – 87,63 €</p> \t\t\t<span class=\"oopStage-priceRangeCtaButton\"> \t\t\t\tComp",
+   " class=\"oopStage-stickyPriceCtaPriceLabel\">desde</span>                 <span class=\"oopStage-stickyPriceCtaPriceValue\">19,90 €</span>             </span>             <a class=\"oopStage-s",
+   "eRange hide\"> \t\t\t\t<span class=\"oopStage-priceRangeOffers\">17 ofertas:</span> \t\t\t\t<span class=\"oopStage-priceRangePrice\">19,90 € – 87,63 €</span> \t\t\t</a> \t\t<div class=\"oopStage-metaInfoIte",
+   "e\"> \t\t\t\t<span class=\"oopStage-priceRangeOffers\">17 ofertas:</span> \t\t\t\t<span class=\"oopStage-priceRangePrice\">19,90 € – 87,63 €</span> \t\t\t</a> \t\t<div class=\"oopStage-metaInfoItemWrapper\">",
    "Roma Eau de Toilette</div> \t\t\t\t\t\t\t</a> \t\t\t\t\t\t\t<div class=\"topTenProducts-product-description-price\"> \t\t\t\t\t\t\t\tdesde&nbsp;22,09 €</div> \t\t\t\t\t\t</div>  \t\t\t\t\t</li> \t\t\t\t<li class=\"topTenProduct",
    "omme Eau De Toilette</div> \t\t\t\t\t\t\t</a> \t\t\t\t\t\t\t<div class=\"topTenProducts-product-description-price\"> \t\t\t\t\t\t\t\tdesde&nbsp;37,18 €</div> \t\t\t\t\t\t</div>  \t\t\t\t\t</li> \t\t\t\t<li class=\"topTenProduct",
    "rmès Eau de Toilette</div> \t\t\t\t\t\t\t</a> \t\t\t\t\t\t\t<div class=\"topTenProducts-product-description-price\"> \t\t\t\t\t\t\t\tdesde&nbsp;34,85 €</div> \t\t\t\t\t\t</div>  \t\t\t\t\t</li> \t\t\t\t<li class=\"topTenProduct",
@@ -123,41 +76,83 @@
    " Man Eau de Toilette</div> \t\t\t\t\t\t\t</a> \t\t\t\t\t\t\t<div class=\"topTenProducts-product-description-price\"> \t\t\t\t\t\t\t\tdesde&nbsp;25,50 €</div> \t\t\t\t\t\t</div>  \t\t\t\t\t</li> \t\t\t\t<li class=\"topTenProduct",
    "omme Eau de Toilette</div> \t\t\t\t\t\t\t</a> \t\t\t\t\t\t\t<div class=\"topTenProducts-product-description-price\"> \t\t\t\t\t\t\t\tdesde&nbsp;50,66 €</div> \t\t\t\t\t\t</div>  \t\t\t\t\t</li> \t\t\t\t<li class=\"topTenProduct",
    "oewe Eau de Toilette</div> \t\t\t\t\t\t\t</a> \t\t\t\t\t\t\t<div class=\"topTenProducts-product-description-price\"> \t\t\t\t\t\t\t\tdesde&nbsp;57,25 €</div> \t\t\t\t\t\t</div>  \t\t\t\t\t</li> \t\t\t\t</ol> \t\t</section> \t<sec",
-   "a> \t\t\t\t\t\t\t\t</div> \t\t\t\t\t\t\t\t<div class=\"sideBar-product-description-price\">                                    desde&nbsp;51,26 €</div> \t\t\t\t\t\t\t</div> \t\t\t\t\t</li> \t\t\t\t<li class=\"sideBar-produ",
-   "a> \t\t\t\t\t\t\t\t</div> \t\t\t\t\t\t\t\t<div class=\"sideBar-product-description-price\">                                    desde&nbsp;44,66 €</div> \t\t\t\t\t\t\t</div> \t\t\t\t\t</li> \t\t\t\t<li class=\"sideBar-produ",
-   "a> \t\t\t\t\t\t\t\t</div> \t\t\t\t\t\t\t\t<div class=\"sideBar-product-description-price\">                                    desde&nbsp;133,69 €</div> \t\t\t\t\t\t\t</div> \t\t\t\t\t</li> \t\t\t\t<li class=\"sideBar-produ",
-   "a> \t\t\t\t\t\t\t\t</div> \t\t\t\t\t\t\t\t<div class=\"sideBar-product-description-price\">                                    desde&nbsp;18,84 €</div> \t\t\t\t\t\t\t</div> \t\t\t\t\t</li> \t\t\t\t<li class=\"sideBar-produ",
-   "a> \t\t\t\t\t\t\t\t</div> \t\t\t\t\t\t\t\t<div class=\"sideBar-product-description-price\">                                    desde&nbsp;160,69 €</div> \t\t\t\t\t\t\t</div> \t\t\t\t\t</li> \t\t\t\t</ul>  \t\t</section>     ",
-   "                                   target=\"_blank\"                rel=\"noopener nofollow\"             >                 48,48 €<span class=\"productOffers-listItemOfferBasePrice\">         "
+   "a> \t\t\t\t\t\t\t\t</div> \t\t\t\t\t\t\t\t<div class=\"sideBar-product-description-price\">                                    desde&nbsp;16,09 €</div> \t\t\t\t\t\t\t</div> \t\t\t\t\t</li> \t\t\t\t<li class=\"sideBar-produ",
+   "a> \t\t\t\t\t\t\t\t</div> \t\t\t\t\t\t\t\t<div class=\"sideBar-product-description-price\">                                    desde&nbsp;21,49 €</div> \t\t\t\t\t\t\t</div> \t\t\t\t\t</li> \t\t\t\t<li class=\"sideBar-produ",
+   "a> \t\t\t\t\t\t\t\t</div> \t\t\t\t\t\t\t\t<div class=\"sideBar-product-description-price\">                                    desde&nbsp;20,19 €</div> \t\t\t\t\t\t\t</div> \t\t\t\t\t</li> \t\t\t\t<li class=\"sideBar-produ",
+   "a> \t\t\t\t\t\t\t\t</div> \t\t\t\t\t\t\t\t<div class=\"sideBar-product-description-price\">                                    desde&nbsp;15,75 €</div> \t\t\t\t\t\t\t</div> \t\t\t\t\t</li> \t\t\t\t<li class=\"sideBar-produ",
+   "a> \t\t\t\t\t\t\t\t</div> \t\t\t\t\t\t\t\t<div class=\"sideBar-product-description-price\">                                    desde&nbsp;22,81 €</div> \t\t\t\t\t\t\t</div> \t\t\t\t\t</li> \t\t\t\t</ul>  \t\t</section>     ",
+   "                                   target=\"_blank\"                rel=\"noopener nofollow\"             >                 19,90 €<span class=\"productOffers-listItemOfferBasePrice\">         "
   ],
   "variantes": []
  },
  "idealo_ofertas": {
-  "perfume": "versace-eros-edt-100",
+  "perfume": "davidoff-cool-water-edt-125",
   "encontradas": {
-   "notino": 49.6,
-   "primor": 54.94,
-   "arenal": 54.95,
-   "druni": 54.95,
-   "julia": 69.95,
-   "sabina": 71.04
+   "primor": 20.14,
+   "arenal": 20.15,
+   "druni": 20.15,
+   "sabina": 28.15,
+   "notino": 28.43,
+   "julia": 34.95
   },
-  "listas": 1011,
-  "muestra": "784351cb45\"></span>\n        <span data-offerlist-segment=\"new\"></span>\n        <span class=\"authorised-badge-available\"\n                  data-trx-visible=\"authorised_badge_availability;1-0-0;sooper\"\n                  data-trx-visible-data='{&#034;badged_offers&#034;:[]}'></span>\n        <li class=\"productOffers-listItemOfferErrorBanner row row-24\">\n\t<div class=\"banner bannerOfferError\">\n\t\t<span class=\"banner-content bannerOfferError-icon\">\n\t\t\t<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<svg width=\"22px\" height=\"22px\" viewBox=\"0 0 64 64\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->\n    <g id=\"Page-1\" stroke=\"none\" stroke-width=\"1\" fill=\"none\" fill-rule=\"evenodd\">\n        <g id=\"04_Above_Offerlist_mobile\" transform=\"translate(-222.000000, -308.000000)\" fill=\"#0771D0\" fill-rule=\"nonzero\">\n            <g id=\"ico_info_circle_filled\" transform=\"translate(222.000000, 308.000000)\">\n                <path d=\"M32,0 C14.326888,0 0,14.326888 0,32 C0,49.673112 14.326888,64 32,64 C49.673112,64 64,49.673112 64,32 C63.9791607,14.3355271 49.6644729,0.0208392747 32,0 Z M34.9090909,46.5454545 C34.9090909,48.1521011 33.6066465,49.4545455 32,49.4545455 C30.3933535,49.4545455 29.0909091,48.1521011 29.0909091,46.5454545 L29.0909091,32 C29.0909091,30.3933535 30.3933535,29.0909091 32,29.0909091 C33.6066465,29.0909091 34.9090909,30.3933535 34.9090909,32 L34.9090909,46.5454545 Z M32,22.1090909 C29.9113595,22.1090909 28.2181818,20.4159132 28.2181818,18.3272727 C28.2181818,16.2386322 29.9113595,14.5454545 32,14.5454545 C34.0886405,14.5454545 35.7818182,16.2386322 35.7818182,18.3272727 C35.7818182,20.4159132 34.0886405,22.1090909 32,22.1090909 Z\" id=\"Shape\"></path>\n            </g>\n        </g>\n    </g>\n</svg>\n</span>\n\t\t<strong class=\"banner-content\" data-label=\"¿Encontraste un error?\">\n\t\t</strong>\n\t\t<span class=\"banner-content bannerOfferError-linkContainer\">\n\t\t\t<a class=\"banner-link\" data-label=\"Infórmanos.\">\n\t\t\t</a>\n\t\t</span>\n\t</div>\n</li>\n<li class=\"productOffers-listItem row row-24 \"\n        \n    data-shop='{\"type\":\"IDECL\"}'\n        \n            data-trx-click=\"offer_click;2-4-10;sooper\"\n            data-trx-click-data='click_target=>offer-row;offer_click_type=>clickout;{&#034;offer_key&#034;:&#034;9cab65b75818bd99787eba2c475bc2d5&#034;,&#034;shop_id&#034;:&#034;338922&#034;,&#034;offer_position&#034;:&#034;0&#034;,&#034;authorised_badge_available&#034;:false,&#034;leadout_type&#034;:&#034;offer&#034;}'\n        \n                data-mtrx-click='{&#034;shop_name&#034;:&#034;unoporciento.es&#034;,&#034;products&#034;:[{&#034;id&#034;:3753172,&#034;category&#034;:8694,&#034;name&#034;:&#034;Versace Eros Eau de Toilette (100 ml)&#034;,&#034;price&#034;:48.48}],&#034;event&",
-  "notino": "_position&#034;:&#034;0&#034;,&#034;authorised_badge_available&#034;:false,&#034;leadout_type&#034;:&#034;offer&#034;}'\n    \n>\n    <a rel=\"noopener nofollow\" target=\"_blank\"\n        \n            href=\"/relocator/relocate?categoryId=8694&amp;offerKey=9cab65b75818bd99787eba2c475bc2d5&amp;pos=1&amp;price=48.48&amp;productid=3753172&amp;sid=338922&amp;type=offer\"\n        \n    >\n        <span class=\"productOffers-listItemOfferDeliveryStatusMobileText\">\n            <p class=\"productOffers-listItemOfferDeliveryStatusDates productOffers-listItemOfferDeliveryStatus\">\n       <span class=\"productOffers-listItemOfferDeliveryStatusDatesTitle\">\n           Entrega:\n       </span>\n        <span class=\"productOffers-listItemOfferDeliveryStatusDatesRange\">\n            hasta jue 26.11.</span>\n    </p>\n</span>\n    </a>\n</span>\n\n</div>\n<a class=\"productOffers-listItemOfferLink\"\n        \n            href=\"/relocator/relocate?categoryId=8694&amp;offerKey=9cab65b75818bd99787eba2c475bc2d5&amp;pos=1&amp;price=48.48&amp;productid=3753172&amp;sid=338922&amp;type=offer\"\n        \n   target=\"_blank\"\n   data-shop-name=\"unoporciento.es\"\n   rel=\"noopener nofollow\"\n>\n</a>\n</li>\n<li class=\"productOffers-listItem row row-24 \"\n        \n    data-shop='{\"type\":\"IDECL\"}'\n        \n            data-trx-click=\"offer_click;2-4-10;sooper\"\n            data-trx-click-data='click_target=>offer-row;offer_click_type=>voucher_overlay;{&#034;offer_key&#034;:&#034;9ac3f7c894a516270a9f94f5d505a044&#034;,&#034;shop_id&#034;:&#034;298684&#034;,&#034;offer_position&#034;:&#034;1&#034;,&#034;authorised_badge_available&#034;:false,&#034;leadout_type&#034;:&#034;offer&#034;}'\n        \n    data-error-data-url=\"L29mZmVycGFnZS9vZmZlci9lcnJvci9hcGkvcHJvZHVjdC8zNzUzMTcyL29mZmVya2V5LzlhYzNmN2M4OTRhNTE2MjcwYTlmOTRmNWQ1MDVhMDQ0P29mZmVySW5kZXg9MQ==\"\n    data-error-reporting-overlay-url=\"https://www.idealo.es/offerpage/ui/error-reporting/content?locale=es_ES&language=es_ES&productId=3753172&productName=Versace%20Eros%20Eau%20de%20Toilette%20(100%20ml)&shopName=notino.es&offerKey=9ac3f7c894a516270a9f94f5d505a044&shopId=298684&offerPri"
+  "listas": 873,
+  "muestra": "676985f7cc\"></span>\n        <span data-offerlist-segment=\"new\"></span>\n        <span class=\"authorised-badge-available\"\n                  data-trx-visible=\"authorised_badge_availability;1-0-0;sooper\"\n                  data-trx-visible-data='{&#034;badged_offers&#034;:[]}'></span>\n        <li class=\"productOffers-listItemOfferErrorBanner row row-24\">\n\t<div class=\"banner bannerOfferError\">\n\t\t<span class=\"banner-content bannerOfferError-icon\">\n\t\t\t<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<svg width=\"22px\" height=\"22px\" viewBox=\"0 0 64 64\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->\n    <g id=\"Page-1\" stroke=\"none\" stroke-width=\"1\" fill=\"none\" fill-rule=\"evenodd\">\n        <g id=\"04_Above_Offerlist_mobile\" transform=\"translate(-222.000000, -308.000000)\" fill=\"#0771D0\" fill-rule=\"nonzero\">\n            <g id=\"ico_info_circle_filled\" transform=\"translate(222.000000, 308.000000)\">\n                <path d=\"M32,0 C14.326888,0 0,14.326888 0,32 C0,49.673112 14.326888,64 32,64 C49.673112,64 64,49.673112 64,32 C63.9791607,14.3355271 49.6644729,0.0208392747 32,0 Z M34.9090909,46.5454545 C34.9090909,48.1521011 33.6066465,49.4545455 32,49.4545455 C30.3933535,49.4545455 29.0909091,48.1521011 29.0909091,46.5454545 L29.0909091,32 C29.0909091,30.3933535 30.3933535,29.0909091 32,29.0909091 C33.6066465,29.0909091 34.9090909,30.3933535 34.9090909,32 L34.9090909,46.5454545 Z M32,22.1090909 C29.9113595,22.1090909 28.2181818,20.4159132 28.2181818,18.3272727 C28.2181818,16.2386322 29.9113595,14.5454545 32,14.5454545 C34.0886405,14.5454545 35.7818182,16.2386322 35.7818182,18.3272727 C35.7818182,20.4159132 34.0886405,22.1090909 32,22.1090909 Z\" id=\"Shape\"></path>\n            </g>\n        </g>\n    </g>\n</svg>\n</span>\n\t\t<strong class=\"banner-content\" data-label=\"¿Encontraste un error?\">\n\t\t</strong>\n\t\t<span class=\"banner-content bannerOfferError-linkContainer\">\n\t\t\t<a class=\"banner-link\" data-label=\"Infórmanos.\">\n\t\t\t</a>\n\t\t</span>\n\t</div>\n</li>\n<li class=\"productOffers-listItem row row-24 \"\n        \n    data-shop='{\"type\":\"IDECL\"}'\n        \n            data-trx-click=\"offer_click;2-4-10;sooper\"\n            data-trx-click-data='click_target=>offer-row;offer_click_type=>clickout;{&#034;offer_key&#034;:&#034;2022203a8323c4dbc86325c4743c9005&#034;,&#034;shop_id&#034;:&#034;338922&#034;,&#034;offer_position&#034;:&#034;0&#034;,&#034;authorised_badge_available&#034;:false,&#034;leadout_type&#034;:&#034;offer&#034;}'\n        \n                data-mtrx-click='{&#034;shop_name&#034;:&#034;unoporciento.es&#034;,&#034;products&#034;:[{&#034;id&#034;:600489,&#034;category&#034;:8694,&#034;name&#034;:&#034;Davidoff Cool Water Eau de Toilette (125 ml)&#034;,&#034;price&#034;:19.9}],&#034;e",
+  "notino": "ffer_position&#034;:&#034;8&#034;,&#034;authorised_badge_available&#034;:false,&#034;leadout_type&#034;:&#034;offer&#034;}'\n    \n>\n    <a rel=\"noopener nofollow\" target=\"_blank\"\n        \n            href=\"/relocator/relocate?categoryId=8694&amp;offerKey=f0d9455ed0b868fdb9aca3ea26a4dc71&amp;pos=9&amp;price=28.15&amp;productid=600489&amp;sid=299184&amp;type=offer\"\n        \n    >\n        <span class=\"productOffers-listItemOfferDeliveryStatusMobileText\">\n            <p class=\"productOffers-listItemOfferDeliveryStatusDates productOffers-listItemOfferDeliveryStatus\">\n       <span class=\"productOffers-listItemOfferDeliveryStatusDatesTitle\">\n           Entrega:\n       </span>\n        <span class=\"productOffers-listItemOfferDeliveryStatusDatesRange\">\n            hasta lun 30.11.</span>\n    </p>\n</span>\n    </a>\n</span>\n\n</div>\n<a class=\"productOffers-listItemOfferLink\"\n        \n            href=\"/relocator/relocate?categoryId=8694&amp;offerKey=f0d9455ed0b868fdb9aca3ea26a4dc71&amp;pos=9&amp;price=28.15&amp;productid=600489&amp;sid=299184&amp;type=offer\"\n        \n   target=\"_blank\"\n   data-shop-name=\"sabina.com/es\"\n   rel=\"noopener nofollow\"\n>\n</a>\n</li>\n<li class=\"productOffers-listItem row row-24 \"\n        \n    data-shop='{\"type\":\"IDECL\"}'\n        \n            data-trx-click=\"offer_click;2-4-10;sooper\"\n            data-trx-click-data='click_target=>offer-row;offer_click_type=>voucher_overlay;{&#034;offer_key&#034;:&#034;2f097e0a05f7eee75a41894f4281eeba&#034;,&#034;shop_id&#034;:&#034;298684&#034;,&#034;offer_position&#034;:&#034;9&#034;,&#034;authorised_badge_available&#034;:false,&#034;leadout_type&#034;:&#034;offer&#034;}'\n        \n    data-error-data-url=\"L29mZmVycGFnZS9vZmZlci9lcnJvci9hcGkvcHJvZHVjdC82MDA0ODkvb2ZmZXJrZXkvMmYwOTdlMGEwNWY3ZWVlNzVhNDE4OTRmNDI4MWVlYmE/b2ZmZXJJbmRleD05\"\n    data-error-reporting-overlay-url=\"https://www.idealo.es/offerpage/ui/error-reporting/content?locale=es_ES&language=es_ES&productId=600489&productName=Davidoff%20Cool%20Water%20Eau%20de%20Toilette%20(125%20ml)&shopName=notino.es&offerKey=2f097e0a05f7eee75a41894f4281eeba&shopId=298684&offe"
  },
- "lookfantastic": {
-  "url": "https://www.lookfantastic.es/p/versace-eros-for-men-eau-de-toilette-100ml/11034085/",
-  "ml": 100,
+ "laguna": {
+  "url": "https://www.perfumeriaslaguna.com/perfume-cool-water",
+  "ml": 125,
   "resultado": {
-   "precio": 82.8,
-   "metodo": "jsonld",
-   "referencia": 61.95,
+   "precio": 21.95,
+   "metodo": "precio-100ml",
+   "referencia": 22.134999999999998,
    "aceptado": true
   },
   "jsonld": [
-   "{\"@type\":\"ProductGroup\",\"@context\":\"https://schema.org\",\"productGroupID\":\"11034085\",\"hasVariant\":[{\"@type\":\"Product\",\"sku\":\"14271424\",\"name\":\"Versace Eros for Men Eau de Toilette 100ml\",\"description\":\" Top Notes: Mint Leaves, Lemon Zest, Green Apple.\\n  \\n Heart Notes: Ambroxan, Geranium, Tonka Bean.\\n  \\n Base Notes: Vanilla, Vetiver, Oak Moss Accord, Cedarwood. \\n The Versace Eros Eau de Toilette offers a revitalising freshness to captivate the senses with a fragrance inspired by the Greek God of love. Beginning with a tangy burst, top notes of mint leaves, lemon zest and green apple offer a harmonious blend of crisp aromas. \\n The earthy richness of ambroxan, geranium and tonka bean envelops the heart of the fragrance, melting into a masculine base of sweet vanilla, vetiver, oak moss accord and cedarwood. The EDT offers an enticing infusion, embodying the enthralling passion of romance. \",\"image\":\"https://main.thgimages.com/?url=https://static.thcdn.com/productimg/original/14271424-5225048088500850.jpg&format=webp&width=1500&height=1500&fit=cover\",\"offers\":{\"@type\":\"Offer\",\"sku\":\"14271424\",\"url\":\"https://www.lookfantastic.es/p/versace-eros-for-men-eau-de-toilette-100ml/11034085/?variation=14271424\",\"itemCondition\":\"https://schema.org/NewCondition\",\"availability\":\"https://schema.org/OutOfStock\",\"price\":113.49,\"priceCurrency\":\"EUR\"}},{\"@type\":\"Product\",\"sku\":\"11034083\",\"name\":\"Versace Eros for Men Eau de Toilette 100ml\",\"description\":\" Top Notes: Mint Leaves, Lemon Zest, Green Apple.\\n  \\n Heart Notes: Ambroxan, Geranium, Tonka Bean.\\n  \\n Base Notes: Vanilla, Vetiver, Oak Moss Accord, Cedarwood. \\n The Versace Eros Eau de Toilette offers a revitalising freshness to captivate the senses with a fragrance inspired by the Greek God of love. Beginning with a tangy burst, top notes of mint leaves, lemon zest and green apple offer a harmonious blend of crisp aromas. \\n The earthy richness of ambroxan, geranium and tonka bean envelops the heart of the fragrance, melting into a masculine base of sweet vanilla, vetiver, oak moss accord and cedarwood. The EDT offers an enticing infusion, embodying the enthralling passion of romance. \",\"image\":\"https://main.thgimages.com/?url=https://static.thcdn.com/productimg/original/11034083-1695379322249698.jpg&format=webp&width=1500&height=1500&fit=cover\",\"offers\":{\"@type\":\"Offer\",\"sku\":\"11034083\",\"url\":\"https://www.lookfantastic.es/p/versace-eros-for-men-eau-de-toilette-100ml/11034085/?variation=11034083\",\"itemCondition\":\"https://schema.org/NewCondition\",\"availability\":\"https://schema.org/OutOfStock\",\"price\":49.16,\"priceCurrency\":\"EUR\"}},{\"@type\":\"Product\",\"sku\":\"11034084\",\"name\":\"Versace Eros for Men Eau de Toilette 100ml\",\"description\":\" Top Notes: Mint Leaves, Lemon Zest, Green Apple.\\n  \\n Heart Notes: Ambroxan, Geranium, Tonka Bean.\\n  \\n Base Notes: Vanilla, Vetiver, Oak Moss Accord, Cedarwood. \\n The Versace Eros Eau de Toilette offers a revitalising freshness to captivate the senses with a fragrance inspired",
-   "{\"@context\":\"https://schema.org\",\"@type\":\"BreadcrumbList\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":{\"@type\":\"Thing\",\"@id\":\"https://www.lookfantastic.es/\"}},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Versace Eros for Men Eau de Toilette 100ml\",\"item\":{\"@type\":\"Thing\",\"@id\":\"https://www.lookfantastic.es/p/versace-eros-for-men-eau-de-toilette-100ml/11034085/\"}}]}"
+   "{\n      \"@context\": \"https://schema.org/\",\n      \"@type\": \"Product\",\n      \"name\": \"Cool Water 125 Vaporizador\",\n      \"sku\": \"11405572\",\n      \"image\": \"https://www.perfumeriaslaguna.com/images/products/davidoff-cool-water-men.jpg\",\n      \"brand\": {\n        \"@type\": \"Brand\",\n        \"name\": \"DAVIDOFF\"\n      },\n      \"description\": \"Un fragancia arom&amp;aacute;tica y salvaje, como una ola del mar fresca y fuerte llena de vitalidad. Una experiencia intensa que seduce a un hombre valiente, din&amp;aacute;mico y aventurero  La identidad de Davidoff Cool Water evoca la sensualidad de los poderes relajantes y misteriosos del agua. Combina fuerza, sensualidad y frescor, en una fragancia &amp;uacute;nica y una imagen de comunicaci&amp;oacute;n de marca distinta, una completa sinergia entre el oc&amp;eacute;ano, el cuerpo y el esp&amp;iacute;ritu del hombre.\",\n      \"category\": \"\",\n      \"url\": \"https://www.perfumeriaslaguna.com/perfume-cool-water\",\n      \"mpn\": \"hombre\",\n      \"offers\": {\n        \"@type\": \"Offer\",\n        \"priceCurrency\": \"EUR\",\n        \"price\": \"21.95\",\n        \"priceSpecification\": {\n          \"@type\": \"UnitPriceSpecification\",\n          \"priceType\": \"https://schema.org/StrikethroughPrice\",\n          \"price\": \"107\",\n          \"priceCurrency\": \"EUR\"\n        },\n        \"itemCondition\": \"https://schema.org/NewCondition\",\n        \"availability\": \"https://schema.org/InStock\",\n        \"url\": \"https://www.perfumeriaslaguna.com/perfume-cool-water\",\n        \"priceValidUntil\": \"2030-12-31\"\n  },\n      \"aggregateRating\": {\n        \"@type\": \"AggregateRating\",\n        \"ratingValue\": 4.2,\n        \"ratingCount\": 61,\n        \"worstRating\": 1,\n        \"bestRating\": 5\n      }}",
+   "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"BreadcrumbList\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Inicio\",\"item\":\"https:\\/\\/www.perfumeriaslaguna.com\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Perfumer\\u00eda\",\"item\":\"https:\\/\\/www.perfumeriaslaguna.com\\/perfumeria\"},{\"@type\":\"ListItem\",\"position\":3,\"name\":\"Regalar Perfumes\",\"item\":\"https:\\/\\/www.perfumeriaslaguna.com\\/regalar-perfumes\"},{\"@type\":\"ListItem\",\"position\":4,\"name\":\"Cool Water 125 Vaporizador\",\"item\":\"https:\\/\\/www.perfumeriaslaguna.com\\/perfume-cool-water\"}]}"
+  ],
+  "precios_en_html": [
+   "> \t\t\t\t\t<a href=\"https://www.perfumeriaslaguna.com/envios-devoluciones\"> \t\t\t\t\t\tEnvío <strong>gratis</strong> a partir de 29.95€ <span class=\"subtitle\">a la península*</span>\t\t\t\t\t</a> \t\t\t\t",
+   "ItemNumber\"><a href=\"https://www.perfumeriaslaguna.com/shopping_cart.php\">0</a></div> \t\t\t\t\t<div id=\"PriceProductInCart\">0,00€</div> \t\t\t\t</div> \t\t\t\t<div id=\"cartRight\"> \t\t\t\t\t<div id=\"GoC",
+   "ss=\"productInfoDiscount\">-79%</span><meta itemprop=\"price\" content=\"21.95\" />\t\t<span class=\"productInfoSpecialOldPrice\">107,00€</span> <span class=\" productInfoSpecialNewPrice\" >21,95€</s",
+   " content=\"21.95\" />\t\t<span class=\"productInfoSpecialOldPrice\">107,00€</span> <span class=\" productInfoSpecialNewPrice\" >21,95€</span><div class=\"price_unidad_medida\">Salen los 100 ml a 1",
+   ",00€</span> <span class=\" productInfoSpecialNewPrice\" >21,95€</span><div class=\"price_unidad_medida\">Salen los 100 ml a 17.56 €</div>\t\t</div><div id=\"products_promo_text\"><span class=\"Pro",
+   "div class=\"products_info_price\"><span class=\"productInfoDiscount\">-74%</span>\t\t<span class=\"productInfoSpecialOldPrice\">116,00€</span> <span class=\"productInfoSpecialNewPrice \" >29,95€</s",
+   "scount\">-74%</span>\t\t<span class=\"productInfoSpecialOldPrice\">116,00€</span> <span class=\"productInfoSpecialNewPrice \" >29,95€</span><div class=\"price_unidad_medida\">Salen los 100 ml a 1",
+   ",00€</span> <span class=\"productInfoSpecialNewPrice \" >29,95€</span><div class=\"price_unidad_medida\">Salen los 100 ml a 14.98 €</div></div><div class=\"products_stickers\"><img class=\"stick",
+   "tyle=\"font-size: 14pt;\">LLEVATE ESTE REGALO GRATIS.</span></span></strong></a></p>\r <p><strong>Por la compra superior a 19.95&euro; en productos marcados con esta Promoci&oacute;n de la marca",
+   " </span></span></div><div class=\"ProductPrice\"><div class=\"ProductInfoDiscount\">-41%</div><span class=\"ProductOldPrice\">64,00€</span><div class=\"finalPrice\"><span class=\"ProductSpecialPr",
+   "iscount\">-41%</div><span class=\"ProductOldPrice\">64,00€</span><div class=\"finalPrice\"><span class=\"ProductSpecialPrice\">37,95€</span></div></div><span class=\"ProductWishlist\"><div class=",
+   "tyle=\"font-size: 14pt;\">LLEVATE ESTE REGALO GRATIS.</span></span></strong></a></p>\r <p><strong>Por la compra superior a 19.95&euro; en productos marcados con esta Promoci&oacute;n de la marca",
+   " </span></span></div><div class=\"ProductPrice\"><div class=\"ProductInfoDiscount\">-41%</div><span class=\"ProductOldPrice\">47,00€</span><div class=\"finalPrice\"><span class=\"ProductSpecialPr",
+   "iscount\">-41%</div><span class=\"ProductOldPrice\">47,00€</span><div class=\"finalPrice\"><span class=\"ProductSpecialPrice\">27,95€</span></div></div><span class=\"ProductWishlist\"><div class=",
+   "tyle=\"font-size: 14pt;\">LLEVATE ESTE REGALO GRATIS.</span></span></strong></a></p>\r <p><strong>Por la compra superior a 19.95&euro; en productos marcados con esta Promoci&oacute;n de la marca",
+   " </span></span></div><div class=\"ProductPrice\"><div class=\"ProductInfoDiscount\">-38%</div><span class=\"ProductOldPrice\">42,00€</span><div class=\"finalPrice\"><span class=\"ProductSpecialPr",
+   "iscount\">-38%</div><span class=\"ProductOldPrice\">42,00€</span><div class=\"finalPrice\"><span class=\"ProductSpecialPrice\">25,95€</span></div></div><span class=\"ProductWishlist\"><div class=",
+   "tyle=\"font-size: 14pt;\">LLEVATE ESTE REGALO GRATIS.</span></span></strong></a></p>\r <p><strong>Por la compra superior a 19.95&euro; en productos marcados con esta Promoci&oacute;n de la marca",
+   " </span></span></div><div class=\"ProductPrice\"><div class=\"ProductInfoDiscount\">-41%</div><span class=\"ProductOldPrice\">68,00€</span><div class=\"finalPrice\"><span class=\"ProductSpecialPr",
+   "iscount\">-41%</div><span class=\"ProductOldPrice\">68,00€</span><div class=\"finalPrice\"><span class=\"ProductSpecialPrice\">39,95€</span></div></div><span class=\"ProductWishlist\"><div class=",
+   "tyle=\"font-size: 14pt;\">LLEVATE ESTE REGALO GRATIS.</span></span></strong></a></p>\r <p><strong>Por la compra superior a 19.95&euro; en productos marcados con esta Promoci&oacute;n de la marca",
+   " </span></span></div><div class=\"ProductPrice\"><div class=\"ProductInfoDiscount\">-39%</div><span class=\"ProductOldPrice\">59,00€</span><div class=\"finalPrice\"><span class=\"ProductSpecialPr",
+   "iscount\">-39%</div><span class=\"ProductOldPrice\">59,00€</span><div class=\"finalPrice\"><span class=\"ProductSpecialPrice\">35,95€</span></div></div><span class=\"ProductWishlist\"><div class=",
+   " </span></span></div><div class=\"ProductPrice\"><div class=\"ProductInfoDiscount\">-46%</div><span class=\"ProductOldPrice\">130,00€</span><div class=\"finalPrice\"><span class=\"ProductSpecialPr",
+   "scount\">-46%</div><span class=\"ProductOldPrice\">130,00€</span><div class=\"finalPrice\"><span class=\"ProductSpecialPrice\">69,95€</span></div></div><span class=\"ProductWishlist\"><div class="
+  ],
+  "variantes": []
+ },
+ "lookfantastic": {
+  "url": "https://www.lookfantastic.es/p/davidoff-cool-water-eau-de-toilette-125ml/11079880/",
+  "ml": 125,
+  "resultado": {
+   "precio": 64.69,
+   "metodo": "jsonld",
+   "referencia": 21.95,
+   "aceptado": false
+  },
+  "jsonld": [
+   "{\"@type\":\"ProductGroup\",\"@context\":\"https://schema.org\",\"productGroupID\":\"11079880\",\"hasVariant\":[{\"@type\":\"Product\",\"sku\":\"11079880\",\"name\":\"Davidiff Cool Water Man Eau de Toilette 125ml\",\"description\":\" La  Davidoff Cool Water Eau de Toilette  es una fragancia refrescante y sensual que se asienta ligeramente en el cuerpo para ofrecer un acabado rico y duradero. Inspirado en el océano y sus propiedades reenergizantes, este fresco y aromático perfume combina sutiles ideales con intrincadas representaciones de suaves brisas, romances invocados y propiedades naturalmente refrescantes para una sensación relajada y ágil. \\n Combinando notas de fondo de ámbar y almizcle con una vibrante apertura de menta y lavanda, la fórmula amaderada y densa se manipula de forma suficiente pero delicada para revelar un acabado terroso y masculino. \\n   Notas de salida:  Menta, Lavanda. \\n  \\n   Notas de Corazón:&nbsp;   Musgo de roble, geranio, sándalo. \\n  \\n   Notas de fondo:&nbsp;   Ámbar, almizcle.  \",\"image\":\"https://main.thgimages.com/?url=https://static.thcdn.com/productimg/original/11079880-2015089818704265.jpg&format=webp&width=1500&height=1500&fit=cover\",\"offers\":{\"@type\":\"Offer\",\"sku\":\"11079880\",\"url\":\"https://www.lookfantastic.es/p/davidoff-cool-water-eau-de-toilette-125ml/11079880/?variation=11079880\",\"itemCondition\":\"https://schema.org/NewCondition\",\"availability\":\"https://schema.org/OutOfStock\",\"price\":64.69,\"priceCurrency\":\"EUR\"}},{\"@type\":\"Product\",\"sku\":\"10289076\",\"name\":\"Davidiff Cool Water Man Eau de Toilette 125ml\",\"description\":\" La  Davidoff Cool Water Eau de Toilette  es una fragancia refrescante y sensual que se asienta ligeramente en el cuerpo para ofrecer un acabado rico y duradero. Inspirado en el océano y sus propiedades reenergizantes, este fresco y aromático perfume combina sutiles ideales con intrincadas representaciones de suaves brisas, romances invocados y propiedades naturalmente refrescantes para una sensación relajada y ágil. \\n Combinando notas de fondo de ámbar y almizcle con una vibrante apertura de menta y lavanda, la fórmula amaderada y densa se manipula de forma suficiente pero delicada para revelar un acabado terroso y masculino. \\n   Notas de salida:  Menta, Lavanda. \\n  \\n   Notas de Corazón:&nbsp;   Musgo de roble, geranio, sándalo. \\n  \\n   Notas de fondo:&nbsp;   Ámbar, almizcle.  \",\"image\":\"https://main.thgimages.com/?url=https://static.thcdn.com/productimg/original/10289076-1455051137068813.jpg&format=webp&width=1500&height=1500&fit=cover\",\"offers\":{\"@type\":\"Offer\",\"sku\":\"10289076\",\"url\":\"https://www.lookfantastic.es/p/davidoff-cool-water-eau-de-toilette-125ml/11079880/?variation=10289076\",\"itemCondition\":\"https://schema.org/NewCondition\",\"availability\":\"https://schema.org/OutOfStock\",\"price\":36.8,\"priceCurrency\":\"EUR\"}},{\"@type\":\"Product\",\"sku\":\"11079879\",\"name\":\"Davidiff Cool Water Man Eau de Toilette 125ml\",\"description\":\" La  Davidoff Cool Water Eau de Toilette  es una fragancia refrescante y sensual que se asi",
+   "{\"@context\":\"https://schema.org\",\"@type\":\"BreadcrumbList\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":{\"@type\":\"Thing\",\"@id\":\"https://www.lookfantastic.es/\"}},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Davidiff Cool Water Man Eau de Toilette 125ml\",\"item\":{\"@type\":\"Thing\",\"@id\":\"https://www.lookfantastic.es/p/davidoff-cool-water-eau-de-toilette-125ml/11079880/\"}}]}"
   ],
   "precios_en_html": [
    "00-.987 1.106v7.635m12-6.677v6.677m0 4.5v-4.5m0 0h-12\" ></path> </svg>         <span class=\"text-sm\"> Coste de entrega: 3,99€</span>            </a> <a data-track=\"clickUSP\" data-track-",
@@ -188,54 +183,108 @@
   ],
   "variantes": []
  },
- "parejo": {
-  "url": "https://www.joyeriaparejo.com/perfumes/eros-100-ml-eau-de-toilette-versace",
-  "ml": 100,
+ "paco": {
+  "url": "https://pacoperfumerias.com/davidoff-cool-water",
+  "ml": 125,
   "resultado": {
-   "precio": 79.05,
+   "precio": 20.14,
    "metodo": "jsonld",
-   "referencia": 58.45,
+   "referencia": 21.95,
    "aceptado": true
   },
   "jsonld": [
-   "{\r\n                    \"@context\":\"https://schema.org\",\r\n                    \"@type\":\"BreadcrumbList\",\r\n                        \"itemListElement\": [\r\n                        {\r\n                            \"@type\": \"ListItem\",\r\n                            \"position\": 0,\r\n                            \"name\": \"Joyería Parejo\",\r\n                            \"item\": \"https://www.joyeriaparejo.com/\"\r\n                        },\r\n                      {\r\n                    \"@type\": \"ListItem\",\r\n                    \"position\": 1,\r\n                    \"name\": \"Perfumes\",\r\n                    \"item\": \"https://www.joyeriaparejo.com/perfumes\"\r\n                },\r\n                                    {\r\n                                        \"@type\": \"ListItem\",\r\n                                        \"position\": 2,\r\n                                        \"name\": \"Versace Eros Eau de Toilette 100 ml Hombre\",\r\n                                        \"item\": \"https://www.joyeriaparejo.com/perfumes/eros-100-ml-eau-de-toilette-versace\"\r\n                                    }\r\n                                \r\n                        ]\r\n                }",
-   "{\r\n                    \"@context\": \"https://schema.org\",\r\n                    \"@type\": \"Product\",\r\n                    \"description\": \"Versace Eros Eau de Toilette 100 ml captura el poder y la pasión en una fragancia vibrante. Con notas frescas y amaderadas, este perfume icónico evoca lujo y estilo, ideal para el hombre moderno que busca destacar con un aroma de alta calidad y elegancia inigualable.\",\r\n                    \"name\": \"Versace Eros Eau de Toilette 100 ml Hombre\",\r\n                    \"image\": [\"https:\\/\\/www.joyeriaparejo.com\\/52830-large_default\\/eros-100-ml-eau-de-toilette-versace.jpg\",\"https:\\/\\/www.joyeriaparejo.com\\/52829-large_default\\/eros-100-ml-eau-de-toilette-versace.jpg\"],\r\n                    \"brand\": {\r\n                        \"@type\": \"Brand\",\r\n                        \"name\": \"VERSACE\",\r\n                        \"url\": \"https://www.joyeriaparejo.com/brand/versace\"\r\n                    },\r\n                    \"category\": \"Perfumes\",\r\n                    \"alternateName\": \"Compra Versace Eros Eau de Toilette 100 ml Hombre a buen precio\",\r\n                    \"url\": \"https://www.joyeriaparejo.com/perfumes/eros-100-ml-eau-de-toilette-versace\",\r\n                        \"offers\": {    \t\t\r\n                            \"@type\": \"offer\",\r\n                            \"price\": \"79.05\",\r\n                            \"priceCurrency\": \"EUR\", \r\n                            \"itemOffered\": \"Versace Eros Eau de Toilette 100 ml Hombre\",\r\n                            \"availability\": \"http://schema.org/InStock\", \r\n                            \"priceValidUntil\": \"2026-03-31\",\r\n                            \"itemCondition\":\"http://schema.org/NewCondition\", \r\n                            \"url\": \"https://www.joyeriaparejo.com/perfumes/eros-100-ml-eau-de-toilette-versace\",\r\n\t\t\t\t\t\t\t\"sku\": \"70430012\",\r\n\t\t\t\t\t\t\t\"gtin13\": \"8011003809219\"\r\n                        }}"
+   "{\"@context\":\"http://schema.org/\",\"@graph\":[{\"@type\":\"BreadcrumbList\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":0,\"item\":{\"@id\":\"/\",\"name\":\"Home\"}},{\"@type\":\"ListItem\",\"position\":1,\"item\":{\"@id\":\"/perfumes\",\"name\":\"Perfumes\"}},{\"@type\":\"ListItem\",\"position\":2,\"item\":{\"@id\":\"/perfumes-hombre\",\"name\":\"Perfumes Hombre\"}}]},{\"@type\":\"ProductGroup\",\"name\":\"COOL WATER\",\"description\":\"Eau de Toilette para Hombre\",\"url\":\"https://www.pacoperfumerias.com/davidoff-cool-water-833.html\",\"productGroupID\":\"833\",\"brand\":{\"@type\":\"Brand\",\"name\":\"DAVIDOFF\"},\"aggregateRating\":{\"@type\":\"AggregateRating\",\"ratingValue\":5,\"reviewCount\":287},\"variesBy\":[\"https://schema.org/size\"],\"hasVariant\":[{\"@type\":\"Product\",\"sku\":\"66534\",\"name\":\"COOL WATER 75ml\",\"offers\":{\"@type\":\"Offer\",\"url\":\"https://www.pacoperfumerias.com/davidoff-cool-water-833.html\",\"priceCurrency\":\"EUR\",\"price\":16.46,\"itemCondition\":\"https://schema.org/NewCondition\",\"availability\":\"https://schema.org/InStock\"},\"image\":\"https://www.pacoperfumerias.com/on/demandware.static/-/Sites-pacoper-master-catalog/default/dwd62fe70a/images/6/6/66534_2.jpg\",\"size\":\"75ml\"},{\"@type\":\"Product\",\"sku\":\"66535\",\"name\":\"COOL WATER 125ml\",\"offers\":{\"@type\":\"Offer\",\"url\":\"https://www.pacoperfumerias.com/davidoff-cool-water-833.html\",\"priceCurrency\":\"EUR\",\"price\":20.14,\"itemCondition\":\"https://schema.org/NewCondition\",\"availability\":\"https://schema.org/OutOfStock\"},\"image\":\"https://www.pacoperfumerias.com/on/demandware.static/-/Sites-pacoper-master-catalog/default/dw7f8caa12/images/6/6/66535_2.jpg\",\"size\":\"125ml\"},{\"@type\":\"Product\",\"sku\":\"240039\",\"name\":\"COOL WATER 200ml\",\"offers\":{\"@type\":\"Offer\",\"url\":\"https://www.pacoperfumerias.com/davidoff-cool-water-833.html\",\"priceCurrency\":\"EUR\",\"price\":27.94,\"itemCondition\":\"https://schema.org/NewCondition\",\"availability\":\"https://schema.org/OutOfStock\"},\"image\":\"https://www.pacoperfumerias.com/on/demandware.static/-/Sites-pacoper-master-catalog/default/dw8121e7e3/images/2/4/240039_2.jpg\",\"size\":\"200ml\"}]}]}"
   ],
   "precios_en_html": [
-   " >              <div class=\"current-price\">                  <span class=\"price_with_tax price_pvp\" content=\"65.330578\">79,05 €</span>                                    <span class=\"pric",
-   "n>                                                  <span class=\"show_pvp\">                     <span class=\"old_price\">93,00 €</span>                   </span>                    <span c",
-   "ss=\"parejo-sticky-buy__name\">Versace Eros Eau de Toilette 100 ml Hombre</p>         <p class=\"parejo-sticky-buy__price\">79,05 €</p>       </div>       <div class=\"parejo-sticky-buy__qty\">"
+   "<a class=\"header-ticker__text label-link label-link--secondary-light\" href=\"https://www.pacoperfumerias.com/newsletter\">3&euro; por SUSCRIBIRTE*</a></p>  <p class=\"header-ticker__text\">EN",
+   "w.pacoperfumerias.com/newsletter\">3&euro; por SUSCRIBIRTE*</a></p>  <p class=\"header-ticker__text\">ENV&Iacute;O GRATIS +49,99&euro;</p>  <p class=\"header-ticker__text\">MUESTRAS GRATIS en tu p",
+   "<a class=\"header-ticker__text label-link label-link--secondary-light\" href=\"https://www.pacoperfumerias.com/newsletter\">3&euro; por SUSCRIBIRTE*</a></p>  <p class=\"header-ticker__text\">EN",
+   "w.pacoperfumerias.com/newsletter\">3&euro; por SUSCRIBIRTE*</a></p>  <p class=\"header-ticker__text\">ENV&Iacute;O GRATIS +49,99&euro;</p>  <p class=\"header-ticker__text\">MUESTRAS GRATIS en tu p",
+   "      <span class=\"sr-only\">                         Price reduced from                     </span>                     79,00 &euro;                       <span class=\"sr-only\">               ",
+   "\">                                                        <span class=\"value\" content=\"16.46\">                          16,46 &euro;               </span>         </span>     </span>          ",
+   "\"discount tag tag--discount \">79%</span>                      </div>                      <span class=\"price__per-unit\">21,95 &euro; / 100ml</span>                        </div>               ",
+   "      <span class=\"sr-only\">                         Price reduced from                     </span>                     114,00 &euro;                       <span class=\"sr-only\">               ",
+   "\">                                                        <span class=\"value\" content=\"20.14\">                          20,14 &euro;               </span>         </span>     </span>          ",
+   "\"discount tag tag--discount \">82%</span>                      </div>                      <span class=\"price__per-unit\">16,11 &euro; / 100ml</span>                        </div>               ",
+   "      <span class=\"sr-only\">                         Price reduced from                     </span>                     120,00 &euro;                       <span class=\"sr-only\">               ",
+   "\">                                                        <span class=\"value\" content=\"27.94\">                          27,94 &euro;               </span>         </span>     </span>          ",
+   "\"discount tag tag--discount \">77%</span>                      </div>                      <span class=\"price__per-unit\">13,97 &euro; / 100ml</span>                        </div>               ",
+   "      <span class=\"sr-only\">                         Price reduced from                     </span>                     43,00 &euro;                       <span class=\"sr-only\">               ",
+   "s\">                                                        <span class=\"value\" content=\"9.95\">                          9,95 &euro;               </span>         </span>     </span>          "
+  ],
+  "variantes": []
+ },
+ "perfumesclub": {
+  "url": "https://www.perfumesclub.com/es/davidoff/cool-water-eau-de-toilette-vaporizador/p_13240/",
+  "ml": 125,
+  "resultado": {
+   "precio": 24.12,
+   "metodo": "jsonld",
+   "referencia": 21.049999999999997,
+   "aceptado": true
+  },
+  "jsonld": [
+   "{\r\n      \"@context\": \"https://schema.org\",\r\n      \"@type\": \"FAQPage\",\r\n      \"mainEntity\": [\r\n\r\n               \r\n               {\r\n                   \"@type\": \"Question\",\r\n                   \"name\": \"¿Cuándo se recomienda usar Cool Water Edt?\",\r\n                   \"acceptedAnswer\": {\r\n                     \"@type\": \"Answer\",\r\n                     \"text\": \"Por su carácter dinámico y refrescante, es perfecta para el día a día, actividades deportivas o climas cálidos donde se busque una fragancia que aporte frescura inmediata.\"\r\n                   }\r\n               }\r\n               \r\n                   ,\r\n               \r\n               {\r\n                   \"@type\": \"Question\",\r\n                   \"name\": \"¿Cómo es el frasco de Davidoff Cool Water?\",\r\n                   \"acceptedAnswer\": {\r\n                     \"@type\": \"Answer\",\r\n                     \"text\": \"Presenta una silueta arquitectónica en un azul traslúcido profundo que recuerda a las aguas del mar, con un diseño ergonómico y clásico que nunca pasa de moda.\"\r\n                   }\r\n               }\r\n               \r\n                   ,\r\n               \r\n               {\r\n                   \"@type\": \"Question\",\r\n                   \"name\": \"¿Qué sensaciones transmite Cool Water?\",\r\n                   \"acceptedAnswer\": {\r\n                     \"@type\": \"Answer\",\r\n                     \"text\": \"Evoca la fuerza del océano y una vitalidad extrema, proporcionando una sensación de frescura intensa y energía regeneradora que se ha convertido en un referente de la perfumería.\"\r\n                   }\r\n               }\r\n               \r\n                   ,\r\n               \r\n               {\r\n                   \"@type\": \"Question\",\r\n                   \"name\": \"¿A qué huele Cool Water de Davidoff?\",\r\n                   \"acceptedAnswer\": {\r\n                     \"@type\": \"Answer\",\r\n                     \"text\": \"Es una fragancia <strong>aromática acuática</strong> legendaria que mezcla notas de agua de mar, lavanda y menta con un corazón de geranio y un fondo masculino de cedro y ámbar.\"\r\n                   }\r\n               }\r\n               \r\n      ]\r\n    }",
+   "{\r\n    \"@context\": \"https://schema.org\",\r\n    \"@type\": \"BreadcrumbList\",\r\n    \"itemListElement\": [        { \"@type\": \"ListItem\", \"position\": 1, \"item\": { \"@id\": \"https://www.perfumesclub.com/\", \"name\": \"Perfume's Club\" } },        { \"@type\": \"ListItem\", \"position\": 2, \"item\": { \"@id\": \"https://www.perfumesclub.com/es/perfume/hombre/fs/\", \"name\": \"Perfumes para hombre \" } },        { \"@type\": \"ListItem\", \"position\": 3, \"item\": { \"@id\": \"https://www.perfumesclub.com/es/perfume/davidoff/hombre/fms/\", \"name\": \"Perfumes Davidoff para hombre \" } },        { \"@type\": \"ListItem\", \"position\": 4, \"item\": { \"@id\": \"https://www.perfumesclub.com/es/davidoff/cool-water-eau-de-toilette-vaporizador/p_13240/\", \"name\": \"COOL WATER\" } }]\r\n}",
+   "{\r\n    \"@context\": \"https://schema.org/\",\r\n    \"@type\": \"Product\",\r\n    \"name\": \"COOL WATER\",\r\n    \"description\": \"Davidoff Cool Water: una ola salvaje de aromas acuáticos La exquisita fragancia Cool Water de Davidoff es, sin duda, una de las más solicitadas a escala mundial. Fue creada en 1988 por el perfumista Pierre Bourdon y pertenece a la familia olfativa Aromática Acuática. Este selecto Eau de Toilette se describe como una ola salvaje de aromas acuáticos en fusión con el alma aventurera de quien lo lleva, simbolizando al hombre aventurero, dinámico y apuesto. Sus notas de salida combinan agua de mar, menta, notas verdes, lavanda, cilantro, romero y calone, dando paso a un corazón totalmente floral compuesto por sándalo, jazmín, neroli y geranio. En su fondo, las notas de almizcle, musgo de roble, cedro, tabaco y ámbar brindan un halo de seducción irresistible que ha conquistado a generaciones. Notas olfativas Notas de salida: agua de mar, menta, notas verdes, lavanda, cilantro, romero, calone Notas de corazón: sándalo, jazmín, neroli, geranio Notas de fondo: almizcle, musgo de roble, cedro, tabaco, ámbar\",\r\n    \"image\": [\"https://i1.perfumesclub.com/grande/3340.jpg\", \"https://i1.perfumesclub.com/media/3340.jpg\"],\r\n    \"sku\": \"3340\",\r\n    \"gtin13\": \"3414202000565\",\r\n    \"brand\": { \"@type\": \"Brand\", \"name\": \"Davidoff\" },\r\n    \"category\": \"Eau de Toilette - Colonia\",\r\n    \"offers\": [{ \"@type\": \"Offer\",\"priceCurrency\": \"EUR\",\"price\": \"16.47\",\"itemCondition\": \"https://schema.org/NewCondition\",\"availability\": \"https://schema.org/InStock\",\"priceValidUntil\": \"2026-11-24\",\"url\": \"https://www.perfumesclub.com/es/davidoff/cool-water-eau-de-toilette-vaporizador/p_13240/\",\"sku\": \"3340-75ml\",\"gtin13\": \"3414202000565\",\"additionalProperty\": { \"@type\": \"PropertyValue\", \"name\": \"Contenido\", \"value\": \"75 ml\" },\"hasMerchantReturnPolicy\": { \"@type\": \"MerchantReturnPolicy\", \"applicableCountry\": \"ES\", \"returnPolicyCategory\": \"https://schema.org/MerchantReturnFiniteReturnWindow\", \"merchantReturnDays\": \"30\", \"returnMethod\": \"https://schema.org/ReturnByMail\", \"returnFees\": \"https://schema.org/ReturnFeesCustomerResponsibility\", \"merchantReturnLink\": \"https://www.perfumesclub.com/es/ayuda/contacto/?p=200128460\" },\"shippingDetails\": { \"@type\": \"OfferShippingDetails\", \"shippingRate\": { \"@type\": \"MonetaryAmount\", \"value\": 3.95, \"currency\": \"EUR\" }, \"shippingDestination\": { \"@type\": \"DefinedRegion\", \"addressCountry\": \"ES\"}, \"deliveryTime\": { \"@type\": \"ShippingDeliveryTime\", \"handlingTime\": { \"@type\": \"QuantitativeValue\", \"minValue\": 1, \"maxValue\": 2, \"unitCode\": \"DAY\" }, \"transitTime\": { \"@type\": \"QuantitativeValue\", \"minValue\": 1, \"maxValue\": 3, \"unitCode\": \"DAY\" } } } },{ \"@type\": \"Offer\",\"priceCurrency\": \"EUR\",\"price\": \"24.12\",\"itemCondition\": \"https://schema.org/NewCondition\",\"availability\": \"https://schema.org/InStock\",\"priceValidUntil\": \"2026-11-24\",\"url\": \"https://www.perfumesclub.com/es/davidoff/cool-water-eau-de-toilette-vaporizador/p_13240/\",\"sku\": \"223145-125ml",
+   "{\r\n  \"@context\": \"https://schema.org\",\r\n  \"@type\": \"Organization\",\r\n  \"name\": \"Perfumes Club\",\r\n  \"url\": \"https://www.perfumesclub.com/\",\r\n  \"logo\": \"https://c.perfumesclub.com/web_es/logo_new_perfumesclub.jpg\",\r\n  \"description\": \"\",\r\n  \"sameAs\": [\r\n    \"https://www.facebook.com/PerfumesClub\",\r\n    \"https://twitter.com/PerfumesClub\",\r\n    \"https://www.instagram.com/perfumesclub/\",\r\n    \"https://www.youtube.com/user/PerfumesClub\",\r\n    \"https://es.linkedin.com/company/www-perfumesclub-com\",\r\n    \"https://www.tiktok.com/@perfumesclub\"\r\n  ]\r\n        ,\r\n        \"contactPoint\": {\r\n            \"@type\": \"ContactPoint\",\r\n            \"telephone\": \"+34-911-989-079\",\r\n            \"contactType\": \"customer service\",\r\n            \"areaServed\": \"ES\",\r\n            \"availableLanguage\": \"Spanish\"\r\n        }\r\n        \r\n,\r\n  \"address\": {\r\n    \"@type\": \"PostalAddress\",\r\n    \"streetAddress\": \"C/ Asipo, 4 Polígono Industrial Can Valero\",\r\n    \"addressLocality\": \"Palma de Mallorca\",\r\n    \"postalCode\": \"07011\",\r\n    \"addressRegion\": \"Islas Baleares\",\r\n    \"addressCountry\": \"ES\"\r\n  }\r\n}"
+  ],
+  "precios_en_html": [
+   "<span class=\"txt-normal\">Entra en nuestra APP y disfruta de un <span class=\"font-w-700\">ENVÍO GRATIS</span> a partir de 49€. Descárgatela <span class=\"font-w-700\" style=\"text-decorati",
+   "ration: underline;\">aquí</span>.</span><span class=\"txt-corta\"><span class=\"font-w-700\">ENVÍO GRATIS</span> a partir de 49€ solo en nuestra app. Descárgala <span class=\"font-w-700\" st",
+   "ss=\"font-w-500 text-left hackText\">¡Disfruta de <span class=\"font-w-700\">ENVÍO GRATIS</span> en tus compras a partir de 49€!</div>         </div>     </div>     <div class=\"frase hack",
+   "drina y gana</div>\r                                                 <div class=\"font-12 op-075\">Trae un amigo y llévate 10€</div>\r                                             </div>\r ",
+   "span id=\"buyScrollContenido\" class=\"font-w-600\"></span>,\r                 <span id=\"buyScrollPrecio\" class=\"font-w-600\">16,47 €</span>\r                 <button id=\"buyScrollButton\" onclic",
+   "ndado por el fabricante o distribuidor como precio final del producto.</div>\">\r                                         123,00 €\r                                         <i class=\"fa fa-in",
+   "             </div>\r                                 <div class=\"contPrecioNuevo\">\r                                     31,67 €\r                                 </div>\r                   ",
+   "                 <div class=\"contCapacidad\">\r                                         <div class=\"pricePer100\">100 ml / 15,84 €</div>\r                                     </div>\r         ",
+   "ndado por el fabricante o distribuidor como precio final del producto.</div>\">\r                                         123,00 €\r                                         <i class=\"fa fa-in",
+   "             </div>\r                                 <div class=\"contPrecioNuevo\">\r                                     28,25 €\r                                 </div>\r                   ",
+   "                 <div class=\"contCapacidad\">\r                                         <div class=\"pricePer100\">100 ml / 14,12 €</div>\r                                     </div>\r         ",
+   "ndado por el fabricante o distribuidor como precio final del producto.</div>\">\r                                         121,00 €\r                                         <i class=\"fa fa-in",
+   "             </div>\r                                 <div class=\"contPrecioNuevo\">\r                                     24,12 €\r                                 </div>\r                   ",
+   "                 <div class=\"contCapacidad\">\r                                         <div class=\"pricePer100\">100 ml / 19,30 €</div>\r                                     </div>\r         ",
+   "ndado por el fabricante o distribuidor como precio final del producto.</div>\">\r                                         121,00 €\r                                         <i class=\"fa fa-in",
+   "             </div>\r                                 <div class=\"contPrecioNuevo\">\r                                     25,42 €\r                                 </div>\r                   ",
+   "                 <div class=\"contCapacidad\">\r                                         <div class=\"pricePer100\">100 ml / 20,34 €</div>\r                                     </div>\r         ",
+   "ndado por el fabricante o distribuidor como precio final del producto.</div>\">\r                                         84,00 €\r                                         <i class=\"fa fa-in",
+   "             </div>\r                                 <div class=\"contPrecioNuevo\">\r                                     16,47 €\r                                 </div>\r                   ",
+   "                 <div class=\"contCapacidad\">\r                                         <div class=\"pricePer100\">100 ml / 21,96 €</div>\r                                     </div>\r         ",
+   "                   \r                                 <div class=\"btn-grabar btn-grabar-MKT\" data-id=\"3340\" data-precio=\"16,47 €\" data-preciograbado=\"5,90 €\" data-name=\"COOL WATER eau de t",
+   "                        <div class=\"btn-grabar btn-grabar-MKT\" data-id=\"3340\" data-precio=\"16,47 €\" data-preciograbado=\"5,90 €\" data-name=\"COOL WATER eau de toilette vaporizador 75 ml\" d",
+   "ndado por el fabricante o distribuidor como precio final del producto.</div>\">\r                                         61,00 €\r                                         <i class=\"fa fa-in",
+   "             </div>\r                                 <div class=\"contPrecioNuevo\">\r                                     19,80 €\r                                 </div>\r                   ",
+   "                 <div class=\"contCapacidad\">\r                                         <div class=\"pricePer100\">100 ml / 49,50 €</div>\r                                     </div>\r         "
   ],
   "variantes": []
  },
  "sabina": {
-  "url": "https://www.sabina.com/es/perfumes-hombre/976-eros-eau-de-toilette-versace.html",
-  "ml": 100,
+  "url": "https://www.sabina.com/es/mens-perfumes/258-cool-water-men-eau-de-toilette-de-davidoff.html",
+  "ml": 125,
   "resultado": {
-   "precio": 71.04,
+   "precio": 28.15,
    "metodo": "jsonld",
-   "referencia": 58.45,
+   "referencia": 21.049999999999997,
    "aceptado": true
   },
   "jsonld": [
-   "{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"Product\",\"@id\":\"https:\\/\\/www.sabina.com\\/es\\/perfumes-hombre\\/976-eros-eau-de-toilette-versace.html#variant-2062\",\"url\":\"https:\\/\\/www.sabina.com\\/es\\/perfumes-hombre\\/976-eros-eau-de-toilette-versace.html?id_product_attribute=2062\",\"name\":\"Eros\\nEau de Toilette 50 ML\",\"description\":\"Eros\\r\\nVersace Eros Eau de Toilette es una fragancia masculina que evoca la pasi\\u00f3n y el deseo, inspirada en la mitolog\\u00eda griega. Creada por el perfumista Aurelien Guichard, esta esencia rinde homenaje al dios del amor, Eros, capturando la energ\\u00eda y virilidad del hombre moderno. Con su frescura vibrante y su intensidad sensual, Eros es la fragancia perfecta para quienes buscan una declaraci\\u00f3n de fuerza y elegancia\\r\\nNotas olfativas\\r\\n\\r\\nLas notas de salida son de menta, manzana verde y lim\\u00f3n (lima \\u00e1cida)\\r\\nLas notas de coraz\\u00f3n son de haba tonka, ambroxan y geranio\\r\\nLas notas de fondo son de vainilla de Madagascar, cedro de Virginia, cedro del Atlas, vetiver y musgo de roble\\r\\n\\r\\nEl frasco\\r\\nEl frasco de Versace Eros es tan sofisticado como la fragancia que encierra. Con sus tonos turquesa y su dise\\u00f1o inspirado en la inmensidad del mar Mediterr\\u00e1neo, captura la esencia de la frescura y la fuerza. Un perfume con car\\u00e1cter, ideal para el hombre elegante que busca una fragancia intensa, refrescante y duradera. Eros no es solo un perfume, es una declaraci\\u00f3n de deseo, pasi\\u00f3n y sofisticaci\\u00f3n, para un hombre que se atreve a dejar su huella\",\"sku\":\"250779\",\"image\":[\"https:\\/\\/static3.sabinacdn.com\\/1010\\/eros-eau-de-toilette-versace.jpg\",\"https:\\/\\/static3.sabinacdn.com\\/25884\\/eros-eau-de-toilette-versace.jpg\",\"https:\\/\\/static2.sabinacdn.com\\/78922\\/eros-eau-de-toilette-versace.jpg\",\"https:\\/\\/static2.sabinacdn.com\\/78923\\/eros-eau-de-toilette-versace.jpg\"],\"brand\":{\"@type\":\"Brand\",\"name\":\"VERSACE\"},\"additionalProperty\":[{\"@type\":\"PropertyValue\",\"name\":\"Concentraci\\u00f3n\",\"value\":\"Eau de toilette\"},{\"@type\":\"PropertyValue\",\"name\":\"Presentaci\\u00f3n\",\"value\":\"Vaporizador\"},{\"@type\":\"PropertyValue\",\"name\":\"Familia olfativa\",\"value\":\"Arom\\u00e1tica, Foug\\u00e8re\"},{\"@type\":\"PropertyValue\",\"name\":\"Gama\",\"value\":\"Eros\"},{\"@type\":\"PropertyValue\",\"name\":\"Notas de Salida\",\"value\":\"Lim\\u00f3n (lima \\u00e1cida), Menta, Manzana verde\"},{\"@type\":\"PropertyValue\",\"name\":\"Notas de Coraz\\u00f3n\",\"value\":\"Haba tonka, Ambroxan, Geranio\"},{\"@type\":\"PropertyValue\",\"name\":\"Notas de Fondo\",\"value\":\"Vetiver, Musgo de roble, Cedro de Virginia, Vainilla de Madagascar, Cedro del Atlas\"}],\"aggregateRating\":{\"@type\":\"AggregateRating\",\"ratingValue\":5,\"ratingCount\":24,\"bestRating\":5,\"worstRating\":1},\"offers\":{\"@type\":\"Offer\",\"@id\":\"https:\\/\\/www.sabina.com\\/es\\/perfumes-hombre\\/976-eros-eau-de-toilette-versace.html#offer-2062\",\"url\":\"https:\\/\\/www.sabina.com\\/es\\/perfumes-hombre\\/976-eros-eau-de-toilette-versace.html?id_product_attribute=2062\",\"price\":\"48.55\",\"priceCurrency\":\""
+   "{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"Product\",\"@id\":\"https:\\/\\/www.sabina.com\\/es\\/perfumes-hombre\\/258-cool-water-men-eau-de-toilette-de-davidoff.html#variant-673\",\"url\":\"https:\\/\\/www.sabina.com\\/es\\/perfumes-hombre\\/258-cool-water-men-eau-de-toilette-de-davidoff.html?id_product_attribute=673\",\"name\":\"Cool Water Men 75 ML\",\"description\":\"Cool Water Men\\n\\nCool Water Men Eau de Toilette de Davidoff es una fragancia vers\\u00e1til, dise\\u00f1ada para el hombre en todas sus facetas: desde el deportista hasta el cl\\u00e1sico, pasando por el joven moderno. Fresca y elegante, esta esencia varonil captura la esencia de la masculinidad con un toque de sofisticaci\\u00f3n, adapt\\u00e1ndose perfectamente a cada estilo y personalidad\\n\\nNotas olfativas\\u00a0\\n\\n\\n\\tLas notas de salida son de\\u00a0agua de mar, menta, notas verdes, lavanda, cilantro, romero y calone\\n\\tLas notas de coraz\\u00f3n son de\\u00a0s\\u00e1ndalo, jazm\\u00edn, neroli y geranio\\n\\tLas notas de fondo son de\\u00a0almizcle, musgo de roble, cedro, tabaco y \\u00e1mbar\\n\\n\\nCaracter\\u00edsticas\\n\\nEl frasco de Davidoff Cool Water Men Eau de Toilette, de cristal azul oscuro y tap\\u00f3n negro, refleja la frescura profunda de sus notas. Perfecto para los d\\u00edas c\\u00e1lidos, este perfume se convierte en tu aliado cotidiano, envolvi\\u00e9ndote en una brisa refrescante. Tambi\\u00e9n es ideal para las noches informales, dejando una estela sutil y elegante que perdura con cada encuentro.\\n\\nTe recomendamos probar\\u00a0COOL WATER MEN SET\",\"sku\":\"282\",\"image\":[\"https:\\/\\/static1.sabinacdn.com\\/4823\\/cool-water-men-eau-de-toilette-de-davidoff.jpg\",\"https:\\/\\/static1.sabinacdn.com\\/68687\\/cool-water-men-eau-de-toilette-de-davidoff.jpg\",\"https:\\/\\/static3.sabinacdn.com\\/68688\\/cool-water-men-eau-de-toilette-de-davidoff.jpg\",\"https:\\/\\/static1.sabinacdn.com\\/68689\\/cool-water-men-eau-de-toilette-de-davidoff.jpg\",\"https:\\/\\/static3.sabinacdn.com\\/68690\\/cool-water-men-eau-de-toilette-de-davidoff.jpg\",\"https:\\/\\/static1.sabinacdn.com\\/68691\\/cool-water-men-eau-de-toilette-de-davidoff.jpg\",\"https:\\/\\/static2.sabinacdn.com\\/68692\\/cool-water-men-eau-de-toilette-de-davidoff.jpg\"],\"brand\":{\"@type\":\"Brand\",\"name\":\"DAVIDOFF\"},\"additionalProperty\":[{\"@type\":\"PropertyValue\",\"name\":\"Concentraci\\u00f3n\",\"value\":\"Eau de toilette\"},{\"@type\":\"PropertyValue\",\"name\":\"Presentaci\\u00f3n\",\"value\":\"Vaporizador\"},{\"@type\":\"PropertyValue\",\"name\":\"Notas de Salida\",\"value\":\"Menta, Calone, Lavanda, Notas verdes, Cilantro, Agua de mar, Romero\"},{\"@type\":\"PropertyValue\",\"name\":\"Notas de Coraz\\u00f3n\",\"value\":\"Geranio, S\\u00e1ndalo, Neroli, Jazm\\u00edn\"},{\"@type\":\"PropertyValue\",\"name\":\"Notas de Fondo\",\"value\":\"\\u00e1mbar, Musgo de roble, Cedro, Almizcle, Tabaco\"}],\"aggregateRating\":{\"@type\":\"AggregateRating\",\"ratingValue\":5,\"ratingCount\":28,\"bestRating\":5,\"worstRating\":1},\"offers\":{\"@type\":\"Offer\",\"@id\":\"https:\\/\\/www.sabina.com\\/es\\/perfumes-hombre\\/258-cool-water-men-eau-de-toilette-de-davidoff.html#offer-673\""
   ],
   "precios_en_html": [
    "class=\"new_cart_shipping_row\">\r \t\t\t\t\t<span>Envío</span>\r \t\t\t\t\t<span class=\"ajax_cart_shipping_cost\" data-shipping-cost=\"0,00 €\" data-shipping-cost-free=\"Envío gratuito!\">\r \t\t\t\t\t\t\t\t\t\t\t\t\tP",
    "lor: #ac201f; color: #ffffff\">\r                     <span class=\"mct_normal\">\r \t\t\t¡Envío gratis en pedidos superiores a 39€!\r \t\t</span>\r \r         <span class=\"mct_resp\">\r \t\t\t¡Envío g",
    "is en pedidos superiores a 39€!\r \t\t</span>\r \r         <span class=\"mct_resp\">\r \t\t\t¡Envío gratis en pedidos superiores a 39€!\r \t\t</span>\r \r         \r         \r     \r     </div>\r \r  \t  ",
-   "_izquierdo_precios\">Precio habitual</span><span id=\"old_price_display\" class=\"span_derecho_precios\"><span class=\"price\">95,13 €</span></span>                                    </p>      ",
-   "ss=\"span_izquierdo_precios\">Precio:</span><span id=\"our_price_display\" class=\"span_derecho_precios\"><span class=\"price\">48,55 €</span><span class=\"price_per_combination\">(97,10 €/ 100ml)<",
-   "\"our_price_display\" class=\"span_derecho_precios\"><span class=\"price\">48,55 €</span><span class=\"price_per_combination\">(97,10 €/ 100ml)</span></span>    </p>                              ",
-   "an class=\"price_product_sizes\">                                                                                         48,55 €                                                            ",
-   "                                                                                                                 <span>(97,10 €                                                            ",
-   "an class=\"price_product_sizes\">                                                                                         71,04 €                                                            ",
-   "                                                                                                                 <span>(71,04 €                                                            ",
-   "an class=\"price_product_sizes\">                                                                                         83,61 €                                                            ",
-   "                                                                                                                 <span>(41,81 €                                                            ",
-   "ia-controls=\"ecc_popup_1505305919\"  />         <label for=\"ec_customization_976\">             Grabado personalizado por 8,95 €<br />             <span>Dale un toque único a tu regalo con",
+   "_izquierdo_precios\">Precio habitual</span><span id=\"old_price_display\" class=\"span_derecho_precios\"><span class=\"price\">86,73 €</span></span>                                    </p>      ",
+   "ss=\"span_izquierdo_precios\">Precio:</span><span id=\"our_price_display\" class=\"span_derecho_precios\"><span class=\"price\">23,45 €</span><span class=\"price_per_combination\">(31,27 €/ 100ml)<",
+   "\"our_price_display\" class=\"span_derecho_precios\"><span class=\"price\">23,45 €</span><span class=\"price_per_combination\">(31,27 €/ 100ml)</span></span>    </p>                              ",
+   "an class=\"price_product_sizes\">                                                                                         23,45 €                                                            ",
+   "                                                                                                                 <span>(31,27 €                                                            ",
+   "an class=\"price_product_sizes\">                                                                                         28,15 €                                                            ",
+   "                                                                                                                 <span>(22,52 €                                                            ",
+   "ia-controls=\"ecc_popup_1339444398\"  />         <label for=\"ec_customization_258\">             Grabado personalizado por 8,95 €<br />             <span>Dale un toque único a tu regalo con",
    "\">Añade un nombre, una fecha o unas palabras especiales.</p>                 <p class=\"ecc_pdp_price\">Grabado láser por 8,95 €</p>                 <div class=\"ecc_charlimit ecc_legacy_ch",
-   "quot;:83.61}\" data-free-from=\"39\" data-price-precision=\"2\" data-product-eligible=\"1\" data-threshold-label=\"Gratis desde 39,00 €\" data-free-label=\"Envío gratis con este producto\" aria-live",
+   "quot;:40.37}\" data-free-from=\"39\" data-price-precision=\"2\" data-product-eligible=\"1\" data-threshold-label=\"Gratis desde 39,00 €\" data-free-label=\"Envío gratis con este producto\" aria-live",
+   "threshold-label=\"Gratis desde 39,00 €\" data-free-label=\"Envío gratis con este producto\" aria-live=\"polite\">Gratis desde 39,00 €</strong>         <small>Entrega estimada: 2 a 5 días labora",
    " style=\"text-align: justify;\"><strong>Península y Baleares<br /></strong>Gastos de Envío GRATIS en pedidos superiores a 45€. En pedidos que no lleguen a dicho importe el coste del env",
    "astos de Envío GRATIS en pedidos superiores a 45€. En pedidos que no lleguen a dicho importe el coste del envío será de 5,75€.<br />El tiempo de entrega será de 5 a 7 días laborables. L",
    "de 3 a 5 días.<br /></span><strong>Islas Canarias<br /></strong>Los gastos de envío serán GRATIS en pedidos a partir de 19€. En caso de ser inferior a dicha cantidad el coste será de ",
@@ -245,356 +294,266 @@
    "lgica, Austria, Países Bajos, Polonia, Luxemburgo</strong><br />Los gastos de envío serán GRATIS en pedidos a partir de 69€. En caso de ser inferior a dicha cantidad el coste será de ",
    ">Los gastos de envío serán GRATIS en pedidos a partir de 69€. En caso de ser inferior a dicha cantidad el coste será de 7,50€.<strong><br />Reino Unido</strong><br />Los gastos de envío",
    " el coste será de 7,50€.<strong><br />Reino Unido</strong><br />Los gastos de envío serán GRATIS en pedidos a partir de 79€. En caso de ser inferior a dicha cantidad el coste será de ",
-   ">Los gastos de envío serán GRATIS en pedidos a partir de 79€. En caso de ser inferior a dicha cantidad el coste será de 7,50€.<br /> <strong>República Checa, Dinamarca, Hungría<br /></s"
+   ">Los gastos de envío serán GRATIS en pedidos a partir de 79€. En caso de ser inferior a dicha cantidad el coste será de 7,50€.<br /> <strong>República Checa, Dinamarca, Hungría<br /></s",
+   "br /> <strong>República Checa, Dinamarca, Hungría<br /></strong>Los gastos de envío serán GRATIS en pedidos a partir de 170€. En caso de ser inferior a dicha cantidad el coste será de "
   ],
   "variantes": []
- },
- "fallo_sephora": {
-  "url": "https://www.sephora.es/p/eros--edtv-200ml-P1572027.html",
-  "ml": 100,
-  "resultado": {
-   "precio": null,
-   "metodo": "sin-precio",
-   "referencia": 58.45,
-   "aceptado": false
-  },
-  "largo": 2721,
-  "titulo": "",
-  "tamaños": [],
-  "inicio": "<!DOCTYPE html> <html> <body><script type=\"text/javascript\" src=\"/NpOfZN0WDc/yKplEJ/ArZH/XV5b8Gb1JE/SBsWbRYqUQ/Sl/EhXTJaTih3AQ?v=91dc2fe8-a32d-78a5-fcb4-a5f2f53917c3&amp;t=258795495\"></script> <div id=\"sec-if-cpt-container\" role=\"main\" style=\"display: none\"> <div class=\"behavioral-content\"> <div id=\"sec-bc-text-container\"></div> <div id=\"sec-bc-tile-parent\"> <div id"
- },
- "sephora": {
-  "url": "https://www.sephora.es/p/eros--edtv-200ml-P1572027.html",
-  "ml": 100,
-  "resultado": {
-   "precio": null,
-   "metodo": "sin-precio",
-   "referencia": 58.45,
-   "aceptado": false
-  },
-  "jsonld": [],
-  "precios_en_html": [],
-  "variantes": []
- },
- "paco": {
-  "url": "https://www.pacoperfumerias.com/burberry-london-man-18869.html",
-  "ml": 100,
-  "resultado": {
-   "precio": 41.95,
-   "metodo": "jsonld",
-   "referencia": 33.675,
-   "aceptado": true
-  },
-  "jsonld": [
-   "{\"@context\":\"http://schema.org/\",\"@graph\":[{\"@type\":\"BreadcrumbList\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":0,\"item\":{\"@id\":\"/\",\"name\":\"Home\"}},{\"@type\":\"ListItem\",\"position\":1,\"item\":{\"@id\":\"/perfumes\",\"name\":\"Perfumes\"}},{\"@type\":\"ListItem\",\"position\":2,\"item\":{\"@id\":\"/perfumes-hombre\",\"name\":\"Perfumes Hombre\"}}]},{\"@type\":\"ProductGroup\",\"name\":\"LONDON MAN\",\"description\":\"Eau de Toilette para Hombre\",\"url\":\"https://www.pacoperfumerias.com/burberry-london-man-18869.html\",\"productGroupID\":\"18869\",\"brand\":{\"@type\":\"Brand\",\"name\":\"BURBERRY\"},\"aggregateRating\":{\"@type\":\"AggregateRating\",\"ratingValue\":5,\"reviewCount\":5},\"variesBy\":[\"https://schema.org/size\"],\"hasVariant\":[{\"@type\":\"Product\",\"sku\":\"190271\",\"name\":\"LONDON MAN 100ml\",\"offers\":{\"@type\":\"Offer\",\"url\":\"https://www.pacoperfumerias.com/burberry-london-man-18869.html\",\"priceCurrency\":\"EUR\",\"price\":41.95,\"itemCondition\":\"https://schema.org/NewCondition\",\"availability\":\"https://schema.org/InStock\"},\"image\":\"https://www.pacoperfumerias.com/on/demandware.static/-/Sites-pacoper-master-catalog/default/dw10982524/images/1/9/190271_2.jpg\",\"size\":\"100ml\"}]}]}"
-  ],
-  "precios_en_html": [
-   "<a class=\"header-ticker__text label-link label-link--secondary-light\" href=\"https://www.pacoperfumerias.com/newsletter\">3&euro; por SUSCRIBIRTE*</a></p>  <p class=\"header-ticker__text\">EN",
-   "w.pacoperfumerias.com/newsletter\">3&euro; por SUSCRIBIRTE*</a></p>  <p class=\"header-ticker__text\">ENV&Iacute;O GRATIS +49,99&euro;</p>  <p class=\"header-ticker__text\">MUESTRAS GRATIS en tu p",
-   "<a class=\"header-ticker__text label-link label-link--secondary-light\" href=\"https://www.pacoperfumerias.com/newsletter\">3&euro; por SUSCRIBIRTE*</a></p>  <p class=\"header-ticker__text\">EN",
-   "w.pacoperfumerias.com/newsletter\">3&euro; por SUSCRIBIRTE*</a></p>  <p class=\"header-ticker__text\">ENV&Iacute;O GRATIS +49,99&euro;</p>  <p class=\"header-ticker__text\">MUESTRAS GRATIS en tu p",
-   "      <span class=\"sr-only\">                         Price reduced from                     </span>                     81,90 &euro;                       <span class=\"sr-only\">               ",
-   "\">                                                        <span class=\"value\" content=\"41.95\">                          41,95 &euro;               </span>         </span>     </span>          ",
-   "\"discount tag tag--discount \">49%</span>                      </div>                      <span class=\"price__per-unit\">41,95 &euro; / 100ml</span>                        </div>               ",
-   "n style=\"font-size:12px;\">10% de descuento sin m&iacute;nimo de compra.<br />\r 12% de descuento en compras superiores a 69&euro;<br />\r 15% de descuento en compras superiores a 99&euro;.</",
-   "imo de compra.<br />\r 12% de descuento en compras superiores a 69&euro;<br />\r 15% de descuento en compras superiores a 99&euro;.</span><br />\r <br />\r <span style=\"font-size:14px;\">El des",
-   "      <span class=\"sr-only\">                         Price reduced from                     </span>                     77,50 &euro;                       <span class=\"sr-only\">               ",
-   "\">                                                        <span class=\"value\" content=\"39.95\">                          39,95 &euro;               </span>         </span>     </span>          ",
-   "      <span class=\"sr-only\">                         Price reduced from                     </span>                     77,50 &euro;                       <span class=\"sr-only\">               ",
-   "\">                                                        <span class=\"value\" content=\"39.95\">                          39,95 &euro;               </span>         </span>     </span>          ",
-   "      <span class=\"sr-only\">                         Price reduced from                     </span>                     97,00 &euro;                       <span class=\"sr-only\">               ",
-   "\">                                                        <span class=\"value\" content=\"44.94\">                          44,94 &euro;               </span>         </span>     </span>          ",
-   "      <span class=\"sr-only\">                         Price reduced from                     </span>                     109,00 &euro;                       <span class=\"sr-only\">               ",
-   "\">                                                        <span class=\"value\" content=\"51.50\">                          51,50 &euro;               </span>         </span>     </span>          ",
-   "      <span class=\"sr-only\">                         Price reduced from                     </span>                     131,00 &euro;                       <span class=\"sr-only\">               ",
-   "\">                                                        <span class=\"value\" content=\"59.98\">                          59,98 &euro;               </span>         </span>     </span>          ",
-   "      <span class=\"sr-only\">                         Price reduced from                     </span>                     157,00 &euro;                       <span class=\"sr-only\">               ",
-   "\">                                                        <span class=\"value\" content=\"62.80\">                          62,80 &euro;               </span>         </span>     </span>          ",
-   "      <span class=\"sr-only\">                         Price reduced from                     </span>                     140,00 &euro;                       <span class=\"sr-only\">               ",
-   "\">                                                        <span class=\"value\" content=\"64.94\">                          64,94 &euro;               </span>         </span>     </span>          "
-  ],
-  "variantes": []
- },
- "fallo_parejo": {
-  "url": "https://www.joyeriaparejo.com/perfumes/212-vip-men-200-ml-eau-de-toilette-carolina-herrera",
-  "ml": 100,
-  "resultado": {
-   "precio": null,
-   "metodo": "sin-precio",
-   "referencia": 49.95,
-   "aceptado": false
-  },
-  "largo": 264936,
-  "titulo": "212 VIP Men 200 ml Eau de Toilette Carolina Herrera",
-  "tamaños": [
-   "20",
-   "200"
-  ],
-  "inicio": "<!doctype html> <html lang=\"es\"> <head> <meta charset=\"utf-8\"> <meta name=\"format-detection\" content=\"telephone=no, date=no, address=no, email=no\"> <meta http-equiv=\"x-ua-compatible\" content=\"ie=edge\"> <title>212 VIP Men 200 ml Eau de Toilette Carolina Herrera</title> <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\"> <link rel=\"preconnect\" href=\"https://fon"
  },
  "firstinfragrance": {
-  "url": "https://ausliebezumduft.de/en/products/creed-green-irish-tweed",
+  "url": "https://www.ausliebezumduft.de/products/diptyque-philosykos",
   "ml": 100,
   "resultado": {
-   "precio": 320.0,
+   "precio": 155.0,
    "metodo": "jsonld",
-   "referencia": 312.0,
+   "referencia": 160.69,
    "aceptado": true
   },
   "jsonld": [
    "{\r\n\t  \"@context\": \"http://schema.org\",\r\n\t  \"@type\": \"Organization\",\r\n\t  \"name\": \"Aus Liebe zum Duft\",\r\n\t  \r\n\t    \"logo\": \"https:files\\/ALZD_lang.png\",\r\n\t  \r\n\t  \"sameAs\": [\r\n\t    \"\",\r\n\t    \"https:\\/\\/www.facebook.com\\/ausliebezumduft\\/\",\r\n\t    \"\",\r\n\t    \"https:\\/\\/www.instagram.com\\/ausliebezumduft.de\\/\",\r\n\t    \"\",\r\n\t    \"\",\r\n\t    \"\",\r\n\t    \"\"\r\n\t  ],\r\n\t  \"url\": \"https:\\/\\/www.ausliebezumduft.de\"\r\n\t}",
-   "{\"@context\":\"http:\\/\\/schema.org\\/\",\"@id\":\"\\/en\\/products\\/creed-green-irish-tweed#product\",\"@type\":\"ProductGroup\",\"brand\":{\"@type\":\"Brand\",\"name\":\"Creed\"},\"category\":\"\",\"description\":\"The extremely elegant and distinguished Green Irish Tweed was one of the Duke of Windsor's favourite fragrances.Like a breath of fresh air, Green Irish Tweed transports you to the lush green, rolling hills of the Irish wilderness. The vast moors, where heather and cotton grass thrive, and the seemingly endless meadows and pastures, criss-crossed by countless walls and hedges, shine in the legendary 40 shades of green.The golden-yellow sandy beaches, constantly changing shape in the rapidly shifting light, invite you to take solitary walks. Lovers of unspoilt nature will be thrilled by the rugged cliff landscapes, where crashing waves almost inevitably silence the squawking seabirds, and thousands of crystal-clear lakes with their small islands lie scattered across the landscape.These are also the friends of Green Irish Tweed, which evokes these landscapes with its notes of verbena, iris, violet leaves, sandalwood and ambergris.\",\"hasVariant\":[{\"@id\":\"\\/en\\/products\\/creed-green-irish-tweed?variant=50939303166298#variant\",\"@type\":\"Product\",\"gtin\":\"3508440505026\",\"image\":\"https:\\/\\/www.ausliebezumduft.de\\/cdn\\/shop\\/files\\/GreenIrishTweed100mlFlakonneu.webp?v=1779191094\\u0026width=1920\",\"name\":\"Creed - Green Irish Tweed - 50 ML\",\"offers\":{\"@id\":\"\\/en\\/products\\/creed-green-irish-tweed?variant=50939303166298#offer\",\"@type\":\"Offer\",\"availability\":\"http:\\/\\/schema.org\\/InStock\",\"price\":\"184.87\",\"priceCurrency\":\"EUR\",\"url\":\"https:\\/\\/www.ausliebezumduft.de\\/en\\/products\\/creed-green-irish-tweed?variant=50939303166298\"},\"sku\":\"1291105032\"},{\"@id\":\"\\/en\\/products\\/creed-green-irish-tweed?variant=50939303199066#variant\",\"@type\":\"Product\",\"gtin\":\"3508441001022\",\"image\":\"https:\\/\\/www.ausliebezumduft.de\\/cdn\\/shop\\/files\\/GreenIrishTweed100mlFlakonneu.webp?v=1779191094\\u0026width=1920\",\"name\":\"Creed - Green Irish Tweed - 100 ML\",\"offers\":{\"@id\":\"\\/en\\/products\\/creed-green-irish-tweed?variant=50939303199066#offer\",\"@type\":\"Offer\",\"availability\":\"http:\\/\\/schema.org\\/InStock\",\"price\":\"268.91\",\"priceCurrency\":\"EUR\",\"url\":\"https:\\/\\/www.ausliebezumduft.de\\/en\\/products\\/creed-green-irish-tweed?variant=50939303199066\"},\"sku\":\"1291110032\"}],\"name\":\"Creed - Green Irish Tweed\",\"productGroupID\":\"10143249924442\",\"url\":\"https:\\/\\/www.ausliebezumduft.de\\/en\\/products\\/creed-green-irish-tweed\"}"
+   "{\"@context\":\"http:\\/\\/schema.org\\/\",\"@id\":\"\\/products\\/diptyque-philosykos#product\",\"@type\":\"ProductGroup\",\"brand\":{\"@type\":\"Brand\",\"name\":\"DIPTYQUE\"},\"category\":\"\",\"description\":\"Der bekannteste Duft von DIPTYQUE: das Wort Philosykos stammt aus dem Griechischen und bedeutet \\\"der Feigenfreund\\\". Die Blätter des Feigenbaumes standen für diese Duftkreation Pate, die im Jahre 1996 geschaffen wurde.\\nInspiration für den Duft war das Haus von Desmond Knox-Leet and Yves Coueslant, das auf dem Berg Pilion in Thessalien liegt und von einer der schönsten Gartenlandschaften Griechenlands einschließlich Meerblick umgeben wird. Philosykos duftet nach den frischen Blättern der Feige und wird von den holzigen Noten weißen Zedernholzes perfekt abgerundet.\",\"hasVariant\":[{\"@id\":\"\\/products\\/diptyque-philosykos?variant=50938813907290#variant\",\"@type\":\"Product\",\"gtin\":\"3700431421555\",\"image\":\"https:\\/\\/www.ausliebezumduft.de\\/cdn\\/shop\\/files\\/philosykos_2.jpg?v=1744104973\\u0026width=1920\",\"name\":\"DIPTYQUE - Philosykos - 100 ML\",\"offers\":{\"@id\":\"\\/products\\/diptyque-philosykos?variant=50938813907290#offer\",\"@type\":\"Offer\",\"availability\":\"http:\\/\\/schema.org\\/InStock\",\"price\":\"130.25\",\"priceCurrency\":\"EUR\",\"url\":\"https:\\/\\/www.ausliebezumduft.de\\/products\\/diptyque-philosykos?variant=50938813907290\"},\"sku\":\"352DQPHILO100V1-100\"},{\"@id\":\"\\/products\\/diptyque-philosykos?variant=50938813940058#variant\",\"@type\":\"Product\",\"gtin\":\"3700431421548\",\"image\":\"https:\\/\\/www.ausliebezumduft.de\\/cdn\\/shop\\/files\\/philosykos_2.jpg?v=1744104973\\u0026width=1920\",\"name\":\"DIPTYQUE - Philosykos - 50 ML\",\"offers\":{\"@id\":\"\\/products\\/diptyque-philosykos?variant=50938813940058#offer\",\"@type\":\"Offer\",\"availability\":\"http:\\/\\/schema.org\\/InStock\",\"price\":\"94.12\",\"priceCurrency\":\"EUR\",\"url\":\"https:\\/\\/www.ausliebezumduft.de\\/products\\/diptyque-philosykos?variant=50938813940058\"},\"sku\":\"352DQPHILO50V1-50\"}],\"name\":\"DIPTYQUE - Philosykos\",\"productGroupID\":\"10143122096474\",\"url\":\"https:\\/\\/www.ausliebezumduft.de\\/products\\/diptyque-philosykos\"}"
   ],
   "precios_en_html": [
-   "ly-hidden--inline\">Regular price</span>\r \t\t\t</dt>\r \t\t\t<dd\r \t\t\t\t\r \t\t\t>\r \t\t\t\t<span class=\"price-item price-item--regular\">184,87 €\r</span>\r \t\t\t</dd>\r \t\t</div>\r \t\t<div class=\"price__sale\">\r \t",
-   "y-hidden--inline\">Sale price</span>\r \t\t\t</dt>\r \t\t\t<dd\r \t\t\t\t\r \t\t\t>\r \t\t\t\t<span class=\"price-item price-item--sale\">\r \t\t\t\t\t184,87 €\r \t\t\t\t</span>\r \t\t\t</dd>\r \t\t\t<dt class=\"price__compare\">\r \t\t\t",
-   "ass=\"unit-price caption\">\r \t\t\t\t<dt class=\"visually-hidden\">\r \t\t\t\t\tUnit price\r \t\t\t\t</dt>\r \t\t\t\t<dd>\r \t\t\t\t\t<span>\r \t\t\t\t\t\t4,400.00 € / 1 l\r \t\t\t\t\t</span>\r \t\t\t\t</dd>\r \t\t\t</dl></dl>\r </div>\r <div",
-   "e=\"status\">\r             <h3 class=\"totals__subtotal\">Subtotal:</h3>\r \t\t\t\t\t\t<p class=\"totals__subtotal-value\">\r \t\t\t\t\t\t\t€0,00 EUR\r \t\t\t\t\t\t</p>\r \t\t\t\t\t</div><small class=\"tax-note\">Taxes and <"
+   "-hidden--inline\">Regulärer Preis</span>\r \t\t\t</dt>\r \t\t\t<dd\r \t\t\t\t\r \t\t\t>\r \t\t\t\t<span class=\"price-item price-item--regular\">130,25 €\r</span>\r \t\t\t</dd>\r \t\t</div>\r \t\t<div class=\"price__sale\">\r \t",
+   "idden--inline\">Verkaufspreis</span>\r \t\t\t</dt>\r \t\t\t<dd\r \t\t\t\t\r \t\t\t>\r \t\t\t\t<span class=\"price-item price-item--sale\">\r \t\t\t\t\t130,25 €\r \t\t\t\t</span>\r \t\t\t</dd>\r \t\t\t<dt class=\"price__compare\">\r \t\t\t",
+   "ss=\"unit-price caption\">\r \t\t\t\t<dt class=\"visually-hidden\">\r \t\t\t\t\tEinzelpreis\r \t\t\t\t</dt>\r \t\t\t\t<dd>\r \t\t\t\t\t<span>\r \t\t\t\t\t\t1,550.00 € / 1 l\r \t\t\t\t\t</span>\r \t\t\t\t</dd>\r \t\t\t</dl></dl>\r </div>\r <div",
+   "atus\">\r             <h3 class=\"totals__subtotal\">Zwischensumme:</h3>\r \t\t\t\t\t\t<p class=\"totals__subtotal-value\">\r \t\t\t\t\t\t\t€0,00 EUR\r \t\t\t\t\t\t</p>\r \t\t\t\t\t</div><small class=\"tax-note\">Steuern und"
+  ],
+  "variantes": []
+ },
+ "fallo_beautinow": {
+  "url": "https://beautinow.com/products/diptyque-tam-dao-eau-de-toilette/",
+  "ml": 100,
+  "resultado": {
+   "precio": null,
+   "metodo": "sin-precio",
+   "referencia": 150.9,
+   "aceptado": false
+  },
+  "largo": 714982,
+  "titulo": "Buy Diptyque Tam Dao Eau de Toilette | Black Friday 2026 | Beautinow",
+  "tamaños": [
+   "100",
+   "50"
+  ],
+  "inicio": "<!DOCTYPE html> <html lang=\"en\"> <head><script>(function(w,i,g){w[g]=w[g]||[];if(typeof w[g].push=='function')w[g].push(i)}) (window,'GTM-59GCKBX','google_tags_first_party');</script><script>(function(w,d,s,l){w[l]=w[l]||[];(function(){w[l].push(arguments);})('set', 'developer_id.dY2E1Nz', true); var f=d.getElementsByTagName(s)[0], j=d.createElement(s);j.async=true;j.src='/googlemetrics/'; f"
+ },
+ "beautinow": {
+  "url": "https://beautinow.com/products/diptyque-tam-dao-eau-de-toilette/",
+  "ml": 100,
+  "resultado": {
+   "precio": null,
+   "metodo": "sin-precio",
+   "referencia": 150.9,
+   "aceptado": false
+  },
+  "jsonld": [
+   "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": [\"Organization\",\"Store\"],\n  \"name\": \"Beautinow\",\n  \"url\": \"https://beautinow.com\",\n  \"logo\": \"https://cdn4.beautinow.com/wp-content/uploads/2024/02/Black-Logo-Cut-New.png\",\n  \"foundingDate\": \"2019\",\n  \"description\": \"Niche Perfume & Beauty: Skincare, Haircare & Makeup at the Lowest Prices you can find online. 10% OFF First Order, Free Shipping.\",\n  \"sameAs\": [\n    \"https://www.facebook.com/beautinownll/\",\n    \"https://www.instagram.com/beautinownl/?hl=en\",\n    \"https://www.youtube.com/@beautinownl\",\n    \"https://nl.pinterest.com/beautinow/\",\n    \"https://www.wikidata.org/wiki/Q135229641\"\n  ],\n  \"contactPoint\": {\n    \"@type\": \"ContactPoint\",\n    \"contactType\": \"customer support\",\n    \"telephone\": \"010 322 0006\",\n    \"email\": \"cs@beautinow.nl\",\n    \"areaServed\": \"EN\",\n    \"availableLanguage\": [\"English\"]\n  },\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"streetAddress\": \"Wilhelminaplein 1, 3072DE\",\n    \"addressLocality\": \"Rotterdam\",\n    \"addressCountry\": \"NL\"\n  },\n  \"openingHours\": \"Mo-Fr 09:00-17:30\",\n  \"currenciesAccepted\": \"EUR\",\n  \"priceRange\": \"$$$\"\n}",
+   "{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":[\"WebPage\",\"ItemPage\"],\"@id\":\"https:\\/\\/beautinow.com\\/products\\/diptyque-tam-dao-eau-de-toilette\\/\",\"url\":\"https:\\/\\/beautinow.com\\/products\\/diptyque-tam-dao-eau-de-toilette\\/\",\"name\":\"Buy Diptyque Tam Dao Eau de Toilette | Black Friday 2026 | Beautinow\",\"isPartOf\":{\"@id\":\"https:\\/\\/beautinow.com\\/#website\"},\"primaryImageOfPage\":{\"@id\":\"https:\\/\\/beautinow.com\\/products\\/diptyque-tam-dao-eau-de-toilette\\/#primaryimage\"},\"image\":{\"@id\":\"https:\\/\\/beautinow.com\\/products\\/diptyque-tam-dao-eau-de-toilette\\/#primaryimage\"},\"thumbnailUrl\":\"https:\\/\\/beautinow.com\\/wp-content\\/uploads\\/2023\\/08\\/3700431425676box.png\",\"description\":\"Experience Diptyque Tam Dao Eau de Toilette. Buy from Beautinow for 100% guaranteed authenticity, unbeatable EU prices, and lightning-fast shipping from the Netherlands.\",\"breadcrumb\":{\"@id\":\"https:\\/\\/beautinow.com\\/products\\/diptyque-tam-dao-eau-de-toilette\\/#breadcrumb\"},\"inLanguage\":\"en-GB\",\"potentialAction\":{\"@type\":\"BuyAction\",\"target\":\"https:\\/\\/beautinow.com\\/products\\/diptyque-tam-dao-eau-de-toilette\\/\"}},{\"@type\":\"ImageObject\",\"inLanguage\":\"en-GB\",\"@id\":\"https:\\/\\/beautinow.com\\/products\\/diptyque-tam-dao-eau-de-toilette\\/#primaryimage\",\"url\":\"https:\\/\\/beautinow.com\\/wp-content\\/uploads\\/2023\\/08\\/3700431425676box.png\",\"contentUrl\":\"https:\\/\\/beautinow.com\\/wp-content\\/uploads\\/2023\\/08\\/3700431425676box.png\",\"width\":800,\"height\":800,\"caption\":\"Diptyque Tam Dao Eau de Toilette\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/beautinow.com\\/products\\/diptyque-tam-dao-eau-de-toilette\\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/beautinow.com\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Diptyque Perfumes\",\"item\":\"https:\\/\\/beautinow.com\\/collections\\/diptyque-perfume\\/\"},{\"@type\":\"ListItem\",\"position\":3,\"name\":\"Diptyque Tam Dao Eau de Toilette\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/beautinow.com\\/#website\",\"url\":\"https:\\/\\/beautinow.com\\/\",\"name\":\"Beautinow\",\"description\":\"Moeiteloos uniek\",\"publisher\":{\"@id\":\"https:\\/\\/beautinow.com\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/beautinow.com\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-GB\"},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/beautinow.com\\/#organization\",\"name\":\"Beautinow B.V.\",\"alternateName\":\"Beautinow\",\"url\":\"https:\\/\\/beautinow.com\\/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-GB\",\"@id\":\"https:\\/\\/beautinow.com\\/#\\/schema\\/logo\\/image\\/\",\"url\":\"https:\\/\\/beautinow.com\\/wp-content\\/uploads\\/2026\\/04\\/White-Logo-e1777030593303.png\",\"contentUrl\":\"https:\\/\\/beautinow.com\\/wp-content\\/uploads\\/2026\\/04\\/White-Logo-e1777030593303.png\",\"width\":1000,\"height\":1000,\"caption\":\"Beautinow B.V.\"},\"image\":{\"@id\":\"https:\\/\\/beautinow.com\\/#\\/schema\\/logo\\/image\\/\"},\"sameAs\":[\"https:\\/\\/www",
+   "{\n  \"@context\": \"https://schema.org\",\n  \"@graph\": [\n\n    {\n      \"@type\": [\"Organization\", \"Store\"],\n      \"@id\": \"https://beautinow.com/#organization\",\n      \"name\": \"Beautinow\",\n      \"url\": \"https://beautinow.com\",\n      \"logo\": \"https://cdn4.beautinow.com/wp-content/uploads/2024/02/Black-Logo-Cut-New.png\",\n      \"foundingDate\": \"2019\",\n      \"description\": \"Netherlands-based online retailer offering authentic niche perfumes and beauty products with fast EU delivery.\",\n      \"sameAs\": [\n        \"https://www.trustpilot.com/review/www.beautinow.com\",\n        \"https://www.instagram.com/beautinownl/\",\n        \"https://www.facebook.com/beautinownll/\",\n        \"https://www.youtube.com/@beautinownl\"\n      ],\n      \"address\": {\n        \"@type\": \"PostalAddress\",\n        \"streetAddress\": \"Wilhelminaplein 1\",\n        \"addressLocality\": \"Rotterdam\",\n        \"postalCode\": \"3072DE\",\n        \"addressCountry\": \"NL\"\n      },\n      \"areaServed\": {\n        \"@type\": \"AdministrativeArea\",\n        \"name\": \"European Union\"\n      },\n      \"currenciesAccepted\": \"EUR\",\n      \"priceRange\": \"$$$\"\n    },\n    {\n      \"@type\": \"ProductGroup\",\n      \"@id\": \"https://beautinow.com/products/diptyque-tam-dao-eau-de-toilette/#productgroup\",\n      \"name\": \"Diptyque Tam Dao Eau de Toilette\",\n      \"description\": \"Diptyque Tam Dao Eau de Toilette is a unisex fragrance that transports the wearer to the sacred forests of Indochina, capturing the essence of precious woods and aromatic spices. This scent is a tribute to the rich and velvety aroma of Mysore sandalwood, complemented by notes of cypress and myrtle. Fragrance Type: Eau de Toilette​ Gender: Unisex​ Fragrance Family: Woody Aromatic​ Longevity: Approximately 4–6 hours​ Sillage: Moderate​ Projection: Moderate​ Diptyque Tam Dao Eau de Toilette Notes Top Notes: Italian Cypress, Myrtle, Rose​ Middle Notes: Sandalwood, Cedar​ Base Notes: Brazilian Rosewood, Spices, Amber, White Musk​ Scent Description The fragrance opens with a fresh and slightly green aroma of Italian cypress, myrtle, and a hint of rose, creating an inviting and natural introduction. The heart reveals the rich and creamy scent of sandalwood, harmoniously blended with cedar, evoking the serene ambiance of Asian forests. The base is anchored by Brazilian rosewood, subtle spices, amber, and white musk, providing a warm and sensual foundation that lingers on the skin. ​ Performance Details Longevity: 6/10 – The fragrance typically lasts between 4 to 6 hours.​ Sillage: 6/10 – Offers a moderate scent trail, noticeable yet subtle.​ Projection: 6/10 – Maintains a balanced presence suitable for various settings.​ Experience the timeless elegance of Diptyque Tam Dao Eau de Toilette—a fragrance that encapsulates the mystique of sacred woods, offering a serene and comforting aroma that lingers gracefully on the skin.​ Note: All products are 100% authentic.\",\n      \"url\": \"https://beautinow.com/products/diptyque-tam-dao-eau-de-toilette/\",\n      \"brand\": {\n      \"@type\": \"Brand",
+   "{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"mainEntityOfPage\":{\"@id\":\"https:\\/\\/beautinow.com\\/products\\/diptyque-tam-dao-eau-de-toilette\\/\"},\"image\":{\"@id\":\"https:\\/\\/beautinow.com\\/products\\/diptyque-tam-dao-eau-de-toilette\\/#primaryimage\"},\"brand\":{\"@type\":\"Brand\",\"name\":\"Diptyque\"}}]}"
+  ],
+  "precios_en_html": [
+   "22%2C%22item_category4%22%3A%22Perfumes%22%2C%22item_category5%22%3A%22Unisex%20Fragrances%22%7D%5D%2C%22currency%22%3A%22EUR%22%2C%22value%22%3A%220%22%2C%22ecomm_prodid%22%3A%226929%2"
+  ],
+  "variantes": []
+ },
+ "fallo_parejo": {
+  "url": "https://www.joyeriaparejo.com/perfumes/mugler-angel-eau-de-parfum-50-ml-mujer",
+  "ml": 100,
+  "resultado": {
+   "precio": null,
+   "metodo": "sin-precio",
+   "referencia": 91.95,
+   "aceptado": false
+  },
+  "largo": 265794,
+  "titulo": "Mugler Angel  Eau de Parfum 50 ml Mujer | Joyería Parejo",
+  "tamaños": [
+   "20",
+   "50"
+  ],
+  "inicio": "<!doctype html> <html lang=\"es\"> <head> <meta charset=\"utf-8\"> <meta name=\"format-detection\" content=\"telephone=no, date=no, address=no, email=no\"> <meta http-equiv=\"x-ua-compatible\" content=\"ie=edge\"> <title>Mugler Angel Eau de Parfum 50 ml Mujer | Joyería Parejo</title> <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\"> <link rel=\"preconnect\" href=\"https:"
+ },
+ "parejo": {
+  "url": "https://www.joyeriaparejo.com/perfumes/mugler-angel-eau-de-parfum-50-ml-mujer",
+  "ml": 100,
+  "resultado": {
+   "precio": null,
+   "metodo": "sin-precio",
+   "referencia": 91.95,
+   "aceptado": false
+  },
+  "jsonld": [
+   "{\r\n                    \"@context\":\"https://schema.org\",\r\n                    \"@type\":\"BreadcrumbList\",\r\n                        \"itemListElement\": [\r\n                        {\r\n                            \"@type\": \"ListItem\",\r\n                            \"position\": 0,\r\n                            \"name\": \"Joyería Parejo\",\r\n                            \"item\": \"https://www.joyeriaparejo.com/\"\r\n                        },\r\n                      {\r\n                    \"@type\": \"ListItem\",\r\n                    \"position\": 1,\r\n                    \"name\": \"Perfumes\",\r\n                    \"item\": \"https://www.joyeriaparejo.com/perfumes\"\r\n                },\r\n                                    {\r\n                                        \"@type\": \"ListItem\",\r\n                                        \"position\": 2,\r\n                                        \"name\": \"Mugler Angel  Eau de Parfum 50 ml Mujer\",\r\n                                        \"item\": \"https://www.joyeriaparejo.com/perfumes/mugler-angel-eau-de-parfum-50-ml-mujer\"\r\n                                    }\r\n                                \r\n                        ]\r\n                }",
+   "{\r\n                    \"@context\": \"https://schema.org\",\r\n                    \"@type\": \"Product\",\r\n                    \"description\": \"Mugler Angel Eau de Parfum 50 ml envuelve la piel en un aura de lujo celestial. Con notas de bergamota de Calabria, praliné y pachulí, esta fragancia ámbar vainilla reinventa el estilo gourmand con una elegancia audaz y sensual. Un perfume icónico.\",\r\n                    \"name\": \"Mugler Angel  Eau de Parfum 50 ml Mujer\",\r\n                    \"image\": [\"https:\\/\\/www.joyeriaparejo.com\\/56661-large_default\\/mugler-angel-eau-de-parfum-50-ml-mujer.jpg\",\"https:\\/\\/www.joyeriaparejo.com\\/56662-large_default\\/mugler-angel-eau-de-parfum-50-ml-mujer.jpg\"],\r\n                    \"brand\": {\r\n                        \"@type\": \"Brand\",\r\n                        \"name\": \"MUGLER\",\r\n                        \"url\": \"https://www.joyeriaparejo.com/brand/mugler\"\r\n                    },\r\n                    \"category\": \"Perfumes\",\r\n                    \"alternateName\": \"Compra Mugler Angel  Eau de Parfum 50 ml Mujer a buen precio\",\r\n                    \"url\": \"https://www.joyeriaparejo.com/perfumes/mugler-angel-eau-de-parfum-50-ml-mujer\",\r\n                        \"offers\": {    \t\t\r\n                            \"@type\": \"offer\",\r\n                            \"price\": \"77.35\",\r\n                            \"priceCurrency\": \"EUR\", \r\n                            \"itemOffered\": \"Mugler Angel  Eau de Parfum 50 ml Mujer\",\r\n                            \"availability\": \"http://schema.org/InStock\", \r\n                            \"priceValidUntil\": \"2026-11-22\",\r\n                            \"itemCondition\":\"http://schema.org/NewCondition\", \r\n                            \"url\": \"https://www.joyeriaparejo.com/perfumes/mugler-angel-eau-de-parfum-50-ml-mujer\",\r\n\t\t\t\t\t\t\t\"sku\": \"70330007\",\r\n\t\t\t\t\t\t\t\"gtin13\": \"3439600040920\"\r\n                        }}"
+  ],
+  "precios_en_html": [
+   "  >              <div class=\"current-price\">                  <span class=\"price_with_tax price_pvp\" content=\"63.92562\">77,35 €</span>                                    <span class=\"pric",
+   "n>                                                  <span class=\"show_pvp\">                     <span class=\"old_price\">91,00 €</span>                   </span>                    <span c",
+   "class=\"parejo-sticky-buy__name\">Mugler Angel  Eau de Parfum 50 ml Mujer</p>         <p class=\"parejo-sticky-buy__price\">77,35 €</p>       </div>       <div class=\"parejo-sticky-buy__qty\">"
   ],
   "variantes": []
  },
  "arabicparfums": {
-  "url": "https://arabicparfums.com/en/products/club-de-nuit-intense-men-armaf-105ml",
-  "ml": 105,
+  "url": "https://arabicparfums.com/products/9-pm-afnan-100ml-2",
+  "ml": 100,
   "resultado": {
    "precio": 33.99,
    "metodo": "jsonld",
-   "referencia": 25.5,
+   "referencia": 29.9,
    "aceptado": true
   },
   "jsonld": [
-   "{\n      \"@context\": \"http://schema.org\",\n      \"@type\": \"BreadcrumbList\",\n      \"itemListElement\": [\n      \n          \n            {\n              \"@type\": \"ListItem\",\n              \"position\": 1,\n              \"item\": {\n                \"@id\": \"https://arabicparfums.com/collections\",\n                \"name\": \"Collections\"\n              }\n            },\n            {\n              \"@type\": \"ListItem\",\n              \"position\": 2,\n              \"item\": {\n                \"@id\": \"https://arabicparfums.com/collections/todos-los-productos\",\n                \"name\": \"All products\"\n              }\n            },\n          \n          {\n            \"@type\": \"ListItem\",\n            \"position\": 3,\n            \"item\": {\n              \"@id\": \"https://arabicparfums.com/en/products/club-de-nuit-intense-men-armaf-105ml\",\n              \"name\": \"Club de Nuit Intense Men ARMAF 105ml\"\n            }\n          }\n        \n      ]\n    }",
-   "{\n    \"@context\": \"http://schema.org/\",\n    \"@type\": \"Product\",\n    \"name\": \"Club de Nuit Intense Men ARMAF 105ml\",\n    \"image\": \"https:\\/\\/arabicparfums.com\\/cdn\\/shop\\/files\\/1097_1024x1024.jpg?v=1770892506\",\n    \n      \"description\": \"\\u003cp\\u003e\\u003cem\\u003e\\u003cstrong\\u003eReminiscent of Aventus Creed\\u003c\\/strong\\u003e\\u003c\\/em\\u003e\\u003c\\/p\\u003e\\n\\u003cp\\u003e\\u003cstrong\\u003eTop notes:\\u003c\\/strong\\u003e lemon, pineapple, bergamot, blackcurrant, apple\\u003cbr\\u003e\\n\\u003cstrong\\u003eHeart notes:\\u003c\\/strong\\u003e birch, jasmine, rose\\u003cbr\\u003e\\n\\u003cstrong\\u003eBase notes:\\u003c\\/strong\\u003e musk, ambergris, patchouli, vanilla\\u003c\\/p\\u003e\",\n    \n    \n      \"brand\": {\n        \"@type\": \"Brand\",\n        \"name\": \"ARMAF\"\n      },\n    \n    \n      \"sku\": \"13PZ7-01\",\n    \n    \n      \"mpn\": \"6085010044712\",\n    \n    \n\"review\": [{\"@type\":\"Review\",\"author\":{\"@type\":\"Person\",\"name\":\"Magdalena Blanca Tamargo\"},\"reviewRating\":{\"@type\":\"Rating\",\"ratingValue\":\"5\",\"bestRating\":\"5\",\"worstRating\":\"1\"},\"datePublished\":\"2026-09-07\",\"name\":\"Todo perfecto. Como siempre.\",\"reviewBody\":\"Todo perfecto. Como siempre.\"},{\"@type\":\"Review\",\"author\":{\"@type\":\"Person\",\"name\":\"Nadia Stoica\"},\"reviewRating\":{\"@type\":\"Rating\",\"ratingValue\":\"5\",\"bestRating\":\"5\",\"worstRating\":\"1\"},\"datePublished\":\"2026-08-19\",\"name\":\"Este sip es la bomba en proieccion muy\",\"reviewBody\":\"Este sip es la bomba en proieccion muy contenta\"},{\"@type\":\"Review\",\"author\":{\"@type\":\"Person\",\"name\":\"Jesús Glez Elipe Imedio\"},\"reviewRating\":{\"@type\":\"Rating\",\"ratingValue\":\"5\",\"bestRating\":\"5\",\"worstRating\":\"1\"},\"datePublished\":\"2026-08-14\",\"name\":\"Le voy a dar las 5 estrellas porque tengo un bote original de Aventus y no me esperaba que este\",\"reviewBody\":\"Le voy a dar las 5 estrellas porque tengo un bote original de Aventus y no me esperaba que este perfume me gustase tanto. Había oído por supuesto que era una magnífica “equivalencia” “inspiración”… pero es que siendo muy Aventus, tiene algo que te gusta cuando la llevas puesta que notas diferente a Creed. Creo que es imposible comprarte este perfume y que no te guste. Si además valoras la presentación…la relación precio con todo lo que te viene, es increíble.\"},{\"@type\":\"Review\",\"author\":{\"@type\":\"Person\",\"name\":\"Ignacio Gotdejuela\"},\"reviewRating\":{\"@type\":\"Rating\",\"ratingValue\":\"5\",\"bestRating\":\"5\",\"worstRating\":\"1\"},\"datePublished\":\"2026-07-20\",\"name\":\"Genial me encanta su\",\"reviewBody\":\"Genial me encanta su perfume\"},{\"@type\":\"Review\",\"author\":{\"@type\":\"Person\",\"name\":\"Ana Kerla da Silva Da Silva\"},\"reviewRating\":{\"@type\":\"Rating\",\"ratingValue\":\"5\",\"bestRating\":\"5\",\"worstRating\":\"1\"},\"datePublished\":\"2026-04-28\",\"name\":\"Um dos melhores fragrância de perfume masculino que já senti\",\"reviewBody\":\"Um dos melhores fragrância de perfume masculino que já senti,uma alta fixação uma ótima projeção,bem marcante\"}],\"aggregateRating\": {\n        \"@type\": \"AggregateRating\",\n        \"ratingValue\": \"4.75\",\n        \"reviewCount\": \"8\"\n      },",
+   "{\n      \"@context\": \"http://schema.org\",\n      \"@type\": \"BreadcrumbList\",\n      \"itemListElement\": [\n      \n          \n            {\n              \"@type\": \"ListItem\",\n              \"position\": 1,\n              \"item\": {\n                \"@id\": \"https://arabicparfums.com/collections\",\n                \"name\": \"Collections\"\n              }\n            },\n            {\n              \"@type\": \"ListItem\",\n              \"position\": 2,\n              \"item\": {\n                \"@id\": \"https://arabicparfums.com/collections/afnan\",\n                \"name\": \"AFNAN\"\n              }\n            },\n          \n          {\n            \"@type\": \"ListItem\",\n            \"position\": 3,\n            \"item\": {\n              \"@id\": \"https://arabicparfums.com/en/products/9-pm-afnan-100ml-2\",\n              \"name\": \"9PM AFNAN 100ml\"\n            }\n          }\n        \n      ]\n    }",
+   "{\n    \"@context\": \"http://schema.org/\",\n    \"@type\": \"Product\",\n    \"name\": \"9PM AFNAN 100ml\",\n    \"image\": \"https:\\/\\/arabicparfums.com\\/cdn\\/shop\\/files\\/afnan-9-pm-con-ingredientes-naturales_1024x1024.png?v=1771003327\",\n    \n      \"description\": \"\\u003cp\\u003e\\u003cem\\u003e\\u003cstrong\\u003eReminiscent of Ultra Male JPG\\u003c\\/strong\\u003e\\u003c\\/em\\u003e\\u003c\\/p\\u003e\\n\\u003cp\\u003e\\u003cstrong\\u003eTop notes:\\u003c\\/strong\\u003e bergamot, apple, cinnamon\\u003cbr\\u003e\\n\\u003cstrong\\u003eHeart notes:\\u003c\\/strong\\u003e lily of the valley, orange blossom\\u003cbr\\u003e\\n\\u003cstrong\\u003eBase notes:\\u003c\\/strong\\u003e amber, patchouli, vanilla, tonka bean\\u003c\\/p\\u003e\",\n    \n    \n      \"brand\": {\n        \"@type\": \"Brand\",\n        \"name\": \"AFNAN\"\n      },\n    \n    \n      \"sku\": \"6VK7N-01\",\n    \n    \n      \"mpn\": \"6290171002338\",\n    \n    \n\"review\": [{\"@type\":\"Review\",\"author\":{\"@type\":\"Person\",\"name\":\"Cristian Simon\"},\"reviewRating\":{\"@type\":\"Rating\",\"ratingValue\":\"4\",\"bestRating\":\"5\",\"worstRating\":\"1\"},\"datePublished\":\"2025-12-30\",\"name\":\"Correcta\",\"reviewBody\":\"Correcta\"},{\"@type\":\"Review\",\"author\":{\"@type\":\"Person\",\"name\":\"Sergio\"},\"reviewRating\":{\"@type\":\"Rating\",\"ratingValue\":\"2\",\"bestRating\":\"5\",\"worstRating\":\"1\"},\"datePublished\":\"2025-07-17\",\"name\":\"Espectativa realidad\",\"reviewBody\":\"Esperaba un mejor olor. Huele muy a padre de los 80\"},{\"@type\":\"Review\",\"author\":{\"@type\":\"Person\",\"name\":\"Juan M.\"},\"reviewRating\":{\"@type\":\"Rating\",\"ratingValue\":\"5\",\"bestRating\":\"5\",\"worstRating\":\"1\"},\"datePublished\":\"2025-03-02\",\"name\":\"9 PM Afnan 100ml\",\"reviewBody\":\"También huele muy bien\"},{\"@type\":\"Review\",\"author\":{\"@type\":\"Person\",\"name\":\"Miren Amaya L.\"},\"reviewRating\":{\"@type\":\"Rating\",\"ratingValue\":\"5\",\"bestRating\":\"5\",\"worstRating\":\"1\"},\"datePublished\":\"2024-10-13\",\"name\":\"9 PM Afnan 100ml\",\"reviewBody\":\"Tiene un olor dulce y muy agradable, proyecta mucho, mi marido se lo aplica muy temprano y el aroma permanece casi todo el día, por el pasillo, las escaleras, la habitación..., luego cuando vuelve a la tarde aún noto el olor a 1 metro de distancia, está muy bien.\"}],\"aggregateRating\": {\n        \"@type\": \"AggregateRating\",\n        \"ratingValue\": \"4.0\",\n        \"reviewCount\": \"4\"\n      },\n    \n    \"offers\": {\n      \"@type\": \"Offer\",\n      \"priceCurrency\": \"EUR\",\n      \"price\": 33.99,\n      \"availability\": \"http://schema.org/InStock\",\n      \"url\": \"https://arabicparfums.com/en/products/9-pm-afnan-100ml-2?variant=50553540936019\",\n      \"seller\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Arabic Parfums\"\n      },\n      \"priceValidUntil\": \"2027-11-23\"\n    }\n  }",
    "{\n    \"@context\": \"http://schema.org\",\n    \"@type\": \"WebSite\",\n    \"name\": \"Arabic Parfums\",\n    \"url\": \"https://arabicparfums.com\"\n  }"
   ],
   "precios_en_html": [
-   "uantity\\\":18,\\r\\n            \\\"price\\\":3399,\\r\\n            \\\"compare_at_price\\\":3799,\\r\\n            \\\"sale_amount\\\":\\\"4,00 €\\\",\\r\\n            \\\"sale_percent\\\":11,\\r\\n            \\\"on_",
-   ",\\r\\n                \\\"price\\\":3399,\\r\\n                \\\"compare_at_price\\\":3799,\\r\\n                \\\"sale_amount\\\":\\\"4,00 €\\\",\\r\\n                \\\"sale_percent\\\":11,\\r\\n             ",
-   "ttps://arabicparfums.com/en/products/club-de-nuit-intense-men-armaf-105ml\",           Brand: \"ARMAF\",           Price: \"33,99 €\",           Value: \"33,99\",           CompareAtPrice: \"37,9",
-   "rmaf-105ml\",           Brand: \"ARMAF\",           Price: \"33,99 €\",           Value: \"33,99\",           CompareAtPrice: \"37,99 €\"         };         _learnq.push(['track', 'Viewed Product'",
-   "ually-hidden\">Original price</span>         <span class=\"money price__compare-at--single\" data-price-compare>           37,99 €         </span>            </div>                     <div ",
-   "-hidden\">Original price</span>           <span class=\"money price__compare-at--min\" data-price-compare-min>             37,99 €           </span>           -           <span class=\"visual",
-   "-hidden\">Original price</span>           <span class=\"money price__compare-at--max\" data-price-compare-max>             37,99 €           </span>                </div>       <div class=\"p",
-   "ually-hidden\">Original price</span>         <span class=\"money price__compare-at--single\" data-price-compare>           37,99 €         </span>       </div>            <div class=\"price__",
+   "uantity\\\":24,\\r\\n            \\\"price\\\":3399,\\r\\n            \\\"compare_at_price\\\":3700,\\r\\n            \\\"sale_amount\\\":\\\"3,01 €\\\",\\r\\n            \\\"sale_percent\\\":8,\\r\\n            \\\"on_s",
+   ",\\r\\n                \\\"price\\\":3399,\\r\\n                \\\"compare_at_price\\\":3700,\\r\\n                \\\"sale_amount\\\":\\\"3,01 €\\\",\\r\\n                \\\"sale_percent\\\":8,\\r\\n              ",
+   "           URL: \"https://arabicparfums.com/en/products/9-pm-afnan-100ml-2\",           Brand: \"AFNAN\",           Price: \"33,99 €\",           Value: \"33,99\",           CompareAtPrice: \"37,0",
+   "an-100ml-2\",           Brand: \"AFNAN\",           Price: \"33,99 €\",           Value: \"33,99\",           CompareAtPrice: \"37,00 €\"         };         _learnq.push(['track', 'Viewed Product'",
+   "ually-hidden\">Original price</span>         <span class=\"money price__compare-at--single\" data-price-compare>           37,00 €         </span>            </div>                     <div ",
+   "-hidden\">Original price</span>           <span class=\"money price__compare-at--min\" data-price-compare-min>             37,00 €           </span>           -           <span class=\"visual",
+   "-hidden\">Original price</span>           <span class=\"money price__compare-at--max\" data-price-compare-max>             37,00 €           </span>                </div>       <div class=\"p",
+   "ually-hidden\">Original price</span>         <span class=\"money price__compare-at--single\" data-price-compare>           37,00 €         </span>       </div>            <div class=\"price__",
    "                <span class=\"visually-hidden\">Current price</span>              <span class=\"money\" data-price>         33,99 €       </span>             </div>              <div class=\"p",
    "current--hidden\" data-current-price-range-hidden>                <span class=\"money price__current--min\" data-price-min>33,99 €</span>         -         <span class=\"money price__current-",
    "e__current--min\" data-price-min>33,99 €</span>         -         <span class=\"money price__current--max\" data-price-max>33,99 €</span>            </div>     <div class=\"price__current--hi",
    "nt-price-hidden>       <span class=\"visually-hidden\">Current price</span>       <span class=\"money\" data-price>         33,99 €       </span>     </div>                                 <d",
-   " <option             selected             value=\"50553518752083\"                        >             Original bottle - 33,99 €           </option>                </select>               ",
+   " <option             selected             value=\"50553540936019\"                        >             Original bottle - 33,99 €           </option>                </select>               ",
    "\"     data-free-shipping-bar     data-html=\"free_shipping_bar\"   >     <p class=\"free-shipping-bar__status\">Add <strong>99,00 €</strong> to reach the free shipping threshold for your regi",
    "roductBlocks\":[]},\"AlertMessageLanguage\":[{\"Enabled\":true,\"LanguageCode\":\"default\",\"CartCheckoutMessage\":\"Pedido Minimo 10€\",\"ProductMessage\":\"Quantity is not valid\",\"CheckoutButtonMe",
    "artCheckoutMessage\":\"Pedido Minimo 10€\",\"ProductMessage\":\"Quantity is not valid\",\"CheckoutButtonMessage\":\"Pedido Minimo 10€\"},{\"Enabled\":true,\"LanguageCode\":\"es\",\"CartCheckoutMessage\""
   ],
   "variantes": []
  },
- "fallo_idealo": {
-  "url": "https://www.idealo.es/precios/203975653/giorgio-armani-acqua-di-gio-profondo-eau-de-parfum-50ml.html",
-  "ml": 75,
-  "resultado": {
-   "precio": null,
-   "metodo": "sin-precio",
-   "referencia": null,
-   "aceptado": false
-  },
-  "largo": 822519,
-  "titulo": "Giorgio Armani Acqua di Giò Profondo Eau de Parfum (50ml) desde 50,89 € | Noviembre 2026 | Compara precios en idealo",
-  "tamaños": [
-   "100",
-   "125",
-   "150",
-   "200",
-   "30",
-   "40",
-   "50"
-  ],
-  "inicio": "<!DOCTYPE html> <html class=\"ES no-gec desktop no-js\" lang=\"es-ES\"><head> <meta charset=\"UTF-8\"> <script id=\"tagManagerDataLayer\"> var utag_data = [{\"country\":\"ES\",\"page_template\":\"OffersOfProduct\",\"currency\":\"EUR\",\"disable_product_marketing_tracking\":false,\"products\":[{\"id\":203975653,\"category\":8694,\"name\":\"Giorgio Armani Acqua di Giò Profondo Eau de Parfum (50ml)\"}],\"sponsored_brand_shop\":fa"
- },
- "fallo_paco": {
-  "url": "https://www.pacoperfumerias.com/armani-acqua-di-gio-profondo-18988.html",
+ "fallo_lookfantastic": {
+  "url": "https://www.lookfantastic.es/p/armani-code-parfum-125ml/13760618/",
   "ml": 75,
   "resultado": {
    "precio": null,
    "metodo": "sin-tamaño",
-   "referencia": null,
+   "referencia": 86.94,
    "aceptado": false
   },
-  "largo": 720416,
-  "titulo": "Armani Acqua di Giò Profondo | Precio, Comprar",
+  "largo": 499323,
+  "titulo": "Armani Code Parfum 125ml | LOOKFANTASTIC",
   "tamaños": [
    "100",
    "125",
-   "15",
    "150",
    "200",
+   "50",
+   "75"
+  ],
+  "inicio": "<!DOCTYPE html> <html lang=\"es-ES\" data-theme=\"lookfantastic\" data-subsite=\"es_ES\" style=\"--product-image-aspect-ratio: 1/1;\"> <head> <meta charset=\"UTF-8\"> <meta name=\"viewport\" content=\"width=device-width\"> <script> window.__chatbotEnabled = true ;(function () { try { var layout = JSON.parse( localStorage.getItem('thg_ch"
+ },
+ "fallo_paco": {
+  "url": "https://www.pacoperfumerias.com/valentino-vendetta-uomo-37022.html",
+  "ml": 100,
+  "resultado": {
+   "precio": null,
+   "metodo": "sin-tamaño",
+   "referencia": 76.245,
+   "aceptado": false
+  },
+  "largo": 677553,
+  "titulo": "Valentino Vendetta Uomo | Paco Perfumerías",
+  "tamaños": [
+   "10",
+   "100",
    "30",
    "50",
-   "60",
-   "75"
+   "75",
+   "90"
   ],
   "inicio": "<!DOCTYPE html> <html lang=\"es\"> <head> <!--[if gt IE 9]><!--> <script>//common/scripts.isml</script> <script> window.BASE_CONFIG = {\"responsive\":{\"screen__320\":320,\"screen__360\":360,\"screen__575\":575,\"screen__768\":768,\"screen__1025\":1025,\"screen__1280\":1280,\"screen__1440\":1440,\"screen__1920\":1920},\"nifConfig\":{\"ES\":{\"dniRegex\":\"^\\\\d{8}[A-Za-z]$\",\"nifAndNieRegex\":\"^[KLMXYZklmxyz]\\\\d{7}[A"
  },
- "fallo_sabina": {
-  "url": "https://www.sabina.com/es/armani/22229-armani-acqua-di-gio-profondo-eau-de-parfum.html",
-  "ml": 75,
+ "fallo_idealo": {
+  "url": "https://www.idealo.es/precios/5645536/jean-paul-gaultier-scandal-eau-de-parfum.html",
+  "ml": 80,
   "resultado": {
    "precio": null,
    "metodo": "sin-tamaño",
-   "referencia": null,
+   "referencia": 103.7,
    "aceptado": false
   },
-  "largo": 591396,
-  "titulo": " yet. Smarty supplies escaped catalog metadata.\n    var pageMetadata = window.sabinaAnalyticsPage || {};\n    try { delet",
+  "largo": 938094,
+  "titulo": "Jean Paul Gaultier Scandal Eau de Parfum desde 37,34 € | Black Friday 2026 | ✓ Historial de precios en idealo",
   "tamaños": [
-   "100",
-   "150",
-   "200",
    "30",
-   "40",
    "50",
-   "60"
+   "80"
   ],
-  "inicio": "<!DOCTYPE HTML> <!--[if lt IE 7]> <html class=\"no-js lt-ie9 lt-ie8 lt-ie7\" lang=\"es-es\"><![endif]--> <!--[if IE 7]><html class=\"no-js lt-ie9 lt-ie8 ie7\" lang=\"es-es\"><![endif]--> <!--[if IE 8]><html class=\"no-js lt-ie9 ie8\" lang=\"es-es\"><![endif]--> <!--[if gt IE 8]> <html class=\"no-js ie9\" lang=\"es-es\"><![endif]--> <html lang=\"es-es\" dir=\"ltr\" class=\"ltr\"> <head> <meta charset=\"utf-8\" /> <s"
- },
- "busqueda_douglas": {
-  "perfume": "dior-miss-dior-edp-100",
-  "encontrada": null,
-  "enlaces": [
-   "/es/c/servicios-douglas/click-return/2602",
-   "/es/c/servicios-douglas/app/2605",
-   "/es/c/servicios-douglas/app/260501",
-   "/es/p/5011926058",
-   "/es/b/dior/sauvage/b0690850110",
-   "/es/b/sol-de-janeiro/brazilian-crush/b542304"
-  ]
- },
- "busqueda_lookfantastic": {
-  "perfume": "dior-miss-dior-edp-100",
-  "encontrada": null,
-  "enlaces": [
-   "/c/brands/pureology/",
-   "/c/brands/purito/",
-   "/c/brands/molton-brown/",
-   "/c/brands/pai/",
-   "/c/brands/prada/",
-   "/c/brands/real-techniques/",
-   "/c/brands/redken/",
-   "/c/brands/ren/",
-   "/c/brands/rimmel/",
-   "/c/brands/round-lab/",
-   "/c/brands/rose-and-caramel/",
-   "/c/brands/sarah-chapman/",
-   "/c/brands/sebastian-professional/",
-   "/c/brands/shiseido/",
-   "/c/brands/shu-uemura-art-of-hair/",
-   "/c/brands/skin-doctors/",
-   "/c/brands/shea-moisture/",
-   "/c/brands/svr/",
-   "/c/brands/smile-makers/",
-   "/c/brands/sol-de-janeiro/",
-   "/c/brands/serge-lutens/",
-   "/c/brands/skinceuticals/",
-   "/c/brands/tangle-teezer/",
-   "/c/brands/tweezerman/",
-   "/c/brands/the-ordinary/",
-   "/c/brands/tan-luxe/",
-   "/c/brands/the-inkey-list/",
-   "/c/brands/the-flat-lay-co/",
-   "/c/brands/tocobo/",
-   "/c/brands/tirtir/",
-   "/c/brands/thank-you-farmer/",
-   "/c/brands/tom-ford/",
-   "/c/brands/ultrasun/",
-   "/c/brands/umberto-giannini/",
-   "/c/brands/urban-decay/",
-   "/c/brands/vichy/",
-   "/c/brands/virtue-labs/",
-   "/c/brands/versed/",
-   "/c/brands/vt-cosmetics/",
-   "/c/brands/vita-liberata/"
-  ]
- },
- "notino": {
-  "url": "https://www.notino.es/armani/my-way-eau-de-parfum-recargable-para-mujer/p-16043999/",
-  "ml": 90,
-  "resultado": {
-   "precio": 114.4,
-   "metodo": "jsonld",
-   "referencia": 85.95,
-   "aceptado": true
-  },
-  "jsonld": [
-   "{\"@context\":\"https://schema.org\",\"@type\":\"Product\",\"@id\":\"https://www.notino.es/armani/my-way-eau-de-parfum-recargable-para-mujer/\",\"sku\":\"GIOWAYW_AEDP02\",\"gtin13\":\"3614272907690\",\"category\":\"Eau de Parfum recargable para mujer\",\"name\":\"Armani My Way\",\"description\":\"Más allá del horizonte. Allí te esperan todo tipo de encuentros y el eau de parfum para mujer Armani My Way te reta a descubrir el mundo. Si tú tampoco te puedes resistir a ninguna oportunidad para ampliar tus horizontes, encontrarás en él un guía que te acompañará vayas a donde vayas con su fragancia elegante y sofisticada.\\nfragancia floral y amaderada lanzada al mercado en el año 2020\\nEl 100% de las mujeres recomienda la fragancia (según los resultados de la prueba en gofeminin.de)\\ntanto el frasco como su contenido han sido creados respetando el medio ambiente\\nComposición de la fragancia:\\nEn esta fragancia se combinan ingredientes de todo el mundo. Lo primero que sentirás es la dulce y cítrica bergamota de Calabria junto a la flor de azahar de Egipto. A continuación se despliega un aroma embriagador a flores blancas. Reconocerás el intenso y encantador jazmín y el nardo recolectado en la India. En el sensual cierre predominan la cálida madera de cedro, el almizcle blanco y la vainilla de Madagascar.\\nHistoria de la fragancia:\\nA primera vista, antes de que la fragancia Armani My Way te fascine con su contenido, te llamará la atención su frasco. Su tapón es azul, el color de la Tierra que nos une a todos. Está adornado por un anillo que representa el único camino. Tiene un brillo radiante, ya que representa la metáfora de todos los encuentros que vives a lo largo del camino, iluminándolo siempre.\\nAl mismo tiempo, el lujoso material azul del cuello, hace referencia al diseño magistral de la marca Giorgio Armani. Los ingredientes de este perfume se obtienen de una forma responsable con la sociedad y el medio ambiente. Además, el frasco de la fragancia Armani My Way se puede rellenar tantas veces como quieras.\",\"brand\":{\"@type\":\"Brand\",\"name\":\"Armani\"},\"image\":[\"https://cdn.notinoimg.com/order_2k/armani/3614272907690_01-o/my-way___200722.jpg\",\"https://cdn.notinoimg.com/order_2k/armani/3614272907690_02-o/my-way___220713.jpg\",\"https://cdn.notinoimg.com/order_2k/armani/3614272907690_07/my-way___220713.jpg\",\"https://cdn.notinoimg.com/order_2k/armani/3614272907904_06/my-way___230202.jpg\"],\"offers\":[{\"@type\":\"Offer\",\"name\":\"Armani My Way 100 ml Recarga\",\"areaServed\":{\"@type\":\"Place\",\"name\":\"Spain\"},\"availability\":\"https://schema.org/InStock\",\"priceCurrency\":\"EUR\",\"itemCountry\":\"ES\",\"sku\":\"GIOWAYW_AEDP07\",\"url\":\"/armani/my-way-eau-de-parfum-recargable-para-mujer/p-16170171/\",\"image\":\"https://cdn.notinoimg.com/order_2k/armani/3614273875752_01-o/my-way___230321.jpg\",\"price\":91.2,\"priceSpecification\":{\"@type\":\"UnitPriceSpecification\",\"price\":114,\"priceCurrency\":\"EUR\",\"priceType\":\"https://schema.org/StrikethroughPrice\"},\"priceValidUntil\":\"2026-11-29T22:59:59+00:00\"},{\"@type\":\"Offer\",\"name\":\"",
-   "{\"@context\":\"https://schema.org\",\"@type\":\"BreadcrumbList\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"item\":{\"@id\":\"/\",\"name\":\"Página de inicio\"}},{\"@type\":\"ListItem\",\"position\":2,\"item\":{\"@id\":\"/perfumes/\",\"name\":\"Perfumes\"}},{\"@type\":\"ListItem\",\"position\":3,\"item\":{\"@id\":\"/perfumes-mujer/\",\"name\":\"Perfumes para mujer\"}},{\"@type\":\"ListItem\",\"position\":4,\"item\":{\"@id\":\"/perfumes-mujer/eau-de-parfum/\",\"name\":\"Eau de parfum\"}}]}"
-  ],
-  "precios_en_html": [
-   "iar el código</div></div></div></div></div></div></span></div><div class=\"t1cjinom\"><span class=\"iztkgr3\">En compras de 10,00 € de estas <div class=\"wvs9ouv\"><button type=\"button\" class=\"",
-   "p8eiw-8:0;--chp8eiw-9:0;--chp8eiw-10:0;--chp8eiw-11:0;--chp8eiw-12:initial\">Precio actual<!-- --> <span class=\"lwyce7r\">143,00 €</span><span class=\"p12910j6\">-20%</span></span><div class=\"",
-   ";--chp8eiw-9:0;--chp8eiw-10:0;--chp8eiw-11:0;--chp8eiw-12:initial\">Último precio más bajo<!-- --> <span class=\"lwyce7r\">117,00 €</span><span class=\"p12910j6\">-2%</span></span><svg xmlns=\"h",
-   "p8eiw-5:0;--chp8eiw-6:0;--chp8eiw-7:0;--chp8eiw-8:0;--chp8eiw-9:4px;--chp8eiw-10:0;--chp8eiw-11:0;--chp8eiw-12:initial\">3,95 €</span></div><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox",
-   "p8eiw-5:0;--chp8eiw-6:0;--chp8eiw-7:0;--chp8eiw-8:0;--chp8eiw-9:4px;--chp8eiw-10:0;--chp8eiw-11:0;--chp8eiw-12:initial\">3,95 €</span></div><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox",
-   "oxSelfChoice.modal.title\":\"Mi box con 5 muestras\",\"pd.discoveryBoxSelfChoice.modal.text\":\"Elige tus 5 muestras por solo 6,50 €. Puedes elegir entre nuestro amplio catálogo de perfumes, m",
-   ",{\"title\":\"Envío gratis\",\"link\":\"/perfumes/?f=1-1-55544-100301\",\"attributes\":[\"NoFollowLink\"]},{\"title\":\"Perfumes hasta 20 €\",\"link\":\"/drogueria/?f=1-1-2-54267-55544&max=20\",\"attribute",
-   "p ventas\",\"link\":\"/cosmetica-decorativa/?f=1-1-2-3644-100051\",\"attributes\":[\"NoFollowLink\"]},{\"title\":\"Maquillaje hasta 20 €\",\"link\":\"/drogueria/?f=1-1-2-54267-3644&max=20\",\"attributes",
-   "as\",\"link\":\"/cosmetica/cosmetica-capilar/?f=1-1-2-100051-3649\",\"attributes\":[\"NoFollowLink\"]},{\"title\":\"Productos hasta 20 €\",\"link\":\"/drogueria/?f=1-1-2-54267-3649&max=20\",\"attributes",
-   "ntas\",\"link\":\"/cosmetica/cuidado-facial/?f=1-1-2-3645-100051\",\"attributes\":[\"NoFollowLink\"]},{\"title\":\"Cosméticos hasta 20 €\",\"link\":\"/drogueria/?f=1-1-2-54267-3645&max=20\",\"attributes",
-   "as\",\"link\":\"/cosmetica/cuidado-corporal/?f=1-1-2-3646-100051\",\"attributes\":[\"NoFollowLink\"]},{\"title\":\"Cosméticos hasta 20 €\",\"link\":\"/drogueria/?f=1-1-2-54267-3646&max=20\",\"attributes",
-   ":\"Top ventas\",\"link\":\"/cosmetica-masculina/?f=1-1-3618-100051\",\"attributes\":[\"NoFollowLink\"]},{\"title\":\"Productos hasta 20 €\",\"link\":\"/drogueria/?f=1-1-2-54267-23235&max=20\",\"attribute"
-  ],
-  "variantes": []
+  "inicio": "<!DOCTYPE html> <html class=\"ES no-gec desktop no-js\" lang=\"es-ES\"><head> <meta charset=\"UTF-8\"> <script id=\"tagManagerDataLayer\"> var utag_data = [{\"country\":\"ES\",\"page_template\":\"MainProductPage\",\"currency\":\"EUR\",\"disable_product_marketing_tracking\":false,\"products\":[{\"id\":5645536,\"category\":3972,\"name\":\"Jean Paul Gaultier Scandal Eau de Parfum\"}],\"sponsored_brand_shop\":false,\"sponsored_slid"
  },
  "douglas": {
-  "url": "https://www.douglas.es/es/p/3001030841",
+  "url": "https://www.douglas.es/es/p/3001047702",
   "ml": 100,
   "resultado": {
-   "precio": 69.75,
+   "precio": 64.99,
    "metodo": "precio-100ml",
-   "referencia": 84.95,
+   "referencia": 62.95,
    "aceptado": true
   },
   "jsonld": [
-   "[\n  {\n    \"@context\": \"http://schema.org\",\n    \"@type\": \"WebSite\",\n    \"name\": \"Perfumería, Cosmética y Belleza Tienda Online | DOUGLAS\",\n    \"alternateName\": \"Douglas Spain S.A.U\",\n    \"url\": \"https://www.douglas.es\"\n  },\n  {\n    \"@context\": \"http://schema.org\",\n    \"@type\": \"WebPage\",\n    \"headline\": \"Zadig & Voltaire THIS IS HER! Eau de Parfum ✔️Compra online | DOUGLAS\"\n  },\n  {\n    \"@context\": \"http://schema.org\",\n    \"@type\": \"Organization\",\n    \"name\": \"Douglas\",\n    \"legalName\": \"Douglas Spain S.A.U.\",\n    \"url\": \"https://www.douglas.es\",\n    \"logo\": \"https://media.douglas.es/medias/logo.png?context=bWFzdGVyfGltYWdlc3wxMjgwMnxpbWFnZS9wbmd8YURGbEwyZzVNQzg0T0RBeU1qWXpPRFU1TWpNd0wyeHZaMjh1Y0c1bnxlYmE4ODAyY2JlYjc4ZDQ4YjgyNzQ3YTk1MjM4MjRhOTQwNDc1NDQ4YjE3OGU0Y2FjOTY5YmJjOGE2NWE4ZDZk\",\n    \"contactPoint\": {\n      \"@type\": \"ContactPoint\",\n      \"contactType\": \"customer service\",\n      \"telephone\": \"900 866 634\",\n      \"email\": \"web@douglas.es\"\n    },\n    \"sameAs\": [\n      \"https://www.instagram.com/douglascosmetics_es/\",\n      \"https://www.facebook.com/DouglasCosmeticsSpain\",\n      \"https://www.pinterest.es/douglascosmeticsspain/\",\n      \"https://www.tiktok.com/@douglas_spain\"\n    ]\n  },\n  {\n    \"@context\": \"http://schema.org\",\n    \"@type\": \"BreadcrumbList\",\n    \"itemListElement\": [\n      {\n        \"@type\": \"ListItem\",\n        \"item\": \"https://www.douglas.es/es\",\n        \"name\": \"Homepage\",\n        \"position\": 1\n      },\n      {\n        \"@type\": \"ListItem\",\n        \"item\": \"https://www.douglas.es/es/c/perfumes/01\",\n        \"name\": \"Perfumes\",\n        \"position\": 2\n      },\n      {\n        \"@type\": \"ListItem\",\n        \"item\": \"https://www.douglas.es/es/c/perfumes/fragancias-de-mujer/0101\",\n        \"name\": \"Fragancias de mujer\",\n        \"position\": 3\n      },\n      {\n        \"@type\": \"ListItem\",\n        \"item\": \"https://www.douglas.es/es/c/perfumes/fragancias-de-mujer/perfumes/010106\",\n        \"name\": \"Perfumes\",\n        \"position\": 4\n      },\n      {\n        \"@type\": \"ListItem\",\n        \"item\": \"\",\n        \"name\": \"Zadig&Voltaire THIS IS HER! Refill Eau de Parfum\",\n        \"position\": 5\n      }\n    ]\n  },\n  {\n    \"@context\": \"http://schema.org\",\n    \"@type\": \"Product\",\n    \"@id\": \"https://www.douglas.es/es/p/3001030841\",\n    \"name\": \"30 ml\",\n    \"url\": \"https://www.douglas.es/es/p/3001030841\",\n    \"description\": \"<h3>ZADIG&amp;VOLTAIRE - This Is Her&nbsp;Eau de Parfum</h3><p>El perfume icónico para mujer de Zadig&amp;Voltaire. This is Her! This is you.<br />Conecta con tu actitud rockera y libera tu espíritu bohemio con This is Her!, la fragancia original femenina de Zadig&amp;Voltaire. Despreocupada, desenfadada, elegantemente rebelde: es la chaqueta biker de cuero del mundo de la perfumería. Un eau de parfum profundamente parisino de la casa de moda francesa más chic sin esfuerzo. Listo para llevar, listo para amar.<br />Con su reinterpretación decididamente moderna del perfume floral especiado, This is Her! rompe los moldes, como un frasco que e"
+   "[\n  {\n    \"@context\": \"http://schema.org\",\n    \"@type\": \"WebSite\",\n    \"name\": \"Perfumería, Cosmética y Belleza Tienda Online | DOUGLAS\",\n    \"alternateName\": \"Douglas Spain S.A.U\",\n    \"url\": \"https://www.douglas.es\"\n  },\n  {\n    \"@context\": \"http://schema.org\",\n    \"@type\": \"WebPage\",\n    \"headline\": \"Ariana Grande Cloud Eau de Parfum ✔️Compra online | DOUGLAS\"\n  },\n  {\n    \"@context\": \"http://schema.org\",\n    \"@type\": \"Organization\",\n    \"name\": \"Douglas\",\n    \"legalName\": \"Douglas Spain S.A.U.\",\n    \"url\": \"https://www.douglas.es\",\n    \"logo\": \"https://media.douglas.es/medias/logo.png?context=bWFzdGVyfGltYWdlc3wxMjgwMnxpbWFnZS9wbmd8YURGbEwyZzVNQzg0T0RBeU1qWXpPRFU1TWpNd0wyeHZaMjh1Y0c1bnxlYmE4ODAyY2JlYjc4ZDQ4YjgyNzQ3YTk1MjM4MjRhOTQwNDc1NDQ4YjE3OGU0Y2FjOTY5YmJjOGE2NWE4ZDZk\",\n    \"contactPoint\": {\n      \"@type\": \"ContactPoint\",\n      \"contactType\": \"customer service\",\n      \"telephone\": \"900 866 634\",\n      \"email\": \"web@douglas.es\"\n    },\n    \"sameAs\": [\n      \"https://www.instagram.com/douglascosmetics_es/\",\n      \"https://www.facebook.com/DouglasCosmeticsSpain\",\n      \"https://www.pinterest.es/douglascosmeticsspain/\",\n      \"https://www.tiktok.com/@douglas_spain\"\n    ]\n  },\n  {\n    \"@context\": \"http://schema.org\",\n    \"@type\": \"BreadcrumbList\",\n    \"itemListElement\": [\n      {\n        \"@type\": \"ListItem\",\n        \"item\": \"https://www.douglas.es/es\",\n        \"name\": \"Homepage\",\n        \"position\": 1\n      },\n      {\n        \"@type\": \"ListItem\",\n        \"item\": \"https://www.douglas.es/es/c/perfumes/01\",\n        \"name\": \"Perfumes\",\n        \"position\": 2\n      },\n      {\n        \"@type\": \"ListItem\",\n        \"item\": \"https://www.douglas.es/es/c/perfumes/fragancias-de-mujer/0101\",\n        \"name\": \"Fragancias de mujer\",\n        \"position\": 3\n      },\n      {\n        \"@type\": \"ListItem\",\n        \"item\": \"https://www.douglas.es/es/c/perfumes/fragancias-de-mujer/perfumes/010106\",\n        \"name\": \"Perfumes\",\n        \"position\": 4\n      },\n      {\n        \"@type\": \"ListItem\",\n        \"item\": \"\",\n        \"name\": \"Ariana Grande Cloud Eau de Parfum Eau de Parfum\",\n        \"position\": 5\n      }\n    ]\n  },\n  {\n    \"@context\": \"http://schema.org\",\n    \"@type\": \"Product\",\n    \"@id\": \"https://www.douglas.es/es/p/3001047702\",\n    \"name\": \"30 ml\",\n    \"url\": \"https://www.douglas.es/es/p/3001047702\",\n    \"description\": \"<h3>ARIANA GRANDE -&nbsp;Cloud Eau de Parfum</h3><p>Ariana Grande, presenta un nuevo concepto de fragancia: Ariana Grande Cloud Eau de Parfum. Una fragancia que te transporta inmediatamente a las nubes gracias a su frasco de ensueño y a su aroma estimulante, positivo y que transmite felicidad. ¿A qué huele una nube?. La fragancia incluye notas altas de flor de lavanda, pera jugosa, bergamota; Con un corazón de crema de coco, praliné y orquídea. El fondo es una mezcla de almizcles sensuales y maderas cremosas.</p>\",\n    \"image\": \"https://media.douglas.es/medias/RLKCA4046842-0-dgl-ES.jpg?context=bWFzdGVyfGltYWdlc3w2MjM5N3xpbWFnZS9qcGVnfGFESTFMMmd6WkM4M"
   ],
   "precios_en_html": [
-   "e><meta data-ah=\"true\" content=\"Zadig &amp; Voltaire THIS IS HER! Eau de Parfum ❤️ Compra ahora ❤️ Envío gratuito desde 24 € ✔️ Muestras gratis ✔️ ¡Más de 1.000 marcas top ➽ DOUGLAS!\" ",
+   " DOUGLAS</title><meta data-ah=\"true\" content=\"Ariana Grande Cloud Eau de Parfum ❤️ Compra ahora ❤️ Envío gratuito desde 24 € ✔️ Muestras gratis ✔️ ¡Más de 1.000 marcas top ➽ DOUGLAS!\" ",
    "pper uiCol12-efP4cX\"><div class=\"info-bar__entries-column\"><div class=\"info-bar__entry\">Env&iacute;o gratis a partir de 24€     Entrega en 2-3 d&iacute;as*     2 muestras gratis*</div",
-   "ta-testid=\"price-type-strikethrough\" class=\"fd7665d55826d59e _7025b200d7c2ddd7\" aria-label=\"precio de venta recomendado 72,99 €\">72,99 €</span></span></div><div class=\"d4cbec7631f528af\"><",
-   "=\"price-type-strikethrough\" class=\"fd7665d55826d59e _7025b200d7c2ddd7\" aria-label=\"precio de venta recomendado 72,99 €\">72,99 €</span></span></div><div class=\"d4cbec7631f528af\"><div class",
-   "span class=\"_765f981b30eaa79d\"><span data-testid=\"price-type-discount\" class=\"fd7665d55826d59e\" aria-label=\"Actualmente 36,99 €\">36,99 €</span></span></div></div></div><div class=\"product",
-   "s=\"_765f981b30eaa79d\"><span data-testid=\"price-type-discount\" class=\"fd7665d55826d59e\" aria-label=\"Actualmente 36,99 €\">36,99 €</span></span></div></div></div><div class=\"product-price__d",
-   "class=\"\"><div data-testid=\"price-base-unit\" class=\"e14dc5ece5fe55f2\"><span class=\"_9e545b9e3c7fe835\" aria-label=\"Precio 123,30 € por 100 mililitro\">123,30 €<!-- --> / <!-- -->100<!-- --> <",
-   "rice-base-unit\" class=\"e14dc5ece5fe55f2\"><span class=\"_9e545b9e3c7fe835\" aria-label=\"Precio 123,30 € por 100 mililitro\">123,30 €<!-- --> / <!-- -->100<!-- --> <!-- -->ml</span></div><span ",
-   "ta-testid=\"price-type-strikethrough\" class=\"fd7665d55826d59e _7025b200d7c2ddd7\" aria-label=\"precio de venta recomendado 107,00 €\">107,00 €</span></span></div><div class=\"d4cbec7631f528af\">",
-   "\"price-type-strikethrough\" class=\"fd7665d55826d59e _7025b200d7c2ddd7\" aria-label=\"precio de venta recomendado 107,00 €\">107,00 €</span></span></div><div class=\"d4cbec7631f528af\"><div class",
-   "span class=\"_765f981b30eaa79d\"><span data-testid=\"price-type-discount\" class=\"fd7665d55826d59e\" aria-label=\"Actualmente 50,25 €\">50,25 €</span></span></div></div></div><div class=\"product",
-   "s=\"_765f981b30eaa79d\"><span data-testid=\"price-type-discount\" class=\"fd7665d55826d59e\" aria-label=\"Actualmente 50,25 €\">50,25 €</span></span></div></div></div><div class=\"product-price__d",
-   "class=\"\"><div data-testid=\"price-base-unit\" class=\"e14dc5ece5fe55f2\"><span class=\"_9e545b9e3c7fe835\" aria-label=\"Precio 100,50 € por 100 mililitro\">100,50 €<!-- --> / <!-- -->100<!-- --> <",
-   "rice-base-unit\" class=\"e14dc5ece5fe55f2\"><span class=\"_9e545b9e3c7fe835\" aria-label=\"Precio 100,50 € por 100 mililitro\">100,50 €<!-- --> / <!-- -->100<!-- --> <!-- -->ml</span></div><span ",
-   "ta-testid=\"price-type-strikethrough\" class=\"fd7665d55826d59e _7025b200d7c2ddd7\" aria-label=\"precio de venta recomendado 142,00 €\">142,00 €</span></span></div><div class=\"d4cbec7631f528af\">",
-   "\"price-type-strikethrough\" class=\"fd7665d55826d59e _7025b200d7c2ddd7\" aria-label=\"precio de venta recomendado 142,00 €\">142,00 €</span></span></div><div class=\"d4cbec7631f528af\"><div class",
-   "span class=\"_765f981b30eaa79d\"><span data-testid=\"price-type-discount\" class=\"fd7665d55826d59e\" aria-label=\"Actualmente 69,75 €\">69,75 €</span></span></div></div></div><div class=\"product",
-   "s=\"_765f981b30eaa79d\"><span data-testid=\"price-type-discount\" class=\"fd7665d55826d59e\" aria-label=\"Actualmente 69,75 €\">69,75 €</span></span></div></div></div><div class=\"product-price__d",
-   "class=\"\"><div data-testid=\"price-base-unit\" class=\"e14dc5ece5fe55f2\"><span class=\"_9e545b9e3c7fe835\" aria-label=\"Precio 69,75 € por 100 mililitro\">69,75 €<!-- --> / <!-- -->100<!-- --> <!",
-   "price-base-unit\" class=\"e14dc5ece5fe55f2\"><span class=\"_9e545b9e3c7fe835\" aria-label=\"Precio 69,75 € por 100 mililitro\">69,75 €<!-- --> / <!-- -->100<!-- --> <!-- -->ml</span></div><span ",
-   "ta-testid=\"price-type-strikethrough\" class=\"fd7665d55826d59e _7025b200d7c2ddd7\" aria-label=\"precio de venta recomendado 142,00 €\">142,00 €</span></span></div><div class=\"d4cbec7631f528af\">",
-   "\"price-type-strikethrough\" class=\"fd7665d55826d59e _7025b200d7c2ddd7\" aria-label=\"precio de venta recomendado 142,00 €\">142,00 €</span></span></div><div class=\"d4cbec7631f528af\"><div class",
-   "span class=\"_765f981b30eaa79d\"><span data-testid=\"price-type-discount\" class=\"fd7665d55826d59e\" aria-label=\"Actualmente 76,72 €\">76,72 €</span></span></div></div></div><div class=\"product",
-   "s=\"_765f981b30eaa79d\"><span data-testid=\"price-type-discount\" class=\"fd7665d55826d59e\" aria-label=\"Actualmente 76,72 €\">76,72 €</span></span></div></div></div><div class=\"product-price__d",
-   "class=\"\"><div data-testid=\"price-base-unit\" class=\"e14dc5ece5fe55f2\"><span class=\"_9e545b9e3c7fe835\" aria-label=\"Precio 51,15 € por 100 mililitro\">51,15 €<!-- --> / <!-- -->100<!-- --> <!"
+   "<span class=\"_765f981b30eaa79d\"><span data-testid=\"price-type-current\" class=\"fd7665d55826d59e\" aria-label=\"Actualmente 44,99 €\">44,99 €</span></span></div></div></div></div><div class=\"_",
+   "ss=\"_765f981b30eaa79d\"><span data-testid=\"price-type-current\" class=\"fd7665d55826d59e\" aria-label=\"Actualmente 44,99 €\">44,99 €</span></span></div></div></div></div><div class=\"_422cf48a3",
+   "class=\"\"><div data-testid=\"price-base-unit\" class=\"e14dc5ece5fe55f2\"><span class=\"_9e545b9e3c7fe835\" aria-label=\"Precio 149,97 € por 100 mililitro\">149,97 €<!-- --> / <!-- -->100<!-- --> <",
+   "rice-base-unit\" class=\"e14dc5ece5fe55f2\"><span class=\"_9e545b9e3c7fe835\" aria-label=\"Precio 149,97 € por 100 mililitro\">149,97 €<!-- --> / <!-- -->100<!-- --> <!-- -->ml</span></div><span ",
+   "<span class=\"_765f981b30eaa79d\"><span data-testid=\"price-type-current\" class=\"fd7665d55826d59e\" aria-label=\"Actualmente 54,99 €\">54,99 €</span></span></div></div></div></div><div class=\"_",
+   "ss=\"_765f981b30eaa79d\"><span data-testid=\"price-type-current\" class=\"fd7665d55826d59e\" aria-label=\"Actualmente 54,99 €\">54,99 €</span></span></div></div></div></div><div class=\"_422cf48a3",
+   "class=\"\"><div data-testid=\"price-base-unit\" class=\"e14dc5ece5fe55f2\"><span class=\"_9e545b9e3c7fe835\" aria-label=\"Precio 109,98 € por 100 mililitro\">109,98 €<!-- --> / <!-- -->100<!-- --> <",
+   "rice-base-unit\" class=\"e14dc5ece5fe55f2\"><span class=\"_9e545b9e3c7fe835\" aria-label=\"Precio 109,98 € por 100 mililitro\">109,98 €<!-- --> / <!-- -->100<!-- --> <!-- -->ml</span></div><span ",
+   "<span class=\"_765f981b30eaa79d\"><span data-testid=\"price-type-current\" class=\"fd7665d55826d59e\" aria-label=\"Actualmente 64,99 €\">64,99 €</span></span></div></div></div></div><div class=\"_",
+   "ss=\"_765f981b30eaa79d\"><span data-testid=\"price-type-current\" class=\"fd7665d55826d59e\" aria-label=\"Actualmente 64,99 €\">64,99 €</span></span></div></div></div></div><div class=\"_422cf48a3",
+   "class=\"\"><div data-testid=\"price-base-unit\" class=\"e14dc5ece5fe55f2\"><span class=\"_9e545b9e3c7fe835\" aria-label=\"Precio 64,99 € por 100 mililitro\">64,99 €<!-- --> / <!-- -->100<!-- --> <!",
+   "price-base-unit\" class=\"e14dc5ece5fe55f2\"><span class=\"_9e545b9e3c7fe835\" aria-label=\"Precio 64,99 € por 100 mililitro\">64,99 €<!-- --> / <!-- -->100<!-- --> <!-- -->ml</span></div><span ",
+   "ath></svg></span><div class=\"benefit-bar__item-title\">Envío gratuito</div><p class=\"benefit-bar__item-text\">A partir de 24€³</p></div><div class=\"benefit-bar__item cms-component cms-c",
+   "681 4.1971 18.196 4.24506Z\" fill=\"currentColor\"></path></svg><span class=\"_38e9ea6f8e11678e\">Envío gratuito A partir de 24€³</span></li><li class=\"_0869d1e5f4f067e1 e0d4a8fc2dcaa619\">",
+   "ida de -10% \\u003C\\u002Fstrong\\u003E de descuento\",\"\\u003Cstrong\\u003E Envío gratis\\u003C\\u002Fstrong\\u003E a partir de 24€\",\"\\u003Cstrong\\u003E Ofertas exclusivas \\u003C\\u002Fstrong\\",
+   "tus Beauty Points\",\"Quiero donar \\u003Cb\\u003E150 Beauty Points\\u003C\\u002Fb\\u003E que se transformarán en \\u003Cb\\u003E5€\\u003C\\u002Fb\\u003E que se entregarán a los ciudadanos afect",
+   "mostrarán las diferentes opciones de envío.\",\"Recogida en tienda (Click & Collect) en 1 hora - Gratis | Envío a tienda- 3,95 € (Gratis en pedidos superiores a 24€)\",\"Recogida\",\"Envío gra",
+   "vío.\",\"Recogida en tienda (Click & Collect) en 1 hora - Gratis | Envío a tienda- 3,95 € (Gratis en pedidos superiores a 24€)\",\"Recogida\",\"Envío gratuito a partir de un importe de pedi",
+   "pago atrasado, recibirás automáticamente un recordatorio de pago por nuestra parte, por el que se cobrará una tarifa de 1,50€.\",\"DE18 4507 0002 0725 8825 00\\n\",\"Referencia\",\"\\u003CP\\u00",
+   "s métodos de pago están disponibles al comprar un producto de un Partner.\",\"Envío de Douglas\",\"Envío gratis a partir de 24.00€\",\"Entrega rápida en 6-7 días hábiles\",\"Gracias a nuestros D",
+   "on el Partner Program asociado para que el paquete se entregue antes de X\",\"Ten en cuenta:\",\"Envío gratuito a partir de 24.00€\",\"Devoluciones gratis\",\"Servicio al cliente de Douglas como",
+   "rdada\",\"Importe\",\"Añade un mensaje personal\",\"Cambiar el mensaje personal\",\"De\",\"Para\",\"Introduce una cantidad entre 15-250 €\",\"Diseña un cupón\",\"Motivo\",\"Descripción general\",\"Personal",
+   " 24\\u002F7\",\"Fragancia refrescante\",\"Peinado renovado\",\"Masaje de manos\",\"Consulta de maquillaje\",\"Maquillaje de novia (98€)\",\"Maquillaje de día (20€)\",\"Maquillaje de noche (40€)\",\"Re"
   ],
   "variantes": []
  },
- "fallo_lookfantastic": {
-  "url": "https://www.lookfantastic.es/account/register?returnTo=https%3A%2F%2Fwww.lookfantastic.es%2Fsearch%2F",
-  "ml": 100,
+ "fallo_sephora": {
+  "url": "https://www.sephora.es/p/acqua-di-gio-pour-homme---eau-de-parfum-P1000212224.html",
+  "ml": 125,
   "resultado": {
    "precio": null,
    "metodo": "sin-precio",
-   "referencia": 103.95,
+   "referencia": 99.33,
    "aceptado": false
   },
-  "largo": 114065,
-  "titulo": "Registrarse | LookFantastic Spain",
+  "largo": 2721,
+  "titulo": "",
   "tamaños": [],
-  "inicio": "<!DOCTYPE html><html lang=\"es-ES\" dir=\"ltr\" style=\"--primary: #0C1219;--primaryHover: #671D1A;--primaryActive: #671D1A;--primaryActiveText: #FFFFFF;--primaryText: #FFFFFF;--primaryHoverText: #FFFFFF;--secondary: #0C1219;--secondaryHover: #671D1A;--secondaryActive: #671D1A;--secondaryActiveText: #FFFFFF;--secondaryText: #FFFFFF;--secondaryHoverText: #FFFFFF;--tertiary: #000000;--tertiaryHover: #333"
+  "inicio": "<!DOCTYPE html> <html> <body><script type=\"text/javascript\" src=\"/NpOfZN0WDc/yKplEJ/ArZH/XV5b8Gb1JE/SBsWbRYqUQ/Qy/ANZTlEHCF3AQ?v=b9860a4d-86e3-5e7a-f002-a715822a17c4&amp;t=403305430\"></script> <div id=\"sec-if-cpt-container\" role=\"main\" style=\"display: none\"> <div class=\"behavioral-content\"> <div id=\"sec-bc-text-container\"></div> <div id=\"sec-bc-tile-parent\"> <div id"
+ },
+ "sephora": {
+  "url": "https://www.sephora.es/p/acqua-di-gio-pour-homme---eau-de-parfum-P1000212224.html",
+  "ml": 125,
+  "resultado": {
+   "precio": null,
+   "metodo": "sin-precio",
+   "referencia": 99.33,
+   "aceptado": false
+  },
+  "jsonld": [],
+  "precios_en_html": [],
+  "variantes": []
  }
 }
