@@ -1,161 +1,173 @@
 {
- "at": "2026-11-23T17:56:35+01:00",
+ "at": "2026-11-23T18:39:59+01:00",
  "revisados": 70,
  "tiendas": {
   "idealo": {
-   "ok": 54,
-   "bloqueada": 0,
-   "sin_precio": 3,
-   "dudoso": 4,
-   "jsonld-url": 51,
-   "jsonld": 3,
-   "ejemplos": [
-    {
-     "perfume": "yves-saint-laurent-opium-edp-90",
-     "precio": 148.67,
-     "referencia": 95.95,
-     "metodo": "jsonld-url"
-    },
-    {
-     "perfume": "carolina-herrera-carolina-herrera-edt-100",
-     "precio": 48.73,
-     "referencia": 102.55000000000001,
-     "metodo": "jsonld-url"
-    },
-    {
-     "perfume": "valentino-uomo-intense-edp-100",
-     "precio": 444.99,
-     "referencia": 94.88,
-     "metodo": "jsonld-url"
-    }
-   ]
-  },
-  "druni": {
-   "ok": 0,
+   "ok": 61,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "via_idealo": 35
+   "jsonld-url": 52,
+   "jsonld": 9
   },
   "primor": {
    "ok": 0,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "via_idealo": 34
-  },
-  "notino": {
-   "ok": 0,
-   "bloqueada": 3,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "via_idealo": 19
-  },
-  "sabina": {
-   "ok": 1,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "via_idealo": 19,
-   "jsonld": 1
-  },
-  "julia": {
-   "ok": 0,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "via_idealo": 34
-  },
-  "paco": {
-   "ok": 34,
-   "bloqueada": 0,
-   "sin_precio": 4,
-   "dudoso": 3,
-   "jsonld": 31,
-   "precio-100ml": 3,
-   "ejemplos": [
-    {
-     "perfume": "nautica-voyage-edt-100",
-     "precio": 73.78,
-     "referencia": 20.48,
-     "metodo": "precio-100ml"
-    },
-    {
-     "perfume": "armani-acqua-di-gio-elixir-parfum-75",
-     "precio": 50.0,
-     "referencia": null,
-     "metodo": "texto"
-    },
-    {
-     "perfume": "versace-yellow-diamond-edt-90",
-     "precio": 132.0,
-     "referencia": 52.8,
-     "metodo": "texto"
-    }
-   ]
-  },
-  "parejo": {
-   "ok": 8,
-   "bloqueada": 0,
-   "sin_precio": 2,
-   "dudoso": 1,
-   "jsonld": 8,
-   "ejemplos": [
-    {
-     "perfume": "givenchy-l-interdit-rouge-edp-80",
-     "precio": 126.65,
-     "referencia": 74.1,
-     "metodo": "jsonld"
-    }
-   ]
+   "via_idealo": 39
   },
   "arenal": {
    "ok": 0,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "via_idealo": 29
+   "via_idealo": 34
   },
-  "lookfantastic": {
-   "ok": 9,
+  "druni": {
+   "ok": 0,
    "bloqueada": 0,
-   "sin_precio": 7,
+   "sin_precio": 0,
    "dudoso": 0,
-   "jsonld": 9
+   "via_idealo": 36
+  },
+  "sabina": {
+   "ok": 17,
+   "bloqueada": 0,
+   "sin_precio": 1,
+   "dudoso": 0,
+   "via_idealo": 18,
+   "jsonld": 15,
+   "precio-100ml": 2
+  },
+  "julia": {
+   "ok": 0,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "via_idealo": 41
   },
   "brasty": {
    "ok": 0,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "via_idealo": 11
+   "via_idealo": 20
   },
-  "firstinfragrance": {
-   "ok": 1,
+  "lookfantastic": {
+   "ok": 21,
    "bloqueada": 0,
+   "sin_precio": 2,
+   "dudoso": 0,
+   "jsonld": 21
+  },
+  "paco": {
+   "ok": 43,
+   "bloqueada": 0,
+   "sin_precio": 2,
+   "dudoso": 2,
+   "jsonld": 40,
+   "precio-100ml": 3,
+   "ejemplos": [
+    {
+     "perfume": "marc-jacobs-daisy-edt-100",
+     "precio": 147.0,
+     "referencia": 68.94,
+     "metodo": "texto"
+    },
+    {
+     "perfume": "versace-crystal-noir-edt-90",
+     "precio": 99.95,
+     "referencia": 61.71,
+     "metodo": "precio-100ml"
+    }
+   ]
+  },
+  "notino": {
+   "ok": 0,
+   "bloqueada": 30,
    "sin_precio": 0,
    "dudoso": 0,
-   "jsonld": 1
+   "via_idealo": 27
   },
-  "douglas": {
-   "ok": 2,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "precio-100ml": 2
+  "parejo": {
+   "ok": 14,
+   "bloqueada": 1,
+   "sin_precio": 5,
+   "dudoso": 2,
+   "jsonld": 14,
+   "ejemplos": [
+    {
+     "perfume": "halloween-halloween-edt-100",
+     "precio": 41.65,
+     "referencia": 26.66,
+     "metodo": "jsonld"
+    },
+    {
+     "perfume": "yves-saint-laurent-mon-paris-edp-90",
+     "precio": 159.0,
+     "referencia": 82.95,
+     "metodo": "jsonld"
+    }
+   ]
   },
   "sephora": {
    "ok": 0,
    "bloqueada": 0,
-   "sin_precio": 9,
+   "sin_precio": 17,
    "dudoso": 0
   },
+  "avenida": {
+   "ok": 7,
+   "bloqueada": 0,
+   "sin_precio": 3,
+   "dudoso": 1,
+   "texto": 7,
+   "ejemplos": [
+    {
+     "perfume": "prada-luna-rossa-ocean-edt-100",
+     "precio": 95.45,
+     "referencia": 70.95,
+     "metodo": "texto"
+    }
+   ]
+  },
   "laguna": {
-   "ok": 1,
+   "ok": 13,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "jsonld": 1
+   "precio-100ml": 1,
+   "jsonld": 7,
+   "jsonld-url": 5
+  },
+  "perfumesclub": {
+   "ok": 3,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "jsonld": 3
+  },
+  "douglas": {
+   "ok": 3,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "precio-100ml": 3
+  },
+  "firstinfragrance": {
+   "ok": 2,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "jsonld": 2
+  },
+  "arabicparfums": {
+   "ok": 3,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "jsonld": 3
   }
  },
  "limpiados": {},
