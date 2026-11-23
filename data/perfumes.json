@@ -164514,6 +164514,9 @@
   "checked": "2026-11-23T09:57:39+01:00",
   "conc": "EDT",
   "deals": [],
+  "descartadas": [
+   "https://www.pacoperfumerias.com/tous-l-eau-eau-de-toilette-1953.html"
+  ],
   "history": [
    {
     "d": "2026-11-20",
@@ -164637,12 +164640,6 @@
     "p": 51.95,
     "via": "idealo"
    },
-   "paco": {
-    "auto": true,
-    "d": "2026-11-23",
-    "gh": true,
-    "p": 22.95
-   },
    "primor": {
     "auto": true,
     "d": "2026-11-23",
@@ -164662,7 +164659,6 @@
   "tier": null,
   "urls": {
    "idealo": "https://www.idealo.es/precios/1232524/tous-woman-eau-de-toilette-90-ml.html",
-   "paco": "https://www.pacoperfumerias.com/tous-l-eau-eau-de-toilette-1953.html",
    "parejo": "https://www.joyeriaparejo.com/perfumes/tous-kids-boy-eau-de-toilette-100-ml-nino"
   }
  },
