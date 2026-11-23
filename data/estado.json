@@ -1,101 +1,75 @@
 {
- "at": "2026-11-23T08:38:15+01:00",
+ "at": "2026-11-23T09:17:41+01:00",
  "revisados": 70,
  "tiendas": {
-  "avenida": {
-   "ok": 16,
+  "idealo": {
+   "ok": 57,
    "bloqueada": 0,
    "sin_precio": 2,
    "dudoso": 0,
-   "variantes": 16
-  },
-  "laguna": {
-   "ok": 18,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "jsonld": 7,
-   "precio-100ml": 4,
-   "jsonld-url": 7
+   "jsonld": 4,
+   "jsonld-url": 53
   },
   "lookfantastic": {
-   "ok": 25,
+   "ok": 10,
    "bloqueada": 0,
-   "sin_precio": 3,
+   "sin_precio": 6,
    "dudoso": 1,
-   "jsonld": 25,
+   "jsonld": 10,
    "ejemplos": [
     {
-     "perfume": "jean-paul-gaultier-le-male-le-parfum-edp-125",
-     "precio": 138.0,
-     "referencia": 82.95,
-     "metodo": "texto"
+     "perfume": "davidoff-cool-water-edt-125",
+     "precio": 64.69,
+     "referencia": 21.95,
+     "metodo": "jsonld"
     }
    ]
   },
   "notino": {
-   "ok": 6,
-   "bloqueada": 30,
+   "ok": 0,
+   "bloqueada": 7,
    "sin_precio": 0,
-   "dudoso": 1,
-   "via_idealo": 22,
-   "jsonld": 6,
-   "ejemplos": [
-    {
-     "perfume": "maison-margiela-replica-jazz-club-edt-100",
-     "precio": 153.0,
-     "referencia": 100.465,
-     "metodo": "jsonld"
-    }
-   ]
+   "dudoso": 0,
+   "via_idealo": 28
+  },
+  "sabina": {
+   "ok": 5,
+   "bloqueada": 0,
+   "sin_precio": 2,
+   "dudoso": 0,
+   "via_idealo": 19,
+   "jsonld": 4,
+   "precio-100ml": 1
+  },
+  "brasty": {
+   "ok": 0,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "via_idealo": 13
   },
   "paco": {
-   "ok": 29,
+   "ok": 27,
    "bloqueada": 0,
    "sin_precio": 5,
    "dudoso": 1,
+   "jsonld": 26,
+   "precio-100ml": 1,
    "ejemplos": [
     {
-     "perfume": "hugo-boss-boss-bottled-absolu-parfum-100",
-     "precio": 140.0,
-     "referencia": 80.9,
-     "metodo": "texto"
+     "perfume": "nautica-voyage-edt-100",
+     "precio": 73.78,
+     "referencia": 20.23,
+     "metodo": "precio-100ml"
     }
-   ],
-   "jsonld": 28,
-   "precio-100ml": 1
+   ]
   },
-  "sabina": {
-   "ok": 25,
+  "julia": {
+   "ok": 0,
    "bloqueada": 0,
-   "sin_precio": 8,
+   "sin_precio": 0,
    "dudoso": 0,
-   "jsonld": 23,
-   "via_idealo": 8,
-   "precio-100ml": 2
-  },
-  "idealo": {
-   "ok": 55,
-   "bloqueada": 0,
-   "sin_precio": 2,
-   "dudoso": 2,
-   "jsonld-url": 44,
-   "ejemplos": [
-    {
-     "perfume": "jean-paul-gaultier-le-male-le-parfum-edp-125",
-     "precio": 36.42,
-     "referencia": 82.95,
-     "metodo": "jsonld"
-    },
-    {
-     "perfume": "chanel-allure-homme-edition-blanche-edp-100",
-     "precio": 32.16,
-     "referencia": 118.4,
-     "metodo": "texto"
-    }
-   ],
-   "jsonld": 10,
-   "texto": 1
+   "via_idealo": 26
   },
   "arenal": {
    "ok": 0,
@@ -109,56 +83,41 @@
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "via_idealo": 26
+   "via_idealo": 29
   },
   "primor": {
    "ok": 0,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "via_idealo": 26
+   "via_idealo": 27
   },
-  "julia": {
-   "ok": 0,
+  "parejo": {
+   "ok": 7,
+   "bloqueada": 0,
+   "sin_precio": 3,
+   "dudoso": 0,
+   "jsonld": 7
+  },
+  "laguna": {
+   "ok": 4,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "via_idealo": 26
+   "precio-100ml": 2,
+   "jsonld": 2
   },
   "sephora": {
    "ok": 0,
    "bloqueada": 0,
-   "sin_precio": 22,
+   "sin_precio": 1,
    "dudoso": 0
   },
-  "firstinfragrance": {
-   "ok": 3,
-   "bloqueada": 4,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "jsonld": 3
-  },
-  "brasty": {
+  "avenida": {
    "ok": 0,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "via_idealo": 14
-  },
-  "parejo": {
-   "ok": 13,
    "bloqueada": 1,
-   "sin_precio": 2,
-   "dudoso": 1,
-   "jsonld": 13,
-   "ejemplos": [
-    {
-     "perfume": "rabanne-pure-xs-edt-100",
-     "precio": 124.1,
-     "referencia": 56.26,
-     "metodo": "jsonld"
-    }
-   ]
+   "sin_precio": 0,
+   "dudoso": 0
   },
   "perfumesclub": {
    "ok": 1,
@@ -167,10 +126,17 @@
    "dudoso": 0,
    "jsonld": 1
   },
+  "firstinfragrance": {
+   "ok": 2,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "jsonld": 2
+  },
   "beautinow": {
    "ok": 0,
    "bloqueada": 0,
-   "sin_precio": 4,
+   "sin_precio": 2,
    "dudoso": 0
   },
   "arabicparfums": {
@@ -178,17 +144,13 @@
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "jsonld": 1,
-   "jsonld-url": 1
-  },
-  "douglas": {
-   "ok": 1,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "precio-100ml": 1
+   "jsonld": 2
   }
  },
- "limpiados": {},
+ "limpiados": {
+  "tom-ford-tobacco-vanille-edp-50": [
+   "notino"
+  ]
+ },
  "chollometro": "ok 85"
 }
