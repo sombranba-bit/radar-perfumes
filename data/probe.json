@@ -1,5 +1,5 @@
 {
- "at": "2026-11-22T15:35:23+01:00",
+ "at": "2026-11-23T15:50:01+01:00",
  "tiendas": {
   "primor": {
    "url": "https://www.primor.eu/es_es/catalogsearch/result/?q=boss+bottled",
@@ -29,9 +29,9 @@
   "douglas": {
    "url": "https://www.douglas.es/es/search?q=boss%20bottled",
    "codigo": 200,
-   "kb": 1689,
+   "kb": 1684,
    "titulo": "Resultados para \"boss bottled\"",
-   "precios_eur": 467,
+   "precios_eur": 491,
    "jsonld": 1,
    "menciona_boss": 979,
    "estado": "con precios"
@@ -39,12 +39,12 @@
   "eci": {
    "url": "https://www.elcorteingles.es/buscar/?s=boss+bottled",
    "codigo": 404,
-   "kb": 312,
+   "kb": 294,
    "titulo": "El Corte Inglés",
-   "precios_eur": 0,
+   "precios_eur": 4,
    "jsonld": 0,
    "menciona_boss": 23,
-   "estado": "entra, sin precios"
+   "estado": "con precios"
   },
   "amazon": {
    "url": "https://www.amazon.es/s?k=boss+bottled+edt+100+ml",
@@ -59,11 +59,11 @@
   "idealo": {
    "url": "https://www.idealo.es/resultados.html?q=boss+bottled",
    "codigo": 200,
-   "kb": 1060,
+   "kb": 1056,
    "titulo": "boss bottled en idealo.es",
-   "precios_eur": 130,
+   "precios_eur": 128,
    "jsonld": 0,
-   "menciona_boss": 562,
+   "menciona_boss": 561,
    "estado": "con precios"
   },
   "bodybell": {
@@ -124,9 +124,9 @@
   "makeup": {
    "url": "https://makeup.es/search/?q=boss+bottled",
    "codigo": 200,
-   "kb": 813,
+   "kb": 817,
    "titulo": "Resultados de la búsqueda | Makeup.es",
-   "precios_eur": 172,
+   "precios_eur": 174,
    "jsonld": 3,
    "menciona_boss": 314,
    "estado": "con precios"
@@ -153,20 +153,20 @@
   },
   "sephora": {
    "url": "https://www.sephora.es/buscar?q=boss%20bottled",
-   "codigo": 403,
-   "kb": 0,
-   "titulo": "Access Denied",
+   "codigo": 200,
+   "kb": 2,
+   "titulo": null,
    "precios_eur": 0,
    "jsonld": 0,
    "menciona_boss": 0,
-   "estado": "bloqueada"
+   "estado": "entra, sin precios"
   },
   "lookfantastic": {
    "url": "https://www.lookfantastic.es/search?q=boss+bottled",
    "codigo": 200,
-   "kb": 599,
+   "kb": 523,
    "titulo": "Resultado encontrado para \"boss bottled\"",
-   "precios_eur": 95,
+   "precios_eur": 97,
    "jsonld": 1,
    "menciona_boss": 247,
    "estado": "con precios"
