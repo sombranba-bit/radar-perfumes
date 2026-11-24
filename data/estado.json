@@ -1,33 +1,22 @@
 {
- "at": "2026-11-24T05:27:31+01:00",
+ "at": "2026-11-24T05:33:44+01:00",
  "revisados": 70,
  "tiendas": {
   "avenida": {
-   "ok": 1,
-   "bloqueada": 0,
-   "sin_precio": 2,
-   "dudoso": 3,
+   "ok": 2,
+   "bloqueada": 3,
+   "sin_precio": 0,
+   "dudoso": 1,
    "ejemplos": [
     {
      "perfume": "carolina-herrera-212-men-edt-100",
      "precio": 91.95,
      "referencia": 49.05,
      "metodo": "texto"
-    },
-    {
-     "perfume": "armani-acqua-di-gio-profondo-edp-75",
-     "precio": 32.95,
-     "referencia": null,
-     "metodo": "texto"
-    },
-    {
-     "perfume": "davidoff-cool-water-edt-125",
-     "precio": 66.95,
-     "referencia": 21.049999999999997,
-     "metodo": "texto"
     }
    ],
-   "texto": 1
+   "texto": 1,
+   "variantes": 1
   },
   "idealo": {
    "ok": 58,
@@ -99,12 +88,11 @@
    ]
   },
   "notino": {
-   "ok": 2,
-   "bloqueada": 21,
+   "ok": 0,
+   "bloqueada": 23,
    "sin_precio": 0,
    "dudoso": 0,
-   "via_idealo": 25,
-   "jsonld": 2
+   "via_idealo": 25
   },
   "paco": {
    "ok": 25,
@@ -146,16 +134,16 @@
   },
   "beautinow": {
    "ok": 0,
-   "bloqueada": 0,
-   "sin_precio": 3,
+   "bloqueada": 3,
+   "sin_precio": 0,
    "dudoso": 0
   },
   "firstinfragrance": {
-   "ok": 7,
-   "bloqueada": 0,
+   "ok": 2,
+   "bloqueada": 5,
    "sin_precio": 0,
    "dudoso": 0,
-   "jsonld": 7
+   "jsonld": 2
   },
   "arabicparfums": {
    "ok": 2,
