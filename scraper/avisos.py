@@ -17,6 +17,8 @@ from pathlib import Path
 DATA = Path(__file__).resolve().parent.parent / "data"
 REPO = os.environ.get("GITHUB_REPOSITORY", "sombranba-bit/radar-perfumes")
 WEB = "https://sombranba-bit.github.io/radar-perfumes/"
+SHOPS = {"laguna": "Perfumerías Laguna", "avenida": "Perfumerías Avenida", "paco": "Paco Perfumerías", "parejo": "Joyería Parejo", "sabina": "Sabina",
+         "lookfantastic": "Lookfantastic", "perfumesclub": "Perfume's Club", "eci": "El Corte Inglés", "arenal": "Arenal", "julia": "Perfumerías Julia"}
 MARK = re.compile(r"<!-- aviso:([\d.]+) -->")
 
 
@@ -83,7 +85,7 @@ def main():
         p, shop = b
         url = (it.get("urls") or {}).get(shop) or WEB
         name = "%s %s %s %s ml" % (it["brand"], it["name"], it["conc"], it["ml"])
-        msg = "%s ha bajado a %.2f € en %s (tu objetivo: %.2f €).\n%s\nFicha: %sp/%s.html" % (name, p, shop, target, url, WEB, pid)
+        msg = "%s ha bajado a %.2f € en %s (tu objetivo: %.2f €).\n%s\nFicha: %sp/%s.html" % (name, p, SHOPS.get(shop, shop.capitalize()), target, url, WEB, pid)
         gh("repos/%s/issues/%d/comments" % (REPO, iss["number"]), data={"body": msg + "\n<!-- aviso:%.2f -->" % p})
         telegram(msg)
         sent += 1
