@@ -106727,110 +106727,6 @@
   }
  },
  {
-  "brand": "Le Labo",
-  "buscado": {
-   "avenida": "2026-11-24",
-   "douglas": "2026-11-23",
-   "eci": "2026-11-24",
-   "idealo": "2026-10-26",
-   "lookfantastic": "2026-11-23",
-   "paco": "2026-11-20",
-   "parejo": "2026-11-20",
-   "sephora": "2026-11-20"
-  },
-  "checked": "2026-11-24T15:10:24+01:00",
-  "conc": "EDP",
-  "history": [
-   {
-    "d": "2026-10-26",
-    "p": 399.0,
-    "s": "idealo"
-   },
-   {
-    "d": "2026-10-27",
-    "p": 399.0,
-    "s": "idealo"
-   },
-   {
-    "d": "2026-10-28",
-    "p": 399.0,
-    "s": "idealo"
-   },
-   {
-    "d": "2026-10-29",
-    "p": 399.0,
-    "s": "idealo"
-   },
-   {
-    "d": "2026-10-30",
-    "p": 399.0,
-    "s": "idealo"
-   },
-   {
-    "d": "2026-10-31",
-    "p": 399.0,
-    "s": "idealo"
-   },
-   {
-    "d": "2026-11-01",
-    "p": 399.0,
-    "s": "idealo"
-   },
-   {
-    "d": "2026-11-02",
-    "p": 399.0,
-    "s": "idealo"
-   },
-   {
-    "d": "2026-11-03",
-    "p": 399.0,
-    "s": "idealo"
-   }
-  ],
-  "id": "le-labo-another-13-edp-100",
-  "ml": 100,
-  "name": "Another 13",
-  "prices": {
-   "idealo": {
-    "auto": true,
-    "d": "2026-11-03",
-    "gh": true,
-    "p": 399.0
-   }
-  },
-  "target": null,
-  "tier": "Nicho",
-  "urls": {
-   "idealo": "https://www.idealo.es/precios/6151024/le-labo-another-13-eau-de-parfum.html"
-  }
- },
- {
-  "brand": "Le Labo",
-  "buscado": {
-   "avenida": "2026-11-24",
-   "douglas": "2026-11-23",
-   "eci": "2026-11-24",
-   "idealo": "2026-11-09",
-   "lookfantastic": "2026-11-23",
-   "paco": "2026-11-20",
-   "parejo": "2026-11-20",
-   "sephora": "2026-11-20"
-  },
-  "checked": "2026-11-24T15:10:29+01:00",
-  "conc": "EDP",
-  "history": [],
-  "id": "le-labo-santal-33-edp-100",
-  "ml": 100,
-  "name": "Santal 33",
-  "prices": {},
-  "target": null,
-  "tier": "Nicho",
-  "urls": {
-   "avenida": "https://www.perfumeriasavenida.com/products/yves-saint-laurent-libre-santal-couture-eau-de-parfum-para-mujer",
-   "idealo": "https://www.idealo.es/precios/5471855/le-labo-santal-33-eau-de-parfum.html"
-  }
- },
- {
   "brand": "Maison Francis Kurkdjian",
   "buscado": {
    "avenida": "2026-11-24",
@@ -167737,31 +167633,6 @@
   }
  },
  {
-  "brand": "Jo Malone",
-  "buscado": {
-   "avenida": "2026-11-24",
-   "douglas": "2026-11-20",
-   "eci": "2026-11-24",
-   "idealo": "2026-11-20",
-   "lookfantastic": "2026-11-20",
-   "paco": "2026-11-20",
-   "parejo": "2026-11-20",
-   "sephora": "2026-11-20"
-  },
-  "checked": "2026-11-24T16:10:07+01:00",
-  "conc": "EDC",
-  "deals": [],
-  "history": [],
-  "id": "jo-malone-english-pear-freesia-edc-100",
-  "images": {},
-  "ml": 100,
-  "name": "English Pear & Freesia",
-  "prices": {},
-  "target": null,
-  "tier": "Nicho",
-  "urls": {}
- },
- {
   "brand": "Maison Margiela",
   "buscado": {
    "avenida": "2026-11-24",
@@ -168538,7 +168409,7 @@
    "parejo": "2026-11-20",
    "sephora": "2026-11-20"
   },
-  "checked": "2026-11-24T16:10:07+01:00",
+  "checked": "",
   "conc": "EDP",
   "deals": [],
   "history": [],
@@ -168549,7 +168420,9 @@
   "prices": {},
   "target": null,
   "tier": null,
-  "urls": {}
+  "urls": {
+   "lookfantastic": "https://www.lookfantastic.es/p/dolce-gabbana-q-eau-de-parfum-100ml/14228091/"
+  }
  },
  {
   "brand": "Chanel",
@@ -172696,31 +172569,6 @@
   }
  },
  {
-  "brand": "Kayali",
-  "buscado": {
-   "avenida": "2026-11-24",
-   "douglas": "2026-11-20",
-   "eci": "2026-11-24",
-   "idealo": "2026-11-20",
-   "lookfantastic": "2026-11-20",
-   "paco": "2026-11-20",
-   "parejo": "2026-11-20",
-   "sephora": "2026-11-20"
-  },
-  "checked": "2026-11-24T16:10:07+01:00",
-  "conc": "EDP",
-  "deals": [],
-  "history": [],
-  "id": "kayali-yum-pistachio-gelato-33-edp-100",
-  "images": {},
-  "ml": 100,
-  "name": "Yum Pistachio Gelato 33",
-  "prices": {},
-  "target": null,
-  "tier": null,
-  "urls": {}
- },
- {
   "brand": "Marc Jacobs",
   "buscado": {
    "douglas": "2026-11-20",
@@ -176606,31 +176454,6 @@
   }
  },
  {
-  "brand": "Abercrombie & Fitch",
-  "buscado": {
-   "avenida": "2026-11-24",
-   "douglas": "2026-11-20",
-   "eci": "2026-11-24",
-   "idealo": "2026-11-20",
-   "lookfantastic": "2026-11-20",
-   "paco": "2026-11-20",
-   "parejo": "2026-11-20",
-   "sephora": "2026-11-20"
-  },
-  "checked": "2026-11-24T16:10:07+01:00",
-  "conc": "EDC",
-  "deals": [],
-  "history": [],
-  "id": "abercrombie-fitch-fierce-edc-100",
-  "images": {},
-  "ml": 100,
-  "name": "Fierce",
-  "prices": {},
-  "target": null,
-  "tier": null,
-  "urls": {}
- },
- {
   "brand": "Azzaro",
   "buscado": {
    "douglas": "2026-11-20",
@@ -177005,7 +176828,7 @@
    "parejo": "2026-11-20",
    "sephora": "2026-11-20"
   },
-  "checked": "2026-11-24T16:10:07+01:00",
+  "checked": "",
   "conc": "EDP",
   "deals": [],
   "history": [],
@@ -177016,7 +176839,9 @@
   "prices": {},
   "target": null,
   "tier": null,
-  "urls": {}
+  "urls": {
+   "lookfantastic": "https://www.lookfantastic.es/p/lancome-la-vie-est-belle-intensement-eau-de-parfum-100ml/12461009/"
+  }
  },
  {
   "brand": "Chanel",
@@ -182491,30 +182316,6 @@
    "idealo": "https://www.idealo.es/precios/2492909/yves-saint-laurent-opium-2009-eau-de-parfum-90-ml.html",
    "paco": "https://www.pacoperfumerias.com/opium-yves-saint-laurent-2275.html",
    "sephora": "https://www.sephora.es/p/opium---eau-de-parfum-195938.html"
-  }
- },
- {
-  "brand": "Armani",
-  "buscado": {
-   "douglas": "2026-11-20",
-   "parejo": "2026-11-21",
-   "sephora": "2026-11-21"
-  },
-  "checked": "2026-11-24T14:45:26+01:00",
-  "conc": "Parfum",
-  "deals": [],
-  "history": [],
-  "id": "armani-acqua-di-gio-elixir-parfum-75",
-  "images": {},
-  "ml": 75,
-  "name": "Acqua di Giò Elixir",
-  "prices": {},
-  "target": null,
-  "tier": null,
-  "urls": {
-   "idealo": "https://www.idealo.es/precios/205842916/giorgio-armani-acqua-di-gio-parfum-elixir-50ml.html",
-   "lookfantastic": "https://www.lookfantastic.es/p/armani-acqua-di-gio-homme-elixir-50ml/15861463/",
-   "paco": "https://www.pacoperfumerias.com/armani-acqua-di-gio-elixir-33967.html"
   }
  },
  {

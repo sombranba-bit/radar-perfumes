@@ -121,6 +121,10 @@ PARFUMO_URL = {k: P + v for k, v in {
     'Rasasi|La Yuqawam|EDP': 'Rasasi/La_Yuqawam_pour_Homme',
     'Armaf|Club de Nuit Sillage|EDP': 'Armaf/club-de-nuit-sillage-eau-de-parfum',
     'Afnan|Supremacy Not Only Intense|EDP': 'Afnan_Perfumes/supremacy-not-only-intense',
+    'Lattafa|Fakhar Rose|EDP': 'Lattafa/fakhar-lattafa-women-eau-de-parfum-1',
+    'Yves Saint Laurent|Opium|EDP': 'Yves_Saint_Laurent/Opium_2009_Eau_de_Parfum',
+    'Carolina Herrera|Carolina Herrera|EDT': 'Carolina_Herrera/Carolina_Herrera_Eau_de_Toilette',
+    'Dolce & Gabbana|K by Dolce & Gabbana|EDP': 'Dolce_Gabbana/k-eau-de-parfum',
 }.items()}
 STORE_ORDER = ('laguna', 'avenida', 'parejo', 'sabina', 'paco')
 
