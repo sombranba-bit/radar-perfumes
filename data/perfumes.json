@@ -9,7 +9,7 @@
    "parejo": "2026-11-20",
    "sephora": "2026-11-20"
   },
-  "checked": "2026-11-24T13:18:57+01:00",
+  "checked": "2026-11-24T16:13:52+01:00",
   "conc": "EDC",
   "deals": [],
   "descartadas": [
@@ -1889,7 +1889,7 @@
    "parejo": "2026-11-20",
    "sephora": "2026-11-20"
   },
-  "checked": "2026-11-24T13:16:55+01:00",
+  "checked": "2026-11-24T16:13:06+01:00",
   "conc": "EDP",
   "deals": [],
   "history": [
@@ -2257,7 +2257,7 @@
    "parejo": "2026-11-20",
    "sephora": "2026-11-20"
   },
-  "checked": "2026-11-24T13:24:38+01:00",
+  "checked": "2026-11-24T16:16:03+01:00",
   "conc": "EDP",
   "history": [
    {
@@ -2567,7 +2567,7 @@
    },
    {
     "d": "2026-11-24",
-    "p": 365.0,
+    "p": 311.94,
     "s": "idealo"
    }
   ],
@@ -2596,7 +2596,7 @@
     "auto": true,
     "d": "2026-11-24",
     "gh": true,
-    "p": 365.0
+    "p": 311.94
    },
    "lookfantastic": {
     "auto": true,
@@ -3146,7 +3146,7 @@
    "paco": "2026-11-20",
    "sephora": "2026-11-20"
   },
-  "checked": "2026-11-24T13:24:48+01:00",
+  "checked": "2026-11-24T16:16:14+01:00",
   "conc": "EDT",
   "deals": [
    {
@@ -4047,6 +4047,11 @@
    },
    {
     "d": "2026-11-24",
+    "p": 25.49,
+    "s": "primor"
+   },
+   {
+    "d": "2026-11-24",
     "p": 25.5,
     "s": "arenal"
    },
@@ -4067,7 +4072,7 @@
    },
    {
     "d": "2026-11-24",
-    "p": 25.5,
+    "p": 25.49,
     "s": "idealo"
    },
    {
@@ -4116,7 +4121,7 @@
     "auto": true,
     "d": "2026-11-24",
     "gh": true,
-    "p": 25.5
+    "p": 25.49
    },
    "julia": {
     "auto": true,
@@ -4146,7 +4151,7 @@
    },
    "primor": {
     "auto": true,
-    "d": "2026-11-22",
+    "d": "2026-11-24",
     "gh": true,
     "p": 25.49,
     "via": "idealo"
@@ -4171,7 +4176,7 @@
    "paco": "2026-11-20",
    "sephora": "2026-11-20"
   },
-  "checked": "2026-11-24T13:24:58+01:00",
+  "checked": "2026-11-24T16:16:23+01:00",
   "conc": "EDP",
   "history": [
    {
@@ -6725,7 +6730,7 @@
    "idealo": "2026-10-26",
    "parejo": "2026-11-20"
   },
-  "checked": "2026-11-24T13:25:03+01:00",
+  "checked": "2026-11-24T16:16:29+01:00",
   "conc": "EDP",
   "deals": [
    {
@@ -6734,6 +6739,9 @@
     "t": "ADG Profondo Parfum 200 ml en Sabina",
     "url": "https://www.chollometro.com/ofertas/giorgio-armani-acqua-di-gio-profondo-parfum-200ml-1807712"
    }
+  ],
+  "descartadas": [
+   "https://www.perfumeriasavenida.com/acqua-di-gio-profondo-edp-armani"
   ],
   "history": [],
   "id": "armani-acqua-di-gio-profondo-edp-75",
@@ -6754,7 +6762,6 @@
   "target": null,
   "tier": "Diseñador",
   "urls": {
-   "avenida": "https://www.perfumeriasavenida.com/acqua-di-gio-profondo-edp-armani",
    "idealo": "https://www.idealo.es/precios/203975653/giorgio-armani-acqua-di-gio-profondo-eau-de-parfum-50ml.html",
    "lookfantastic": "https://lookfantastic.es/armani-acqua-di-gio-profondo-eau-de-parfum-75ml/12491955.html",
    "paco": "https://www.pacoperfumerias.com/armani-acqua-di-gio-profondo-18988.html",
@@ -7689,7 +7696,7 @@
    "parejo": "2026-11-20",
    "sephora": "2026-11-20"
   },
-  "checked": "2026-11-24T13:25:27+01:00",
+  "checked": "2026-11-24T16:16:52+01:00",
   "conc": "EDP",
   "deals": [
    {
@@ -7702,6 +7709,9 @@
     "t": "Muestras gratis de My Way",
     "url": "https://www.chollometro.com/ofertas/muestras-gratis-perfume-my-way-giorgio-armani-852157"
    }
+  ],
+  "descartadas": [
+   "https://www.perfumeriasavenida.com/giorgio-armani-my-way-edp-armani"
   ],
   "history": [
    {
@@ -8495,7 +8505,6 @@
   "target": null,
   "tier": "Diseñador",
   "urls": {
-   "avenida": "https://www.perfumeriasavenida.com/giorgio-armani-my-way-edp-armani",
    "idealo": "https://www.idealo.es/precios/204369056/giorgio-armani-my-way-eau-de-parfum-refillable-30ml.html",
    "laguna": "https://www.perfumeriaslaguna.com/giorgio-armani-my-way-eau-de-parfum-90",
    "lookfantastic": "https://www.lookfantastic.es/p/armani-my-way-eau-de-parfum-90ml/12652182/",
@@ -13068,7 +13077,7 @@
    "parejo": "2026-11-20",
    "sephora": "2026-11-20"
   },
-  "checked": "2026-11-24T13:25:39+01:00",
+  "checked": "2026-11-24T16:17:00+01:00",
   "conc": "EDP",
   "history": [
    {
@@ -13748,6 +13757,11 @@
    },
    {
     "d": "2026-11-24",
+    "p": 64.75,
+    "s": "notino"
+   },
+   {
+    "d": "2026-11-24",
     "p": 68.25,
     "s": "julia"
    },
@@ -13760,11 +13774,6 @@
     "d": "2026-11-24",
     "p": 59.95,
     "s": "laguna"
-   },
-   {
-    "d": "2026-11-24",
-    "p": 64.75,
-    "s": "notino"
    },
    {
     "d": "2026-11-24",
@@ -16074,7 +16083,7 @@
    "parejo": "2026-11-20",
    "sephora": "2026-11-13"
   },
-  "checked": "2026-11-24T13:26:23+01:00",
+  "checked": "2026-11-24T16:17:48+01:00",
   "conc": "EDP",
   "history": [
    {
@@ -16454,7 +16463,7 @@
    },
    {
     "d": "2026-11-24",
-    "p": 74.93,
+    "p": 69.75,
     "s": "douglas"
    },
    {
@@ -16511,7 +16520,7 @@
     "auto": true,
     "d": "2026-11-24",
     "gh": true,
-    "p": 74.93
+    "p": 69.75
    },
    "druni": {
     "auto": true,
@@ -16580,7 +16589,7 @@
    "parejo": "2026-11-20",
    "sephora": "2026-11-20"
   },
-  "checked": "2026-11-24T13:26:28+01:00",
+  "checked": "2026-11-24T16:17:52+01:00",
   "conc": "EDT",
   "descartadas": [
    "https://www.pacoperfumerias.com/burberry-hero-33989.html"
@@ -17312,7 +17321,7 @@
    "parejo": "2026-11-20",
    "sephora": "2026-11-20"
   },
-  "checked": "2026-11-24T13:22:31+01:00",
+  "checked": "2026-11-24T16:15:01+01:00",
   "conc": "EDT",
   "deals": [
    {
@@ -17688,7 +17697,7 @@
    "paco": "2026-11-20",
    "sephora": "2026-11-20"
   },
-  "checked": "2026-11-24T13:26:37+01:00",
+  "checked": "2026-11-24T16:17:59+01:00",
   "conc": "EDT",
   "history": [
    {
@@ -18468,7 +18477,7 @@
    },
    {
     "d": "2026-11-24",
-    "p": 67.0,
+    "p": 66.97,
     "s": "idealo"
    },
    {
@@ -18517,7 +18526,7 @@
     "auto": true,
     "d": "2026-11-24",
     "gh": true,
-    "p": 67.0
+    "p": 66.97
    },
    "notino": {
     "auto": true,
@@ -18562,7 +18571,7 @@
    "idealo": "2026-10-26",
    "lookfantastic": "2026-10-26"
   },
-  "checked": "2026-11-24T13:26:44+01:00",
+  "checked": "2026-11-24T16:18:08+01:00",
   "conc": "EDP",
   "history": [
    {
@@ -19285,7 +19294,7 @@
    "parejo": "2026-11-20",
    "sephora": "2026-11-20"
   },
-  "checked": "2026-11-24T13:26:47+01:00",
+  "checked": "2026-11-24T16:18:11+01:00",
   "conc": "EDT",
   "history": [
    {
@@ -19465,7 +19474,7 @@
    "parejo": "2026-11-20",
    "sephora": "2026-11-20"
   },
-  "checked": "2026-11-24T13:27:03+01:00",
+  "checked": "2026-11-24T16:18:26+01:00",
   "conc": "EDP",
   "history": [
    {
@@ -19781,7 +19790,7 @@
   ],
   "id": "byredo-bal-d-afrique-edp-100",
   "images": {
-   "firstinfragrance": "https://www.ausliebezumduft.de/cdn/shop/files/bal-d_afrique.jpg?v=1744106866&width=1920",
+   "firstinfragrance": "https://www.ausliebezumduft.de/cdn/shop/files/BalDAfrique50mlNeu.webp?v=1795532238&width=1920",
    "idealo": "https://cdn.idealo.com/folder/Product/3331/4/3331491/s11_produktbild_gross/byredo-bal-d-afrique-eau-de-parfum-100-ml.jpg"
   },
   "ml": 100,
@@ -19817,7 +19826,7 @@
    "parejo": "2026-11-20",
    "sephora": "2026-11-20"
   },
-  "checked": "2026-11-24T13:25:47+01:00",
+  "checked": "2026-11-24T16:17:09+01:00",
   "conc": "EDP",
   "history": [
    {
@@ -23955,7 +23964,7 @@
    "idealo": "2026-10-26",
    "sephora": "2026-11-20"
   },
-  "checked": "2026-11-24T13:25:55+01:00",
+  "checked": "2026-11-24T16:17:18+01:00",
   "conc": "EDT",
   "deals": [
    {
@@ -24644,6 +24653,11 @@
    {
     "d": "2026-11-24",
     "p": 18.4,
+    "s": "notino"
+   },
+   {
+    "d": "2026-11-24",
+    "p": 18.4,
     "s": "paco"
    },
    {
@@ -24692,7 +24706,7 @@
    },
    "notino": {
     "auto": true,
-    "d": "2026-11-16",
+    "d": "2026-11-24",
     "gh": true,
     "p": 18.4
    },
@@ -24733,7 +24747,7 @@
    "idealo": "2026-10-26",
    "parejo": "2026-11-20"
   },
-  "checked": "2026-11-24T13:23:06+01:00",
+  "checked": "2026-11-24T16:15:11+01:00",
   "conc": "EDT",
   "deals": [
    {
@@ -24744,7 +24758,8 @@
    }
   ],
   "descartadas": [
-   "https://www.joyeriaparejo.com/perfumes/212-vip-men-100-ml-eau-de-toilette-carolina-herrera"
+   "https://www.joyeriaparejo.com/perfumes/212-vip-men-100-ml-eau-de-toilette-carolina-herrera",
+   "https://www.perfumeriasavenida.com/212-men-edt-carolina-herrera"
   ],
   "history": [
    {
@@ -25649,11 +25664,6 @@
    },
    {
     "d": "2026-11-24",
-    "p": 49.95,
-    "s": "laguna"
-   },
-   {
-    "d": "2026-11-24",
     "p": 48.14,
     "s": "primor"
    },
@@ -25676,6 +25686,11 @@
     "d": "2026-11-24",
     "p": 48.14,
     "s": "idealo"
+   },
+   {
+    "d": "2026-11-24",
+    "p": 49.95,
+    "s": "laguna"
    },
    {
     "d": "2026-11-24",
@@ -25775,7 +25790,6 @@
   "target": null,
   "tier": "Diseñador",
   "urls": {
-   "avenida": "https://www.perfumeriasavenida.com/212-men-edt-carolina-herrera",
    "idealo": "https://www.idealo.es/precios/599849/carolina-herrera-212-men-eau-de-toilette-100-ml.html",
    "laguna": "https://www.perfumeriaslaguna.com/212-men-carolina-herrera",
    "lookfantastic": "https://www.lookfantastic.es/p/carolina-herrera-212-men-eau-de-toilette-100ml/10952622/",
@@ -31203,7 +31217,7 @@
    "idealo": "2026-10-26",
    "sephora": "2026-11-13"
   },
-  "checked": "2026-11-24T13:26:08+01:00",
+  "checked": "2026-11-24T16:17:33+01:00",
   "conc": "EDP",
   "deals": [
    {
@@ -32326,11 +32340,6 @@
    },
    {
     "d": "2026-11-24",
-    "p": 95.0,
-    "s": "notino"
-   },
-   {
-    "d": "2026-11-24",
     "p": 93.8,
     "s": "brasty"
    },
@@ -32368,6 +32377,11 @@
     "d": "2026-11-24",
     "p": 128.8,
     "s": "lookfantastic"
+   },
+   {
+    "d": "2026-11-24",
+    "p": 95.0,
+    "s": "notino"
    },
    {
     "d": "2026-11-24",
@@ -34905,7 +34919,7 @@
    "parejo": "2026-11-20",
    "sephora": "2026-11-13"
   },
-  "checked": "2026-11-24T13:26:15+01:00",
+  "checked": "2026-11-24T16:17:39+01:00",
   "conc": "EDT",
   "history": [
    {
@@ -37866,7 +37880,7 @@
    "parejo": "2026-11-20",
    "sephora": "2026-11-13"
   },
-  "checked": "2026-11-24T13:26:53+01:00",
+  "checked": "2026-11-24T16:18:16+01:00",
   "conc": "EDT",
   "history": [
    {
@@ -39367,7 +39381,7 @@
    "parejo": "2026-11-20",
    "sephora": "2026-11-20"
   },
-  "checked": "2026-11-24T13:27:00+01:00",
+  "checked": "2026-11-24T16:18:23+01:00",
   "conc": "EDP",
   "history": [
    {
@@ -40028,7 +40042,7 @@
    "parejo": "2026-11-20",
    "sephora": "2026-11-20"
   },
-  "checked": "2026-11-24T13:23:14+01:00",
+  "checked": "2026-11-24T16:15:19+01:00",
   "conc": "EDP",
   "history": [
    {
@@ -40694,7 +40708,7 @@
    "parejo": "2026-11-20",
    "sephora": "2026-11-20"
   },
-  "checked": "2026-11-24T13:27:08+01:00",
+  "checked": "2026-11-24T16:18:31+01:00",
   "conc": "EDP",
   "history": [
    {
@@ -42983,7 +42997,7 @@
    "parejo": "2026-11-20",
    "sephora": "2026-11-20"
   },
-  "checked": "2026-11-24T13:23:16+01:00",
+  "checked": "2026-11-24T16:15:21+01:00",
   "conc": "EDT",
   "history": [
    {
@@ -44873,7 +44887,7 @@
    "lookfantastic": "2026-11-22",
    "sephora": "2026-11-13"
   },
-  "checked": "2026-11-24T13:27:15+01:00",
+  "checked": "2026-11-24T16:18:38+01:00",
   "conc": "EDT",
   "history": [
    {
@@ -47134,7 +47148,7 @@
    "parejo": "2026-11-20",
    "sephora": "2026-11-20"
   },
-  "checked": "2026-11-24T13:25:10+01:00",
+  "checked": "2026-11-24T16:16:36+01:00",
   "conc": "EDP",
   "history": [
    {
@@ -48927,13 +48941,15 @@
  {
   "brand": "Dior",
   "buscado": {
+   "avenida": "2026-11-24",
    "douglas": "2026-11-20",
+   "eci": "2026-11-24",
    "idealo": "2026-10-26",
    "lookfantastic": "2026-11-23",
    "parejo": "2026-11-20",
    "sephora": "2026-11-20"
   },
-  "checked": "2026-11-24T13:12:50+01:00",
+  "checked": "2026-11-24T16:10:26+01:00",
   "conc": "EDT",
   "deals": [
    {
@@ -49809,6 +49825,7 @@
   "target": null,
   "urls": {
    "douglas": "https://www.douglas.es/es/b/dior/sauvage/b0690850110",
+   "eci": "https://www.elcorteingles.es/perfumeria/A7253385-3348900627475-pr-dior-eau-sauvage-eau-sauvage-eau-de-toilette-1-litro/",
    "idealo": "https://www.idealo.es/precios/4845532/dior-sauvage-eau-de-toilette-100-ml.html",
    "paco": "https://www.pacoperfumerias.com/sauvage-dior-eau-de-toilette-154874.html",
    "sabina": "https://www.sabina.com/es/perfumes-hombre/4620-sauvage-eau-de-toilette.html"
@@ -49817,13 +49834,15 @@
  {
   "brand": "Dior",
   "buscado": {
+   "avenida": "2026-11-24",
    "douglas": "2026-11-23",
+   "eci": "2026-11-24",
    "idealo": "2026-10-26",
    "lookfantastic": "2026-11-23",
    "parejo": "2026-11-20",
    "sephora": "2026-11-20"
   },
-  "checked": "2026-11-24T13:12:55+01:00",
+  "checked": "2026-11-24T16:10:39+01:00",
   "conc": "Elixir",
   "deals": [
    {
@@ -50384,10 +50403,16 @@
     "d": "2026-11-24",
     "p": 137.95,
     "s": "idealo"
+   },
+   {
+    "d": "2026-11-24",
+    "p": 185.0,
+    "s": "eci"
    }
   ],
   "id": "dior-sauvage-elixir-elixir-60",
   "images": {
+   "eci": "https://dam.elcorteingles.es/producto/www-001013513510530-00.jpg",
    "idealo": "https://cdn.idealo.com/folder/Product/201542/9/201542971/s11_produktbild_gross/dior-sauvage-elixir-parfum-60-ml.jpg",
    "paco": "https://www.pacoperfumerias.com/on/demandware.static/-/Sites-pacoper-master-catalog/default/dw1a4da5ea/images/2/0/200481_2.jpg",
    "sabina": "https://static2.sabinacdn.com/165693/sauvage-elixir-eau-de-parfum-dior.jpg"
@@ -50415,6 +50440,12 @@
     "gh": true,
     "p": 137.95,
     "via": "idealo"
+   },
+   "eci": {
+    "auto": true,
+    "d": "2026-11-24",
+    "gh": true,
+    "p": 185.0
    },
    "idealo": {
     "auto": true,
@@ -50453,6 +50484,7 @@
   },
   "target": null,
   "urls": {
+   "eci": "https://www.elcorteingles.es/perfumeria/A40424918-3348901567572-pr-dior-sauvage-sauvage-elixir-perfume-60-ml/",
    "idealo": "https://www.idealo.es/precios/201542971/dior-sauvage-elixir-parfum-60-ml.html",
    "paco": "https://www.pacoperfumerias.com/dior-sauvage-elixir-200481.html",
    "sabina": "https://www.sabina.com/es/dior-perfumes-masculinos-sauvage/11971-sauvage-elixir-eau-de-parfum-dior.html"
@@ -54910,11 +54942,12 @@
   "brand": "Dolce & Gabbana",
   "buscado": {
    "douglas": "2026-11-23",
+   "eci": "2026-11-24",
    "idealo": "2026-10-26",
    "paco": "2026-11-20",
    "sephora": "2026-11-20"
   },
-  "checked": "2026-11-24T13:13:34+01:00",
+  "checked": "2026-11-24T16:10:56+01:00",
   "conc": "EDT",
   "deals": [
    {
@@ -54940,6 +54973,9 @@
     "t": "Set Light Blue 200 ml + 25 ml",
     "url": "https://www.chollometro.com/ofertas/set-light-blue-200ml-25ml-1527006"
    }
+  ],
+  "descartadas": [
+   "https://www.perfumeriasavenida.com/nuevo-light-blue-edt-dolce-gabbana"
   ],
   "history": [
    {
@@ -55914,11 +55950,6 @@
    },
    {
     "d": "2026-11-24",
-    "p": 59.95,
-    "s": "laguna"
-   },
-   {
-    "d": "2026-11-24",
     "p": 64.93,
     "s": "primor"
    },
@@ -55941,6 +55972,11 @@
     "d": "2026-11-24",
     "p": 55.71,
     "s": "idealo"
+   },
+   {
+    "d": "2026-11-24",
+    "p": 59.95,
+    "s": "laguna"
    },
    {
     "d": "2026-11-24",
@@ -56051,7 +56087,6 @@
   },
   "target": null,
   "urls": {
-   "avenida": "https://www.perfumeriasavenida.com/nuevo-light-blue-edt-dolce-gabbana",
    "idealo": "https://www.idealo.es/precios/585621/dolce-gabbana-light-blue-eau-de-toilette-100-ml.html",
    "laguna": "https://www.perfumeriaslaguna.com/light-blue-100",
    "lookfantastic": "https://www.lookfantastic.es/p/dolce-gabbana-light-blue-eau-de-toilette-100ml/11883199/",
@@ -56064,12 +56099,14 @@
  {
   "brand": "Dolce & Gabbana",
   "buscado": {
+   "avenida": "2026-11-24",
    "douglas": "2026-11-23",
+   "eci": "2026-11-24",
    "idealo": "2026-10-26",
    "lookfantastic": "2026-10-26",
    "sephora": "2026-11-20"
   },
-  "checked": "2026-11-24T13:13:39+01:00",
+  "checked": "2026-11-24T16:11:13+01:00",
   "conc": "EDT",
   "deals": [
    {
@@ -56409,6 +56446,7 @@
   },
   "target": null,
   "urls": {
+   "avenida": "https://www.perfumeriasavenida.com/products/dolce-gabbana-light-blue-pour-homme-eau-de-toilette-para-hombre",
    "idealo": "https://www.idealo.es/precios/770193/dolce-gabbana-light-blue-pour-homme-eau-de-toilette-125-ml.html",
    "lookfantastic": "https://www.lookfantastic.es/p/dolce-gabbana-light-blue-pour-homme-eau-de-toilette-200ml/16507666/",
    "paco": "https://www.pacoperfumerias.com/dolce-gabbana-light-blue-hombre-edt-209920.html",
@@ -57572,12 +57610,14 @@
  {
   "brand": "Dolce & Gabbana",
   "buscado": {
+   "avenida": "2026-11-24",
    "douglas": "2026-11-23",
+   "eci": "2026-11-24",
    "idealo": "2026-10-26",
    "parejo": "2026-11-20",
    "sephora": "2026-11-20"
   },
-  "checked": "2026-11-24T13:13:49+01:00",
+  "checked": "2026-11-24T16:11:31+01:00",
   "conc": "EDP",
   "deals": [
    {
@@ -58188,18 +58228,24 @@
    },
    {
     "d": "2026-11-24",
-    "p": 55.55,
+    "p": 60.8,
     "s": "idealo"
    },
    {
     "d": "2026-11-24",
     "p": 66.94,
     "s": "paco"
+   },
+   {
+    "d": "2026-11-24",
+    "p": 84.5,
+    "s": "eci"
    }
   ],
   "id": "dolce-gabbana-the-one-for-men-edp-100",
   "images": {
    "brasty": "https://cdn.brastygroup.eu/images/w700/93776-1.jpg?v=1763707309",
+   "eci": "https://dam.elcorteingles.es/producto/www-001013513504368-00.jpg",
    "idealo": "https://cdn.idealo.com/folder/Product/4856/9/4856957/s11_produktbild_gross/dolce-gabbana-the-one-for-men-eau-de-parfum-100-ml.jpg",
    "lookfantastic": "https://main.thgimages.com/?url=https://static.thcdn.com/productimg/1600/1600/11883190-1524612552058487.jpg&format=webp&width=1500&height=1500&fit=cover",
    "notino": "https://cdn.notinoimg.com/order_2k/dolcegabbana/8056669925859_01/the-one-for-men-eau-de-parfum___251126.jpg",
@@ -58223,11 +58269,17 @@
     "p": 69.95,
     "via": "idealo"
    },
+   "eci": {
+    "auto": true,
+    "d": "2026-11-24",
+    "gh": true,
+    "p": 84.5
+   },
    "idealo": {
     "auto": true,
     "d": "2026-11-24",
     "gh": true,
-    "p": 55.55
+    "p": 60.8
    },
    "julia": {
     "auto": true,
@@ -58265,7 +58317,9 @@
   },
   "target": null,
   "urls": {
+   "avenida": "https://www.perfumeriasavenida.com/products/dolce-gabbana-the-one-eau-de-parfum-para-mujer",
    "brasty": "https://www.brasty.es/dolce-gabbana-the-one-for-men-eau-de-parfum-para-hombre-100-ml",
+   "eci": "https://www.elcorteingles.es/perfumeria/A16185579-8057971180547-pr-eau-de-parfum-the-one-for-men-dolce-and-gabbana-100-ml/",
    "idealo": "https://www.idealo.es/precios/4856957/dolce-gabbana-the-one-for-men-eau-de-parfum-100-ml.html",
    "lookfantastic": "https://www.lookfantastic.es/p/dolce-gabbana-the-one-men-eau-de-parfum-100ml/11883190/",
    "notino": "https://www.notino.es/dolce-gabbana/the-one-for-men-eau-de-parfum-eau-de-parfum-para-hombre/p-16346528/",
@@ -58277,12 +58331,14 @@
  {
   "brand": "Givenchy",
   "buscado": {
+   "avenida": "2026-11-24",
    "douglas": "2026-11-23",
+   "eci": "2026-11-24",
    "idealo": "2026-10-26",
    "lookfantastic": "2026-11-20",
    "parejo": "2026-11-20"
   },
-  "checked": "2026-11-24T13:14:23+01:00",
+  "checked": "2026-11-24T16:11:46+01:00",
   "conc": "EDP",
   "descartadas": [
    "https://www.lookfantastic.es/p/givenchy-gentleman-society-eau-de-parfum-60ml-travel-size-12.5ml/17796706"
@@ -59135,11 +59191,6 @@
    },
    {
     "d": "2026-11-24",
-    "p": 69.95,
-    "s": "laguna"
-   },
-   {
-    "d": "2026-11-24",
     "p": 59.91,
     "s": "primor"
    },
@@ -59162,6 +59213,11 @@
     "d": "2026-11-24",
     "p": 59.91,
     "s": "idealo"
+   },
+   {
+    "d": "2026-11-24",
+    "p": 69.95,
+    "s": "laguna"
    },
    {
     "d": "2026-11-24",
@@ -59232,7 +59288,7 @@
     "auto": true,
     "d": "2026-11-24",
     "gh": true,
-    "p": 59.91,
+    "p": 56.66,
     "stock": false
    },
    "primor": {
@@ -61391,12 +61447,14 @@
  {
   "brand": "Givenchy",
   "buscado": {
+   "avenida": "2026-11-24",
    "douglas": "2026-10-26",
+   "eci": "2026-11-24",
    "idealo": "2026-10-26",
    "lookfantastic": "2026-11-23",
    "sephora": "2026-11-20"
   },
-  "checked": "2026-11-24T13:15:01+01:00",
+  "checked": "2026-11-24T16:12:08+01:00",
   "conc": "EDP",
   "deals": [],
   "history": [
@@ -62287,12 +62345,7 @@
    },
    {
     "d": "2026-11-24",
-    "p": 67.95,
-    "s": "laguna"
-   },
-   {
-    "d": "2026-11-24",
-    "p": 68.99,
+    "p": 68.97,
     "s": "douglas"
    },
    {
@@ -62322,8 +62375,13 @@
    },
    {
     "d": "2026-11-24",
-    "p": 68.97,
+    "p": 58.26,
     "s": "idealo"
+   },
+   {
+    "d": "2026-11-24",
+    "p": 67.95,
+    "s": "laguna"
    },
    {
     "d": "2026-11-24",
@@ -62355,7 +62413,7 @@
     "auto": true,
     "d": "2026-11-24",
     "gh": true,
-    "p": 68.99
+    "p": 68.97
    },
    "druni": {
     "auto": true,
@@ -62368,7 +62426,7 @@
     "auto": true,
     "d": "2026-11-24",
     "gh": true,
-    "p": 68.97
+    "p": 58.26
    },
    "julia": {
     "auto": true,
@@ -67919,7 +67977,7 @@
    "parejo": "2026-11-20",
    "sephora": "2026-11-13"
   },
-  "checked": "2026-11-24T13:17:28+01:00",
+  "checked": "2026-11-24T16:13:16+01:00",
   "conc": "EDT",
   "deals": [],
   "history": [
@@ -69016,7 +69074,7 @@
    {
     "d": "2026-11-24",
     "p": 89.95,
-    "s": "laguna"
+    "s": "avenida"
    },
    {
     "d": "2026-11-24",
@@ -69051,6 +69109,11 @@
    {
     "d": "2026-11-24",
     "p": 89.95,
+    "s": "laguna"
+   },
+   {
+    "d": "2026-11-24",
+    "p": 89.95,
     "s": "paco"
    },
    {
@@ -69061,7 +69124,7 @@
   ],
   "id": "hermes-terre-d-hermes-edt-100",
   "images": {
-   "avenida": "https://www.perfumeriasavenida.com/pub/media/catalog/product/cache/63e2cc2d2c1185b8c1d9543422602ecb/5/4/54844_1-hermes-terre-hermes-200_1.jpg",
+   "avenida": "http://www.perfumeriasavenida.com/cdn/shop/files/hermes-terre-d-hermes-eau-de-toilette-para-hombre-01.webp?v=1794394853",
    "idealo": "https://cdn.idealo.com/folder/Product/886/9/886948/s11_produktbild_gross/hermes-terre-d-hermes-eau-de-toilette-100-ml.jpg",
    "laguna": "https://www.perfumeriaslaguna.com/images/products/terredhermes.jpg",
    "paco": "https://www.pacoperfumerias.com/on/demandware.static/-/Sites-pacoper-master-catalog/default/dwc8fcbeef/images/2/0/200877_2.jpg",
@@ -69080,7 +69143,7 @@
    },
    "avenida": {
     "auto": true,
-    "d": "2026-11-23",
+    "d": "2026-11-24",
     "gh": true,
     "p": 89.95
    },
@@ -70731,11 +70794,12 @@
   "brand": "Hugo Boss",
   "buscado": {
    "douglas": "2026-11-23",
+   "eci": "2026-11-24",
    "idealo": "2026-11-23",
    "parejo": "2026-11-20",
    "sephora": "2026-11-20"
   },
-  "checked": "2026-11-24T13:15:29+01:00",
+  "checked": "2026-11-24T16:12:16+01:00",
   "conc": "Parfum",
   "deals": [
    {
@@ -70762,6 +70826,9 @@
     "t": "Boss Bottled Absolu Parfum Intense con regalo en Marvimundo",
     "url": "https://www.chollometro.com/ofertas/hugo-boss-boss-bottled-absolu-parfum-intense-para-hombre-regalo-leer-descripcion-1821568"
    }
+  ],
+  "descartadas": [
+   "https://www.perfumeriasavenida.com/boss-bottled-absolu-parfum-intense-edp-hugo-boss"
   ],
   "history": [
    {
@@ -71340,7 +71407,6 @@
   },
   "target": null,
   "urls": {
-   "avenida": "https://www.perfumeriasavenida.com/boss-bottled-absolu-parfum-intense-edp-hugo-boss",
    "laguna": "https://www.perfumeriaslaguna.com/boss-bottled-absolu",
    "lookfantastic": "https://www.lookfantastic.es/p/hugo-boss-boss-bottled-absolu-eau-de-parfum-intense-100ml/15438533/",
    "notino": "https://www.notino.es/hugo-boss/boss-bottled-absolu-eau-de-parfum-para-hombre/p-16261924/",
@@ -72256,11 +72322,12 @@
   "brand": "Hugo Boss",
   "buscado": {
    "douglas": "2026-11-23",
+   "eci": "2026-11-24",
    "idealo": "2026-10-26",
    "parejo": "2026-11-20",
    "sephora": "2026-11-13"
   },
-  "checked": "2026-11-24T13:16:06+01:00",
+  "checked": "2026-11-24T16:12:32+01:00",
   "conc": "EDP",
   "deals": [
    {
@@ -72275,6 +72342,9 @@
     "t": "Boss Bottled EDP 200 ml en Druni",
     "url": "https://www.chollometro.com/ofertas/hugo-boss-boss-bottled-eau-de-parfum-200ml-eau-de-parfum-para-hombre-1686066"
    }
+  ],
+  "descartadas": [
+   "https://www.perfumeriasavenida.com/boss-bottled-eau-de-parfum-hugo-boss"
   ],
   "history": [
    {
@@ -73244,11 +73314,6 @@
    },
    {
     "d": "2026-11-24",
-    "p": 54.95,
-    "s": "laguna"
-   },
-   {
-    "d": "2026-11-24",
     "p": 59.95,
     "s": "avenida"
    },
@@ -73289,13 +73354,24 @@
    },
    {
     "d": "2026-11-24",
+    "p": 54.95,
+    "s": "laguna"
+   },
+   {
+    "d": "2026-11-24",
     "p": 87.11,
     "s": "lookfantastic"
+   },
+   {
+    "d": "2026-11-24",
+    "p": 71.95,
+    "s": "eci"
    }
   ],
   "id": "hugo-boss-boss-bottled-edp-100",
   "images": {
    "avenida": "http://www.perfumeriasavenida.com/cdn/shop/files/tienda-perfumerias-avenida.png?v=1788854435",
+   "eci": "https://dam.elcorteingles.es/producto/www-001013513517261-00.jpg",
    "idealo": "https://cdn.idealo.com/folder/Product/200588/0/200588019/s11_produktbild_gross/hugo-boss-bottled-2020-eau-de-parfum-100ml.jpg",
    "laguna": "https://www.perfumeriaslaguna.com/images/products/main_3614229828535-min.jpeg",
    "lookfantastic": "https://main.thgimages.com/?url=https://static.thcdn.com/productimg/original/12612984-4725172427287396.jpg&format=webp&width=1500&height=1500&fit=cover",
@@ -73332,6 +73408,12 @@
     "gh": true,
     "p": 53.75,
     "via": "idealo"
+   },
+   "eci": {
+    "auto": true,
+    "d": "2026-11-24",
+    "gh": true,
+    "p": 71.95
    },
    "idealo": {
     "auto": true,
@@ -73395,7 +73477,7 @@
   },
   "target": null,
   "urls": {
-   "avenida": "https://www.perfumeriasavenida.com/boss-bottled-eau-de-parfum-hugo-boss",
+   "eci": "https://www.elcorteingles.es/perfumeria/A200585018-3616307390491-pr-eau-de-parfum-bottled-striking-lavender-hugo-boss-100-ml/",
    "idealo": "https://www.idealo.es/precios/200588019/hugo-boss-bottled-2020-eau-de-parfum-100ml.html",
    "laguna": "https://www.perfumeriaslaguna.com/boss-bottled-eau-de-parfum-1",
    "lookfantastic": "https://www.lookfantastic.es/p/hugo-boss-boss-bottled-eau-de-parfum-100ml/12612984/",
@@ -75621,11 +75703,12 @@
   "brand": "Hugo Boss",
   "buscado": {
    "douglas": "2026-11-23",
+   "eci": "2026-11-24",
    "idealo": "2026-11-23",
    "paco": "2026-11-20",
    "parejo": "2026-11-20"
   },
-  "checked": "2026-11-24T13:16:37+01:00",
+  "checked": "2026-11-24T16:12:42+01:00",
   "conc": "Elixir",
   "deals": [
    {
@@ -75651,6 +75734,9 @@
     "t": "Boss Bottled Elixir 100 ml compra recurrente",
     "url": "https://www.chollometro.com/ofertas/hugo-boss-bottled-elixir-100-ml-compra-recurrente-1522986"
    }
+  ],
+  "descartadas": [
+   "https://www.perfumeriasavenida.com/boss-bottle-elixir-edp-hugo-boss"
   ],
   "history": [
    {
@@ -76105,13 +76191,13 @@
    },
    {
     "d": "2026-11-24",
-    "p": 64.95,
-    "s": "laguna"
+    "p": 59.95,
+    "s": "avenida"
    },
    {
     "d": "2026-11-24",
-    "p": 59.95,
-    "s": "avenida"
+    "p": 64.95,
+    "s": "laguna"
    },
    {
     "d": "2026-11-24",
@@ -76158,7 +76244,7 @@
     "auto": true,
     "d": "2026-11-24",
     "gh": true,
-    "p": 65.79,
+    "p": 65.8,
     "stock": false
    },
    "sabina": {
@@ -76176,7 +76262,6 @@
   },
   "target": null,
   "urls": {
-   "avenida": "https://www.perfumeriasavenida.com/boss-bottle-elixir-edp-hugo-boss",
    "laguna": "https://www.perfumeriaslaguna.com/boss-bottled-elixir-100ml",
    "lookfantastic": "https://lookfantastic.es/hugo-boss-boss-bottled-elixir-parfum-intense-for-him-100ml/14903447.html",
    "notino": "https://www.notino.es/hugo-boss/boss-bottled-elixir-eau-de-parfumintense-para-hombre/p-16199125/",
@@ -76189,12 +76274,13 @@
   "brand": "Hugo Boss",
   "buscado": {
    "douglas": "2026-11-23",
+   "eci": "2026-11-24",
    "idealo": "2026-10-26",
    "paco": "2026-11-20",
    "parejo": "2026-11-20",
    "sephora": "2026-11-13"
   },
-  "checked": "2026-11-24T13:16:43+01:00",
+  "checked": "2026-11-24T16:12:51+01:00",
   "conc": "EDP",
   "deals": [
    {
@@ -76215,6 +76301,9 @@
     "t": "Hugo Boss Bottled Infinite 200 ml en Amazon",
     "url": "https://www.chollometro.com/ofertas/hugo-boss-bottled-infinite-para-hombres-1650071"
    }
+  ],
+  "descartadas": [
+   "https://www.perfumeriasavenida.com/boss-bottled-infinite-edp-hugo-boss"
   ],
   "history": [
    {
@@ -76494,7 +76583,6 @@
   },
   "target": null,
   "urls": {
-   "avenida": "https://www.perfumeriasavenida.com/boss-bottled-infinite-edp-hugo-boss",
    "idealo": "https://www.idealo.es/precios/6523162/hugo-boss-boss-bottled-infinite-eau-de-parfum-100ml.html",
    "lookfantastic": "https://www.lookfantastic.es/hugo-boss-boss-bottled-infinite-eau-de-parfum-100ml/12026226.html",
    "notino": "https://www.notino.es/hugo-boss/boss-bottled-infinite-eau-de-parfum-para-hombre/p-15843458/",
@@ -76506,12 +76594,13 @@
   "brand": "Hugo Boss",
   "buscado": {
    "douglas": "2026-11-23",
+   "eci": "2026-11-24",
    "idealo": "2026-10-26",
    "paco": "2026-11-20",
    "parejo": "2026-11-20",
    "sephora": "2026-11-20"
   },
-  "checked": "2026-11-24T13:16:49+01:00",
+  "checked": "2026-11-24T16:12:59+01:00",
   "conc": "EDT",
   "deals": [
    {
@@ -76847,7 +76936,7 @@
    "parejo": "2026-11-20",
    "sephora": "2026-11-20"
   },
-  "checked": "2026-11-24T13:18:04+01:00",
+  "checked": "2026-11-24T16:13:24+01:00",
   "conc": "Parfum",
   "deals": [
    {
@@ -76871,7 +76960,8 @@
   ],
   "descartadas": [
    "https://www.idealo.es/precios/200588019/hugo-boss-bottled-2020-eau-de-parfum-100ml.html",
-   "https://www.sephora.es/p/boss-bottled---eau-de-parfum-P10043387.html"
+   "https://www.sephora.es/p/boss-bottled---eau-de-parfum-P10043387.html",
+   "https://www.perfumeriasavenida.com/boss-bottled-parfum-hugo-boss"
   ],
   "history": [
    {
@@ -78012,12 +78102,12 @@
    {
     "d": "2026-11-24",
     "p": 59.95,
-    "s": "laguna"
+    "s": "avenida"
    },
    {
     "d": "2026-11-24",
-    "p": 59.95,
-    "s": "avenida"
+    "p": 58.87,
+    "s": "notino"
    },
    {
     "d": "2026-11-24",
@@ -78041,13 +78131,13 @@
    },
    {
     "d": "2026-11-24",
-    "p": 57.16,
+    "p": 57.17,
     "s": "idealo"
    },
    {
     "d": "2026-11-24",
-    "p": 58.87,
-    "s": "notino"
+    "p": 59.95,
+    "s": "laguna"
    },
    {
     "d": "2026-11-24",
@@ -78100,7 +78190,7 @@
     "auto": true,
     "d": "2026-11-24",
     "gh": true,
-    "p": 57.16
+    "p": 57.17
    },
    "julia": {
     "auto": true,
@@ -78150,7 +78240,6 @@
   },
   "target": null,
   "urls": {
-   "avenida": "https://www.perfumeriasavenida.com/boss-bottled-parfum-hugo-boss",
    "idealo": "https://www.idealo.es/precios/202080561/hugo-boss-boss-bottled-parfum-100ml.html",
    "laguna": "https://www.perfumeriaslaguna.com/boss-bottled-parfum-1",
    "lookfantastic": "https://www.lookfantastic.es/p/hugo-boss-boss-bottled-eau-de-parfum-50ml/12612983/?variation=12612983",
@@ -78818,7 +78907,7 @@
    "parejo": "2026-11-20",
    "sephora": "2026-11-20"
   },
-  "checked": "2026-11-24T13:18:10+01:00",
+  "checked": "2026-11-24T16:13:29+01:00",
   "conc": "EDT",
   "deals": [
    {
@@ -79353,6 +79442,11 @@
    },
    {
     "d": "2026-11-24",
+    "p": 50.45,
+    "s": "avenida"
+   },
+   {
+    "d": "2026-11-24",
     "p": 59.17,
     "s": "sabina"
    },
@@ -79374,7 +79468,7 @@
   ],
   "id": "hugo-boss-boss-the-scent-edt-100",
   "images": {
-   "avenida": "https://www.perfumeriasavenida.com/pub/media/catalog/product/cache/63e2cc2d2c1185b8c1d9543422602ecb/P/A/PADRE85487_1-boss-the-scent-200.jpg",
+   "avenida": "http://www.perfumeriasavenida.com/cdn/shop/files/boss-the-scent-eau-de-toilette-para-hombre-hugo-boss-200ml-3616305040497.webp?v=1794827541",
    "idealo": "https://cdn.idealo.com/folder/Product/4849/7/4849721/s11_produktbild_gross/hugo-boss-the-scent-eau-de-toilette-100-ml.jpg",
    "lookfantastic": "https://main.thgimages.com/?url=https://static.thcdn.com/productimg/original/15742057-1535214736438833.jpg&format=webp&width=1500&height=1500&fit=cover",
    "paco": "https://www.pacoperfumerias.com/on/demandware.static/-/Sites-pacoper-master-catalog/default/dwdf94f5b5/images/1/5/155267_2.jpg"
@@ -79384,7 +79478,7 @@
   "prices": {
    "avenida": {
     "auto": true,
-    "d": "2026-11-23",
+    "d": "2026-11-24",
     "gh": true,
     "p": 50.45
    },
@@ -80602,7 +80696,7 @@
    "douglas": "2026-11-22",
    "idealo": "2026-10-25"
   },
-  "checked": "2026-11-24T13:19:40+01:00",
+  "checked": "2026-11-24T16:14:10+01:00",
   "conc": "EDT",
   "deals": [
    {
@@ -80628,6 +80722,9 @@
     "t": "Hugo Man EDT 75 ml en Amazon",
     "url": "https://www.chollometro.com/ofertas/hugo-boss-man-eau-de-toilette-for-men-75-ml-1667985"
    }
+  ],
+  "descartadas": [
+   "https://www.perfumeriasavenida.com/hugo-man-edt-hugo-boss"
   ],
   "history": [
    {
@@ -82022,11 +82119,6 @@
    },
    {
     "d": "2026-11-24",
-    "p": 34.95,
-    "s": "laguna"
-   },
-   {
-    "d": "2026-11-24",
     "p": 31.4,
     "s": "primor"
    },
@@ -82049,6 +82141,11 @@
     "d": "2026-11-24",
     "p": 31.05,
     "s": "idealo"
+   },
+   {
+    "d": "2026-11-24",
+    "p": 34.95,
+    "s": "laguna"
    },
    {
     "d": "2026-11-24",
@@ -82177,7 +82274,6 @@
   },
   "target": null,
   "urls": {
-   "avenida": "https://www.perfumeriasavenida.com/hugo-man-edt-hugo-boss",
    "idealo": "https://www.idealo.es/precios/200896017/hugo-boss-hugo-man-eau-de-toilette-125ml.html",
    "laguna": "https://www.perfumeriaslaguna.com/hugo-boss-125-vaporizador",
    "lookfantastic": "https://www.lookfantastic.es/p/hugo-boss-man-eau-de-toilette-125ml/11858190/",
@@ -82724,7 +82820,7 @@
    "parejo": "2026-11-20",
    "sephora": "2026-11-20"
   },
-  "checked": "2026-11-24T13:27:17+01:00",
+  "checked": "2026-11-24T16:18:40+01:00",
   "conc": "EDP",
   "history": [
    {
@@ -92458,7 +92554,7 @@
    "lookfantastic": "2026-11-15",
    "parejo": "2026-11-20"
   },
-  "checked": "2026-11-24T13:20:15+01:00",
+  "checked": "2026-11-24T16:14:18+01:00",
   "conc": "EDP",
   "deals": [
    {
@@ -92488,7 +92584,8 @@
   ],
   "descartadas": [
    "https://www.idealo.es/precios/602040/jean-paul-gaultier-le-male-eau-de-toilette-125-ml.html",
-   "https://www.lookfantastic.es/p/jean-paul-gaultier-le-male-eau-de-toilette-125ml/10076089/"
+   "https://www.lookfantastic.es/p/jean-paul-gaultier-le-male-eau-de-toilette-125ml/10076089/",
+   "https://www.perfumeriasavenida.com/le-male-le-parfum-edp-jean-paul-gaultier"
   ],
   "history": [
    {
@@ -93153,13 +93250,13 @@
    },
    {
     "d": "2026-11-24",
-    "p": 82.95,
-    "s": "laguna"
+    "p": 89.95,
+    "s": "avenida"
    },
    {
     "d": "2026-11-24",
-    "p": 89.95,
-    "s": "avenida"
+    "p": 82.95,
+    "s": "laguna"
    },
    {
     "d": "2026-11-24",
@@ -93216,7 +93313,6 @@
   },
   "target": null,
   "urls": {
-   "avenida": "https://www.perfumeriasavenida.com/le-male-le-parfum-edp-jean-paul-gaultier",
    "idealo": "https://www.idealo.es/precios/787712/jean-paul-gaultier-le-male-after-shave-125-ml.html",
    "laguna": "https://www.perfumeriaslaguna.com/gaultier-le-male-le-parfum-125",
    "lookfantastic": "https://www.lookfantastic.es/p/jean-paul-gaultier-le-male-parfum-eau-de-parfum-200ml/13971053/",
@@ -98995,7 +99091,7 @@
    "parejo": "2026-11-20",
    "sephora": "2026-11-20"
   },
-  "checked": "2026-11-24T13:18:45+01:00",
+  "checked": "2026-11-24T16:13:42+01:00",
   "conc": "EDP",
   "deals": [
    {
@@ -99006,7 +99102,8 @@
    }
   ],
   "descartadas": [
-   "https://www.douglas.es/es/p/3000056790"
+   "https://www.douglas.es/es/p/3000056790",
+   "https://www.perfumeriasavenida.com/la-vie-est-belle-eau-de-parfum-edp-lancome"
   ],
   "history": [
    {
@@ -99911,16 +100008,6 @@
    },
    {
     "d": "2026-11-24",
-    "p": 79.2,
-    "s": "notino"
-   },
-   {
-    "d": "2026-11-24",
-    "p": 84.95,
-    "s": "laguna"
-   },
-   {
-    "d": "2026-11-24",
     "p": 77.16,
     "s": "julia"
    },
@@ -99951,8 +100038,18 @@
    },
    {
     "d": "2026-11-24",
+    "p": 84.95,
+    "s": "laguna"
+   },
+   {
+    "d": "2026-11-24",
     "p": 104.65,
     "s": "lookfantastic"
+   },
+   {
+    "d": "2026-11-24",
+    "p": 79.2,
+    "s": "notino"
    },
    {
     "d": "2026-11-24",
@@ -100047,7 +100144,6 @@
   },
   "target": null,
   "urls": {
-   "avenida": "https://www.perfumeriasavenida.com/la-vie-est-belle-eau-de-parfum-edp-lancome",
    "idealo": "https://www.idealo.es/precios/4262241/lancome-la-vie-est-belle-eau-de-parfum-100-ml.html",
    "laguna": "https://www.perfumeriaslaguna.com/lancome-la-vie-est-belle-edp-100-vaporizador",
    "lookfantastic": "https://www.lookfantastic.es/p/lancome-la-vie-est-belle-eau-de-parfum-100ml/11185339/",
@@ -109017,7 +109113,7 @@
    "parejo": "2026-11-20",
    "sephora": "2026-11-20"
   },
-  "checked": "2026-11-24T13:18:53+01:00",
+  "checked": "2026-11-24T16:13:49+01:00",
   "conc": "EDT",
   "deals": [],
   "history": [
@@ -122576,7 +122672,7 @@
    "idealo": "2026-10-26",
    "parejo": "2026-11-20"
   },
-  "checked": "2026-11-24T13:20:50+01:00",
+  "checked": "2026-11-24T16:14:32+01:00",
   "conc": "EDT",
   "deals": [],
   "history": [
@@ -123627,11 +123723,6 @@
    },
    {
     "d": "2026-11-24",
-    "p": 69.95,
-    "s": "laguna"
-   },
-   {
-    "d": "2026-11-24",
     "p": 70.94,
     "s": "primor"
    },
@@ -123657,6 +123748,11 @@
    },
    {
     "d": "2026-11-24",
+    "p": 69.95,
+    "s": "laguna"
+   },
+   {
+    "d": "2026-11-24",
     "p": 91.08,
     "s": "lookfantastic"
    },
@@ -123668,7 +123764,7 @@
   ],
   "id": "prada-luna-rossa-carbon-edt-100",
   "images": {
-   "avenida": "https://www.perfumeriasavenida.com/pub/media/catalog/product/cache/63e2cc2d2c1185b8c1d9543422602ecb/P/A/PADRE80446_1-Prada-Prada-Luna-Rossa-Carbon-100-ml.jpg",
+   "avenida": "http://www.perfumeriasavenida.com/cdn/shop/files/luna-rossa-carbon-eau-de-toilette-para-hombre-prada-150ml-8435137772704.webp?v=1793965554",
    "idealo": "https://cdn.idealo.com/folder/Product/5411/6/5411615/s11_produktbild_gross/prada-luna-rossa-carbon-eau-de-toilette-100-ml.jpg",
    "laguna": "https://www.perfumeriaslaguna.com/images/products/prada-luna-rossa-carbon-eau-de-toilette-100ml-1.jpg",
    "lookfantastic": "https://main.thgimages.com/?url=https://static.thcdn.com/productimg/original/12271399-1984969537440147.jpg&format=webp&width=1500&height=1500&fit=cover",
@@ -123688,9 +123784,10 @@
    },
    "avenida": {
     "auto": true,
-    "d": "2026-11-23",
+    "d": "2026-11-24",
     "gh": true,
-    "p": 71.95
+    "p": 71.95,
+    "stock": false
    },
    "druni": {
     "auto": true,
@@ -131751,7 +131848,7 @@
    "idealo": "2026-10-26",
    "parejo": "2026-11-20"
   },
-  "checked": "2026-11-24T13:21:37+01:00",
+  "checked": "2026-11-24T16:14:43+01:00",
   "conc": "EDP",
   "deals": [
    {
@@ -131760,6 +131857,9 @@
     "t": "Dúo viaje Lady Million EDP 80 ml + spray 20 ml",
     "url": "https://www.chollometro.com/ofertas/paco-rabanne-lady-million-travel-duo-eau-de-parfum-80-ml-travel-spray-20-ml-1434357"
    }
+  ],
+  "descartadas": [
+   "https://www.perfumeriasavenida.com/lady-million-edp-paco-rabanne"
   ],
   "history": [
    {
@@ -132759,11 +132859,6 @@
    },
    {
     "d": "2026-11-24",
-    "p": 79.95,
-    "s": "laguna"
-   },
-   {
-    "d": "2026-11-24",
     "p": 96.95,
     "s": "avenida"
    },
@@ -132796,6 +132891,11 @@
     "d": "2026-11-24",
     "p": 68.69,
     "s": "idealo"
+   },
+   {
+    "d": "2026-11-24",
+    "p": 79.95,
+    "s": "laguna"
    },
    {
     "d": "2026-11-24",
@@ -132921,7 +133021,6 @@
   },
   "target": null,
   "urls": {
-   "avenida": "https://www.perfumeriasavenida.com/lady-million-edp-paco-rabanne",
    "idealo": "https://www.idealo.es/precios/2248996/paco-rabanne-lady-million-eau-de-parfum-80-ml.html",
    "laguna": "https://www.perfumeriaslaguna.com/perfume-paco-rabanne-lady-million-edp-80",
    "lookfantastic": "https://www.lookfantastic.es/p/paco-rabanne-lady-million-eau-de-parfum-80ml/10952572/",
@@ -141349,7 +141448,7 @@
    "paco": "2026-11-20",
    "parejo": "2026-11-20"
   },
-  "checked": "2026-11-24T13:25:13+01:00",
+  "checked": "2026-11-24T16:16:40+01:00",
   "conc": "EDP",
   "history": [
    {
@@ -145926,9 +146025,12 @@
    "douglas": "2026-11-23",
    "idealo": "2026-10-26"
   },
-  "checked": "2026-11-24T13:23:54+01:00",
+  "checked": "2026-11-24T16:15:39+01:00",
   "conc": "EDT",
   "deals": [],
+  "descartadas": [
+   "https://www.perfumeriasavenida.com/dylan-blue-edt-versace"
+  ],
   "history": [
    {
     "d": "2026-10-09",
@@ -147082,21 +147184,6 @@
    },
    {
     "d": "2026-11-24",
-    "p": 49.6,
-    "s": "notino"
-   },
-   {
-    "d": "2026-11-24",
-    "p": 62.95,
-    "s": "laguna"
-   },
-   {
-    "d": "2026-11-24",
-    "p": 54.94,
-    "s": "paco"
-   },
-   {
-    "d": "2026-11-24",
     "p": 69.95,
     "s": "avenida"
    },
@@ -147124,6 +147211,21 @@
     "d": "2026-11-24",
     "p": 49.6,
     "s": "idealo"
+   },
+   {
+    "d": "2026-11-24",
+    "p": 62.95,
+    "s": "laguna"
+   },
+   {
+    "d": "2026-11-24",
+    "p": 49.6,
+    "s": "notino"
+   },
+   {
+    "d": "2026-11-24",
+    "p": 54.94,
+    "s": "paco"
    },
    {
     "d": "2026-11-24",
@@ -147213,8 +147315,7 @@
     "auto": true,
     "d": "2026-11-24",
     "gh": true,
-    "p": 54.94,
-    "stock": false
+    "p": 54.94
    },
    "parejo": {
     "auto": true,
@@ -147238,7 +147339,6 @@
   },
   "target": null,
   "urls": {
-   "avenida": "https://www.perfumeriasavenida.com/dylan-blue-edt-versace",
    "idealo": "https://www.idealo.es/precios/5104593/versace-dylan-blue-eau-de-toilette-100-ml.html",
    "laguna": "https://www.perfumeriaslaguna.com/versace-dylan-blue-100",
    "lookfantastic": "https://www.lookfantastic.es/p/versace-dylan-blue-edt-100ml-vapo/11315783/",
@@ -147256,7 +147356,7 @@
    "idealo": "2026-10-26",
    "paco": "2026-11-20"
   },
-  "checked": "2026-11-24T13:22:26+01:00",
+  "checked": "2026-11-24T16:14:56+01:00",
   "conc": "EDT",
   "deals": [
    {
@@ -148311,7 +148411,7 @@
   ],
   "id": "versace-eros-edt-100",
   "images": {
-   "avenida": "https://www.perfumeriasavenida.com/pub/media/catalog/product/cache/63e2cc2d2c1185b8c1d9543422602ecb/P/A/PADRE62613_1-versace-eros-100-ml.jpg",
+   "avenida": "http://www.perfumeriasavenida.com/cdn/shop/files/eros-eau-de-toilette-para-hombre-versace-100ml-8011003809219.webp?v=1794831033",
    "idealo": "https://cdn.idealo.com/images/product/3753172/es_ES/0/gross.jpg",
    "laguna": "https://www.perfumeriaslaguna.com/images/products/versace-eros-men.jpg",
    "lookfantastic": "https://main.thgimages.com/?url=https://static.thcdn.com/productimg/original/11034085-8045379321515952.jpg&format=webp&width=1500&height=1500&fit=cover",
@@ -148332,9 +148432,10 @@
    },
    "avenida": {
     "auto": true,
-    "d": "2026-11-23",
+    "d": "2026-11-24",
     "gh": true,
-    "p": 81.95
+    "p": 59.95,
+    "stock": false
    },
    "beautinow": {
     "auto": true,
@@ -155991,7 +156092,7 @@
    "idealo": "2026-10-26",
    "lookfantastic": "2026-11-20"
   },
-  "checked": "2026-11-24T13:24:32+01:00",
+  "checked": "2026-11-24T16:15:54+01:00",
   "conc": "EDP",
   "deals": [],
   "descartadas": [
@@ -157371,11 +157472,6 @@
    },
    {
     "d": "2026-11-24",
-    "p": 89.95,
-    "s": "laguna"
-   },
-   {
-    "d": "2026-11-24",
     "p": 90.92,
     "s": "primor"
    },
@@ -157393,6 +157489,11 @@
     "d": "2026-11-24",
     "p": 83.83,
     "s": "idealo"
+   },
+   {
+    "d": "2026-11-24",
+    "p": 89.95,
+    "s": "laguna"
    },
    {
     "d": "2026-11-24",
@@ -157417,7 +157518,7 @@
   ],
   "id": "yves-saint-laurent-libre-edp-90",
   "images": {
-   "avenida": "https://www.perfumeriasavenida.com/pub/media/catalog/product/cache/63e2cc2d2c1185b8c1d9543422602ecb/9/1/91244_1-libre-90-ml_1.jpg",
+   "avenida": "http://www.perfumeriasavenida.com/cdn/shop/files/yves-saint-laurent-libre-eau-de-parfum-para-mujer-150-ml-3614273011785.webp?v=1793803346",
    "douglas": "https://media.douglas.es/medias/MXdDA6289686-0-dgl-ES.jpg?context=bWFzdGVyfGltYWdlc3w2NDY0NnxpbWFnZS9qcGVnfGFHWmpMMmczTnk4ME56azNNVEl6TmpZM05UWXhOQzlOV0dSRVFUWXlPRGsyT0RaZk1GOWtaMnd0UlZNdWFuQm58OTE3YjQ2NGFkNTUzYzlmNDY1YTk4MDQ3MzI2ZjZlMTE5MmMzYzMyNjQxYjA5NWJjYzJlNDZkMDI5ZjFiZDk0Nw&grid=true",
    "idealo": "https://cdn.idealo.com/folder/Product/6751/2/6751283/s11_produktbild_gross/yves-saint-laurent-libre-eau-de-parfum-90ml.jpg",
    "laguna": "https://www.perfumeriaslaguna.com/images/products/3614272648425_1.jpg",
@@ -157439,9 +157540,10 @@
    },
    "avenida": {
     "auto": true,
-    "d": "2026-11-23",
+    "d": "2026-11-24",
     "gh": true,
-    "p": 91.45
+    "p": 91.45,
+    "stock": false
    },
    "druni": {
     "auto": true,
@@ -167857,7 +167959,7 @@
    "parejo": "2026-11-20",
    "sephora": "2026-11-20"
   },
-  "checked": "2026-11-24T15:50:54+01:00",
+  "checked": "2026-11-24T16:10:07+01:00",
   "conc": "EDC",
   "deals": [],
   "history": [],
@@ -168647,7 +168749,7 @@
    "parejo": "2026-11-20",
    "sephora": "2026-11-20"
   },
-  "checked": "2026-11-24T15:50:54+01:00",
+  "checked": "2026-11-24T16:10:07+01:00",
   "conc": "EDP",
   "deals": [],
   "history": [],
@@ -168670,7 +168772,7 @@
    "parejo": "2026-11-20",
    "sephora": "2026-11-20"
   },
-  "checked": "2026-11-24T13:27:20+01:00",
+  "checked": "2026-11-24T16:18:44+01:00",
   "conc": "EDP",
   "deals": [],
   "history": [
@@ -168731,7 +168833,7 @@
    "parejo": "2026-11-20",
    "sephora": "2026-11-20"
   },
-  "checked": "2026-11-24T13:27:25+01:00",
+  "checked": "2026-11-24T16:18:48+01:00",
   "conc": "Parfum",
   "deals": [],
   "history": [
@@ -169016,7 +169118,7 @@
    "parejo": "2026-11-20",
    "sephora": "2026-11-20"
   },
-  "checked": "2026-11-24T13:27:29+01:00",
+  "checked": "2026-11-24T16:18:52+01:00",
   "conc": "EDT",
   "deals": [],
   "history": [
@@ -169141,7 +169243,7 @@
    "parejo": "2026-11-20",
    "sephora": "2026-11-20"
   },
-  "checked": "2026-11-24T13:27:32+01:00",
+  "checked": "2026-11-24T16:18:56+01:00",
   "conc": "EDP",
   "deals": [],
   "history": [
@@ -169329,7 +169431,7 @@
    "parejo": "2026-11-20",
    "sephora": "2026-11-20"
   },
-  "checked": "2026-11-24T14:03:03+01:00",
+  "checked": "2026-11-24T16:18:57+01:00",
   "conc": "EDP",
   "deals": [],
   "history": [
@@ -169389,7 +169491,7 @@
    "parejo": "2026-11-20",
    "sephora": "2026-11-20"
   },
-  "checked": "2026-11-24T14:03:31+01:00",
+  "checked": "2026-11-24T16:19:01+01:00",
   "conc": "EDT",
   "deals": [],
   "history": [
@@ -169515,7 +169617,7 @@
    "parejo": "2026-11-20",
    "sephora": "2026-11-20"
   },
-  "checked": "2026-11-24T14:03:33+01:00",
+  "checked": "2026-11-24T16:19:02+01:00",
   "conc": "Elixir",
   "deals": [],
   "history": [
@@ -169607,7 +169709,7 @@
    "parejo": "2026-11-20",
    "sephora": "2026-11-20"
   },
-  "checked": "2026-11-24T14:03:45+01:00",
+  "checked": "2026-11-24T16:19:08+01:00",
   "conc": "EDP",
   "deals": [],
   "history": [
@@ -169958,7 +170060,7 @@
    "parejo": "2026-11-20",
    "sephora": "2026-11-20"
   },
-  "checked": "2026-11-24T15:50:54+01:00",
+  "checked": "2026-11-24T16:10:07+01:00",
   "conc": "EDP",
   "deals": [],
   "history": [],
@@ -171687,7 +171789,7 @@
    "parejo": "2026-11-20",
    "sephora": "2026-11-20"
   },
-  "checked": "2026-11-24T15:50:54+01:00",
+  "checked": "2026-11-24T16:10:07+01:00",
   "conc": "EDT",
   "deals": [],
   "history": [],
@@ -172816,7 +172918,7 @@
    "parejo": "2026-11-20",
    "sephora": "2026-11-20"
   },
-  "checked": "2026-11-24T15:50:54+01:00",
+  "checked": "2026-11-24T16:10:07+01:00",
   "conc": "EDP",
   "deals": [],
   "history": [],
@@ -174757,7 +174859,7 @@
    "parejo": "2026-11-20",
    "sephora": "2026-11-20"
   },
-  "checked": "2026-11-24T15:50:54+01:00",
+  "checked": "2026-11-24T16:10:07+01:00",
   "conc": "EDT",
   "deals": [],
   "history": [],
@@ -176757,7 +176859,7 @@
    "parejo": "2026-11-20",
    "sephora": "2026-11-20"
   },
-  "checked": "2026-11-24T15:50:54+01:00",
+  "checked": "2026-11-24T16:10:07+01:00",
   "conc": "EDC",
   "deals": [],
   "history": [],
@@ -177145,7 +177247,7 @@
    "parejo": "2026-11-20",
    "sephora": "2026-11-20"
   },
-  "checked": "2026-11-24T15:50:54+01:00",
+  "checked": "2026-11-24T16:10:07+01:00",
   "conc": "EDP",
   "deals": [],
   "history": [],
@@ -189280,14 +189382,16 @@
  {
   "brand": "Afnan",
   "buscado": {
+   "avenida": "2026-11-24",
    "douglas": "2026-11-20",
+   "eci": "2026-11-24",
    "idealo": "2026-11-20",
    "lookfantastic": "2026-11-20",
    "paco": "2026-11-20",
    "parejo": "2026-11-20",
    "sephora": "2026-11-20"
   },
-  "checked": "2026-11-24T13:12:42+01:00",
+  "checked": "2026-11-24T16:10:13+01:00",
   "conc": "EDP",
   "deals": [],
   "history": [
