@@ -1,0 +1,74 @@
+{
+ "arabicparfums": {
+  "metodo": "jsonld",
+  "ml": 120,
+  "perfume": "al-haramain-amber-oud-gold-edition-edp-120",
+  "precio": 67.99,
+  "stock": true,
+  "url": "https://arabicparfums.com/products/amber-oud-gold-edition-al-haramain-120ml"
+ },
+ "brasty": {
+  "metodo": "jsonld",
+  "ml": 100,
+  "perfume": "givenchy-gentleman-edp-100",
+  "precio": 59.59,
+  "stock": false,
+  "url": "https://www.brasty.es/givenchy-gentleman-eau-de-parfum-para-hombre-100-ml"
+ },
+ "douglas": {
+  "metodo": "precio-100ml",
+  "ml": 100,
+  "perfume": "burberry-her-edp-100",
+  "precio": 74.93,
+  "stock": null,
+  "url": "https://www.douglas.es/es/p/3001030841"
+ },
+ "laguna": {
+  "metodo": "jsonld",
+  "ml": 120,
+  "perfume": "al-haramain-amber-oud-gold-edition-edp-120",
+  "precio": 54.95,
+  "stock": false,
+  "url": "https://www.perfumeriaslaguna.com/amber-oud-gold-edition"
+ },
+ "lookfantastic": {
+  "metodo": "jsonld",
+  "ml": 100,
+  "perfume": "dolce-gabbana-the-only-one-edp-100",
+  "precio": 104.02,
+  "stock": true,
+  "url": "https://www.lookfantastic.es/p/dolce-gabbana-the-only-one-eau-de-parfum-100ml/11883164/?variation=11883164"
+ },
+ "paco": {
+  "metodo": "jsonld",
+  "ml": 100,
+  "perfume": "dolce-gabbana-the-only-one-edp-100",
+  "precio": 75.94,
+  "stock": true,
+  "url": "https://www.pacoperfumerias.com/dolce-gabbana-the-only-one-15731.html"
+ },
+ "parejo": {
+  "metodo": "jsonld",
+  "ml": 100,
+  "perfume": "calvin-klein-eternity-edp-100",
+  "precio": 56.95,
+  "stock": true,
+  "url": "https://www.joyeriaparejo.com/perfumes/eternity-vapo-100-ml-eau-de-parfum-calvin-klein"
+ },
+ "perfumesclub": {
+  "metodo": "jsonld",
+  "ml": 125,
+  "perfume": "davidoff-cool-water-edt-125",
+  "precio": 24.12,
+  "stock": true,
+  "url": "https://www.perfumesclub.com/es/davidoff/cool-water-eau-de-toilette-vaporizador/p_13240/"
+ },
+ "sabina": {
+  "metodo": "jsonld",
+  "ml": 120,
+  "perfume": "al-haramain-amber-oud-gold-edition-edp-120",
+  "precio": 62.93,
+  "stock": true,
+  "url": "https://www.sabina.com/es/women-s-perfumes/33990-amber-oud-gold-edition-eau-de-parfum-al-haramain.html"
+ }
+}
