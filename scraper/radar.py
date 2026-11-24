@@ -22,7 +22,7 @@ ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
 TZ = ZoneInfo("Europe/Madrid")
 BATCH = int(os.environ.get("RADAR_BATCH", "70"))      # perfumes por pasada
-MANUAL = {"coqueteo", "marvimundo", "arenal", "primor", "druni", "julia", "eci", "amazon"}
+MANUAL = {"coqueteo", "marvimundo", "arenal", "primor", "druni", "julia", "amazon"}
 
 PRICE_RE = re.compile(r"(\d{1,4}(?:[.\s]\d{3})*(?:[.,]\d{1,2})?)\s*(?:€|&euro;|EUR)")
 ML_RE = re.compile(r"(\d{2,3})\s?ml\b", re.I)
@@ -99,6 +99,23 @@ def jsonld_offers(page):
                 av = str(of.get("availability", ""))
                 out.append((p, desc, pname, "OutOfStock" not in av and "SoldOut" not in av))
     return out
+
+
+def shopify_price(page, ml):
+    """Tiendas Shopify (Avenida desde nov-2026): lista "variants" con "title": "80 ml" y el precio en céntimos."""
+    for m in re.finditer(r'"variants"\s*:\s*\[', page):
+        try:
+            arr, _ = json.JSONDecoder().raw_decode(page[m.end() - 1:])
+        except Exception:
+            continue
+        for v in arr:
+            if not isinstance(v, dict) or ml not in _mls("%s %s" % (v.get("title", ""), v.get("option1", ""))):
+                continue
+            pr = v.get("price")
+            p = pr / 100 if isinstance(pr, int) else to_float(pr or "")
+            if p:
+                return p, v.get("available")
+    return None
 
 
 def magento_price(page, ml):
@@ -211,6 +228,9 @@ def extract(page, ml, url):
     sp = sephora_price(page, ml) if "sephora" in url else None
     if sp:
         return sp[0], sp[1], "variantes"
+    sh = shopify_price(page, ml)
+    if sh:
+        return sh[0], sh[1], "variantes"
     p = magento_price(page, ml) or child_price(page, ml)
     if p:
         return p, None, "variantes"
@@ -390,10 +410,12 @@ SEARCH = {
     "sephora": "https://www.sephora.es/buscar/?q={q}",
     "paco": "https://www.pacoperfumerias.com/search?q={q}",
     "parejo": "https://www.joyeriaparejo.com/busqueda?s={q}",
+    "eci": "https://www.elcorteingles.es/search-nwx/1/?s={q}",
+    "avenida": "https://www.perfumeriasavenida.com/search?q={q}&type=product",
 }
 DISCOVER_PER_RUN = int(os.environ.get("RADAR_DISCOVER", "20"))
 CONC_WORDS = {"EDT": "eau de toilette", "EDP": "eau de parfum", "EDC": "eau de cologne", "Parfum": "parfum", "Elixir": "elixir"}
-SKIP_PATH = re.compile(r"/search|/buscar|busqueda|[?&]s=|[?&]q=|resultados|/c/|/brands?/|/marcas?/|/categor|login|cart|wishlist|\.(?:css|js|png|jpg|svg|webp)", re.I)
+SKIP_PATH = re.compile(r"/collections/[^/?]+/?(?:\?|$)|/search|/buscar|busqueda|[?&]s=|[?&]q=|resultados|/c/|/brands?/|/marcas?/|/categor|login|cart|wishlist|\.(?:css|js|png|jpg|svg|webp)", re.I)
 
 
 def moved_to_listing(url, final):
@@ -413,7 +435,7 @@ def words(t):
 FLANKERS = {"night", "intense", "intenso", "elixir", "absolu", "absolute", "extreme", "infinite", "tonic", "beyond", "sport",
             "privee", "noir", "black", "gold", "platinum", "oud", "cologne", "fraiche", "aqua", "blue", "red", "flame", "royal",
             "set", "estuche", "lote", "pack", "tester", "recarga", "refill", "mini", "body", "deodorant", "desodorante", "gel",
-            "pure", "musc", "nuit", "profumo", "energy"}
+            "pure", "musc", "nuit", "profumo", "energy", "lucky", "happiness", "extreme"}
 
 
 def best_link(page, base, it):
@@ -441,6 +463,9 @@ def best_link(page, base, it):
         if (FLANKERS & hay_w) - set(words(it["name"] + " " + it.get("conc", ""))):
             continue
         if href in it.get("descartadas", ()):
+            continue
+        sizes = {int(x) for x in re.findall(r"(?<![\d.])(\d{2,3})[-_]?ml\b", href.lower())}
+        if sizes and it["ml"] not in sizes:
             continue
         # otra concentración (pides EDP y el enlace dice eau de toilette, sin decir la tuya)
         others = [c for k, c in CONC_WORDS.items() if k != it.get("conc") and " " in c]

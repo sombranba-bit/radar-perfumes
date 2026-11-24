@@ -22,7 +22,7 @@ const SHOPS=[
   {id:'primor',n:'Primor',s:q=>'https://www.google.com/search?q=site%3Aprimor.eu+'+q},
   {id:'druni',n:'Druni',s:q=>'https://www.google.com/search?q=site%3Adruni.es+'+q},
   {id:'julia',n:'Perfumes Julia',s:q=>'https://www.google.com/search?q=site%3Aperfumesjulia.com+'+q},
-  {id:'eci',n:'El Corte Inglés',s:q=>'https://www.google.com/search?q=site%3Aelcorteingles.es+'+q},
+  {id:'eci',n:'El Corte Inglés',auto:true,s:q=>'https://www.google.com/search?q=site%3Aelcorteingles.es+'+q},
   {id:'amazon',n:'Amazon',s:q=>'https://www.amazon.es/s?k='+q},
 ];
 const SHOP=Object.fromEntries(SHOPS.map(s=>[s.id,s]));

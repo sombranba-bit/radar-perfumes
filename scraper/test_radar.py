@@ -205,6 +205,14 @@ pg = '<a href="/perfumes/dolce-gabbana-q-eau-de-parfum-100ml-mujer">Dolce&Gabban
 assert best_link(pg, "https://www.joyeriaparejo.com/busqueda?s={q}", q).endswith("q-eau-de-parfum-100ml-mujer")
 print("ok nombre corto")
 
+# 10b. Shopify (Avenida): variantes con el precio en céntimos; Avenida manda a /collections/ si el producto ya no está
+shop = '<script>var meta={"product":{"price":4995,"variants":[{"id":1,"title":"30 ml","price":4995,"available":true},{"id":2,"title":"80 ml","price":8995,"available":false}]}};</script>'
+assert extract(shop, 80, "https://www.perfumeriasavenida.com/products/good-girl") == (89.95, False, "variantes")
+assert moved_to_listing("https://www.perfumeriasavenida.com/la-vie-est-belle", "https://www.perfumeriasavenida.com/collections/lancome")
+eci = '<a href="/perfumeria/A1-pr-eau-de-parfum-versace-eros-30-ml/">Versace Eros</a><a href="/perfumeria/A2-pr-eau-de-parfum-versace-eros-100-ml/">Versace Eros</a>'
+assert radar.best_link(eci, "https://www.elcorteingles.es/search-nwx/1/?s=x", {"brand": "Versace", "name": "Eros", "conc": "EDP", "ml": 100}).endswith("eros-100-ml/")
+print("OK: shopify y El Corte Inglés")
+
 # 11. Regresión: fichas reales guardadas de cada tienda (scraper/fixtures.py) siguen dando su precio
 import gzip
 FX = Path(__file__).parent / "fixtures"
