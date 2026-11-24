@@ -16080,11 +16080,13 @@
   "buscado": {
    "douglas": "2026-11-23",
    "idealo": "2026-10-26",
-   "parejo": "2026-11-20",
-   "sephora": "2026-11-13"
+   "parejo": "2026-11-20"
   },
   "checked": "2026-11-24T16:17:48+01:00",
   "conc": "EDP",
+  "descartadas": [
+   "https://www.sephora.es/p/her---parfum-P10063533.html"
+  ],
   "history": [
    {
     "d": "2026-10-09",
@@ -16368,11 +16370,6 @@
    },
    {
     "d": "2026-11-21",
-    "p": 114.75,
-    "s": "sephora"
-   },
-   {
-    "d": "2026-11-21",
     "p": 68.0,
     "s": "notino"
    },
@@ -16395,11 +16392,6 @@
     "d": "2026-11-21",
     "p": 166.75,
     "s": "lookfantastic"
-   },
-   {
-    "d": "2026-11-22",
-    "p": 114.75,
-    "s": "sephora"
    },
    {
     "d": "2026-11-22",
@@ -16561,12 +16553,6 @@
     "gh": true,
     "p": 84.95,
     "via": "idealo"
-   },
-   "sephora": {
-    "auto": true,
-    "d": "2026-11-22",
-    "gh": true,
-    "p": 114.75
    }
   },
   "target": null,
@@ -16576,8 +16562,7 @@
    "idealo": "https://www.idealo.es/precios/6316892/burberry-her-eau-de-parfum-100ml.html",
    "lookfantastic": "https://www.lookfantastic.es/p/burberry-her-eau-de-parfum-100ml/12044922/",
    "notino": "https://www.notino.es/burberry/her-eau-de-parfum-para-mujer/p-15765962/",
-   "paco": "https://www.pacoperfumerias.com/burberry-her-169522.html",
-   "sephora": "https://www.sephora.es/p/her---parfum-P10063533.html"
+   "paco": "https://www.pacoperfumerias.com/burberry-her-169522.html"
   }
  },
  {
@@ -16585,14 +16570,14 @@
   "buscado": {
    "douglas": "2026-11-23",
    "idealo": "2026-10-26",
-   "paco": "2026-11-20",
    "parejo": "2026-11-20",
    "sephora": "2026-11-20"
   },
   "checked": "2026-11-24T16:17:52+01:00",
   "conc": "EDT",
   "descartadas": [
-   "https://www.pacoperfumerias.com/burberry-hero-33989.html"
+   "https://www.pacoperfumerias.com/burberry-hero-33989.html",
+   "https://www.pacoperfumerias.com/burberry-hero-parfum-33991.html"
   ],
   "history": [
    {
@@ -16604,11 +16589,6 @@
     "d": "2026-10-09",
     "p": 90.25,
     "s": "lookfantastic"
-   },
-   {
-    "d": "2026-10-09",
-    "p": 59.92,
-    "s": "paco"
    },
    {
     "d": "2026-10-12",
@@ -16626,29 +16606,14 @@
     "s": "notino"
    },
    {
-    "d": "2026-10-25",
-    "p": 57.68,
-    "s": "paco"
-   },
-   {
     "d": "2026-10-26",
     "p": 51.9,
     "s": "idealo"
    },
    {
-    "d": "2026-10-26",
-    "p": 57.67,
-    "s": "paco"
-   },
-   {
     "d": "2026-10-27",
     "p": 53.84,
     "s": "idealo"
-   },
-   {
-    "d": "2026-10-27",
-    "p": 57.67,
-    "s": "paco"
    },
    {
     "d": "2026-10-28",
@@ -16661,19 +16626,9 @@
     "s": "idealo"
    },
    {
-    "d": "2026-10-28",
-    "p": 57.67,
-    "s": "paco"
-   },
-   {
     "d": "2026-10-29",
     "p": 50.75,
     "s": "idealo"
-   },
-   {
-    "d": "2026-10-29",
-    "p": 57.67,
-    "s": "paco"
    },
    {
     "d": "2026-10-30",
@@ -16684,11 +16639,6 @@
     "d": "2026-10-30",
     "p": 54.31,
     "s": "notino"
-   },
-   {
-    "d": "2026-10-30",
-    "p": 57.67,
-    "s": "paco"
    },
    {
     "d": "2026-10-31",
@@ -16701,11 +16651,6 @@
     "s": "notino"
    },
    {
-    "d": "2026-10-31",
-    "p": 57.67,
-    "s": "paco"
-   },
-   {
     "d": "2026-11-01",
     "p": 51.89,
     "s": "idealo"
@@ -16714,11 +16659,6 @@
     "d": "2026-11-01",
     "p": 54.31,
     "s": "notino"
-   },
-   {
-    "d": "2026-11-01",
-    "p": 57.67,
-    "s": "paco"
    },
    {
     "d": "2026-11-02",
@@ -16726,19 +16666,9 @@
     "s": "idealo"
    },
    {
-    "d": "2026-11-02",
-    "p": 57.66,
-    "s": "paco"
-   },
-   {
     "d": "2026-11-03",
     "p": 54.32,
     "s": "idealo"
-   },
-   {
-    "d": "2026-11-03",
-    "p": 57.66,
-    "s": "paco"
    },
    {
     "d": "2026-11-04",
@@ -16749,11 +16679,6 @@
     "d": "2026-11-04",
     "p": 54.31,
     "s": "notino"
-   },
-   {
-    "d": "2026-11-04",
-    "p": 57.66,
-    "s": "paco"
    },
    {
     "d": "2026-11-05",
@@ -16766,11 +16691,6 @@
     "s": "idealo"
    },
    {
-    "d": "2026-11-05",
-    "p": 57.66,
-    "s": "paco"
-   },
-   {
     "d": "2026-11-06",
     "p": 54.32,
     "s": "idealo"
@@ -16781,19 +16701,9 @@
     "s": "notino"
    },
    {
-    "d": "2026-11-06",
-    "p": 57.66,
-    "s": "paco"
-   },
-   {
     "d": "2026-11-07",
     "p": 51.32,
     "s": "idealo"
-   },
-   {
-    "d": "2026-11-07",
-    "p": 57.66,
-    "s": "paco"
    },
    {
     "d": "2026-11-08",
@@ -16806,19 +16716,9 @@
     "s": "idealo"
    },
    {
-    "d": "2026-11-08",
-    "p": 57.66,
-    "s": "paco"
-   },
-   {
     "d": "2026-11-09",
     "p": 51.84,
     "s": "idealo"
-   },
-   {
-    "d": "2026-11-09",
-    "p": 57.66,
-    "s": "paco"
    },
    {
     "d": "2026-11-10",
@@ -16831,19 +16731,9 @@
     "s": "notino"
    },
    {
-    "d": "2026-11-10",
-    "p": 57.66,
-    "s": "paco"
-   },
-   {
     "d": "2026-11-11",
     "p": 50.11,
     "s": "idealo"
-   },
-   {
-    "d": "2026-11-11",
-    "p": 57.66,
-    "s": "paco"
    },
    {
     "d": "2026-11-12",
@@ -16854,11 +16744,6 @@
     "d": "2026-11-12",
     "p": 53.84,
     "s": "idealo"
-   },
-   {
-    "d": "2026-11-12",
-    "p": 57.66,
-    "s": "paco"
    },
    {
     "d": "2026-11-13",
@@ -16884,11 +16769,6 @@
     "d": "2026-11-13",
     "p": 50.11,
     "s": "idealo"
-   },
-   {
-    "d": "2026-11-13",
-    "p": 57.66,
-    "s": "paco"
    },
    {
     "d": "2026-11-14",
@@ -16914,11 +16794,6 @@
     "d": "2026-11-14",
     "p": 51.26,
     "s": "idealo"
-   },
-   {
-    "d": "2026-11-14",
-    "p": 57.66,
-    "s": "paco"
    },
    {
     "d": "2026-11-15",
@@ -16946,11 +16821,6 @@
     "s": "idealo"
    },
    {
-    "d": "2026-11-15",
-    "p": 57.66,
-    "s": "paco"
-   },
-   {
     "d": "2026-11-16",
     "p": 53.2,
     "s": "notino"
@@ -16976,11 +16846,6 @@
     "s": "idealo"
    },
    {
-    "d": "2026-11-16",
-    "p": 57.66,
-    "s": "paco"
-   },
-   {
     "d": "2026-11-17",
     "p": 53.2,
     "s": "notino"
@@ -17004,11 +16869,6 @@
     "d": "2026-11-17",
     "p": 53.2,
     "s": "idealo"
-   },
-   {
-    "d": "2026-11-17",
-    "p": 57.66,
-    "s": "paco"
    },
    {
     "d": "2026-11-18",
@@ -17036,11 +16896,6 @@
     "s": "notino"
    },
    {
-    "d": "2026-11-18",
-    "p": 57.66,
-    "s": "paco"
-   },
-   {
     "d": "2026-11-19",
     "p": 57.66,
     "s": "primor"
@@ -17064,11 +16919,6 @@
     "d": "2026-11-19",
     "p": 53.2,
     "s": "notino"
-   },
-   {
-    "d": "2026-11-19",
-    "p": 57.66,
-    "s": "paco"
    },
    {
     "d": "2026-11-20",
@@ -17099,11 +16949,6 @@
     "d": "2026-11-20",
     "p": 94.01,
     "s": "lookfantastic"
-   },
-   {
-    "d": "2026-11-20",
-    "p": 81.94,
-    "s": "paco"
    },
    {
     "d": "2026-11-21",
@@ -17136,11 +16981,6 @@
     "s": "lookfantastic"
    },
    {
-    "d": "2026-11-21",
-    "p": 81.94,
-    "s": "paco"
-   },
-   {
     "d": "2026-11-22",
     "p": 55.6,
     "s": "notino"
@@ -17169,11 +17009,6 @@
     "d": "2026-11-22",
     "p": 94.01,
     "s": "lookfantastic"
-   },
-   {
-    "d": "2026-11-22",
-    "p": 81.94,
-    "s": "paco"
    },
    {
     "d": "2026-11-23",
@@ -17206,11 +17041,6 @@
     "s": "lookfantastic"
    },
    {
-    "d": "2026-11-23",
-    "p": 81.94,
-    "s": "paco"
-   },
-   {
     "d": "2026-11-24",
     "p": 55.6,
     "s": "notino"
@@ -17239,11 +17069,6 @@
     "d": "2026-11-24",
     "p": 94.01,
     "s": "lookfantastic"
-   },
-   {
-    "d": "2026-11-24",
-    "p": 81.94,
-    "s": "paco"
    }
   ],
   "id": "burberry-hero-edt-100",
@@ -17289,12 +17114,6 @@
     "p": 55.6,
     "via": "idealo"
    },
-   "paco": {
-    "auto": true,
-    "d": "2026-11-24",
-    "gh": true,
-    "p": 81.94
-   },
    "primor": {
     "auto": true,
     "d": "2026-11-24",
@@ -17308,8 +17127,7 @@
   "urls": {
    "idealo": "https://www.idealo.es/precios/201490401/burberry-hero-eau-de-toilette-100-ml.html",
    "lookfantastic": "https://www.lookfantastic.es/p/burberry-hero-eau-de-toilette-for-men-100ml/13097980/",
-   "notino": "https://www.notino.es/burberry/hero-eau-de-toilette-para-hombre/p-16084170/",
-   "paco": "https://www.pacoperfumerias.com/burberry-hero-parfum-33991.html"
+   "notino": "https://www.notino.es/burberry/hero-eau-de-toilette-para-hombre/p-16084170/"
   }
  },
  {
@@ -144553,11 +144371,13 @@
   "buscado": {
    "douglas": "2026-11-23",
    "idealo": "2026-10-26",
-   "paco": "2026-11-20",
    "sephora": "2026-11-13"
   },
   "checked": "2026-11-24T15:56:04+01:00",
   "conc": "EDT",
+  "descartadas": [
+   "https://www.pacoperfumerias.com/versace-bright-crystal-parfum-32336.html"
+  ],
   "history": [
    {
     "d": "2026-10-12",
@@ -145325,11 +145145,6 @@
     "s": "sabina"
    },
    {
-    "d": "2026-11-20",
-    "p": 80.4,
-    "s": "paco"
-   },
-   {
     "d": "2026-11-21",
     "p": 59.94,
     "s": "primor"
@@ -145363,11 +145178,6 @@
     "d": "2026-11-21",
     "p": 52.8,
     "s": "notino"
-   },
-   {
-    "d": "2026-11-21",
-    "p": 80.4,
-    "s": "paco"
    },
    {
     "d": "2026-11-21",
@@ -145413,11 +145223,6 @@
     "d": "2026-11-22",
     "p": 52.8,
     "s": "notino"
-   },
-   {
-    "d": "2026-11-22",
-    "p": 80.4,
-    "s": "paco"
    },
    {
     "d": "2026-11-22",
@@ -145466,11 +145271,6 @@
    },
    {
     "d": "2026-11-23",
-    "p": 80.4,
-    "s": "paco"
-   },
-   {
-    "d": "2026-11-23",
     "p": 74.8,
     "s": "parejo"
    },
@@ -145513,11 +145313,6 @@
     "d": "2026-11-24",
     "p": 59.95,
     "s": "laguna"
-   },
-   {
-    "d": "2026-11-24",
-    "p": 80.4,
-    "s": "paco"
    },
    {
     "d": "2026-11-24",
@@ -145591,12 +145386,6 @@
     "gh": true,
     "p": 52.8
    },
-   "paco": {
-    "auto": true,
-    "d": "2026-11-24",
-    "gh": true,
-    "p": 80.4
-   },
    "parejo": {
     "auto": true,
     "d": "2026-11-24",
@@ -145631,7 +145420,6 @@
    "laguna": "https://www.perfumeriaslaguna.com/versace-bright-crystal-edt",
    "lookfantastic": "https://www.lookfantastic.es/p/versace-bright-crystal-eau-de-toilette-90ml/11034077/",
    "notino": "https://www.notino.es/versace/bright-crystal-eau-de-toilette-para-mujer/p-62441/",
-   "paco": "https://www.pacoperfumerias.com/versace-bright-crystal-parfum-32336.html",
    "parejo": "https://www.joyeriaparejo.com/perfumes/bright-crystal-vapo-90-ml-eau-de-toilette-versace",
    "sabina": "https://www.sabina.com/es/women-s-perfumes/974-bright-crystal-eau-de-toilette-de-versace-sabina.html",
    "sephora": "https://www.sephora.es/p/bright-crystal---eau-de-toilette-P47909.html"
@@ -145645,12 +145433,14 @@
    "eci": "2026-11-24",
    "idealo": "2026-10-26",
    "lookfantastic": "2026-11-23",
-   "paco": "2026-11-20",
    "parejo": "2026-11-20",
    "sephora": "2026-11-20"
   },
   "checked": "2026-11-24T15:00:50+01:00",
   "conc": "EDT",
+  "descartadas": [
+   "https://www.pacoperfumerias.com/versace-crystal-noir-parfum-32337.html"
+  ],
   "history": [
    {
     "d": "2026-10-25",
@@ -146015,8 +145805,7 @@
   "urls": {
    "eci": "https://www.elcorteingles.es/perfumeria/A7251257-8018365071469-pr-eau-de-toilette-crystal-noir-90-ml-versace-90-ml/",
    "idealo": "https://www.idealo.es/precios/598025/versace-crystal-noir-eau-de-toilette-90-ml.html",
-   "notino": "https://www.notino.es/versace/crystal-noir-eau-de-toilette-para-mujer/",
-   "paco": "https://www.pacoperfumerias.com/versace-crystal-noir-parfum-32337.html"
+   "notino": "https://www.notino.es/versace/crystal-noir-eau-de-toilette-para-mujer/"
   }
  },
  {
@@ -174366,7 +174155,6 @@
    "eci": "2026-11-24",
    "idealo": "2026-11-20",
    "lookfantastic": "2026-11-20",
-   "paco": "2026-11-20",
    "parejo": "2026-11-20",
    "sephora": "2026-11-20"
   },
@@ -174376,7 +174164,8 @@
   "descartadas": [
    "https://www.pacoperfumerias.com/acqua-di-gio-armani-91.html",
    "https://www.lookfantastic.es/p/armani-acqua-di-gio-homme-profondo-eau-de-parfum-100ml/15383806/",
-   "https://www.idealo.es/precios/203975653/giorgio-armani-acqua-di-gio-profondo-eau-de-parfum-50ml.html"
+   "https://www.idealo.es/precios/203975653/giorgio-armani-acqua-di-gio-profondo-eau-de-parfum-50ml.html",
+   "https://www.pacoperfumerias.com/armani-acqua-di-gio-parfum-27114.html"
   ],
   "history": [],
   "id": "armani-acqua-di-gio-edp-75",
@@ -174389,8 +174178,7 @@
   "urls": {
    "avenida": "https://www.perfumeriasavenida.com/products/armani-acqua-di-gio-eau-de-parfum-para-hombre",
    "idealo": "https://www.idealo.es/precios/203975676/giorgio-armani-acqua-di-gio-pour-homme-eau-de-parfum-refillable-50ml.html",
-   "lookfantastic": "https://www.lookfantastic.es/p/armani-acqua-di-gio-homme-profondo-eau-de-parfum-100ml/15383806/?variation=15383806",
-   "paco": "https://www.pacoperfumerias.com/armani-acqua-di-gio-parfum-27114.html"
+   "lookfantastic": "https://www.lookfantastic.es/p/armani-acqua-di-gio-homme-profondo-eau-de-parfum-100ml/15383806/?variation=15383806"
   }
  },
  {
@@ -176444,13 +176232,15 @@
    "douglas": "2026-11-20",
    "idealo": "2026-11-20",
    "lookfantastic": "2026-11-20",
-   "paco": "2026-11-20",
    "parejo": "2026-11-20",
    "sephora": "2026-11-20"
   },
   "checked": "2026-11-24T14:07:23+01:00",
   "conc": "EDT",
   "deals": [],
+  "descartadas": [
+   "https://www.pacoperfumerias.com/ralph-lauren-polo-blue-parfum-24981.html"
+  ],
   "history": [
    {
     "d": "2026-11-20",
@@ -176483,11 +176273,6 @@
     "s": "idealo"
    },
    {
-    "d": "2026-11-20",
-    "p": 68.38,
-    "s": "paco"
-   },
-   {
     "d": "2026-11-21",
     "p": 49.94,
     "s": "primor"
@@ -176516,11 +176301,6 @@
     "d": "2026-11-21",
     "p": 49.2,
     "s": "idealo"
-   },
-   {
-    "d": "2026-11-21",
-    "p": 68.38,
-    "s": "paco"
    },
    {
     "d": "2026-11-22",
@@ -176553,11 +176333,6 @@
     "s": "idealo"
    },
    {
-    "d": "2026-11-22",
-    "p": 68.38,
-    "s": "paco"
-   },
-   {
     "d": "2026-11-23",
     "p": 49.94,
     "s": "primor"
@@ -176588,11 +176363,6 @@
     "s": "idealo"
    },
    {
-    "d": "2026-11-23",
-    "p": 68.38,
-    "s": "paco"
-   },
-   {
     "d": "2026-11-24",
     "p": 49.94,
     "s": "primor"
@@ -176621,11 +176391,6 @@
     "d": "2026-11-24",
     "p": 49.2,
     "s": "idealo"
-   },
-   {
-    "d": "2026-11-24",
-    "p": 68.38,
-    "s": "paco"
    }
   ],
   "id": "ralph-lauren-polo-blue-edt-125",
@@ -176663,12 +176428,6 @@
     "p": 72.0,
     "via": "idealo"
    },
-   "paco": {
-    "auto": true,
-    "d": "2026-11-24",
-    "gh": true,
-    "p": 68.38
-   },
    "primor": {
     "auto": true,
     "d": "2026-11-24",
@@ -176688,7 +176447,6 @@
   "tier": null,
   "urls": {
    "idealo": "https://www.idealo.es/precios/603216/ralph-lauren-polo-blue-eau-de-toilette-125-ml.html",
-   "paco": "https://www.pacoperfumerias.com/ralph-lauren-polo-blue-parfum-24981.html",
    "parejo": "https://www.joyeriaparejo.com/perfumes/polo-blue-vapo-75-ml-eau-de-toilette-ralph-lauren"
   }
  },
@@ -184526,7 +184284,8 @@
   "descartadas": [
    "https://www.lookfantastic.es/p/prada-luna-rossa-carbon-eau-de-toilette-100ml/12271399/?variation=12271399",
    "https://www.lookfantastic.es/p/prada-luna-rossa-ocean-eau-de-toilette-100ml/13035931/",
-   "https://www.sephora.es/p/luna-rossa-ocean---eau-de-toilette-para-hombre-P10017882.html"
+   "https://www.sephora.es/p/luna-rossa-ocean---eau-de-toilette-para-hombre-P10017882.html",
+   "https://www.pacoperfumerias.com/prada-luna-rossa-ocean-le-parfum-33614.html"
   ],
   "history": [
    {
@@ -184548,11 +184307,6 @@
     "d": "2026-11-20",
     "p": 65.35,
     "s": "idealo"
-   },
-   {
-    "d": "2026-11-20",
-    "p": 91.94,
-    "s": "paco"
    },
    {
     "d": "2026-11-20",
@@ -184581,11 +184335,6 @@
    },
    {
     "d": "2026-11-21",
-    "p": 91.94,
-    "s": "paco"
-   },
-   {
-    "d": "2026-11-21",
     "p": 93.5,
     "s": "parejo"
    },
@@ -184608,11 +184357,6 @@
     "d": "2026-11-22",
     "p": 65.35,
     "s": "idealo"
-   },
-   {
-    "d": "2026-11-22",
-    "p": 91.94,
-    "s": "paco"
    },
    {
     "d": "2026-11-22",
@@ -184641,11 +184385,6 @@
    },
    {
     "d": "2026-11-23",
-    "p": 91.94,
-    "s": "paco"
-   },
-   {
-    "d": "2026-11-23",
     "p": 93.5,
     "s": "parejo"
    },
@@ -184668,11 +184407,6 @@
     "d": "2026-11-24",
     "p": 65.35,
     "s": "idealo"
-   },
-   {
-    "d": "2026-11-24",
-    "p": 91.94,
-    "s": "paco"
    },
    {
     "d": "2026-11-24",
@@ -184702,12 +184436,6 @@
     "p": 81.25,
     "via": "idealo"
    },
-   "paco": {
-    "auto": true,
-    "d": "2026-11-24",
-    "gh": true,
-    "p": 91.94
-   },
    "parejo": {
     "auto": true,
     "d": "2026-11-24",
@@ -184733,7 +184461,6 @@
   "tier": null,
   "urls": {
    "idealo": "https://www.idealo.es/precios/3427709/prada-luna-rossa-eau-de-toilette-100-ml.html",
-   "paco": "https://www.pacoperfumerias.com/prada-luna-rossa-ocean-le-parfum-33614.html",
    "parejo": "https://www.joyeriaparejo.com/perfumes/prada-luna-rossa-eau-de-toilette-100-ml-hombre"
   }
  },

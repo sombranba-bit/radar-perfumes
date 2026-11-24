@@ -32,10 +32,18 @@ data/notas.json         datos enriquecidos, cargados una sola vez (relojes: fich
 data/debug.json         una muestra por tienda y pasada, para ajustar el lector
 scraper/radar.py        lector de precios (pasada)
 scraper/notas.py        lector de datos enriquecidos (una vez)
-scraper/test_radar.py   pruebas del lector (se ejecutan antes de cada pasada)
+scraper/test_radar.py   pruebas del lector (se ejecutan antes de cada pasada), incluidas las fichas reales de scraper/fixtures/
+scraper/fixtures.py     guarda una ficha real por tienda con su precio (regresión: el lector debe seguir sacando ese precio)
+scraper/avisos.py       avisos de precio objetivo: comenta en la incidencia de GitHub (email) y, si hay secretos, Telegram
+scraper/test_avisos.py  pruebas de los avisos
+scraper/informe.py      informe semanal como incidencia de GitHub
+scraper/paginas.py      genera p/<id>.html (una página por producto para compartir)
+p/<id>.html             páginas para compartir (Open Graph + redirección a la ficha)
+manifest.webmanifest    app instalable; sw.js: service worker (red primero, copia sin conexión)
 scraper/diagnostico.py  prueba de acceso a tiendas nuevas
 .github/workflows/radar.yml       pasada cada 30 min (input "perfumes": 70 normal, 250 todos)
-.github/workflows/notas.yml       datos enriquecidos (modo probe|notas, limite, rehacer)
+.github/workflows/notas.yml       datos enriquecidos (modo probe|notas|fichas, limite, rehacer)
+.github/workflows/informe.yml     informe semanal (lunes 7:41), abre una incidencia
 .github/workflows/diagnostico.yml prueba manual de tiendas
 ```
 
@@ -70,7 +78,7 @@ scraper/diagnostico.py  prueba de acceso a tiendas nuevas
    - Pausa aleatoria de 0,8 a 1,8 s entre peticiones.
 2. **Extracción del precio**, por orden:
    1. JSON-LD (`Product` / `Offer`, eligiendo la variante del tamaño o, mejor, el código de la URL);
-   2. Magento;
+   2. Shopify (`"variants"` con el tamaño en `title` y el precio en céntimos) y Magento;
    3. precio por 100 ml;
    4. variantes hijas;
    5. específico de la tienda (Sephora `pricePerUnit`);
@@ -81,7 +89,9 @@ scraper/diagnostico.py  prueba de acceso a tiendas nuevas
    - el precio se guarda con `via:"idealo"`.
 4. **Control de calidad**, que es lo más importante:
    - `plausible(p, ref)`: se rechaza un precio que se aleje mucho del de referencia del producto. Las tiendas a precio completo (Sephora, Douglas) tienen margen hasta 1,8×.
-   - `clean_outliers`: limpia del historial los precios absurdos.
+   - `clean_outliers`: limpia del historial los precios absurdos; por arriba, y **por abajo** cuando un precio queda por debajo de la mitad de la mediana de al menos 3 tiendas (casi siempre es otro producto): se quita y su ficha pasa a `descartadas`.
+   - En `best_link`, un enlace que dice otro tamaño en la dirección (`-30-ml`) se descarta: algunas tiendas (El Corte Inglés) tienen una ficha por tamaño.
+   - `moved_to_listing`: si la ficha redirige a un listado (categoría, `/collections/…` de Shopify) se retira; así se detectó el cambio de Avenida a Shopify.
    - `BUNDLE_RE`: descarta estuches, sets, testers, muestras y packs.
    - `best_link` (al descubrir URLs nuevas):
      - exige marca y nombre;
@@ -92,7 +102,8 @@ scraper/diagnostico.py  prueba de acceso a tiendas nuevas
 6. **Fotos**: guarda la dirección de la foto (`og:image` o JSON-LD), nunca la copia. Filtra marcadores vacíos (`NO_PHOTO`).
 7. **Lotes**: cada pasada revisa los 70 productos que llevan más tiempo sin revisar, así que la lista completa se recorre cada ~3 h.
 8. **Chollometro**: lee la categoría y empareja los chollos con productos del catálogo.
-9. **Commit** en el workflow: `git add data/ && git commit && git pull --rebase --autostash && git push`, con `concurrency: radar` para no pisarse.
+9. **Después de guardar**: `paginas.py` regenera las páginas para compartir y `avisos.py` revisa las incidencias "Aviso: …" (cuerpo con `id:` y `precio:`) y comenta si el mejor precio baja del objetivo. Solo vuelve a avisar si baja más que la vez anterior (marca `<!-- aviso:X -->` en el comentario). Necesita `issues: write`. Telegram opcional con los secretos `TELEGRAM_TOKEN` y `TELEGRAM_CHAT`.
+10. **Commit** en el workflow: `git add data/ && git commit && git pull --rebase --autostash && git push`, con `concurrency: radar` para no pisarse.
 
 **Relojes**:
 - El JSON-LD suele traer `gtin13` y `mpn`; empareja por la referencia (`mpn` o "Ref.") y no por el nombre.
@@ -116,7 +127,8 @@ scraper/diagnostico.py  prueba de acceso a tiendas nuevas
 - `RP.load(dir)` carga los JSON. `groups()` agrupa tamaños. `best()` da el mejor precio con ≤14 días. `drop()` da la bajada frente a la media de 30 días. `spread()` da el ahorro entre tiendas. `series()` da el historial diario. `lineChart()` dibuja la gráfica.
 - `E.start({home, catalog})` monta la barra, el enrutado por `#hash` (`#catalogo`, `#p/<clave>`, `#chollos`, `#guardados`), los filtros, el tema y el pie.
 - `E.pre` sirve para cargar datos extra a la vez (notas). `E.DATA` indica dónde está `data/`.
-- **Guardados** y **precio objetivo** se guardan en `localStorage` (`rp-favs` y los objetivos de `RP`).
+- **Guardados** y **precio objetivo** se guardan en `localStorage` (`rp-favs` y los objetivos de `RP`). El aviso por email no necesita servidor: el enlace abre una incidencia de GitHub ya rellena, y GitHub manda el email cuando el bot comenta en ella.
+- `E.min30` / `E.atMin` (mínimo de 30 días), tamaños con precio por 100 ml, `E.simOlf` ("Huelen parecido": coseno entre acordes y notas) y la búsqueda por notas (`it.nx`, que rellena `olfato.js`).
 - **Producción**:
   - `python3 maquetas/hacer_produccion.py` copia `app/`, convierte la maqueta elegida en `index.html` y añade `?v=<fecha>` a los archivos para que el navegador no use versiones viejas;
   - `maquetas/core.js` se carga con `?v=<hora>`.
@@ -132,6 +144,9 @@ scraper/diagnostico.py  prueba de acceso a tiendas nuevas
 - La extensión de Chrome **no hace capturas si la ventana está minimizada o tapada**: hay que pedir que esté visible.
 - `gh` sin GraphQL en estas sesiones: los workflows se lanzan con `gh api -X POST repos/<owner>/<repo>/actions/workflows/<archivo>/dispatches -f ref=main -f 'inputs[x]=y'`.
 - Los artefactos de Actions no se pueden descargar desde la sesión: para inspeccionar HTML de tiendas, imprimir fragmentos en el registro del workflow.
+- Las tiendas **cambian de plataforma sin avisar** (Avenida pasó de Magento a Shopify en nov-2026) y el lector se queda en "sin precio" en silencio. El informe semanal lista las tiendas con más fallos que aciertos para verlo a tiempo.
+- **Sephora** (Akamai), **Primor**, **Druni** y **Makeup** (AWS WAF) bloquean a los robots; Primor y Druni llegan vía Idealo.
+- `gh issue create` usa GraphQL y falla en estas sesiones: las incidencias se crean con `gh api repos/<owner>/<repo>/issues -f title=… -f body=…`.
 
 ## 8. Plan para el comparador de relojes
 

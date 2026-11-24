@@ -211,6 +211,9 @@ assert extract(shop, 80, "https://www.perfumeriasavenida.com/products/good-girl"
 assert moved_to_listing("https://www.perfumeriasavenida.com/la-vie-est-belle", "https://www.perfumeriasavenida.com/collections/lancome")
 eci = '<a href="/perfumeria/A1-pr-eau-de-parfum-versace-eros-30-ml/">Versace Eros</a><a href="/perfumeria/A2-pr-eau-de-parfum-versace-eros-100-ml/">Versace Eros</a>'
 assert radar.best_link(eci, "https://www.elcorteingles.es/search-nwx/1/?s=x", {"brand": "Versace", "name": "Eros", "conc": "EDP", "ml": 100}).endswith("eros-100-ml/")
+assert extract(shop, 125, "https://www.perfumeriasavenida.com/products/good-girl") == (None, None, "sin-tamaño")
+av = '<a href="/products/versace-eros-parfum-para-hombre">Eros Parfum</a><a href="/products/versace-eros-eau-de-parfum-para-hombre">Eros Eau de Parfum</a>'
+assert radar.best_link(av, "https://www.perfumeriasavenida.com/search?q=x", {"brand": "Versace", "name": "Eros", "conc": "EDP", "ml": 100}).endswith("eros-eau-de-parfum-para-hombre")
 print("OK: shopify y El Corte Inglés")
 
 # 11. Regresión: fichas reales guardadas de cada tienda (scraper/fixtures.py) siguen dando su precio

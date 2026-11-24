@@ -100,22 +100,25 @@ Tema: `prefers-color-scheme` por defecto; `data-theme="light|dark"` en `<html>` 
    - rejilla de tarjetas (2 columnas en móvil) con "Mostrar 24 más".
 4. **Ficha** (`#p/<clave>`):
    - en ordenador, dos columnas: foto fija con miniaturas a la izquierda y datos a la derecha;
-   - datos: marca y tipo, nombre, concentración, tamaños;
-   - **caja de compra**: precio grande, "frente a su media", tienda, precio por 100 ml, "Ver en <tienda>", Guardar, y mínimo, media y máximo de 30 días;
+   - datos: marca y tipo, nombre, concentración, tamaños (cada chip con su precio por 100 ml y "el mejor" en el más barato por ml);
+   - **caja de compra**: precio grande, "frente a su media", tienda, precio por 100 ml, veredicto frente al mínimo de 30 días ("Es el precio más bajo de los últimos 30 días" en verde, o "X € por encima del mínimo"), "Ver en <tienda>", Guardar, **Compartir** (menú nativo del móvil; en ordenador copia el enlace) y mínimo, media y máximo de 30 días;
    - **Precio en cada tienda** (tabla; los precios de hace más de un mes, plegados);
    - gráfica diaria del mejor precio;
    - **bloque olfativo** (ver 7.4) **[cambiar]**;
-   - **Avísame si baja** (precio objetivo guardado en el navegador);
-   - chollos publicados y "Parecidos de precio";
+   - **Avísame si baja**: precio objetivo guardado en el navegador y, debajo, el enlace "Avisarme por email cuando baje de X €" (abre una incidencia de GitHub ya rellena);
+   - chollos publicados, **Huelen parecido** (por acordes y notas, de cualquier precio) y "Parecidos de precio";
    - en móvil, barra fija abajo con precio y "Ver oferta".
 5. **Chollos** (pestañas "De tu lista" y "Todos") y **Guardados**.
 6. **Móvil**: barra inferior con Inicio, Catálogo, Chollos y Guardados; búsqueda dentro de la página; `env(safe-area-inset-*)`.
+7. **App instalable**: `manifest.webmanifest` (nombre corto "Fragans", color `#8a2335`), iconos en `app/icons/` (192, 512, maskable y apple-touch, la lupa con la gota sobre burdeos) y `sw.js` con red primero y la última copia si no hay conexión.
+8. **Páginas para compartir** (`p/<id>.html`): una por producto, solo con título, precio, tiendas y foto para la vista previa (Open Graph) y una redirección a `#p/<clave>`.
+9. **Búsqueda**: encuentra marca, nombre, familia y también las notas y acordes reales ("vainilla tabaco" encuentra los que llevan las dos).
 
 ## 7. Componentes
 
 ### 7.1 Tarjeta de producto
 - Foto cuadrada sobre `--plate`, recortada al 78 % y con `mix-blend-mode:multiply` para que el fondo blanco de la foto desaparezca.
-- Insignias arriba a la izquierda: bajada "−21 %" en verde, "Chollo".
+- Insignias arriba a la izquierda: bajada "−21 %" en verde, "Chollo" o "Mínimo de 30 días" (con al menos 7 días de lecturas).
 - Corazón arriba a la derecha si está guardado.
 - Debajo:
   - punto de familia · marca · tamaño;

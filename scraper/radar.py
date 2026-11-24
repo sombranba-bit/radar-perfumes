@@ -115,6 +115,8 @@ def shopify_price(page, ml):
             p = pr / 100 if isinstance(pr, int) else to_float(pr or "")
             if p:
                 return p, v.get("available")
+        if sum(1 for v in arr if isinstance(v, dict) and _mls(str(v.get("title", "")))) >= 2:
+            return "sin-tamaño"   # la ficha tiene sus tamaños y este no está
     return None
 
 
@@ -229,6 +231,8 @@ def extract(page, ml, url):
     if sp:
         return sp[0], sp[1], "variantes"
     sh = shopify_price(page, ml)
+    if sh == "sin-tamaño":
+        return None, None, "sin-tamaño"
     if sh:
         return sh[0], sh[1], "variantes"
     p = magento_price(page, ml) or child_price(page, ml)
@@ -306,7 +310,7 @@ def idealo_offers(page, ml):
 
 
 # Tiendas que venden a precio de catálogo: hasta 1,8 veces la media de las de descuento
-FULL_PRICE = {"sephora", "douglas", "lookfantastic"}   # venden a precio de catálogo, que puede doblar el de calle
+FULL_PRICE = {"sephora", "douglas", "lookfantastic", "eci"}   # venden a precio de catálogo, que puede doblar el de calle
 FULL_MAX = 2.5
 # Black Friday y Cyber Monday: se aceptan rebajas más fuertes (no en Idealo, que mezcla tamaños y vendedores)
 SALES = ("2026-11-20", "2026-12-02")
@@ -435,7 +439,7 @@ def words(t):
 FLANKERS = {"night", "intense", "intenso", "elixir", "absolu", "absolute", "extreme", "infinite", "tonic", "beyond", "sport",
             "privee", "noir", "black", "gold", "platinum", "oud", "cologne", "fraiche", "aqua", "blue", "red", "flame", "royal",
             "set", "estuche", "lote", "pack", "tester", "recarga", "refill", "mini", "body", "deodorant", "desodorante", "gel",
-            "pure", "musc", "nuit", "profumo", "energy", "lucky", "happiness", "extreme"}
+            "pure", "musc", "nuit", "profumo", "energy", "lucky", "happiness", "extreme", "ocean"}
 
 
 def best_link(page, base, it):
@@ -470,6 +474,10 @@ def best_link(page, base, it):
         # otra concentración (pides EDP y el enlace dice eau de toilette, sin decir la tuya)
         others = [c for k, c in CONC_WORDS.items() if k != it.get("conc") and " " in c]
         if conc and conc not in hay.replace(" ", "-") and any(c.replace(" ", "-") in hay.replace(" ", "-") for c in others):
+            continue
+        # al revés: pides EDP/EDT/EDC y el enlace es el "Parfum" a secas (Avenida: versace-eros-parfum-para-hombre)
+        if it.get("conc") in ("EDP", "EDT", "EDC") and re.search(r"(?<![a-z])(?<!de[- ])parfum(?![a-z])", hay) \
+                and not re.search(r"eau[- ]de[- ]parfum", hay) and "parfum" not in it["name"].lower():
             continue
         # "Le Parfum" / extracto: no vale la ficha del eau de parfum o eau de toilette del mismo nombre
         if it.get("conc") in ("Parfum", "Elixir", "Extrait") and re.search(r"eau[- ]de[- ](?:parfum|toilette)", hay):
