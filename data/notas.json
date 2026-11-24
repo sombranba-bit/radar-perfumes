@@ -5206,8 +5206,76 @@
 "url": "https://www.parfumo.com/Perfumes/Carolina_Herrera/CH_Men_Eau_de_Toilette"
 },
 "Carolina Herrera|Carolina Herrera|EDT": {
-"checked": "2026-11-20",
-"src": null
+"accords": [
+[
+"Floral",
+85
+],
+[
+"Animal",
+65
+],
+[
+"Green",
+65
+],
+[
+"Fruity",
+65
+],
+[
+"Creamy",
+65
+]
+],
+"checked": "2026-11-24",
+"flat": [],
+"levels": {
+"base": [
+[
+"Amber",
+3
+],
+[
+"Sandalwood",
+3
+]
+],
+"heart": [
+[
+"Jasmine",
+3
+],
+[
+"Lily",
+0
+]
+],
+"top": [
+[
+"Blossoms",
+5
+],
+[
+"Exotic notes",
+5
+],
+[
+"Fruity notes",
+5
+],
+[
+"Fresh notes",
+0
+],
+[
+"Green notes",
+0
+]
+]
+},
+"src": "parfumo",
+"url": "https://www.parfumo.com/Perfumes/Carolina_Herrera/Carolina_Herrera_Eau_de_Toilette"
 },
 "Carolina Herrera|Good Girl Blush|EDP": {
 "accords": [
@@ -8909,8 +8977,96 @@
 "url": "https://www.parfumo.com/Perfumes/Dolce_Gabbana/devotion-eau-de-parfum"
 },
 "Dolce & Gabbana|K by Dolce & Gabbana|EDP": {
-"checked": "2026-11-20",
-"src": null
+"accords": [
+[
+"Fresh",
+85
+],
+[
+"Synthetic",
+65
+],
+[
+"Citrus",
+65
+],
+[
+"Fruity",
+65
+],
+[
+"Sweet",
+65
+]
+],
+"checked": "2026-11-24",
+"flat": [],
+"levels": {
+"base": [
+[
+"Cedarwood",
+3
+],
+[
+"Vetiver",
+3
+],
+[
+"Patchouli",
+2
+],
+[
+"Nagarmotha",
+1
+]
+],
+"heart": [
+[
+"Fig milk",
+4
+],
+[
+"Spices",
+3
+],
+[
+"Clary sage",
+2
+],
+[
+"Geranium",
+2
+],
+[
+"Lavender",
+2
+],
+[
+"Chili",
+1
+]
+],
+"top": [
+[
+"Blood orange",
+5
+],
+[
+"Juniper berry",
+4
+],
+[
+"Cardamom",
+3
+],
+[
+"Sicilian lemon",
+2
+]
+]
+},
+"src": "parfumo",
+"url": "https://www.parfumo.com/Perfumes/Dolce_Gabbana/k-eau-de-parfum"
 },
 "Dolce & Gabbana|K by Dolce & Gabbana|EDT": {
 "checked": "2026-11-16",
@@ -15532,8 +15688,60 @@
 "src": "tienda:laguna"
 },
 "Lattafa|Fakhar Rose|EDP": {
-"checked": "2026-11-20",
-"src": null
+"accords": [
+[
+"Floral",
+85
+],
+[
+"Sweet",
+85
+],
+[
+"Creamy",
+65
+],
+[
+"Powdery",
+65
+],
+[
+"Fruity",
+45
+]
+],
+"checked": "2026-11-24",
+"flat": [],
+"levels": {
+"base": [
+[
+"Patchouli",
+1
+],
+[
+"Vetiver",
+1
+]
+],
+"heart": [
+[
+"Tuberose",
+4
+],
+[
+"Jasmine",
+2
+]
+],
+"top": [
+[
+"Orange blossom",
+5
+]
+]
+},
+"src": "parfumo",
+"url": "https://www.parfumo.com/Perfumes/Lattafa/fakhar-lattafa-women-eau-de-parfum-1"
 },
 "Lattafa|Hayaati|EDP": {
 "accords": [
@@ -24976,8 +25184,64 @@
 "url": "https://www.parfumo.com/Perfumes/Yves_Saint_Laurent/Mon_Paris"
 },
 "Yves Saint Laurent|Opium|EDP": {
-"checked": "2026-11-20",
-"src": null
+"accords": [
+[
+"Spicy",
+85
+],
+[
+"Oriental",
+85
+],
+[
+"Resinous",
+65
+],
+[
+"Smoky",
+65
+],
+[
+"Floral",
+65
+]
+],
+"checked": "2026-11-24",
+"flat": [],
+"levels": {
+"base": [
+[
+"Opoponax",
+5
+],
+[
+"Amber",
+2
+]
+],
+"heart": [
+[
+"Myrrh",
+5
+],
+[
+"Jasmine",
+1
+]
+],
+"top": [
+[
+"Bergamot",
+1
+],
+[
+"Mandarin orange",
+1
+]
+]
+},
+"src": "parfumo",
+"url": "https://www.parfumo.com/Perfumes/Yves_Saint_Laurent/Opium_2009_Eau_de_Parfum"
 },
 "Yves Saint Laurent|Y Elixir|Elixir": {
 "accords": [
