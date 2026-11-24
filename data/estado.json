@@ -1,162 +1,164 @@
 {
- "at": "2026-11-24T14:08:22+01:00",
+ "at": "2026-11-24T14:48:40+01:00",
  "revisados": 70,
  "tiendas": {
   "idealo": {
-   "ok": 59,
+   "ok": 56,
    "bloqueada": 0,
-   "sin_precio": 1,
-   "dudoso": 0,
-   "jsonld": 8,
-   "jsonld-url": 51
-  },
-  "brasty": {
-   "ok": 0,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "via_idealo": 17
-  },
-  "julia": {
-   "ok": 0,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "via_idealo": 28
-  },
-  "paco": {
-   "ok": 28,
-   "bloqueada": 0,
-   "sin_precio": 6,
-   "dudoso": 1,
-   "jsonld": 27,
-   "precio-100ml": 1,
+   "sin_precio": 2,
+   "dudoso": 3,
+   "jsonld-url": 49,
+   "jsonld": 7,
    "ejemplos": [
     {
-     "perfume": "nautica-voyage-edt-100",
-     "precio": 73.78,
-     "referencia": 20.48,
-     "metodo": "precio-100ml"
+     "perfume": "yves-saint-laurent-opium-edp-90",
+     "precio": 148.67,
+     "referencia": 95.95,
+     "metodo": "jsonld-url"
+    },
+    {
+     "perfume": "carolina-herrera-carolina-herrera-edt-100",
+     "precio": 53.43,
+     "referencia": 102.55000000000001,
+     "metodo": "jsonld-url"
+    },
+    {
+     "perfume": "valentino-uomo-intense-edp-100",
+     "precio": 444.99,
+     "referencia": 101.2,
+     "metodo": "jsonld-url"
     }
    ]
-  },
-  "parejo": {
-   "ok": 8,
-   "bloqueada": 0,
-   "sin_precio": 3,
-   "dudoso": 1,
-   "ejemplos": [
-    {
-     "perfume": "rabanne-pure-xs-edt-100",
-     "precio": 124.1,
-     "referencia": 56.26,
-     "metodo": "jsonld"
-    }
-   ],
-   "jsonld": 8
   },
   "primor": {
    "ok": 0,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "via_idealo": 26
+   "via_idealo": 35
   },
   "arenal": {
    "ok": 0,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "via_idealo": 23
+   "via_idealo": 33
   },
   "druni": {
    "ok": 0,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "via_idealo": 27
+   "via_idealo": 34
   },
-  "notino": {
-   "ok": 1,
-   "bloqueada": 6,
+  "julia": {
+   "ok": 0,
+   "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "via_idealo": 31,
-   "jsonld": 1
+   "via_idealo": 34
   },
-  "sabina": {
-   "ok": 5,
+  "paco": {
+   "ok": 36,
    "bloqueada": 0,
    "sin_precio": 2,
-   "dudoso": 0,
-   "via_idealo": 17,
-   "jsonld": 4,
-   "precio-100ml": 1
-  },
-  "lookfantastic": {
-   "ok": 8,
-   "bloqueada": 0,
-   "sin_precio": 7,
-   "dudoso": 1,
-   "jsonld": 8,
+   "dudoso": 2,
+   "jsonld": 32,
+   "precio-100ml": 4,
    "ejemplos": [
     {
-     "perfume": "davidoff-cool-water-edt-125",
-     "precio": 64.69,
-     "referencia": 21.95,
-     "metodo": "jsonld"
-    }
-   ]
-  },
-  "laguna": {
-   "ok": 4,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "precio-100ml": 2,
-   "jsonld": 2
-  },
-  "sephora": {
-   "ok": 0,
-   "bloqueada": 0,
-   "sin_precio": 1,
-   "dudoso": 0
-  },
-  "avenida": {
-   "ok": 0,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 1,
-   "ejemplos": [
+     "perfume": "armani-acqua-di-gio-elixir-parfum-75",
+     "precio": 50.0,
+     "referencia": null,
+     "metodo": "texto"
+    },
     {
-     "perfume": "davidoff-cool-water-edt-125",
-     "precio": 66.95,
-     "referencia": 21.049999999999997,
+     "perfume": "versace-yellow-diamond-edt-90",
+     "precio": 132.0,
+     "referencia": 57.26,
      "metodo": "texto"
     }
    ]
   },
-  "perfumesclub": {
+  "notino": {
+   "ok": 0,
+   "bloqueada": 6,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "via_idealo": 18
+  },
+  "sabina": {
+   "ok": 4,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "via_idealo": 19,
+   "jsonld": 4
+  },
+  "lookfantastic": {
+   "ok": 13,
+   "bloqueada": 0,
+   "sin_precio": 7,
+   "dudoso": 0,
+   "jsonld": 13
+  },
+  "brasty": {
+   "ok": 0,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "via_idealo": 12
+  },
+  "firstinfragrance": {
    "ok": 1,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
    "jsonld": 1
   },
-  "firstinfragrance": {
-   "ok": 2,
+  "douglas": {
+   "ok": 3,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "jsonld": 2
+   "precio-100ml": 3
   },
-  "beautinow": {
+  "sephora": {
+   "ok": 0,
+   "bloqueada": 0,
+   "sin_precio": 12,
+   "dudoso": 0
+  },
+  "laguna": {
+   "ok": 3,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "jsonld": 2,
+   "precio-100ml": 1
+  },
+  "parejo": {
+   "ok": 6,
+   "bloqueada": 0,
+   "sin_precio": 2,
+   "dudoso": 1,
+   "jsonld": 6,
+   "ejemplos": [
+    {
+     "perfume": "givenchy-l-interdit-rouge-edp-80",
+     "precio": 126.65,
+     "referencia": 74.1,
+     "metodo": "jsonld"
+    }
+   ]
+  },
+  "avenida": {
    "ok": 0,
    "bloqueada": 0,
    "sin_precio": 2,
    "dudoso": 0
   },
-  "arabicparfums": {
+  "perfumesclub": {
    "ok": 2,
    "bloqueada": 0,
    "sin_precio": 0,
