@@ -3,7 +3,7 @@ on:
   workflow_dispatch:
     inputs:
       modo:
-        description: "probe = prueba de acceso; notas = cargar pirámides"
+        description: "probe = prueba de acceso; notas = cargar pirámides; fichas = guardar páginas de prueba de cada tienda"
         default: "notas"
       limite:
         description: "Perfumes como máximo en esta ejecución"
@@ -34,18 +34,20 @@ jobs:
         with:
           name: probe
           path: probe/
-      - if: github.event.inputs.modo != 'probe'
+      - if: github.event.inputs.modo == 'fichas'
+        run: python scraper/fixtures.py
+      - if: github.event.inputs.modo == 'notas' || github.event.inputs.modo == ''
         run: python scraper/notas.py
         env:
           NOTAS_LIMITE: ${{ github.event.inputs.limite }}
           NOTAS_REHACER: ${{ github.event.inputs.rehacer }}
       - if: github.event.inputs.modo != 'probe'
-        name: Guardar notas
+        name: Guardar
         run: |
           git config user.name "radar-bot"
           git config user.email "radar-bot@users.noreply.github.com"
-          git add data/notas.json
+          git add data/notas.json scraper/fixtures 2>/dev/null || git add data/notas.json
           git diff --cached --quiet && exit 0
-          git commit -m "Notas olfativas $(TZ=Europe/Madrid date '+%Y-%m-%d %H:%M')"
+          git commit -m "${{ github.event.inputs.modo == 'fichas' && 'Fichas de prueba' || 'Notas olfativas' }} $(TZ=Europe/Madrid date '+%Y-%m-%d %H:%M')"
           git pull --rebase --autostash
           git push

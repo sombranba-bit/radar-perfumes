@@ -70,6 +70,11 @@ it = {"prices": {"a": {"p": 75.95, "auto": True}, "b": {"p": 74.0, "auto": True}
       "history": [{"d": "x", "s": "c", "p": 132.1}, {"d": "x", "s": "a", "p": 75.95}]}
 assert radar.clean_outliers(it, "x") == ["c"] and "c" not in it["prices"] and "m" in it["prices"] and "n" in it["prices"] and len(it["history"]) == 1
 assert not plausible(64.95, 94.95, "texto") and plausible(64.95, 94.95, "jsonld") and not plausible(30, None, "texto")
+it = {"urls": {"paco": "https://p/tous-l-eau"}, "prices": {"paco": {"p": 22.95, "gh": True}, "a": {"p": 49.9}, "b": {"p": 52.0}, "c": {"p": 48.0}},
+      "history": [{"d": "x", "s": "paco", "p": 22.95}]}
+assert radar.clean_outliers(it, "x") == ["paco (bajo)"] and "paco" not in it["urls"] and it["descartadas"] == ["https://p/tous-l-eau"] and it["history"] == []
+it = {"urls": {}, "prices": {"arenal": {"p": 20, "gh": True, "via": "idealo"}, "a": {"p": 49.9}, "b": {"p": 52.0}}}
+assert radar.clean_outliers(it, "x") == []     # con solo 2 tiendas en contra no se toca
 print("OK: limpieza")
 
 # 10. Prueba de tiendas
@@ -199,3 +204,13 @@ q = {"brand": "Dolce & Gabbana", "name": "Q", "conc": "EDP", "ml": 100}
 pg = '<a href="/perfumes/dolce-gabbana-q-eau-de-parfum-100ml-mujer">Dolce&Gabbana Q Eau de Parfum 100 ml</a><a href="/perfumes/dolce-gabbana-the-one-edp">The One</a>'
 assert best_link(pg, "https://www.joyeriaparejo.com/busqueda?s={q}", q).endswith("q-eau-de-parfum-100ml-mujer")
 print("ok nombre corto")
+
+# 11. Regresión: fichas reales guardadas de cada tienda (scraper/fixtures.py) siguen dando su precio
+import gzip
+FX = Path(__file__).parent / "fixtures"
+if (FX / "expected.json").exists():
+    for shop, e in json.loads((FX / "expected.json").read_text()).items():
+        page = gzip.decompress((FX / (shop + ".html.gz")).read_bytes()).decode()
+        got = extract(page, e["ml"], e["url"])
+        assert abs(got[0] - e["precio"]) < 0.01 and got[2] == e["metodo"], (shop, got, e)
+    print("OK: fichas reales de", len(json.loads((FX / "expected.json").read_text())), "tiendas")

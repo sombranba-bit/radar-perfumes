@@ -477,7 +477,7 @@ function groups(items,s,sizeSel={}){
   const by={};for(const it of items)(by[it.key]=by[it.key]||[]).push(it);
   const words=norm(s.q).split(/\s+/).filter(Boolean);
   let out=Object.values(by).map(vars=>{vars.sort((a,b)=>a.ml-b.ml);const cur=vars.find(v=>v.id===sizeSel[vars[0].key])||vars.find(v=>v.b)||vars[0];return {key:vars[0].key,vars,cur}});
-  out=out.filter(({cur:i})=>{const p=i.p,hay=norm(`${i.brand} ${i.name} ${i.conc} ${p?.fam||''} ${p?.notes||''}`);
+  out=out.filter(({cur:i})=>{const p=i.p,hay=norm(`${i.brand} ${i.name} ${i.conc} ${p?.fam||''} ${p?.notes||''} ${i.nx||''}`);
     return (s.g==='Todos'||p?.g===s.g)&&(s.tier==='Todos'||tierOf(i)===s.tier)&&(s.brand==='Todas'||i.brand===s.brand)&&(s.season==='Todas'||p?.se.includes(s.season))&&words.every(w=>hay.includes(w))});
   const K={drop:x=>x.cur.dr?x.cur.dr.pct:99,price:x=>x.cur.b?.p??1e9,ml:x=>per100(x.cur)??1e9,value:x=>-(x.cur.v||0)*1e4+(per100(x.cur)??9e3),name:x=>norm(x.cur.brand+x.cur.name)};
   const k=K[s.sort]||K.drop;out.sort((a,b)=>{const x=k(a),y=k(b);return x<y?-1:x>y?1:0});

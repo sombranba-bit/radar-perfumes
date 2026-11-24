@@ -26,5 +26,8 @@ rep("../core.js?v=", "maquetas/core.js?v=")
 rep('&family=Instrument+Serif', '')  # Fragans usa Fraunces para los titulares
 s = re.sub(r'const V=\[.*?\],R=E\.R;', 'const V=[],R=E.R;', s, count=1, flags=re.S)
 rep("E.start({name:'fragans-o1.html',variants:V,home,catalog}).then(addPal);", "E.DATA='data/';E.OLD='anterior.html';\nE.start({name:'index.html',variants:V,home,catalog});")
+# app instalable en el móvil
+rep('<meta name="theme-color" content="#f5f4f0">', '<meta name="theme-color" content="#f5f4f0">\n<link rel="manifest" href="manifest.webmanifest"><link rel="apple-touch-icon" href="app/icons/apple-touch-icon.png"><meta name="apple-mobile-web-app-title" content="Fragans">')
+rep('</head>', "<script>if('serviceWorker' in navigator)addEventListener('load',()=>navigator.serviceWorker.register('sw.js').catch(()=>{}))</script>\n</head>")
 open(os.path.join(ROOT, 'index.html'), 'w').write(s)
 print('index.html listo')

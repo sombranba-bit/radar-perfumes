@@ -20,9 +20,10 @@ E.ic={
   moon:s=>I('<path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/>',s),
   sun:s=>I('<circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/>',s),
   auto:s=>I('<circle cx="12" cy="12" r="9"/><path d="M12 3v18" /><path d="M12 3a9 9 0 0 1 0 18Z" fill="currentColor" stroke="none"/>',s),
+  share:s=>I('<circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="m8.6 13.5 6.8 4M15.4 6.5l-6.8 4"/>',s),
   down:s=>I('<path d="M12 5v14"/><path d="m19 12-7 7-7-7"/>',s),
 };
-E.NAME='Estela';E.pre=[];E.OLD='';E.TAG='';
+E.NAME='Estela';E.WEB='https://sombranba-bit.github.io/radar-perfumes/';E.REPO='https://github.com/sombranba-bit/radar-perfumes';E.pre=[];E.OLD='';E.TAG='';
 E.MARK=`<svg width="30" height="20" viewBox="0 0 34 22" aria-hidden="true"><path d="M3 17c6 0 8-11 15-11s6 7 13 4" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/><circle cx="3" cy="17" r="2.8" fill="var(--accent)"/></svg>`;
 
 // tema: Automático (sigue al sistema) / Claro / Oscuro, recordado en este navegador
@@ -76,13 +77,19 @@ E.index=()=>{const from=new Date(Date.now()-30*864e5).toISOString().slice(0,10),
 E.labels=()=>({q:'«'+E.S.q+'»',g:E.S.g,tier:E.S.tier,season:E.S.season,brand:E.S.brand,fam:(E.FAMS.find(f=>f[0]===E.FAM)||['',''])[1]});
 E.today=()=>new Date().toLocaleDateString('es-ES',{weekday:'long',day:'numeric',month:'long'});
 
+// aviso por email: una incidencia de GitHub que el bot comenta cuando baja (GitHub manda el email)
+E.mailLink=(i,t)=>{const tt=`Aviso: ${i.brand} ${i.name} ${i.ml} ml por debajo de ${eur(t)}`,body=`id: ${i.id}\nprecio: ${t}\n\nAbre esta incidencia y te avisaremos por email cuando baje de ese precio. Ciérrala cuando ya no quieras avisos.`;
+  return `<a href="${E.REPO}/issues/new?title=${encodeURIComponent(tt)}&body=${encodeURIComponent(body)}" target="_blank" rel="noopener">Avisarme por email cuando baje de ${eur(t)}</a> (abre GitHub; hace falta cuenta)`};
+// mínimo de 30 días (solo si hay al menos una semana de lecturas)
+E.min30=i=>{const from=new Date(Date.now()-30*864e5).toISOString().slice(0,10),s=R.series(i).filter(p=>p.d>=from);if(s.length<7)return null;const v=s.map(p=>p.p);return {min:Math.min(...v),max:Math.max(...v)}};
+E.atMin=i=>{const m=E.min30(i);return !!(m&&i.b&&m.max>m.min&&i.b.p<=m.min+.005)};
 // minigráfica de 30 días
 E.spark=(i,w=96,h=28)=>{const from=new Date(Date.now()-30*864e5).toISOString().slice(0,10),s=R.series(i).filter(p=>p.d>=from);if(s.length<3)return '';
   const v=s.map(p=>p.p),mn=Math.min(...v),mx=Math.max(...v),r=mx-mn||1,pts=v.map((p,k)=>`${(k/(v.length-1)*(w-4)+2).toFixed(1)},${(h-3-(p-mn)/r*(h-6)).toFixed(1)}`);
   const up=v[v.length-1]>v[0];return `<svg class="spark" width="${w}" height="${h}" viewBox="0 0 ${w} ${h}" role="img" aria-label="Precio de 30 días: de ${eur(v[0])} a ${eur(v[v.length-1])}"><polyline points="${pts.join(' ')}" fill="none" stroke="${up?'var(--neg)':'var(--pos)'}" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/></svg>`};
 
 // piezas
-E.badges=i=>{const b=[];if(i.dr&&i.dr.pct<=-3)b.push(`<span class="pill down">${R.pct(i.dr.pct)}</span>`);if(i.deals.length)b.push('<span class="pill">Chollo</span>');return b.length?`<span class="cbadges">${b.join('')}</span>`:''};
+E.badges=i=>{const b=[];if(i.dr&&i.dr.pct<=-3)b.push(`<span class="pill down">${R.pct(i.dr.pct)}</span>`);if(i.deals.length)b.push('<span class="pill">Chollo</span>');else if(E.atMin(i))b.push('<span class="pill">Mínimo de 30 días</span>');return b.length?`<span class="cbadges">${b.join('')}</span>`:''};
 E.card=x=>{const i=x.cur,b=i.b,sp=R.spread(i),f=E.famOf(i);
   return `<a class="card" href="#p/${x.key}">${E.pic(i)}${E.badges(i)}${E.favs().includes(x.key)?`<span class="cfav" aria-label="Guardado">${E.ic.heart(15)}</span>`:''}</span>
   <span class="cbody"><span class="cmeta">${f?`<i class="dot" style="--c:${f[2]}" title="${f[1]}"></i>`:''}${esc(i.brand)} · ${i.ml} ml</span><span class="cname">${esc(i.name)}</span>
@@ -125,7 +132,8 @@ function hist(i){const s=R.series(i).filter(x=>x.d>=new Date(Date.now()-30*864e5
   const avg=s.reduce((a,c)=>a+c,0)/s.length;return `<div class="hist" aria-label="Últimos 30 días"><div><small>Mínimo 30 días</small><b>${eur(Math.min(...s))}</b></div><div><small>Media</small><b>${eur(avg)}</b></div><div><small>Máximo</small><b>${eur(Math.max(...s))}</b></div></div>`}
 function offerRows(o,best){return `<table class="offers"><caption class="sr-only">Precio en cada tienda</caption><tbody>${o.map(z=>`<tr class="${z===best?'best':''}"><td><a href="${esc(z.url)}" target="_blank" rel="noopener">${esc(z.name)}</a><br><span class="when">${z.stock?R.ago(z.d):'agotado'}${z.via?' · vía '+esc(R.shopName(z.via)):''}</span></td><td class="n">${eur(z.p)}</td></tr>`).join('')}</tbody></table>`}
 E.detail=key=>{const x=E.all().find(g=>g.key===key);if(!x){location.hash='';return}
-  const i=x.cur,p=i.p,o=R.offers(i),b=i.b,t=R.targets()[i.id],ph=R.photos(i),f=E.famOf(i),fav=E.favs().includes(x.key);
+  const i=x.cur,p=i.p,o=R.offers(i),b=i.b,t=R.targets()[i.id],ph=R.photos(i),f=E.famOf(i),fav=E.favs().includes(x.key),m30=E.min30(i);
+  const pm=x.vars.filter(v=>v.b).map(v=>v.b.p/v.ml*100),bestml=x.vars.length>1&&pm.length>1?Math.min(...pm):null;
   const meter=(n,l)=>`<div><small class="rmeta">${l}</small><div class="meter" role="img" aria-label="${l}: ${n} de 5">${[1,2,3,4,5].map(k=>`<i class="${k<=n?'f':''}"></i>`).join('')}</div></div>`;
   const recent=o.filter(z=>z.age==null||z.age<=30),old=o.filter(z=>z.age!=null&&z.age>30);
   const sim=E.all().filter(y=>y.key!==x.key&&E.famOf(y.cur)?.[0]===f?.[0]&&y.cur.b).sort((a,c)=>Math.abs(a.cur.b.p-(b?.p||0))-Math.abs(c.cur.b.p-(b?.p||0))).slice(0,8);
@@ -134,10 +142,10 @@ E.detail=key=>{const x=E.all().find(g=>g.key===key);if(!x){location.hash='';retu
     ${ph.length>1?`<div class="thumbs" role="group" aria-label="Fotos">${ph.map((q,k)=>`<button type="button" aria-pressed="${k===0}" data-ph="${k}" aria-label="Foto de ${esc(R.shopName(q.s))}"><img src="${esc(E.sized(q.url,160))}" alt="" loading="lazy" referrerpolicy="no-referrer"></button>`).join('')}</div>`:''}
     ${ph.length?`<p class="rmeta" id="credit">Foto: ${esc(R.shopName(ph[0].s))}</p>`:''}</div>
   <div class="pdp-info"><p class="kick">${esc(i.brand)} · ${esc(R.tierOf(i))}</p><h1>${esc(i.name)}</h1><p class="rmeta">${esc(i.conc)}${p?' · '+p.g:''}</p>
-    <div class="sizes" role="group" aria-label="Tamaño">${x.vars.map(v=>`<button class="chip" type="button" aria-pressed="${v.id===i.id}" data-size="${v.id}">${v.ml} ml</button>`).join('')}</div>
+    <div class="sizes" role="group" aria-label="Tamaño">${x.vars.map(v=>{const u=v.b?v.b.p/v.ml*100:null;return `<button class="chip szc" type="button" aria-pressed="${v.id===i.id}" data-size="${v.id}">${v.ml} ml${u&&x.vars.length>1?`<small>${eur(u)}/100 ml${u===bestml?' · el mejor':''}</small>`:''}</button>`}).join('')}</div>
     <div class="buy"><div class="bp"><b>${b?eur(b.p):'Sin precio'}</b>${i.dr&&i.dr.pct<=-3?`<span class="pill down">${R.pct(i.dr.pct)} frente a su media</span>`:''}</div>
-      ${b?`<p class="bsub" style="margin:0">en ${esc(b.name)}${b.age>7?' (leído '+R.ago(b.d)+')':''} · ${eur(b.p/i.ml*100)} los 100 ml</p>`:''}
-      <div class="bact">${b?`<a class="btn" href="${esc(b.url)}" target="_blank" rel="noopener">Ver en ${esc(b.name)}${E.ic.ext(16)}</a>`:''}<button class="btn ghost" type="button" data-fav="${x.key}" aria-pressed="${fav}">${E.ic.heart(16)}${fav?'Guardado':'Guardar'}</button></div>
+      ${b?`<p class="bsub" style="margin:0">en ${esc(b.name)}${b.age>7?' (leído '+R.ago(b.d)+')':''} · ${eur(b.p/i.ml*100)} los 100 ml</p>`:''}${b&&m30?`<p class="verdict${b.p<=m30.min+.005?' ok':''}">${b.p<=m30.min+.005?'Es el precio más bajo de los últimos 30 días':`${eur(b.p-m30.min)} por encima del mínimo de 30 días (${eur(m30.min)})`}</p>`:''}
+      <div class="bact">${b?`<a class="btn" href="${esc(b.url)}" target="_blank" rel="noopener">Ver en ${esc(b.name)}${E.ic.ext(16)}</a>`:''}<button class="btn ghost" type="button" data-fav="${x.key}" aria-pressed="${fav}">${E.ic.heart(16)}${fav?'Guardado':'Guardar'}</button><button class="btn ghost" type="button" data-share="${i.id}">${E.ic.share(16)}Compartir</button></div>
       ${hist(i)}</div>
     <div class="block"><h2>Precio en cada tienda</h2>${recent.length?offerRows(recent,b):'<p class="rmeta">Aún no hay precios recientes</p>'}${old.length?`<details class="oldp"><summary>${old.length} ${old.length===1?'precio leído':'precios leídos'} hace más de un mes</summary>${offerRows(old)}</details>`:''}</div>
     <div class="block"><h2>Mejor precio, día a día</h2>${R.lineChart(R.series(i),{stroke:'var(--accent)',grid:'currentColor'})}</div>
@@ -146,9 +154,10 @@ E.detail=key=>{const x=E.all().find(g=>g.key===key);if(!x){location.hash='';retu
       <div class="seasons" aria-label="Temporada">${R.SEASONS.map(s=>`<span class="${p.se.includes(s)?'on':''}" style="--c:${SEASON_C[s]}">${s}</span>`).join('')}</div>
       <div class="meters">${meter(p.dur,'Duración')}${meter(p.sil,'Estela')}</div><p class="rmeta" style="margin:0">Mejor para: ${esc(p.use)}</p></div></div>`:''}
     <div class="block"><h2>Avísame si baja</h2><div class="target"><label for="tg">Marcarlo cuando baje de</label><input id="tg" type="number" inputmode="decimal" min="0" step="0.5" value="${t??''}" data-target="${i.id}"> €</div>
-      <p class="tstatus${E.below(i)?' ok':''}" id="tst" role="status">${t!=null?(E.below(i)?'Ya está por debajo de tu objetivo':'Guardado en este navegador.'):'Se guarda solo en este navegador.'}</p></div>
+      <p class="tstatus${E.below(i)?' ok':''}" id="tst" role="status">${t!=null?(E.below(i)?'Ya está por debajo de tu objetivo':'Guardado en este navegador.'):'Se guarda solo en este navegador.'}</p>
+      <p class="rmeta" id="tmail">${t!=null?E.mailLink(i,t):'Pon un precio y podrás pedir que te avisemos por email.'}</p></div>
     ${i.deals.length?`<div class="block"><h2>Chollos publicados</h2>${i.deals.slice(0,4).map(d=>`<p><a href="${esc(d.url)}" target="_blank" rel="noopener">${esc(d.t)}</a><br><span class="rmeta">${d.p?eur(d.p)+' · ':''}${esc(d.shop||'Chollometro')}</span></p>`).join('')}</div>`:''}
-  </div></div>${E.rail('hSim','Parecidos de precio',f?'Misma familia: '+f[1].toLowerCase():'',sim)}</div>
+  </div></div>${E.simOlf?E.rail('hOlf','Huelen parecido','Por acordes y notas, de cualquier precio',E.simOlf(x)):''}${E.rail('hSim','Parecidos de precio',f?'Misma familia: '+f[1].toLowerCase():'',sim)}</div>
   ${b?`<div class="buybar"><span><b>${eur(b.p)}</b><small>en ${esc(b.name)}</small></span><a href="${esc(b.url)}" target="_blank" rel="noopener">Ver oferta</a></div>`:''}`);
   document.body.classList.toggle('has-bar',!!b)};
 
@@ -193,6 +202,9 @@ function goList(){E.limit=24;if(location.hash.startsWith('#p/')||['#chollos','#g
 document.addEventListener('click',e=>{const t=e.target.closest('button,a');if(!t)return;
   if(t.id==='themeb')return E.cycleTheme();
   if(t.dataset.fav){const on=E.toggleFav(t.dataset.fav);t.setAttribute('aria-pressed',on);t.innerHTML=E.ic.heart(16)+(on?'Guardado':'Guardar');return}
+  if(t.dataset.share){const it=E.D.items.find(z=>z.id===t.dataset.share),url=E.WEB+'p/'+it.id+'.html',title=`${it.brand} ${it.name} ${it.ml} ml`;
+    if(navigator.share)navigator.share({title,text:it.b?`${title}: desde ${eur(it.b.p)} en ${it.b.name}`:title,url}).catch(()=>{});
+    else navigator.clipboard?.writeText(url).then(()=>{t.lastChild.textContent='Enlace copiado';setTimeout(()=>t.lastChild.textContent='Compartir',2000)});return}
   if(t.dataset.dtab){E.dealTab=t.dataset.dtab;E.dealsView();return}
   if(t.dataset.rail){const r=t.parentNode.querySelector('.rail');r.scrollBy({left:+t.dataset.rail*r.clientWidth*.9,behavior:'smooth'});return}
   if(t.hasAttribute('data-openf'))return E.openSheet();
@@ -216,7 +228,7 @@ document.addEventListener('input',e=>{const t=e.target;
 document.addEventListener('change',e=>{const t=e.target;
   if(t.id==='sort'){E.S.sort=t.value;E.rerender()}
   if(t.dataset.target){const v=t.value===''?null:parseFloat(t.value);R.setTarget(t.dataset.target,v);const it=E.D.items.find(x=>x.id===t.dataset.target),st=$('tst');
-    st.className='tstatus'+(E.below(it)?' ok':'');st.textContent=v==null?'Objetivo quitado.':E.below(it)?'Ya está por debajo de tu objetivo':'Guardado. Lo verás marcado cuando baje de '+eur(v)+'.'}});
+    st.className='tstatus'+(E.below(it)?' ok':'');$('tmail').innerHTML=v==null?'Pon un precio y podrás pedir que te avisemos por email.':E.mailLink(it,v);st.textContent=v==null?'Objetivo quitado.':E.below(it)?'Ya está por debajo de tu objetivo':'Guardado. Lo verás marcado cuando baje de '+eur(v)+'.'}});
 addEventListener('hashchange',()=>{E.route();scrollTo(0,0);$('main').focus({preventScroll:true})});
 
 E.start=async views=>{V=views;E.shell(views);

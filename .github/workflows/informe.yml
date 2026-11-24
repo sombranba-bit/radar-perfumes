@@ -1,0 +1,24 @@
+name: Informe semanal
+
+on:
+  schedule:
+    - cron: "41 6 * * 1"   # lunes, 7:41 en España (hora de invierno)
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  informe:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python scraper/informe.py --publicar
+        env:
+          GH_TOKEN: ${{ github.token }}

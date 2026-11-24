@@ -124,8 +124,15 @@ O.block=i=>`<div class="block olfb"><div class="olfp"><h2 class="ph">Acordes pri
   <div class="olfp"><h2 class="ph">Cuándo usarlo</h2>${O.whenHTML(i)}</div>
   <p class="rmeta">Duración ${'●'.repeat(i.p.dur)}${'○'.repeat(5-i.p.dur)} · Estela ${'●'.repeat(i.p.sil)}${'○'.repeat(5-i.p.sil)} · ${esc(i.p.use)}</p></div>`;
 E.olf=i=>O.block(i);
-const L0=E.list,D0=E.dirty,B0=E.labels;
-E.list=s=>L0(s).filter(x=>!O.nf||O.notes(x.cur).some(n=>n.key===O.nf));
+// notas reales en el buscador: «vainilla tabaco» encuentra los que llevan las dos
+O.index=()=>{if(O.ix||!E.D)return;for(const it of E.D.items)it.nx=O.notes(it).map(n=>n.key).join(' ')+' '+O.accords(it).map(a=>a.a).join(' ');O.ix=1};
+// parecido por olor: coseno entre acordes y notas
+const vec=i=>{const v={};O.accords(i).forEach(a=>v['a:'+a.a]=(a.pct||a.v)/100);O.notes(i).forEach(n=>v['n:'+n.key]=Math.max(v['n:'+n.key]||0,.6));return v};
+const cos=(a,b)=>{let d=0,x=0,y=0;for(const k in a){x+=a[k]*a[k];if(b[k])d+=a[k]*b[k]}for(const k in b)y+=b[k]*b[k];return d/Math.sqrt(x*y||1)};
+E.simOlf=x=>{const me=vec(x.cur);return E.all().filter(y=>y.key!==x.key&&y.cur.b&&y.cur.brand+y.cur.name!==x.cur.brand+x.cur.name).map(y=>({y,s:cos(me,vec(y.cur))})).filter(o=>o.s>.45).sort((a,b)=>b.s-a.s).slice(0,8).map(o=>o.y)};
+const L0=E.list,D0=E.dirty,B0=E.labels,A0=E.all;
+E.all=()=>{O.index();return A0()};
+E.list=s=>{O.index();return L0(s).filter(x=>!O.nf||O.notes(x.cur).some(n=>n.key===O.nf))};
 E.dirty=()=>{const d=D0();if(O.nf)d.push('note');return d};E.labels=()=>({...B0(),note:'Con '+O.nf});
 document.addEventListener('click',e=>{if(e.target.closest('[data-unset="note"],[data-clearall]'))O.nf=null},true);
 document.addEventListener('click',e=>{const b=e.target.closest('[data-note]');if(!b)return;O.nf=b.dataset.note;E.FAM=null;E.limit=24;if(location.hash==='#catalogo')E.route();else location.hash='#catalogo'});

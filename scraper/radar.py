@@ -309,8 +309,11 @@ def ref_price(prices, shop):
     return statistics.median(others) if others else (prices.get(shop) or {}).get("p")
 
 
+LOW_MAX = 0.5   # por debajo de la mitad de la mediana de las demás tiendas
+
+
 def clean_outliers(it, today):
-    """Quita precios leídos por el programa que salen muy por encima de lo que marcan las demás tiendas."""
+    """Quita precios leídos por el programa que se salen de lo que marcan las demás tiendas (por arriba o muy por abajo)."""
     prices = it.get("prices") or {}
     gone = []
     for shop, v in list(prices.items()):
@@ -323,6 +326,15 @@ def clean_outliers(it, today):
             del prices[shop]
             it["history"] = [h for h in it.get("history", []) if not (h.get("s") == shop and h.get("p") == v["p"])]
             gone.append(shop)
+        # por abajo, con al menos 3 tiendas en contra: casi siempre es otro producto (Tous L'Eau por Tous, un 30 ml…)
+        elif len(others) >= 3 and v["p"] < LOW_MAX * statistics.median(others):
+            del prices[shop]
+            it["history"] = [h for h in it.get("history", []) if not (h.get("s") == shop and h.get("p") == v["p"])]
+            urls = it.get("urls") or {}
+            if not v.get("via") and shop in urls:
+                it.setdefault("descartadas", []).append(urls.pop(shop))
+                it.setdefault("buscado", {}).pop(shop, None)
+            gone.append(shop + " (bajo)")
     return gone
 
 

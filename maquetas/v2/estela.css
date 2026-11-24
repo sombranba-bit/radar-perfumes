@@ -143,6 +143,8 @@ a{color:inherit}button,input,select{font:inherit;color:inherit}
 .pdp h1{font:400 56px/1 var(--serif);margin:4px 0 8px;letter-spacing:-.015em}
 .pdp .kick{color:var(--muted);font-weight:500}
 .sizes{display:flex;gap:8px;flex-wrap:wrap;margin:20px 0}
+.szc{flex-direction:column;align-items:flex-start;justify-content:center;height:auto;min-height:40px;padding-block:6px;gap:0}.szc small{font-size:11px;font-weight:500;color:var(--muted)}.szc{border-radius:14px}.szc[aria-pressed=true] small{color:inherit;opacity:.85}
+.verdict{margin:6px 0 0;font-size:14px;color:var(--muted)}.verdict.ok{color:var(--pos);font-weight:600}
 .buy{padding:20px;border-radius:var(--r-xl);background:var(--surface);border:1px solid var(--line);display:grid;gap:14px}
 .buy .bp{display:flex;align-items:baseline;gap:12px;flex-wrap:wrap}
 .buy .bp b{font-size:40px;font-weight:600;letter-spacing:-.02em;line-height:1}
