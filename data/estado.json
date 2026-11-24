@@ -1,118 +1,97 @@
 {
- "at": "2026-11-24T23:29:33+01:00",
+ "at": "2026-11-25T00:10:06+01:00",
  "revisados": 70,
  "tiendas": {
-  "avenida": {
-   "ok": 6,
-   "bloqueada": 6,
-   "sin_precio": 3,
+  "eci": {
+   "ok": 18,
+   "bloqueada": 0,
+   "sin_precio": 0,
    "dudoso": 1,
-   "variantes": 6,
+   "jsonld": 18,
    "ejemplos": [
     {
-     "perfume": "armaf-club-de-nuit-intense-man-edt-105",
-     "precio": 34.95,
-     "referencia": 25.5,
-     "metodo": "texto"
+     "perfume": "clinique-happy-edp-100",
+     "precio": 110.0,
+     "referencia": 21.78,
+     "metodo": "jsonld"
     }
    ]
   },
-  "brasty": {
-   "ok": 2,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "jsonld": 2,
-   "via_idealo": 15
-  },
-  "eci": {
-   "ok": 11,
-   "bloqueada": 0,
-   "sin_precio": 1,
-   "dudoso": 0,
-   "jsonld": 11
-  },
   "idealo": {
-   "ok": 58,
+   "ok": 62,
    "bloqueada": 0,
    "sin_precio": 2,
-   "dudoso": 2,
-   "jsonld-url": 47,
+   "dudoso": 0,
+   "jsonld": 4,
+   "jsonld-url": 58
+  },
+  "lookfantastic": {
+   "ok": 11,
+   "bloqueada": 0,
+   "sin_precio": 7,
+   "dudoso": 1,
+   "jsonld": 11,
    "ejemplos": [
     {
-     "perfume": "jean-paul-gaultier-le-male-le-parfum-edp-125",
-     "precio": 38.96,
-     "referencia": 82.95,
+     "perfume": "davidoff-cool-water-edt-125",
+     "precio": 64.69,
+     "referencia": 21.95,
      "metodo": "jsonld"
-    },
-    {
-     "perfume": "chanel-allure-homme-edition-blanche-edp-100",
-     "precio": 32.13,
-     "referencia": 118.4,
-     "metodo": "texto"
     }
-   ],
-   "jsonld": 10,
-   "texto": 1
+   ]
+  },
+  "notino": {
+   "ok": 0,
+   "bloqueada": 10,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "via_idealo": 31
   },
   "julia": {
    "ok": 0,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "via_idealo": 28
-  },
-  "lookfantastic": {
-   "ok": 26,
-   "bloqueada": 0,
-   "sin_precio": 7,
-   "dudoso": 0,
-   "jsonld": 26
-  },
-  "notino": {
-   "ok": 0,
-   "bloqueada": 40,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "via_idealo": 23
-  },
-  "paco": {
-   "ok": 30,
-   "bloqueada": 0,
-   "sin_precio": 6,
-   "dudoso": 1,
-   "jsonld": 29,
-   "ejemplos": [
-    {
-     "perfume": "hugo-boss-boss-bottled-absolu-parfum-100",
-     "precio": 140.0,
-     "referencia": 80.9,
-     "metodo": "texto"
-    }
-   ],
-   "precio-100ml": 1
+   "via_idealo": 30
   },
   "sabina": {
-   "ok": 28,
+   "ok": 6,
    "bloqueada": 0,
-   "sin_precio": 8,
+   "sin_precio": 2,
    "dudoso": 0,
-   "jsonld": 26,
-   "via_idealo": 7,
-   "precio-100ml": 2
+   "via_idealo": 24,
+   "jsonld": 5,
+   "precio-100ml": 1
   },
-  "sephora": {
-   "ok": 0,
-   "bloqueada": 24,
-   "sin_precio": 0,
-   "dudoso": 0
-  },
-  "primor": {
+  "brasty": {
    "ok": 0,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "via_idealo": 29
+   "via_idealo": 15
+  },
+  "paco": {
+   "ok": 29,
+   "bloqueada": 0,
+   "sin_precio": 5,
+   "dudoso": 1,
+   "jsonld": 28,
+   "precio-100ml": 1,
+   "ejemplos": [
+    {
+     "perfume": "nautica-voyage-edt-100",
+     "precio": 73.78,
+     "referencia": 20.48,
+     "metodo": "precio-100ml"
+    }
+   ]
+  },
+  "avenida": {
+   "ok": 4,
+   "bloqueada": 18,
+   "sin_precio": 2,
+   "dudoso": 0,
+   "variantes": 4
   },
   "arenal": {
    "ok": 0,
@@ -126,57 +105,35 @@
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "via_idealo": 28
+   "via_idealo": 31
   },
-  "laguna": {
-   "ok": 20,
+  "primor": {
+   "ok": 0,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "jsonld-url": 8,
-   "precio-100ml": 5,
-   "jsonld": 7
-  },
-  "douglas": {
-   "ok": 2,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "precio-100ml": 2
+   "via_idealo": 30
   },
   "parejo": {
-   "ok": 13,
+   "ok": 7,
    "bloqueada": 0,
-   "sin_precio": 2,
-   "dudoso": 3,
-   "ejemplos": [
-    {
-     "perfume": "givenchy-l-interdit-edp-80",
-     "precio": 113.05,
-     "referencia": 71.91499999999999,
-     "metodo": "jsonld"
-    },
-    {
-     "perfume": "lancome-la-vie-est-belle-edp-100",
-     "precio": 163.2,
-     "referencia": 83.69,
-     "metodo": "jsonld"
-    },
-    {
-     "perfume": "rabanne-pure-xs-edt-100",
-     "precio": 124.1,
-     "referencia": 54.66,
-     "metodo": "jsonld"
-    }
-   ],
-   "jsonld": 13
+   "sin_precio": 3,
+   "dudoso": 0,
+   "jsonld": 7
   },
-  "firstinfragrance": {
-   "ok": 2,
-   "bloqueada": 5,
+  "laguna": {
+   "ok": 5,
+   "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "jsonld": 2
+   "precio-100ml": 2,
+   "jsonld": 3
+  },
+  "sephora": {
+   "ok": 0,
+   "bloqueada": 0,
+   "sin_precio": 2,
+   "dudoso": 0
   },
   "perfumesclub": {
    "ok": 1,
@@ -185,10 +142,17 @@
    "dudoso": 0,
    "jsonld": 1
   },
+  "firstinfragrance": {
+   "ok": 2,
+   "bloqueada": 1,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "jsonld": 2
+  },
   "beautinow": {
    "ok": 0,
    "bloqueada": 0,
-   "sin_precio": 4,
+   "sin_precio": 2,
    "dudoso": 0
   },
   "arabicparfums": {
@@ -196,8 +160,14 @@
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "jsonld": 1,
-   "jsonld-url": 1
+   "jsonld": 2
+  },
+  "douglas": {
+   "ok": 1,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "precio-100ml": 1
   }
  },
  "limpiados": {},
