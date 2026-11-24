@@ -1,235 +1,214 @@
 {
- "at": "2026-11-24T07:37:43+01:00",
+ "at": "2026-11-24T08:20:01+01:00",
  "revisados": 70,
  "tiendas": {
-  "idealo": {
-   "ok": 54,
+  "avenida": {
+   "ok": 5,
    "bloqueada": 0,
-   "sin_precio": 4,
-   "dudoso": 2,
-   "jsonld-url": 46,
-   "jsonld": 6,
-   "texto": 2,
+   "sin_precio": 9,
+   "dudoso": 4,
+   "texto": 5,
    "ejemplos": [
     {
-     "perfume": "kilian-angels-share-edp-50",
-     "precio": 184.9,
-     "referencia": 116.83,
-     "metodo": "jsonld-url"
+     "perfume": "rabanne-fame-edp-80",
+     "precio": 96.95,
+     "referencia": 69.95,
+     "metodo": "texto"
     },
     {
-     "perfume": "le-labo-santal-33-edp-100",
-     "precio": 17.54,
-     "referencia": null,
+     "perfume": "valentino-born-in-roma-uomo-edt-100",
+     "precio": 69.95,
+     "referencia": 101.55000000000001,
+     "metodo": "texto"
+    },
+    {
+     "perfume": "versace-eros-flame-edp-100",
+     "precio": 89.95,
+     "referencia": 66.48,
      "metodo": "texto"
     }
    ]
   },
   "brasty": {
-   "ok": 0,
+   "ok": 2,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "via_idealo": 15
+   "jsonld": 2,
+   "via_idealo": 19
   },
-  "primor": {
-   "ok": 0,
+  "idealo": {
+   "ok": 61,
    "bloqueada": 0,
    "sin_precio": 0,
-   "dudoso": 0,
-   "via_idealo": 31
+   "dudoso": 1,
+   "jsonld-url": 56,
+   "jsonld": 5,
+   "ejemplos": [
+    {
+     "perfume": "kayali-vanilla-28-edp-100",
+     "precio": 30.17,
+     "referencia": 135.0,
+     "metodo": "jsonld-url"
+    }
+   ]
   },
   "arenal": {
    "ok": 0,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "via_idealo": 34
+   "via_idealo": 38
   },
   "druni": {
    "ok": 0,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "via_idealo": 37
+   "via_idealo": 38
   },
   "julia": {
    "ok": 0,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "via_idealo": 32
-  },
-  "lookfantastic": {
-   "ok": 27,
-   "bloqueada": 0,
-   "sin_precio": 2,
-   "dudoso": 0,
-   "jsonld": 27
-  },
-  "paco": {
-   "ok": 31,
-   "bloqueada": 0,
-   "sin_precio": 2,
-   "dudoso": 3,
-   "jsonld": 29,
-   "ejemplos": [
-    {
-     "perfume": "versace-crystal-noir-edt-90",
-     "precio": 99.95,
-     "referencia": 61.71,
-     "metodo": "precio-100ml"
-    },
-    {
-     "perfume": "azzaro-the-most-wanted-parfum-parfum-100",
-     "precio": 99.0,
-     "referencia": 69.95,
-     "metodo": "texto"
-    },
-    {
-     "perfume": "jean-paul-gaultier-ultra-male-edt-125",
-     "precio": 126.0,
-     "referencia": 67.445,
-     "metodo": "texto"
-    }
-   ],
-   "precio-100ml": 2
-  },
-  "avenida": {
-   "ok": 8,
-   "bloqueada": 1,
-   "sin_precio": 7,
-   "dudoso": 4,
-   "ejemplos": [
-    {
-     "perfume": "prada-luna-rossa-ocean-edt-100",
-     "precio": 95.45,
-     "referencia": 70.95,
-     "metodo": "texto"
-    },
-    {
-     "perfume": "hermes-h24-edt-100",
-     "precio": 34.95,
-     "referencia": 69.945,
-     "metodo": "texto"
-    },
-    {
-     "perfume": "jean-paul-gaultier-scandal-pour-homme-edt-100",
-     "precio": 89.95,
-     "referencia": 66.205,
-     "metodo": "texto"
-    }
-   ],
-   "texto": 8
-  },
-  "sabina": {
-   "ok": 25,
-   "bloqueada": 0,
-   "sin_precio": 3,
-   "dudoso": 1,
-   "via_idealo": 14,
-   "jsonld": 20,
-   "precio-100ml": 5,
-   "ejemplos": [
-    {
-     "perfume": "mancera-instant-crush-edp-120",
-     "precio": 155.0,
-     "referencia": 93.35499999999999,
-     "metodo": "jsonld"
-    }
-   ]
+   "via_idealo": 38
   },
   "laguna": {
-   "ok": 23,
+   "ok": 21,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "jsonld": 12,
    "jsonld-url": 6,
-   "precio-100ml": 5
+   "jsonld": 8,
+   "precio-100ml": 7
+  },
+  "lookfantastic": {
+   "ok": 35,
+   "bloqueada": 0,
+   "sin_precio": 5,
+   "dudoso": 0,
+   "jsonld": 35
   },
   "notino": {
-   "ok": 1,
-   "bloqueada": 33,
+   "ok": 2,
+   "bloqueada": 27,
    "sin_precio": 0,
    "dudoso": 1,
-   "via_idealo": 22,
+   "via_idealo": 21,
    "ejemplos": [
     {
-     "perfume": "lattafa-khamrah-edp-100",
-     "precio": 38.5,
-     "referencia": 24.95,
+     "perfume": "tom-ford-oud-wood-edp-50",
+     "precio": 260.0,
+     "referencia": 165.72,
      "metodo": "jsonld"
     }
    ],
-   "jsonld": 1
+   "jsonld": 2
   },
-  "parejo": {
-   "ok": 9,
+  "paco": {
+   "ok": 35,
    "bloqueada": 0,
-   "sin_precio": 4,
-   "dudoso": 3,
-   "jsonld": 9,
+   "sin_precio": 5,
+   "dudoso": 1,
+   "jsonld": 34,
    "ejemplos": [
     {
-     "perfume": "yves-saint-laurent-mon-paris-edp-90",
-     "precio": 159.0,
-     "referencia": 82.95,
-     "metodo": "jsonld"
-    },
-    {
-     "perfume": "lattafa-khamrah-edp-100",
-     "precio": 40.8,
-     "referencia": 26.88,
-     "metodo": "jsonld"
-    },
-    {
-     "perfume": "lattafa-yara-edp-100",
-     "precio": 30.6,
-     "referencia": 19.99,
-     "metodo": "jsonld"
+     "perfume": "kayali-vanilla-28-edp-100",
+     "precio": 78.0,
+     "referencia": 135.0,
+     "metodo": "texto"
     }
-   ]
+   ],
+   "precio-100ml": 1
+  },
+  "primor": {
+   "ok": 0,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "via_idealo": 34
+  },
+  "sabina": {
+   "ok": 19,
+   "bloqueada": 0,
+   "sin_precio": 1,
+   "dudoso": 0,
+   "jsonld": 18,
+   "via_idealo": 24,
+   "precio-100ml": 1
   },
   "sephora": {
    "ok": 0,
    "bloqueada": 0,
-   "sin_precio": 17,
+   "sin_precio": 21,
    "dudoso": 0
   },
-  "arabicparfums": {
-   "ok": 4,
+  "parejo": {
+   "ok": 12,
    "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "jsonld": 4
-  },
-  "perfumesclub": {
-   "ok": 4,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "jsonld": 4
-  },
-  "firstinfragrance": {
-   "ok": 5,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 1,
-   "jsonld": 5,
+   "sin_precio": 1,
+   "dudoso": 8,
+   "jsonld": 12,
    "ejemplos": [
     {
-     "perfume": "mancera-instant-crush-edp-120",
-     "precio": 159.0,
-     "referencia": 105.0,
+     "perfume": "carolina-herrera-good-girl-blush-edp-80",
+     "precio": 140.25,
+     "referencia": 89.95,
      "metodo": "jsonld"
+    },
+    {
+     "perfume": "armani-si-passione-edp-100",
+     "precio": 137.7,
+     "referencia": 90.95,
+     "metodo": "jsonld"
+    },
+    {
+     "perfume": "rabanne-fame-parfum-parfum-80",
+     "precio": 113.05,
+     "referencia": 82.95,
+     "metodo": "texto"
     }
    ]
+  },
+  "firstinfragrance": {
+   "ok": 2,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "jsonld": 2
+  },
+  "douglas": {
+   "ok": 2,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "precio-100ml": 2
   },
   "beautinow": {
    "ok": 0,
    "bloqueada": 0,
-   "sin_precio": 4,
+   "sin_precio": 3,
+   "dudoso": 0
+  },
+  "perfumesclub": {
+   "ok": 3,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "jsonld": 3
+  },
+  "arabicparfums": {
+   "ok": 1,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "jsonld": 1
+  },
+  "makeup": {
+   "ok": 0,
+   "bloqueada": 0,
+   "sin_precio": 2,
    "dudoso": 0
   }
  },
