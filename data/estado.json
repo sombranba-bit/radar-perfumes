@@ -1,229 +1,202 @@
 {
- "at": "2026-11-24T00:31:14+01:00",
+ "at": "2026-11-24T01:14:14+01:00",
  "revisados": 70,
  "tiendas": {
-  "idealo": {
-   "ok": 61,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "jsonld-url": 56,
-   "jsonld": 5
-  },
-  "firstinfragrance": {
-   "ok": 2,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "jsonld": 2
-  },
-  "notino": {
-   "ok": 2,
-   "bloqueada": 43,
-   "sin_precio": 0,
-   "dudoso": 1,
-   "via_idealo": 23,
+  "avenida": {
+   "ok": 5,
+   "bloqueada": 1,
+   "sin_precio": 6,
+   "dudoso": 4,
+   "texto": 5,
    "ejemplos": [
     {
-     "perfume": "tom-ford-oud-wood-edp-50",
-     "precio": 260.0,
-     "referencia": 165.72,
-     "metodo": "jsonld"
+     "perfume": "hugo-boss-boss-bottled-infinite-edp-100",
+     "precio": 59.95,
+     "referencia": 43.1,
+     "metodo": "texto"
+    },
+    {
+     "perfume": "lancome-la-vie-est-belle-edp-100",
+     "precio": 44.95,
+     "referencia": 81.445,
+     "metodo": "texto"
+    },
+    {
+     "perfume": "carolina-herrera-212-men-edt-100",
+     "precio": 91.95,
+     "referencia": 49.05,
+     "metodo": "texto"
     }
-   ],
-   "jsonld": 2
+   ]
   },
-  "sabina": {
-   "ok": 38,
+  "laguna": {
+   "ok": 16,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "jsonld": 6,
+   "precio-100ml": 3,
+   "jsonld-url": 7
+  },
+  "lookfantastic": {
+   "ok": 23,
+   "bloqueada": 0,
+   "sin_precio": 4,
+   "dudoso": 1,
+   "jsonld": 23,
+   "ejemplos": [
+    {
+     "perfume": "jean-paul-gaultier-le-male-le-parfum-edp-125",
+     "precio": 138.0,
+     "referencia": 82.95,
+     "metodo": "texto"
+    }
+   ]
+  },
+  "notino": {
+   "ok": 5,
+   "bloqueada": 29,
+   "sin_precio": 1,
+   "dudoso": 0,
+   "via_idealo": 26,
+   "jsonld": 5
+  },
+  "paco": {
+   "ok": 28,
    "bloqueada": 0,
    "sin_precio": 5,
    "dudoso": 0,
-   "jsonld": 37,
-   "via_idealo": 37,
+   "jsonld": 27,
    "precio-100ml": 1
   },
-  "brasty": {
-   "ok": 3,
+  "sabina": {
+   "ok": 24,
    "bloqueada": 0,
-   "sin_precio": 0,
+   "sin_precio": 7,
    "dudoso": 0,
+   "jsonld": 22,
    "via_idealo": 17,
-   "jsonld": 3
+   "precio-100ml": 2
   },
-  "primor": {
+  "sephora": {
    "ok": 0,
    "bloqueada": 0,
+   "sin_precio": 21,
+   "dudoso": 0
+  },
+  "idealo": {
+   "ok": 56,
+   "bloqueada": 0,
+   "sin_precio": 2,
+   "dudoso": 2,
+   "jsonld-url": 44,
+   "ejemplos": [
+    {
+     "perfume": "jean-paul-gaultier-le-male-le-parfum-edp-125",
+     "precio": 38.87,
+     "referencia": 82.95,
+     "metodo": "jsonld"
+    },
+    {
+     "perfume": "chanel-allure-homme-edition-blanche-edp-100",
+     "precio": 32.17,
+     "referencia": 118.4,
+     "metodo": "texto"
+    }
+   ],
+   "jsonld": 11,
+   "texto": 1
+  },
+  "firstinfragrance": {
+   "ok": 7,
+   "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "via_idealo": 46
+   "jsonld": 7
   },
   "arenal": {
    "ok": 0,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "via_idealo": 44
+   "via_idealo": 23
   },
   "druni": {
    "ok": 0,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "via_idealo": 45
+   "via_idealo": 25
+  },
+  "primor": {
+   "ok": 0,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "via_idealo": 25
   },
   "julia": {
    "ok": 0,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "via_idealo": 44
+   "via_idealo": 25
   },
-  "lookfantastic": {
-   "ok": 36,
-   "bloqueada": 0,
-   "sin_precio": 4,
-   "dudoso": 1,
-   "jsonld": 36,
-   "ejemplos": [
-    {
-     "perfume": "givenchy-gentleman-edp-100",
-     "precio": 141.45,
-     "referencia": 69.95,
-     "metodo": "texto"
-    }
-   ]
-  },
-  "paco": {
-   "ok": 45,
-   "bloqueada": 0,
-   "sin_precio": 5,
-   "dudoso": 2,
-   "jsonld": 44,
-   "precio-100ml": 1,
-   "ejemplos": [
-    {
-     "perfume": "azzaro-chrome-edt-100",
-     "precio": 67.0,
-     "referencia": 49.95,
-     "metodo": "texto"
-    },
-    {
-     "perfume": "hugo-boss-boss-bottled-absolu-parfum-100",
-     "precio": 140.0,
-     "referencia": 80.9,
-     "metodo": "texto"
-    }
-   ]
-  },
-  "sephora": {
+  "brasty": {
    "ok": 0,
-   "bloqueada": 0,
-   "sin_precio": 28,
-   "dudoso": 0
-  },
-  "avenida": {
-   "ok": 8,
-   "bloqueada": 1,
-   "sin_precio": 12,
-   "dudoso": 9,
-   "texto": 8,
-   "ejemplos": [
-    {
-     "perfume": "rabanne-fame-edp-80",
-     "precio": 96.95,
-     "referencia": 69.95,
-     "metodo": "texto"
-    },
-    {
-     "perfume": "valentino-born-in-roma-uomo-edt-100",
-     "precio": 69.95,
-     "referencia": 97.99000000000001,
-     "metodo": "texto"
-    },
-    {
-     "perfume": "versace-eros-flame-edp-100",
-     "precio": 89.95,
-     "referencia": 65.225,
-     "metodo": "texto"
-    }
-   ]
-  },
-  "douglas": {
-   "ok": 5,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 1,
-   "precio-100ml": 5,
-   "ejemplos": [
-    {
-     "perfume": "chanel-chanel-n-5-edp-100",
-     "precio": 727.09,
-     "referencia": 138.95,
-     "metodo": "precio-100ml"
-    }
-   ]
-  },
-  "laguna": {
-   "ok": 36,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "jsonld": 11,
-   "jsonld-url": 14,
-   "precio-100ml": 11
+   "via_idealo": 14
   },
   "parejo": {
-   "ok": 14,
+   "ok": 13,
    "bloqueada": 0,
-   "sin_precio": 1,
-   "dudoso": 8,
-   "jsonld": 14,
+   "sin_precio": 2,
+   "dudoso": 2,
    "ejemplos": [
     {
-     "perfume": "rabanne-fame-edp-80",
-     "precio": 113.9,
-     "referencia": 69.95,
+     "perfume": "lancome-la-vie-est-belle-edp-100",
+     "precio": 163.2,
+     "referencia": 83.69,
      "metodo": "jsonld"
     },
     {
-     "perfume": "valentino-born-in-roma-donna-edp-100",
-     "precio": 142.8,
-     "referencia": 93.95,
-     "metodo": "jsonld"
-    },
-    {
-     "perfume": "viktor-rolf-spicebomb-extreme-edp-90",
-     "precio": 116.45,
-     "referencia": 70.33,
+     "perfume": "rabanne-pure-xs-edt-100",
+     "precio": 124.1,
+     "referencia": 56.26,
      "metodo": "jsonld"
     }
-   ]
-  },
-  "beautinow": {
-   "ok": 0,
-   "bloqueada": 0,
-   "sin_precio": 3,
-   "dudoso": 0
+   ],
+   "jsonld": 13
   },
   "perfumesclub": {
-   "ok": 6,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "jsonld": 6
-  },
-  "arabicparfums": {
    "ok": 1,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
    "jsonld": 1
   },
-  "makeup": {
+  "beautinow": {
    "ok": 0,
    "bloqueada": 0,
-   "sin_precio": 3,
+   "sin_precio": 4,
    "dudoso": 0
+  },
+  "arabicparfums": {
+   "ok": 2,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "jsonld": 1,
+   "jsonld-url": 1
+  },
+  "douglas": {
+   "ok": 1,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "precio-100ml": 1
   }
  },
  "limpiados": {},
