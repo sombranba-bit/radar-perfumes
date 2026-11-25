@@ -1,53 +1,50 @@
 {
- "at": "2026-11-25T08:35:57+01:00",
+ "at": "2026-11-25T09:25:22+01:00",
  "revisados": 70,
  "tiendas": {
   "eci": {
-   "ok": 15,
+   "ok": 18,
    "bloqueada": 0,
-   "sin_precio": 4,
-   "dudoso": 1,
-   "jsonld-url": 1,
-   "ejemplos": [
-    {
-     "perfume": "estee-lauder-pleasures-edp-100",
-     "precio": 112.0,
-     "referencia": 39.92,
-     "metodo": "jsonld"
-    }
-   ],
-   "jsonld": 14
+   "sin_precio": 3,
+   "dudoso": 0,
+   "jsonld": 18
   },
   "idealo": {
-   "ok": 66,
+   "ok": 62,
    "bloqueada": 0,
+   "sin_precio": 2,
+   "dudoso": 2,
+   "jsonld-url": 52,
+   "jsonld": 8,
+   "ejemplos": [
+    {
+     "perfume": "armani-acqua-di-gio-edp-75",
+     "precio": 72.7,
+     "referencia": null,
+     "metodo": "texto"
+    },
+    {
+     "perfume": "kilian-angels-share-edp-50",
+     "precio": 184.9,
+     "referencia": 116.83,
+     "metodo": "jsonld-url"
+    }
+   ],
+   "texto": 2
+  },
+  "notino": {
+   "ok": 0,
+   "bloqueada": 24,
    "sin_precio": 0,
    "dudoso": 0,
-   "jsonld-url": 57,
-   "jsonld": 9
+   "via_idealo": 20
   },
   "primor": {
    "ok": 0,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "via_idealo": 41
-  },
-  "julia": {
-   "ok": 0,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "via_idealo": 44
-  },
-  "sabina": {
-   "ok": 20,
-   "bloqueada": 0,
-   "sin_precio": 1,
-   "dudoso": 0,
-   "via_idealo": 18,
-   "jsonld": 18,
-   "precio-100ml": 2
+   "via_idealo": 31
   },
   "arenal": {
    "ok": 0,
@@ -61,110 +58,142 @@
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "via_idealo": 41
+   "via_idealo": 38
   },
-  "paco": {
-   "ok": 45,
+  "julia": {
+   "ok": 0,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "via_idealo": 34
+  },
+  "sabina": {
+   "ok": 22,
    "bloqueada": 0,
    "sin_precio": 3,
    "dudoso": 1,
-   "jsonld": 41,
-   "precio-100ml": 4,
+   "via_idealo": 19,
+   "jsonld": 17,
+   "precio-100ml": 5,
    "ejemplos": [
     {
-     "perfume": "marc-jacobs-daisy-edt-100",
-     "precio": 147.0,
-     "referencia": 68.945,
-     "metodo": "texto"
+     "perfume": "mancera-instant-crush-edp-120",
+     "precio": 155.0,
+     "referencia": 93.35499999999999,
+     "metodo": "jsonld"
     }
    ]
   },
   "parejo": {
-   "ok": 14,
-   "bloqueada": 0,
-   "sin_precio": 5,
-   "dudoso": 3,
-   "jsonld": 14,
+   "ok": 3,
+   "bloqueada": 14,
+   "sin_precio": 0,
+   "dudoso": 2,
+   "jsonld": 3,
    "ejemplos": [
     {
-     "perfume": "loewe-solo-loewe-edt-100",
-     "precio": 117.3,
-     "referencia": 74.275,
-     "metodo": "jsonld"
-    },
-    {
-     "perfume": "halloween-halloween-edt-100",
-     "precio": 41.65,
-     "referencia": 26.66,
-     "metodo": "jsonld"
-    },
-    {
-     "perfume": "yves-saint-laurent-mon-paris-edp-90",
-     "precio": 159.0,
+     "perfume": "rabanne-fame-parfum-parfum-80",
+     "precio": 113.05,
      "referencia": 82.95,
+     "metodo": "texto"
+    },
+    {
+     "perfume": "mugler-alien-goddess-edp-60",
+     "precio": 105.4,
+     "referencia": 58.5,
      "metodo": "jsonld"
     }
    ]
   },
-  "avenida": {
-   "ok": 18,
-   "bloqueada": 0,
-   "sin_precio": 5,
-   "dudoso": 0,
-   "variantes": 18
-  },
-  "notino": {
-   "ok": 4,
-   "bloqueada": 31,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "via_idealo": 29,
-   "jsonld": 4
-  },
-  "lookfantastic": {
-   "ok": 23,
-   "bloqueada": 0,
-   "sin_precio": 1,
-   "dudoso": 0,
-   "jsonld": 23
-  },
   "sephora": {
    "ok": 0,
    "bloqueada": 0,
-   "sin_precio": 22,
+   "sin_precio": 8,
    "dudoso": 0
   },
+  "lookfantastic": {
+   "ok": 27,
+   "bloqueada": 0,
+   "sin_precio": 4,
+   "dudoso": 0,
+   "jsonld": 27
+  },
+  "paco": {
+   "ok": 34,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 2,
+   "jsonld": 33,
+   "ejemplos": [
+    {
+     "perfume": "azzaro-the-most-wanted-parfum-parfum-100",
+     "precio": 99.0,
+     "referencia": 72.55000000000001,
+     "metodo": "texto"
+    },
+    {
+     "perfume": "jean-paul-gaultier-ultra-male-edt-125",
+     "precio": 126.0,
+     "referencia": 64.94,
+     "metodo": "texto"
+    }
+   ],
+   "precio-100ml": 1
+  },
+  "avenida": {
+   "ok": 22,
+   "bloqueada": 0,
+   "sin_precio": 6,
+   "dudoso": 1,
+   "variantes": 22,
+   "ejemplos": [
+    {
+     "perfume": "issey-miyake-l-eau-d-issey-pour-homme-edt-125",
+     "precio": 74.95,
+     "referencia": 44.95,
+     "metodo": "variantes"
+    }
+   ]
+  },
   "brasty": {
-   "ok": 0,
+   "ok": 1,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "via_idealo": 18
+   "via_idealo": 17,
+   "jsonld": 1
   },
   "laguna": {
-   "ok": 14,
+   "ok": 20,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "precio-100ml": 1,
-   "jsonld": 8,
-   "jsonld-url": 5
+   "jsonld": 9,
+   "precio-100ml": 5,
+   "jsonld-url": 6
   },
-  "perfumesclub": {
+  "firstinfragrance": {
    "ok": 5,
    "bloqueada": 0,
    "sin_precio": 0,
-   "dudoso": 0,
-   "jsonld": 5
+   "dudoso": 1,
+   "jsonld": 5,
+   "ejemplos": [
+    {
+     "perfume": "mancera-instant-crush-edp-120",
+     "precio": 159.0,
+     "referencia": 105.0,
+     "metodo": "jsonld"
+    }
+   ]
   },
-  "douglas": {
-   "ok": 3,
+  "beautinow": {
+   "ok": 0,
    "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "precio-100ml": 3
+   "sin_precio": 4,
+   "dudoso": 0
   },
-  "firstinfragrance": {
+  "perfumesclub": {
    "ok": 2,
    "bloqueada": 0,
    "sin_precio": 0,
@@ -181,7 +210,7 @@
  },
  "limpiados": {
   "calvin-klein-eternity-edp-100": [
-   "parejo"
+   "paco"
   ]
  },
  "chollometro": "ok 86"
