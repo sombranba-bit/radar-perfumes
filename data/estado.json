@@ -1,174 +1,169 @@
 {
- "at": "2026-11-25T11:01:10+01:00",
+ "at": "2026-11-25T11:42:51+01:00",
  "revisados": 70,
  "tiendas": {
-  "idealo": {
-   "ok": 60,
-   "bloqueada": 0,
-   "sin_precio": 2,
-   "dudoso": 2,
-   "jsonld-url": 48,
-   "ejemplos": [
-    {
-     "perfume": "jean-paul-gaultier-le-male-le-parfum-edp-125",
-     "precio": 36.91,
-     "referencia": 82.95,
-     "metodo": "jsonld"
-    },
-    {
-     "perfume": "chanel-allure-homme-edition-blanche-edp-100",
-     "precio": 32.16,
-     "referencia": 118.4,
-     "metodo": "texto"
-    }
-   ],
-   "jsonld": 11,
-   "texto": 1
-  },
-  "lookfantastic": {
-   "ok": 23,
-   "bloqueada": 0,
-   "sin_precio": 6,
-   "dudoso": 0,
-   "jsonld": 23
-  },
-  "notino": {
-   "ok": 7,
-   "bloqueada": 26,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "via_idealo": 24,
-   "jsonld": 7
-  },
-  "sabina": {
-   "ok": 24,
-   "bloqueada": 0,
-   "sin_precio": 5,
-   "dudoso": 0,
-   "jsonld": 22,
-   "via_idealo": 8,
-   "precio-100ml": 2
-  },
-  "eci": {
-   "ok": 19,
-   "bloqueada": 0,
-   "sin_precio": 1,
-   "dudoso": 0,
-   "jsonld": 19
-  },
-  "firstinfragrance": {
-   "ok": 7,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "jsonld": 7
-  },
   "avenida": {
    "ok": 13,
    "bloqueada": 0,
-   "sin_precio": 4,
-   "dudoso": 3,
+   "sin_precio": 9,
+   "dudoso": 2,
    "variantes": 12,
-   "texto": 1,
    "ejemplos": [
     {
-     "perfume": "armaf-club-de-nuit-intense-man-edt-105",
-     "precio": 34.95,
-     "referencia": 25.5,
-     "metodo": "texto"
+     "perfume": "nautica-voyage-edt-100",
+     "precio": 74.95,
+     "referencia": 20.48,
+     "metodo": "variantes"
     },
     {
-     "perfume": "rabanne-pure-xs-edt-100",
-     "precio": 6.75,
-     "referencia": 54.62,
-     "metodo": "texto"
-    },
+     "perfume": "elizabeth-arden-green-tea-edt-100",
+     "precio": 17.45,
+     "referencia": 9.6,
+     "metodo": "variantes"
+    }
+   ],
+   "texto": 1
+  },
+  "lookfantastic": {
+   "ok": 10,
+   "bloqueada": 0,
+   "sin_precio": 6,
+   "dudoso": 1,
+   "jsonld": 10,
+   "ejemplos": [
     {
-     "perfume": "armaf-odyssey-homme-edp-100",
-     "precio": 29.95,
-     "referencia": 18.740000000000002,
-     "metodo": "texto"
+     "perfume": "davidoff-cool-water-edt-125",
+     "precio": 64.69,
+     "referencia": 21.95,
+     "metodo": "jsonld"
     }
    ]
   },
-  "arenal": {
-   "ok": 0,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "via_idealo": 23
-  },
-  "druni": {
-   "ok": 0,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "via_idealo": 25
-  },
-  "primor": {
-   "ok": 0,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "via_idealo": 26
-  },
-  "julia": {
-   "ok": 0,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "via_idealo": 27
-  },
-  "laguna": {
-   "ok": 12,
-   "bloqueada": 3,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "jsonld-url": 7,
-   "jsonld": 3,
-   "precio-100ml": 2
-  },
   "paco": {
-   "ok": 26,
+   "ok": 34,
    "bloqueada": 0,
-   "sin_precio": 7,
-   "dudoso": 0,
-   "jsonld": 25,
-   "precio-100ml": 1
+   "sin_precio": 4,
+   "dudoso": 2,
+   "jsonld": 32,
+   "precio-100ml": 2,
+   "ejemplos": [
+    {
+     "perfume": "nautica-voyage-edt-100",
+     "precio": 73.78,
+     "referencia": 20.48,
+     "metodo": "precio-100ml"
+    },
+    {
+     "perfume": "calvin-klein-eternity-edp-100",
+     "precio": 54.95,
+     "referencia": 35.95,
+     "metodo": "jsonld"
+    }
+   ]
   },
-  "sephora": {
-   "ok": 0,
+  "eci": {
+   "ok": 17,
    "bloqueada": 0,
-   "sin_precio": 18,
-   "dudoso": 0
+   "sin_precio": 1,
+   "dudoso": 1,
+   "jsonld": 17,
+   "ejemplos": [
+    {
+     "perfume": "clinique-happy-edp-100",
+     "precio": 110.0,
+     "referencia": 21.78,
+     "metodo": "jsonld"
+    }
+   ]
+  },
+  "idealo": {
+   "ok": 62,
+   "bloqueada": 0,
+   "sin_precio": 2,
+   "dudoso": 0,
+   "jsonld-url": 59,
+   "jsonld": 3
   },
   "brasty": {
    "ok": 0,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "via_idealo": 15
+   "via_idealo": 16
   },
-  "parejo": {
-   "ok": 13,
+  "julia": {
+   "ok": 0,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "via_idealo": 36
+  },
+  "arenal": {
+   "ok": 0,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "via_idealo": 33
+  },
+  "druni": {
+   "ok": 0,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "via_idealo": 39
+  },
+  "primor": {
+   "ok": 0,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "via_idealo": 37
+  },
+  "sabina": {
+   "ok": 6,
    "bloqueada": 0,
    "sin_precio": 2,
-   "dudoso": 2,
+   "dudoso": 0,
+   "via_idealo": 19,
+   "jsonld": 5,
+   "precio-100ml": 1
+  },
+  "parejo": {
+   "ok": 6,
+   "bloqueada": 0,
+   "sin_precio": 3,
+   "dudoso": 1,
+   "jsonld": 6,
    "ejemplos": [
     {
-     "perfume": "lancome-la-vie-est-belle-edp-100",
-     "precio": 163.2,
-     "referencia": 83.69,
-     "metodo": "jsonld"
-    },
-    {
-     "perfume": "rabanne-pure-xs-edt-100",
-     "precio": 124.1,
-     "referencia": 54.62,
+     "perfume": "calvin-klein-eternity-edp-100",
+     "precio": 56.95,
+     "referencia": 35.95,
      "metodo": "jsonld"
     }
-   ],
-   "jsonld": 13
+   ]
+  },
+  "notino": {
+   "ok": 1,
+   "bloqueada": 9,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "via_idealo": 28,
+   "jsonld": 1
+  },
+  "laguna": {
+   "ok": 5,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "precio-100ml": 2,
+   "jsonld": 3
+  },
+  "sephora": {
+   "ok": 0,
+   "bloqueada": 0,
+   "sin_precio": 4,
+   "dudoso": 0
   },
   "perfumesclub": {
    "ok": 1,
@@ -177,10 +172,17 @@
    "dudoso": 0,
    "jsonld": 1
   },
+  "firstinfragrance": {
+   "ok": 3,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "jsonld": 3
+  },
   "beautinow": {
    "ok": 0,
    "bloqueada": 0,
-   "sin_precio": 4,
+   "sin_precio": 2,
    "dudoso": 0
   },
   "arabicparfums": {
@@ -188,8 +190,7 @@
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "jsonld": 1,
-   "jsonld-url": 1
+   "jsonld": 2
   },
   "douglas": {
    "ok": 1,
