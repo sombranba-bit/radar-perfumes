@@ -1,188 +1,201 @@
 {
- "at": "2026-11-25T09:25:22+01:00",
+ "at": "2026-11-25T10:14:40+01:00",
  "revisados": 70,
  "tiendas": {
-  "eci": {
-   "ok": 18,
+  "avenida": {
+   "ok": 24,
    "bloqueada": 0,
-   "sin_precio": 3,
-   "dudoso": 0,
-   "jsonld": 18
-  },
-  "idealo": {
-   "ok": 62,
-   "bloqueada": 0,
-   "sin_precio": 2,
-   "dudoso": 2,
-   "jsonld-url": 52,
-   "jsonld": 8,
+   "sin_precio": 6,
+   "dudoso": 1,
+   "variantes": 24,
    "ejemplos": [
     {
-     "perfume": "armani-acqua-di-gio-edp-75",
-     "precio": 72.7,
-     "referencia": null,
-     "metodo": "texto"
-    },
+     "perfume": "versace-bright-crystal-edt-90",
+     "precio": 89.95,
+     "referencia": 59.95,
+     "metodo": "variantes"
+    }
+   ]
+  },
+  "idealo": {
+   "ok": 64,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 1,
+   "jsonld-url": 59,
+   "ejemplos": [
     {
-     "perfume": "kilian-angels-share-edp-50",
-     "precio": 184.9,
-     "referencia": 116.83,
+     "perfume": "kayali-vanilla-28-edp-100",
+     "precio": 30.16,
+     "referencia": 135.0,
      "metodo": "jsonld-url"
     }
    ],
-   "texto": 2
-  },
-  "notino": {
-   "ok": 0,
-   "bloqueada": 24,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "via_idealo": 20
+   "jsonld": 5
   },
   "primor": {
    "ok": 0,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "via_idealo": 31
+   "via_idealo": 46
   },
   "arenal": {
    "ok": 0,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "via_idealo": 37
+   "via_idealo": 45
   },
   "druni": {
    "ok": 0,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "via_idealo": 38
+   "via_idealo": 46
   },
   "julia": {
    "ok": 0,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "via_idealo": 34
+   "via_idealo": 47
   },
-  "sabina": {
-   "ok": 22,
-   "bloqueada": 0,
-   "sin_precio": 3,
-   "dudoso": 1,
-   "via_idealo": 19,
-   "jsonld": 17,
-   "precio-100ml": 5,
-   "ejemplos": [
-    {
-     "perfume": "mancera-instant-crush-edp-120",
-     "precio": 155.0,
-     "referencia": 93.35499999999999,
-     "metodo": "jsonld"
-    }
-   ]
-  },
-  "parejo": {
+  "brasty": {
    "ok": 3,
-   "bloqueada": 14,
+   "bloqueada": 0,
    "sin_precio": 0,
-   "dudoso": 2,
-   "jsonld": 3,
+   "dudoso": 0,
+   "via_idealo": 18,
+   "jsonld": 3
+  },
+  "lookfantastic": {
+   "ok": 38,
+   "bloqueada": 0,
+   "sin_precio": 7,
+   "dudoso": 0,
+   "jsonld": 38
+  },
+  "paco": {
+   "ok": 46,
+   "bloqueada": 0,
+   "sin_precio": 5,
+   "dudoso": 3,
+   "jsonld": 46,
    "ejemplos": [
     {
-     "perfume": "rabanne-fame-parfum-parfum-80",
-     "precio": 113.05,
-     "referencia": 82.95,
+     "perfume": "kayali-vanilla-28-edp-100",
+     "precio": 78.0,
+     "referencia": 135.0,
      "metodo": "texto"
     },
     {
-     "perfume": "mugler-alien-goddess-edp-60",
-     "precio": 105.4,
-     "referencia": 58.5,
+     "perfume": "azzaro-chrome-edt-100",
+     "precio": 67.0,
+     "referencia": 51.47,
+     "metodo": "texto"
+    },
+    {
+     "perfume": "hugo-boss-boss-bottled-absolu-parfum-100",
+     "precio": 140.0,
+     "referencia": 80.9,
+     "metodo": "texto"
+    }
+   ]
+  },
+  "eci": {
+   "ok": 21,
+   "bloqueada": 0,
+   "sin_precio": 4,
+   "dudoso": 0,
+   "jsonld": 20,
+   "jsonld-url": 1
+  },
+  "notino": {
+   "ok": 7,
+   "bloqueada": 40,
+   "sin_precio": 0,
+   "dudoso": 1,
+   "via_idealo": 20,
+   "jsonld": 7,
+   "ejemplos": [
+    {
+     "perfume": "tom-ford-oud-wood-edp-50",
+     "precio": 260.0,
+     "referencia": 165.72,
      "metodo": "jsonld"
     }
    ]
+  },
+  "firstinfragrance": {
+   "ok": 2,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "jsonld": 2
+  },
+  "sabina": {
+   "ok": 38,
+   "bloqueada": 0,
+   "sin_precio": 7,
+   "dudoso": 0,
+   "jsonld": 37,
+   "via_idealo": 14,
+   "precio-100ml": 1
   },
   "sephora": {
    "ok": 0,
    "bloqueada": 0,
-   "sin_precio": 8,
+   "sin_precio": 30,
    "dudoso": 0
   },
-  "lookfantastic": {
-   "ok": 27,
-   "bloqueada": 0,
-   "sin_precio": 4,
-   "dudoso": 0,
-   "jsonld": 27
-  },
-  "paco": {
-   "ok": 34,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 2,
-   "jsonld": 33,
-   "ejemplos": [
-    {
-     "perfume": "azzaro-the-most-wanted-parfum-parfum-100",
-     "precio": 99.0,
-     "referencia": 72.55000000000001,
-     "metodo": "texto"
-    },
-    {
-     "perfume": "jean-paul-gaultier-ultra-male-edt-125",
-     "precio": 126.0,
-     "referencia": 64.94,
-     "metodo": "texto"
-    }
-   ],
-   "precio-100ml": 1
-  },
-  "avenida": {
-   "ok": 22,
-   "bloqueada": 0,
-   "sin_precio": 6,
-   "dudoso": 1,
-   "variantes": 22,
-   "ejemplos": [
-    {
-     "perfume": "issey-miyake-l-eau-d-issey-pour-homme-edt-125",
-     "precio": 74.95,
-     "referencia": 44.95,
-     "metodo": "variantes"
-    }
-   ]
-  },
-  "brasty": {
-   "ok": 1,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "via_idealo": 17,
-   "jsonld": 1
-  },
-  "laguna": {
-   "ok": 20,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "jsonld": 9,
-   "precio-100ml": 5,
-   "jsonld-url": 6
-  },
-  "firstinfragrance": {
+  "douglas": {
    "ok": 5,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 1,
-   "jsonld": 5,
+   "precio-100ml": 5,
    "ejemplos": [
     {
-     "perfume": "mancera-instant-crush-edp-120",
-     "precio": 159.0,
-     "referencia": 105.0,
+     "perfume": "chanel-chanel-n-5-edp-100",
+     "precio": 727.09,
+     "referencia": 138.95,
+     "metodo": "precio-100ml"
+    }
+   ]
+  },
+  "laguna": {
+   "ok": 37,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "jsonld": 12,
+   "jsonld-url": 14,
+   "precio-100ml": 11
+  },
+  "parejo": {
+   "ok": 11,
+   "bloqueada": 5,
+   "sin_precio": 1,
+   "dudoso": 6,
+   "jsonld": 11,
+   "ejemplos": [
+    {
+     "perfume": "rabanne-fame-edp-80",
+     "precio": 113.9,
+     "referencia": 69.95,
+     "metodo": "jsonld"
+    },
+    {
+     "perfume": "valentino-born-in-roma-donna-edp-100",
+     "precio": 142.8,
+     "referencia": 93.95,
+     "metodo": "jsonld"
+    },
+    {
+     "perfume": "viktor-rolf-spicebomb-extreme-edp-90",
+     "precio": 116.45,
+     "referencia": 70.67,
      "metodo": "jsonld"
     }
    ]
@@ -190,28 +203,30 @@
   "beautinow": {
    "ok": 0,
    "bloqueada": 0,
-   "sin_precio": 4,
+   "sin_precio": 3,
    "dudoso": 0
   },
   "perfumesclub": {
-   "ok": 2,
+   "ok": 6,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "jsonld": 2
+   "jsonld": 6
   },
   "arabicparfums": {
-   "ok": 3,
+   "ok": 1,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "jsonld": 3
+   "jsonld": 1
+  },
+  "makeup": {
+   "ok": 0,
+   "bloqueada": 0,
+   "sin_precio": 3,
+   "dudoso": 0
   }
  },
- "limpiados": {
-  "calvin-klein-eternity-edp-100": [
-   "paco"
-  ]
- },
+ "limpiados": {},
  "chollometro": "ok 86"
 }
