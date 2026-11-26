@@ -1,197 +1,195 @@
 {
- "at": "2026-11-26T16:57:59+01:00",
+ "at": "2026-11-26T17:38:54+01:00",
  "revisados": 70,
  "tiendas": {
-  "avenida": {
-   "ok": 20,
+  "eci": {
+   "ok": 16,
    "bloqueada": 0,
-   "sin_precio": 6,
+   "sin_precio": 0,
    "dudoso": 1,
-   "variantes": 19,
-   "texto": 1,
+   "jsonld": 16,
    "ejemplos": [
     {
-     "perfume": "armaf-club-de-nuit-intense-man-edt-105",
-     "precio": 34.95,
-     "referencia": 25.5,
-     "metodo": "texto"
+     "perfume": "clinique-happy-edp-100",
+     "precio": 110.0,
+     "referencia": 21.54,
+     "metodo": "jsonld"
     }
    ]
-  },
-  "eci": {
-   "ok": 19,
-   "bloqueada": 0,
-   "sin_precio": 5,
-   "dudoso": 0,
-   "jsonld": 19
   },
   "idealo": {
    "ok": 61,
    "bloqueada": 0,
-   "sin_precio": 2,
+   "sin_precio": 1,
    "dudoso": 1,
-   "jsonld-url": 57,
-   "jsonld": 3,
+   "jsonld": 10,
    "ejemplos": [
     {
-     "perfume": "jean-paul-gaultier-le-male-le-parfum-edp-125",
-     "precio": 39.95,
-     "referencia": 84.975,
-     "metodo": "jsonld"
+     "perfume": "chanel-allure-homme-edition-blanche-edp-100",
+     "precio": 32.16,
+     "referencia": 118.4,
+     "metodo": "texto"
     }
    ],
-   "texto": 1
+   "jsonld-url": 51
+  },
+  "notino": {
+   "ok": 1,
+   "bloqueada": 7,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "via_idealo": 30,
+   "jsonld": 1
+  },
+  "paco": {
+   "ok": 31,
+   "bloqueada": 0,
+   "sin_precio": 5,
+   "dudoso": 1,
+   "jsonld": 29,
+   "precio-100ml": 2,
+   "ejemplos": [
+    {
+     "perfume": "nautica-voyage-edt-100",
+     "precio": 73.78,
+     "referencia": 20.48,
+     "metodo": "precio-100ml"
+    }
+   ]
   },
   "julia": {
    "ok": 0,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "via_idealo": 43
+   "via_idealo": 27
+  },
+  "sabina": {
+   "ok": 5,
+   "bloqueada": 0,
+   "sin_precio": 2,
+   "dudoso": 0,
+   "via_idealo": 18,
+   "jsonld": 4,
+   "precio-100ml": 1
   },
   "druni": {
    "ok": 0,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "via_idealo": 39
+   "via_idealo": 27
   },
   "arenal": {
    "ok": 0,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "via_idealo": 36
+   "via_idealo": 24
   },
   "primor": {
    "ok": 0,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "via_idealo": 41
+   "via_idealo": 26
   },
-  "notino": {
-   "ok": 10,
-   "bloqueada": 37,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "via_idealo": 23,
-   "jsonld": 10
-  },
-  "laguna": {
-   "ok": 28,
+  "brasty": {
+   "ok": 0,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "jsonld-url": 14,
-   "precio-100ml": 6,
-   "jsonld": 8
+   "via_idealo": 20
   },
-  "paco": {
-   "ok": 42,
-   "bloqueada": 0,
-   "sin_precio": 6,
-   "dudoso": 1,
-   "jsonld": 42,
+  "avenida": {
+   "ok": 6,
+   "bloqueada": 4,
+   "sin_precio": 7,
+   "dudoso": 4,
    "ejemplos": [
     {
-     "perfume": "hugo-boss-boss-bottled-absolu-parfum-100",
-     "precio": 140.0,
-     "referencia": 82.57,
+     "perfume": "rabanne-pure-xs-edt-100",
+     "precio": 6.75,
+     "referencia": 54.61,
      "metodo": "texto"
+    },
+    {
+     "perfume": "armaf-odyssey-homme-edp-100",
+     "precio": 29.95,
+     "referencia": 18.740000000000002,
+     "metodo": "texto"
+    },
+    {
+     "perfume": "nautica-voyage-edt-100",
+     "precio": 74.95,
+     "referencia": 20.48,
+     "metodo": "variantes"
     }
-   ]
+   ],
+   "variantes": 6
   },
   "parejo": {
-   "ok": 16,
+   "ok": 7,
    "bloqueada": 0,
-   "sin_precio": 2,
-   "dudoso": 5,
-   "jsonld": 16,
+   "sin_precio": 3,
+   "dudoso": 1,
    "ejemplos": [
     {
-     "perfume": "calvin-klein-ck-one-edt-200",
-     "precio": 43.35,
-     "referencia": 27.95,
+     "perfume": "rabanne-pure-xs-edt-100",
+     "precio": 124.1,
+     "referencia": 54.61,
      "metodo": "jsonld"
-    },
+    }
+   ],
+   "jsonld": 7
+  },
+  "lookfantastic": {
+   "ok": 7,
+   "bloqueada": 0,
+   "sin_precio": 8,
+   "dudoso": 1,
+   "jsonld": 7,
+   "ejemplos": [
     {
-     "perfume": "carolina-herrera-212-vip-men-edt-100",
-     "precio": 84.15,
-     "referencia": 55.95,
-     "metodo": "jsonld"
-    },
-    {
-     "perfume": "carolina-herrera-ch-men-edt-100",
-     "precio": 92.65,
-     "referencia": 54.95,
+     "perfume": "davidoff-cool-water-edt-125",
+     "precio": 64.69,
+     "referencia": 21.95,
      "metodo": "jsonld"
     }
    ]
   },
-  "perfumesclub": {
+  "laguna": {
    "ok": 4,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "jsonld": 4
-  },
-  "sabina": {
-   "ok": 41,
-   "bloqueada": 0,
-   "sin_precio": 9,
-   "dudoso": 0,
-   "jsonld": 39,
-   "via_idealo": 4,
-   "precio-100ml": 2
+   "precio-100ml": 2,
+   "jsonld": 2
   },
   "sephora": {
    "ok": 0,
    "bloqueada": 0,
-   "sin_precio": 27,
+   "sin_precio": 1,
    "dudoso": 0
   },
-  "lookfantastic": {
-   "ok": 30,
+  "perfumesclub": {
+   "ok": 1,
    "bloqueada": 0,
-   "sin_precio": 6,
+   "sin_precio": 0,
    "dudoso": 0,
-   "jsonld": 30
+   "jsonld": 1
   },
-  "brasty": {
+  "firstinfragrance": {
    "ok": 2,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "via_idealo": 15,
    "jsonld": 2
-  },
-  "douglas": {
-   "ok": 4,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 1,
-   "precio-100ml": 4,
-   "ejemplos": [
-    {
-     "perfume": "chanel-chanel-n-5-edp-100",
-     "precio": 727.09,
-     "referencia": 138.95,
-     "metodo": "precio-100ml"
-    }
-   ]
-  },
-  "firstinfragrance": {
-   "ok": 7,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "jsonld": 7
   },
   "beautinow": {
    "ok": 0,
    "bloqueada": 0,
-   "sin_precio": 4,
+   "sin_precio": 2,
    "dudoso": 0
   },
   "arabicparfums": {
@@ -199,8 +197,7 @@
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "jsonld": 1,
-   "jsonld-url": 1
+   "jsonld": 2
   }
  },
  "limpiados": {},
