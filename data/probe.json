@@ -1,5 +1,5 @@
 {
- "at": "2026-11-25T16:05:13+01:00",
+ "at": "2026-11-26T16:12:14+01:00",
  "tiendas": {
   "primor": {
    "url": "https://www.primor.eu/es_es/catalogsearch/result/?q=boss+bottled",
@@ -39,7 +39,7 @@
   "eci": {
    "url": "https://www.elcorteingles.es/buscar/?s=boss+bottled",
    "codigo": 404,
-   "kb": 307,
+   "kb": 305,
    "titulo": "El Corte Inglés",
    "precios_eur": 4,
    "jsonld": 0,
@@ -48,22 +48,22 @@
   },
   "amazon": {
    "url": "https://www.amazon.es/s?k=boss+bottled+edt+100+ml",
-   "codigo": 503,
-   "kb": 1,
-   "titulo": "Lo sentimos.",
+   "codigo": 200,
+   "kb": 2,
+   "titulo": "",
    "precios_eur": 0,
    "jsonld": 0,
-   "menciona_boss": 0,
-   "estado": "bloqueada"
+   "menciona_boss": 1,
+   "estado": "entra, sin precios"
   },
   "idealo": {
    "url": "https://www.idealo.es/resultados.html?q=boss+bottled",
    "codigo": 200,
-   "kb": 1050,
+   "kb": 1052,
    "titulo": "boss bottled en idealo.es",
-   "precios_eur": 134,
+   "precios_eur": 129,
    "jsonld": 0,
-   "menciona_boss": 561,
+   "menciona_boss": 562,
    "estado": "con precios"
   },
   "bodybell": {
@@ -124,11 +124,11 @@
   "makeup": {
    "url": "https://makeup.es/search/?q=boss+bottled",
    "codigo": 200,
-   "kb": 827,
+   "kb": 820,
    "titulo": "Resultados de la búsqueda | Makeup.es",
-   "precios_eur": 203,
+   "precios_eur": 204,
    "jsonld": 3,
-   "menciona_boss": 316,
+   "menciona_boss": 314,
    "estado": "con precios"
   },
   "gotta": {
@@ -164,19 +164,19 @@
   "lookfantastic": {
    "url": "https://www.lookfantastic.es/search?q=boss+bottled",
    "codigo": 200,
-   "kb": 524,
+   "kb": 527,
    "titulo": "Resultado encontrado para \"boss bottled\"",
    "precios_eur": 97,
    "jsonld": 1,
-   "menciona_boss": 258,
+   "menciona_boss": 267,
    "estado": "con precios"
   },
   "perfumesclub": {
    "url": "https://www.perfumesclub.com/es/buscar/?q=boss+bottled",
    "codigo": 404,
-   "kb": 298,
+   "kb": 299,
    "titulo": "Página no encontrada - Error 404",
-   "precios_eur": 8,
+   "precios_eur": 5,
    "jsonld": 0,
    "menciona_boss": 0,
    "estado": "entra, sin precios"
