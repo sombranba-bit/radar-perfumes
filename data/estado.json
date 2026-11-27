@@ -1,189 +1,166 @@
 {
- "at": "2026-11-27T15:41:50+01:00",
+ "at": "2026-11-27T16:23:14+01:00",
  "revisados": 70,
  "tiendas": {
   "idealo": {
-   "ok": 58,
+   "ok": 62,
    "bloqueada": 0,
    "sin_precio": 2,
-   "dudoso": 3,
-   "jsonld": 7,
-   "jsonld-url": 51,
-   "ejemplos": [
-    {
-     "perfume": "jean-paul-gaultier-le-male-le-parfum-edp-125",
-     "precio": 39.95,
-     "referencia": 84.975,
-     "metodo": "jsonld"
-    },
-    {
-     "perfume": "armani-my-way-edp-90",
-     "precio": 72.59,
-     "referencia": 100.17500000000001,
-     "metodo": "texto"
-    },
-    {
-     "perfume": "chanel-allure-homme-edition-blanche-edp-100",
-     "precio": 32.37,
-     "referencia": 118.4,
-     "metodo": "texto"
-    }
-   ]
-  },
-  "druni": {
-   "ok": 0,
-   "bloqueada": 0,
-   "sin_precio": 0,
    "dudoso": 0,
-   "via_idealo": 29
-  },
-  "brasty": {
-   "ok": 2,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "via_idealo": 12,
-   "jsonld": 2
+   "jsonld": 8,
+   "jsonld-url": 54
   },
   "notino": {
-   "ok": 9,
-   "bloqueada": 32,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "via_idealo": 23,
-   "jsonld": 9
-  },
-  "douglas": {
    "ok": 1,
-   "bloqueada": 0,
-   "sin_precio": 2,
-   "dudoso": 0,
-   "precio-100ml": 1
-  },
-  "eci": {
-   "ok": 17,
-   "bloqueada": 0,
-   "sin_precio": 2,
-   "dudoso": 0,
-   "jsonld": 17
-  },
-  "julia": {
-   "ok": 0,
-   "bloqueada": 0,
+   "bloqueada": 6,
    "sin_precio": 0,
    "dudoso": 0,
-   "via_idealo": 35
-  },
-  "arenal": {
-   "ok": 0,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "via_idealo": 29
+   "via_idealo": 29,
+   "jsonld": 1
   },
   "primor": {
    "ok": 0,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "via_idealo": 30
+   "via_idealo": 26
   },
-  "paco": {
-   "ok": 36,
-   "bloqueada": 0,
-   "sin_precio": 6,
-   "dudoso": 1,
-   "jsonld": 35,
-   "ejemplos": [
-    {
-     "perfume": "hugo-boss-boss-bottled-absolu-parfum-100",
-     "precio": 140.0,
-     "referencia": 82.57,
-     "metodo": "texto"
-    }
-   ],
-   "precio-100ml": 1
-  },
-  "sabina": {
-   "ok": 31,
-   "bloqueada": 0,
-   "sin_precio": 8,
-   "dudoso": 0,
-   "jsonld": 29,
-   "via_idealo": 7,
-   "precio-100ml": 2
-  },
-  "avenida": {
-   "ok": 15,
-   "bloqueada": 0,
-   "sin_precio": 6,
-   "dudoso": 2,
-   "variantes": 14,
-   "texto": 1,
-   "ejemplos": [
-    {
-     "perfume": "armaf-club-de-nuit-intense-man-edt-105",
-     "precio": 34.95,
-     "referencia": 25.5,
-     "metodo": "texto"
-    },
-    {
-     "perfume": "rabanne-pure-xs-edt-100",
-     "precio": 6.75,
-     "referencia": 59.97,
-     "metodo": "texto"
-    }
-   ]
-  },
-  "laguna": {
-   "ok": 21,
+  "brasty": {
+   "ok": 0,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "jsonld": 8,
-   "jsonld-url": 8,
-   "precio-100ml": 5
+   "via_idealo": 21
   },
-  "lookfantastic": {
-   "ok": 27,
+  "arenal": {
+   "ok": 0,
    "bloqueada": 0,
-   "sin_precio": 8,
+   "sin_precio": 0,
    "dudoso": 0,
-   "jsonld": 27
+   "via_idealo": 25
   },
-  "parejo": {
-   "ok": 16,
+  "druni": {
+   "ok": 0,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "via_idealo": 28
+  },
+  "sabina": {
+   "ok": 5,
    "bloqueada": 0,
    "sin_precio": 2,
-   "dudoso": 2,
-   "jsonld": 16,
+   "dudoso": 0,
+   "via_idealo": 20,
+   "jsonld": 4,
+   "precio-100ml": 1
+  },
+  "julia": {
+   "ok": 0,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "via_idealo": 28
+  },
+  "avenida": {
+   "ok": 13,
+   "bloqueada": 0,
+   "sin_precio": 8,
+   "dudoso": 3,
    "ejemplos": [
     {
-     "perfume": "lancome-la-vie-est-belle-edp-100",
-     "precio": 163.2,
-     "referencia": 83.69,
-     "metodo": "jsonld"
+     "perfume": "armaf-odyssey-homme-edp-100",
+     "precio": 29.95,
+     "referencia": 18.740000000000002,
+     "metodo": "texto"
     },
     {
-     "perfume": "rabanne-pure-xs-edt-100",
-     "precio": 124.1,
-     "referencia": 59.97,
+     "perfume": "nautica-voyage-edt-100",
+     "precio": 74.95,
+     "referencia": 20.48,
+     "metodo": "variantes"
+    },
+    {
+     "perfume": "elizabeth-arden-green-tea-edt-100",
+     "precio": 17.45,
+     "referencia": 9.6,
+     "metodo": "variantes"
+    }
+   ],
+   "variantes": 12,
+   "texto": 1
+  },
+  "eci": {
+   "ok": 19,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 1,
+   "jsonld": 19,
+   "ejemplos": [
+    {
+     "perfume": "clinique-happy-edp-100",
+     "precio": 110.0,
+     "referencia": 21.54,
      "metodo": "jsonld"
     }
    ]
+  },
+  "lookfantastic": {
+   "ok": 10,
+   "bloqueada": 0,
+   "sin_precio": 6,
+   "dudoso": 1,
+   "jsonld": 10,
+   "ejemplos": [
+    {
+     "perfume": "davidoff-cool-water-edt-125",
+     "precio": 64.69,
+     "referencia": 21.95,
+     "metodo": "jsonld"
+    }
+   ]
+  },
+  "paco": {
+   "ok": 28,
+   "bloqueada": 0,
+   "sin_precio": 4,
+   "dudoso": 2,
+   "jsonld": 27,
+   "precio-100ml": 1,
+   "ejemplos": [
+    {
+     "perfume": "nautica-voyage-edt-100",
+     "precio": 73.78,
+     "referencia": 20.48,
+     "metodo": "precio-100ml"
+    },
+    {
+     "perfume": "calvin-klein-eternity-edp-100",
+     "precio": 54.95,
+     "referencia": 35.95,
+     "metodo": "jsonld"
+    }
+   ]
+  },
+  "parejo": {
+   "ok": 0,
+   "bloqueada": 0,
+   "sin_precio": 10,
+   "dudoso": 0
+  },
+  "laguna": {
+   "ok": 4,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "precio-100ml": 2,
+   "jsonld": 2
   },
   "sephora": {
    "ok": 0,
    "bloqueada": 0,
-   "sin_precio": 24,
+   "sin_precio": 1,
    "dudoso": 0
-  },
-  "firstinfragrance": {
-   "ok": 7,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "jsonld": 7
   },
   "perfumesclub": {
    "ok": 1,
@@ -192,10 +169,17 @@
    "dudoso": 0,
    "jsonld": 1
   },
+  "firstinfragrance": {
+   "ok": 2,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "jsonld": 2
+  },
   "beautinow": {
    "ok": 0,
    "bloqueada": 0,
-   "sin_precio": 4,
+   "sin_precio": 2,
    "dudoso": 0
   },
   "arabicparfums": {
@@ -203,8 +187,7 @@
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "jsonld": 1,
-   "jsonld-url": 1
+   "jsonld": 2
   }
  },
  "limpiados": {},
