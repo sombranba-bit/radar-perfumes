@@ -1,196 +1,215 @@
 {
- "at": "2026-11-27T17:07:40+01:00",
+ "at": "2026-11-27T17:52:42+01:00",
  "revisados": 70,
  "tiendas": {
-  "eci": {
-   "ok": 20,
-   "bloqueada": 0,
-   "sin_precio": 4,
-   "dudoso": 1,
-   "jsonld": 19,
-   "jsonld-url": 1,
-   "ejemplos": [
-    {
-     "perfume": "estee-lauder-pleasures-edp-100",
-     "precio": 112.0,
-     "referencia": 39.92,
-     "metodo": "jsonld"
-    }
-   ]
-  },
-  "firstinfragrance": {
-   "ok": 2,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "jsonld": 2
-  },
   "idealo": {
-   "ok": 65,
+   "ok": 61,
    "bloqueada": 0,
-   "sin_precio": 0,
+   "sin_precio": 2,
    "dudoso": 2,
-   "jsonld-url": 58,
+   "jsonld": 8,
+   "jsonld-url": 52,
    "ejemplos": [
     {
-     "perfume": "yves-saint-laurent-opium-edp-90",
-     "precio": 148.67,
-     "referencia": 95.95,
-     "metodo": "jsonld-url"
+     "perfume": "armani-acqua-di-gio-edp-75",
+     "precio": 72.7,
+     "referencia": null,
+     "metodo": "texto"
     },
     {
-     "perfume": "valentino-uomo-intense-edp-100",
-     "precio": 180.99,
-     "referencia": 101.2,
-     "metodo": "jsonld-url"
+     "perfume": "lattafa-yara-edp-100",
+     "precio": 11.69,
+     "referencia": 21.49,
+     "metodo": "jsonld"
     }
    ],
-   "jsonld": 7
+   "texto": 1
+  },
+  "sabina": {
+   "ok": 25,
+   "bloqueada": 0,
+   "sin_precio": 4,
+   "dudoso": 0,
+   "via_idealo": 16,
+   "jsonld": 19,
+   "precio-100ml": 6
+  },
+  "lookfantastic": {
+   "ok": 33,
+   "bloqueada": 0,
+   "sin_precio": 1,
+   "dudoso": 0,
+   "jsonld": 33
+  },
+  "notino": {
+   "ok": 4,
+   "bloqueada": 36,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "via_idealo": 20,
+   "jsonld": 4
+  },
+  "paco": {
+   "ok": 34,
+   "bloqueada": 0,
+   "sin_precio": 2,
+   "dudoso": 3,
+   "precio-100ml": 3,
+   "jsonld": 31,
+   "ejemplos": [
+    {
+     "perfume": "marc-jacobs-daisy-edt-100",
+     "precio": 108.0,
+     "referencia": 68.945,
+     "metodo": "texto"
+    },
+    {
+     "perfume": "azzaro-the-most-wanted-parfum-parfum-100",
+     "precio": 99.0,
+     "referencia": 72.55000000000001,
+     "metodo": "texto"
+    },
+    {
+     "perfume": "jean-paul-gaultier-ultra-male-edt-125",
+     "precio": 126.0,
+     "referencia": 64.94,
+     "metodo": "texto"
+    }
+   ]
   },
   "brasty": {
    "ok": 0,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "via_idealo": 21
-  },
-  "notino": {
-   "ok": 0,
-   "bloqueada": 15,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "via_idealo": 22
-  },
-  "douglas": {
-   "ok": 4,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "precio-100ml": 4
+   "via_idealo": 20
   },
   "avenida": {
-   "ok": 15,
+   "ok": 22,
    "bloqueada": 0,
-   "sin_precio": 7,
+   "sin_precio": 5,
    "dudoso": 1,
+   "texto": 1,
+   "variantes": 21,
    "ejemplos": [
     {
-     "perfume": "yves-saint-laurent-y-le-parfum-parfum-100",
-     "precio": 20.0,
-     "referencia": 93.5,
-     "metodo": "texto"
-    }
-   ],
-   "variantes": 15
-  },
-  "lookfantastic": {
-   "ok": 13,
-   "bloqueada": 0,
-   "sin_precio": 7,
-   "dudoso": 0,
-   "jsonld": 13
-  },
-  "sephora": {
-   "ok": 0,
-   "bloqueada": 0,
-   "sin_precio": 18,
-   "dudoso": 0
-  },
-  "paco": {
-   "ok": 50,
-   "bloqueada": 0,
-   "sin_precio": 4,
-   "dudoso": 1,
-   "jsonld": 46,
-   "precio-100ml": 4,
-   "ejemplos": [
-    {
-     "perfume": "versace-yellow-diamond-edt-90",
-     "precio": 132.0,
-     "referencia": 59.95,
-     "metodo": "texto"
+     "perfume": "issey-miyake-l-eau-d-issey-pour-homme-edt-125",
+     "precio": 74.95,
+     "referencia": 44.95,
+     "metodo": "variantes"
     }
    ]
+  },
+  "douglas": {
+   "ok": 1,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "precio-100ml": 1
+  },
+  "eci": {
+   "ok": 17,
+   "bloqueada": 0,
+   "sin_precio": 3,
+   "dudoso": 0,
+   "jsonld": 17
   },
   "primor": {
    "ok": 0,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "via_idealo": 44
+   "via_idealo": 36
   },
   "julia": {
    "ok": 0,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "via_idealo": 48
+   "via_idealo": 36
+  },
+  "laguna": {
+   "ok": 26,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "jsonld": 15,
+   "jsonld-url": 6,
+   "precio-100ml": 5
+  },
+  "parejo": {
+   "ok": 10,
+   "bloqueada": 0,
+   "sin_precio": 4,
+   "dudoso": 3,
+   "jsonld": 10,
+   "ejemplos": [
+    {
+     "perfume": "yves-saint-laurent-mon-paris-edp-90",
+     "precio": 159.0,
+     "referencia": 82.95,
+     "metodo": "jsonld"
+    },
+    {
+     "perfume": "lattafa-khamrah-edp-100",
+     "precio": 40.8,
+     "referencia": 24.95,
+     "metodo": "jsonld"
+    },
+    {
+     "perfume": "lattafa-yara-edp-100",
+     "precio": 30.6,
+     "referencia": 19.99,
+     "metodo": "jsonld"
+    }
+   ]
+  },
+  "sephora": {
+   "ok": 0,
+   "bloqueada": 0,
+   "sin_precio": 19,
+   "dudoso": 0
+  },
+  "arabicparfums": {
+   "ok": 6,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "jsonld": 6
   },
   "druni": {
    "ok": 0,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "via_idealo": 39
+   "via_idealo": 33
   },
   "arenal": {
    "ok": 0,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "via_idealo": 41
+   "via_idealo": 34
   },
-  "laguna": {
-   "ok": 6,
+  "firstinfragrance": {
+   "ok": 5,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "jsonld": 3,
-   "precio-100ml": 1,
-   "jsonld-url": 2
-  },
-  "sabina": {
-   "ok": 14,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "jsonld": 13,
-   "via_idealo": 17,
-   "precio-100ml": 1
-  },
-  "parejo": {
-   "ok": 11,
-   "bloqueada": 0,
-   "sin_precio": 3,
-   "dudoso": 3,
-   "ejemplos": [
-    {
-     "perfume": "carolina-herrera-carolina-herrera-edt-100",
-     "precio": 113.9,
-     "referencia": 66.83500000000001,
-     "metodo": "jsonld"
-    },
-    {
-     "perfume": "givenchy-l-interdit-rouge-edp-80",
-     "precio": 126.65,
-     "referencia": 74.1,
-     "metodo": "jsonld"
-    },
-    {
-     "perfume": "loewe-solo-loewe-edt-100",
-     "precio": 117.3,
-     "referencia": 74.275,
-     "metodo": "jsonld"
-    }
-   ],
-   "jsonld": 11
+   "jsonld": 5
   },
   "perfumesclub": {
-   "ok": 3,
+   "ok": 4,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "jsonld": 3
+   "jsonld": 4
+  },
+  "beautinow": {
+   "ok": 0,
+   "bloqueada": 0,
+   "sin_precio": 4,
+   "dudoso": 0
   }
  },
  "limpiados": {},
