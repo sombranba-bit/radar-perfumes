@@ -1,198 +1,192 @@
 {
- "at": "2026-11-27T23:12:32+01:00",
+ "at": "2026-11-27T23:55:12+01:00",
  "revisados": 70,
  "tiendas": {
   "beautinow": {
    "ok": 0,
    "bloqueada": 0,
-   "sin_precio": 4,
+   "sin_precio": 5,
    "dudoso": 0
   },
-  "idealo": {
-   "ok": 63,
+  "eci": {
+   "ok": 17,
+   "bloqueada": 0,
+   "sin_precio": 1,
+   "dudoso": 0,
+   "jsonld": 17
+  },
+  "firstinfragrance": {
+   "ok": 8,
    "bloqueada": 0,
    "sin_precio": 0,
-   "dudoso": 1,
-   "jsonld-url": 59,
-   "jsonld": 4,
+   "dudoso": 0,
+   "jsonld": 8
+  },
+  "idealo": {
+   "ok": 61,
+   "bloqueada": 0,
+   "sin_precio": 2,
+   "dudoso": 2,
+   "jsonld": 12,
+   "jsonld-url": 49,
    "ejemplos": [
     {
-     "perfume": "jean-paul-gaultier-le-male-le-parfum-edp-125",
-     "precio": 39.95,
-     "referencia": 84.975,
-     "metodo": "jsonld"
+     "perfume": "armani-my-way-edp-90",
+     "precio": 72.59,
+     "referencia": 100.17500000000001,
+     "metodo": "texto"
+    },
+    {
+     "perfume": "chanel-allure-homme-edition-blanche-edp-100",
+     "precio": 32.37,
+     "referencia": 118.4,
+     "metodo": "texto"
     }
    ]
   },
-  "brasty": {
-   "ok": 3,
-   "bloqueada": 0,
+  "notino": {
+   "ok": 7,
+   "bloqueada": 18,
    "sin_precio": 0,
    "dudoso": 0,
-   "via_idealo": 19,
-   "jsonld": 3
-  },
-  "primor": {
-   "ok": 0,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "via_idealo": 46
-  },
-  "arenal": {
-   "ok": 0,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "via_idealo": 45
+   "via_idealo": 28,
+   "jsonld": 7
   },
   "julia": {
    "ok": 0,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "via_idealo": 52
+   "via_idealo": 29
   },
-  "notino": {
-   "ok": 9,
-   "bloqueada": 42,
-   "sin_precio": 0,
-   "dudoso": 1,
-   "via_idealo": 20,
-   "ejemplos": [
-    {
-     "perfume": "tom-ford-oud-wood-edp-50",
-     "precio": 260.0,
-     "referencia": 165.72,
-     "metodo": "jsonld"
-    }
-   ],
-   "jsonld": 9
-  },
-  "laguna": {
-   "ok": 39,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "jsonld": 11,
-   "precio-100ml": 12,
-   "jsonld-url": 16
-  },
-  "lookfantastic": {
-   "ok": 39,
-   "bloqueada": 0,
-   "sin_precio": 7,
-   "dudoso": 0,
-   "jsonld": 39
-  },
-  "paco": {
-   "ok": 46,
+  "sabina": {
+   "ok": 16,
    "bloqueada": 0,
    "sin_precio": 6,
+   "dudoso": 0,
+   "jsonld": 14,
+   "precio-100ml": 2,
+   "via_idealo": 12
+  },
+  "avenida": {
+   "ok": 10,
+   "bloqueada": 0,
+   "sin_precio": 2,
    "dudoso": 2,
-   "jsonld": 46,
+   "texto": 2,
+   "variantes": 8,
    "ejemplos": [
     {
-     "perfume": "azzaro-chrome-edt-100",
-     "precio": 94.25,
-     "referencia": 51.47,
+     "perfume": "rabanne-pure-xs-edt-100",
+     "precio": 6.75,
+     "referencia": 59.97,
      "metodo": "texto"
     },
     {
-     "perfume": "hugo-boss-boss-bottled-absolu-parfum-100",
-     "precio": 140.0,
-     "referencia": 82.57,
+     "perfume": "armaf-odyssey-homme-edp-100",
+     "precio": 29.95,
+     "referencia": 18.740000000000002,
      "metodo": "texto"
     }
    ]
   },
-  "perfumesclub": {
-   "ok": 7,
+  "primor": {
+   "ok": 0,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "jsonld": 7
-  },
-  "sabina": {
-   "ok": 40,
-   "bloqueada": 0,
-   "sin_precio": 8,
-   "dudoso": 0,
-   "jsonld": 39,
-   "via_idealo": 14,
-   "precio-100ml": 1
-  },
-  "sephora": {
-   "ok": 0,
-   "bloqueada": 0,
-   "sin_precio": 33,
-   "dudoso": 0
-  },
-  "avenida": {
-   "ok": 27,
-   "bloqueada": 0,
-   "sin_precio": 6,
-   "dudoso": 1,
-   "variantes": 27,
-   "ejemplos": [
-    {
-     "perfume": "versace-bright-crystal-edt-90",
-     "precio": 89.95,
-     "referencia": 59.95,
-     "metodo": "variantes"
-    }
-   ]
+   "via_idealo": 22
   },
   "druni": {
    "ok": 0,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "via_idealo": 40
+   "via_idealo": 25
   },
-  "eci": {
-   "ok": 19,
+  "arenal": {
+   "ok": 0,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "via_idealo": 23
+  },
+  "laguna": {
+   "ok": 9,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "jsonld-url": 3,
+   "jsonld": 3,
+   "precio-100ml": 3
+  },
+  "lookfantastic": {
+   "ok": 16,
+   "bloqueada": 0,
+   "sin_precio": 6,
+   "dudoso": 1,
+   "jsonld": 16,
+   "ejemplos": [
+    {
+     "perfume": "davidoff-cool-water-edt-125",
+     "precio": 64.69,
+     "referencia": 21.95,
+     "metodo": "jsonld"
+    }
+   ]
+  },
+  "paco": {
+   "ok": 29,
    "bloqueada": 0,
    "sin_precio": 4,
    "dudoso": 0,
-   "jsonld": 18,
-   "jsonld-url": 1
+   "jsonld": 28,
+   "precio-100ml": 1
   },
   "parejo": {
+   "ok": 12,
+   "bloqueada": 0,
+   "sin_precio": 2,
+   "dudoso": 1,
+   "jsonld": 12,
+   "ejemplos": [
+    {
+     "perfume": "rabanne-pure-xs-edt-100",
+     "precio": 124.1,
+     "referencia": 59.97,
+     "metodo": "jsonld"
+    }
+   ]
+  },
+  "sephora": {
    "ok": 0,
    "bloqueada": 0,
-   "sin_precio": 23,
+   "sin_precio": 12,
    "dudoso": 0
   },
   "arabicparfums": {
+   "ok": 2,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "jsonld": 1,
+   "jsonld-url": 1
+  },
+  "brasty": {
+   "ok": 0,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "via_idealo": 17
+  },
+  "douglas": {
    "ok": 1,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "jsonld": 1
+   "precio-100ml": 1
   },
-  "makeup": {
-   "ok": 0,
-   "bloqueada": 0,
-   "sin_precio": 3,
-   "dudoso": 0
-  },
-  "douglas": {
-   "ok": 2,
-   "bloqueada": 0,
-   "sin_precio": 1,
-   "dudoso": 1,
-   "ejemplos": [
-    {
-     "perfume": "chanel-chanel-n-5-edp-100",
-     "precio": 727.09,
-     "referencia": 138.95,
-     "metodo": "precio-100ml"
-    }
-   ],
-   "precio-100ml": 2
-  },
-  "firstinfragrance": {
+  "perfumesclub": {
    "ok": 1,
    "bloqueada": 0,
    "sin_precio": 0,
