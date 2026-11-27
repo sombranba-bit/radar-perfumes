@@ -1,5 +1,5 @@
 {
- "at": "2026-11-27T23:00:59+01:00",
+ "at": "2026-11-27T23:12:32+01:00",
  "revisados": 70,
  "tiendas": {
   "beautinow": {
@@ -54,8 +54,8 @@
    "via_idealo": 52
   },
   "notino": {
-   "ok": 6,
-   "bloqueada": 45,
+   "ok": 9,
+   "bloqueada": 42,
    "sin_precio": 0,
    "dudoso": 1,
    "via_idealo": 20,
@@ -67,7 +67,7 @@
      "metodo": "jsonld"
     }
    ],
-   "jsonld": 6
+   "jsonld": 9
   },
   "laguna": {
    "ok": 39,
@@ -95,7 +95,7 @@
     {
      "perfume": "azzaro-chrome-edt-100",
      "precio": 94.25,
-     "referencia": 52.855000000000004,
+     "referencia": 51.47,
      "metodo": "texto"
     },
     {
@@ -178,11 +178,10 @@
    "dudoso": 0
   },
   "douglas": {
-   "ok": 3,
+   "ok": 2,
    "bloqueada": 0,
-   "sin_precio": 0,
+   "sin_precio": 1,
    "dudoso": 1,
-   "precio-100ml": 3,
    "ejemplos": [
     {
      "perfume": "chanel-chanel-n-5-edp-100",
@@ -190,7 +189,8 @@
      "referencia": 138.95,
      "metodo": "precio-100ml"
     }
-   ]
+   ],
+   "precio-100ml": 2
   },
   "firstinfragrance": {
    "ok": 1,
