@@ -1,217 +1,165 @@
 {
- "at": "2026-11-27T09:25:48+01:00",
+ "at": "2026-11-27T10:09:18+01:00",
  "revisados": 70,
  "tiendas": {
-  "avenida": {
-   "ok": 12,
-   "bloqueada": 0,
-   "sin_precio": 9,
-   "dudoso": 3,
-   "variantes": 11,
-   "ejemplos": [
-    {
-     "perfume": "nautica-voyage-edt-100",
-     "precio": 74.95,
-     "referencia": 20.48,
-     "metodo": "variantes"
-    },
-    {
-     "perfume": "elizabeth-arden-green-tea-edt-100",
-     "precio": 17.45,
-     "referencia": 9.6,
-     "metodo": "variantes"
-    },
-    {
-     "perfume": "yves-saint-laurent-y-le-parfum-parfum-100",
-     "precio": 20.0,
-     "referencia": 93.5,
-     "metodo": "texto"
-    }
-   ],
-   "texto": 1
-  },
   "idealo": {
-   "ok": 62,
-   "bloqueada": 0,
-   "sin_precio": 2,
-   "dudoso": 2,
-   "jsonld-url": 55,
-   "jsonld": 7,
+   "ok": 64,
+   "bloqueada": 1,
+   "sin_precio": 0,
+   "dudoso": 1,
+   "jsonld-url": 58,
+   "jsonld": 6,
    "ejemplos": [
     {
-     "perfume": "yves-saint-laurent-opium-edp-90",
-     "precio": 167.27,
-     "referencia": 95.95,
-     "metodo": "jsonld-url"
-    },
-    {
-     "perfume": "valentino-uomo-intense-edp-100",
-     "precio": 429.99,
-     "referencia": 101.2,
-     "metodo": "jsonld-url"
-    }
-   ]
-  },
-  "julia": {
-   "ok": 0,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "via_idealo": 38
-  },
-  "arenal": {
-   "ok": 0,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "via_idealo": 36
-  },
-  "druni": {
-   "ok": 0,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "via_idealo": 35
-  },
-  "primor": {
-   "ok": 0,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "via_idealo": 43
-  },
-  "paco": {
-   "ok": 39,
-   "bloqueada": 0,
-   "sin_precio": 3,
-   "dudoso": 3,
-   "precio-100ml": 2,
-   "ejemplos": [
-    {
-     "perfume": "nautica-voyage-edt-100",
-     "precio": 73.78,
-     "referencia": 20.48,
-     "metodo": "precio-100ml"
-    },
-    {
-     "perfume": "calvin-klein-eternity-edp-100",
-     "precio": 54.95,
-     "referencia": 35.95,
-     "metodo": "jsonld"
-    },
-    {
-     "perfume": "versace-yellow-diamond-edt-90",
-     "precio": 132.0,
-     "referencia": 59.95,
+     "perfume": "armani-acqua-di-gio-edp-75",
+     "precio": 72.7,
+     "referencia": null,
      "metodo": "texto"
-    }
-   ],
-   "jsonld": 37
-  },
-  "parejo": {
-   "ok": 7,
-   "bloqueada": 0,
-   "sin_precio": 3,
-   "dudoso": 3,
-   "jsonld": 7,
-   "ejemplos": [
-    {
-     "perfume": "calvin-klein-eternity-edp-100",
-     "precio": 56.95,
-     "referencia": 35.95,
-     "metodo": "jsonld"
-    },
-    {
-     "perfume": "carolina-herrera-carolina-herrera-edt-100",
-     "precio": 113.9,
-     "referencia": 66.83500000000001,
-     "metodo": "jsonld"
-    },
-    {
-     "perfume": "givenchy-l-interdit-rouge-edp-80",
-     "precio": 126.65,
-     "referencia": 74.1,
-     "metodo": "jsonld"
     }
    ]
   },
   "notino": {
    "ok": 0,
-   "bloqueada": 3,
+   "bloqueada": 36,
    "sin_precio": 0,
    "dudoso": 0,
-   "via_idealo": 19
+   "via_idealo": 31
   },
-  "sabina": {
-   "ok": 1,
+  "paco": {
+   "ok": 42,
    "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "via_idealo": 20,
-   "jsonld": 1
-  },
-  "eci": {
-   "ok": 25,
-   "bloqueada": 0,
-   "sin_precio": 1,
+   "sin_precio": 3,
    "dudoso": 2,
-   "jsonld": 24,
+   "precio-100ml": 5,
+   "jsonld": 37,
    "ejemplos": [
     {
-     "perfume": "clinique-happy-edp-100",
-     "precio": 110.0,
-     "referencia": 21.54,
-     "metodo": "jsonld"
+     "perfume": "marc-jacobs-daisy-edt-100",
+     "precio": 108.0,
+     "referencia": 68.945,
+     "metodo": "texto"
     },
     {
-     "perfume": "estee-lauder-pleasures-edp-100",
-     "precio": 112.0,
-     "referencia": 39.92,
-     "metodo": "jsonld"
+     "perfume": "azzaro-the-most-wanted-parfum-parfum-100",
+     "precio": 99.0,
+     "referencia": 72.55000000000001,
+     "metodo": "texto"
     }
-   ],
-   "jsonld-url": 1
+   ]
   },
-  "lookfantastic": {
-   "ok": 11,
+  "parejo": {
+   "ok": 0,
    "bloqueada": 0,
-   "sin_precio": 7,
-   "dudoso": 0,
-   "jsonld": 11
+   "sin_precio": 20,
+   "dudoso": 0
   },
   "brasty": {
    "ok": 0,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "via_idealo": 14
+   "via_idealo": 21
   },
-  "firstinfragrance": {
-   "ok": 1,
+  "primor": {
+   "ok": 0,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "jsonld": 1
+   "via_idealo": 39
   },
-  "douglas": {
-   "ok": 2,
+  "druni": {
+   "ok": 0,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
+   "via_idealo": 37
+  },
+  "arenal": {
+   "ok": 0,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "via_idealo": 38
+  },
+  "sabina": {
+   "ok": 21,
+   "bloqueada": 0,
+   "sin_precio": 2,
+   "dudoso": 0,
+   "via_idealo": 20,
+   "jsonld": 19,
    "precio-100ml": 2
+  },
+  "julia": {
+   "ok": 0,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "via_idealo": 47
+  },
+  "lookfantastic": {
+   "ok": 24,
+   "bloqueada": 0,
+   "sin_precio": 2,
+   "dudoso": 0,
+   "jsonld": 24
+  },
+  "eci": {
+   "ok": 12,
+   "bloqueada": 0,
+   "sin_precio": 5,
+   "dudoso": 0,
+   "jsonld": 12
   },
   "sephora": {
    "ok": 0,
    "bloqueada": 0,
-   "sin_precio": 10,
+   "sin_precio": 22,
    "dudoso": 0
   },
+  "avenida": {
+   "ok": 2,
+   "bloqueada": 22,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "variantes": 2
+  },
   "laguna": {
-   "ok": 1,
+   "ok": 14,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "jsonld": 1
+   "precio-100ml": 1,
+   "jsonld": 8,
+   "jsonld-url": 5
+  },
+  "perfumesclub": {
+   "ok": 5,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "jsonld": 5
+  },
+  "douglas": {
+   "ok": 1,
+   "bloqueada": 0,
+   "sin_precio": 2,
+   "dudoso": 0,
+   "precio-100ml": 1
+  },
+  "firstinfragrance": {
+   "ok": 2,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "jsonld": 2
+  },
+  "arabicparfums": {
+   "ok": 2,
+   "bloqueada": 1,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "jsonld": 2
   }
  },
  "limpiados": {},
