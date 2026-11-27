@@ -1,216 +1,170 @@
 {
- "at": "2026-11-27T11:40:43+01:00",
+ "at": "2026-11-27T12:23:28+01:00",
  "revisados": 70,
  "tiendas": {
   "avenida": {
-   "ok": 26,
-   "bloqueada": 0,
-   "sin_precio": 6,
-   "dudoso": 1,
-   "variantes": 26,
-   "ejemplos": [
-    {
-     "perfume": "versace-bright-crystal-edt-90",
-     "precio": 89.95,
-     "referencia": 59.95,
-     "metodo": "variantes"
-    }
-   ]
+   "ok": 2,
+   "bloqueada": 14,
+   "sin_precio": 2,
+   "dudoso": 0,
+   "variantes": 2
   },
   "idealo": {
-   "ok": 63,
+   "ok": 60,
    "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 1,
-   "jsonld-url": 58,
-   "jsonld": 5,
+   "sin_precio": 2,
+   "dudoso": 3,
+   "jsonld-url": 49,
    "ejemplos": [
     {
-     "perfume": "ralph-lauren-polo-red-edt-125",
-     "precio": 140.01,
-     "referencia": 60.75,
+     "perfume": "jean-paul-gaultier-le-male-le-parfum-edp-125",
+     "precio": 39.95,
+     "referencia": 84.975,
+     "metodo": "jsonld"
+    },
+    {
+     "perfume": "armani-my-way-edp-90",
+     "precio": 73.1,
+     "referencia": 100.17500000000001,
+     "metodo": "texto"
+    },
+    {
+     "perfume": "chanel-allure-homme-edition-blanche-edp-100",
+     "precio": 32.37,
+     "referencia": 118.4,
      "metodo": "texto"
     }
-   ]
-  },
-  "julia": {
-   "ok": 0,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "via_idealo": 52
+   ],
+   "jsonld": 11
   },
   "primor": {
    "ok": 0,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "via_idealo": 46
-  },
-  "sabina": {
-   "ok": 39,
-   "bloqueada": 0,
-   "sin_precio": 8,
-   "dudoso": 0,
-   "via_idealo": 16,
-   "jsonld": 38,
-   "precio-100ml": 1
-  },
-  "notino": {
-   "ok": 7,
-   "bloqueada": 45,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "via_idealo": 20,
-   "jsonld": 7
-  },
-  "laguna": {
-   "ok": 39,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "jsonld-url": 14,
-   "jsonld": 13,
-   "precio-100ml": 12
-  },
-  "lookfantastic": {
-   "ok": 41,
-   "bloqueada": 0,
-   "sin_precio": 6,
-   "dudoso": 0,
-   "jsonld": 41
-  },
-  "paco": {
-   "ok": 46,
-   "bloqueada": 0,
-   "sin_precio": 7,
-   "dudoso": 2,
-   "jsonld": 46,
-   "ejemplos": [
-    {
-     "perfume": "azzaro-chrome-edt-100",
-     "precio": 94.25,
-     "referencia": 51.47,
-     "metodo": "texto"
-    },
-    {
-     "perfume": "hugo-boss-boss-bottled-absolu-parfum-100",
-     "precio": 140.0,
-     "referencia": 82.57,
-     "metodo": "texto"
-    }
-   ]
-  },
-  "parejo": {
-   "ok": 15,
-   "bloqueada": 0,
-   "sin_precio": 1,
-   "dudoso": 8,
-   "jsonld": 15,
-   "ejemplos": [
-    {
-     "perfume": "rabanne-fame-edp-80",
-     "precio": 113.9,
-     "referencia": 69.95,
-     "metodo": "jsonld"
-    },
-    {
-     "perfume": "valentino-born-in-roma-donna-edp-100",
-     "precio": 142.8,
-     "referencia": 93.95,
-     "metodo": "jsonld"
-    },
-    {
-     "perfume": "viktor-rolf-spicebomb-extreme-edp-90",
-     "precio": 116.45,
-     "referencia": 70.67,
-     "metodo": "jsonld"
-    }
-   ]
+   "via_idealo": 24
   },
   "druni": {
    "ok": 0,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "via_idealo": 40
-  },
-  "eci": {
-   "ok": 19,
-   "bloqueada": 0,
-   "sin_precio": 4,
-   "dudoso": 0,
-   "jsonld": 18,
-   "jsonld-url": 1
+   "via_idealo": 26
   },
   "arenal": {
    "ok": 0,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "via_idealo": 44
+   "via_idealo": 24
   },
-  "brasty": {
-   "ok": 3,
+  "notino": {
+   "ok": 0,
+   "bloqueada": 26,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "via_idealo": 26
+  },
+  "julia": {
+   "ok": 0,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "via_idealo": 20,
-   "jsonld": 3
+   "via_idealo": 30
+  },
+  "laguna": {
+   "ok": 12,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "jsonld-url": 7,
+   "jsonld": 3,
+   "precio-100ml": 2
+  },
+  "lookfantastic": {
+   "ok": 19,
+   "bloqueada": 0,
+   "sin_precio": 7,
+   "dudoso": 0,
+   "jsonld": 19
+  },
+  "paco": {
+   "ok": 30,
+   "bloqueada": 0,
+   "sin_precio": 5,
+   "dudoso": 0,
+   "jsonld": 29,
+   "precio-100ml": 1
+  },
+  "parejo": {
+   "ok": 0,
+   "bloqueada": 0,
+   "sin_precio": 18,
+   "dudoso": 0
+  },
+  "perfumesclub": {
+   "ok": 1,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "jsonld": 1
+  },
+  "sabina": {
+   "ok": 19,
+   "bloqueada": 0,
+   "sin_precio": 4,
+   "dudoso": 0,
+   "jsonld": 17,
+   "precio-100ml": 2,
+   "via_idealo": 11
   },
   "sephora": {
    "ok": 0,
    "bloqueada": 0,
-   "sin_precio": 30,
+   "sin_precio": 17,
    "dudoso": 0
   },
-  "douglas": {
-   "ok": 1,
+  "brasty": {
+   "ok": 0,
    "bloqueada": 0,
-   "sin_precio": 3,
-   "dudoso": 1,
-   "ejemplos": [
-    {
-     "perfume": "chanel-chanel-n-5-edp-100",
-     "precio": 727.09,
-     "referencia": 138.95,
-     "metodo": "precio-100ml"
-    }
-   ],
-   "precio-100ml": 1
+   "sin_precio": 0,
+   "dudoso": 0,
+   "via_idealo": 16
   },
   "beautinow": {
    "ok": 0,
    "bloqueada": 0,
-   "sin_precio": 3,
+   "sin_precio": 4,
    "dudoso": 0
   },
-  "perfumesclub": {
-   "ok": 6,
+  "eci": {
+   "ok": 17,
    "bloqueada": 0,
-   "sin_precio": 0,
+   "sin_precio": 1,
    "dudoso": 0,
-   "jsonld": 6
-  },
-  "arabicparfums": {
-   "ok": 1,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "jsonld": 1
-  },
-  "makeup": {
-   "ok": 0,
-   "bloqueada": 0,
-   "sin_precio": 3,
-   "dudoso": 0
+   "jsonld": 17
   },
   "firstinfragrance": {
+   "ok": 2,
+   "bloqueada": 4,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "jsonld": 2
+  },
+  "arabicparfums": {
+   "ok": 2,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "jsonld": 1,
+   "jsonld-url": 1
+  },
+  "douglas": {
    "ok": 1,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "jsonld": 1
+   "precio-100ml": 1
   }
  },
  "limpiados": {},
