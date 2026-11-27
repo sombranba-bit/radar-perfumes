@@ -94,6 +94,62 @@
    "referencia": 138.95,
    "aceptado": false
   },
+  "largo": 382415,
+  "titulo": "CHANEL N°5 EAU DE PARFUM · El Corte Inglés",
+  "tamaños": [],
+  "inicio": "<!DOCTYPE html> <html lang=\"es\"><head> <title>CHANEL N°5 EAU DE PARFUM · El Corte Inglés</title> <link rel=\"preconnect\" href=\"https://cdn.grupoelcorteingles.es/\" /><link rel=\"preconnect\" href=\"https://dam.elcorteingles.es\" /><link rel=\"preconnect\" href=\"https://cdn.cookielaw.org\" /><link rel=\"preconnect\" href=\"https://static.icecat.studio\" /> <link rel=\"preload\" crossorigin=\"\" as=\"style\" ty"
+ },
+ "eci": {
+  "url": "https://www.elcorteingles.es/perfumeria/A203921298-3145891255331-pr-chanel-chanel-n5-eau-de-parfum/",
+  "ml": 100,
+  "resultado": {
+   "precio": null,
+   "metodo": "sin-precio",
+   "referencia": 138.95,
+   "aceptado": false
+  },
+  "jsonld": [
+   "{\"@context\":\"https://schema.org\",\"@type\":\"BreadcrumbList\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"item\":{\"@id\":\"https://www.elcorteingles.es/perfumeria/\",\"name\":\"Alta Perfumería\"}},{\"@type\":\"ListItem\",\"position\":2,\"item\":{\"@id\":\"https://www.elcorteingles.es/perfumeria/perfumes-mujer/\",\"name\":\"Perfumes Mujer\"}},{\"@type\":\"ListItem\",\"position\":3,\"item\":{\"@id\":\"https://www.elcorteingles.es/perfumeria/perfumes-mujer/eau-de-parfum/\",\"name\":\"Eau de Parfum\"}}]}",
+   "{\"@context\":\"https://schema.org\",\"@type\":\"Product\",\"name\":\"CHANEL N°5 EAU DE PARFUM\",\"description\":\"Compra online CHANEL N°5 EAU DE PARFUM en El Corte Inglés. Consulta sus características, ofertas disponibles y opciones de envío o recogida.\",\"sku\":\"3145891255331\",\"url\":\"https://www.elcorteingles.es/perfumeria/A203921298-3145891255331-pr-chanel-chanel-n5-eau-de-parfum/\",\"image\":\"https://dam.elcorteingles.es/producto/www-001013512373997-00.jpg\",\"brand\":{\"@type\":\"Brand\",\"name\":\"CHANEL\"},\"offers\":{\"@type\":\"Offer\",\"availability\":\"https://schema.org/InStock\",\"priceCurrency\":\"EUR\",\"price\":154.8,\"hasMerchantReturnPolicy\":{\"@type\":\"MerchantReturnPolicy\",\"returnPolicyCategory\":\"https://schema.org/MerchantReturnFiniteReturnWindow\",\"merchantReturnDays\":15,\"merchantReturnLink\":\"https://www.elcorteingles.es/ayuda/es/devolucion-y-reembolso/devolucion-y-cambio/\",\"returnFees\":\"https://schema.org/FreeReturn\",\"returnMethod\":[\"https://schema.org/ReturnInStore\",\"https://schema.org/ReturnByMail\"],\"refundType\":\"https://schema.org/FullRefund\",\"applicableCountry\":\"ES\",\"returnPolicyCountry\":\"ES\"}},\"subjectOf\":[{\"@type\":\"ImageGallery\",\"image\":[{\"@type\":\"ImageObject\",\"url\":\"https://dam.elcorteingles.es/producto/www-001013512373997-00.jpg\"},{\"@type\":\"ImageObject\",\"url\":\"https://dam.elcorteingles.es/producto/www-001013512373997-01.jpg\"}],\"url\":\"https://www.elcorteingles.es/perfumeria/A203921298-3145891255331-pr-chanel-chanel-n5-eau-de-parfum/\"}]}"
+  ],
+  "precios_en_html": [
+   "pper uiCol12-efP4cX\"><div class=\"info-bar__entries-column\"><div class=\"info-bar__entry\">Env&iacute;o gratis a partir de 24€     Entrega en 2-3 d&iacute;as*     2 muestras gratis*</div",
+   "<span class=\"_765f981b30eaa79d\"><span data-testid=\"price-type-current\" class=\"fd7665d55826d59e\" aria-label=\"Actualmente 89,00 €\">89,00 €</span></span></div></div></div><div data-testid=\"b",
+   "ss=\"_765f981b30eaa79d\"><span data-testid=\"price-type-current\" class=\"fd7665d55826d59e\" aria-label=\"Actualmente 89,00 €\">89,00 €</span></span></div></div></div><div data-testid=\"base-price",
+   "testid=\"price-base-unit\" class=\"d96dabb6ef5c2916\"><span class=\"_9e545b9e3c7fe835\"><span aria-label=\"50 mililitro Precio 178,00 € por 100 mililitro\">50<!-- --> <!-- -->ml<!-- --> (<!-- -->1",
+   "45b9e3c7fe835\"><span aria-label=\"50 mililitro Precio 178,00 € por 100 mililitro\">50<!-- --> <!-- -->ml<!-- --> (<!-- -->178,00 €<!-- --> / <!-- -->100<!-- --> <!-- -->ml<!-- -->)</span></s",
+   "<span class=\"_765f981b30eaa79d\"><span data-testid=\"price-type-current\" class=\"fd7665d55826d59e\" aria-label=\"Actualmente 53,99 €\">53,99 €</span></span></div></div></div><div data-testid=\"b",
+   "ss=\"_765f981b30eaa79d\"><span data-testid=\"price-type-current\" class=\"fd7665d55826d59e\" aria-label=\"Actualmente 53,99 €\">53,99 €</span></span></div></div></div><div data-testid=\"base-price",
+   "testid=\"price-base-unit\" class=\"d96dabb6ef5c2916\"><span class=\"_9e545b9e3c7fe835\"><span aria-label=\"20 mililitro Precio 269,95 € por 100 mililitro\">20<!-- --> <!-- -->ml<!-- --> (<!-- -->2",
+   "45b9e3c7fe835\"><span aria-label=\"20 mililitro Precio 269,95 € por 100 mililitro\">20<!-- --> <!-- -->ml<!-- --> (<!-- -->269,95 €<!-- --> / <!-- -->100<!-- --> <!-- -->ml<!-- -->)</span></s",
+   "<span class=\"_765f981b30eaa79d\"><span data-testid=\"price-type-current\" class=\"fd7665d55826d59e\" aria-label=\"Actualmente 113,00 €\">113,00 €</span></span></div></div></div><div data-testid=\"",
+   "s=\"_765f981b30eaa79d\"><span data-testid=\"price-type-current\" class=\"fd7665d55826d59e\" aria-label=\"Actualmente 113,00 €\">113,00 €</span></span></div></div></div><div data-testid=\"base-price",
+   "testid=\"price-base-unit\" class=\"d96dabb6ef5c2916\"><span class=\"_9e545b9e3c7fe835\"><span aria-label=\"50 mililitro Precio 226,00 € por 100 mililitro\">50<!-- --> <!-- -->ml<!-- --> (<!-- -->2",
+   "45b9e3c7fe835\"><span aria-label=\"50 mililitro Precio 226,00 € por 100 mililitro\">50<!-- --> <!-- -->ml<!-- --> (<!-- -->226,00 €<!-- --> / <!-- -->100<!-- --> <!-- -->ml<!-- -->)</span></s",
+   "<span class=\"_765f981b30eaa79d\"><span data-testid=\"price-type-current\" class=\"fd7665d55826d59e\" aria-label=\"Actualmente 39,99 €\">39,99 €</span></span></div></div></div><div data-testid=\"b",
+   "ss=\"_765f981b30eaa79d\"><span data-testid=\"price-type-current\" class=\"fd7665d55826d59e\" aria-label=\"Actualmente 39,99 €\">39,99 €</span></span></div></div></div><div data-testid=\"base-price",
+   "ta-testid=\"price-base-unit\" class=\"d96dabb6ef5c2916\"><span class=\"_9e545b9e3c7fe835\"><span aria-label=\"5.5 gramo Precio 727,09 € por 100 gramo\">5.5<!-- --> <!-- -->g<!-- --> (<!-- -->727,0",
+   "s=\"_9e545b9e3c7fe835\"><span aria-label=\"5.5 gramo Precio 727,09 € por 100 gramo\">5.5<!-- --> <!-- -->g<!-- --> (<!-- -->727,09 €<!-- --> / <!-- -->100<!-- --> <!-- -->g<!-- -->)</span></sp",
+   "<span class=\"_765f981b30eaa79d\"><span data-testid=\"price-type-current\" class=\"fd7665d55826d59e\" aria-label=\"Actualmente 117,00 €\">117,00 €</span></span></div></div></div><div data-testid=\"",
+   "s=\"_765f981b30eaa79d\"><span data-testid=\"price-type-current\" class=\"fd7665d55826d59e\" aria-label=\"Actualmente 117,00 €\">117,00 €</span></span></div></div></div><div data-testid=\"base-price",
+   "estid=\"price-base-unit\" class=\"d96dabb6ef5c2916\"><span class=\"_9e545b9e3c7fe835\"><span aria-label=\"100 mililitro Precio 117,00 € por 100 mililitro\">100<!-- --> <!-- -->ml<!-- --> (<!-- -->",
+   "b9e3c7fe835\"><span aria-label=\"100 mililitro Precio 117,00 € por 100 mililitro\">100<!-- --> <!-- -->ml<!-- --> (<!-- -->117,00 €<!-- --> / <!-- -->100<!-- --> <!-- -->ml<!-- -->)</span></s",
+   "<span class=\"_765f981b30eaa79d\"><span data-testid=\"price-type-current\" class=\"fd7665d55826d59e\" aria-label=\"Actualmente 123,00 €\">123,00 €</span></span></div></div></div><div data-testid=\"",
+   "s=\"_765f981b30eaa79d\"><span data-testid=\"price-type-current\" class=\"fd7665d55826d59e\" aria-label=\"Actualmente 123,00 €\">123,00 €</span></span></div></div></div><div data-testid=\"base-price",
+   "estid=\"price-base-unit\" class=\"d96dabb6ef5c2916\"><span class=\"_9e545b9e3c7fe835\"><span aria-label=\"100 mililitro Precio 123,00 € por 100 mililitro\">100<!-- --> <!-- -->ml<!-- --> (<!-- -->",
+   "b9e3c7fe835\"><span aria-label=\"100 mililitro Precio 123,00 € por 100 mililitro\">100<!-- --> <!-- -->ml<!-- --> (<!-- -->123,00 €<!-- --> / <!-- -->100<!-- --> <!-- -->ml<!-- -->)</span></s"
+  ],
+  "variantes": []
+ },
+ "fallo_eci": {
+  "url": "https://www.elcorteingles.es/perfumeria/A203921298-3145891255331-pr-chanel-chanel-n5-eau-de-parfum/",
+  "ml": 100,
+  "resultado": {
+   "precio": null,
+   "metodo": "sin-precio",
+   "referencia": 138.95,
+   "aceptado": false
+  },
   "largo": 385745,
   "titulo": "CHANEL N°5 EAU DE PARFUM · El Corte Inglés",
   "tamaños": [],
@@ -178,7 +234,7 @@
    "julia": 138.95
   },
   "listas": 242,
-  "muestra": "c622f65d4e\"></span>\n        <span data-offerlist-segment=\"new\"></span>\n        <span class=\"authorised-badge-available\"\n                  data-trx-visible=\"authorised_badge_availability;1-0-0;sooper\"\n                  data-trx-visible-data='{&#034;badged_offers&#034;:[]}'></span>\n        <li class=\"productOffers-listItemOfferErrorBanner row row-24\">\n\t<div class=\"banner bannerOfferError\">\n\t\t<span class=\"banner-content bannerOfferError-icon\">\n\t\t\t<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<svg width=\"22px\" height=\"22px\" viewBox=\"0 0 64 64\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->\n    <g id=\"Page-1\" stroke=\"none\" stroke-width=\"1\" fill=\"none\" fill-rule=\"evenodd\">\n        <g id=\"04_Above_Offerlist_mobile\" transform=\"translate(-222.000000, -308.000000)\" fill=\"#0771D0\" fill-rule=\"nonzero\">\n            <g id=\"ico_info_circle_filled\" transform=\"translate(222.000000, 308.000000)\">\n                <path d=\"M32,0 C14.326888,0 0,14.326888 0,32 C0,49.673112 14.326888,64 32,64 C49.673112,64 64,49.673112 64,32 C63.9791607,14.3355271 49.6644729,0.0208392747 32,0 Z M34.9090909,46.5454545 C34.9090909,48.1521011 33.6066465,49.4545455 32,49.4545455 C30.3933535,49.4545455 29.0909091,48.1521011 29.0909091,46.5454545 L29.0909091,32 C29.0909091,30.3933535 30.3933535,29.0909091 32,29.0909091 C33.6066465,29.0909091 34.9090909,30.3933535 34.9090909,32 L34.9090909,46.5454545 Z M32,22.1090909 C29.9113595,22.1090909 28.2181818,20.4159132 28.2181818,18.3272727 C28.2181818,16.2386322 29.9113595,14.5454545 32,14.5454545 C34.0886405,14.5454545 35.7818182,16.2386322 35.7818182,18.3272727 C35.7818182,20.4159132 34.0886405,22.1090909 32,22.1090909 Z\" id=\"Shape\"></path>\n            </g>\n        </g>\n    </g>\n</svg>\n</span>\n\t\t<strong class=\"banner-content\" data-label=\"¿Encontraste un error?\">\n\t\t</strong>\n\t\t<span class=\"banner-content bannerOfferError-linkContainer\">\n\t\t\t<a class=\"banner-link\" data-label=\"Infórmanos.\">\n\t\t\t</a>\n\t\t</span>\n\t</div>\n</li>\n<li class=\"productOffers-listItem row row-24 \"\n        \n    data-shop='{\"type\":\"GENERAL\"}'\n        \n            data-trx-click=\"offer_click;2-4-10;sooper\"\n            data-trx-click-data='click_target=>offer-row;offer_click_type=>clickout;{&#034;offer_key&#034;:&#034;648fb0bf1044a44634a1cbeda81f598d&#034;,&#034;shop_id&#034;:&#034;324169&#034;,&#034;offer_position&#034;:&#034;0&#034;,&#034;authorised_badge_available&#034;:false,&#034;leadout_type&#034;:&#034;offer&#034;}'\n        \n                data-mtrx-click='{&#034;shop_name&#034;:&#034;primor.eu&#034;,&#034;products&#034;:[{&#034;id&#034;:589046,&#034;category&#034;:3972,&#034;name&#034;:&#034;Chanel N°5 Eau de Parfum (100 ml)&#034;,&#034;price&#034;:138.94}],&#034;event&#034;:&#",
+  "muestra": "cc3d21ee05\"></span>\n        <span data-offerlist-segment=\"new\"></span>\n        <span class=\"authorised-badge-available\"\n                  data-trx-visible=\"authorised_badge_availability;1-0-0;sooper\"\n                  data-trx-visible-data='{&#034;badged_offers&#034;:[]}'></span>\n        <li class=\"productOffers-listItemOfferErrorBanner row row-24\">\n\t<div class=\"banner bannerOfferError\">\n\t\t<span class=\"banner-content bannerOfferError-icon\">\n\t\t\t<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<svg width=\"22px\" height=\"22px\" viewBox=\"0 0 64 64\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->\n    <g id=\"Page-1\" stroke=\"none\" stroke-width=\"1\" fill=\"none\" fill-rule=\"evenodd\">\n        <g id=\"04_Above_Offerlist_mobile\" transform=\"translate(-222.000000, -308.000000)\" fill=\"#0771D0\" fill-rule=\"nonzero\">\n            <g id=\"ico_info_circle_filled\" transform=\"translate(222.000000, 308.000000)\">\n                <path d=\"M32,0 C14.326888,0 0,14.326888 0,32 C0,49.673112 14.326888,64 32,64 C49.673112,64 64,49.673112 64,32 C63.9791607,14.3355271 49.6644729,0.0208392747 32,0 Z M34.9090909,46.5454545 C34.9090909,48.1521011 33.6066465,49.4545455 32,49.4545455 C30.3933535,49.4545455 29.0909091,48.1521011 29.0909091,46.5454545 L29.0909091,32 C29.0909091,30.3933535 30.3933535,29.0909091 32,29.0909091 C33.6066465,29.0909091 34.9090909,30.3933535 34.9090909,32 L34.9090909,46.5454545 Z M32,22.1090909 C29.9113595,22.1090909 28.2181818,20.4159132 28.2181818,18.3272727 C28.2181818,16.2386322 29.9113595,14.5454545 32,14.5454545 C34.0886405,14.5454545 35.7818182,16.2386322 35.7818182,18.3272727 C35.7818182,20.4159132 34.0886405,22.1090909 32,22.1090909 Z\" id=\"Shape\"></path>\n            </g>\n        </g>\n    </g>\n</svg>\n</span>\n\t\t<strong class=\"banner-content\" data-label=\"¿Encontraste un error?\">\n\t\t</strong>\n\t\t<span class=\"banner-content bannerOfferError-linkContainer\">\n\t\t\t<a class=\"banner-link\" data-label=\"Infórmanos.\">\n\t\t\t</a>\n\t\t</span>\n\t</div>\n</li>\n<li class=\"productOffers-listItem row row-24 \"\n        \n    data-shop='{\"type\":\"GENERAL\"}'\n        \n            data-trx-click=\"offer_click;2-4-10;sooper\"\n            data-trx-click-data='click_target=>offer-row;offer_click_type=>clickout;{&#034;offer_key&#034;:&#034;648fb0bf1044a44634a1cbeda81f598d&#034;,&#034;shop_id&#034;:&#034;324169&#034;,&#034;offer_position&#034;:&#034;0&#034;,&#034;authorised_badge_available&#034;:false,&#034;leadout_type&#034;:&#034;offer&#034;}'\n        \n                data-mtrx-click='{&#034;shop_name&#034;:&#034;primor.eu&#034;,&#034;products&#034;:[{&#034;id&#034;:589046,&#034;category&#034;:3972,&#034;name&#034;:&#034;Chanel N°5 Eau de Parfum (100 ml)&#034;,&#034;price&#034;:138.94}],&#034;event&#034;:&#",
   "notino": null
  },
  "paco": {
@@ -234,7 +290,7 @@
    "an class=\"price_product_sizes\">                                                                                         102,77 €                                                            ",
    "an class=\"price_product_sizes\">                                                                                         143,47 €                                                            ",
    "an class=\"price_product_sizes\">                                                                                         243,50 €                                                            ",
-   "-controls=\"ecc_popup_1929428033\"  />         <label for=\"ec_customization_21668\">             Grabado personalizado por 8,95 €<br />             <span>Dale un toque único a tu regalo con",
+   "-controls=\"ecc_popup_1201084414\"  />         <label for=\"ec_customization_21668\">             Grabado personalizado por 8,95 €<br />             <span>Dale un toque único a tu regalo con",
    "\">Añade un nombre, una fecha o unas palabras especiales.</p>                 <p class=\"ecc_pdp_price\">Grabado láser por 8,95 €</p>                 <div class=\"ecc_charlimit ecc_legacy_ch",
    "9&quot;:115}\" data-free-from=\"39\" data-price-precision=\"2\" data-product-eligible=\"1\" data-threshold-label=\"Gratis desde 39,00 €\" data-free-label=\"Envío gratis con este producto\" aria-live",
    " style=\"text-align: justify;\"><strong>Península y Baleares<br /></strong>Gastos de Envío GRATIS en pedidos superiores a 45€. En pedidos que no lleguen a dicho importe el coste del env",
@@ -265,7 +321,7 @@
   "largo": 2715,
   "titulo": "",
   "tamaños": [],
-  "inicio": "<!DOCTYPE html> <html> <body><script type=\"text/javascript\" src=\"/jX2enMjoxM/Fq8-/bTzgOX/rXk1pJGiV1/TwtHGSk/Vj0K/IXJ5JyR2AQ?v=b5a1d694-6b04-87ab-5fd2-63f2dc9a1735&amp;t=132800805\"></script> <div id=\"sec-if-cpt-container\" role=\"main\" style=\"display: none\"> <div class=\"behavioral-content\"> <div id=\"sec-bc-text-container\"></div> <div id=\"sec-bc-tile-parent\"> <div id=\"s"
+  "inicio": "<!DOCTYPE html> <html> <body><script type=\"text/javascript\" src=\"/jX2enMjoxM/Fq8-/bTzgOX/rXk1pJGiV1/TwtHGSk/Vj0K/IXJ5JyR2AQ?v=487efff2-1f80-7bfa-39da-41ab445417d7&amp;t=394395941\"></script> <div id=\"sec-if-cpt-container\" role=\"main\" style=\"display: none\"> <div class=\"behavioral-content\"> <div id=\"sec-bc-text-container\"></div> <div id=\"sec-bc-tile-parent\"> <div id=\"s"
  },
  "sephora": {
   "url": "https://www.sephora.es/p/coco-mademoiselle--eau-de-parfum-vaporizador---eau-de-parfum-P96042.html",
@@ -666,7 +722,7 @@
    "referencia": 84.95,
    "aceptado": false
   },
-  "largo": 1065591,
+  "largo": 1065606,
   "titulo": " yet. Smarty supplies escaped catalog metadata.\n    var pageMetadata = window.sabinaAnalyticsPage || {};\n    try { delet",
   "tamaños": [
    "100",
@@ -823,7 +879,7 @@
    "referencia": null,
    "aceptado": false
   },
-  "largo": 714484,
+  "largo": 714497,
   "titulo": "Giorgio Armani Acqua di Giò Profondo Eau de Parfum (50ml) desde 51,34 € | Noviembre 2026 | Compara precios en idealo",
   "tamaños": [
    "100",

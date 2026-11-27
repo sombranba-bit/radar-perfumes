@@ -1,5 +1,5 @@
 {
- "at": "2026-11-27T04:12:44+01:00",
+ "at": "2026-11-27T04:22:41+01:00",
  "revisados": 70,
  "tiendas": {
   "douglas": {
@@ -129,9 +129,9 @@
   },
   "avenida": {
    "ok": 13,
-   "bloqueada": 3,
+   "bloqueada": 2,
    "sin_precio": 6,
-   "dudoso": 1,
+   "dudoso": 2,
    "variantes": 12,
    "texto": 1,
    "ejemplos": [
@@ -139,6 +139,12 @@
      "perfume": "armaf-club-de-nuit-intense-man-edt-105",
      "precio": 34.95,
      "referencia": 25.5,
+     "metodo": "texto"
+    },
+    {
+     "perfume": "rabanne-pure-xs-edt-100",
+     "precio": 6.75,
+     "referencia": 54.61,
      "metodo": "texto"
     }
    ]
@@ -181,11 +187,11 @@
    ]
   },
   "firstinfragrance": {
-   "ok": 4,
-   "bloqueada": 3,
+   "ok": 5,
+   "bloqueada": 2,
    "sin_precio": 0,
    "dudoso": 0,
-   "jsonld": 4
+   "jsonld": 5
   },
   "perfumesclub": {
    "ok": 1,
