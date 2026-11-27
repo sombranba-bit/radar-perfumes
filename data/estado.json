@@ -1,214 +1,188 @@
 {
- "at": "2026-11-27T08:02:27+01:00",
+ "at": "2026-11-27T08:44:02+01:00",
  "revisados": 70,
  "tiendas": {
-  "arabicparfums": {
-   "ok": 1,
-   "bloqueada": 2,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "jsonld": 1
-  },
-  "eci": {
-   "ok": 19,
-   "bloqueada": 0,
-   "sin_precio": 5,
-   "dudoso": 0,
-   "jsonld": 18,
-   "jsonld-url": 1
-  },
   "idealo": {
-   "ok": 61,
+   "ok": 62,
    "bloqueada": 0,
    "sin_precio": 1,
-   "dudoso": 2,
-   "jsonld-url": 56,
-   "jsonld": 5,
+   "dudoso": 1,
+   "jsonld-url": 52,
+   "jsonld": 10,
    "ejemplos": [
     {
-     "perfume": "jean-paul-gaultier-le-male-le-parfum-edp-125",
-     "precio": 39.95,
-     "referencia": 84.975,
-     "metodo": "jsonld"
-    },
-    {
-     "perfume": "armani-my-way-edp-90",
-     "precio": 73.1,
-     "referencia": 100.17500000000001,
+     "perfume": "chanel-allure-homme-edition-blanche-edp-100",
+     "precio": 32.37,
+     "referencia": 118.4,
      "metodo": "texto"
     }
    ]
-  },
-  "notino": {
-   "ok": 8,
-   "bloqueada": 45,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "via_idealo": 22,
-   "jsonld": 8
-  },
-  "julia": {
-   "ok": 0,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "via_idealo": 47
-  },
-  "sabina": {
-   "ok": 42,
-   "bloqueada": 0,
-   "sin_precio": 12,
-   "dudoso": 0,
-   "precio-100ml": 2,
-   "jsonld": 40,
-   "via_idealo": 7
-  },
-  "avenida": {
-   "ok": 9,
-   "bloqueada": 24,
-   "sin_precio": 1,
-   "dudoso": 0,
-   "variantes": 9
-  },
-  "brasty": {
-   "ok": 3,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "jsonld": 3,
-   "via_idealo": 15
   },
   "primor": {
    "ok": 0,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "via_idealo": 41
-  },
-  "arenal": {
-   "ok": 0,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "via_idealo": 40
+   "via_idealo": 24
   },
   "druni": {
    "ok": 0,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "via_idealo": 38
+   "via_idealo": 28
   },
-  "laguna": {
-   "ok": 37,
+  "arenal": {
+   "ok": 0,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "precio-100ml": 9,
-   "jsonld-url": 18,
-   "jsonld": 10
+   "via_idealo": 24
   },
   "lookfantastic": {
-   "ok": 34,
+   "ok": 11,
    "bloqueada": 0,
-   "sin_precio": 6,
-   "dudoso": 0,
-   "jsonld": 34
-  },
-  "paco": {
-   "ok": 43,
-   "bloqueada": 0,
-   "sin_precio": 6,
-   "dudoso": 2,
-   "jsonld": 43,
+   "sin_precio": 8,
+   "dudoso": 1,
+   "jsonld": 11,
    "ejemplos": [
     {
-     "perfume": "azzaro-chrome-edt-100",
-     "precio": 73.49,
-     "referencia": 51.47,
-     "metodo": "texto"
-    },
-    {
-     "perfume": "hugo-boss-boss-bottled-absolu-parfum-100",
-     "precio": 140.0,
-     "referencia": 82.57,
-     "metodo": "texto"
+     "perfume": "davidoff-cool-water-edt-125",
+     "precio": 64.69,
+     "referencia": 21.95,
+     "metodo": "jsonld"
     }
    ]
   },
-  "parejo": {
-   "ok": 14,
+  "notino": {
+   "ok": 2,
+   "bloqueada": 13,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "via_idealo": 32,
+   "jsonld": 2
+  },
+  "paco": {
+   "ok": 31,
    "bloqueada": 0,
-   "sin_precio": 2,
-   "dudoso": 5,
+   "sin_precio": 5,
+   "dudoso": 0,
+   "jsonld": 30,
+   "precio-100ml": 1
+  },
+  "parejo": {
+   "ok": 9,
+   "bloqueada": 0,
+   "sin_precio": 1,
+   "dudoso": 1,
+   "jsonld": 9,
    "ejemplos": [
     {
-     "perfume": "yves-saint-laurent-black-opium-edp-90",
-     "precio": 130.05,
-     "referencia": 80.95,
-     "metodo": "jsonld"
-    },
-    {
-     "perfume": "calvin-klein-ck-one-edt-200",
-     "precio": 43.35,
-     "referencia": 27.95,
-     "metodo": "jsonld"
-    },
-    {
-     "perfume": "carolina-herrera-212-vip-men-edt-100",
-     "precio": 84.15,
-     "referencia": 55.95,
+     "perfume": "rabanne-pure-xs-edt-100",
+     "precio": 124.1,
+     "referencia": 59.97,
      "metodo": "jsonld"
     }
-   ],
-   "jsonld": 14
+   ]
+  },
+  "eci": {
+   "ok": 16,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "jsonld": 16
+  },
+  "brasty": {
+   "ok": 0,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "via_idealo": 20
+  },
+  "julia": {
+   "ok": 0,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "via_idealo": 29
+  },
+  "laguna": {
+   "ok": 5,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "jsonld": 3,
+   "precio-100ml": 2
+  },
+  "sabina": {
+   "ok": 11,
+   "bloqueada": 0,
+   "sin_precio": 2,
+   "dudoso": 0,
+   "jsonld": 9,
+   "precio-100ml": 2,
+   "via_idealo": 16
   },
   "sephora": {
    "ok": 0,
    "bloqueada": 0,
-   "sin_precio": 29,
+   "sin_precio": 6,
    "dudoso": 0
   },
-  "makeup": {
-   "ok": 0,
+  "avenida": {
+   "ok": 10,
    "bloqueada": 0,
-   "sin_precio": 3,
-   "dudoso": 0
+   "sin_precio": 5,
+   "dudoso": 2,
+   "variantes": 10,
+   "ejemplos": [
+    {
+     "perfume": "rabanne-pure-xs-edt-100",
+     "precio": 6.75,
+     "referencia": 54.61,
+     "metodo": "texto"
+    },
+    {
+     "perfume": "armaf-odyssey-homme-edp-100",
+     "precio": 29.95,
+     "referencia": 18.740000000000002,
+     "metodo": "texto"
+    }
+   ]
   },
-  "perfumesclub": {
+  "douglas": {
+   "ok": 1,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "precio-100ml": 1
+  },
+  "firstinfragrance": {
    "ok": 5,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
    "jsonld": 5
   },
-  "douglas": {
-   "ok": 3,
+  "perfumesclub": {
+   "ok": 1,
    "bloqueada": 0,
    "sin_precio": 0,
-   "dudoso": 1,
-   "precio-100ml": 3,
-   "ejemplos": [
-    {
-     "perfume": "chanel-chanel-n-5-edp-100",
-     "precio": 727.09,
-     "referencia": 138.95,
-     "metodo": "precio-100ml"
-    }
-   ]
-  },
-  "firstinfragrance": {
-   "ok": 2,
-   "bloqueada": 2,
-   "sin_precio": 0,
    "dudoso": 0,
-   "jsonld": 2
+   "jsonld": 1
   },
   "beautinow": {
    "ok": 0,
    "bloqueada": 0,
-   "sin_precio": 4,
+   "sin_precio": 2,
    "dudoso": 0
+  },
+  "arabicparfums": {
+   "ok": 2,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "jsonld": 2
   }
  },
  "limpiados": {},
