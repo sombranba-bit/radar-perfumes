@@ -1,5 +1,5 @@
 {
- "at": "2026-11-27T16:24:20+01:00",
+ "at": "2026-11-28T16:53:00+01:00",
  "tiendas": {
   "primor": {
    "url": "https://www.primor.eu/es_es/catalogsearch/result/?q=boss+bottled",
@@ -29,17 +29,17 @@
   "douglas": {
    "url": "https://www.douglas.es/es/search?q=boss%20bottled",
    "codigo": 200,
-   "kb": 1712,
+   "kb": 1702,
    "titulo": "Resultados para \"boss bottled\"",
-   "precios_eur": 504,
+   "precios_eur": 494,
    "jsonld": 1,
-   "menciona_boss": 999,
+   "menciona_boss": 985,
    "estado": "con precios"
   },
   "eci": {
    "url": "https://www.elcorteingles.es/buscar/?s=boss+bottled",
    "codigo": 404,
-   "kb": 305,
+   "kb": 299,
    "titulo": "El Corte Inglés",
    "precios_eur": 4,
    "jsonld": 0,
@@ -59,11 +59,11 @@
   "idealo": {
    "url": "https://www.idealo.es/resultados.html?q=boss+bottled",
    "codigo": 200,
-   "kb": 1078,
-   "titulo": "boss bottled en idealo.es",
-   "precios_eur": 129,
+   "kb": 830,
+   "titulo": "Perfume de hombre al mejor precio| Black Friday 2026 en idealo |  ✓ Historial de precios",
+   "precios_eur": 99,
    "jsonld": 0,
-   "menciona_boss": 562,
+   "menciona_boss": 350,
    "estado": "con precios"
   },
   "bodybell": {
@@ -126,7 +126,7 @@
    "codigo": 200,
    "kb": 826,
    "titulo": "Resultados de la búsqueda | Makeup.es",
-   "precios_eur": 212,
+   "precios_eur": 213,
    "jsonld": 3,
    "menciona_boss": 316,
    "estado": "con precios"
@@ -164,11 +164,11 @@
   "lookfantastic": {
    "url": "https://www.lookfantastic.es/search?q=boss+bottled",
    "codigo": 200,
-   "kb": 527,
+   "kb": 526,
    "titulo": "Resultado encontrado para \"boss bottled\"",
    "precios_eur": 97,
    "jsonld": 1,
-   "menciona_boss": 267,
+   "menciona_boss": 255,
    "estado": "con precios"
   },
   "perfumesclub": {
