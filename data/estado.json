@@ -1,29 +1,58 @@
 {
- "at": "2026-11-28T04:54:21+01:00",
+ "at": "2026-11-28T05:39:12+01:00",
  "revisados": 70,
  "tiendas": {
-  "idealo": {
-   "ok": 66,
+  "eci": {
+   "ok": 18,
    "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 1,
-   "jsonld-url": 56,
+   "sin_precio": 3,
+   "dudoso": 0,
+   "jsonld": 18
+  },
+  "idealo": {
+   "ok": 61,
+   "bloqueada": 0,
+   "sin_precio": 2,
+   "dudoso": 2,
+   "jsonld-url": 55,
+   "jsonld": 5,
    "ejemplos": [
     {
-     "perfume": "yves-saint-laurent-opium-edp-90",
-     "precio": 148.67,
-     "referencia": 95.95,
-     "metodo": "jsonld-url"
+     "perfume": "armani-acqua-di-gio-edp-75",
+     "precio": 72.7,
+     "referencia": null,
+     "metodo": "texto"
+    },
+    {
+     "perfume": "lattafa-yara-edp-100",
+     "precio": 11.69,
+     "referencia": 21.49,
+     "metodo": "jsonld"
     }
    ],
-   "jsonld": 10
+   "texto": 1
+  },
+  "notino": {
+   "ok": 5,
+   "bloqueada": 36,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "via_idealo": 24,
+   "jsonld": 5
+  },
+  "julia": {
+   "ok": 0,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "via_idealo": 36
   },
   "primor": {
    "ok": 0,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "via_idealo": 43
+   "via_idealo": 35
   },
   "arenal": {
    "ok": 0,
@@ -32,153 +61,156 @@
    "dudoso": 0,
    "via_idealo": 38
   },
+  "lookfantastic": {
+   "ok": 32,
+   "bloqueada": 0,
+   "sin_precio": 2,
+   "dudoso": 0,
+   "jsonld": 32
+  },
+  "paco": {
+   "ok": 36,
+   "bloqueada": 0,
+   "sin_precio": 1,
+   "dudoso": 3,
+   "ejemplos": [
+    {
+     "perfume": "marc-jacobs-daisy-edt-100",
+     "precio": 108.0,
+     "referencia": 68.945,
+     "metodo": "texto"
+    },
+    {
+     "perfume": "azzaro-the-most-wanted-parfum-parfum-100",
+     "precio": 99.0,
+     "referencia": 72.55000000000001,
+     "metodo": "texto"
+    },
+    {
+     "perfume": "jean-paul-gaultier-ultra-male-edt-125",
+     "precio": 126.0,
+     "referencia": 64.94,
+     "metodo": "texto"
+    }
+   ],
+   "jsonld": 34,
+   "precio-100ml": 2
+  },
+  "avenida": {
+   "ok": 25,
+   "bloqueada": 0,
+   "sin_precio": 6,
+   "dudoso": 1,
+   "variantes": 25,
+   "ejemplos": [
+    {
+     "perfume": "issey-miyake-l-eau-d-issey-pour-homme-edt-125",
+     "precio": 74.95,
+     "referencia": 44.95,
+     "metodo": "variantes"
+    }
+   ]
+  },
   "druni": {
    "ok": 0,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "via_idealo": 37
+   "via_idealo": 35
   },
-  "julia": {
-   "ok": 0,
+  "parejo": {
+   "ok": 10,
    "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "via_idealo": 48
-  },
-  "paco": {
-   "ok": 50,
-   "bloqueada": 0,
-   "sin_precio": 4,
-   "dudoso": 1,
-   "jsonld": 45,
-   "precio-100ml": 5,
+   "sin_precio": 5,
+   "dudoso": 3,
+   "jsonld": 10,
    "ejemplos": [
     {
-     "perfume": "versace-yellow-diamond-edt-90",
-     "precio": 132.0,
-     "referencia": 59.95,
-     "metodo": "texto"
-    }
-   ]
-  },
-  "eci": {
-   "ok": 19,
-   "bloqueada": 0,
-   "sin_precio": 4,
-   "dudoso": 1,
-   "jsonld": 18,
-   "jsonld-url": 1,
-   "ejemplos": [
+     "perfume": "yves-saint-laurent-mon-paris-edp-90",
+     "precio": 159.0,
+     "referencia": 82.95,
+     "metodo": "jsonld"
+    },
     {
-     "perfume": "estee-lauder-pleasures-edp-100",
-     "precio": 112.0,
-     "referencia": 39.92,
+     "perfume": "lattafa-khamrah-edp-100",
+     "precio": 40.8,
+     "referencia": 24.95,
+     "metodo": "jsonld"
+    },
+    {
+     "perfume": "lattafa-yara-edp-100",
+     "precio": 30.6,
+     "referencia": 19.99,
      "metodo": "jsonld"
     }
    ]
   },
-  "brasty": {
-   "ok": 0,
+  "sabina": {
+   "ok": 28,
+   "bloqueada": 0,
+   "sin_precio": 3,
+   "dudoso": 0,
+   "jsonld": 23,
+   "via_idealo": 15,
+   "precio-100ml": 5
+  },
+  "laguna": {
+   "ok": 26,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "via_idealo": 21
+   "jsonld-url": 9,
+   "jsonld": 12,
+   "precio-100ml": 5
+  },
+  "brasty": {
+   "ok": 1,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "via_idealo": 18,
+   "jsonld": 1
   },
   "sephora": {
    "ok": 0,
    "bloqueada": 0,
-   "sin_precio": 19,
+   "sin_precio": 17,
    "dudoso": 0
   },
-  "avenida": {
-   "ok": 15,
-   "bloqueada": 0,
-   "sin_precio": 8,
-   "dudoso": 1,
-   "ejemplos": [
-    {
-     "perfume": "yves-saint-laurent-y-le-parfum-parfum-100",
-     "precio": 20.0,
-     "referencia": 93.5,
-     "metodo": "texto"
-    }
-   ],
-   "variantes": 15
-  },
-  "sabina": {
-   "ok": 15,
-   "bloqueada": 0,
-   "sin_precio": 1,
-   "dudoso": 0,
-   "via_idealo": 19,
-   "jsonld": 13,
-   "precio-100ml": 2
-  },
-  "notino": {
-   "ok": 0,
-   "bloqueada": 17,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "via_idealo": 22
-  },
-  "lookfantastic": {
-   "ok": 14,
-   "bloqueada": 0,
-   "sin_precio": 6,
-   "dudoso": 1,
-   "jsonld": 14,
-   "ejemplos": [
-    {
-     "perfume": "valentino-uomo-intense-edp-100",
-     "precio": 101.2,
-     "referencia": 429.99,
-     "metodo": "jsonld"
-    }
-   ]
-  },
-  "douglas": {
+  "arabicparfums": {
    "ok": 4,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "precio-100ml": 4
-  },
-  "parejo": {
-   "ok": 0,
-   "bloqueada": 0,
-   "sin_precio": 20,
-   "dudoso": 0
-  },
-  "laguna": {
-   "ok": 8,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "precio-100ml": 1,
-   "jsonld": 5,
-   "jsonld-url": 2
+   "jsonld": 4
   },
   "perfumesclub": {
-   "ok": 3,
+   "ok": 4,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "jsonld": 3
+   "jsonld": 4
   },
   "firstinfragrance": {
-   "ok": 2,
+   "ok": 5,
    "bloqueada": 0,
    "sin_precio": 0,
-   "dudoso": 0,
-   "jsonld": 2
+   "dudoso": 1,
+   "jsonld": 5,
+   "ejemplos": [
+    {
+     "perfume": "mancera-instant-crush-edp-120",
+     "precio": 159.0,
+     "referencia": 97.71,
+     "metodo": "jsonld"
+    }
+   ]
   },
-  "arabicparfums": {
-   "ok": 2,
+  "beautinow": {
+   "ok": 0,
    "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "jsonld": 2
+   "sin_precio": 4,
+   "dudoso": 0
   }
  },
  "limpiados": {},
