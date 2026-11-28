@@ -1,37 +1,36 @@
 {
- "at": "2026-11-28T01:19:36+01:00",
+ "at": "2026-11-28T02:03:50+01:00",
  "revisados": 70,
  "tiendas": {
-  "avenida": {
-   "ok": 1,
-   "bloqueada": 23,
-   "sin_precio": 2,
-   "dudoso": 0,
-   "variantes": 1
-  },
   "eci": {
-   "ok": 16,
+   "ok": 19,
    "bloqueada": 0,
-   "sin_precio": 4,
-   "dudoso": 1,
-   "jsonld": 15,
-   "jsonld-url": 1,
-   "ejemplos": [
-    {
-     "perfume": "estee-lauder-pleasures-edp-100",
-     "precio": 112.0,
-     "referencia": 39.92,
-     "metodo": "jsonld"
-    }
-   ]
+   "sin_precio": 3,
+   "dudoso": 0,
+   "jsonld": 19
   },
   "idealo": {
-   "ok": 66,
+   "ok": 62,
    "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
+   "sin_precio": 2,
+   "dudoso": 2,
    "jsonld-url": 56,
-   "jsonld": 10
+   "jsonld": 5,
+   "ejemplos": [
+    {
+     "perfume": "armani-acqua-di-gio-edp-75",
+     "precio": 72.7,
+     "referencia": null,
+     "metodo": "texto"
+    },
+    {
+     "perfume": "lattafa-yara-edp-100",
+     "precio": 11.69,
+     "referencia": 21.49,
+     "metodo": "jsonld"
+    }
+   ],
+   "texto": 1
   },
   "druni": {
    "ok": 0,
@@ -40,121 +39,171 @@
    "dudoso": 0,
    "via_idealo": 36
   },
-  "sabina": {
-   "ok": 18,
-   "bloqueada": 0,
-   "sin_precio": 1,
-   "dudoso": 0,
-   "via_idealo": 32,
-   "jsonld": 16,
-   "precio-100ml": 2
-  },
-  "paco": {
-   "ok": 49,
-   "bloqueada": 0,
-   "sin_precio": 2,
-   "dudoso": 1,
-   "jsonld": 45,
-   "precio-100ml": 4,
-   "ejemplos": [
-    {
-     "perfume": "marc-jacobs-daisy-edt-100",
-     "precio": 108.0,
-     "referencia": 68.945,
-     "metodo": "texto"
-    }
-   ]
-  },
-  "notino": {
-   "ok": 0,
-   "bloqueada": 31,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "via_idealo": 28
-  },
-  "primor": {
-   "ok": 0,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "via_idealo": 43
-  },
   "arenal": {
    "ok": 0,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "via_idealo": 37
+   "via_idealo": 38
+  },
+  "sabina": {
+   "ok": 25,
+   "bloqueada": 0,
+   "sin_precio": 3,
+   "dudoso": 0,
+   "via_idealo": 34,
+   "jsonld": 20,
+   "precio-100ml": 5
   },
   "julia": {
    "ok": 0,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "via_idealo": 44
+   "via_idealo": 36
   },
-  "lookfantastic": {
-   "ok": 23,
-   "bloqueada": 0,
-   "sin_precio": 3,
+  "notino": {
+   "ok": 0,
+   "bloqueada": 28,
+   "sin_precio": 0,
    "dudoso": 0,
-   "jsonld": 23
+   "via_idealo": 20
   },
-  "parejo": {
-   "ok": 0,
+  "paco": {
+   "ok": 35,
    "bloqueada": 0,
-   "sin_precio": 23,
-   "dudoso": 0
+   "sin_precio": 1,
+   "dudoso": 2,
+   "precio-100ml": 2,
+   "jsonld": 33,
+   "ejemplos": [
+    {
+     "perfume": "azzaro-the-most-wanted-parfum-parfum-100",
+     "precio": 99.0,
+     "referencia": 72.55000000000001,
+     "metodo": "texto"
+    },
+    {
+     "perfume": "jean-paul-gaultier-ultra-male-edt-125",
+     "precio": 126.0,
+     "referencia": 64.94,
+     "metodo": "texto"
+    }
+   ]
   },
-  "brasty": {
-   "ok": 0,
+  "perfumesclub": {
+   "ok": 4,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "via_idealo": 21
+   "jsonld": 4
   },
   "sephora": {
    "ok": 0,
    "bloqueada": 0,
-   "sin_precio": 18,
+   "sin_precio": 12,
    "dudoso": 0
   },
-  "laguna": {
-   "ok": 14,
+  "primor": {
+   "ok": 0,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "precio-100ml": 1,
-   "jsonld": 8,
-   "jsonld-url": 5
+   "via_idealo": 32
   },
-  "perfumesclub": {
+  "lookfantastic": {
+   "ok": 28,
+   "bloqueada": 0,
+   "sin_precio": 3,
+   "dudoso": 0,
+   "jsonld": 28
+  },
+  "avenida": {
+   "ok": 21,
+   "bloqueada": 0,
+   "sin_precio": 6,
+   "dudoso": 1,
+   "variantes": 21,
+   "ejemplos": [
+    {
+     "perfume": "issey-miyake-l-eau-d-issey-pour-homme-edt-125",
+     "precio": 74.95,
+     "referencia": 44.95,
+     "metodo": "variantes"
+    }
+   ]
+  },
+  "parejo": {
+   "ok": 8,
+   "bloqueada": 0,
+   "sin_precio": 3,
+   "dudoso": 4,
+   "jsonld": 8,
+   "ejemplos": [
+    {
+     "perfume": "lattafa-khamrah-edp-100",
+     "precio": 40.8,
+     "referencia": 24.95,
+     "metodo": "jsonld"
+    },
+    {
+     "perfume": "lattafa-yara-edp-100",
+     "precio": 30.6,
+     "referencia": 19.99,
+     "metodo": "jsonld"
+    },
+    {
+     "perfume": "carolina-herrera-good-girl-blush-edp-80",
+     "precio": 140.25,
+     "referencia": 89.95,
+     "metodo": "jsonld"
+    }
+   ]
+  },
+  "brasty": {
+   "ok": 1,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "via_idealo": 21,
+   "jsonld": 1
+  },
+  "laguna": {
+   "ok": 20,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "jsonld": 9,
+   "precio-100ml": 5,
+   "jsonld-url": 6
+  },
+  "firstinfragrance": {
+   "ok": 5,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 1,
+   "jsonld": 5,
+   "ejemplos": [
+    {
+     "perfume": "mancera-instant-crush-edp-120",
+     "precio": 159.0,
+     "referencia": 97.71,
+     "metodo": "jsonld"
+    }
+   ]
+  },
+  "beautinow": {
+   "ok": 0,
+   "bloqueada": 0,
+   "sin_precio": 4,
+   "dudoso": 0
+  },
+  "arabicparfums": {
    "ok": 3,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
    "jsonld": 3
-  },
-  "douglas": {
-   "ok": 3,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "precio-100ml": 3
-  },
-  "firstinfragrance": {
-   "ok": 2,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "jsonld": 2
-  },
-  "arabicparfums": {
-   "ok": 2,
-   "bloqueada": 1,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "jsonld": 2
   }
  },
  "limpiados": {},
