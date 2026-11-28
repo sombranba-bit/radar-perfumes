@@ -1,197 +1,207 @@
 {
- "at": "2026-11-28T07:09:46+01:00",
+ "at": "2026-11-28T07:51:04+01:00",
  "revisados": 70,
  "tiendas": {
-  "avenida": {
-   "ok": 19,
+  "idealo": {
+   "ok": 62,
    "bloqueada": 0,
-   "sin_precio": 6,
+   "sin_precio": 1,
    "dudoso": 1,
-   "variantes": 18,
-   "texto": 1,
    "ejemplos": [
     {
-     "perfume": "armaf-club-de-nuit-intense-man-edt-105",
-     "precio": 34.95,
-     "referencia": 25.5,
+     "perfume": "chanel-allure-homme-edition-blanche-edp-100",
+     "precio": 73.4,
+     "referencia": 118.4,
      "metodo": "texto"
+    }
+   ],
+   "jsonld": 9,
+   "jsonld-url": 53
+  },
+  "paco": {
+   "ok": 33,
+   "bloqueada": 0,
+   "sin_precio": 5,
+   "dudoso": 2,
+   "jsonld": 31,
+   "precio-100ml": 2,
+   "ejemplos": [
+    {
+     "perfume": "nautica-voyage-edt-100",
+     "precio": 73.78,
+     "referencia": 20.48,
+     "metodo": "precio-100ml"
+    },
+    {
+     "perfume": "calvin-klein-eternity-edp-100",
+     "precio": 54.95,
+     "referencia": 35.95,
+     "metodo": "jsonld"
     }
    ]
   },
-  "idealo": {
-   "ok": 61,
-   "bloqueada": 0,
-   "sin_precio": 2,
-   "dudoso": 1,
-   "jsonld-url": 56,
-   "jsonld": 4,
-   "ejemplos": [
-    {
-     "perfume": "jean-paul-gaultier-le-male-le-parfum-edp-125",
-     "precio": 39.95,
-     "referencia": 84.975,
-     "metodo": "jsonld"
-    }
-   ],
-   "texto": 1
-  },
   "notino": {
-   "ok": 10,
-   "bloqueada": 37,
+   "ok": 1,
+   "bloqueada": 6,
    "sin_precio": 0,
    "dudoso": 0,
-   "via_idealo": 23,
-   "jsonld": 10
-  },
-  "primor": {
-   "ok": 0,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "via_idealo": 38
-  },
-  "druni": {
-   "ok": 0,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "via_idealo": 35
-  },
-  "arenal": {
-   "ok": 0,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "via_idealo": 34
+   "via_idealo": 31,
+   "jsonld": 1
   },
   "julia": {
    "ok": 0,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "via_idealo": 42
+   "via_idealo": 29
   },
-  "laguna": {
-   "ok": 27,
+  "sabina": {
+   "ok": 5,
+   "bloqueada": 0,
+   "sin_precio": 2,
+   "dudoso": 0,
+   "via_idealo": 20,
+   "jsonld": 4,
+   "precio-100ml": 1
+  },
+  "druni": {
+   "ok": 0,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "jsonld-url": 13,
-   "precio-100ml": 6,
-   "jsonld": 8
+   "via_idealo": 27
   },
-  "paco": {
-   "ok": 42,
+  "arenal": {
+   "ok": 0,
    "bloqueada": 0,
-   "sin_precio": 5,
-   "dudoso": 1,
-   "jsonld": 42,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "via_idealo": 25
+  },
+  "primor": {
+   "ok": 0,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "via_idealo": 26
+  },
+  "brasty": {
+   "ok": 0,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "via_idealo": 21
+  },
+  "avenida": {
+   "ok": 11,
+   "bloqueada": 0,
+   "sin_precio": 7,
+   "dudoso": 4,
    "ejemplos": [
     {
-     "perfume": "hugo-boss-boss-bottled-absolu-parfum-100",
-     "precio": 140.0,
-     "referencia": 82.57,
+     "perfume": "rabanne-pure-xs-edt-100",
+     "precio": 6.75,
+     "referencia": 59.97,
      "metodo": "texto"
+    },
+    {
+     "perfume": "armaf-odyssey-homme-edp-100",
+     "precio": 29.95,
+     "referencia": 18.740000000000002,
+     "metodo": "texto"
+    },
+    {
+     "perfume": "nautica-voyage-edt-100",
+     "precio": 74.95,
+     "referencia": 20.48,
+     "metodo": "variantes"
     }
-   ]
+   ],
+   "variantes": 11
   },
   "parejo": {
-   "ok": 17,
+   "ok": 7,
    "bloqueada": 0,
-   "sin_precio": 2,
-   "dudoso": 3,
+   "sin_precio": 3,
+   "dudoso": 2,
    "ejemplos": [
     {
-     "perfume": "calvin-klein-ck-one-edt-200",
-     "precio": 43.35,
-     "referencia": 27.95,
+     "perfume": "rabanne-pure-xs-edt-100",
+     "precio": 124.1,
+     "referencia": 59.97,
      "metodo": "jsonld"
     },
     {
-     "perfume": "carolina-herrera-ch-men-edt-100",
-     "precio": 92.65,
-     "referencia": 54.95,
-     "metodo": "jsonld"
-    },
-    {
-     "perfume": "lancome-la-vie-est-belle-edp-100",
-     "precio": 163.2,
-     "referencia": 84.32,
+     "perfume": "calvin-klein-eternity-edp-100",
+     "precio": 56.95,
+     "referencia": 35.95,
      "metodo": "jsonld"
     }
    ],
-   "jsonld": 17
+   "jsonld": 7
   },
-  "perfumesclub": {
-   "ok": 3,
+  "lookfantastic": {
+   "ok": 9,
+   "bloqueada": 0,
+   "sin_precio": 8,
+   "dudoso": 1,
+   "jsonld": 9,
+   "ejemplos": [
+    {
+     "perfume": "davidoff-cool-water-edt-125",
+     "precio": 64.69,
+     "referencia": 20.15,
+     "metodo": "jsonld"
+    }
+   ]
+  },
+  "eci": {
+   "ok": 16,
    "bloqueada": 0,
    "sin_precio": 0,
-   "dudoso": 0,
-   "jsonld": 3
-  },
-  "sabina": {
-   "ok": 40,
-   "bloqueada": 0,
-   "sin_precio": 9,
-   "dudoso": 0,
-   "jsonld": 38,
-   "via_idealo": 4,
-   "precio-100ml": 2
+   "dudoso": 1,
+   "jsonld": 16,
+   "ejemplos": [
+    {
+     "perfume": "clinique-happy-edp-100",
+     "precio": 110.0,
+     "referencia": 21.54,
+     "metodo": "jsonld"
+    }
+   ]
   },
   "sephora": {
    "ok": 0,
    "bloqueada": 0,
-   "sin_precio": 27,
+   "sin_precio": 2,
    "dudoso": 0
   },
-  "eci": {
-   "ok": 19,
+  "laguna": {
+   "ok": 4,
    "bloqueada": 0,
-   "sin_precio": 5,
+   "sin_precio": 0,
    "dudoso": 0,
-   "jsonld": 19
+   "precio-100ml": 2,
+   "jsonld": 2
   },
-  "lookfantastic": {
-   "ok": 30,
+  "perfumesclub": {
+   "ok": 1,
    "bloqueada": 0,
-   "sin_precio": 6,
+   "sin_precio": 0,
    "dudoso": 0,
-   "jsonld": 30
+   "jsonld": 1
   },
-  "brasty": {
+  "firstinfragrance": {
    "ok": 2,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "via_idealo": 13,
    "jsonld": 2
-  },
-  "douglas": {
-   "ok": 4,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 1,
-   "precio-100ml": 4,
-   "ejemplos": [
-    {
-     "perfume": "chanel-chanel-n-5-edp-100",
-     "precio": 727.09,
-     "referencia": 138.95,
-     "metodo": "precio-100ml"
-    }
-   ]
-  },
-  "firstinfragrance": {
-   "ok": 7,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "jsonld": 7
   },
   "beautinow": {
    "ok": 0,
    "bloqueada": 0,
-   "sin_precio": 4,
+   "sin_precio": 2,
    "dudoso": 0
   },
   "arabicparfums": {
@@ -199,8 +209,7 @@
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "jsonld": 1,
-   "jsonld-url": 1
+   "jsonld": 2
   }
  },
  "limpiados": {},
