@@ -1,213 +1,159 @@
 {
- "at": "2026-11-28T12:09:56+01:00",
+ "at": "2026-11-28T12:53:23+01:00",
  "revisados": 70,
  "tiendas": {
-  "avenida": {
-   "ok": 14,
+  "eci": {
+   "ok": 15,
    "bloqueada": 0,
-   "sin_precio": 10,
-   "dudoso": 3,
-   "variantes": 13,
+   "sin_precio": 4,
+   "dudoso": 1,
    "ejemplos": [
     {
-     "perfume": "nautica-voyage-edt-100",
-     "precio": 74.95,
-     "referencia": 20.48,
-     "metodo": "variantes"
-    },
-    {
-     "perfume": "elizabeth-arden-green-tea-edt-100",
-     "precio": 17.45,
-     "referencia": 9.6,
-     "metodo": "variantes"
-    },
-    {
-     "perfume": "yves-saint-laurent-y-le-parfum-parfum-100",
-     "precio": 20.0,
-     "referencia": 93.5,
-     "metodo": "texto"
+     "perfume": "estee-lauder-pleasures-edp-100",
+     "precio": 112.0,
+     "referencia": 39.92,
+     "metodo": "jsonld"
     }
    ],
-   "texto": 1
+   "jsonld": 15
   },
   "idealo": {
-   "ok": 63,
+   "ok": 66,
    "bloqueada": 0,
-   "sin_precio": 2,
-   "dudoso": 1,
-   "jsonld-url": 59,
-   "jsonld": 4,
-   "ejemplos": [
-    {
-     "perfume": "yves-saint-laurent-opium-edp-90",
-     "precio": 148.67,
-     "referencia": 95.95,
-     "metodo": "jsonld-url"
-    }
-   ]
+   "sin_precio": 0,
+   "dudoso": 0,
+   "jsonld-url": 57,
+   "jsonld": 9
   },
   "primor": {
    "ok": 0,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "via_idealo": 40
-  },
-  "druni": {
-   "ok": 0,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "via_idealo": 35
+   "via_idealo": 41
   },
   "arenal": {
    "ok": 0,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "via_idealo": 33
+   "via_idealo": 38
   },
-  "brasty": {
+  "druni": {
    "ok": 0,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "via_idealo": 13
+   "via_idealo": 37
   },
-  "sabina": {
-   "ok": 1,
+  "paco": {
+   "ok": 46,
    "bloqueada": 0,
+   "sin_precio": 3,
+   "dudoso": 1,
+   "jsonld": 41,
+   "precio-100ml": 5,
+   "ejemplos": [
+    {
+     "perfume": "marc-jacobs-daisy-edt-100",
+     "precio": 108.0,
+     "referencia": 68.945,
+     "metodo": "texto"
+    }
+   ]
+  },
+  "avenida": {
+   "ok": 1,
+   "bloqueada": 21,
+   "sin_precio": 1,
+   "dudoso": 0,
+   "variantes": 1
+  },
+  "notino": {
+   "ok": 0,
+   "bloqueada": 35,
    "sin_precio": 0,
    "dudoso": 0,
-   "via_idealo": 21,
-   "jsonld": 1
+   "via_idealo": 29
   },
   "julia": {
    "ok": 0,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "via_idealo": 39
-  },
-  "notino": {
-   "ok": 0,
-   "bloqueada": 3,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "via_idealo": 20
-  },
-  "eci": {
-   "ok": 25,
-   "bloqueada": 0,
-   "sin_precio": 1,
-   "dudoso": 1,
-   "jsonld": 24,
-   "ejemplos": [
-    {
-     "perfume": "clinique-happy-edp-100",
-     "precio": 110.0,
-     "referencia": 21.54,
-     "metodo": "jsonld"
-    }
-   ],
-   "jsonld-url": 1
+   "via_idealo": 45
   },
   "lookfantastic": {
-   "ok": 10,
+   "ok": 24,
    "bloqueada": 0,
-   "sin_precio": 7,
-   "dudoso": 1,
-   "jsonld": 10,
-   "ejemplos": [
-    {
-     "perfume": "valentino-uomo-intense-edp-100",
-     "precio": 101.2,
-     "referencia": 429.99,
-     "metodo": "jsonld"
-    }
-   ]
-  },
-  "paco": {
-   "ok": 37,
-   "bloqueada": 0,
-   "sin_precio": 6,
-   "dudoso": 3,
-   "jsonld": 35,
-   "precio-100ml": 2,
-   "ejemplos": [
-    {
-     "perfume": "nautica-voyage-edt-100",
-     "precio": 73.78,
-     "referencia": 20.48,
-     "metodo": "precio-100ml"
-    },
-    {
-     "perfume": "calvin-klein-eternity-edp-100",
-     "precio": 54.95,
-     "referencia": 35.95,
-     "metodo": "jsonld"
-    },
-    {
-     "perfume": "versace-yellow-diamond-edt-90",
-     "precio": 132.0,
-     "referencia": 59.95,
-     "metodo": "texto"
-    }
-   ]
+   "sin_precio": 1,
+   "dudoso": 0,
+   "jsonld": 24
   },
   "parejo": {
-   "ok": 7,
+   "ok": 0,
    "bloqueada": 0,
-   "sin_precio": 2,
-   "dudoso": 3,
-   "jsonld": 7,
-   "ejemplos": [
-    {
-     "perfume": "calvin-klein-eternity-edp-100",
-     "precio": 56.95,
-     "referencia": 35.95,
-     "metodo": "jsonld"
-    },
-    {
-     "perfume": "carolina-herrera-carolina-herrera-edt-100",
-     "precio": 113.9,
-     "referencia": 66.83500000000001,
-     "metodo": "jsonld"
-    },
-    {
-     "perfume": "givenchy-l-interdit-rouge-edp-80",
-     "precio": 126.65,
-     "referencia": 74.1,
-     "metodo": "jsonld"
-    }
-   ]
-  },
-  "firstinfragrance": {
-   "ok": 1,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "jsonld": 1
-  },
-  "douglas": {
-   "ok": 2,
-   "bloqueada": 0,
-   "sin_precio": 0,
-   "dudoso": 0,
-   "precio-100ml": 2
+   "sin_precio": 22,
+   "dudoso": 0
   },
   "sephora": {
    "ok": 0,
    "bloqueada": 0,
-   "sin_precio": 9,
+   "sin_precio": 23,
    "dudoso": 0
   },
-  "laguna": {
-   "ok": 1,
+  "sabina": {
+   "ok": 20,
+   "bloqueada": 0,
+   "sin_precio": 1,
+   "dudoso": 0,
+   "via_idealo": 19,
+   "jsonld": 18,
+   "precio-100ml": 2
+  },
+  "brasty": {
+   "ok": 0,
    "bloqueada": 0,
    "sin_precio": 0,
    "dudoso": 0,
-   "jsonld": 1
+   "via_idealo": 21
+  },
+  "laguna": {
+   "ok": 14,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "precio-100ml": 1,
+   "jsonld": 8,
+   "jsonld-url": 5
+  },
+  "perfumesclub": {
+   "ok": 5,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "jsonld": 5
+  },
+  "douglas": {
+   "ok": 2,
+   "bloqueada": 0,
+   "sin_precio": 1,
+   "dudoso": 0,
+   "precio-100ml": 2
+  },
+  "firstinfragrance": {
+   "ok": 2,
+   "bloqueada": 0,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "jsonld": 2
+  },
+  "arabicparfums": {
+   "ok": 2,
+   "bloqueada": 1,
+   "sin_precio": 0,
+   "dudoso": 0,
+   "jsonld": 2
   }
  },
  "limpiados": {},

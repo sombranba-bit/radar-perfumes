@@ -1,281 +1,11 @@
 {
- "avenida": {
-  "url": "https://www.perfumeriasavenida.com/products/yves-saint-laurent-l-homme-le-parfum-eau-de-parfum-para-hombre",
-  "ml": 100,
-  "resultado": {
-   "precio": 84.95,
-   "metodo": "variantes",
-   "referencia": 87.245,
-   "aceptado": true
-  },
-  "jsonld": [
-   "{\n         \"@context\": \"https://schema.org\",\n         \"@type\": \"Organization\",\n         \"name\": \"Perfumerías Avenida\",\n         \n    \n           \"logo\": \"https:\\/\\/www.perfumeriasavenida.com\\/cdn\\/shop\\/files\\/logo-b-n-avenida_946x.png?v=1789563538\",\n         \n         \"url\": \"https:\\/\\/www.perfumeriasavenida.com\"\n       }",
-   "{\n      \"@context\": \"https://schema.org\",\n      \"@type\": \"BreadcrumbList\",\n      \"itemListElement\": [{\n            \"@type\": \"ListItem\",\n            \"position\": 1,\n            \"name\": \"Inicio\",\n            \"item\": \"https:\\/\\/www.perfumeriasavenida.com\\/\"\n          },{\n            \"@type\": \"ListItem\",\n            \"position\": 2,\n            \"name\": \"Perfumes\",\n            \"item\": \"https:\\/\\/www.perfumeriasavenida.com\\/collections\\/perfumes\"\n          },{\n            \"@type\": \"ListItem\",\n            \"position\": 3,\n            \"name\": \"Perfumes de hombre\",\n            \"item\": \"https:\\/\\/www.perfumeriasavenida.com\\/collections\\/perfumes-hombre\"\n          },{\n            \"@type\": \"ListItem\",\n            \"position\": 4,\n            \"name\": \"L'Homme Le Parfum EDP\",\n            \"item\": \"https:\\/\\/www.perfumeriasavenida.com\\/products\\/yves-saint-laurent-l-homme-le-parfum-eau-de-parfum-para-hombre\"\n          }]\n    }"
-  ],
-  "precios_en_html": [
-   "oard                                   class=\"nl-promocode__btn\"                                   data-clipboard-text=\"20€\"                                                           ",
-   "ip=\"Copiado al portapapeles\"                           >                               <span class=\"nl-promocode__code\">20€</span>                           </copy-clipboard>         ",
-   "=\"true\"                 show-discount        >                 <span class=\"price price--large price--highlight\">       59,95€     </span><span class=\"price text--subdued pdp-unit-price\"",
-   "dad\">         <span class=\"unit-price-measurement\">           <span class=\"unit-price-measurement__price\">              99,92€           </span>           <span class=\"unit-price-measure",
-   "an>         </span>       </span><div class=\"price-list__compare-container\">         <span class=\"price price--compare\">115,00€</span>                                          <span class",
-   "div class=\"unit-price-measurement\">                   <span class=\"unit-price-measurement__price\">                      99,92€                   </span>                   <span class=\"un",
-   "=\"true\"                 show-discount        >                 <span class=\"price price--large price--highlight\">       59,95€     </span><span class=\"price text--subdued pdp-unit-price\"",
-   "dad\">         <span class=\"unit-price-measurement\">           <span class=\"unit-price-measurement__price\">              99,92€           </span>           <span class=\"unit-price-measure",
-   "an>         </span>       </span><div class=\"price-list__compare-container\">         <span class=\"price price--compare\">115,00€</span>                                          <span class",
-   "                      value=\"55125895217485\"                 data-sku=\"92764\"               >                 100 ml -  84,95€               </option><option                             ",
-   "                       value=\"55125895250253\"                 data-sku=\"92768\"               >                 60 ml -  59,95€               </option></select><svg       focusable=\"false",
-   "\"lazy\">            </div>     <div class=\"product-form-reinsurance__text\">                <p>ENVÍO GRATUITO A PARTIR DE 20€</p>            </div>                        </div>        ",
-   "  </svg></div><div class=\"text-with-icons__content-wrapper\"><p class=\"heading heading--small\">ENVÍOS GRATIS A PARTIR DE 20€</p></div>       </div >        <div        href=\"\"       cl",
-   "  </svg></div><div class=\"text-with-icons__content-wrapper\"><p class=\"heading heading--small\">ENVÍOS GRATIS A PARTIR DE 20€</p></div>     </div ><drawer-content       id=\"product-sect",
-   "rrentColor\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>     </svg>ENVÍOS GRATIS A PARTIR DE 20€</p>          <button           type=\"button\"           clas",
-   "rrentColor\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>     </svg>ENVÍOS GRATIS A PARTIR DE 20€</p>          <button           type=\"button\"           clas"
-  ],
-  "variantes": []
- },
- "idealo": {
-  "url": "https://www.idealo.es/precios/200077119/yves-saint-laurent-l-homme-le-parfum-eau-de-parfum-100ml.html",
-  "ml": 100,
-  "resultado": {
-   "precio": 81.61,
-   "metodo": "jsonld-url",
-   "referencia": 91.54,
-   "aceptado": true
-  },
-  "jsonld": [
-   "{\"@context\":\"http://schema.org\",\"@type\":\"Product\",\"name\":\"Yves Saint Laurent L' Homme Le Parfum Eau de Parfum\",\"offers\":{\"@type\":\"AggregateOffer\",\"lowPrice\":81.61,\"highPrice\":161.0,\"priceCurrency\":\"EUR\",\"offerCount\":15,\"availability\":\"https://schema.org/InStock\",\"itemCondition\":\"https://schema.org/NewCondition\"},\"brand\":{\"@type\":\"Brand\",\"name\":\"Yves Saint Laurent\"},\"image\":[\"https://cdn.idealo.com/folder/Product/200077/1/200077119/s11_produktbild_gross/yves-saint-laurent-l-homme-le-parfum-eau-de-parfum-100ml.jpg\",\"https://cdn.idealo.com/folder/Product/200077/1/200077119/s11_produktbild_gross_1/yves-saint-laurent-l-homme-le-parfum-eau-de-parfum-100ml.jpg\",\"https://cdn.idealo.com/folder/Product/200077/1/200077119/s11_produktbild_gross_2/yves-saint-laurent-l-homme-le-parfum-eau-de-parfum-100ml.jpg\",\"https://cdn.idealo.com/folder/Product/200077/1/200077119/s11_produktbild_gross_3/yves-saint-laurent-l-homme-le-parfum-eau-de-parfum-100ml.jpg\",\"https://cdn.idealo.com/folder/Product/200077/1/200077119/s11_produktbild_gross_4/yves-saint-laurent-l-homme-le-parfum-eau-de-parfum-100ml.jpg\",\"https://cdn.idealo.com/folder/Product/200077/1/200077119/s11_produktbild_gross_5/yves-saint-laurent-l-homme-le-parfum-eau-de-parfum-100ml.jpg\",\"https://cdn.idealo.com/folder/Product/200077/1/200077119/s11_produktbild_gross_6/yves-saint-laurent-l-homme-le-parfum-eau-de-parfum-100ml.jpg\",\"https://cdn.idealo.com/folder/Product/200077/1/200077119/s11_produktbild_gross_7/yves-saint-laurent-l-homme-le-parfum-eau-de-parfum-100ml.jpg\",\"https://cdn.idealo.com/folder/Product/200077/1/200077119/s11_produktbild_gross_8/yves-saint-laurent-l-homme-le-parfum-eau-de-parfum-100ml.jpg\",\"https://cdn.idealo.com/folder/Product/200077/1/200077119/s11_produktbild_gross_9/yves-saint-laurent-l-homme-le-parfum-eau-de-parfum-100ml.jpg\",\"https://cdn.idealo.com/folder/Product/200077/1/200077119/s11_produktbild_gross_10/yves-saint-laurent-l-homme-le-parfum-eau-de-parfum-100ml.jpg\",\"https://cdn.idealo.com/folder/Product/200077/1/200077119/s11_produktbild_gross_11/yves-saint-laurent-l-homme-le-parfum-eau-de-parfum-100ml.jpg\",\"https://cdn.idealo.com/folder/Product/200077/1/200077119/s11_produktbild_gross_12/yves-saint-laurent-l-homme-le-parfum-eau-de-parfum-100ml.jpg\",\"https://cdn.idealo.com/folder/Product/200077/1/200077119/s11_produktbild_gross_13/yves-saint-laurent-l-homme-le-parfum-eau-de-parfum-100ml.jpg\",\"https://cdn.idealo.com/folder/Product/200077/1/200077119/s11_produktbild_gross_14/yves-saint-laurent-l-homme-le-parfum-eau-de-parfum-100ml.jpg\",\"https://cdn.idealo.com/folder/Product/200077/1/200077119/s11_produktbild_gross_15/yves-saint-laurent-l-homme-le-parfum-eau-de-parfum-100ml.jpg\"],\"description\":\"Perfumes de hombre Yves Saint Laurent  L' Homme Le Parfum Eau de Parfum (100ml) al mejor precio en idealo.es ! | ✓ Guía para comprar online ✓ Análisis y opiniones ✓ Las mejores ofertas y precios baratos\",\"url\":\"https://www.idealo.es/precios/200077119/yves-saint-laurent-l-homme-le-parfum-eau-de-parf",
-   "{\"@context\":\"https://schema.org\",\"@type\":\"ProductGroup\",\"name\":\"Yves Saint Laurent L' Homme Le Parfum Eau de Parfum\",\"brand\":{\"@type\":\"Brand\",\"name\":\"Yves Saint Laurent\"},\"productGroupID\":\"200077117\",\"hasVariant\":[{\"@type\":\"Product\",\"@id\":\"https://www.idealo.es/precios/200077119/yves-saint-laurent-l-homme-le-parfum-eau-de-parfum-100ml.html\",\"url\":\"https://www.idealo.es/precios/200077119/yves-saint-laurent-l-homme-le-parfum-eau-de-parfum-100ml.html\",\"name\":\"Yves Saint Laurent L' Homme Le Parfum Eau de Parfum (100ml)\",\"sku\":\"3614272890626\",\"image\":[\"https://cdn.idealo.com/folder/Product/200077/1/200077119/s11_produktbild_max/yves-saint-laurent-l-homme-le-parfum-eau-de-parfum-100ml.jpg\",\"https://cdn.idealo.com/folder/Product/200077/1/200077119/s11_produktbild_max_1/yves-saint-laurent-l-homme-le-parfum-eau-de-parfum-100ml.jpg\",\"https://cdn.idealo.com/folder/Product/200077/1/200077119/s11_produktbild_max_2/yves-saint-laurent-l-homme-le-parfum-eau-de-parfum-100ml.jpg\",\"https://cdn.idealo.com/folder/Product/200077/1/200077119/s11_produktbild_max_3/yves-saint-laurent-l-homme-le-parfum-eau-de-parfum-100ml.jpg\",\"https://cdn.idealo.com/folder/Product/200077/1/200077119/s11_produktbild_max_4/yves-saint-laurent-l-homme-le-parfum-eau-de-parfum-100ml.jpg\",\"https://cdn.idealo.com/folder/Product/200077/1/200077119/s11_produktbild_max_5/yves-saint-laurent-l-homme-le-parfum-eau-de-parfum-100ml.jpg\",\"https://cdn.idealo.com/folder/Product/200077/1/200077119/s11_produktbild_max_6/yves-saint-laurent-l-homme-le-parfum-eau-de-parfum-100ml.jpg\",\"https://cdn.idealo.com/folder/Product/200077/1/200077119/s11_produktbild_max_7/yves-saint-laurent-l-homme-le-parfum-eau-de-parfum-100ml.jpg\",\"https://cdn.idealo.com/folder/Product/200077/1/200077119/s11_produktbild_max_8/yves-saint-laurent-l-homme-le-parfum-eau-de-parfum-100ml.jpg\",\"https://cdn.idealo.com/folder/Product/200077/1/200077119/s11_produktbild_max_9/yves-saint-laurent-l-homme-le-parfum-eau-de-parfum-100ml.jpg\",\"https://cdn.idealo.com/folder/Product/200077/1/200077119/s11_produktbild_max_10/yves-saint-laurent-l-homme-le-parfum-eau-de-parfum-100ml.jpg\",\"https://cdn.idealo.com/folder/Product/200077/1/200077119/s11_produktbild_max_11/yves-saint-laurent-l-homme-le-parfum-eau-de-parfum-100ml.jpg\",\"https://cdn.idealo.com/folder/Product/200077/1/200077119/s11_produktbild_max_12/yves-saint-laurent-l-homme-le-parfum-eau-de-parfum-100ml.jpg\",\"https://cdn.idealo.com/folder/Product/200077/1/200077119/s11_produktbild_max_13/yves-saint-laurent-l-homme-le-parfum-eau-de-parfum-100ml.jpg\",\"https://cdn.idealo.com/folder/Product/200077/1/200077119/s11_produktbild_max_14/yves-saint-laurent-l-homme-le-parfum-eau-de-parfum-100ml.jpg\",\"https://cdn.idealo.com/folder/Product/200077/1/200077119/s11_produktbild_max_15/yves-saint-laurent-l-homme-le-parfum-eau-de-parfum-100ml.jpg\"]},{\"url\":\"https://www.idealo.es/precios/200077118/yves-saint-laurent-l-homme-le-parfum-eau-de-parfum-60ml.html\"}]}",
-   "{\"@context\":\"http://schema.org\",\"@type\":\"Product\",\"name\":\"Yves Saint Laurent L' Homme Le Parfum Eau de Parfum\",\"review\":{\"@type\":\"Review\",\"author\":{\"@type\":\"Organization\",\"name\":\"idealo\"},\"positiveNotes\":{\"@type\":\"ItemList\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Efecto de fragancia duradero gracias a la nota base leñosa-aromática\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Composición de fragancia compleja con notas leñosas y orientales\"},{\"@type\":\"ListItem\",\"position\":3,\"name\":\"Mayor concentración de fragancia que Eau de Toilette\"}]},\"negativeNotes\":{\"@type\":\"ItemList\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Más adecuado para ocasiones especiales\"}]}}}",
-   "{\"@context\":\"https://schema.org\",\"@type\":\"FAQPage\",\"mainEntity\":[{\"@type\":\"Question\",\"name\":\"¿Qué carácter aromático se describe?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Como fragancia amaderada-aromática, el perfume combina madera de cedro, madera de ámbar y especias en una composición potente y elegante.\"}},{\"@type\":\"Question\",\"name\":\"¿Qué efecto aromático tiene el perfume?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"En la ficha técnica del producto, el efecto aromático se describe como sensual, misterioso y carismático.\"}},{\"@type\":\"Question\",\"name\":\"¿En qué tamaños está disponible el perfume?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Se ofrecen tres tamaños: 40 ml, 60 ml y 100 ml.\"}},{\"@type\":\"Question\",\"name\":\"¿Qué concentración tiene la fragancia?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Con una concentración de Eau de Parfum, la fragancia proporciona una liberación aromática intensa y duradera.\"}}]}"
-  ],
-  "precios_en_html": [
-   "e-le-parfum-eau-de-parfum-100ml.jpg\"/> \t\t\t<title>Yves Saint Laurent L&#039; Homme Le Parfum Eau de Parfum (100ml) desde 81,61 € | Noviembre 2026 | Compara precios en idealo</title>  \t<met",
-   "),o=[i,...l].slice(0,10);Ct(o)},Nt=[\"Ich suche meine neue Waschmaschine.\",\"Vergleiche iPhone 17 mit Samsung S26!\",\"Sind 599€ ein Deal für's Galaxy S26 FE?\"],Mt=({onPromptClick:e})=>he(",
-   "329792&amp;type=offer&amp;pos=-2\"                                class=\"leadoutbox-priceAmount\" rel=\"noopener nofollow\">81,61 €</a>             <span>Gastos de envío no incluidos</span>  ",
-   "follow\">81,61 €</a>             <span>Gastos de envío no incluidos</span>             <div class=\"leadoutbox-priceBase\">816,10 €/l</div>             </div>         <a target=\"_blank\"      ",
-   "r-xlarge\" \t\t   data-trx-click=\"product_stage_cta_click;1-0-0;sooper\" \t\t> \t\t\t<p class=\"oopStage-priceRangeCtaRange\"> \t\t\t\t81,61 € – 161,00 €</p> \t\t\t<span class=\"oopStage-priceRangeCtaButton",
-   "\t\t   data-trx-click=\"product_stage_cta_click;1-0-0;sooper\" \t\t> \t\t\t<p class=\"oopStage-priceRangeCtaRange\"> \t\t\t\t81,61 € – 161,00 €</p> \t\t\t<span class=\"oopStage-priceRangeCtaButton\"> \t\t\t\tComp",
-   " class=\"oopStage-stickyPriceCtaPriceLabel\">desde</span>                 <span class=\"oopStage-stickyPriceCtaPriceValue\">81,61 €</span>             </span>             <a class=\"oopStage-s",
-   "eRange hide\"> \t\t\t\t<span class=\"oopStage-priceRangeOffers\">15 ofertas:</span> \t\t\t\t<span class=\"oopStage-priceRangePrice\">81,61 € – 161,00 €</span> \t\t\t</a> \t\t</div>                  <div cl",
-   "e\"> \t\t\t\t<span class=\"oopStage-priceRangeOffers\">15 ofertas:</span> \t\t\t\t<span class=\"oopStage-priceRangePrice\">81,61 € – 161,00 €</span> \t\t\t</a> \t\t</div>                  <div class=\"oopSta",
-   " Black Eau de Parfum</div> \t\t\t\t\t\t\t</a> \t\t\t\t\t\t\t<div class=\"topTenProducts-product-description-price\"> \t\t\t\t\t\t\t\tdesde&nbsp;32,00 €</div> \t\t\t\t\t\t</div>  \t\t\t\t\t</li> \t\t\t\t<li class=\"topTenProduct",
-   "se Man Eau de Parfum</div> \t\t\t\t\t\t\t</a> \t\t\t\t\t\t\t<div class=\"topTenProducts-product-description-price\"> \t\t\t\t\t\t\t\tdesde&nbsp;46,69 €</div> \t\t\t\t\t\t</div>  \t\t\t\t\t</li> \t\t\t\t<li class=\"topTenProduct",
-   "rent Y Eau de Parfum</div> \t\t\t\t\t\t\t</a> \t\t\t\t\t\t\t<div class=\"topTenProducts-product-description-price\"> \t\t\t\t\t\t\t\tdesde&nbsp;45,87 €</div> \t\t\t\t\t\t</div>  \t\t\t\t\t</li> \t\t\t\t<li class=\"topTenProduct",
-   "I Will Eau de Parfum</div> \t\t\t\t\t\t\t</a> \t\t\t\t\t\t\t<div class=\"topTenProducts-product-description-price\"> \t\t\t\t\t\t\t\tdesde&nbsp;39,29 €</div> \t\t\t\t\t\t</div>  \t\t\t\t\t</li> \t\t\t\t<li class=\"topTenProduct",
-   "Elixir Eau de Parfum</div> \t\t\t\t\t\t\t</a> \t\t\t\t\t\t\t<div class=\"topTenProducts-product-description-price\"> \t\t\t\t\t\t\t\tdesde&nbsp;56,92 €</div> \t\t\t\t\t\t</div>  \t\t\t\t\t</li> \t\t\t\t<li class=\"topTenProduct",
-   "e Beau Eau de Parfum</div> \t\t\t\t\t\t\t</a> \t\t\t\t\t\t\t<div class=\"topTenProducts-product-description-price\"> \t\t\t\t\t\t\t\tdesde&nbsp;52,02 €</div> \t\t\t\t\t\t</div>  \t\t\t\t\t</li> \t\t\t\t<li class=\"topTenProduct",
-   " Acqua di Giò Parfum</div> \t\t\t\t\t\t\t</a> \t\t\t\t\t\t\t<div class=\"topTenProducts-product-description-price\"> \t\t\t\t\t\t\t\tdesde&nbsp;44,05 €</div> \t\t\t\t\t\t</div>  \t\t\t\t\t</li> \t\t\t\t<li class=\"topTenProduct",
-   "auvage Eau de Parfum</div> \t\t\t\t\t\t\t</a> \t\t\t\t\t\t\t<div class=\"topTenProducts-product-description-price\"> \t\t\t\t\t\t\t\tdesde&nbsp;69,95 €</div> \t\t\t\t\t\t</div>  \t\t\t\t\t</li> \t\t\t\t<li class=\"topTenProduct",
-   "rent MYSLF Le Parfum</div> \t\t\t\t\t\t\t</a> \t\t\t\t\t\t\t<div class=\"topTenProducts-product-description-price\"> \t\t\t\t\t\t\t\tdesde&nbsp;51,97 €</div> \t\t\t\t\t\t</div>  \t\t\t\t\t</li> \t\t\t\t<li class=\"topTenProduct",
-   "rfully Eau de Parfum</div> \t\t\t\t\t\t\t</a> \t\t\t\t\t\t\t<div class=\"topTenProducts-product-description-price\"> \t\t\t\t\t\t\t\tdesde&nbsp;44,94 €</div> \t\t\t\t\t\t</div>  \t\t\t\t\t</li> \t\t\t\t</ol> \t\t</section> \t<sec",
-   "a> \t\t\t\t\t\t\t\t</div> \t\t\t\t\t\t\t\t<div class=\"sideBar-product-description-price\">                                    desde&nbsp;60,03 €</div> \t\t\t\t\t\t\t</div> \t\t\t\t\t</li> \t\t\t\t<li class=\"sideBar-produ",
-   "a> \t\t\t\t\t\t\t\t</div> \t\t\t\t\t\t\t\t<div class=\"sideBar-product-description-price\">                                    desde&nbsp;70,23 €</div> \t\t\t\t\t\t\t</div> \t\t\t\t\t</li> \t\t\t\t<li class=\"sideBar-produ",
-   "a> \t\t\t\t\t\t\t\t</div> \t\t\t\t\t\t\t\t<div class=\"sideBar-product-description-price\">                                    desde&nbsp;72,71 €</div> \t\t\t\t\t\t\t</div> \t\t\t\t\t</li> \t\t\t\t<li class=\"sideBar-produ",
-   "a> \t\t\t\t\t\t\t\t</div> \t\t\t\t\t\t\t\t<div class=\"sideBar-product-description-price\">                                    desde&nbsp;45,87 €</div> \t\t\t\t\t\t\t</div> \t\t\t\t\t</li> \t\t\t\t</ul>  \t\t</section>     ",
-   "                                   target=\"_blank\"                rel=\"noopener nofollow\"             >                 81,61 €<span class=\"productOffers-listItemOfferBasePrice\">         ",
-   "ollow\"             >                 81,61 €<span class=\"productOffers-listItemOfferBasePrice\">                         816,10 €/l</span>                 </a>         <div class=\"best-tota"
-  ],
-  "variantes": []
- },
- "idealo_ofertas": {
-  "perfume": "yves-saint-laurent-l-homme-le-parfum-edp-100",
-  "encontradas": {
-   "primor": 82.94,
-   "druni": 82.95,
-   "arenal": 82.95,
-   "brasty": 91.54,
-   "sabina": 95.96,
-   "julia": 104.0,
-   "notino": 124.0
-  },
-  "listas": 765,
-  "muestra": "04910a45a8\"></span>\n        <span data-offerlist-segment=\"new\"></span>\n        <span class=\"authorised-badge-available\"\n                  data-trx-visible=\"authorised_badge_availability;1-0-0;sooper\"\n                  data-trx-visible-data='{&#034;badged_offers&#034;:[]}'></span>\n        <li class=\"productOffers-listItemOfferErrorBanner row row-24\">\n\t<div class=\"banner bannerOfferError\">\n\t\t<span class=\"banner-content bannerOfferError-icon\">\n\t\t\t<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<svg width=\"22px\" height=\"22px\" viewBox=\"0 0 64 64\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->\n    <g id=\"Page-1\" stroke=\"none\" stroke-width=\"1\" fill=\"none\" fill-rule=\"evenodd\">\n        <g id=\"04_Above_Offerlist_mobile\" transform=\"translate(-222.000000, -308.000000)\" fill=\"#0771D0\" fill-rule=\"nonzero\">\n            <g id=\"ico_info_circle_filled\" transform=\"translate(222.000000, 308.000000)\">\n                <path d=\"M32,0 C14.326888,0 0,14.326888 0,32 C0,49.673112 14.326888,64 32,64 C49.673112,64 64,49.673112 64,32 C63.9791607,14.3355271 49.6644729,0.0208392747 32,0 Z M34.9090909,46.5454545 C34.9090909,48.1521011 33.6066465,49.4545455 32,49.4545455 C30.3933535,49.4545455 29.0909091,48.1521011 29.0909091,46.5454545 L29.0909091,32 C29.0909091,30.3933535 30.3933535,29.0909091 32,29.0909091 C33.6066465,29.0909091 34.9090909,30.3933535 34.9090909,32 L34.9090909,46.5454545 Z M32,22.1090909 C29.9113595,22.1090909 28.2181818,20.4159132 28.2181818,18.3272727 C28.2181818,16.2386322 29.9113595,14.5454545 32,14.5454545 C34.0886405,14.5454545 35.7818182,16.2386322 35.7818182,18.3272727 C35.7818182,20.4159132 34.0886405,22.1090909 32,22.1090909 Z\" id=\"Shape\"></path>\n            </g>\n        </g>\n    </g>\n</svg>\n</span>\n\t\t<strong class=\"banner-content\" data-label=\"¿Encontraste un error?\">\n\t\t</strong>\n\t\t<span class=\"banner-content bannerOfferError-linkContainer\">\n\t\t\t<a class=\"banner-link\" data-label=\"Infórmanos.\">\n\t\t\t</a>\n\t\t</span>\n\t</div>\n</li>\n<li class=\"productOffers-listItem row row-24 \"\n        \n    data-shop='{\"type\":\"IDECL\"}'\n        \n            data-trx-click=\"offer_click;2-4-10;sooper\"\n            data-trx-click-data='click_target=>offer-row;offer_click_type=>voucher_overlay;{&#034;offer_key&#034;:&#034;97be10f2b824ba4cfdb888a226b1a02b&#034;,&#034;shop_id&#034;:&#034;329792&#034;,&#034;offer_position&#034;:&#034;0&#034;,&#034;authorised_badge_available&#034;:false,&#034;leadout_type&#034;:&#034;offer&#034;}'\n        \n    data-error-data-url=\"L29mZmVycGFnZS9vZmZlci9lcnJvci9hcGkvcHJvZHVjdC8yMDAwNzcxMTkvb2ZmZXJrZXkvOTdiZTEwZjJiODI0YmE0Y2ZkYjg4OGEyMjZiMWEwMmI/b2ZmZXJJbmRleD0w\"\n    data-error-reporting-overlay-url=\"https://www.idealo.es/offerpage/ui/error-reporting/conten",
-  "notino": "on&#034;:&#034;11&#034;,&#034;authorised_badge_available&#034;:false,&#034;leadout_type&#034;:&#034;offer&#034;}'\n    \n>\n    <a rel=\"noopener nofollow\" target=\"_blank\"\n        \n            href=\"/relocator/relocate?categoryId=8694&amp;offerKey=e3ffeb5e5381341599df46f9cc8de59b&amp;pos=12&amp;price=121.82&amp;productid=200077119&amp;sid=335379&amp;type=offer\"\n        \n    >\n        <span class=\"productOffers-listItemOfferDeliveryStatusMobileText\">\n            <p class=\"productOffers-listItemOfferDeliveryStatusDates productOffers-listItemOfferDeliveryStatus\">\n       <span class=\"productOffers-listItemOfferDeliveryStatusDatesTitle\">\n           Entrega:\n       </span>\n        <span class=\"productOffers-listItemOfferDeliveryStatusDatesRange\">\n            hasta vie 04.12.</span>\n    </p>\n</span>\n    </a>\n</span>\n\n</div>\n<a class=\"productOffers-listItemOfferLink\"\n        \n            href=\"/relocator/relocate?categoryId=8694&amp;offerKey=e3ffeb5e5381341599df46f9cc8de59b&amp;pos=12&amp;price=121.82&amp;productid=200077119&amp;sid=335379&amp;type=offer\"\n        \n   target=\"_blank\"\n   data-shop-name=\"sweetcare.com\"\n   rel=\"noopener nofollow\"\n>\n</a>\n</li>\n<li class=\"productOffers-listItem row row-24 \"\n        \n    data-shop='{\"type\":\"IDECL\"}'\n        \n            data-trx-click=\"offer_click;2-4-10;sooper\"\n            data-trx-click-data='click_target=>offer-row;offer_click_type=>voucher_overlay;{&#034;offer_key&#034;:&#034;8d7e3bc508e396a93911d23b9c4fb269&#034;,&#034;shop_id&#034;:&#034;298684&#034;,&#034;offer_position&#034;:&#034;12&#034;,&#034;authorised_badge_available&#034;:false,&#034;leadout_type&#034;:&#034;offer&#034;}'\n        \n    data-error-data-url=\"L29mZmVycGFnZS9vZmZlci9lcnJvci9hcGkvcHJvZHVjdC8yMDAwNzcxMTkvb2ZmZXJrZXkvOGQ3ZTNiYzUwOGUzOTZhOTM5MTFkMjNiOWM0ZmIyNjk/b2ZmZXJJbmRleD0xMg==\"\n    data-error-reporting-overlay-url=\"https://www.idealo.es/offerpage/ui/error-reporting/content?locale=es_ES&language=es_ES&productId=200077119&productName=Yves%20Saint%20Laurent%20L'%20Homme%20Le%20Parfum%20Eau%20de%20Parfum%20(100ml)&shopName=notino.es&offerKey=8d7e3bc508e396a939"
- },
- "busqueda_parejo": {
-  "perfume": "valentino-uomo-edt-100",
-  "encontrada": null,
-  "enlaces": [
-   "https://www.joyeriaparejo.com/complementos/fundas-para-portatil",
-   "https://www.joyeriaparejo.com/regalos",
-   "https://www.joyeriaparejo.com/regalos/regalos-padre",
-   "https://www.joyeriaparejo.com/regalos/regalos-madre",
-   "https://www.joyeriaparejo.com/anillos/alianzas-de-boda",
-   "https://www.joyeriaparejo.com/anillos/anillos-de-compromiso",
-   "https://www.joyeriaparejo.com/pendientes/pendientes-boda",
-   "https://www.joyeriaparejo.com/joyas/joyas-bautizo",
-   "https://www.joyeriaparejo.com/joyas/comunion",
-   "https://www.joyeriaparejo.com/relojes/relojes-primera-comunion",
-   "https://www.joyeriaparejo.com/outlet",
-   "https://www.joyeriaparejo.com/",
-   "/index.php?controller=category&amp;id_category=436",
-   "/index.php?controller=category&amp;id_category=437",
-   "/index.php?controller=category&amp;id_category=210014230",
-   "/index.php?controller=category&amp;id_category=210013966",
-   "/index.php?controller=category&amp;id_category=210014264",
-   "/index.php?controller=category&amp;id_category=210013951",
-   "/index.php?controller=category&amp;id_category=210014245",
-   "/index.php?controller=cms&amp;id_cms=4",
-   "https://www.joyeriaparejo.com/contactenos",
-   "/index.php?controller=cms&amp;id_cms=5",
-   "/index.php?controller=cms&amp;id_cms=7",
-   "/index.php?controller=cms&amp;id_cms=1",
-   "/index.php?controller=cms&amp;id_cms=2",
-   "tel:955815835",
-   "mailto:pedidosweb@joyeriaparejo.com",
-   "https://www.facebook.com/joyeriaparejo/",
-   "https://x.com/joyeriaparejo",
-   "https://www.youtube.com/@JoyeriaRelojesParejo",
-   "https://www.instagram.com/joyeriaparejo/",
-   "https://es.linkedin.com/company/joyer%C3%ADa-parejo",
-   "https://www.tiktok.com/@joyeriaparejo",
-   "/modules/parejolocation/views/css/popup.css?v=1784642388"
-  ]
- },
- "eci": {
-  "url": "https://www.elcorteingles.es/perfumeria/A50367835-3614274024807-pr-eau-de-toilette-born-in-roma-uomo-green-stravaganza-100-ml-valentino-100-ml/",
-  "ml": 100,
-  "resultado": {
-   "precio": 91.0,
-   "metodo": "jsonld",
-   "referencia": 75.0,
-   "aceptado": true
-  },
-  "jsonld": [
-   "{\"@context\":\"https://schema.org\",\"@type\":\"BreadcrumbList\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"item\":{\"@id\":\"https://www.elcorteingles.es/perfumeria/\",\"name\":\"Alta Perfumería\"}},{\"@type\":\"ListItem\",\"position\":2,\"item\":{\"@id\":\"https://www.elcorteingles.es/perfumeria/perfumes-hombre/\",\"name\":\"Perfumes Hombre\"}},{\"@type\":\"ListItem\",\"position\":3,\"item\":{\"@id\":\"https://www.elcorteingles.es/perfumeria/perfumes-hombre/eau-de-toilette/\",\"name\":\"Eau de Toilette\"}}]}",
-   "{\"@context\":\"https://schema.org\",\"@type\":\"Product\",\"name\":\"Eau de Toilette Born in Roma Uomo Green Stravaganza 100 ml Valentino - 100 ml\",\"description\":\"Compra online Eau de Toilette Born in Roma Uomo Green Stravaganza 100 ml Valentino - 100 ml en El Corte Inglés. Consulta sus características, ofertas disponibles y opciones de envío o recogida.\",\"sku\":\"3614274024807\",\"url\":\"https://www.elcorteingles.es/perfumeria/A50367835-3614274024807-pr-eau-de-toilette-born-in-roma-uomo-green-stravaganza-100-ml-valentino-100-ml/\",\"image\":\"https://dam.elcorteingles.es/producto/www-001013513513781-00.jpg\",\"brand\":{\"@type\":\"Brand\",\"name\":\"Valentino\"},\"offers\":{\"@type\":\"Offer\",\"availability\":\"https://schema.org/InStock\",\"priceCurrency\":\"EUR\",\"price\":91,\"priceSpecification\":[{\"@type\":\"UnitPriceSpecification\",\"priceType\":\"https://schema.org/StrikethroughPrice\",\"price\":140,\"priceCurrency\":\"EUR\"}],\"hasMerchantReturnPolicy\":{\"@type\":\"MerchantReturnPolicy\",\"returnPolicyCategory\":\"https://schema.org/MerchantReturnFiniteReturnWindow\",\"merchantReturnDays\":15,\"merchantReturnLink\":\"https://www.elcorteingles.es/ayuda/es/devolucion-y-reembolso/devolucion-y-cambio/\",\"returnFees\":\"https://schema.org/FreeReturn\",\"returnMethod\":[\"https://schema.org/ReturnInStore\",\"https://schema.org/ReturnByMail\"],\"refundType\":\"https://schema.org/FullRefund\",\"applicableCountry\":\"ES\",\"returnPolicyCountry\":\"ES\"}},\"subjectOf\":[{\"@type\":\"ImageGallery\",\"image\":[{\"@type\":\"ImageObject\",\"url\":\"https://dam.elcorteingles.es/producto/www-001013513513781-00.jpg\"},{\"@type\":\"ImageObject\",\"url\":\"https://dam.elcorteingles.es/producto/www-001013513513781-01.jpg\"},{\"@type\":\"ImageObject\",\"url\":\"https://dam.elcorteingles.es/producto/www-001013513513781-02.jpg\"},{\"@type\":\"ImageObject\",\"url\":\"https://dam.elcorteingles.es/producto/www-001013513513781-03.jpg\"}],\"url\":\"https://www.elcorteingles.es/perfumeria/A50367835-3614274024807-pr-eau-de-toilette-born-in-roma-uomo-green-stravaganza-100-ml-valentino-100-ml/\"}]}"
-  ],
-  "precios_en_html": [
-   "label=\"Precio de venta\" class=\"price-sale\" data-v-b47c50b0><span class=\"sr-only\" data-v-b47c50b0>Precio de venta</span> 91 €</span><span aria-label=\"Precio original\" class=\"price-unit-",
-   "price-unit--original product-detail-price\" data-v-b47c50b0><span class=\"sr-only\" data-v-b47c50b0>Precio original</span> 140 €</span><span aria-label=\"Descuento\" class=\"price-discount\" d",
-   "pan>\\u003c/span>\\u003c/span>\\u003c/p>\\u003cp style=\\\"line-height: 1.15; text-align: center;\\\">Panettones Raúl Asencio 2x42€, Bombones Godiva 2x59€ y más. Del 23 al 29 de noviembre\\u00",
-   "span>\\u003c/p>\\u003cp style=\\\"line-height: 1.15; text-align: center;\\\">Panettones Raúl Asencio 2x42€, Bombones Godiva 2x59€ y más. Del 23 al 29 de noviembre\\u003c/p>\\u003cp style=\\\"li",
-   "pan>\\u003c/span>\\u003c/span>\\u003c/p>\\u003cp style=\\\"line-height: 1.15; text-align: center;\\\">Panettones Raúl Asencio 2x42€, Bombones Godiva 2x59€ y más. Del 23 al 29 de noviembre\\u00",
-   "span>\\u003c/p>\\u003cp style=\\\"line-height: 1.15; text-align: center;\\\">Panettones Raúl Asencio 2x42€, Bombones Godiva 2x59€ y más. Del 23 al 29 de noviembre\\u003c/p>\\u003cp style=\\\"li",
-   "0\",\"start_date_time\":\"2025-11-20T07:38Z\",\"end_date_time\":\"2040-12-31T22:59Z\",\"title\":\"Envío GRATIS a España a partir de 39€\",\"promo_title_description\":\"Ahora, puedes contratar \\\"El Co",
-   "regalo-moda/\",\"promo_url_conditions_windows_type\":\"2\",\"promo_conditions\":\"Bonificación válida para compras superiores a 50€ desde el sábado 28 al lunes 30 de noviembre de 2026 en todo",
-   "regalo-moda/\",\"promo_url_conditions_windows_type\":\"2\",\"promo_conditions\":\"Bonificación válida para compras superiores a 50€ desde el sábado 28 al lunes 30 de noviembre de 2026 en todo",
-   "0\",\"start_date_time\":\"2025-11-20T07:38Z\",\"end_date_time\":\"2040-12-31T22:59Z\",\"title\":\"Envío GRATIS a España a partir de 39€\",\"promo_title_description\":\"Ahora, puedes contratar \\\"El Co",
-   "a de envío ¡Pruébalo GRATIS!\",\"id\":\"236708650001\",\"isSPO\":true,\"products\":[],\"title\":\"Envío GRATIS a España a partir de 39€\",\"min_quantity_for_gift\":\"0.000\",\"number_gift_limit\":1,\"isV",
-   "0\",\"start_date_time\":\"2025-11-20T07:38Z\",\"end_date_time\":\"2040-12-31T22:59Z\",\"title\":\"Envío GRATIS a España a partir de 39€\",\"promo_title_description\":\"Ahora, puedes contratar \\\"El Co",
-   "regalo-moda/\",\"promo_url_conditions_windows_type\":\"2\",\"promo_conditions\":\"Bonificación válida para compras superiores a 50€ desde el sábado 28 al lunes 30 de noviembre de 2026 en todo",
-   "a de envío ¡Pruébalo GRATIS!\",\"id\":\"236708650001\",\"isSPO\":true,\"products\":[],\"title\":\"Envío GRATIS a España a partir de 39€\",\"min_quantity_for_gift\":\"0.000\",\"number_gift_limit\":1,\"isV",
-   "17-01-2027.\"}],\"return\":[{\"place\":\"España peninsular, Baleares y Canarias\",\"data\":[{\"store\":\"TOTALES\",\"values\":{\"cost\":\"7,90€\"}},{\"store\":\"VOLUMINOSOS\",\"values\":{\"cost\":\"30€\"}}]},{\"plac",
-   "ar, Baleares y Canarias\",\"data\":[{\"store\":\"TOTALES\",\"values\":{\"cost\":\"7,90€\"}},{\"store\":\"VOLUMINOSOS\",\"values\":{\"cost\":\"30€\"}}]},{\"place\":\"Ceuta y Melilla\",\"data\":[{\"store\":\"TOTALES\",",
-   "store\":\"VOLUMINOSOS\",\"values\":{\"cost\":\"30€\"}}]},{\"place\":\"Ceuta y Melilla\",\"data\":[{\"store\":\"TOTALES\",\"values\":{\"cost\":\"40€\"}},{\"store\":\"VOLUMINOSOS\",\"values\":{\"cost\":\"-\"}}]}],\"show_r"
-  ],
-  "variantes": []
- },
- "lookfantastic": {
-  "url": "https://www.lookfantastic.es/p/valentino-born-in-roma-uomo-eau-de-toilette-for-him-100ml/12737232/?variation=12737232",
-  "ml": 100,
-  "resultado": {
-   "precio": 78.89,
-   "metodo": "jsonld",
-   "referencia": 77.975,
-   "aceptado": true
-  },
-  "jsonld": [
-   "{\"@type\":\"ProductGroup\",\"@context\":\"https://schema.org\",\"productGroupID\":\"12737232\",\"hasVariant\":[{\"@type\":\"Product\",\"sku\":\"12737232\",\"name\":\"Valentino Born in Roma Uomo Eau de Toilette para Hombre 100ml\",\"description\":\"  Notas de salida:  Absoluto de Hojas de Violeta, Esencia de Jengibre, Esencia de Citrón.\\n  \\n  Notas de Corazón:  Esencia de salvia de clario, acorde de menta, acorde de sal mineral.\\n  \\n  Notas de fondo:  esencia de vetiver, esencia de guayacol y cuero. \\n El eau de toilette Born ir Roma Uomo de Valentino es un acto de clase, cimentado sobre notas frescas y masculinas. Moderno, pero verdaderamente atemporal, el eau de toilette encapsula sofisticación y aventura en su frasco de cristal con textura. \\n Las hojas de violeta comienzan con una estela verde y empolvada que cobra vida gracias al ardiente jengibre. Las notas de salida son usurpadas por un núcleo crujiente, que rocía el calor con su brisa fresca y cristalina. La menta y la sal mineral prometen un centro único; brillan desde el corazón, y luego ceden a los rasgos terrosos de la salvia sclarea. \\n Las notas amaderadas y rebeldes redondean la fragancia con un toque icónico. El vetiver, la madera de guayacol y el cuero forman una impresión duradera: destellos de fuerza y coraje que impregnan el aire. Este eau de toilette es clásico y contemporáneo el mismo tiempo, para personas que canalizan la compostura. \",\"image\":\"https://main.thgimages.com/?url=https://static.thcdn.com/productimg/original/12737232-1955335464251154.jpg&format=webp&width=1500&height=1500&fit=cover\",\"offers\":{\"@type\":\"Offer\",\"sku\":\"12737232\",\"url\":\"https://www.lookfantastic.es/p/valentino-born-in-roma-uomo-eau-de-toilette-for-him-100ml/12737232/?variation=12737232\",\"itemCondition\":\"https://schema.org/NewCondition\",\"availability\":\"https://schema.org/OutOfStock\",\"price\":78.89,\"priceCurrency\":\"EUR\"}},{\"@type\":\"Product\",\"sku\":\"17514574\",\"name\":\"Valentino Born in Roma Uomo Eau de Toilette para Hombre 100ml\",\"description\":\"  Notas de salida:  Absoluto de Hojas de Violeta, Esencia de Jengibre, Esencia de Citrón.\\n  \\n  Notas de Corazón:  Esencia de salvia de clario, acorde de menta, acorde de sal mineral.\\n  \\n  Notas de fondo:  esencia de vetiver, esencia de guayacol y cuero. \\n El eau de toilette Born ir Roma Uomo de Valentino es un acto de clase, cimentado sobre notas frescas y masculinas. Moderno, pero verdaderamente atemporal, el eau de toilette encapsula sofisticación y aventura en su frasco de cristal con textura. \\n Las hojas de violeta comienzan con una estela verde y empolvada que cobra vida gracias al ardiente jengibre. Las notas de salida son usurpadas por un núcleo crujiente, que rocía el calor con su brisa fresca y cristalina. La menta y la sal mineral prometen un centro único; brillan desde el corazón, y luego ceden a los rasgos terrosos de la salvia sclarea. \\n Las notas amaderadas y rebeldes redondean la fragancia con un toque icónico. El vetiver, la madera de guayacol y el cuero forman una impr",
-   "{\"@context\":\"https://schema.org\",\"@type\":\"BreadcrumbList\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":{\"@type\":\"Thing\",\"@id\":\"https://www.lookfantastic.es/\"}},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Valentino\",\"item\":{\"@type\":\"Thing\",\"@id\":\"https://www.lookfantastic.es/c/brands/valentino/\"}},{\"@type\":\"ListItem\",\"position\":3,\"name\":\"Valentino Born in Roma Uomo Eau de Toilette para Hombre 100ml\",\"item\":{\"@type\":\"Thing\",\"@id\":\"https://www.lookfantastic.es/p/valentino-born-in-roma-uomo-eau-de-toilette-for-him-100ml/12737232/\"}}]}"
-  ],
-  "precios_en_html": [
-   "1.106 0 00-.987 1.106v7.635m12-6.677v6.677m0 4.5v-4.5m0 0h-12\" ></path> </svg> <span class=\"text-sm\"> Coste de entrega: 3,99€</span>  </a> <a data-track=\"clickUSP\" data-track-push=\"/c/s",
-   "6 4.242S9 12.22 7.592 10.811a2.25 2.25 0 113.182-3.182z\" ></path> </svg> <span class=\"text-sm\"> ¡Recomiéndanos y recibe 10€!</span>  </a>  </div> <script>   const uspContainer = docum",
-   "avigation-item\" data-astro-prefetch=\"hover\" data-astro-cid-gfoffe2e=\"true\"> La Edición Black Friday (Valorada en más de 225 €) </a> <a href=\"/c/offers/eu/treat-of-the-week/\" class=\"navi",
-   "ifting/gifts-under-25/eu/\" class=\"navigation-item\" data-astro-prefetch=\"hover\" data-astro-cid-gfoffe2e=\"true\"> Menos de 25€ </a> <a href=\"/c/health-beauty/gifting/gifts-25-to-50/eu/\" ",
-   "y/gifting/gifts-25-to-50/eu/\" class=\"navigation-item\" data-astro-prefetch=\"hover\" data-astro-cid-gfoffe2e=\"true\"> Entre 25€ y 50€ </a> <a href=\"/c/health-beauty/gifting/gifts-50-above",
-   "ing/gifts-25-to-50/eu/\" class=\"navigation-item\" data-astro-prefetch=\"hover\" data-astro-cid-gfoffe2e=\"true\"> Entre 25€ y 50€ </a> <a href=\"/c/health-beauty/gifting/gifts-50-above/eu/\" ",
-   "-beauty/gifting/gifts-50-above/eu/\" class=\"navigation-item\" data-astro-prefetch=\"hover\" data-astro-cid-gfoffe2e=\"true\"> 50€ y más </a>  </div> </div> </div> </div>  </div><div data-e2",
-   "-item\" data-astro-prefetch=\"hover\" data-astro-cid-gfoffe2e=\"true\"> La Edición de la Nueva Temporada (valorada en más de 120 €) </a> <a href=\"/p/beauty-box/la-edicion-asi-sin-motive-algu",
-   "item\" data-astro-prefetch=\"hover\" data-astro-cid-gfoffe2e=\"true\"> La edición así, sin motive alguno (valorada en más de 125 €) </a> <a href=\"/p/beauty-box/la-edicion-dermatologica-valor",
-   "vigation-item\" data-astro-prefetch=\"hover\" data-astro-cid-gfoffe2e=\"true\"> La Edición Dermatológica (Valorada en más de 225 €) </a> <a href=\"/p/beauty-box/la-edicion-black-friday-valora",
-   "avigation-item\" data-astro-prefetch=\"hover\" data-astro-cid-gfoffe2e=\"true\"> La Edición Black Friday (Valorada en más de 225 €) </a> <a href=\"/c/offers/beauty-box/gifting-edits-eu/\" clas",
-   "igation-item\" data-astro-prefetch=\"hover\" data-astro-cid-gfoffe2e=\"true\"> La Edición Damas de Honor (valorada en más de 120€) </a> <a href=\"/c/offers/beauty-box/limited-edition/view-al",
-   "n-black-friday-valorada-en-mas-de-225/17691452/\" aria-label=\"Mejores ofertasLa Edición Black Friday (Valorada en más de 225 €)\" data-astro-cid-k6c7o3mi=\"true\"> La Edición Black Friday (",
-   "ón Black Friday (Valorada en más de 225 €)\" data-astro-cid-k6c7o3mi=\"true\"> La Edición Black Friday (Valorada en más de 225 €) </a> <a data-astro-prefetch=\"tap\" tabindex=\"-1\" href=\"/c/o",
-   "o-prefetch=\"tap\" tabindex=\"-1\" href=\"/c/health-beauty/gifting/gifts-under-25/eu/\" aria-label=\"COMPRA POR PRECIOMenos de 25€\" data-astro-cid-k6c7o3mi=\"true\"> Menos de 25€ </a> <a data-",
-   "-beauty/gifting/gifts-under-25/eu/\" aria-label=\"COMPRA POR PRECIOMenos de 25€\" data-astro-cid-k6c7o3mi=\"true\"> Menos de 25€ </a> <a data-astro-prefetch=\"tap\" tabindex=\"-1\" href=\"/c/he",
-   "stro-prefetch=\"tap\" tabindex=\"-1\" href=\"/c/health-beauty/gifting/gifts-25-to-50/eu/\" aria-label=\"COMPRA POR PRECIOEntre 25€ y 50€\" data-astro-cid-k6c7o3mi=\"true\"> Entre 25€ y 50€ </a>",
-   "refetch=\"tap\" tabindex=\"-1\" href=\"/c/health-beauty/gifting/gifts-25-to-50/eu/\" aria-label=\"COMPRA POR PRECIOEntre 25€ y 50€\" data-astro-cid-k6c7o3mi=\"true\"> Entre 25€ y 50€ </a> <a da",
-   "-beauty/gifting/gifts-25-to-50/eu/\" aria-label=\"COMPRA POR PRECIOEntre 25€ y 50€\" data-astro-cid-k6c7o3mi=\"true\"> Entre 25€ y 50€ </a> <a data-astro-prefetch=\"tap\" tabindex=\"-1\" href=",
-   "y/gifting/gifts-25-to-50/eu/\" aria-label=\"COMPRA POR PRECIOEntre 25€ y 50€\" data-astro-cid-k6c7o3mi=\"true\"> Entre 25€ y 50€ </a> <a data-astro-prefetch=\"tap\" tabindex=\"-1\" href=\"/c/he",
-   "data-astro-prefetch=\"tap\" tabindex=\"-1\" href=\"/c/health-beauty/gifting/gifts-50-above/eu/\" aria-label=\"COMPRA POR PRECIO50€ y más\" data-astro-cid-k6c7o3mi=\"true\"> 50€ y más </a>  </di",
-   "f=\"/c/health-beauty/gifting/gifts-50-above/eu/\" aria-label=\"COMPRA POR PRECIO50€ y más\" data-astro-cid-k6c7o3mi=\"true\"> 50€ y más </a>  </div> </div> </div> </div><div class=\"mobile-n",
-   "-valorada-en-mas-de-120/17691538/\" aria-label=\"Ediciones limitadas La Edición de la Nueva Temporada (valorada en más de 120 €)\" data-astro-cid-k6c7o3mi=\"true\"> La Edición de la Nueva Te",
-   "porada (valorada en más de 120 €)\" data-astro-cid-k6c7o3mi=\"true\"> La Edición de la Nueva Temporada (valorada en más de 120 €) </a> <a data-astro-prefetch=\"tap\" tabindex=\"-1\" href=\"/p/b",
-   "valorada-en-mas-de-125/17691519/\" aria-label=\"Ediciones limitadas La edición así, sin motive alguno (valorada en más de 125 €)\" data-astro-cid-k6c7o3mi=\"true\"> La edición así, sin motiv"
-  ],
-  "variantes": []
- },
- "fallo_paco": {
-  "url": "https://www.pacoperfumerias.com/valentino-vendetta-uomo-37022.html",
-  "ml": 100,
-  "resultado": {
-   "precio": null,
-   "metodo": "sin-tamaño",
-   "referencia": 77.975,
-   "aceptado": false
-  },
-  "largo": 678857,
-  "titulo": "Valentino Vendetta Uomo | Paco Perfumerías",
-  "tamaños": [
-   "10",
-   "100",
-   "30",
-   "50",
-   "75",
-   "90"
-  ],
-  "inicio": "<!DOCTYPE html> <html lang=\"es\"> <head> <!--[if gt IE 9]><!--> <script>//common/scripts.isml</script> <script> window.BASE_CONFIG = {\"responsive\":{\"screen__320\":320,\"screen__360\":360,\"screen__575\":575,\"screen__768\":768,\"screen__1025\":1025,\"screen__1280\":1280,\"screen__1440\":1440,\"screen__1920\":1920},\"nifConfig\":{\"ES\":{\"dniRegex\":\"^\\\\d{8}[A-Za-z]$\",\"nifAndNieRegex\":\"^[KLMXYZklmxyz]\\\\d{7}[A"
- },
- "paco": {
-  "url": "https://www.pacoperfumerias.com/valentino-vendetta-uomo-37022.html",
-  "ml": 100,
-  "resultado": {
-   "precio": null,
-   "metodo": "sin-tamaño",
-   "referencia": 77.975,
-   "aceptado": false
-  },
-  "jsonld": [
-   "{\"@context\":\"http://schema.org/\",\"@graph\":[{\"@type\":\"BreadcrumbList\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":0,\"item\":{\"@id\":\"/\",\"name\":\"Home\"}},{\"@type\":\"ListItem\",\"position\":1,\"item\":{\"@id\":\"/perfumes\",\"name\":\"Perfumes\"}},{\"@type\":\"ListItem\",\"position\":2,\"item\":{\"@id\":\"/perfumes-hombre\",\"name\":\"Perfumes Hombre\"}}]},{\"@type\":\"ProductGroup\",\"name\":\"VENDETTA UOMO\",\"description\":\"Eau de Parfum para Hombre\",\"url\":\"https://www.pacoperfumerias.com/valentino-vendetta-uomo-37022.html\",\"productGroupID\":\"37022\",\"brand\":{\"@type\":\"Brand\",\"name\":\"VALENTINO\"},\"variesBy\":[\"https://schema.org/size\"],\"hasVariant\":[{\"@type\":\"Product\",\"sku\":\"240944\",\"name\":\"VENDETTA UOMO 30ml\",\"offers\":{\"@type\":\"Offer\",\"url\":\"https://www.pacoperfumerias.com/valentino-vendetta-uomo-37022.html\",\"priceCurrency\":\"EUR\",\"price\":42.75,\"itemCondition\":\"https://schema.org/NewCondition\",\"availability\":\"https://schema.org/OutOfStock\"},\"image\":\"https://www.pacoperfumerias.com/on/demandware.static/-/Sites-pacoper-master-catalog/default/dw08df4434/images/2/4/240944_2.jpg\",\"size\":\"30ml\"},{\"@type\":\"Product\",\"sku\":\"240945\",\"name\":\"VENDETTA UOMO 50ml\",\"offers\":{\"@type\":\"Offer\",\"url\":\"https://www.pacoperfumerias.com/valentino-vendetta-uomo-37022.html\",\"priceCurrency\":\"EUR\",\"price\":56.92,\"itemCondition\":\"https://schema.org/NewCondition\",\"availability\":\"https://schema.org/OutOfStock\"},\"image\":\"https://www.pacoperfumerias.com/on/demandware.static/-/Sites-pacoper-master-catalog/default/dw0237c923/images/2/4/240945_2.jpg\",\"size\":\"50ml\"},{\"@type\":\"Product\",\"sku\":\"240946\",\"name\":\"VENDETTA UOMO 90ml\",\"offers\":{\"@type\":\"Offer\",\"url\":\"https://www.pacoperfumerias.com/valentino-vendetta-uomo-37022.html\",\"priceCurrency\":\"EUR\",\"price\":82.49,\"itemCondition\":\"https://schema.org/NewCondition\",\"availability\":\"https://schema.org/OutOfStock\"},\"image\":\"https://www.pacoperfumerias.com/on/demandware.static/-/Sites-pacoper-master-catalog/default/dw752ad575/images/2/4/240946_2.jpg\",\"size\":\"90ml\"}]}]}"
-  ],
-  "precios_en_html": [
-   "<a class=\"header-ticker__text label-link label-link--secondary-light\" href=\"https://www.pacoperfumerias.com/newsletter\">3&euro; por SUSCRIBIRTE*</a></p>  <p class=\"header-ticker__text\">EN",
-   "w.pacoperfumerias.com/newsletter\">3&euro; por SUSCRIBIRTE*</a></p>  <p class=\"header-ticker__text\">ENV&Iacute;O GRATIS +49,99&euro;</p>  <p class=\"header-ticker__text\">MUESTRAS GRATIS en tu p",
-   "<a class=\"header-ticker__text label-link label-link--secondary-light\" href=\"https://www.pacoperfumerias.com/newsletter\">3&euro; por SUSCRIBIRTE*</a></p>  <p class=\"header-ticker__text\">EN",
-   "w.pacoperfumerias.com/newsletter\">3&euro; por SUSCRIBIRTE*</a></p>  <p class=\"header-ticker__text\">ENV&Iacute;O GRATIS +49,99&euro;</p>  <p class=\"header-ticker__text\">MUESTRAS GRATIS en tu p",
-   "      <span class=\"sr-only\">                         Price reduced from                     </span>                     75,00 &euro;                       <span class=\"sr-only\">               ",
-   "\">                                                        <span class=\"value\" content=\"42.75\">                          42,75 &euro;               </span>         </span>     </span>          ",
-   "\"discount tag tag--discount \">43%</span>                      </div>                      <span class=\"price__per-unit\">142,50 &euro; / 100ml</span>                        </div>               ",
-   "      <span class=\"sr-only\">                         Price reduced from                     </span>                     100,00 &euro;                       <span class=\"sr-only\">               ",
-   "\">                                                        <span class=\"value\" content=\"56.92\">                          56,92 &euro;               </span>         </span>     </span>          ",
-   "\"discount tag tag--discount \">43%</span>                      </div>                      <span class=\"price__per-unit\">113,84 &euro; / 100ml</span>                        </div>               ",
-   "      <span class=\"sr-only\">                         Price reduced from                     </span>                     145,00 &euro;                       <span class=\"sr-only\">               ",
-   "\">                                                        <span class=\"value\" content=\"82.49\">                          82,49 &euro;               </span>         </span>     </span>          ",
-   "\"discount tag tag--discount \">43%</span>                      </div>                      <span class=\"price__per-unit\">91,66 &euro; / 100ml</span>                        </div>               ",
-   "      <span class=\"sr-only\">                         Price reduced from                     </span>                     140,00 &euro;                       <span class=\"sr-only\">               ",
-   "\">                                                        <span class=\"value\" content=\"74.19\">                          74,19 &euro;               </span>         </span>     </span>          ",
-   "      <span class=\"sr-only\">                         Price reduced from                     </span>                     142,00 &euro;                       <span class=\"sr-only\">               ",
-   "\">                                                        <span class=\"value\" content=\"80.94\">                          80,94 &euro;               </span>         </span>     </span>          ",
-   "      <span class=\"sr-only\">                         Price reduced from                     </span>                     140,00 &euro;                       <span class=\"sr-only\">               ",
-   "\">                                                        <span class=\"value\" content=\"79.80\">                          79,80 &euro;               </span>         </span>     </span>          ",
-   "      <span class=\"sr-only\">                         Price reduced from                     </span>                     95,00 &euro;                       <span class=\"sr-only\">               ",
-   "\">                                                        <span class=\"value\" content=\"53.94\">                          53,94 &euro;               </span>         </span>     </span>          ",
-   "      <span class=\"sr-only\">                         Price reduced from                     </span>                     95,00 &euro;                       <span class=\"sr-only\">               ",
-   "\">                                                        <span class=\"value\" content=\"53.95\">                          53,95 &euro;               </span>         </span>     </span>          ",
-   "      <span class=\"sr-only\">                         Price reduced from                     </span>                     163,00 &euro;                       <span class=\"sr-only\">               ",
-   "\">                                                        <span class=\"value\" content=\"92.89\">                          92,89 &euro;               </span>         </span>     </span>          "
-  ],
-  "variantes": []
- },
  "busqueda_douglas": {
-  "perfume": "lacoste-l-12-12-blanc-edt-100",
+  "perfume": "estee-lauder-pleasures-edp-100",
   "encontrada": null,
   "enlaces": []
  },
  "busqueda_lookfantastic": {
-  "perfume": "lacoste-l-12-12-blanc-edt-100",
+  "perfume": "estee-lauder-pleasures-edp-100",
   "encontrada": null,
   "enlaces": [
    "/c/brands/ren/",
@@ -321,32 +51,287 @@
   ]
  },
  "busqueda_sephora": {
-  "perfume": "lacoste-l-12-12-blanc-edt-100",
+  "perfume": "estee-lauder-pleasures-edp-100",
   "encontrada": null,
   "enlaces": []
  },
- "parejo": {
-  "url": "https://www.joyeriaparejo.com/perfumes/tommy-vapo-100-ml-eau-de-toilette-tommy-hilfiger",
+ "busqueda_parejo": {
+  "perfume": "estee-lauder-pleasures-edp-100",
+  "encontrada": null,
+  "enlaces": []
+ },
+ "eci": {
+  "url": "https://www.elcorteingles.es/perfumeria/A16706866-0027131521433-pr-eau-de-parfum-pleasures-for-men-100-ml-estee-lauder-100-ml/",
   "ml": 100,
   "resultado": {
-   "precio": 36.55,
+   "precio": 112.0,
    "metodo": "jsonld",
-   "referencia": 29.95,
-   "aceptado": true
+   "referencia": 39.92,
+   "aceptado": false
   },
   "jsonld": [
-   "{\r\n                    \"@context\":\"https://schema.org\",\r\n                    \"@type\":\"BreadcrumbList\",\r\n                        \"itemListElement\": [\r\n                        {\r\n                            \"@type\": \"ListItem\",\r\n                            \"position\": 0,\r\n                            \"name\": \"Joyería Parejo\",\r\n                            \"item\": \"https://www.joyeriaparejo.com/\"\r\n                        },\r\n                      {\r\n                    \"@type\": \"ListItem\",\r\n                    \"position\": 1,\r\n                    \"name\": \"Perfumes\",\r\n                    \"item\": \"https://www.joyeriaparejo.com/perfumes\"\r\n                },\r\n                                    {\r\n                                        \"@type\": \"ListItem\",\r\n                                        \"position\": 2,\r\n                                        \"name\": \"Tommy Hilfiger Tommy Eau de Toilette 100 ml Hombre\",\r\n                                        \"item\": \"https://www.joyeriaparejo.com/perfumes/tommy-vapo-100-ml-eau-de-toilette-tommy-hilfiger\"\r\n                                    }\r\n                                \r\n                        ]\r\n                }",
-   "{\r\n                    \"@context\": \"https://schema.org\",\r\n                    \"@type\": \"Product\",\r\n                    \"description\": \"Conquista con el estilo único de Tommy Eau de Toilette 100 ml, un perfume masculino que combina notas frescas y vibrantes. Su elegancia atemporal refleja el lujo, al igual que una pieza de joyería fina, perfecta para el hombre moderno y sofisticado que busca destacar con distinción.\",\r\n                    \"name\": \"Tommy Hilfiger Tommy Eau de Toilette 100 ml Hombre\",\r\n                    \"image\": [\"https:\\/\\/www.joyeriaparejo.com\\/53162-large_default\\/tommy-vapo-100-ml-eau-de-toilette-tommy-hilfiger.jpg\",\"https:\\/\\/www.joyeriaparejo.com\\/53161-large_default\\/tommy-vapo-100-ml-eau-de-toilette-tommy-hilfiger.jpg\"],\r\n                    \"brand\": {\r\n                        \"@type\": \"Brand\",\r\n                        \"name\": \"TOMMY HILFIGER\",\r\n                        \"url\": \"https://www.joyeriaparejo.com/brand/tommy-hilfiger\"\r\n                    },\r\n                    \"category\": \"Perfumes\",\r\n                    \"alternateName\": \"Compra Tommy Hilfiger Tommy Eau de Toilette 100 ml Hombre a buen precio\",\r\n                    \"url\": \"https://www.joyeriaparejo.com/perfumes/tommy-vapo-100-ml-eau-de-toilette-tommy-hilfiger\",\r\n                        \"offers\": {    \t\t\r\n                            \"@type\": \"offer\",\r\n                            \"price\": \"36.55\",\r\n                            \"priceCurrency\": \"EUR\", \r\n                            \"itemOffered\": \"Tommy Hilfiger Tommy Eau de Toilette 100 ml Hombre\",\r\n                            \"availability\": \"http://schema.org/InStock\", \r\n                            \"priceValidUntil\": \"2026-11-22\",\r\n                            \"itemCondition\":\"http://schema.org/NewCondition\", \r\n                            \"url\": \"https://www.joyeriaparejo.com/perfumes/tommy-vapo-100-ml-eau-de-toilette-tommy-hilfiger\",\r\n\t\t\t\t\t\t\t\"sku\": \"70380001\",\r\n\t\t\t\t\t\t\t\"gtin13\": \"022548024324\"\r\n                        }}"
+   "{\"@context\":\"https://schema.org\",\"@type\":\"BreadcrumbList\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"item\":{\"@id\":\"https://www.elcorteingles.es/perfumeria/\",\"name\":\"Alta Perfumería\"}},{\"@type\":\"ListItem\",\"position\":2,\"item\":{\"@id\":\"https://www.elcorteingles.es/perfumeria/perfumes-hombre/\",\"name\":\"Perfumes Hombre\"}},{\"@type\":\"ListItem\",\"position\":3,\"item\":{\"@id\":\"https://www.elcorteingles.es/perfumeria/perfumes-hombre/eau-de-parfum/\",\"name\":\"Eau de Parfum\"}}]}",
+   "{\"@context\":\"https://schema.org\",\"@type\":\"Product\",\"name\":\"Eau de Parfum Pleasures For Men 100 ml Estée Lauder - 100 ml\",\"description\":\"Compra online Eau de Parfum Pleasures For Men 100 ml Estée Lauder - 100 ml en El Corte Inglés. Consulta sus características, ofertas disponibles y opciones de envío o recogida.\",\"sku\":\"0027131521433\",\"url\":\"https://www.elcorteingles.es/perfumeria/A16706866-0027131521433-pr-eau-de-parfum-pleasures-for-men-100-ml-estee-lauder-100-ml/\",\"image\":\"https://dam.elcorteingles.es/producto/www-001013512101182-00.jpg\",\"brand\":{\"@type\":\"Brand\",\"name\":\"Estée Lauder\"},\"offers\":{\"@type\":\"Offer\",\"availability\":\"https://schema.org/InStock\",\"priceCurrency\":\"EUR\",\"price\":112,\"hasMerchantReturnPolicy\":{\"@type\":\"MerchantReturnPolicy\",\"returnPolicyCategory\":\"https://schema.org/MerchantReturnFiniteReturnWindow\",\"merchantReturnDays\":15,\"merchantReturnLink\":\"https://www.elcorteingles.es/ayuda/es/devolucion-y-reembolso/devolucion-y-cambio/\",\"returnFees\":\"https://schema.org/FreeReturn\",\"returnMethod\":[\"https://schema.org/ReturnInStore\",\"https://schema.org/ReturnByMail\"],\"refundType\":\"https://schema.org/FullRefund\",\"applicableCountry\":\"ES\",\"returnPolicyCountry\":\"ES\"}},\"subjectOf\":[{\"@type\":\"ImageGallery\",\"image\":[{\"@type\":\"ImageObject\",\"url\":\"https://dam.elcorteingles.es/producto/www-001013512101182-00.jpg\"}],\"url\":\"https://www.elcorteingles.es/perfumeria/A16706866-0027131521433-pr-eau-de-parfum-pleasures-for-men-100-ml-estee-lauder-100-ml/\"}]}"
   ],
   "precios_en_html": [
-   " >              <div class=\"current-price\">                  <span class=\"price_with_tax price_pvp\" content=\"30.206612\">36,55 €</span>                                    <span class=\"pric",
-   "n>                                                  <span class=\"show_pvp\">                     <span class=\"old_price\">43,00 €</span>                   </span>                    <span c",
-   "jo-sticky-buy__name\">Tommy Hilfiger Tommy Eau de Toilette 100 ml Hombre</p>         <p class=\"parejo-sticky-buy__price\">36,55 €</p>       </div>       <div class=\"parejo-sticky-buy__qty\">"
+   "pan>\\u003c/span>\\u003c/span>\\u003c/p>\\u003cp style=\\\"line-height: 1.15; text-align: center;\\\">Panettones Raúl Asencio 2x42€, Bombones Godiva 2x59€ y más. Del 23 al 29 de noviembre\\u00",
+   "span>\\u003c/p>\\u003cp style=\\\"line-height: 1.15; text-align: center;\\\">Panettones Raúl Asencio 2x42€, Bombones Godiva 2x59€ y más. Del 23 al 29 de noviembre\\u003c/p>\\u003cp style=\\\"li",
+   "pan>\\u003c/span>\\u003c/span>\\u003c/p>\\u003cp style=\\\"line-height: 1.15; text-align: center;\\\">Panettones Raúl Asencio 2x42€, Bombones Godiva 2x59€ y más. Del 23 al 29 de noviembre\\u00",
+   "span>\\u003c/p>\\u003cp style=\\\"line-height: 1.15; text-align: center;\\\">Panettones Raúl Asencio 2x42€, Bombones Godiva 2x59€ y más. Del 23 al 29 de noviembre\\u003c/p>\\u003cp style=\\\"li",
+   "0\",\"start_date_time\":\"2025-11-20T07:38Z\",\"end_date_time\":\"2040-12-31T22:59Z\",\"title\":\"Envío GRATIS a España a partir de 39€\",\"promo_title_description\":\"Ahora, puedes contratar \\\"El Co",
+   "regalo-moda/\",\"promo_url_conditions_windows_type\":\"2\",\"promo_conditions\":\"Bonificación válida para compras superiores a 50€ desde el sábado 28 al lunes 30 de noviembre de 2026 en todo",
+   "regalo-moda/\",\"promo_url_conditions_windows_type\":\"2\",\"promo_conditions\":\"Bonificación válida para compras superiores a 50€ desde el sábado 28 al lunes 30 de noviembre de 2026 en todo",
+   "0\",\"start_date_time\":\"2025-11-20T07:38Z\",\"end_date_time\":\"2040-12-31T22:59Z\",\"title\":\"Envío GRATIS a España a partir de 39€\",\"promo_title_description\":\"Ahora, puedes contratar \\\"El Co",
+   "a de envío ¡Pruébalo GRATIS!\",\"id\":\"236708650001\",\"isSPO\":true,\"products\":[],\"title\":\"Envío GRATIS a España a partir de 39€\",\"min_quantity_for_gift\":\"0.000\",\"number_gift_limit\":1,\"isV",
+   "0\",\"start_date_time\":\"2025-11-20T07:38Z\",\"end_date_time\":\"2040-12-31T22:59Z\",\"title\":\"Envío GRATIS a España a partir de 39€\",\"promo_title_description\":\"Ahora, puedes contratar \\\"El Co",
+   "regalo-moda/\",\"promo_url_conditions_windows_type\":\"2\",\"promo_conditions\":\"Bonificación válida para compras superiores a 50€ desde el sábado 28 al lunes 30 de noviembre de 2026 en todo",
+   "a de envío ¡Pruébalo GRATIS!\",\"id\":\"236708650001\",\"isSPO\":true,\"products\":[],\"title\":\"Envío GRATIS a España a partir de 39€\",\"min_quantity_for_gift\":\"0.000\",\"number_gift_limit\":1,\"isV",
+   "17-01-2027.\"}],\"return\":[{\"place\":\"España peninsular, Baleares y Canarias\",\"data\":[{\"store\":\"TOTALES\",\"values\":{\"cost\":\"7,90€\"}},{\"store\":\"VOLUMINOSOS\",\"values\":{\"cost\":\"30€\"}}]},{\"plac",
+   "ar, Baleares y Canarias\",\"data\":[{\"store\":\"TOTALES\",\"values\":{\"cost\":\"7,90€\"}},{\"store\":\"VOLUMINOSOS\",\"values\":{\"cost\":\"30€\"}}]},{\"place\":\"Ceuta y Melilla\",\"data\":[{\"store\":\"TOTALES\",",
+   "store\":\"VOLUMINOSOS\",\"values\":{\"cost\":\"30€\"}}]},{\"place\":\"Ceuta y Melilla\",\"data\":[{\"store\":\"TOTALES\",\"values\":{\"cost\":\"40€\"}},{\"store\":\"VOLUMINOSOS\",\"values\":{\"cost\":\"-\"}}]}],\"show_r"
   ],
   "variantes": []
  },
+ "idealo": {
+  "url": "https://www.idealo.es/precios/590498/estee-lauder-pleasures-eau-de-parfum-100-ml.html",
+  "ml": 100,
+  "resultado": {
+   "precio": 39.92,
+   "metodo": "jsonld-url",
+   "referencia": 42.435,
+   "aceptado": true
+  },
+  "jsonld": [
+   "{\"@context\":\"http://schema.org\",\"@type\":\"Product\",\"aggregateRating\":{\"@type\":\"AggregateRating\",\"ratingValue\":5.0,\"ratingCount\":3,\"bestRating\":5.0,\"worstRating\":1.0},\"name\":\"Estée Lauder Pleasures Eau de Parfum\",\"offers\":{\"@type\":\"AggregateOffer\",\"lowPrice\":39.92,\"highPrice\":104.0,\"priceCurrency\":\"EUR\",\"offerCount\":13,\"availability\":\"https://schema.org/InStock\",\"itemCondition\":\"https://schema.org/NewCondition\"},\"review\":[{\"@type\":\"Review\",\"author\":{\"@type\":\"Person\",\"name\":\"Regine Z.\"},\"datePublished\":\"2020-04-01\",\"headline\":\"Aroma maravilloso\",\"reviewBody\":\"Me encanta esta fragancia porque tiene una nota de rosa muy clara, sin ser intrusiva ni demasiado dulce. El aroma de la rosa en sí también se asemeja de manera sorprendente al “verdadero” perfume de una rosa viva. ¡Muy, muy halagador y agradable!\",\"reviewRating\":{\"@type\":\"Rating\",\"bestRating\":\"5\",\"worstRating\":\"1\",\"ratingValue\":\"5\"}},{\"@type\":\"Review\",\"author\":{\"@type\":\"Person\",\"name\":\"Anna\"},\"datePublished\":\"2020-01-16\",\"reviewBody\":\"Mi favorito no lo consigo cambiar\",\"reviewRating\":{\"@type\":\"Rating\",\"bestRating\":\"5\",\"worstRating\":\"1\",\"ratingValue\":\"5\"}},{\"@type\":\"Review\",\"author\":{\"@type\":\"Person\",\"name\":\"colette maclaire\"},\"datePublished\":\"2019-04-25\",\"headline\":\"placeres\",\"reviewBody\":\"Perfume muy agradable, discreto y original.\",\"reviewRating\":{\"@type\":\"Rating\",\"bestRating\":\"5\",\"worstRating\":\"1\",\"ratingValue\":\"5\"}}],\"brand\":{\"@type\":\"Brand\",\"name\":\"Estée Lauder\"},\"image\":[\"https://cdn.idealo.com/folder/Product/590/4/590498/s11_produktbild_gross/estee-lauder-pleasures-eau-de-parfum-100-ml.jpg\",\"https://cdn.idealo.com/folder/Product/590/4/590498/s11_produktbild_gross_1/estee-lauder-pleasures-eau-de-parfum-100-ml.jpg\",\"https://cdn.idealo.com/folder/Product/590/4/590498/s11_produktbild_gross_2/estee-lauder-pleasures-eau-de-parfum-100-ml.jpg\",\"https://cdn.idealo.com/folder/Product/590/4/590498/s11_produktbild_gross_3/estee-lauder-pleasures-eau-de-parfum-100-ml.jpg\",\"https://cdn.idealo.com/folder/Product/590/4/590498/s11_produktbild_gross_4/estee-lauder-pleasures-eau-de-parfum-100-ml.jpg\",\"https://cdn.idealo.com/folder/Product/590/4/590498/s11_produktbild_gross_5/estee-lauder-pleasures-eau-de-parfum-100-ml.jpg\",\"https://cdn.idealo.com/folder/Product/590/4/590498/s11_produktbild_gross_6/estee-lauder-pleasures-eau-de-parfum-100-ml.jpg\",\"https://cdn.idealo.com/folder/Product/590/4/590498/s11_produktbild_gross_7/estee-lauder-pleasures-eau-de-parfum-100-ml.jpg\",\"https://cdn.idealo.com/folder/Product/590/4/590498/s11_produktbild_gross_8/estee-lauder-pleasures-eau-de-parfum-100-ml.jpg\",\"https://cdn.idealo.com/folder/Product/590/4/590498/s11_produktbild_gross_9/estee-lauder-pleasures-eau-de-parfum-100-ml.jpg\",\"https://cdn.idealo.com/folder/Product/590/4/590498/s11_produktbild_gross_10/estee-lauder-pleasures-eau-de-parfum-100-ml.jpg\",\"https://cdn.idealo.com/folder/Product/590/4/590498/s11_produktbild_gross_11/estee-lauder-pleasures-eau-de-parfum-100-ml.jpg\",\"https://cdn.idealo.com/folder/Product/590/4/59",
+   "{\"@context\":\"https://schema.org\",\"@type\":\"ProductGroup\",\"name\":\"Estée Lauder Pleasures Eau de Parfum\",\"brand\":{\"@type\":\"Brand\",\"name\":\"Estée Lauder\"},\"productGroupID\":\"3344098\",\"hasVariant\":[{\"@type\":\"Product\",\"@id\":\"https://www.idealo.es/precios/590498/estee-lauder-pleasures-eau-de-parfum-100-ml.html\",\"url\":\"https://www.idealo.es/precios/590498/estee-lauder-pleasures-eau-de-parfum-100-ml.html\",\"name\":\"Estée Lauder Pleasures Eau de Parfum (100 ml)\",\"sku\":\"0013761806064\",\"image\":[\"https://cdn.idealo.com/folder/Product/590/4/590498/s11_produktbild_max/estee-lauder-pleasures-eau-de-parfum-100-ml.jpg\",\"https://cdn.idealo.com/folder/Product/590/4/590498/s11_produktbild_max_1/estee-lauder-pleasures-eau-de-parfum-100-ml.jpg\",\"https://cdn.idealo.com/folder/Product/590/4/590498/s11_produktbild_max_2/estee-lauder-pleasures-eau-de-parfum-100-ml.jpg\",\"https://cdn.idealo.com/folder/Product/590/4/590498/s11_produktbild_max_3/estee-lauder-pleasures-eau-de-parfum-100-ml.jpg\",\"https://cdn.idealo.com/folder/Product/590/4/590498/s11_produktbild_max_4/estee-lauder-pleasures-eau-de-parfum-100-ml.jpg\",\"https://cdn.idealo.com/folder/Product/590/4/590498/s11_produktbild_max_5/estee-lauder-pleasures-eau-de-parfum-100-ml.jpg\",\"https://cdn.idealo.com/folder/Product/590/4/590498/s11_produktbild_max_6/estee-lauder-pleasures-eau-de-parfum-100-ml.jpg\",\"https://cdn.idealo.com/folder/Product/590/4/590498/s11_produktbild_max_7/estee-lauder-pleasures-eau-de-parfum-100-ml.jpg\",\"https://cdn.idealo.com/folder/Product/590/4/590498/s11_produktbild_max_8/estee-lauder-pleasures-eau-de-parfum-100-ml.jpg\",\"https://cdn.idealo.com/folder/Product/590/4/590498/s11_produktbild_max_9/estee-lauder-pleasures-eau-de-parfum-100-ml.jpg\",\"https://cdn.idealo.com/folder/Product/590/4/590498/s11_produktbild_max_10/estee-lauder-pleasures-eau-de-parfum-100-ml.jpg\",\"https://cdn.idealo.com/folder/Product/590/4/590498/s11_produktbild_max_11/estee-lauder-pleasures-eau-de-parfum-100-ml.jpg\",\"https://cdn.idealo.com/folder/Product/590/4/590498/s11_produktbild_max_12/estee-lauder-pleasures-eau-de-parfum-100-ml.jpg\",\"https://cdn.idealo.com/folder/Product/590/4/590498/s11_produktbild_max_13/estee-lauder-pleasures-eau-de-parfum-100-ml.jpg\",\"https://cdn.idealo.com/folder/Product/590/4/590498/s11_produktbild_max_14/estee-lauder-pleasures-eau-de-parfum-100-ml.jpg\",\"https://cdn.idealo.com/folder/Product/590/4/590498/s11_produktbild_max_15/estee-lauder-pleasures-eau-de-parfum-100-ml.jpg\",\"https://cdn.idealo.com/folder/Product/590/4/590498/s11_produktbild_max_16/estee-lauder-pleasures-eau-de-parfum-100-ml.jpg\",\"https://cdn.idealo.com/folder/Product/590/4/590498/s11_produktbild_max_17/estee-lauder-pleasures-eau-de-parfum-100-ml.jpg\",\"https://cdn.idealo.com/folder/Product/590/4/590498/s11_produktbild_max_18/estee-lauder-pleasures-eau-de-parfum-100-ml.jpg\",\"https://cdn.idealo.com/folder/Product/590/4/590498/s11_produktbild_max_19/estee-lauder-pleasures-eau-de-parfum-100-ml.jpg\",\"https://cdn.idealo.com/folder/Product/590/4/590",
+   "{\"@context\":\"http://schema.org\",\"@type\":\"Product\",\"name\":\"Estée Lauder Pleasures Eau de Parfum\",\"review\":{\"@type\":\"Review\",\"author\":{\"@type\":\"Organization\",\"name\":\"idealo\"},\"positiveNotes\":{\"@type\":\"ItemList\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Aroma floral y fresco con lirio, peonía y jazmín\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Ligero y transparente, agradable para el uso diario\"},{\"@type\":\"ListItem\",\"position\":3,\"name\":\"Ramo floral clásico que recuerda a flores frescas\"},{\"@type\":\"ListItem\",\"position\":4,\"name\":\"Base discreta de sándalo, almizcár y pachulí\"}]},\"negativeNotes\":{\"@type\":\"ItemList\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Duración moderada de aproximadamente 5 a 6 horas\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Proyección de aroma discreta en el radio personal\"}]}}}",
+   "{\"@context\":\"https://schema.org\",\"@type\":\"FAQPage\",\"mainEntity\":[{\"@type\":\"Question\",\"name\":\"¿Qué notas de fragancia dominan en este perfume?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"El centro lo ocupa un ramo floral clásico compuesto por jazmín, rosa, lirio de los valles, lirio, lila y peonía, complementado por una nota de salida fresca con fresia y violeta, así como una base sutil de sándalo y almizcador.\"}},{\"@type\":\"Question\",\"name\":\"¿Cuánto tiempo dura la fragancia en la piel?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Tras aproximadamente 5 o 6 horas, el aroma solo es perceptible en contacto directo con la piel. La proyección se mantiene discreta en el radio personal.\"}},{\"@type\":\"Question\",\"name\":\"¿Para qué ocasiones es adecuada esta fragancia?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Como aroma diario ligero y transparente con composición floral, resulta versátil para múltiples usos: tanto de día como de noche, en verano como en invierno.\"}},{\"@type\":\"Question\",\"name\":\"¿En qué tamaños está disponible el Eau de Parfum?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Se ofrece en tres volúmenes: 30 ml, 50 ml y 100 ml.\"}}]}"
+  ],
+  "precios_en_html": [
+   "_gross/estee-lauder-pleasures-eau-de-parfum-100-ml.jpg\"/> \t\t\t<title>Estée Lauder Pleasures Eau de Parfum (100 ml) desde 39,92 € | Noviembre 2026 | Compara precios en idealo</title>  \t<met",
+   "),o=[i,...l].slice(0,10);Ct(o)},Nt=[\"Ich suche meine neue Waschmaschine.\",\"Vergleiche iPhone 17 mit Samsung S26!\",\"Sind 599€ ein Deal für's Galaxy S26 FE?\"],Mt=({onPromptClick:e})=>he(",
+   "325465&amp;type=offer&amp;pos=-2\"                                class=\"leadoutbox-priceAmount\" rel=\"noopener nofollow\">39,92 €</a>             <span>Gastos de envío no incluidos</span>  ",
+   "follow\">39,92 €</a>             <span>Gastos de envío no incluidos</span>             <div class=\"leadoutbox-priceBase\">399,20 €/l</div>             </div>         <a target=\"_blank\"      ",
+   "r-xlarge\" \t\t   data-trx-click=\"product_stage_cta_click;1-0-0;sooper\" \t\t> \t\t\t<p class=\"oopStage-priceRangeCtaRange\"> \t\t\t\t39,92 € – 104,00 €</p> \t\t\t<span class=\"oopStage-priceRangeCtaButton",
+   "\t\t   data-trx-click=\"product_stage_cta_click;1-0-0;sooper\" \t\t> \t\t\t<p class=\"oopStage-priceRangeCtaRange\"> \t\t\t\t39,92 € – 104,00 €</p> \t\t\t<span class=\"oopStage-priceRangeCtaButton\"> \t\t\t\tComp",
+   " class=\"oopStage-stickyPriceCtaPriceLabel\">desde</span>                 <span class=\"oopStage-stickyPriceCtaPriceValue\">39,92 €</span>             </span>             <a class=\"oopStage-s",
+   "eRange hide\"> \t\t\t\t<span class=\"oopStage-priceRangeOffers\">13 ofertas:</span> \t\t\t\t<span class=\"oopStage-priceRangePrice\">39,92 € – 104,00 €</span> \t\t\t</a> \t\t<div class=\"oopStage-metaInfoIt",
+   "e\"> \t\t\t\t<span class=\"oopStage-priceRangeOffers\">13 ofertas:</span> \t\t\t\t<span class=\"oopStage-priceRangePrice\">39,92 € – 104,00 €</span> \t\t\t</a> \t\t<div class=\"oopStage-metaInfoItemWrapper\">",
+   "d Girl Eau de Parfum</div> \t\t\t\t\t\t\t</a> \t\t\t\t\t\t\t<div class=\"topTenProducts-product-description-price\"> \t\t\t\t\t\t\t\tdesde&nbsp;27,99 €</div> \t\t\t\t\t\t</div>  \t\t\t\t\t</li> \t\t\t\t<li class=\"topTenProduct",
+   " Opium Eau de Parfum</div> \t\t\t\t\t\t\t</a> \t\t\t\t\t\t\t<div class=\"topTenProducts-product-description-price\"> \t\t\t\t\t\t\t\tdesde&nbsp;25,95 €</div> \t\t\t\t\t\t</div>  \t\t\t\t\t</li> \t\t\t\t<li class=\"topTenProduct",
+   " Idôle Eau de Parfum</div> \t\t\t\t\t\t\t</a> \t\t\t\t\t\t\t<div class=\"topTenProducts-product-description-price\"> \t\t\t\t\t\t\t\tdesde&nbsp;24,58 €</div> \t\t\t\t\t\t</div>  \t\t\t\t\t</li> \t\t\t\t<li class=\"topTenProduct",
+   "is Her Eau de Parfum</div> \t\t\t\t\t\t\t</a> \t\t\t\t\t\t\t<div class=\"topTenProducts-product-description-price\"> \t\t\t\t\t\t\t\tdesde&nbsp;30,51 €</div> \t\t\t\t\t\t</div>  \t\t\t\t\t</li> \t\t\t\t<li class=\"topTenProduct",
+   "My Way Eau de Parfum</div> \t\t\t\t\t\t\t</a> \t\t\t\t\t\t\t<div class=\"topTenProducts-product-description-price\"> \t\t\t\t\t\t\t\tdesde&nbsp;15,19 €</div> \t\t\t\t\t\t</div>  \t\t\t\t\t</li> \t\t\t\t<li class=\"topTenProduct",
+   " Belle Eau de Parfum</div> \t\t\t\t\t\t\t</a> \t\t\t\t\t\t\t<div class=\"topTenProducts-product-description-price\"> \t\t\t\t\t\t\t\tdesde&nbsp;25,17 €</div> \t\t\t\t\t\t</div>  \t\t\t\t\t</li> \t\t\t\t<li class=\"topTenProduct",
+   "Of You Eau de Parfum</div> \t\t\t\t\t\t\t</a> \t\t\t\t\t\t\t<div class=\"topTenProducts-product-description-price\"> \t\t\t\t\t\t\t\tdesde&nbsp;17,76 €</div> \t\t\t\t\t\t</div>  \t\t\t\t\t</li> \t\t\t\t<li class=\"topTenProduct",
+   "radoxe Eau de Parfum</div> \t\t\t\t\t\t\t</a> \t\t\t\t\t\t\t<div class=\"topTenProducts-product-description-price\"> \t\t\t\t\t\t\t\tdesde&nbsp;47,39 €</div> \t\t\t\t\t\t</div>  \t\t\t\t\t</li> \t\t\t\t<li class=\"topTenProduct",
+   "Cherry Eau de Parfum</div> \t\t\t\t\t\t\t</a> \t\t\t\t\t\t\t<div class=\"topTenProducts-product-description-price\"> \t\t\t\t\t\t\t\tdesde&nbsp;21,71 €</div> \t\t\t\t\t\t</div>  \t\t\t\t\t</li> \t\t\t\t<li class=\"topTenProduct",
+   "u de Parfum (100 ml)</div> \t\t\t\t\t\t\t</a> \t\t\t\t\t\t\t<div class=\"topTenProducts-product-description-price\"> \t\t\t\t\t\t\t\tdesde&nbsp;17,30 €</div> \t\t\t\t\t\t</div>  \t\t\t\t\t</li> \t\t\t\t</ol> \t\t</section> \t<sec",
+   "a> \t\t\t\t\t\t\t\t</div> \t\t\t\t\t\t\t\t<div class=\"sideBar-product-description-price\">                                    desde&nbsp;71,20 €</div> \t\t\t\t\t\t\t</div> \t\t\t\t\t</li> \t\t\t\t<li class=\"sideBar-produ",
+   "a> \t\t\t\t\t\t\t\t</div> \t\t\t\t\t\t\t\t<div class=\"sideBar-product-description-price\">                                    desde&nbsp;44,08 €</div> \t\t\t\t\t\t\t</div> \t\t\t\t\t</li> \t\t\t\t<li class=\"sideBar-produ",
+   "a> \t\t\t\t\t\t\t\t</div> \t\t\t\t\t\t\t\t<div class=\"sideBar-product-description-price\">                                    desde&nbsp;39,41 €</div> \t\t\t\t\t\t\t</div> \t\t\t\t\t</li> \t\t\t\t<li class=\"sideBar-produ",
+   "a> \t\t\t\t\t\t\t\t</div> \t\t\t\t\t\t\t\t<div class=\"sideBar-product-description-price\">                                    desde&nbsp;48,42 €</div> \t\t\t\t\t\t\t</div> \t\t\t\t\t</li> \t\t\t\t<li class=\"sideBar-produ",
+   "a> \t\t\t\t\t\t\t\t</div> \t\t\t\t\t\t\t\t<div class=\"sideBar-product-description-price\">                                    desde&nbsp;40,85 €</div> \t\t\t\t\t\t\t</div> \t\t\t\t\t</li> \t\t\t\t</ul>  \t\t</section>     ",
+   "                                   target=\"_blank\"                rel=\"noopener nofollow\"             >                 39,92 €<span class=\"productOffers-listItemOfferBasePrice\">         "
+  ],
+  "variantes": []
+ },
+ "idealo_ofertas": {
+  "perfume": "estee-lauder-pleasures-edp-100",
+  "encontradas": {
+   "primor": 39.92,
+   "arenal": 44.95,
+   "druni": 44.95,
+   "sabina": 66.45,
+   "julia": 77.95,
+   "notino": 104.0
+  },
+  "listas": 633,
+  "muestra": "5995ade70b\"></span>\n        <span data-offerlist-segment=\"new\"></span>\n        <span class=\"authorised-badge-available\"\n                  data-trx-visible=\"authorised_badge_availability;1-0-0;sooper\"\n                  data-trx-visible-data='{&#034;badged_offers&#034;:[]}'></span>\n        <li class=\"productOffers-listItemOfferErrorBanner row row-24\">\n\t<div class=\"banner bannerOfferError\">\n\t\t<span class=\"banner-content bannerOfferError-icon\">\n\t\t\t<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<svg width=\"22px\" height=\"22px\" viewBox=\"0 0 64 64\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->\n    <g id=\"Page-1\" stroke=\"none\" stroke-width=\"1\" fill=\"none\" fill-rule=\"evenodd\">\n        <g id=\"04_Above_Offerlist_mobile\" transform=\"translate(-222.000000, -308.000000)\" fill=\"#0771D0\" fill-rule=\"nonzero\">\n            <g id=\"ico_info_circle_filled\" transform=\"translate(222.000000, 308.000000)\">\n                <path d=\"M32,0 C14.326888,0 0,14.326888 0,32 C0,49.673112 14.326888,64 32,64 C49.673112,64 64,49.673112 64,32 C63.9791607,14.3355271 49.6644729,0.0208392747 32,0 Z M34.9090909,46.5454545 C34.9090909,48.1521011 33.6066465,49.4545455 32,49.4545455 C30.3933535,49.4545455 29.0909091,48.1521011 29.0909091,46.5454545 L29.0909091,32 C29.0909091,30.3933535 30.3933535,29.0909091 32,29.0909091 C33.6066465,29.0909091 34.9090909,30.3933535 34.9090909,32 L34.9090909,46.5454545 Z M32,22.1090909 C29.9113595,22.1090909 28.2181818,20.4159132 28.2181818,18.3272727 C28.2181818,16.2386322 29.9113595,14.5454545 32,14.5454545 C34.0886405,14.5454545 35.7818182,16.2386322 35.7818182,18.3272727 C35.7818182,20.4159132 34.0886405,22.1090909 32,22.1090909 Z\" id=\"Shape\"></path>\n            </g>\n        </g>\n    </g>\n</svg>\n</span>\n\t\t<strong class=\"banner-content\" data-label=\"¿Encontraste un error?\">\n\t\t</strong>\n\t\t<span class=\"banner-content bannerOfferError-linkContainer\">\n\t\t\t<a class=\"banner-link\" data-label=\"Infórmanos.\">\n\t\t\t</a>\n\t\t</span>\n\t</div>\n</li>\n<li class=\"productOffers-listItem row row-24 \"\n        \n    data-shop='{\"type\":\"GENERAL\"}'\n        \n            data-trx-click=\"offer_click;2-4-10;sooper\"\n            data-trx-click-data='click_target=>offer-row;offer_click_type=>clickout;{&#034;offer_key&#034;:&#034;d4d351a71af5f365244e6151fa59b642&#034;,&#034;shop_id&#034;:&#034;325465&#034;,&#034;offer_position&#034;:&#034;0&#034;,&#034;authorised_badge_available&#034;:false,&#034;leadout_type&#034;:&#034;offer&#034;}'\n        \n                data-mtrx-click='{&#034;shop_name&#034;:&#034;pacoperfumerias.com&#034;,&#034;products&#034;:[{&#034;id&#034;:590498,&#034;category&#034;:3972,&#034;name&#034;:&#034;Estée Lauder Pleasures Eau de Parfum (100 ml)&#034;,&#034;price&#034;:39.92}]",
+  "notino": "\":\"freereturn\",\"href\":\"https://www.idealo.es/offerpage/offerlist/product/590498/start/0/sort/default?includeFilters=262144&amp;excludeFilters=0&amp;offerpageViewId=f5f9eb80-8036-40b4-ac15-877ed46d1d0f\"},{\"rel\":\"base\",\"href\":\"https://www.idealo.es/offerpage/offerlist/product/590498/start/0/sort/default?includeFilters=0&amp;excludeFilters=0&amp;offerpageViewId=f5f9eb80-8036-40b4-ac15-877ed46d1d0f\"},{\"rel\":\"homeDelivery\",\"href\":\"https://www.idealo.es/offerpage/offerlist/product/590498/start/0/sort/default?includeFilters=0&amp;excludeFilters=0&amp;offerFilters=HOME_DELIVERY&amp;offerpageViewId=f5f9eb80-8036-40b4-ac15-877ed46d1d0f\"},{\"rel\":\"disposalOnly\",\"href\":\"https://www.idealo.es/offerpage/offerlist/product/590498/start/0/sort/default?includeFilters=0&amp;excludeFilters=0&amp;offerFilters=DISPOSAL_ONLY&amp;offerpageViewId=f5f9eb80-8036-40b4-ac15-877ed46d1d0f\"},{\"rel\":\"shopLanguage\",\"href\":\"https://www.idealo.es/offerpage/offerlist/product/590498/start/0/sort/default?includeFilters=0&amp;excludeFilters=0&amp;offerFilters=SHOP_LANG_DOMESTIC&amp;offerFilters=SHOP_LANG_INTERNATIONAL&amp;offerpageViewId=f5f9eb80-8036-40b4-ac15-877ed46d1d0f\"}]'\n            \n            data-total-offer-count='13'\n        \n    data-shop='{\"type\":\"IDECL\"}'\n        \n            data-trx-click=\"offer_click;2-4-10;sooper\"\n            data-trx-click-data='click_target=>offer-row;offer_click_type=>voucher_overlay;{&#034;offer_key&#034;:&#034;52d6ac91e879be1d31145bfbef5508d7&#034;,&#034;shop_id&#034;:&#034;298684&#034;,&#034;offer_position&#034;:&#034;12&#034;,&#034;authorised_badge_available&#034;:false,&#034;leadout_type&#034;:&#034;offer&#034;}'\n        \n    data-error-data-url=\"L29mZmVycGFnZS9vZmZlci9lcnJvci9hcGkvcHJvZHVjdC81OTA0OTgvb2ZmZXJrZXkvNTJkNmFjOTFlODc5YmUxZDMxMTQ1YmZiZWY1NTA4ZDc/b2ZmZXJJbmRleD0xMg==\"\n    data-error-reporting-overlay-url=\"https://www.idealo.es/offerpage/ui/error-reporting/content?locale=es_ES&language=es_ES&productId=590498&productName=Est%C3%A9e%20Lauder%20Pleasures%20Eau%20de%20Parfum%20(100%20ml)&shopName=notino.es&offerKey=52d6ac91e879be1d31145bfbef5508d7&shopId="
+ },
+ "paco": {
+  "url": "https://www.pacoperfumerias.com/estee-lauder-pleasures-2391.html",
+  "ml": 100,
+  "resultado": {
+   "precio": 39.92,
+   "metodo": "jsonld",
+   "referencia": 42.435,
+   "aceptado": true
+  },
+  "jsonld": [
+   "{\"@context\":\"http://schema.org/\",\"@graph\":[{\"@type\":\"BreadcrumbList\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":0,\"item\":{\"@id\":\"/\",\"name\":\"Home\"}},{\"@type\":\"ListItem\",\"position\":1,\"item\":{\"@id\":\"/perfumes\",\"name\":\"Perfumes\"}},{\"@type\":\"ListItem\",\"position\":2,\"item\":{\"@id\":\"/perfumes-mujer\",\"name\":\"Perfumes Mujer\"}}]},{\"@type\":\"ProductGroup\",\"name\":\"Pleasures\",\"description\":\"Eau de Parfum para Mujer\",\"url\":\"https://www.pacoperfumerias.com/estee-lauder-pleasures-2391.html\",\"productGroupID\":\"2391\",\"brand\":{\"@type\":\"Brand\",\"name\":\"ESTÉE LAUDER\"},\"aggregateRating\":{\"@type\":\"AggregateRating\",\"ratingValue\":5,\"reviewCount\":72},\"variesBy\":[\"https://schema.org/size\"],\"hasVariant\":[{\"@type\":\"Product\",\"sku\":\"53669\",\"name\":\"Pleasures 50ml\",\"offers\":{\"@type\":\"Offer\",\"url\":\"https://www.pacoperfumerias.com/estee-lauder-pleasures-2391.html\",\"priceCurrency\":\"EUR\",\"price\":29.95,\"itemCondition\":\"https://schema.org/NewCondition\",\"availability\":\"https://schema.org/InStock\"},\"image\":\"https://www.pacoperfumerias.com/on/demandware.static/-/Sites-pacoper-master-catalog/default/dw5d7b4248/images/5/3/53669_2.jpg\",\"size\":\"50ml\"},{\"@type\":\"Product\",\"sku\":\"53671\",\"name\":\"Pleasures 100ml\",\"offers\":{\"@type\":\"Offer\",\"url\":\"https://www.pacoperfumerias.com/estee-lauder-pleasures-2391.html\",\"priceCurrency\":\"EUR\",\"price\":39.92,\"itemCondition\":\"https://schema.org/NewCondition\",\"availability\":\"https://schema.org/InStock\"},\"image\":\"https://www.pacoperfumerias.com/on/demandware.static/-/Sites-pacoper-master-catalog/default/dw0a7235c3/images/5/3/53671_2.jpg\",\"size\":\"100ml\"}]}]}"
+  ],
+  "precios_en_html": [
+   "<a class=\"header-ticker__text label-link label-link--secondary-light\" href=\"https://www.pacoperfumerias.com/newsletter\">3&euro; por SUSCRIBIRTE*</a></p>  <p class=\"header-ticker__text\">EN",
+   "w.pacoperfumerias.com/newsletter\">3&euro; por SUSCRIBIRTE*</a></p>  <p class=\"header-ticker__text\">ENV&Iacute;O GRATIS +49,99&euro;</p>  <p class=\"header-ticker__text\">MUESTRAS GRATIS en tu p",
+   "<a class=\"header-ticker__text label-link label-link--secondary-light\" href=\"https://www.pacoperfumerias.com/newsletter\">3&euro; por SUSCRIBIRTE*</a></p>  <p class=\"header-ticker__text\">EN",
+   "w.pacoperfumerias.com/newsletter\">3&euro; por SUSCRIBIRTE*</a></p>  <p class=\"header-ticker__text\">ENV&Iacute;O GRATIS +49,99&euro;</p>  <p class=\"header-ticker__text\">MUESTRAS GRATIS en tu p",
+   "\">                                                        <span class=\"value\" content=\"29.95\">                          29,95 &euro;               </span>         </span>     </span>          ",
+   " <span class=\"swatch-grid-empty\"></span>                      </div>                      <span class=\"price__per-unit\">59,90 &euro; / 100ml</span>                        </div>               ",
+   "\">                                                        <span class=\"value\" content=\"39.92\">                          39,92 &euro;               </span>         </span>     </span>          ",
+   " <span class=\"swatch-grid-empty\"></span>                      </div>                      <span class=\"price__per-unit\">39,92 &euro; / 100ml</span>                        </div>               ",
+   "\">                                                        <span class=\"value\" content=\"23.60\">                          23,60 &euro;               </span>         </span>     </span>          ",
+   "\">                                                        <span class=\"value\" content=\"42.69\">                          42,69 &euro;               </span>         </span>     </span>          ",
+   "\">                                                        <span class=\"value\" content=\"49.95\">                          49,95 &euro;               </span>         </span>     </span>          ",
+   "\">                                                        <span class=\"value\" content=\"54.95\">                          54,95 &euro;               </span>         </span>     </span>          ",
+   "\">                                                        <span class=\"value\" content=\"15.40\">                          15,40 &euro;               </span>         </span>     </span>          ",
+   "\">                                                        <span class=\"value\" content=\"34.94\">                          34,94 &euro;               </span>         </span>     </span>          ",
+   "\">                                                        <span class=\"value\" content=\"59.95\">                          59,95 &euro;               </span>         </span>     </span>          ",
+   ">                                                        <span class=\"value\" content=\"160.00\">                          160,00 &euro;               </span>         </span>     </span>          ",
+   "\">                                                        <span class=\"value\" content=\"39.95\">                          39,95 &euro;               </span>         </span>     </span>          ",
+   "\">                                                        <span class=\"value\" content=\"59.95\">                          59,95 &euro;               </span>         </span>     </span>          ",
+   ">                                                        <span class=\"value\" content=\"160.00\">                          160,00 &euro;               </span>         </span>     </span>          ",
+   ">                                                        <span class=\"value\" content=\"116.00\">                          116,00 &euro;               </span>         </span>     </span>          "
+  ],
+  "variantes": []
+ },
+ "fallo_avenida": {
+  "url": "https://www.perfumeriasavenida.com/products/dkny-be-delicious-latte-matcha-eau-de-parfum-para-mujer",
+  "ml": 100,
+  "resultado": {
+   "precio": null,
+   "metodo": "sin-precio",
+   "referencia": 39.95,
+   "aceptado": false
+  },
+  "largo": 357307,
+  "titulo": "DKNY Latte Matcha Eau de Parfum mujer | Perfumerías Avenida",
+  "tamaños": [
+   "15",
+   "50"
+  ],
+  "inicio": " <!doctype html><html class=\"no-js\" lang=\"es\" dir=\"ltr\" data-market=\"es\" > <head><script data-source-attribution=\"shopify.exit_interstitial\">(()=>{var i=Function.prototype.bind.bind(Function.prototype.call),nn=(y,d)=>{for(let m=y;m;m=Object.getPrototypeOf(m)){let T=Object.getOwnPropertyDescriptor(m,d);if(T)return T}throw new TypeError(`${d} is not defined`)},a=(y,d)=>i(nn(y,d).ge"
+ },
+ "avenida": {
+  "url": "https://www.perfumeriasavenida.com/products/dkny-be-delicious-latte-matcha-eau-de-parfum-para-mujer",
+  "ml": 100,
+  "resultado": {
+   "precio": null,
+   "metodo": "sin-precio",
+   "referencia": 39.95,
+   "aceptado": false
+  },
+  "jsonld": [
+   "{\n         \"@context\": \"https://schema.org\",\n         \"@type\": \"Organization\",\n         \"name\": \"Perfumerías Avenida\",\n         \n    \n           \"logo\": \"https:\\/\\/www.perfumeriasavenida.com\\/cdn\\/shop\\/files\\/logo-b-n-avenida_946x.png?v=1789563538\",\n         \n         \"url\": \"https:\\/\\/www.perfumeriasavenida.com\"\n       }",
+   "{\n      \"@context\": \"https://schema.org\",\n      \"@type\": \"BreadcrumbList\",\n      \"itemListElement\": [{\n            \"@type\": \"ListItem\",\n            \"position\": 1,\n            \"name\": \"Inicio\",\n            \"item\": \"https:\\/\\/www.perfumeriasavenida.com\\/\"\n          },{\n            \"@type\": \"ListItem\",\n            \"position\": 2,\n            \"name\": \"Perfumes\",\n            \"item\": \"https:\\/\\/www.perfumeriasavenida.com\\/collections\\/perfumes\"\n          },{\n            \"@type\": \"ListItem\",\n            \"position\": 3,\n            \"name\": \"Perfumes de mujer\",\n            \"item\": \"https:\\/\\/www.perfumeriasavenida.com\\/collections\\/perfumes-mujer\"\n          },{\n            \"@type\": \"ListItem\",\n            \"position\": 4,\n            \"name\": \"Latte Matcha EDP\",\n            \"item\": \"https:\\/\\/www.perfumeriasavenida.com\\/products\\/dkny-be-delicious-latte-matcha-eau-de-parfum-para-mujer\"\n          }]\n    }"
+  ],
+  "precios_en_html": [
+   "oard                                   class=\"nl-promocode__btn\"                                   data-clipboard-text=\"20€\"                                                           ",
+   "ip=\"Copiado al portapapeles\"                           >                               <span class=\"nl-promocode__code\">20€</span>                           </copy-clipboard>         ",
+   "=\"true\"                 show-discount        >                 <span class=\"price price--large price--highlight\">       35,95€     </span><span class=\"price text--subdued pdp-unit-price\"",
+   "dad\">         <span class=\"unit-price-measurement\">           <span class=\"unit-price-measurement__price\">              71,90€           </span>           <span class=\"unit-price-measure",
+   "an>         </span>       </span><div class=\"price-list__compare-container\">         <span class=\"price price--compare\">80,00€</span>                                          <span class",
+   "div class=\"unit-price-measurement\">                   <span class=\"unit-price-measurement__price\">                      71,90€                   </span>                   <span class=\"un",
+   "=\"true\"                 show-discount        >                 <span class=\"price price--large price--highlight\">       35,95€     </span><span class=\"price text--subdued pdp-unit-price\"",
+   "dad\">         <span class=\"unit-price-measurement\">           <span class=\"unit-price-measurement__price\">              71,90€           </span>           <span class=\"unit-price-measure",
+   "an>         </span>       </span><div class=\"price-list__compare-container\">         <span class=\"price price--compare\">80,00€</span>                                          <span class",
+   "\"lazy\">            </div>     <div class=\"product-form-reinsurance__text\">                <p>ENVÍO GRATUITO A PARTIR DE 20€</p>            </div>                        </div>        ",
+   "  </svg></div><div class=\"text-with-icons__content-wrapper\"><p class=\"heading heading--small\">ENVÍOS GRATIS A PARTIR DE 20€</p></div>       </div >        <div        href=\"\"       cl",
+   "  </svg></div><div class=\"text-with-icons__content-wrapper\"><p class=\"heading heading--small\">ENVÍOS GRATIS A PARTIR DE 20€</p></div>     </div ><drawer-content       id=\"product-sect",
+   "rrentColor\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>     </svg>ENVÍOS GRATIS A PARTIR DE 20€</p>          <button           type=\"button\"           clas",
+   "rrentColor\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>     </svg>ENVÍOS GRATIS A PARTIR DE 20€</p>          <button           type=\"button\"           clas"
+  ],
+  "variantes": []
+ },
+ "lookfantastic": {
+  "url": "https://www.lookfantastic.es/p/dkny-be-extra-delicious-eau-de-parfum-spray-100ml/14964166/",
+  "ml": 100,
+  "resultado": {
+   "precio": 59.57,
+   "metodo": "jsonld",
+   "referencia": 39.95,
+   "aceptado": true
+  },
+  "jsonld": [
+   "{\"@type\":\"Product\",\"@context\":\"https://schema.org\",\"sku\":\"14964166\",\"offers\":[{\"@type\":\"Offer\",\"sku\":\"14964166\",\"url\":\"https://www.lookfantastic.es/p/dkny-be-extra-delicious-eau-de-parfum-spray-100ml/14964166/\",\"itemCondition\":\"https://schema.org/NewCondition\",\"availability\":\"https://schema.org/OutOfStock\",\"price\":59.57,\"priceCurrency\":\"EUR\"}],\"name\":\"DKNY Be Extra Delicious Eau de Parfum Spray 100ml\",\"description\":\" Contemporary and confident, just like the city it comes from, the DKNY Be Extra Delicious Eau de Parfum is a playful floral gourmand. \\n Delicately decadent, the eau de parfum opens with crisp pear for a bite of fruity freshness, before gardenia and a swirl of creamy caramel add depth and dimension. Irresistible alone and even more tempting layered on top of the original Be Delicious fragrance, this versatile formula pairs perfectly with fellow floral-gourmand blends. \",\"image\":\"https://main.thgimages.com/?url=https://static.thcdn.com/productimg/original/14964166-1955311182832797.jpg&format=webp&width=1500&height=1500&fit=cover\",\"additionalProperty\":[{\"@type\":\"PropertyValue\",\"name\":\"suggestedGender\",\"value\":\"Unisex\"},{\"@type\":\"PropertyValue\",\"name\":\"suggestedAge\",\"value\":\"Adult\"}]}",
+   "{\"@context\":\"https://schema.org\",\"@type\":\"BreadcrumbList\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":{\"@type\":\"Thing\",\"@id\":\"https://www.lookfantastic.es/\"}},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"DKNY Be Extra Delicious Eau de Parfum Spray 100ml\",\"item\":{\"@type\":\"Thing\",\"@id\":\"https://www.lookfantastic.es/p/dkny-be-extra-delicious-eau-de-parfum-spray-100ml/14964166/\"}}]}"
+  ],
+  "precios_en_html": [
+   "1.106 0 00-.987 1.106v7.635m12-6.677v6.677m0 4.5v-4.5m0 0h-12\" ></path> </svg> <span class=\"text-sm\"> Coste de entrega: 3,99€</span>  </a> <a data-track=\"clickUSP\" data-track-push=\"/c/s",
+   "6 4.242S9 12.22 7.592 10.811a2.25 2.25 0 113.182-3.182z\" ></path> </svg> <span class=\"text-sm\"> ¡Recomiéndanos y recibe 10€!</span>  </a>  </div> <script>   const uspContainer = docum",
+   "avigation-item\" data-astro-prefetch=\"hover\" data-astro-cid-gfoffe2e=\"true\"> La Edición Black Friday (Valorada en más de 225 €) </a> <a href=\"/c/offers/eu/treat-of-the-week/\" class=\"navi",
+   "ifting/gifts-under-25/eu/\" class=\"navigation-item\" data-astro-prefetch=\"hover\" data-astro-cid-gfoffe2e=\"true\"> Menos de 25€ </a> <a href=\"/c/health-beauty/gifting/gifts-25-to-50/eu/\" ",
+   "y/gifting/gifts-25-to-50/eu/\" class=\"navigation-item\" data-astro-prefetch=\"hover\" data-astro-cid-gfoffe2e=\"true\"> Entre 25€ y 50€ </a> <a href=\"/c/health-beauty/gifting/gifts-50-above",
+   "ing/gifts-25-to-50/eu/\" class=\"navigation-item\" data-astro-prefetch=\"hover\" data-astro-cid-gfoffe2e=\"true\"> Entre 25€ y 50€ </a> <a href=\"/c/health-beauty/gifting/gifts-50-above/eu/\" ",
+   "-beauty/gifting/gifts-50-above/eu/\" class=\"navigation-item\" data-astro-prefetch=\"hover\" data-astro-cid-gfoffe2e=\"true\"> 50€ y más </a>  </div> </div> </div> </div>  </div><div data-e2",
+   "-item\" data-astro-prefetch=\"hover\" data-astro-cid-gfoffe2e=\"true\"> La Edición de la Nueva Temporada (valorada en más de 120 €) </a> <a href=\"/p/beauty-box/la-edicion-asi-sin-motive-algu",
+   "item\" data-astro-prefetch=\"hover\" data-astro-cid-gfoffe2e=\"true\"> La edición así, sin motive alguno (valorada en más de 125 €) </a> <a href=\"/p/beauty-box/la-edicion-dermatologica-valor",
+   "vigation-item\" data-astro-prefetch=\"hover\" data-astro-cid-gfoffe2e=\"true\"> La Edición Dermatológica (Valorada en más de 225 €) </a> <a href=\"/p/beauty-box/la-edicion-black-friday-valora",
+   "avigation-item\" data-astro-prefetch=\"hover\" data-astro-cid-gfoffe2e=\"true\"> La Edición Black Friday (Valorada en más de 225 €) </a> <a href=\"/c/offers/beauty-box/gifting-edits-eu/\" clas",
+   "igation-item\" data-astro-prefetch=\"hover\" data-astro-cid-gfoffe2e=\"true\"> La Edición Damas de Honor (valorada en más de 120€) </a> <a href=\"/c/offers/beauty-box/limited-edition/view-al",
+   "n-black-friday-valorada-en-mas-de-225/17691452/\" aria-label=\"Mejores ofertasLa Edición Black Friday (Valorada en más de 225 €)\" data-astro-cid-k6c7o3mi=\"true\"> La Edición Black Friday (",
+   "ón Black Friday (Valorada en más de 225 €)\" data-astro-cid-k6c7o3mi=\"true\"> La Edición Black Friday (Valorada en más de 225 €) </a> <a data-astro-prefetch=\"tap\" tabindex=\"-1\" href=\"/c/o",
+   "o-prefetch=\"tap\" tabindex=\"-1\" href=\"/c/health-beauty/gifting/gifts-under-25/eu/\" aria-label=\"COMPRA POR PRECIOMenos de 25€\" data-astro-cid-k6c7o3mi=\"true\"> Menos de 25€ </a> <a data-",
+   "-beauty/gifting/gifts-under-25/eu/\" aria-label=\"COMPRA POR PRECIOMenos de 25€\" data-astro-cid-k6c7o3mi=\"true\"> Menos de 25€ </a> <a data-astro-prefetch=\"tap\" tabindex=\"-1\" href=\"/c/he",
+   "stro-prefetch=\"tap\" tabindex=\"-1\" href=\"/c/health-beauty/gifting/gifts-25-to-50/eu/\" aria-label=\"COMPRA POR PRECIOEntre 25€ y 50€\" data-astro-cid-k6c7o3mi=\"true\"> Entre 25€ y 50€ </a>",
+   "refetch=\"tap\" tabindex=\"-1\" href=\"/c/health-beauty/gifting/gifts-25-to-50/eu/\" aria-label=\"COMPRA POR PRECIOEntre 25€ y 50€\" data-astro-cid-k6c7o3mi=\"true\"> Entre 25€ y 50€ </a> <a da",
+   "-beauty/gifting/gifts-25-to-50/eu/\" aria-label=\"COMPRA POR PRECIOEntre 25€ y 50€\" data-astro-cid-k6c7o3mi=\"true\"> Entre 25€ y 50€ </a> <a data-astro-prefetch=\"tap\" tabindex=\"-1\" href=",
+   "y/gifting/gifts-25-to-50/eu/\" aria-label=\"COMPRA POR PRECIOEntre 25€ y 50€\" data-astro-cid-k6c7o3mi=\"true\"> Entre 25€ y 50€ </a> <a data-astro-prefetch=\"tap\" tabindex=\"-1\" href=\"/c/he",
+   "data-astro-prefetch=\"tap\" tabindex=\"-1\" href=\"/c/health-beauty/gifting/gifts-50-above/eu/\" aria-label=\"COMPRA POR PRECIO50€ y más\" data-astro-cid-k6c7o3mi=\"true\"> 50€ y más </a>  </di",
+   "f=\"/c/health-beauty/gifting/gifts-50-above/eu/\" aria-label=\"COMPRA POR PRECIO50€ y más\" data-astro-cid-k6c7o3mi=\"true\"> 50€ y más </a>  </div> </div> </div> </div><div class=\"mobile-n",
+   "-valorada-en-mas-de-120/17691538/\" aria-label=\"Ediciones limitadas La Edición de la Nueva Temporada (valorada en más de 120 €)\" data-astro-cid-k6c7o3mi=\"true\"> La Edición de la Nueva Te",
+   "porada (valorada en más de 120 €)\" data-astro-cid-k6c7o3mi=\"true\"> La Edición de la Nueva Temporada (valorada en más de 120 €) </a> <a data-astro-prefetch=\"tap\" tabindex=\"-1\" href=\"/p/b",
+   "valorada-en-mas-de-125/17691519/\" aria-label=\"Ediciones limitadas La edición así, sin motive alguno (valorada en más de 125 €)\" data-astro-cid-k6c7o3mi=\"true\"> La edición así, sin motiv"
+  ],
+  "variantes": []
+ },
+ "fallo_parejo": {
+  "url": "https://www.joyeriaparejo.com/perfumes/dkny-be-delicious-50-ml-eau-de-parfum-donna-karan",
+  "ml": 100,
+  "resultado": {
+   "precio": null,
+   "metodo": "sin-precio",
+   "referencia": 39.95,
+   "aceptado": false
+  },
+  "largo": 11760,
+  "titulo": "One moment, please...",
+  "tamaños": [],
+  "inicio": "<!DOCTYPE html> <html lang=\"en\"> <head> <meta charset=\"utf8\"> <meta name=\"viewport\" content=\"width=device-width,initial-scale=1.0\"> <script> (function(){ setTimeout(function(){ window.location.reload(); }, 5000); }()) </script> <link rel=\"icon\" href=\"data:,\"> <title>One moment, please...</title> <style> .spinner { -webkit-animation: s"
+ },
+ "parejo": {
+  "url": "https://www.joyeriaparejo.com/perfumes/dkny-be-delicious-50-ml-eau-de-parfum-donna-karan",
+  "ml": 100,
+  "resultado": {
+   "precio": null,
+   "metodo": "sin-precio",
+   "referencia": 39.95,
+   "aceptado": false
+  },
+  "jsonld": [],
+  "precios_en_html": [],
+  "variantes": []
+ },
+ "fallo_sephora": {
+  "url": "https://www.sephora.es/p/boss-ma-vie---eau-de-parfum-P2065058.html",
+  "ml": 75,
+  "resultado": {
+   "precio": null,
+   "metodo": "sin-precio",
+   "referencia": 33.95,
+   "aceptado": false
+  },
+  "largo": 2739,
+  "titulo": "",
+  "tamaños": [],
+  "inicio": "<!DOCTYPE html> <html> <body><script type=\"text/javascript\" src=\"/UzKmncLQ36mvj/LCIn/lIkb4T5P8E/khk56QEpuiwu/cR9UKC4AQg/dhZi/eC08GDN2AQ?v=764d2902-f1ba-ca66-6baf-5606e2c617d5&amp;t=731256501\"></script> <div id=\"sec-if-cpt-container\" role=\"main\" style=\"display: none\"> <div class=\"behavioral-content\"> <div id=\"sec-bc-text-container\"></div> <div id=\"sec-bc-tile-parent\"> "
+ },
+ "sephora": {
+  "url": "https://www.sephora.es/p/boss-ma-vie---eau-de-parfum-P2065058.html",
+  "ml": 75,
+  "resultado": {
+   "precio": null,
+   "metodo": "sin-precio",
+   "referencia": 33.95,
+   "aceptado": false
+  },
+  "jsonld": [],
+  "precios_en_html": [],
+  "variantes": []
+ },
  "busqueda_paco": {
-  "perfume": "antonio-banderas-the-golden-secret-edt-100",
+  "perfume": "bvlgari-aqva-marine-edt-100",
   "encontrada": null,
   "enlaces": [
    "/maquillaje-unas-quitaesmaltes",
@@ -391,227 +376,17 @@
    "/cabello-champus-anticaspa"
   ]
  },
- "fallo_avenida": {
-  "url": "https://www.perfumeriasavenida.com/products/banderas-the-golden-secret-eau-de-toilette-para-hombre",
-  "ml": 100,
-  "resultado": {
-   "precio": null,
-   "metodo": "sin-precio",
-   "referencia": 18.28,
-   "aceptado": false
-  },
-  "largo": 365823,
-  "titulo": "Banderas The Golden Secret EDT 200 ml | Perfumerías Avenida",
-  "tamaños": [
-   "15",
-   "200"
-  ],
-  "inicio": " <!doctype html><html class=\"no-js\" lang=\"es\" dir=\"ltr\" data-market=\"es\" > <head><script data-source-attribution=\"shopify.exit_interstitial\">(()=>{var i=Function.prototype.bind.bind(Function.prototype.call),nn=(y,d)=>{for(let m=y;m;m=Object.getPrototypeOf(m)){let T=Object.getOwnPropertyDescriptor(m,d);if(T)return T}throw new TypeError(`${d} is not defined`)},a=(y,d)=>i(nn(y,d).ge"
- },
- "fallo_parejo": {
-  "url": "https://www.joyeriaparejo.com/perfumes/polo-blue-vapo-75-ml-eau-de-toilette-ralph-lauren",
-  "ml": 125,
-  "resultado": {
-   "precio": null,
-   "metodo": "sin-precio",
-   "referencia": 49.95,
-   "aceptado": false
-  },
-  "largo": 271636,
-  "titulo": "Polo Blue Vapo 75 ml Eau de Toilette Ralph Lauren | Joyería Parejo",
-  "tamaños": [
-   "20",
-   "75"
-  ],
-  "inicio": "<!doctype html> <html lang=\"es\"> <head> <meta charset=\"utf-8\"> <meta name=\"format-detection\" content=\"telephone=no, date=no, address=no, email=no\"> <meta http-equiv=\"x-ua-compatible\" content=\"ie=edge\"> <title>Polo Blue Vapo 75 ml Eau de Toilette Ralph Lauren | Joyería Parejo</title> <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\"> <link rel=\"preconnect\" hr"
- },
- "fallo_lookfantastic": {
-  "url": "https://www.lookfantastic.es/p/moschino-toy-boy-eau-de-parfum-50ml/12479671/",
-  "ml": 100,
-  "resultado": {
-   "precio": null,
-   "metodo": "sin-tamaño",
-   "referencia": 50.775000000000006,
-   "aceptado": false
-  },
-  "largo": 432999,
-  "titulo": "Moschino Toy Boy Eau de Parfum 50ml | LOOKFANTASTIC",
-  "tamaños": [
-   "10",
-   "100",
-   "150",
-   "200",
-   "30",
-   "50",
-   "60"
-  ],
-  "inicio": "<!DOCTYPE html><html lang=\"es-ES\" data-theme=\"lookfantastic\" data-subsite=\"es_ES\" style=\"--product-image-aspect-ratio: 1/1;\"> <head><meta charset=\"UTF-8\"><meta name=\"viewport\" content=\"width=device-width\"><script> window.__chatbotEnabled = true ;(function () { try { var layout = JSON.parse( localStorage.getItem('thg_chatbot_layout') "
- },
- "fallo_idealo": {
-  "url": "https://www.idealo.es/precios/5645536/jean-paul-gaultier-scandal-eau-de-parfum.html",
-  "ml": 80,
-  "resultado": {
-   "precio": null,
-   "metodo": "sin-tamaño",
-   "referencia": 103.7,
-   "aceptado": false
-  },
-  "largo": 939104,
-  "titulo": "Jean Paul Gaultier Scandal Eau de Parfum desde 35,24 € | Black Friday 2026 | ✓ Historial de precios en idealo",
-  "tamaños": [
-   "10",
-   "100",
-   "30",
-   "50",
-   "80"
-  ],
-  "inicio": "<!DOCTYPE html> <html class=\"ES no-gec desktop no-js\" lang=\"es-ES\"><head> <meta charset=\"UTF-8\"> <script id=\"tagManagerDataLayer\"> var utag_data = [{\"country\":\"ES\",\"page_template\":\"MainProductPage\",\"currency\":\"EUR\",\"disable_product_marketing_tracking\":false,\"products\":[{\"id\":5645536,\"category\":3972,\"name\":\"Jean Paul Gaultier Scandal Eau de Parfum\"}],\"sponsored_brand_shop\":false,\"sponsored_slid"
- },
- "firstinfragrance": {
-  "url": "https://www.ausliebezumduft.de/products/amouage-odyssey-collection-guidance",
-  "ml": 100,
-  "resultado": {
-   "precio": 365.0,
-   "metodo": "jsonld",
-   "referencia": 364.85,
-   "aceptado": true
-  },
-  "jsonld": [
-   "{\r\n\t  \"@context\": \"http://schema.org\",\r\n\t  \"@type\": \"Organization\",\r\n\t  \"name\": \"Aus Liebe zum Duft\",\r\n\t  \r\n\t    \"logo\": \"https:files\\/ALZD_lang.png\",\r\n\t  \r\n\t  \"sameAs\": [\r\n\t    \"\",\r\n\t    \"https:\\/\\/www.facebook.com\\/ausliebezumduft\\/\",\r\n\t    \"\",\r\n\t    \"https:\\/\\/www.instagram.com\\/ausliebezumduft.de\\/\",\r\n\t    \"\",\r\n\t    \"\",\r\n\t    \"\",\r\n\t    \"\"\r\n\t  ],\r\n\t  \"url\": \"https:\\/\\/www.ausliebezumduft.de\"\r\n\t}",
-   "{\"@context\":\"http:\\/\\/schema.org\\/\",\"@id\":\"\\/products\\/amouage-odyssey-collection-guidance#product\",\"@type\":\"ProductGroup\",\"brand\":{\"@type\":\"Brand\",\"name\":\"Amouage\"},\"category\":\"\",\"description\":\"Die süchtig machende und moderne Interpretation des Amouage-Dreiklangs von Rose, Weihrauch und Ambra liest sich wie ein Gedicht, duftet wie eine Umarmung und fühlt sich an wie ein Wort der Weisheit.\\nOdyssey CollectionDie Odyssey Collection ist eine eindrucksvolle Darstellung der Lebensreise eines jeden Menschen – und eine Reise durch die wilden und unberührten Landschaften des Oman. Von den sonnenverwöhnten Küsten und Dünen des Omans bis zu den scharlachroten Gipfeln oder trockenen Ebenen von Masira fängt Odyssey die Energie und Poesie der Natur in kühnen und zeitgenössischen Düften ein, die die klassische Meisterkunst von Amouage widerspiegeln: eine komplexe Entwicklung, eine kompromisslose Sillage und die Ausgewogenheit feinster Rohstoffe.\\nMit der Escape Collection enthüllt Amouage das dritte Kapitel seiner Odyssey Collection: ein Quartett aus vier Düften, das den größten Schatz des Omans, den königlichen Weihrauch in seiner ganzen Komplexität porträtiert. Das neue Kapitel beschäftigt sich mit introspektiven Themen und erzählt von Eskapismus, dem Streben nach Wachstum, der Suche nach einem neuen Weg und letztendlich Transformation – dem Finden eines neuen Lebens.\\nDas DesignDas Duftquartett wird in durchscheinenden Flakons präsentiert, deren Farbpalette die Nuancen von Masira widerspiegeln. Die raffinierte, sinnlichen und abstrakte Bildsprache der Kollektion stammt von der belgischen Künstlerin Louise Mertens und schmückt die ausdrucksstarken Etuis.\",\"hasVariant\":[{\"@id\":\"\\/products\\/amouage-odyssey-collection-guidance?variant=50951647363418#variant\",\"@type\":\"Product\",\"gtin\":\"0701666410454\",\"image\":\"https:\\/\\/www.ausliebezumduft.de\\/cdn\\/shop\\/files\\/odyssey_collection_-_guidance.jpg?v=1744182637\\u0026width=1920\",\"name\":\"Amouage - The Odyssey Collection - Guidance - 100 ML\",\"offers\":{\"@id\":\"\\/products\\/amouage-odyssey-collection-guidance?variant=50951647363418#offer\",\"@type\":\"Offer\",\"availability\":\"http:\\/\\/schema.org\\/InStock\",\"price\":\"306.72\",\"priceCurrency\":\"EUR\",\"url\":\"https:\\/\\/www.ausliebezumduft.de\\/products\\/amouage-odyssey-collection-guidance?variant=50951647363418\"},\"sku\":\"142AM41045\"}],\"name\":\"Amouage - The Odyssey Collection - Guidance\",\"productGroupID\":\"10145535885658\",\"url\":\"https:\\/\\/www.ausliebezumduft.de\\/products\\/amouage-odyssey-collection-guidance\"}"
-  ],
-  "precios_en_html": [
-   "\"1795993140000\"              data-stars=\"true\"              ><div class=\"lct-message\"><b>BLACK WEEK | \"BLACK5\" = 5 % ab 149 € | \"BLACK10\" = 10 % ab 349 € | \"BLACK15\" = 15 % ab 549 € |</",
-   " data-stars=\"true\"              ><div class=\"lct-message\"><b>BLACK WEEK | \"BLACK5\" = 5 % ab 149 € | \"BLACK10\" = 10 % ab 349 € | \"BLACK15\" = 15 % ab 549 € |</b> einige Marken ausgenommen",
-   "    ><div class=\"lct-message\"><b>BLACK WEEK | \"BLACK5\" = 5 % ab 149 € | \"BLACK10\" = 10 % ab 349 € | \"BLACK15\" = 15 % ab 549 € |</b> einige Marken ausgenommen</div><div class=\"lct-row\"> ",
-   "-hidden--inline\">Regulärer Preis</span>\r \t\t\t</dt>\r \t\t\t<dd\r \t\t\t\t\r \t\t\t>\r \t\t\t\t<span class=\"price-item price-item--regular\">306,72 €\r</span>\r \t\t\t</dd>\r \t\t</div>\r \t\t<div class=\"price__sale\">\r \t",
-   "idden--inline\">Verkaufspreis</span>\r \t\t\t</dt>\r \t\t\t<dd\r \t\t\t\t\r \t\t\t>\r \t\t\t\t<span class=\"price-item price-item--sale\">\r \t\t\t\t\t306,72 €\r \t\t\t\t</span>\r \t\t\t</dd>\r \t\t\t<dt class=\"price__compare\">\r \t\t\t",
-   "ss=\"unit-price caption\">\r \t\t\t\t<dt class=\"visually-hidden\">\r \t\t\t\t\tEinzelpreis\r \t\t\t\t</dt>\r \t\t\t\t<dd>\r \t\t\t\t\t<span>\r \t\t\t\t\t\t3,650.00 € / 1 l\r \t\t\t\t\t</span>\r \t\t\t\t</dd>\r \t\t\t</dl></dl>\r </div>\r <div",
-   "atus\">\r             <h3 class=\"totals__subtotal\">Zwischensumme:</h3>\r \t\t\t\t\t\t<p class=\"totals__subtotal-value\">\r \t\t\t\t\t\t\t€0,00 EUR\r \t\t\t\t\t\t</p>\r \t\t\t\t\t</div><small class=\"tax-note\">Steuern und"
-  ],
-  "variantes": []
- },
- "douglas": {
-  "url": "https://www.douglas.es/es/p/3001047702",
-  "ml": 100,
-  "resultado": {
-   "precio": 64.99,
-   "metodo": "precio-100ml",
-   "referencia": 72.0,
-   "aceptado": true
-  },
-  "jsonld": [
-   "[\n  {\n    \"@context\": \"http://schema.org\",\n    \"@type\": \"WebSite\",\n    \"name\": \"Perfumería, Cosmética y Belleza Tienda Online | DOUGLAS\",\n    \"alternateName\": \"Douglas Spain S.A.U\",\n    \"url\": \"https://www.douglas.es\"\n  },\n  {\n    \"@context\": \"http://schema.org\",\n    \"@type\": \"WebPage\",\n    \"headline\": \"Ariana Grande Cloud Eau de Parfum ✔️Compra online | DOUGLAS\"\n  },\n  {\n    \"@context\": \"http://schema.org\",\n    \"@type\": \"Organization\",\n    \"name\": \"Douglas\",\n    \"legalName\": \"Douglas Spain S.A.U.\",\n    \"url\": \"https://www.douglas.es\",\n    \"logo\": \"https://media.douglas.es/medias/logo.png?context=bWFzdGVyfGltYWdlc3wxMjgwMnxpbWFnZS9wbmd8YURGbEwyZzVNQzg0T0RBeU1qWXpPRFU1TWpNd0wyeHZaMjh1Y0c1bnxlYmE4ODAyY2JlYjc4ZDQ4YjgyNzQ3YTk1MjM4MjRhOTQwNDc1NDQ4YjE3OGU0Y2FjOTY5YmJjOGE2NWE4ZDZk\",\n    \"contactPoint\": {\n      \"@type\": \"ContactPoint\",\n      \"contactType\": \"customer service\",\n      \"telephone\": \"900 866 634\",\n      \"email\": \"web@douglas.es\"\n    },\n    \"sameAs\": [\n      \"https://www.instagram.com/douglascosmetics_es/\",\n      \"https://www.facebook.com/DouglasCosmeticsSpain\",\n      \"https://www.pinterest.es/douglascosmeticsspain/\",\n      \"https://www.tiktok.com/@douglas_spain\"\n    ]\n  },\n  {\n    \"@context\": \"http://schema.org\",\n    \"@type\": \"BreadcrumbList\",\n    \"itemListElement\": [\n      {\n        \"@type\": \"ListItem\",\n        \"item\": \"https://www.douglas.es/es\",\n        \"name\": \"Homepage\",\n        \"position\": 1\n      },\n      {\n        \"@type\": \"ListItem\",\n        \"item\": \"https://www.douglas.es/es/c/perfumes/01\",\n        \"name\": \"Perfumes\",\n        \"position\": 2\n      },\n      {\n        \"@type\": \"ListItem\",\n        \"item\": \"https://www.douglas.es/es/c/perfumes/fragancias-de-mujer/0101\",\n        \"name\": \"Fragancias de mujer\",\n        \"position\": 3\n      },\n      {\n        \"@type\": \"ListItem\",\n        \"item\": \"https://www.douglas.es/es/c/perfumes/fragancias-de-mujer/perfumes/010106\",\n        \"name\": \"Perfumes\",\n        \"position\": 4\n      },\n      {\n        \"@type\": \"ListItem\",\n        \"item\": \"\",\n        \"name\": \"Ariana Grande Cloud Eau de Parfum Eau de Parfum\",\n        \"position\": 5\n      }\n    ]\n  },\n  {\n    \"@context\": \"http://schema.org\",\n    \"@type\": \"Product\",\n    \"@id\": \"https://www.douglas.es/es/p/3001047702\",\n    \"name\": \"30 ml\",\n    \"url\": \"https://www.douglas.es/es/p/3001047702\",\n    \"description\": \"<h3>ARIANA GRANDE -&nbsp;Cloud Eau de Parfum</h3><p>Ariana Grande, presenta un nuevo concepto de fragancia: Ariana Grande Cloud Eau de Parfum. Una fragancia que te transporta inmediatamente a las nubes gracias a su frasco de ensueño y a su aroma estimulante, positivo y que transmite felicidad. ¿A qué huele una nube?. La fragancia incluye notas altas de flor de lavanda, pera jugosa, bergamota; Con un corazón de crema de coco, praliné y orquídea. El fondo es una mezcla de almizcles sensuales y maderas cremosas.</p>\",\n    \"image\": \"https://media.douglas.es/medias/RLKCA4046842-0-dgl-ES.jpg?context=bWFzdGVyfGltYWdlc3w2MjM5N3xpbWFnZS9qcGVnfGFESTFMMmd6WkM4M"
-  ],
-  "precios_en_html": [
-   " DOUGLAS</title><meta data-ah=\"true\" content=\"Ariana Grande Cloud Eau de Parfum ❤️ Compra ahora ❤️ Envío gratuito desde 24 € ✔️ Muestras gratis ✔️ ¡Más de 1.000 marcas top ➽ DOUGLAS!\" ",
-   "pper uiCol12-efP4cX\"><div class=\"info-bar__entries-column\"><div class=\"info-bar__entry\">Env&iacute;o gratis a partir de 24€     Entrega en 2-3 d&iacute;as*     2 muestras gratis*</div",
-   "0d8916cf5\" data-testid=\"promotion-bar-content-text\" href=\"/es/c/sale/0584\">Tu regalo te espera por compras superiores a 99€ con el cupón: DOUGLASGIFT</a><span class=\"_392a83b671ed065e",
-   "<span class=\"_765f981b30eaa79d\"><span data-testid=\"price-type-current\" class=\"fd7665d55826d59e\" aria-label=\"Actualmente 44,99 €\">44,99 €</span></span></div></div></div></div><div class=\"_",
-   "ss=\"_765f981b30eaa79d\"><span data-testid=\"price-type-current\" class=\"fd7665d55826d59e\" aria-label=\"Actualmente 44,99 €\">44,99 €</span></span></div></div></div></div><div class=\"_422cf48a3",
-   "class=\"\"><div data-testid=\"price-base-unit\" class=\"e14dc5ece5fe55f2\"><span class=\"_9e545b9e3c7fe835\" aria-label=\"Precio 149,97 € por 100 mililitro\">149,97 €<!-- --> / <!-- -->100<!-- --> <",
-   "rice-base-unit\" class=\"e14dc5ece5fe55f2\"><span class=\"_9e545b9e3c7fe835\" aria-label=\"Precio 149,97 € por 100 mililitro\">149,97 €<!-- --> / <!-- -->100<!-- --> <!-- -->ml</span></div><span ",
-   "<span class=\"_765f981b30eaa79d\"><span data-testid=\"price-type-current\" class=\"fd7665d55826d59e\" aria-label=\"Actualmente 54,99 €\">54,99 €</span></span></div></div></div></div><div class=\"_",
-   "ss=\"_765f981b30eaa79d\"><span data-testid=\"price-type-current\" class=\"fd7665d55826d59e\" aria-label=\"Actualmente 54,99 €\">54,99 €</span></span></div></div></div></div><div class=\"_422cf48a3",
-   "class=\"\"><div data-testid=\"price-base-unit\" class=\"e14dc5ece5fe55f2\"><span class=\"_9e545b9e3c7fe835\" aria-label=\"Precio 109,98 € por 100 mililitro\">109,98 €<!-- --> / <!-- -->100<!-- --> <",
-   "rice-base-unit\" class=\"e14dc5ece5fe55f2\"><span class=\"_9e545b9e3c7fe835\" aria-label=\"Precio 109,98 € por 100 mililitro\">109,98 €<!-- --> / <!-- -->100<!-- --> <!-- -->ml</span></div><span ",
-   "<span class=\"_765f981b30eaa79d\"><span data-testid=\"price-type-current\" class=\"fd7665d55826d59e\" aria-label=\"Actualmente 64,99 €\">64,99 €</span></span></div></div></div></div><div class=\"_",
-   "ss=\"_765f981b30eaa79d\"><span data-testid=\"price-type-current\" class=\"fd7665d55826d59e\" aria-label=\"Actualmente 64,99 €\">64,99 €</span></span></div></div></div></div><div class=\"_422cf48a3",
-   "class=\"\"><div data-testid=\"price-base-unit\" class=\"e14dc5ece5fe55f2\"><span class=\"_9e545b9e3c7fe835\" aria-label=\"Precio 64,99 € por 100 mililitro\">64,99 €<!-- --> / <!-- -->100<!-- --> <!",
-   "price-base-unit\" class=\"e14dc5ece5fe55f2\"><span class=\"_9e545b9e3c7fe835\" aria-label=\"Precio 64,99 € por 100 mililitro\">64,99 €<!-- --> / <!-- -->100<!-- --> <!-- -->ml</span></div><span ",
-   "=\"16\" fill=\"none\" stroke-width=\"2\"></circle></svg></div><img alt=\"Douglas Pouch con minitallas por compras superiores a 99€ con el cupón: DOUGLASGIFT. Excluidos artículos del Douglas ",
-   "b0c8ab822d\"></p><div class=\"_115e954f82117753\"><span></span><span>Douglas Pouch con minitallas por compras superiores a 99€ con el cupón: DOUGLASGIFT. Excluidos artículos del Douglas ",
-   "265ddc9 _43d025f587a51df1\"><span class=\"_765f981b30eaa79d\"><span data-testid=\"price-type-base\" class=\"fd7665d55826d59e\">0,00 €</span></span></div></div></div></div></div></div></div></di",
-   "ath></svg></span><div class=\"benefit-bar__item-title\">Envío gratuito</div><p class=\"benefit-bar__item-text\">A partir de 24€³</p></div><div class=\"benefit-bar__item cms-component cms-c",
-   "681 4.1971 18.196 4.24506Z\" fill=\"currentColor\"></path></svg><span class=\"_38e9ea6f8e11678e\">Envío gratuito A partir de 24€³</span></li><li class=\"_0869d1e5f4f067e1 e0d4a8fc2dcaa619\">",
-   "ida de -10% \\u003C\\u002Fstrong\\u003E de descuento\",\"\\u003Cstrong\\u003E Envío gratis\\u003C\\u002Fstrong\\u003E a partir de 24€\",\"\\u003Cstrong\\u003E Ofertas exclusivas \\u003C\\u002Fstrong\\",
-   "tus Beauty Points\",\"Quiero donar \\u003Cb\\u003E150 Beauty Points\\u003C\\u002Fb\\u003E que se transformarán en \\u003Cb\\u003E5€\\u003C\\u002Fb\\u003E que se entregarán a los ciudadanos afect",
-   "mostrarán las diferentes opciones de envío.\",\"Recogida en tienda (Click & Collect) en 1 hora - Gratis | Envío a tienda- 3,95 € (Gratis en pedidos superiores a 24€)\",\"Recogida\",\"Envío gra",
-   "vío.\",\"Recogida en tienda (Click & Collect) en 1 hora - Gratis | Envío a tienda- 3,95 € (Gratis en pedidos superiores a 24€)\",\"Recogida\",\"Envío gratuito a partir de un importe de pedi",
-   "pago atrasado, recibirás automáticamente un recordatorio de pago por nuestra parte, por el que se cobrará una tarifa de 1,50€.\",\"DE18 4507 0002 0725 8825 00\\n\",\"Referencia\",\"\\u003CP\\u00"
-  ],
-  "variantes": []
- },
- "fallo_sephora": {
-  "url": "https://www.sephora.es/p/acqua-di-gio-pour-homme---eau-de-parfum-P1000212224.html",
-  "ml": 125,
-  "resultado": {
-   "precio": null,
-   "metodo": "sin-precio",
-   "referencia": 99.33,
-   "aceptado": false
-  },
-  "largo": 2739,
-  "titulo": "",
-  "tamaños": [],
-  "inicio": "<!DOCTYPE html> <html> <body><script type=\"text/javascript\" src=\"/UzKmncLQ36mvj/LCIn/lIkb4T5P8E/khk56QEpuiwu/cR9UKC4AQg/dQ9N/VQonETJ2AQ?v=9fa93f03-e714-83bf-cd14-d989cd2db819&amp;t=772080386\"></script> <div id=\"sec-if-cpt-container\" role=\"main\" style=\"display: none\"> <div class=\"behavioral-content\"> <div id=\"sec-bc-text-container\"></div> <div id=\"sec-bc-tile-parent\"> "
- },
- "sephora": {
-  "url": "https://www.sephora.es/p/acqua-di-gio-pour-homme---eau-de-parfum-P1000212224.html",
-  "ml": 125,
-  "resultado": {
-   "precio": null,
-   "metodo": "sin-precio",
-   "referencia": 99.33,
-   "aceptado": false
-  },
-  "jsonld": [],
-  "precios_en_html": [],
-  "variantes": []
- },
- "laguna": {
-  "url": "https://www.perfumeriaslaguna.com/emporio-armani-stronger-with-you-absolutely-1",
-  "ml": 100,
-  "resultado": {
-   "precio": 64.95,
-   "metodo": "jsonld",
-   "referencia": 76.95,
-   "aceptado": true
-  },
-  "jsonld": [
-   "{\n      \"@context\": \"https://schema.org/\",\n      \"@type\": \"Product\",\n      \"name\": \"Emporio Armani Stronger With You Absolutely 100 Ml\",\n      \"sku\": \"01024074\",\n      \"image\": \"https://www.perfumeriaslaguna.com/images/products/3614273336383_principal_opt.png\",\n      \"brand\": {\n        \"@type\": \"Brand\",\n        \"name\": \"ARMANI\"\n      },\n      \"description\": \"Emporio Armani Stronger with you Absolutely  &quot;Descubre &quot;&quot;&quot;&quot;Stronger With You Absolutely&quot;&quot;&quot;&quot;, el perfume masculino con un adictivo aroma de la nueva historia de amor de Emporio ArmaniStronger With You Absolutely trata de la uni&amp;oacute;n y de c&amp;oacute;mo los ingredientes juntos se hacen m&amp;aacute;s fuertes.Dise&amp;ntilde;ado como un absoluto, con una firma de &amp;aacute;mbar licoroso.una nueva firma ambarada licorosa gracias a un acorde de ron  potenciado por la c&amp;aacute;lida y la poderosa vainilla y madera de cedroSus  principales notas son: 1. RON 2. CEDRO3. LAVANDA4. VAINILLAEl frasco:Las l&amp;iacute;neas de este frasco han sido dibujadas por el propio Sr. ARMANI, quer&amp;iacute;a dise&amp;ntilde;arlas como un tributo al amor. &amp;iquest;Puedes ver los anillos en la tap&amp;oacute;n?Estos anillos dobles representan cuerpos envueltos, uno alrededor del otro, como s&amp;iacute;mbolo de este poderoso amor. Este anillo es tambi&amp;eacute;n el s&amp;iacute;mbolo de la aventura amorosa del Sr. Armani con Sergio Galeotti. El cambio radica principalmente en el color y el degradado del frasco, que ofrece una nueva sensualidad e intensidad. El nombre aparece gracias al contraste de color entre el blanco y un sensual y profundo naranja. Un intenso y sofisticado lacado ahumado envuelve el ic&amp;oacute;nico frasco de Stronger With You desde su base para transmitir la fuerza absoluta del perfume. El cl&amp;aacute;sico tap&amp;oacute;n met&amp;aacute;lico masculino completa este lujoso frasco.Modo de empleo: Aplicar sobre el cuello, detr&amp;aacute;s de las orejas y bajo las mu&amp;ntilde;ecas para lograr que el perfume dure m&amp;aacute;s en el tiempo.&quot;\",\n      \"category\": \"\",\n      \"url\": \"https://www.perfumeriaslaguna.com/emporio-armani-stronger-with-you-absolutely-1\",\n      \"mpn\": \"\",\n      \"offers\": {\n        \"@type\": \"Offer\",\n        \"priceCurrency\": \"EUR\",\n        \"price\": \"64.95\",\n        \"priceSpecification\": {\n          \"@type\": \"UnitPriceSpecification\",\n          \"priceType\": \"https://schema.org/StrikethroughPrice\",\n          \"price\": \"101.61\",\n          \"priceCurrency\": \"EUR\"\n        },\n        \"itemCondition\": \"https://schema.org/NewCondition\",\n        \"availability\": \"https://schema.org/OutOfStock\",\n        \"url\": \"https://www.perfumeriaslaguna.com/emporio-armani-stronger-with-you-absolutely-1\",\n        \"priceValidUntil\": \"2030-12-31\"\n  },\n      \"aggregateRating\": {\n        \"@type\": \"AggregateRating\",\n        \"ratingValue\": 5,\n        \"ratingCount\": 5,\n        \"worstRating\": 1,\n        \"bestRating\": 5\n      }}",
-   "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"BreadcrumbList\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Inicio\",\"item\":\"https:\\/\\/www.perfumeriaslaguna.com\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Perfumes M\\u00e1s Vendidos\",\"item\":\"https:\\/\\/www.perfumeriaslaguna.com\\/perfumes-mas-vendidos\"},{\"@type\":\"ListItem\",\"position\":3,\"name\":\"Emporio Armani Stronger With You Absolutely 100 Ml\",\"item\":\"https:\\/\\/www.perfumeriaslaguna.com\\/emporio-armani-stronger-with-you-absolutely-1\"}]}"
-  ],
-  "precios_en_html": [
-   "> \t\t\t\t\t<a href=\"https://www.perfumeriaslaguna.com/envios-devoluciones\"> \t\t\t\t\t\tEnvío <strong>gratis</strong> a partir de 29.95€ <span class=\"subtitle\">a la península*</span>\t\t\t\t\t</a> \t\t\t\t",
-   "ItemNumber\"><a href=\"https://www.perfumeriaslaguna.com/shopping_cart.php\">0</a></div> \t\t\t\t\t<div id=\"PriceProductInCart\">0,00€</div> \t\t\t\t</div> \t\t\t\t<div id=\"cartRight\"> \t\t\t\t\t<div id=\"GoC",
-   "ss=\"productInfoDiscount\">-36%</span><meta itemprop=\"price\" content=\"64.95\" />\t\t<span class=\"productInfoSpecialOldPrice\">101,61€</span> <span class=\" productInfoSpecialNewPrice\" >64,95€</s",
-   " content=\"64.95\" />\t\t<span class=\"productInfoSpecialOldPrice\">101,61€</span> <span class=\" productInfoSpecialNewPrice\" >64,95€</span><div class=\"price_unidad_medida\">Salen los 100 ml a 6",
-   ",61€</span> <span class=\" productInfoSpecialNewPrice\" >64,95€</span><div class=\"price_unidad_medida\">Salen los 100 ml a 64.95 €</div>\t\t</div><div class=\"products_stickers\"><img title=\"Pro",
-   "<strong>Recogida en oficina de Correos</strong>: Gastos de env&iacute;o&nbsp;Gratis&nbsp;si tu cesta supera los <strong>29.95&euro;</strong>.&nbsp;<a class=\"popup\" href=\"https://www.perfumeri",
-   " <td><strong>Recogida en punto CityPaq</strong>: Gastos de env&iacute;o&nbsp;Gratis&nbsp;si tu cesta supera los <strong>29.95&euro;</strong>.&nbsp;<a class=\"popup\" href=\"https://www.perfumeri",
-   "umes\" width=\"100\" /></strong></td>\r <td><strong>Recogida en Tienda Laguna</strong>:&nbsp;Gastos de env&iacute;o <strong>3.99&euro;</strong>.&nbsp;<strong>Gratis&nbsp;</strong>a partir de <st",
-   "strong>:&nbsp;Gastos de env&iacute;o <strong>3.99&euro;</strong>.&nbsp;<strong>Gratis&nbsp;</strong>a partir de <strong>15&euro;</strong><span style=\"color: #ff0000;\">&nbsp;</span>.&nbsp;<",
-   "title\"> \t\t\t\t\t\t\t\t\t\tEnvíos gratis\t\t\t\t\t\t\t\t\t</div> \t\t\t\t\t\t\t\t\t<div class=\"flat_extra_info_description\"> \t\t\t\t\t\t\t\t\t\tA partir de 29.95€\t\t\t\t\t\t\t\t\t</div> \t\t\t\t\t\t\t\t</div> \t\t\t\t\t\t\t</a>  \t\t\t\t\t\t\t<!-- <a c",
-   " style=\"margin:10px 0px 0px 10px;\" src=\"template/web/banner-envio-gratis.jpg\" title=\"Gastos de envío gratis a partir de 19€\" alt=\"Gastos de envío gratis a partir de 19€\"></a></div> --",
-   "ate/web/banner-envio-gratis.jpg\" title=\"Gastos de envío gratis a partir de 19€\" alt=\"Gastos de envío gratis a partir de 19€\"></a></div> -->                                   \t\t\t\t<!-- ",
-   "LWxpbWEtZHVyZXphcw==\">(10)</span></span> </span></span></div><div class=\"ProductPrice\"><span class=\"ProductNormalPrice\">1,95€</span></div><span class=\"ProductWishlist\"><div class=\"wishl",
-   " </span></span></div><div class=\"ProductPrice\"><div class=\"ProductInfoDiscount\">-14%</div><span class=\"ProductOldPrice\">14,99€</span><div class=\"finalPrice\"><span class=\"ProductSpecialPr",
-   "iscount\">-14%</div><span class=\"ProductOldPrice\">14,99€</span><div class=\"finalPrice\"><span class=\"ProductSpecialPrice\">12,95€</span></div></div><span class=\"ProductWishlist\"><div class=",
-   " </span></span></div><div class=\"ProductPrice\"><div class=\"ProductInfoDiscount\">-22%</div><span class=\"ProductOldPrice\">4,45€</span><div class=\"finalPrice\"><span class=\"ProductSpecialPr",
-   "Discount\">-22%</div><span class=\"ProductOldPrice\">4,45€</span><div class=\"finalPrice\"><span class=\"ProductSpecialPrice\">3,49€</span></div></div><span class=\"ProductWishlist\"><div class=",
-   "5LWhvbWJyZS0yMDBtbA==\">(1)</span></span> </span></span></div><div class=\"ProductPrice\"><span class=\"ProductNormalPrice\">3,99€</span></div><span class=\"ProductWishlist\"><div class=\"wishl",
-   "tLW5ldXRyYWwtbGlnaHQ=\">(0)</span></span> </span></span></div><div class=\"ProductPrice\"><span class=\"ProductNormalPrice\">14,99€</span></div><span class=\"ProductWishlist\"><div class=\"wishl",
-   "0b2lsZXR0ZS0xMDBtbA==\">(0)</span></span> </span></span></div><div class=\"ProductPrice\"><span class=\"ProductNormalPrice\">6,95€</span></div><span class=\"ProductWishlist\"><div class=\"wishl",
-   "iYWxtLXZlcnktbGlnaHQ=\">(0)</span></span> </span></span></div><div class=\"ProductPrice\"><span class=\"ProductNormalPrice\">14,99€</span></div><span class=\"ProductWishlist\"><div class=\"wishl",
-   " </span></span></div><div class=\"ProductPrice\"><div class=\"ProductInfoDiscount\">-40%</div><span class=\"ProductOldPrice\">26,00€</span><div class=\"finalPrice\"><span class=\"ProductSpecialPr",
-   "iscount\">-40%</div><span class=\"ProductOldPrice\">26,00€</span><div class=\"finalPrice\"><span class=\"ProductSpecialPrice\">15,60€</span></div></div><span class=\"ProductWishlist\"><div class=",
-   "kZS1wYXJmdW0tODAtbWw=\">(0)</span></span> </span></span></div><div class=\"ProductPrice\"><span class=\"ProductNormalPrice\">18,95€</span></div><span class=\"ProductWishlist\"><div class=\"wishl",
-   " </span></span></div><div class=\"ProductPrice\"><div class=\"ProductInfoDiscount\">-26%</div><span class=\"ProductOldPrice\">75,30€</span><div class=\"finalPrice\"><span class=\"ProductSpecialPr"
-  ],
-  "variantes": []
- },
  "sabina": {
-  "url": "https://www.sabina.com/es/mens-perfumes/10858-armani-stronger-with-you-absolutely-eau-de-parfum.html",
+  "url": "https://www.sabina.com/es/women-s-perfumes/22870-goddess-eau-de-parfum-burberry.html",
   "ml": 100,
   "resultado": {
-   "precio": 76.77,
+   "precio": 113.96,
    "metodo": "jsonld",
-   "referencia": 76.95,
+   "referencia": 83.1,
    "aceptado": true
   },
   "jsonld": [
-   "{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"Product\",\"@id\":\"https:\\/\\/www.sabina.com\\/es\\/perfumes-hombre\\/10858-armani-stronger-with-you-absolutely-eau-de-parfum.html#variant-15538\",\"url\":\"https:\\/\\/www.sabina.com\\/es\\/perfumes-hombre\\/10858-armani-stronger-with-you-absolutely-eau-de-parfum.html?id_product_attribute=15538\",\"name\":\"Stronger With You Absolutely 50 ML\",\"description\":\"Giorgio Armani aumenta su colecci\\u00f3n Stronger With You con un Parfum que despende una nueva historia de amor. Stronger With You Absolutely es la uni\\u00f3n de c\\u00f3mo los ingredientes juntos se hacen m\\u00e1s fuertes.\\r\\nStronger With You Absolutely Parfum ha sido creado en el a\\u00f1o 2021 y pertenece a la familia olfativa Oriental Fouguere \\u00c1mbar. Su composici\\u00f3n comienza con un acorde adictivo de ron que da paso a un coraz\\u00f3n de lavanda sostenible cultivada en Francia y est\\u00e1 realzada con facetas licorosas y afrutadas. Para finalizar, un fondo poderoso y embriagadar de madera de cedro ahumado cultivado en Virginia (EEUU), combinado con la distinci\\u00f3n de la vainilla de Madagascar.\\r\\nEl frasco de Stronger With You Absolutely Parfum de Armani contiene un jugo extremadamente poderoso. De l\\u00edneas rectas y esquinas redondeadas, te\\u00f1ido en la tonalidad anaranjada terrosa de la l\\u00ednea y degradado en un lacado ahumado para transmitir la fuerza absoluta del perfume. Triunfa por excelencia su tap\\u00f3n met\\u00e1lico oscuro, un tributo al amor que representan cuerpos envueltos.\",\"sku\":\"408389\",\"image\":[\"https:\\/\\/static1.sabinacdn.com\\/77860\\/armani-stronger-with-you-absolutely-eau-de-parfum.jpg\",\"https:\\/\\/static2.sabinacdn.com\\/77861\\/armani-stronger-with-you-absolutely-eau-de-parfum.jpg\",\"https:\\/\\/static3.sabinacdn.com\\/77862\\/armani-stronger-with-you-absolutely-eau-de-parfum.jpg\",\"https:\\/\\/static2.sabinacdn.com\\/77863\\/armani-stronger-with-you-absolutely-eau-de-parfum.jpg\",\"https:\\/\\/static1.sabinacdn.com\\/77864\\/armani-stronger-with-you-absolutely-eau-de-parfum.jpg\",\"https:\\/\\/static3.sabinacdn.com\\/77865\\/armani-stronger-with-you-absolutely-eau-de-parfum.jpg\",\"https:\\/\\/static1.sabinacdn.com\\/77866\\/armani-stronger-with-you-absolutely-eau-de-parfum.jpg\"],\"brand\":{\"@type\":\"Brand\",\"name\":\"ARMANI\"},\"additionalProperty\":[{\"@type\":\"PropertyValue\",\"name\":\"Concentraci\\u00f3n\",\"value\":\"Eau de Parfum\"},{\"@type\":\"PropertyValue\",\"name\":\"Presentaci\\u00f3n\",\"value\":\"Vaporizador\"},{\"@type\":\"PropertyValue\",\"name\":\"Familia olfativa\",\"value\":\"Foug\\u00e8re, Oriental\"},{\"@type\":\"PropertyValue\",\"name\":\"Gama\",\"value\":\"Stronger With You\"},{\"@type\":\"PropertyValue\",\"name\":\"Notas de Salida\",\"value\":\"Ron\"},{\"@type\":\"PropertyValue\",\"name\":\"Notas de Coraz\\u00f3n\",\"value\":\"Lavanda\"},{\"@type\":\"PropertyValue\",\"name\":\"Notas de Fondo\",\"value\":\"Vainilla, Cedro\"}],\"aggregateRating\":{\"@type\":\"AggregateRating\",\"ratingValue\":4.9,\"ratingCount\":11,\"bestRating\":5,\"worstRating\":1},\"offers\":{\"@type\":\"Offer\",\"@id\":\"https:\\/\\/www.sabina.com\\/es\\/perfumes-hombre\\/1"
+   "{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"Product\",\"@id\":\"https:\\/\\/www.sabina.com\\/es\\/perfumes-mujer\\/22870-goddess-eau-de-parfum-burberry.html#variant-27117\",\"url\":\"https:\\/\\/www.sabina.com\\/es\\/perfumes-mujer\\/22870-goddess-eau-de-parfum-burberry.html?id_product_attribute=27117\",\"name\":\"Goddess 30 ML\",\"description\":\"Goddess\\n\\nBurberry Goddess Eau de Parfum es una fragancia arom\\u00e1tica gourmand distintiva, que destaca por su singular composici\\u00f3n centrada en un tr\\u00edo de vainillas.\\n\\nNotas Olfativas:\\n\\n\\n\\tNota de Salida: Infusi\\u00f3n de vainilla con un matiz amaderado.\\n\\tNota de Coraz\\u00f3n: Un exquisito caviar de vainilla.\\n\\tNota de Fondo: Un extracto puro de vainilla enriquecido con la frescura arom\\u00e1tica de la lavanda.\\n\\n\\nOtras Caracter\\u00edsticas:\\n\\n\\n\\tEl dise\\u00f1o del frasco es elegante y de forma cuadrada.\\n\\tUn detalle dorado a\\u00f1ade un toque de modernidad al envase.\\n\\tLa paleta de colores beige y dorado del envase rinde homenaje a la rica herencia de la marca Burberry.\",\"sku\":\"662778\",\"image\":[\"https:\\/\\/static1.sabinacdn.com\\/52412\\/goddess-eau-de-parfum-burberry.jpg\",\"https:\\/\\/static3.sabinacdn.com\\/52418\\/goddess-eau-de-parfum-burberry.jpg\",\"https:\\/\\/static3.sabinacdn.com\\/52415\\/goddess-eau-de-parfum-burberry.jpg\",\"https:\\/\\/static3.sabinacdn.com\\/52417\\/goddess-eau-de-parfum-burberry.jpg\",\"https:\\/\\/static3.sabinacdn.com\\/52413\\/goddess-eau-de-parfum-burberry.jpg\",\"https:\\/\\/static3.sabinacdn.com\\/52419\\/goddess-eau-de-parfum-burberry.jpg\"],\"brand\":{\"@type\":\"Brand\",\"name\":\"BURBERRY\"},\"additionalProperty\":[{\"@type\":\"PropertyValue\",\"name\":\"Concentraci\\u00f3n\",\"value\":\"Eau de Parfum\"},{\"@type\":\"PropertyValue\",\"name\":\"Presentaci\\u00f3n\",\"value\":\"Vaporizador\"},{\"@type\":\"PropertyValue\",\"name\":\"Familia olfativa\",\"value\":\"Arom\\u00e1tica\"},{\"@type\":\"PropertyValue\",\"name\":\"Gama\",\"value\":\"Goddess\"},{\"@type\":\"PropertyValue\",\"name\":\"Notas de Salida\",\"value\":\"Notas amaderadas, Vainilla\"},{\"@type\":\"PropertyValue\",\"name\":\"Notas de Coraz\\u00f3n\",\"value\":\"Caviar de vainilla\"},{\"@type\":\"PropertyValue\",\"name\":\"Notas de Fondo\",\"value\":\"Lavanda\"}],\"aggregateRating\":{\"@type\":\"AggregateRating\",\"ratingValue\":5,\"ratingCount\":1,\"bestRating\":5,\"worstRating\":1},\"offers\":{\"@type\":\"Offer\",\"@id\":\"https:\\/\\/www.sabina.com\\/es\\/perfumes-mujer\\/22870-goddess-eau-de-parfum-burberry.html#offer-27117\",\"url\":\"https:\\/\\/www.sabina.com\\/es\\/perfumes-mujer\\/22870-goddess-eau-de-parfum-burberry.html?id_product_attribute=27117\",\"price\":\"57.90\",\"priceCurrency\":\"EUR\",\"availability\":\"https:\\/\\/schema.org\\/OutOfStock\",\"itemCondition\":\"https:\\/\\/schema.org\\/NewCondition\",\"seller\":{\"@id\":\"https:\\/\\/www.sabina.com\\/#organization\"}},\"isVariantOf\":{\"@id\":\"https:\\/\\/www.sabina.com\\/es\\/perfumes-mujer\\/22870-goddess-eau-de-parfum-burberry.html#product-group\"},\"size\":\"30 ML\",\"gtin13\":\"3616302020645\"},{\"@type\":\"ProductGroup\",\"@id\":\"https:\\/\\/www.sabina.com\\/es\\/perfumes-mujer\\/22870-goddess-eau-de-parfum-burberry.html#product-group\",\"name\""
   ],
   "precios_en_html": [
    "              <div class=\"header-countdown\">             <div class=\"header-countdown-container\">                 <h3>💎 10€ de descuento en joyería desde 59€ con el código JW10 ✨</h3>",
@@ -619,16 +394,12 @@
    "class=\"new_cart_shipping_row\">\r \t\t\t\t\t<span>Envío</span>\r \t\t\t\t\t<span class=\"ajax_cart_shipping_cost\" data-shipping-cost=\"0,00 €\" data-shipping-cost-free=\"Envío gratuito!\">\r \t\t\t\t\t\t\t\t\t\t\t\t\tP",
    "lor: #ac201f; color: #ffffff\">\r                     <span class=\"mct_normal\">\r \t\t\t¡Envío gratis en pedidos superiores a 39€!\r \t\t</span>\r \r         <span class=\"mct_resp\">\r \t\t\t¡Envío g",
    "is en pedidos superiores a 39€!\r \t\t</span>\r \r         <span class=\"mct_resp\">\r \t\t\t¡Envío gratis en pedidos superiores a 39€!\r \t\t</span>\r \r         \r         \r     \r     </div>\r \r  \t  ",
-   "_izquierdo_precios\">Precio habitual</span><span id=\"old_price_display\" class=\"span_derecho_precios\"><span class=\"price\">105,00 €</span></span>                                    </p>      ",
-   "ss=\"span_izquierdo_precios\">Precio:</span><span id=\"our_price_display\" class=\"span_derecho_precios\"><span class=\"price\">67,49 €</span><span class=\"price_per_combination\">(134,98 €/ 100ml)",
-   "\"our_price_display\" class=\"span_derecho_precios\"><span class=\"price\">67,49 €</span><span class=\"price_per_combination\">(134,98 €/ 100ml)</span></span>    </p>                              ",
-   "an class=\"price_product_sizes\">                                                                                         67,49 €                                                            ",
-   "                                                                                                                 <span>(134,98 €                                                            ",
-   "an class=\"price_product_sizes\">                                                                                         76,77 €                                                            ",
-   "                                                                                                                 <span>(76,77 €                                                            ",
-   "a-controls=\"ecc_popup_660232120\"  />         <label for=\"ec_customization_10858\">             Grabado personalizado por 8,95 €<br />             <span>Dale un toque único a tu regalo con",
+   "_izquierdo_precios\">Precio habitual</span><span id=\"old_price_display\" class=\"span_derecho_precios\"><span class=\"price\">97,46 €</span></span>                                    </p>      ",
+   "ss=\"span_izquierdo_precios\">Precio:</span><span id=\"our_price_display\" class=\"span_derecho_precios\"><span class=\"price\">57,90 €</span></span>    </p>                                      ",
+   "an class=\"price_product_sizes\">                                                                                         57,90 €                                                            ",
+   "ia-controls=\"ecc_popup_69792672\"  />         <label for=\"ec_customization_22870\">             Grabado personalizado por 8,95 €<br />             <span>Dale un toque único a tu regalo con",
    "\">Añade un nombre, una fecha o unas palabras especiales.</p>                 <p class=\"ecc_pdp_price\">Grabado láser por 8,95 €</p>                 <div class=\"ecc_charlimit ecc_legacy_ch",
-   "quot;:76.77}\" data-free-from=\"39\" data-price-precision=\"2\" data-product-eligible=\"1\" data-threshold-label=\"Gratis desde 39,00 €\" data-free-label=\"Envío gratis con este producto\" aria-live",
+   "uot;:112.06}\" data-free-from=\"39\" data-price-precision=\"2\" data-product-eligible=\"1\" data-threshold-label=\"Gratis desde 39,00 €\" data-free-label=\"Envío gratis con este producto\" aria-live",
    " style=\"text-align: justify;\"><strong>Península y Baleares<br /></strong>Gastos de Envío GRATIS en pedidos superiores a 45€. En pedidos que no lleguen a dicho importe el coste del env",
    "astos de Envío GRATIS en pedidos superiores a 45€. En pedidos que no lleguen a dicho importe el coste del envío será de 5,75€.<br />El tiempo de entrega será de 5 a 7 días laborables. L",
    "de 3 a 5 días.<br /></span><strong>Islas Canarias<br /></strong>Los gastos de envío serán GRATIS en pedidos a partir de 19€. En caso de ser inferior a dicha cantidad el coste será de ",
@@ -638,24 +409,267 @@
    "lgica, Austria, Países Bajos, Polonia, Luxemburgo</strong><br />Los gastos de envío serán GRATIS en pedidos a partir de 69€. En caso de ser inferior a dicha cantidad el coste será de ",
    ">Los gastos de envío serán GRATIS en pedidos a partir de 69€. En caso de ser inferior a dicha cantidad el coste será de 7,50€.<strong><br />Reino Unido</strong><br />Los gastos de envío",
    " el coste será de 7,50€.<strong><br />Reino Unido</strong><br />Los gastos de envío serán GRATIS en pedidos a partir de 79€. En caso de ser inferior a dicha cantidad el coste será de ",
-   ">Los gastos de envío serán GRATIS en pedidos a partir de 79€. En caso de ser inferior a dicha cantidad el coste será de 7,50€.<br /> <strong>República Checa, Dinamarca, Hungría<br /></s"
+   ">Los gastos de envío serán GRATIS en pedidos a partir de 79€. En caso de ser inferior a dicha cantidad el coste será de 7,50€.<br /> <strong>República Checa, Dinamarca, Hungría<br /></s",
+   "br /> <strong>República Checa, Dinamarca, Hungría<br /></strong>Los gastos de envío serán GRATIS en pedidos a partir de 170€. En caso de ser inferior a dicha cantidad el coste será de ",
+   "Los gastos de envío serán GRATIS en pedidos a partir de 170€. En caso de ser inferior a dicha cantidad el coste será de 12€.<br /><strong>Finlandia, Irlanda, Suiza, Bulgaria, Estonia,",
+   "anda, Suiza, Bulgaria, Estonia, Lituania, Letonia<br /></strong>Los gastos de envío serán GRATIS en pedidos a partir de 220€. En caso de ser inferior a dicha cantidad el coste será de ",
+   "Los gastos de envío serán GRATIS en pedidos a partir de 220€. En caso de ser inferior a dicha cantidad el coste será de 20€.<br /><strong>Eslovaquia, Rumanía, Serbia, Bosnia Herzegovi"
+  ],
+  "variantes": []
+ },
+ "laguna": {
+  "url": "https://www.perfumeriaslaguna.com/perfume-calvin-klein-euphoria-edp",
+  "ml": 100,
+  "resultado": {
+   "precio": 49.95,
+   "metodo": "precio-100ml",
+   "referencia": 58.65,
+   "aceptado": true
+  },
+  "jsonld": [
+   "{\n      \"@context\": \"https://schema.org/\",\n      \"@type\": \"Product\",\n      \"name\": \"Calvin Klein Euphoria Edp 100 Vaporizador\",\n      \"sku\": \"01028357\",\n      \"image\": \"https://www.perfumeriaslaguna.com/images/products/calvin-klein-euphoria-edp-100-vaporizador.jpg\",\n      \"brand\": {\n        \"@type\": \"Brand\",\n        \"name\": \"CALVIN KLEIN\"\n      },\n      \"description\": \"El Perfume CK Euphoria te atrapa por su sensualidad y elegancia, su salida de Granada con un coraz&amp;oacute;n de orqu&amp;iacute;dea u un fondo de Violeta, &amp;aacute;mbar y almizcle la hace &amp;uacute;nica.\",\n      \"category\": \"\",\n      \"url\": \"https://www.perfumeriaslaguna.com/perfume-calvin-klein-euphoria-edp\",\n      \"mpn\": \"mujer\",\n      \"offers\": {\n        \"@type\": \"Offer\",\n        \"priceCurrency\": \"EUR\",\n        \"price\": \"49.95\",\n        \"priceSpecification\": {\n          \"@type\": \"UnitPriceSpecification\",\n          \"priceType\": \"https://schema.org/StrikethroughPrice\",\n          \"price\": \"157\",\n          \"priceCurrency\": \"EUR\"\n        },\n        \"itemCondition\": \"https://schema.org/NewCondition\",\n        \"availability\": \"https://schema.org/OutOfStock\",\n        \"url\": \"https://www.perfumeriaslaguna.com/perfume-calvin-klein-euphoria-edp\",\n        \"priceValidUntil\": \"2030-12-31\"\n  },\n      \"aggregateRating\": {\n        \"@type\": \"AggregateRating\",\n        \"ratingValue\": 4.7,\n        \"ratingCount\": 90,\n        \"worstRating\": 1,\n        \"bestRating\": 5\n      }}",
+   "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"BreadcrumbList\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Inicio\",\"item\":\"https:\\/\\/www.perfumeriaslaguna.com\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Perfumer\\u00eda\",\"item\":\"https:\\/\\/www.perfumeriaslaguna.com\\/perfumeria\"},{\"@type\":\"ListItem\",\"position\":3,\"name\":\"Perfumes\",\"item\":\"https:\\/\\/www.perfumeriaslaguna.com\\/perfume\"},{\"@type\":\"ListItem\",\"position\":4,\"name\":\"Perfumes Mujer\",\"item\":\"https:\\/\\/www.perfumeriaslaguna.com\\/perfumes-de-mujer\"},{\"@type\":\"ListItem\",\"position\":5,\"name\":\"Perfumes De Mujer Calvin Klein\",\"item\":\"https:\\/\\/www.perfumeriaslaguna.com\\/calvin-klein-perfumes-mujer\"},{\"@type\":\"ListItem\",\"position\":6,\"name\":\"Euphoria Eau de Parfum\",\"item\":\"https:\\/\\/www.perfumeriaslaguna.com\\/perfumes-mujer-perfumes-ck-perfume-euphoria-edp\"},{\"@type\":\"ListItem\",\"position\":7,\"name\":\"Calvin Klein Euphoria Edp 100 Vaporizador\",\"item\":\"https:\\/\\/www.perfumeriaslaguna.com\\/perfume-calvin-klein-euphoria-edp\"}]}"
+  ],
+  "precios_en_html": [
+   "> \t\t\t\t\t<a href=\"https://www.perfumeriaslaguna.com/envios-devoluciones\"> \t\t\t\t\t\tEnvío <strong>gratis</strong> a partir de 29.95€ <span class=\"subtitle\">a la península*</span>\t\t\t\t\t</a> \t\t\t\t",
+   "ItemNumber\"><a href=\"https://www.perfumeriaslaguna.com/shopping_cart.php\">0</a></div> \t\t\t\t\t<div id=\"PriceProductInCart\">0,00€</div> \t\t\t\t</div> \t\t\t\t<div id=\"cartRight\"> \t\t\t\t\t<div id=\"GoC",
+   "ss=\"productInfoDiscount\">-68%</span><meta itemprop=\"price\" content=\"49.95\" />\t\t<span class=\"productInfoSpecialOldPrice\">157,00€</span> <span class=\" productInfoSpecialNewPrice\" >49,95€</s",
+   " content=\"49.95\" />\t\t<span class=\"productInfoSpecialOldPrice\">157,00€</span> <span class=\" productInfoSpecialNewPrice\" >49,95€</span><div class=\"price_unidad_medida\">Salen los 100 ml a 4",
+   ",00€</span> <span class=\" productInfoSpecialNewPrice\" >49,95€</span><div class=\"price_unidad_medida\">Salen los 100 ml a 49.95 €</div>\t\t</div><div id=\"products_promo_text\"><span class=\"Pro",
+   "div class=\"products_info_price\"><span class=\"productInfoDiscount\">-67%</span>\t\t<span class=\"productInfoSpecialOldPrice\">183,00€</span> <span class=\"productInfoSpecialNewPrice \" >59,95€</s",
+   "scount\">-67%</span>\t\t<span class=\"productInfoSpecialOldPrice\">183,00€</span> <span class=\"productInfoSpecialNewPrice \" >59,95€</span><div class=\"price_unidad_medida\">Salen los 100 ml a 3",
+   ",00€</span> <span class=\"productInfoSpecialNewPrice \" >59,95€</span><div class=\"price_unidad_medida\">Salen los 100 ml a 37.47 €</div></div><div id=\"products_promo_text\"><span class=\"Produ",
+   "tyle=\"font-size: 14pt;\">LLEVATE ESTE REGALO GRATIS.</span></span></strong></a></p>\r <p><strong>Por la compra superior a 99&euro; en productos marcados con esta Promoci&oacute;n de la marca",
+   "tyle=\"font-size: 14pt;\">LLEVATE ESTE REGALO GRATIS.</span></span></strong></a></p>\r <p><strong>Por la compra superior a 19.95&euro; en productos marcados con esta Promoci&oacute;n de la marca",
+   " </span></span></div><div class=\"ProductPrice\"><div class=\"ProductInfoDiscount\">-41%</div><span class=\"ProductOldPrice\">64,00€</span><div class=\"finalPrice\"><span class=\"ProductSpecialPr",
+   "iscount\">-41%</div><span class=\"ProductOldPrice\">64,00€</span><div class=\"finalPrice\"><span class=\"ProductSpecialPrice\">37,95€</span></div></div><span class=\"ProductWishlist\"><div class=",
+   "tyle=\"font-size: 14pt;\">LLEVATE ESTE REGALO GRATIS.</span></span></strong></a></p>\r <p><strong>Por la compra superior a 19.95&euro; en productos marcados con esta Promoci&oacute;n de la marca",
+   " </span></span></div><div class=\"ProductPrice\"><div class=\"ProductInfoDiscount\">-41%</div><span class=\"ProductOldPrice\">47,00€</span><div class=\"finalPrice\"><span class=\"ProductSpecialPr",
+   "iscount\">-41%</div><span class=\"ProductOldPrice\">47,00€</span><div class=\"finalPrice\"><span class=\"ProductSpecialPrice\">27,95€</span></div></div><span class=\"ProductWishlist\"><div class=",
+   "tyle=\"font-size: 14pt;\">LLEVATE ESTE REGALO GRATIS.</span></span></strong></a></p>\r <p><strong>Por la compra superior a 19.95&euro; en productos marcados con esta Promoci&oacute;n de la marca",
+   " </span></span></div><div class=\"ProductPrice\"><div class=\"ProductInfoDiscount\">-38%</div><span class=\"ProductOldPrice\">42,00€</span><div class=\"finalPrice\"><span class=\"ProductSpecialPr",
+   "iscount\">-38%</div><span class=\"ProductOldPrice\">42,00€</span><div class=\"finalPrice\"><span class=\"ProductSpecialPrice\">25,95€</span></div></div><span class=\"ProductWishlist\"><div class=",
+   "tyle=\"font-size: 14pt;\">LLEVATE ESTE REGALO GRATIS.</span></span></strong></a></p>\r <p><strong>Por la compra superior a 19.95&euro; en productos marcados con esta Promoci&oacute;n de la marca",
+   " </span></span></div><div class=\"ProductPrice\"><div class=\"ProductInfoDiscount\">-41%</div><span class=\"ProductOldPrice\">68,00€</span><div class=\"finalPrice\"><span class=\"ProductSpecialPr",
+   "iscount\">-41%</div><span class=\"ProductOldPrice\">68,00€</span><div class=\"finalPrice\"><span class=\"ProductSpecialPrice\">39,95€</span></div></div><span class=\"ProductWishlist\"><div class=",
+   "tyle=\"font-size: 14pt;\">LLEVATE ESTE REGALO GRATIS.</span></span></strong></a></p>\r <p><strong>Por la compra superior a 19.95&euro; en productos marcados con esta Promoci&oacute;n de la marca",
+   " </span></span></div><div class=\"ProductPrice\"><div class=\"ProductInfoDiscount\">-39%</div><span class=\"ProductOldPrice\">59,00€</span><div class=\"finalPrice\"><span class=\"ProductSpecialPr",
+   "iscount\">-39%</div><span class=\"ProductOldPrice\">59,00€</span><div class=\"finalPrice\"><span class=\"ProductSpecialPrice\">35,95€</span></div></div><span class=\"ProductWishlist\"><div class=",
+   " </span></span></div><div class=\"ProductPrice\"><div class=\"ProductInfoDiscount\">-46%</div><span class=\"ProductOldPrice\">130,00€</span><div class=\"finalPrice\"><span class=\"ProductSpecialPr"
+  ],
+  "variantes": []
+ },
+ "perfumesclub": {
+  "url": "https://www.perfumesclub.com/es/calvin-klein/euphoria-eau-de-perfume-vaporizador/p_4840/",
+  "ml": 100,
+  "resultado": {
+   "precio": 49.95,
+   "metodo": "jsonld",
+   "referencia": 54.325,
+   "aceptado": true
+  },
+  "jsonld": [
+   "{\r\n      \"@context\": \"https://schema.org\",\r\n      \"@type\": \"FAQPage\",\r\n      \"mainEntity\": [\r\n\r\n               \r\n               {\r\n                   \"@type\": \"Question\",\r\n                   \"name\": \"¿Qué duración tiene Euphoria en la piel?\",\r\n                   \"acceptedAnswer\": {\r\n                     \"@type\": \"Answer\",\r\n                     \"text\": \"Al ser un Eau de Parfum de alta fijación, ofrece una estela intensa y persistente que se despliega de forma envolvente, siendo ideal para la vida nocturna.\"\r\n                   }\r\n               }\r\n               \r\n                   ,\r\n               \r\n               {\r\n                   \"@type\": \"Question\",\r\n                   \"name\": \"¿Cómo es el frasco de Euphoria Edp?\",\r\n                   \"acceptedAnswer\": {\r\n                     \"@type\": \"Answer\",\r\n                     \"text\": \"Posee una forma arquitectónica y futurista inspirada en una orquídea a punto de florecer, con un acabado metálico que simboliza el lujo y la seducción.\"\r\n                   }\r\n               }\r\n               \r\n      ]\r\n    }",
+   "{\r\n    \"@context\": \"https://schema.org\",\r\n    \"@type\": \"BreadcrumbList\",\r\n    \"itemListElement\": [        { \"@type\": \"ListItem\", \"position\": 1, \"item\": { \"@id\": \"https://www.perfumesclub.com/\", \"name\": \"Perfume's Club\" } },        { \"@type\": \"ListItem\", \"position\": 2, \"item\": { \"@id\": \"https://www.perfumesclub.com/es/perfume/mujer/fs/\", \"name\": \"Perfumes para mujer \" } },        { \"@type\": \"ListItem\", \"position\": 3, \"item\": { \"@id\": \"https://www.perfumesclub.com/es/perfume/calvin-klein/mujer/fms/\", \"name\": \"Perfumes Calvin Klein para mujer \" } },        { \"@type\": \"ListItem\", \"position\": 4, \"item\": { \"@id\": \"https://www.perfumesclub.com/es/calvin-klein/euphoria-eau-de-perfume-vaporizador/p_4840/\", \"name\": \"EUPHORIA\" } }]\r\n}",
+   "{\r\n    \"@context\": \"https://schema.org/\",\r\n    \"@type\": \"Product\",\r\n    \"name\": \"EUPHORIA\",\r\n    \"description\": \"Calvin Klein Euphoria: la noche cosmopolita, sexy y envolvente Euphoria es un Eau de Parfum de luminosas notas exóticas. Bajo el indiscutible sello de Calvin Klein, esta es una fragancia para mujeres de gran personalidad, femeninas y capaces de transformar el mundo que las rodea de forma arrolladora. Lanzada en 2005 por Dominique Ropion, Carlos Benaim y Loc Dong, fue galardonada con el FiFi Award a la Fragancia del Año en la categoría Women’s Luxe de 2006. Su sello personal consta de un tándem aromático de salida afrutada con notas de granada y manzana japonesa. Pasados unos minutos, esta fragancia en sintonía con la piel da salida a su corazón irresistiblemente floral de exóticas notas de orquídeas negras y flor de loto. El fondo se compone de una magnética mezcla de ámbar, violetas y caoba que, en fusión con el almizcle, aporta mayor durabilidad sobre la piel: una fragancia irresistible y envolvente, con un toque muy personal para disfrutar de la noche. Notas olfativas Notas de salida: granada, notas verdes, durazno, maracuyá, frambuesa, caqui Notas de corazón: flor de loto, orquídea, champaca Notas de fondo: violeta, ámbar, almizcle, caoba, pachulí, vainilla\",\r\n    \"image\": [\"https://i1.perfumesclub.com/grande/96766.jpg\", \"https://i1.perfumesclub.com/media/96766.jpg\"],\r\n    \"sku\": \"106162\",\r\n    \"gtin13\": \"3607342686229\",\r\n    \"brand\": { \"@type\": \"Brand\", \"name\": \"Calvin Klein\" },\r\n    \"category\": \"Perfume\",\r\n    \"offers\": [{ \"@type\": \"Offer\",\"priceCurrency\": \"EUR\",\"price\": \"49.95\",\"itemCondition\": \"https://schema.org/NewCondition\",\"availability\": \"https://schema.org/OutOfStock\",\"priceValidUntil\": \"2026-11-29\",\"url\": \"https://www.perfumesclub.com/es/calvin-klein/euphoria-eau-de-perfume-vaporizador/p_4840/\",\"sku\": \"96766-100ml\",\"gtin13\": \"0088300162505\",\"additionalProperty\": { \"@type\": \"PropertyValue\", \"name\": \"Contenido\", \"value\": \"100 ml\" },\"hasMerchantReturnPolicy\": { \"@type\": \"MerchantReturnPolicy\", \"applicableCountry\": \"ES\", \"returnPolicyCategory\": \"https://schema.org/MerchantReturnFiniteReturnWindow\", \"merchantReturnDays\": \"30\", \"returnMethod\": \"https://schema.org/ReturnByMail\", \"returnFees\": \"https://schema.org/ReturnFeesCustomerResponsibility\", \"merchantReturnLink\": \"https://www.perfumesclub.com/es/ayuda/contacto/?p=200128460\" },\"shippingDetails\": { \"@type\": \"OfferShippingDetails\", \"shippingRate\": { \"@type\": \"MonetaryAmount\", \"value\": 0, \"currency\": \"EUR\" }, \"shippingDestination\": { \"@type\": \"DefinedRegion\", \"addressCountry\": \"ES\"}, \"deliveryTime\": { \"@type\": \"ShippingDeliveryTime\", \"handlingTime\": { \"@type\": \"QuantitativeValue\", \"minValue\": 1, \"maxValue\": 2, \"unitCode\": \"DAY\" }, \"transitTime\": { \"@type\": \"QuantitativeValue\", \"minValue\": 1, \"maxValue\": 3, \"unitCode\": \"DAY\" } } } },{ \"@type\": \"Offer\",\"priceCurrency\": \"EUR\",\"price\": \"58.95\",\"itemCondition\": \"https://schema.org/NewCondition\",\"availability\": \"https://schema.org/O",
+   "{\r\n  \"@context\": \"https://schema.org\",\r\n  \"@type\": \"Organization\",\r\n  \"name\": \"Perfumes Club\",\r\n  \"url\": \"https://www.perfumesclub.com/\",\r\n  \"logo\": \"https://c.perfumesclub.com/web_es/logo_new_perfumesclub.jpg\",\r\n  \"description\": \"\",\r\n  \"sameAs\": [\r\n    \"https://www.facebook.com/PerfumesClub\",\r\n    \"https://twitter.com/PerfumesClub\",\r\n    \"https://www.instagram.com/perfumesclub/\",\r\n    \"https://www.youtube.com/user/PerfumesClub\",\r\n    \"https://es.linkedin.com/company/www-perfumesclub-com\",\r\n    \"https://www.tiktok.com/@perfumesclub\"\r\n  ]\r\n        ,\r\n        \"contactPoint\": {\r\n            \"@type\": \"ContactPoint\",\r\n            \"telephone\": \"+34-911-989-079\",\r\n            \"contactType\": \"customer service\",\r\n            \"areaServed\": \"ES\",\r\n            \"availableLanguage\": \"Spanish\"\r\n        }\r\n        \r\n,\r\n  \"address\": {\r\n    \"@type\": \"PostalAddress\",\r\n    \"streetAddress\": \"C/ Asipo, 4 Polígono Industrial Can Valero\",\r\n    \"addressLocality\": \"Palma de Mallorca\",\r\n    \"postalCode\": \"07011\",\r\n    \"addressRegion\": \"Islas Baleares\",\r\n    \"addressCountry\": \"ES\"\r\n  }\r\n}"
+  ],
+  "precios_en_html": [
+   "drina y gana</div>\r                                                 <div class=\"font-12 op-075\">Trae un amigo y llévate 10€</div>\r                                             </div>\r ",
+   "span id=\"buyScrollContenido\" class=\"font-w-600\"></span>,\r                 <span id=\"buyScrollPrecio\" class=\"font-w-600\">58,95 €</span>\r                 <button id=\"buyScrollButton\" onclic",
+   "ndado por el fabricante o distribuidor como precio final del producto.</div>\">\r                                         170,00 €\r                                         <i class=\"fa fa-in",
+   "             </div>\r                                 <div class=\"contPrecioNuevo\">\r                                     58,95 €\r                                 </div>\r                   ",
+   "                 <div class=\"contCapacidad\">\r                                         <div class=\"pricePer100\">100 ml / 36,84 €</div>\r                                     </div>\r         ",
+   "ndado por el fabricante o distribuidor como precio final del producto.</div>\">\r                                         157,00 €\r                                         <i class=\"fa fa-in",
+   "             </div>\r                                 <div class=\"contPrecioNuevo\">\r                                     49,95 €\r                                 </div>\r                   ",
+   "                 <div class=\"contCapacidad\">\r                                         <div class=\"pricePer100\">100 ml / 49,95 €</div>\r                                     </div>\r         ",
+   "ndado por el fabricante o distribuidor como precio final del producto.</div>\">\r                                         82,00 €\r                                         <i class=\"fa fa-in",
+   "             </div>\r                                 <div class=\"contPrecioNuevo\">\r                                     29,95 €\r                                 </div>\r                   ",
+   "                 <div class=\"contCapacidad\">\r                                         <div class=\"pricePer100\">100 ml / 99,83 €</div>\r                                     </div>\r         ",
+   "lMT\">\r                 <span class=\"totalMT1\">Total:</span>\r                 <span id=\"totalPVP_96766\" class=\"totalMT2\">49,95 €</span>\r                 <br />\r                 <em id=\"tot",
+   "MT\">\r                 <span class=\"totalMT1\">Total:</span>\r                 <span id=\"totalPVP_106162\" class=\"totalMT2\">58,95 €</span>\r                 <br />\r                 <em id=\"tot",
+   "MT\">\r                 <span class=\"totalMT1\">Total:</span>\r                 <span id=\"totalPVP_162989\" class=\"totalMT2\">29,95 €</span>\r                 <br />\r                 <em id=\"tot",
+   "                          </div>\r                             <div><span class=\"onlyES\">APÚNTATE A LA NEWSLETTER Y GANA 5€* DE REGALO</span> <span class=\"onlyMX\">APÚNTATE A LA NEWSLE",
+   "s válido exclusivamente para nuevos clientes y puede ser empleado en pedidos con importe mínimo de <span class=\"onlyES\">49€</span><span class=\"onlyMX\">$1300</span>. No es aplicable a ",
+   "-1x mar-b-1x text-center line-h-1-3\">\r                             <span class=\"onlyES\">APÚNTATE A LA NEWSLETTER Y GANA 5€* DE REGALO</span> <span class=\"onlyMX\">APÚNTATE A LA NEWSLE",
+   "s válido exclusivamente para nuevos clientes y puede ser empleado en pedidos con importe mínimo de <span class=\"onlyES\">49€</span><span class=\"onlyMX\">$1300</span>. No es aplicable a ",
+   "b.com/media/106162.jpg\",\r             itemId: \"4840\",\r             selectedSize: \"160 ml\",\r             selectedPrice: \"58,95 €\",\r             referencePrice: \"170,00 €\"\r         };\r     ",
+   "emId: \"4840\",\r             selectedSize: \"160 ml\",\r             selectedPrice: \"58,95 €\",\r             referencePrice: \"170,00 €\"\r         };\r     </script>\r \r     \r \r             <link re"
+  ],
+  "variantes": []
+ },
+ "douglas": {
+  "url": "https://www.douglas.es/es/p/5011856126",
+  "ml": 80,
+  "resultado": {
+   "precio": 79.19,
+   "metodo": "precio-100ml",
+   "referencia": 89.95,
+   "aceptado": true
+  },
+  "jsonld": [
+   "[\n  {\n    \"@context\": \"http://schema.org\",\n    \"@type\": \"WebSite\",\n    \"name\": \"Perfumería, Cosmética y Belleza Tienda Online | DOUGLAS\",\n    \"alternateName\": \"Douglas Spain S.A.U\",\n    \"url\": \"https://www.douglas.es\"\n  },\n  {\n    \"@context\": \"http://schema.org\",\n    \"@type\": \"WebPage\",\n    \"headline\": \"Carolina Herrera  La Bomba   Eau de Parfum  ✔️ compra online | DOUGLAS\"\n  },\n  {\n    \"@context\": \"http://schema.org\",\n    \"@type\": \"Organization\",\n    \"name\": \"Douglas\",\n    \"legalName\": \"Douglas Spain S.A.U.\",\n    \"url\": \"https://www.douglas.es\",\n    \"logo\": \"https://media.douglas.es/medias/logo.png?context=bWFzdGVyfGltYWdlc3wxMjgwMnxpbWFnZS9wbmd8YURGbEwyZzVNQzg0T0RBeU1qWXpPRFU1TWpNd0wyeHZaMjh1Y0c1bnxlYmE4ODAyY2JlYjc4ZDQ4YjgyNzQ3YTk1MjM4MjRhOTQwNDc1NDQ4YjE3OGU0Y2FjOTY5YmJjOGE2NWE4ZDZk\",\n    \"contactPoint\": {\n      \"@type\": \"ContactPoint\",\n      \"contactType\": \"customer service\",\n      \"telephone\": \"900 866 634\",\n      \"email\": \"web@douglas.es\"\n    },\n    \"sameAs\": [\n      \"https://www.instagram.com/douglascosmetics_es/\",\n      \"https://www.facebook.com/DouglasCosmeticsSpain\",\n      \"https://www.pinterest.es/douglascosmeticsspain/\",\n      \"https://www.tiktok.com/@douglas_spain\"\n    ]\n  },\n  {\n    \"@context\": \"http://schema.org\",\n    \"@type\": \"BreadcrumbList\",\n    \"itemListElement\": [\n      {\n        \"@type\": \"ListItem\",\n        \"item\": \"https://www.douglas.es/es\",\n        \"name\": \"Homepage\",\n        \"position\": 1\n      },\n      {\n        \"@type\": \"ListItem\",\n        \"item\": \"https://www.douglas.es/es/c/perfumes/01\",\n        \"name\": \"Perfumes\",\n        \"position\": 2\n      },\n      {\n        \"@type\": \"ListItem\",\n        \"item\": \"https://www.douglas.es/es/c/perfumes/fragancias-de-mujer/0101\",\n        \"name\": \"Fragancias de mujer\",\n        \"position\": 3\n      },\n      {\n        \"@type\": \"ListItem\",\n        \"item\": \"https://www.douglas.es/es/c/perfumes/fragancias-de-mujer/perfumes/010106\",\n        \"name\": \"Perfumes\",\n        \"position\": 4\n      },\n      {\n        \"@type\": \"ListItem\",\n        \"item\": \"\",\n        \"name\": \"Carolina Herrera La Bomba Eau de Parfum\",\n        \"position\": 5\n      }\n    ]\n  },\n  {\n    \"@context\": \"http://schema.org\",\n    \"@type\": \"Product\",\n    \"@id\": \"https://www.douglas.es/es/p/5011856126\",\n    \"name\": \"30 ml\",\n    \"url\": \"https://www.douglas.es/es/p/5011856126\",\n    \"description\": \"<h3><strong>CAROLINA HERRERA - </strong><strong>LA BOMBA EAU DE PARFUM</strong></h3><p>La Bomba Eau de Parfum es una nueva y explosiva fragancia femenina que te invita a desplegar tus alas y vivir con fuerza y libertad. En su frasco tipo joya con forma de mariposa, esta fragancia floral y afrutada capta la esencia de la celebración de una misma y la liberación con una alegre mezcla de exótica pitaya, peonía cereza y vainilla solar.&nbsp;</p>\",\n    \"image\": \"https://media.douglas.es/medias/2s2CPP1247337-0-dgl-ES.jpg?context=bWFzdGVyfGltYWdlc3wxNjg0NzV8aW1hZ2UvanBlZ3xhR1ZsTDJoaU55ODJOamswTkRRek1EY3pOVE01TUM4eWN6SkRVRkF4TWpRM016TTNYekJmWkdkc0xVVlRMbX"
+  ],
+  "precios_en_html": [
+   "><meta data-ah=\"true\" content=\"Carolina Herrera  La Bomba   Eau de Parfum ❤️ ¡Compra AHORA! ❤️ Envío gratis a partir de 24 € ✓ Muestras gratuitas ✓ ¡Hasta 1.000 MARCAS TOP ➽ DOUGLAS!\" ",
+   "pper uiCol12-efP4cX\"><div class=\"info-bar__entries-column\"><div class=\"info-bar__entry\">Env&iacute;o gratis a partir de 24€     Entrega en 2-3 d&iacute;as*     2 muestras gratis*</div",
+   "0d8916cf5\" data-testid=\"promotion-bar-content-text\" href=\"/es/c/sale/0584\">Tu regalo te espera por compras superiores a 99€ con el cupón: DOUGLASGIFT</a><span class=\"_392a83b671ed065e",
+   "ta-testid=\"price-type-strikethrough\" class=\"fd7665d55826d59e _7025b200d7c2ddd7\" aria-label=\"precio de venta recomendado 76,99 €\">76,99 €</span></span></div><div class=\"d4cbec7631f528af\"><",
+   "=\"price-type-strikethrough\" class=\"fd7665d55826d59e _7025b200d7c2ddd7\" aria-label=\"precio de venta recomendado 76,99 €\">76,99 €</span></span></div><div class=\"d4cbec7631f528af\"><div class",
+   "lass=\"_765f981b30eaa79d\"><span data-testid=\"price-type-discount-color\" class=\"fd7665d55826d59e\" aria-label=\"Actualmente 43,99 €\">43,99 €</span></span></div></div></div><div class=\"product",
+   "5f981b30eaa79d\"><span data-testid=\"price-type-discount-color\" class=\"fd7665d55826d59e\" aria-label=\"Actualmente 43,99 €\">43,99 €</span></span></div></div></div><div class=\"product-price__d",
+   "class=\"\"><div data-testid=\"price-base-unit\" class=\"e14dc5ece5fe55f2\"><span class=\"_9e545b9e3c7fe835\" aria-label=\"Precio 146,63 € por 100 mililitro\">146,63 €<!-- --> / <!-- -->100<!-- --> <",
+   "rice-base-unit\" class=\"e14dc5ece5fe55f2\"><span class=\"_9e545b9e3c7fe835\" aria-label=\"Precio 146,63 € por 100 mililitro\">146,63 €<!-- --> / <!-- -->100<!-- --> <!-- -->ml</span></div><span ",
+   "ta-testid=\"price-type-strikethrough\" class=\"fd7665d55826d59e _7025b200d7c2ddd7\" aria-label=\"precio de venta recomendado 112,00 €\">112,00 €</span></span></div><div class=\"d4cbec7631f528af\">",
+   "\"price-type-strikethrough\" class=\"fd7665d55826d59e _7025b200d7c2ddd7\" aria-label=\"precio de venta recomendado 112,00 €\">112,00 €</span></span></div><div class=\"d4cbec7631f528af\"><div class",
+   "lass=\"_765f981b30eaa79d\"><span data-testid=\"price-type-discount-color\" class=\"fd7665d55826d59e\" aria-label=\"Actualmente 61,59 €\">61,59 €</span></span></div></div></div><div class=\"product",
+   "5f981b30eaa79d\"><span data-testid=\"price-type-discount-color\" class=\"fd7665d55826d59e\" aria-label=\"Actualmente 61,59 €\">61,59 €</span></span></div></div></div><div class=\"product-price__d",
+   "class=\"\"><div data-testid=\"price-base-unit\" class=\"e14dc5ece5fe55f2\"><span class=\"_9e545b9e3c7fe835\" aria-label=\"Precio 123,18 € por 100 mililitro\">123,18 €<!-- --> / <!-- -->100<!-- --> <",
+   "rice-base-unit\" class=\"e14dc5ece5fe55f2\"><span class=\"_9e545b9e3c7fe835\" aria-label=\"Precio 123,18 € por 100 mililitro\">123,18 €<!-- --> / <!-- -->100<!-- --> <!-- -->ml</span></div><span ",
+   "ta-testid=\"price-type-strikethrough\" class=\"fd7665d55826d59e _7025b200d7c2ddd7\" aria-label=\"precio de venta recomendado 144,00 €\">144,00 €</span></span></div><div class=\"d4cbec7631f528af\">",
+   "\"price-type-strikethrough\" class=\"fd7665d55826d59e _7025b200d7c2ddd7\" aria-label=\"precio de venta recomendado 144,00 €\">144,00 €</span></span></div><div class=\"d4cbec7631f528af\"><div class",
+   "lass=\"_765f981b30eaa79d\"><span data-testid=\"price-type-discount-color\" class=\"fd7665d55826d59e\" aria-label=\"Actualmente 79,19 €\">79,19 €</span></span></div></div></div><div class=\"product",
+   "5f981b30eaa79d\"><span data-testid=\"price-type-discount-color\" class=\"fd7665d55826d59e\" aria-label=\"Actualmente 79,19 €\">79,19 €</span></span></div></div></div><div class=\"product-price__d",
+   "class=\"\"><div data-testid=\"price-base-unit\" class=\"e14dc5ece5fe55f2\"><span class=\"_9e545b9e3c7fe835\" aria-label=\"Precio 98,99 € por 100 mililitro\">98,99 €<!-- --> / <!-- -->100<!-- --> <!",
+   "price-base-unit\" class=\"e14dc5ece5fe55f2\"><span class=\"_9e545b9e3c7fe835\" aria-label=\"Precio 98,99 € por 100 mililitro\">98,99 €<!-- --> / <!-- -->100<!-- --> <!-- -->ml</span></div><span ",
+   "ta-testid=\"price-type-strikethrough\" class=\"fd7665d55826d59e _7025b200d7c2ddd7\" aria-label=\"precio de venta recomendado 207,00 €\">207,00 €</span></span></div><div class=\"d4cbec7631f528af\">",
+   "\"price-type-strikethrough\" class=\"fd7665d55826d59e _7025b200d7c2ddd7\" aria-label=\"precio de venta recomendado 207,00 €\">207,00 €</span></span></div><div class=\"d4cbec7631f528af\"><div class",
+   "lass=\"_765f981b30eaa79d\"><span data-testid=\"price-type-discount-color\" class=\"fd7665d55826d59e\" aria-label=\"Actualmente 106,00 €\">106,00 €</span></span></div></div></div><div class=\"produc",
+   "f981b30eaa79d\"><span data-testid=\"price-type-discount-color\" class=\"fd7665d55826d59e\" aria-label=\"Actualmente 106,00 €\">106,00 €</span></span></div></div></div><div class=\"product-price__d"
   ],
   "variantes": []
  },
  "fallo_eci": {
-  "url": "https://www.elcorteingles.es/perfumeria/A200857486-3348901811927-pr-dior-miss-dior-miss-dior-parfum-roller-pearlnotas-florales-afrutadas-y-amaderadas/",
-  "ml": 80,
+  "url": "https://www.elcorteingles.es/perfumeria/A38029412-3145891071207-pr-chanel-bleu-de-chanel-parfum-twist-and-spray/",
+  "ml": 100,
   "resultado": {
    "precio": null,
    "metodo": "sin-precio",
-   "referencia": 131.95,
+   "referencia": 139.95,
    "aceptado": false
   },
-  "largo": 397933,
-  "titulo": "MISS DIOR PARFUM ROLLER-PEARL\nNotas florales afrutadas y amaderadas · El Corte Inglés",
+  "largo": 378585,
+  "titulo": "Parfum Twist And Spray · El Corte Inglés",
   "tamaños": [
+   "100",
    "20"
   ],
-  "inicio": "<!DOCTYPE html> <html lang=\"es\"><head> <title>MISS DIOR PARFUM ROLLER-PEARL Notas florales afrutadas y amaderadas · El Corte Inglés</title> <link rel=\"preconnect\" href=\"https://cdn.grupoelcorteingles.es/\" /><link rel=\"preconnect\" href=\"https://dam.elcorteingles.es\" /><link rel=\"preconnect\" href=\"https://cdn.cookielaw.org\" /><link rel=\"preconnect\" href=\"https://static.icecat.studio\" /> <link"
+  "inicio": "<!DOCTYPE html> <html lang=\"es\"><head> <title>Parfum Twist And Spray · El Corte Inglés</title> <link rel=\"preconnect\" href=\"https://cdn.grupoelcorteingles.es/\" /><link rel=\"preconnect\" href=\"https://dam.elcorteingles.es\" /><link rel=\"preconnect\" href=\"https://cdn.cookielaw.org\" /><link rel=\"preconnect\" href=\"https://static.icecat.studio\" /> <link rel=\"preload\" crossorigin=\"\" as=\"style\" type"
+ },
+ "firstinfragrance": {
+  "url": "https://ausliebezumduft.de/en/products/creed-viking",
+  "ml": 100,
+  "resultado": {
+   "precio": 320.0,
+   "metodo": "jsonld",
+   "referencia": 288.0,
+   "aceptado": true
+  },
+  "jsonld": [
+   "{\r\n\t  \"@context\": \"http://schema.org\",\r\n\t  \"@type\": \"Organization\",\r\n\t  \"name\": \"Aus Liebe zum Duft\",\r\n\t  \r\n\t    \"logo\": \"https:files\\/ALZD_lang.png\",\r\n\t  \r\n\t  \"sameAs\": [\r\n\t    \"\",\r\n\t    \"https:\\/\\/www.facebook.com\\/ausliebezumduft\\/\",\r\n\t    \"\",\r\n\t    \"https:\\/\\/www.instagram.com\\/ausliebezumduft.de\\/\",\r\n\t    \"\",\r\n\t    \"\",\r\n\t    \"\",\r\n\t    \"\"\r\n\t  ],\r\n\t  \"url\": \"https:\\/\\/www.ausliebezumduft.de\"\r\n\t}",
+   "{\"@context\":\"http:\\/\\/schema.org\\/\",\"@id\":\"\\/en\\/products\\/creed-viking#product\",\"@type\":\"ProductGroup\",\"brand\":{\"@type\":\"Brand\",\"name\":\"Creed\"},\"category\":\"\",\"description\":\"Driven by an insatiable thirst for knowledge and incredible boldness, they explored the earth, discovered new worlds and now invite us on a moving fragrance journey: the Vikings, the nomads of the north, who conquered the wild seas with their majestic dragon boats. Their journey begins in hidden bays and fjords and takes them across the endless depths of the sea to islands and countries with exotic, intense spices.Their journey defies all storms and breaks all rules. It breathes the sensual scent of courage and adventure, of the unbridled passion to defy fire and ice. Its echoes linger unforgettably as the heroes themselves sail on towards new horizons...With Viking, master perfumer Olivier Creed and his son Erwin present another star among men's fragrances. It contains 80% natural ingredients such as pepper, Indian sandalwood and vetiver from Haiti.\\n\\u0026nbsp;\",\"hasVariant\":[{\"@id\":\"\\/en\\/products\\/creed-viking?variant=50940606742874#variant\",\"@type\":\"Product\",\"gtin\":\"3508440505163\",\"image\":\"https:\\/\\/www.ausliebezumduft.de\\/cdn\\/shop\\/files\\/Viking100mlneu.webp?v=1792400463\\u0026width=1920\",\"name\":\"Creed - Viking - 50 ML\",\"offers\":{\"@id\":\"\\/en\\/products\\/creed-viking?variant=50940606742874#offer\",\"@type\":\"Offer\",\"availability\":\"http:\\/\\/schema.org\\/InStock\",\"price\":\"184.87\",\"priceCurrency\":\"EUR\",\"url\":\"https:\\/\\/www.ausliebezumduft.de\\/en\\/products\\/creed-viking?variant=50940606742874\"},\"sku\":\"1291105096\"},{\"@id\":\"\\/en\\/products\\/creed-viking?variant=50940606775642#variant\",\"@type\":\"Product\",\"gtin\":\"3508441001169\",\"image\":\"https:\\/\\/www.ausliebezumduft.de\\/cdn\\/shop\\/files\\/Viking100mlneu.webp?v=1792400463\\u0026width=1920\",\"name\":\"Creed - Viking - 100 ML\",\"offers\":{\"@id\":\"\\/en\\/products\\/creed-viking?variant=50940606775642#offer\",\"@type\":\"Offer\",\"availability\":\"http:\\/\\/schema.org\\/InStock\",\"price\":\"268.91\",\"priceCurrency\":\"EUR\",\"url\":\"https:\\/\\/www.ausliebezumduft.de\\/en\\/products\\/creed-viking?variant=50940606775642\"},\"sku\":\"1291110096\"}],\"name\":\"Creed - Viking\",\"productGroupID\":\"10143544344922\",\"url\":\"https:\\/\\/www.ausliebezumduft.de\\/en\\/products\\/creed-viking\"}"
+  ],
+  "precios_en_html": [
+   "\"1795993140000\"              data-stars=\"true\"              ><div class=\"lct-message\"><b>BLACK WEEK | \"BLACK5\" = 5 % ab 149 € | \"BLACK10\" = 10 % ab 349 € | \"BLACK15\" = 15 % ab 549 € |</",
+   " data-stars=\"true\"              ><div class=\"lct-message\"><b>BLACK WEEK | \"BLACK5\" = 5 % ab 149 € | \"BLACK10\" = 10 % ab 349 € | \"BLACK15\" = 15 % ab 549 € |</b> einige Marken ausgenommen",
+   "    ><div class=\"lct-message\"><b>BLACK WEEK | \"BLACK5\" = 5 % ab 149 € | \"BLACK10\" = 10 % ab 349 € | \"BLACK15\" = 15 % ab 549 € |</b> einige Marken ausgenommen</div><div class=\"lct-row\"> ",
+   "ly-hidden--inline\">Regular price</span>\r \t\t\t</dt>\r \t\t\t<dd\r \t\t\t\t\r \t\t\t>\r \t\t\t\t<span class=\"price-item price-item--regular\">184,87 €\r</span>\r \t\t\t</dd>\r \t\t</div>\r \t\t<div class=\"price__sale\">\r \t",
+   "y-hidden--inline\">Sale price</span>\r \t\t\t</dt>\r \t\t\t<dd\r \t\t\t\t\r \t\t\t>\r \t\t\t\t<span class=\"price-item price-item--sale\">\r \t\t\t\t\t184,87 €\r \t\t\t\t</span>\r \t\t\t</dd>\r \t\t\t<dt class=\"price__compare\">\r \t\t\t",
+   "ass=\"unit-price caption\">\r \t\t\t\t<dt class=\"visually-hidden\">\r \t\t\t\t\tUnit price\r \t\t\t\t</dt>\r \t\t\t\t<dd>\r \t\t\t\t\t<span>\r \t\t\t\t\t\t4,400.00 € / 1 l\r \t\t\t\t\t</span>\r \t\t\t\t</dd>\r \t\t\t</dl></dl>\r </div>\r <div",
+   "e=\"status\">\r             <h3 class=\"totals__subtotal\">Subtotal:</h3>\r \t\t\t\t\t\t<p class=\"totals__subtotal-value\">\r \t\t\t\t\t\t\t€0,00 EUR\r \t\t\t\t\t\t</p>\r \t\t\t\t\t</div><small class=\"tax-note\">Taxes and <"
+  ],
+  "variantes": []
+ },
+ "fallo_lookfantastic": {
+  "url": "https://www.lookfantastic.es/p/dolce-gabbana-the-one-eau-de-parfum-50ml/14568064/?variation=14568064",
+  "ml": 75,
+  "resultado": {
+   "precio": null,
+   "metodo": "sin-tamaño",
+   "referencia": 79.95,
+   "aceptado": false
+  },
+  "largo": 445545,
+  "titulo": "Dolce&amp;Gabbana The One Eau de Parfum 50ml | LOOKFANTASTIC",
+  "tamaños": [
+   "10",
+   "100",
+   "30",
+   "50",
+   "75",
+   "90"
+  ],
+  "inicio": "<!DOCTYPE html><html lang=\"es-ES\" data-theme=\"lookfantastic\" data-subsite=\"es_ES\" style=\"--product-image-aspect-ratio: 1/1;\"> <head><meta charset=\"UTF-8\"><meta name=\"viewport\" content=\"width=device-width\"><script> window.__chatbotEnabled = true ;(function () { try { var layout = JSON.parse( localStorage.getItem('thg_chatbot_layout') "
+ },
+ "fallo_douglas": {
+  "url": "https://www.douglas.es/es/p/5010091002",
+  "ml": 100,
+  "resultado": {
+   "precio": null,
+   "metodo": "sin-precio",
+   "referencia": 81.45,
+   "aceptado": false
+  },
+  "largo": 339,
+  "titulo": "",
+  "tamaños": [],
+  "inicio": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01//EN\"\"http://www.w3.org/TR/html4/strict.dtd\"> <HTML><HEAD><TITLE>Bad Request</TITLE> <META HTTP-EQUIV=\"Content-Type\" Content=\"text/html; charset=us-ascii\"></HEAD> <BODY><h2>Bad Request - Request Too Long</h2> <hr><p>HTTP Error 400. The size of the request headers is too long.</p> </BODY></HTML>"
+ },
+ "fallo_paco": {
+  "url": "https://www.pacoperfumerias.com/lancome-tresor-la-nuit-153206.html",
+  "ml": 100,
+  "resultado": {
+   "precio": null,
+   "metodo": "sin-tamaño",
+   "referencia": 85.95,
+   "aceptado": false
+  },
+  "largo": 602117,
+  "titulo": "LA NUIT TRÉSOR Lancôme | Precio, Comprar",
+  "tamaños": [
+   "100",
+   "30",
+   "50",
+   "75"
+  ],
+  "inicio": "<!DOCTYPE html> <html lang=\"es\"> <head> <!--[if gt IE 9]><!--> <script>//common/scripts.isml</script> <script> window.BASE_CONFIG = {\"responsive\":{\"screen__320\":320,\"screen__360\":360,\"screen__575\":575,\"screen__768\":768,\"screen__1025\":1025,\"screen__1280\":1280,\"screen__1440\":1440,\"screen__1920\":1920},\"nifConfig\":{\"ES\":{\"dniRegex\":\"^\\\\d{8}[A-Za-z]$\",\"nifAndNieRegex\":\"^[KLMXYZklmxyz]\\\\d{7}[A"
+ },
+ "arabicparfums": {
+  "url": "https://arabicparfums.com/products/fakhar-man-lattafa-100ml",
+  "ml": 100,
+  "resultado": {
+   "precio": 21.99,
+   "metodo": "jsonld",
+   "referencia": 23.95,
+   "aceptado": true
+  },
+  "jsonld": [
+   "{\n      \"@context\": \"http://schema.org\",\n      \"@type\": \"BreadcrumbList\",\n      \"itemListElement\": [\n      \n{\n            \"@type\": \"ListItem\",\n            \"position\": 1,\n            \"name\": \"Home\",\n            \"item\": \"https://arabicparfums.com/en\"\n          },\n          \n          {\n            \"@type\": \"ListItem\",\n            \"position\": 2,\n            \"name\": \"LATTAFA\",\n            \"item\": \"https://arabicparfums.com/en/collections/lattafa\"\n          },\n          \n          {\n            \"@type\": \"ListItem\",\n            \"position\": 3,\n            \"name\": \"Fakhar Man LATTAFA 100ml\",\n            \"item\": \"https://arabicparfums.com/en/products/fakhar-man-lattafa-100ml\"\n          }\n        \n      ]\n    }",
+   "{\n    \"@context\": \"http://schema.org/\",\n    \"@type\": \"Product\",\n    \"name\": \"Fakhar Man LATTAFA 100ml\",\n    \"image\": \"https:\\/\\/arabicparfums.com\\/cdn\\/shop\\/files\\/perfume-con-notas-de-bergamota-acordes-marinos-violeta-mbar-musgo-de-roble-pachul-e-iris_1024x1024.png?v=1772817521\",\n    \n      \"description\": \"\\u003cp\\u003e\\u003cstrong\\u003eTop notes:\\u003c\\/strong\\u003e bergamot, marine accords\\u003cbr\\u003e\\n\\u003cstrong\\u003eHeart notes:\\u003c\\/strong\\u003e violet, amber\\u003cbr\\u003e\\n\\u003cstrong\\u003eBase notes:\\u003c\\/strong\\u003e oakmoss, patchouli, iris\\u003c\\/p\\u003e\",\n    \n    \n      \"brand\": {\n        \"@type\": \"Brand\",\n        \"name\": \"LATTAFA\"\n      },\n    \n    \n      \"sku\": \"PNDE2-04\",\n    \n    \n      \"mpn\": \"6291107456058\",\n    \n    \n\"review\": [{\"@type\":\"Review\",\"author\":{\"@type\":\"Person\",\"name\":\"Anónimo\"},\"reviewRating\":{\"@type\":\"Rating\",\"ratingValue\":\"3\",\"bestRating\":\"5\",\"worstRating\":\"1\"},\"datePublished\":\"2025-08-12\",\"name\":\"Buen olor, escasa duración.\",\"reviewBody\":\"Huele igual que el Yves Saint Laurent Y EDP, pero no dura casi nada (3h como mucho en mi piel). Por el precio que tiene está bien, pero hay mejores opciones.\"},{\"@type\":\"Review\",\"author\":{\"@type\":\"Person\",\"name\":\"Daniel Vázquez Moya\"},\"reviewRating\":{\"@type\":\"Rating\",\"ratingValue\":\"5\",\"bestRating\":\"5\",\"worstRating\":\"1\"},\"datePublished\":\"2025-06-24\",\"name\":\"Maravillosa\",\"reviewBody\":\"Huele muy bien y dura bastante. Hasta le he tenido que regalar otra a mi madre porque le ha encantado.\"},{\"@type\":\"Review\",\"author\":{\"@type\":\"Person\",\"name\":\"Juan M.\"},\"reviewRating\":{\"@type\":\"Rating\",\"ratingValue\":\"5\",\"bestRating\":\"5\",\"worstRating\":\"1\"},\"datePublished\":\"2025-03-02\",\"name\":\"Fakhar Man Lattafa 100ml\",\"reviewBody\":\"Es el que uso casi a diario...buena compra\"},{\"@type\":\"Review\",\"author\":{\"@type\":\"Person\",\"name\":\"Juan M.\"},\"reviewRating\":{\"@type\":\"Rating\",\"ratingValue\":\"5\",\"bestRating\":\"5\",\"worstRating\":\"1\"},\"datePublished\":\"2024-10-27\",\"name\":\"Fakhar Man Lattafa 100ml\",\"reviewBody\":\"Me encanta\"}],\"aggregateRating\": {\n        \"@type\": \"AggregateRating\",\n        \"ratingValue\": \"4.5\",\n        \"reviewCount\": \"4\"\n      },\n    \n    \"offers\": {\n      \"@type\": \"Offer\",\n      \"priceCurrency\": \"EUR\",\n      \"price\": 21.99,\n      \"availability\": \"http://schema.org/InStock\",\n      \"url\": \"https://arabicparfums.com/en/products/fakhar-man-lattafa-100ml?variant=50553497911635\",\n      \"seller\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Arabic Parfums\"\n      },\n      \"priceValidUntil\": \"2027-11-28\"\n    }\n  }",
+   "{\n    \"@context\": \"http://schema.org\",\n    \"@type\": \"WebSite\",\n    \"name\": \"Arabic Parfums\",\n    \"url\": \"https://arabicparfums.com\"\n  }"
+  ],
+  "precios_en_html": [
+   "asco.\\u003c\\/p\\u003e\\n\\u003cp\\u003eLos pedidos a España peninsular se envían con GLS o CTT y el envío es gratuito desde 99 €. Si buscas la línea premium de la marca, visita \\u003ca hre",
+   "ran en 1–2 días laborables y el transporte a España peninsular es de 24–48 horas laborables. El envío es gratuito desde 99 € en España peninsular, Baleares y Portugal.\\u003c\\/p\\u003e\\n",
+   "   URL: \"https://arabicparfums.com/en/products/fakhar-man-lattafa-100ml\",           Brand: \"LATTAFA\",           Price: \"21,99 €\",           Value: \"21,99\",           CompareAtPrice: \"25,0",
+   "fa-100ml\",           Brand: \"LATTAFA\",           Price: \"21,99 €\",           Value: \"21,99\",           CompareAtPrice: \"25,00 €\"         };         _learnq.push(['track', 'Viewed Product'",
+   "ually-hidden\">Original price</span>         <span class=\"money price__compare-at--single\" data-price-compare>           25,00 €         </span>            </div>                     <div ",
+   "-hidden\">Original price</span>           <span class=\"money price__compare-at--min\" data-price-compare-min>             25,00 €           </span>           -           <span class=\"visual",
+   "-hidden\">Original price</span>           <span class=\"money price__compare-at--max\" data-price-compare-max>             25,00 €           </span>                </div>       <div class=\"p",
+   "ually-hidden\">Original price</span>         <span class=\"money price__compare-at--single\" data-price-compare>           25,00 €         </span>       </div>            <div class=\"price__",
+   "                <span class=\"visually-hidden\">Current price</span>              <span class=\"money\" data-price>         21,99 €       </span>             </div>              <div class=\"p",
+   "current--hidden\" data-current-price-range-hidden>                <span class=\"money price__current--min\" data-price-min>21,99 €</span>         -         <span class=\"money price__current-",
+   "e__current--min\" data-price-min>21,99 €</span>         -         <span class=\"money price__current--max\" data-price-max>21,99 €</span>            </div>     <div class=\"price__current--hi",
+   "nt-price-hidden>       <span class=\"visually-hidden\">Current price</span>       <span class=\"money\" data-price>         21,99 €       </span>     </div>                                 <d",
+   "ormat=\"{{amount_with_comma_separator}} €\">       <span class=\"ap-bf26-price__was\">         <s class=\"money\" data-bf-was>21,99 €</s>       </span>       <span class=\"ap-bf26-price__now mon",
+   "        <s class=\"money\" data-bf-was>21,99 €</s>       </span>       <span class=\"ap-bf26-price__now money\" data-bf-now>18,70 €</span><script type=\"application/json\" data-bf-variants>{\"50",
+   " <option             selected             value=\"50553497911635\"                        >             Original bottle - 21,99 €           </option>                </select>               ",
+   "\"     data-free-shipping-bar     data-html=\"free_shipping_bar\"   >     <p class=\"free-shipping-bar__status\">Add <strong>99,00 €</strong> to reach the free shipping threshold for your regi",
+   "asco.\\u003c\\/p\\u003e\\n\\u003cp\\u003eLos pedidos a España peninsular se envían con GLS o CTT y el envío es gratuito desde 99 €. Si buscas la línea premium de la marca, visita \\u003ca hre",
+   "ran en 1–2 días laborables y el transporte a España peninsular es de 24–48 horas laborables. El envío es gratuito desde 99 € en España peninsular, Baleares y Portugal.\\u003c\\/p\\u003e\\n",
+   "roductBlocks\":[]},\"AlertMessageLanguage\":[{\"Enabled\":true,\"LanguageCode\":\"default\",\"CartCheckoutMessage\":\"Pedido Minimo 10€\",\"ProductMessage\":\"Quantity is not valid\",\"CheckoutButtonMe",
+   "artCheckoutMessage\":\"Pedido Minimo 10€\",\"ProductMessage\":\"Quantity is not valid\",\"CheckoutButtonMessage\":\"Pedido Minimo 10€\"},{\"Enabled\":true,\"LanguageCode\":\"es\",\"CartCheckoutMessage\""
+  ],
+  "variantes": []
  }
 }
